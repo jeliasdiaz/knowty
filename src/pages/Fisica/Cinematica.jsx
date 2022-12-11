@@ -61,7 +61,7 @@ export const Cinematica = () => {
             </nav>
             <div className="fisica shadow" data-aos="zoom-in" data-aos-duration="900">
                 <div>
-                    <div className="section">
+                    <div>
                         <h3>Vectores</h3>
                         <h6>Descomponer vectores</h6>
                         <p>
@@ -84,7 +84,7 @@ export const Cinematica = () => {
 
                     </div>
                     <hr />
-                    <div className="section">
+                    <div>
                         <h3>M.R.U.</h3>
                         <h6>Posición</h6>
                         <Latex>{mruOne}</Latex><br /><br />
@@ -111,7 +111,7 @@ export const Cinematica = () => {
 
                     </div>
                     <hr />
-                    <div className="section">
+                    <div>
                         <h3>Caída libre y tiro vertical</h3>
                         <h6>Posición</h6>
                         <Latex>{caidaTiroVerticalOne}</Latex><br /><br />
