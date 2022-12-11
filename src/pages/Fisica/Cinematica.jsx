@@ -60,7 +60,7 @@ export const Cinematica = () => {
                 </ul>
             </nav>
             <div className="fisica shadow" data-aos="zoom-in" data-aos-duration="900">
-                <div >
+                <div>
                     <div className="section">
                         <h3>Vectores</h3>
                         <h6>Descomponer vectores</h6>
