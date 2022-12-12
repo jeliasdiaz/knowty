@@ -100,6 +100,9 @@ export const FisicaPractica = () => {
     const rendimientoFour = `$$x = \\frac{42000W * 100}{27}$$`
     const rendimientoFive = `$$x = 155555.55W$$`
 
+    const energiaCineticaOne = `$$$$`
+    const energiaCineticaTwo = `$$$$`
+
     return (
         <div>
             <img src="/img/waveThree.svg" alt="" />
@@ -587,6 +590,41 @@ export const FisicaPractica = () => {
                             </p>
 
                             <div className="collapse" id="rendimiento">
+                                <p>Fórmula</p>
+                                <Latex>
+                                    {rendimientoOne}
+                                </Latex><br /><br />
+                                <p>Reemplazo de valores</p>
+                                <Latex>
+                                    {rendimientoTwo}
+                                </Latex><br /><br />
+                                <p>Despeje de potencia teórica</p>
+                                <Latex>
+                                    {rendimientoThree}
+                                </Latex><br /><br />
+                                <Latex>
+                                    {rendimientoFour}
+                                </Latex><br /><br />
+                                <p>Resultado</p>
+                                <Latex>
+                                    {rendimientoFive}
+                                </Latex><br /><br />
+                            </div>
+                        </div>
+
+                        <hr className="my-4"/>
+                        <div>
+                            <h3>Energía cinética</h3>
+                            <p>Calcule la energia cinetica de un triciclo, teniendo en cuenta que el piloto pesa 60kg, el triciclo pesa 20kg y el conjunto se mueve a una velocidad de 15m/s.
+                            </p>
+
+                            <p>
+                                <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#energiaCinetica">
+                                    Solución
+                                </button>
+                            </p>
+
+                            <div className="collapse" id="energiaCinetica">
                                 <p>Fórmula</p>
                                 <Latex>
                                     {rendimientoOne}

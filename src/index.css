@@ -211,7 +211,6 @@ code {
 .cardEnglish {
   width: 60%;
   margin: auto;
-  /* margin-top: 10%; */
   border-radius: 15px;
   padding: 4%;
 }
@@ -232,12 +231,14 @@ form {
 /** Menu pages */
 .fisicaMenu {
   background-color: #f6f6f6;
-  height: 100vh;
+  height: 130vh;
 }
+
 .fisicaSubjectMenu {
   margin: auto;
-  margin-top: 20%;
+  margin-top: 8%;
   width: 90%;
+  margin-bottom: 10%;
 }
 
 /** Info page */
@@ -410,9 +411,7 @@ hr {
   .nav-3 {
     margin-top: 18% !important;
   }
-  .fisicaMenu {
-    height: 130vh;
-  }
+
 
   .trabajo-2 {
     width: 50%;
