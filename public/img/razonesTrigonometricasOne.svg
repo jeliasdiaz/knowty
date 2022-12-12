@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.9730296703783 85.70464889738469" width="267.9460593407566" height="171.40929779476937">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <g stroke-linecap="round"><g transform="translate(29.500822384550702 -9.398333429373452) rotate(270.0842389384637 32.78676934756004 52.239443566680166)"><path d="M0 0 C0 22.72, 0 45.45, 0 104.48 M0 0 C0 23.94, 0 47.89, 0 104.48 M0 104.48 C23 104.36, 46 104.24, 65.57 104.14 M0 104.48 C20.39 104.37, 40.78 104.27, 65.57 104.14" stroke="black" stroke-width="2" fill="none"></path></g></g><mask></mask><g stroke-linecap="round"><g transform="translate(29.397965127967836 -9.392550037706314) rotate(270.0842389384637 32.744704811964766 52.06067744014217)"><path d="M0 0 C25.12 39.94, 50.24 79.88, 65.49 104.12 M0 0 C21.98 34.95, 43.97 69.9, 65.49 104.12" stroke="black" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(116.55912214016644 43.39518510778544) rotate(359.145106669961 3.6599962762047653 6.321811749809058)"><text x="3.6599962762050104" y="10.643623499617314" font-family="Cascadia, Segoe UI Emoji" font-size="10.647261894414578px" fill="black" text-anchor="middle" style="white-space: pre;" direction="ltr">X</text></g><g transform="translate(44.094393882704026 26.533600617018237) rotate(0 7.5 4.5)"><text x="7.5" y="7" font-family="Cascadia, Segoe UI Emoji" font-size="7.559700795716974px" fill="black" text-anchor="middle" style="white-space: pre;" direction="ltr">36m</text></g><g stroke-linecap="round"><g transform="translate(21.302024539583726 68.79265188498721) rotate(0 1.0535542357620216 3.337698195291523)"><path d="M0 0 C0.35 0.48, 1.97 1.75, 2.1 2.86 C2.23 3.97, 0.99 6.04, 0.76 6.68 M0 0 C0.35 0.48, 1.97 1.75, 2.1 2.86 C2.23 3.97, 0.99 6.04, 0.76 6.68" stroke="black" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(27.77600138624439 66.11895823603663) rotate(0 5.875967930648585 3.525580758388969)"><text x="5.875967930648852" y="6.051161516778624" font-family="Cascadia, Segoe UI Emoji" font-size="5.922741258791141px" fill="black" text-anchor="middle" style="white-space: pre;" direction="ltr">28°</text></g></svg>

@@ -12,7 +12,7 @@ export const Footer = () => {
               <p>Creador y líder del proyecto, programador de la página y creador de materiales para YouTube</p>
             </div>
             <div className="teamCard" data-aos="zoom-in" data-aos-duration="1000">
-              <h4>Willmar Fontalvo</h4>
+              <h4>Wilmar Fontalvo</h4>
               <p>Creador de videos del canal de YouTube y delegado principal de este</p>
             </div>
             <div className="teamCard" data-aos="zoom-in" data-aos-duration="1000">
@@ -38,7 +38,7 @@ export const Footer = () => {
               <p>Encargado de la creación de videos para el canal de YouTube</p>
             </div>
             <div className="teamCard" data-aos="zoom-in" data-aos-duration="1000">
-              <h4>Willmar Fontalvo</h4>
+              <h4>Wilmar Fontalvo</h4>
               <p>Creador de videos del canal de YouTube y delegado principal de este</p>
             </div>
           </div>

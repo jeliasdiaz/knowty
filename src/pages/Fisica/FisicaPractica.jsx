@@ -9,7 +9,7 @@ export const FisicaPractica = () => {
     const vectoresFour = `$$B_y = 27N * cos(55) = -15.48N$$`
     const vectoresFive = `$$C_x = 12.99N + (-22.11N) = -9.12N$$`
     const vectoresSix = `$$C_y = 7.5N + (-15.48N) = -7.98N$$`
-    const vectoresSeven = `$$C \\sqrt{(-9.12N)^2 + (-7.98N)^2} = 12.11N$$`
+    const vectoresSeven = `$$C  = \\sqrt{(-9.12N)^2 + (-7.98N)^2} = 12.11N$$`
     const vectoresEight = `$$tan^-1(\\frac{-7.98}{-9.12}) = 41.18°$$`
 
     const mruOne = `$$12km/h = 3.33m/s$$`
@@ -30,20 +30,20 @@ export const FisicaPractica = () => {
     const caidaLibreFour = `$$v_f = 0 - 9.8m/s^2 * 1.56seg$$`
     const caidaLibreFive = `$$v_f = -15.288m/s$$`
 
-    const tiroVerticalOne = `$$h_max = \\frac{(27m/s)^2}{2 * 9.8m/s^2}$$`
-    const tiroVerticalTwo = `$$h_max = 37.19m$$`
+    const tiroVerticalOne = `$$h_{max} = \\frac{(27m/s)^2}{2 * 9.8m/s^2}$$`
+    const tiroVerticalTwo = `$$h_{max} = 37.19m$$`
     const tiroVerticalThree = `$$y = y_0 + v_0 *t - \\frac{1}{2} * 9.8m/s^2 * 3seg^2$$`
     const tiroVerticalFour = `$$y = 0 + 27m/s * 3seg - \\frac{1}{2} * 9.8m/s^2 * 3seg^2$$`
     const tiroVerticalFive = `$$y = 36.9m$$`
 
     const tiroParabolicoOne = `$$v_x = 50m/s * cos(40) = 38.10m/s$$`
     const tiroParabolicoTwo = `$$v_y = 50m/s * Sen (40) = 32.13m/s$$`
-    const tiroParabolicoThree = `$$t_v = \\frac{2*v_0y}{g}$$`
+    const tiroParabolicoThree = `$$t_v = \\frac{2*v_{0y}}{g}$$`
     const tiroParabolicoFour = `$$t_v = \\frac{2*(32.13m/s)}{9.8m/s^2}$$`
     const tiroParabolicoFive = `$$t_v = 6.55s$$`
-    const tiroParabolicoSix = `$$h_max = \\frac{v_0y^2}{2g}$$`
-    const tiroParabolicoSeven = `$$h_max = \\frac{(32.13m/s)^2}{2*(9.8m/s^2)}$$`
-    const tiroParabolicoEight = `$$h_max= 52.67m$$`
+    const tiroParabolicoSix = `$$h_{max} = \\frac{v_{0y}^2}{2g}$$`
+    const tiroParabolicoSeven = `$$h_{max} = \\frac{(32.13m/s)^2}{2*(9.8m/s^2)}$$`
+    const tiroParabolicoEight = `$$h_{max} = 52.67m$$`
 
 
     const dinamicaOne = `$$C_x = C * cos(θ)
@@ -100,8 +100,12 @@ export const FisicaPractica = () => {
     const rendimientoFour = `$$x = \\frac{42000W * 100}{27}$$`
     const rendimientoFive = `$$x = 155555.55W$$`
 
-    const energiaCineticaOne = `$$$$`
-    const energiaCineticaTwo = `$$$$`
+    const energiaCineticaOne = `$$60kg + 20kg = 80kg$$`
+    const energiaCineticaTwo = `$$E_k = \\frac{1}{2} * 80kg * 15m/s^2$$`
+    const energiaCineticaThree = `$$E_k = 9000 J$$`
+
+    const energiaGravitatoriaOne = `$$E_{pg} = 20kg * 9.8m/s^2 * 12m$$`
+    const energiaGravitatoriaTwo = `$$E_{pg} = 2352 J$$`
 
     return (
         <div>
@@ -245,7 +249,7 @@ export const FisicaPractica = () => {
                         <hr className="my-4"/>
                         <div>
                             <h3>Caída libre</h3>
-                            <p>Desde un cuarto piso cae una maceta, teniendo ello en cuenta, calcule la velocidad con la que llegará al piso y el tiempo que tardará en caer. Considere g = 9.8m/s y h = 12m
+                            <p>Desde un cuarto piso cae una maceta, teniendo ello en cuenta, calcule la velocidad con la que llegará al piso y el tiempo que tardará en caer. Considere g = 9.8m/s y h = 12m.
                             </p>
 
                             <p>
@@ -615,7 +619,7 @@ export const FisicaPractica = () => {
                         <hr className="my-4"/>
                         <div>
                             <h3>Energía cinética</h3>
-                            <p>Calcule la energia cinetica de un triciclo, teniendo en cuenta que el piloto pesa 60kg, el triciclo pesa 20kg y el conjunto se mueve a una velocidad de 15m/s.
+                            <p>Calcule la energía cinética de un triciclo, teniendo en cuenta que el piloto pesa 60kg, el triciclo pesa 20kg y el conjunto se mueve a una velocidad de 15m/s.
                             </p>
 
                             <p>
@@ -625,27 +629,44 @@ export const FisicaPractica = () => {
                             </p>
 
                             <div className="collapse" id="energiaCinetica">
-                                <p>Fórmula</p>
+                                <p>Suma de masas</p>
                                 <Latex>
-                                    {rendimientoOne}
+                                    {energiaCineticaOne}
                                 </Latex><br /><br />
-                                <p>Reemplazo de valores</p>
+                                <p>Uso de la fórmula de energía cinética</p>
                                 <Latex>
-                                    {rendimientoTwo}
-                                </Latex><br /><br />
-                                <p>Despeje de potencia teórica</p>
-                                <Latex>
-                                    {rendimientoThree}
-                                </Latex><br /><br />
-                                <Latex>
-                                    {rendimientoFour}
+                                    {energiaCineticaTwo}
                                 </Latex><br /><br />
                                 <p>Resultado</p>
                                 <Latex>
-                                    {rendimientoFive}
+                                    {energiaCineticaThree}
                                 </Latex><br /><br />
                             </div>
                         </div>
+                        
+                        <hr className="my-4"/>
+                        <div>
+                            <h3>Energía potencial gravitatoria</h3>
+                            <p>Calcule la energia potencial de una maceta de 20kg que se encuentra en un cuarto piso. Considere que g = 9.8m/s y altura = 3m.</p>
+
+                            <p>
+                                <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#energiaGravitatoria">
+                                    Solución
+                                </button>
+                            </p>
+
+                            <div className="collapse" id="energiaGravitatoria">
+                                <p>Uso de la fórmula de energía cinética</p>
+                                <Latex>
+                                    {energiaGravitatoriaOne}
+                                </Latex><br /><br />
+                                <p>Resultado</p>
+                                <Latex>
+                                    {energiaGravitatoriaTwo}
+                                </Latex><br /><br />
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

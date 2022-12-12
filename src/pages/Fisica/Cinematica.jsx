@@ -22,16 +22,16 @@ export const Cinematica = () => {
 
     const caidaTiroVerticalOne = `$$y = y_0 + v_0 * t - \\frac{1}{2} * g * t ^2$$`
     const caidaTiroVerticalTwo = `$$v = v_0 - g * t$$`
-    const caidaTiroVerticalThree = `$$h_max = v_oy^2$$`
+    const caidaTiroVerticalThree = `$$h_{max} = v_oy^2$$`
     const caidaTiroVerticalFour = `$$t_v = \\frac{2v_0}{2g}$$`
     const caidaTiroVerticalFive = `$$t_c = \\sqrt{\\frac{2h}{g}}$$`
 
-    const tiroParabolicoOne = `$$v_ox = v_0 * cos(θ)$$`
-    const tiroParabolicoTwo = `$$v_oy = v_0 * sen(θ)$$`
+    const tiroParabolicoOne = `$$v_{ox} = v_0 * cos(θ)$$`
+    const tiroParabolicoTwo = `$$v_{oy} = v_0 * sen(θ)$$`
     const tiroParabolicoThree = `$$x = x_0 + v_0x * t$$`
     const tiroParabolicoFour = `$$y = y_0 + v_oy * t - \\frac{1}{2} * g * t^2$$`
     const tiroParabolicoFive = `$$v = v_0 - g * t$$`
-    const tiroParabolicoSix = `$$h_max = \\frac{2v_oy}{g}$$`
+    const tiroParabolicoSix = `$$h_{max} = \\frac{2v_oy}{g}$$`
     const tiroParabolicoSeven = `$$t_v = \\frac{2v_oy}{g}$$`
     const tiroParabolicoEight = `$$t_c = \\sqrt{\\frac{2h}{g}}$$`
     const tiroParabolicoNine = `$$D_h = v_ox * t_v$$`
@@ -133,7 +133,7 @@ export const Cinematica = () => {
                 <hr  className="my-4"/>
                 <h3>Tiro parábolico</h3>
                 <h6>Componentes de la velocidad</h6>
-                <Latex>{tiroParabolicoOne}</Latex>
+                <Latex>{tiroParabolicoOne}</Latex><br />
                 <Latex>{tiroParabolicoTwo}</Latex><br /><br />
 
                 <h6>Posición</h6>

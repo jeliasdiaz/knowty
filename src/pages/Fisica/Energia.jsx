@@ -8,15 +8,15 @@ export const Energia = () => {
 
     const potencia = `$$P =  \\frac{W}{𐤃t}$$`
 
-    const rendimiento = `$$Rendimiento = \\frac{Potencia útil}{Potencia teórica} * 100$$`
+    const rendimiento = `$$Rendimiento = \\frac{Potencia \\ útil}{Potencia \\ teórica} * 100$$`
 
     const energiaCinetica = `$$E_k = \\frac{1}{2} * m * v^2$$`
     const extraOne = `$$m = \\frac{2 * E_k}{v^2}$$`
     const extraTwo= `$$v = \\sqrt{\\frac{2*E_k}{m}}$$`
     const energiaGravitatoria = `$$E_p = m*g*h$$`
-    const energiaElastica = `$$E_pe = \\frac{1}{2} * k * (𐤃x)^2$$`
+    const energiaElastica = `$$E_{pe} = \\frac{1}{2} * k * (𐤃x)^2$$`
     const energiaMecanica = `$$E_m = E_p + E_k$$`
-    const conservacionEnergia = `$$E_k1 + E_p1 + E_pe1 = E_k2 + E_p2 + E_pe2$$`
+    const conservacionEnergia = `$$E_{k1} + E_{p1} + E_{pe1} = E_{k2} + E_{p2} + E_{pe2}$$`
     const cantidadMovimiento = `$$ρ = m * v$$`
     const energiaCineticaCantidadMovimiento = `$$E_k = \\frac{p^2}{2 * m}$$`
     const impulso = `$$F * 𐤃t = I$$`

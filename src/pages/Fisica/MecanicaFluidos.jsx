@@ -6,7 +6,7 @@ const MecanicaFluidos = () => {
     const densidad = `$$ρ = \\frac{masa}{volumen}$$`
     const pesoEspecifico = `$$δ = p * g$$`
     const presionLiquidos = `$$P_h = ρ * g * h$$`
-    const presionAbsoluta = `$$P_abs = P_atm + ρ * g * h$$`
+    const presionAbsoluta = `$$P_{abs} = P_{atm} + ρ * g * h$$`
     const principioPascal = `$$\\frac{F_1}{A_1} = \\frac{F_2}{A_2}$$`
     const principioArquimedes = `$$F_e = ρ * g * V_s $$`
     const principioArquimedesExtra = `$$V_s $$`

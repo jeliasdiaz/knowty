@@ -1,6 +1,24 @@
+import Latex from "react-latex"
 import { Link } from "react-router-dom"
 
 export const Trigonometria = () => {
+
+    const leySenoOne = `$$\\frac{20}{sen(80)} = \\frac{x}{sen(40)}$$`
+    const leySenoTwo = `$$\\frac{20 * sen(40)}{sen(80)}$$`
+    const leySenoThree = `$$x = 13.05$$`
+    const leySenoFour = `$$\\frac{sen(80)}{30} =  \\frac{sen(θ)}{15}$$`
+    const leySenoFive = `$$arcsin(\\frac{sen(80) * 15}{30}) = sen(θ)$$`
+    const leySenoSix = `$$\\frac{sen(80) * 15}{30} = θ$$`
+    const leySenoSeven = `$$θ = 29.49°$$`
+
+    const leyCosenoOne = `$$x^2 = a^2 + b^2  - 2ab * cos(θ)$$`
+    const leyCosenoTwo = `$$x^2 = 10^2 + 5^2 - 2 * 10 * 5 * cos(75°)$$`
+    const leyCosenoThree = `$$\\sqrt{x} = \\sqrt{10^2 + 5^2 - 2 * 10 * 5 * cos(75°)}$$`
+    const leyCosenoFour = `$$x = 9.95$$`
+    const leyCosenoFive = `$$\\frac{a^2 + b^2 - c^2}{- 2bc}$$`
+    const leyCosenoSix = `$$arccos(\\frac{20^2 + 10^2 - 18^2}{2 * 20 * 10}) = cos(θ)$$`
+    const leyCosenoSeven = `$$\\frac{20^2 + 10^2 - 18^2}{2 * 20 * 10} = θ$$`
+    const leyCosenoEight = `$$63.89 = θ$$`
 
     return (
         <div className="background">
@@ -14,6 +32,8 @@ export const Trigonometria = () => {
                         <li className="page-item shadow-lg"><Link to="/trigonometria_2" className="text-decoration-none page-link">II periodo</Link></li>
 
                         <li className="page-item shadow-lg"><Link to="/trigonometria" className="text-decoration-none page-link" >III periodo</Link></li>
+                        
+                        <li className="page-item shadow-lg"><Link to="/trigonometria-practica" className="text-decoration-none page-link">Practica</Link></li>
 
                     </ul>
                 </nav>
@@ -59,40 +79,49 @@ export const Trigonometria = () => {
                             La usamos cuando en un triángulo, nos dan una pareja y un lado cualquiera. Dicho de otro modo, cuando poseemos el valor de un ángulo y su lado opuesto. <br /> <br /> De igual forma, hacemos uso de esta ley al poseer el valor dos lados y un ángulo opuesto a ellos.
 
                             Por ejemplo: <br />
-                            <img src="/img/leySenoEjemplo.png" alt="" className="w-50" /><br />
+                            <img src="/img/leySenoEjemplo.svg" alt="" className="w-50" /><br />
                             Definimos las razones de la siguiente forma:
                             <br />
-                            <img src="/img/leySenoEjemplo1.svg" alt="" /><br /><br />
+                            <Latex>{leySenoOne}</Latex><br /><br />
                             Despejando la incognita <b>x</b> queda de la siguiente forma: <br />
-                            <img src="/img/leySenoEjemplo2.svg" alt="" /><br /><br />
+                            <Latex>{leySenoTwo}</Latex><br /><Latex>{leySenoThree}</Latex><br /><br />
 
                             El otro caso radica en tener el valor de dos lados y un ángulo opuesto a ellos. <br />
                             Por ejemplo: <br />
-                            <img src="/img/leySenoEjemplo4.png" alt="" className="w-50" /><br />
+                            <img src="/img/leySenoEjemplo4.svg" alt="" className="w-50" /><br />
                             Definimos las razones de la siguiente forma: <br />
-                            <img src="/img/leySenoEjemplo5.svg" alt="" /><br /><br />
+                            <Latex>{leySenoFour}</Latex><br /><br />
                             Despejando para hallar el ángulo, queda de la siguiente forma: <br />
-                            <img src="/img/leySenoEjemplo6.svg" alt="" /><br /><br />
+                            <Latex>{leySenoFive}</Latex><br /><br />
                             Usamos arcoseno (sen <sup>-1</sup>) para "cancelar" el seno al lado de theta, de forma que el resultado es: <br />
-                            <img src="/img/leySenoEjemplo7.svg" alt="" /><br /><br />
+                            <Latex>{leySenoSix}</Latex><br /><Latex>{leySenoSeven}</Latex><br /><br />
 
                             <button className="btn btn-secondary"><a href="https://youtu.be/8T45M-Kv88I" className="text-decoration-none text-white">Profundizar</a></button> <br /> <br />
                         </p>
                         <h2>Ley del coseno</h2>
                         <p>
-                            La usamos cuando en un triángulo, conocemos dos lados y el ángulo formado entre ellos. De igual forma, hacemos uso de esta ley al poseer el valor de todos los lados.
+                            La usamos cuando en un triángulo conocemos dos lados y el ángulo formado entre ellos. De igual forma, hacemos uso de esta ley al poseer el valor de todos los lados.
                             Por ejemplo: <br />
-                            <img src="/img/leyCosenoEjemplo.png" alt="" className="w-50" /> <br />
+                            <img src="/img/leyCosenoEjemplo.svg" alt="" className="w-50" /> <br />
                             Definimos las razones de la siguiente forma:
                             <br />
-                            <img src="/img/leyCosenoEjemplo1.svg" alt="" /><br /><br />
+                            <Latex>{leyCosenoOne}</Latex><br />
+                            <Latex>{leyCosenoTwo}</Latex><br />
+                            <Latex>{leyCosenoThree}</Latex><br />
+                            <Latex>{leyCosenoFour}</Latex><br /><br />
                             Aplicamos raiz cuadrada a ambos lados para eliminar la potencia que posee la x.
                             <br /><br />
-                            El otro caso, radica en tener el valor de todos los lados. <br />
+                            El otro caso, radica en tener el valor de todos los lados.
                             Por ejemplo: <br />
-                            <img src="/img/leyCosenoEjemplo2.png" alt="" className="w-50" /><br />
+                            <img src="/img/leyCosenoEjemplo2.svg" alt="" className="w-50" /><br />
                             Definimos las razones de la siguiente forma: <br />
-                            <img src="/img/leyCosenoEjemplo3.svg" alt="" /><br /><br />
+                            <Latex>{leyCosenoFive}</Latex><br /><br />
+                            <Latex>{leyCosenoSix}</Latex><br /><br />
+                            <Latex>{leyCosenoSeven}</Latex><br /><br />
+                            <Latex>{leyCosenoEight}</Latex><br />
+                
+                            
+                            <br /><br />
 
                             <button className="btn btn-secondary"><a href="https://youtu.be/BALWWfhnvVc" className="text-decoration-none text-white">Profundizar</a></button>
                         </p>

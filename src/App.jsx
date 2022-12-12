@@ -33,6 +33,7 @@ import { SocialesMenu } from "./pages/Sociales/SocialesMenu";
 import { TrigonometriaMenu } from "./pages/Trigonometria/TrigonometriaMenu";
 import { InfoPage } from "./pages/InfoPage";
 import { FisicaPractica } from "./pages/Fisica/FisicaPractica";
+import { TrigonometriaPractica } from "./pages/Trigonometria/TrigonometriaPractica";
 
 function App() {
   useEffect(() => {
@@ -76,6 +77,7 @@ function App() {
         <Route path="/trigonometria-menu" element={<TrigonometriaMenu />} />
         <Route path="/info" element={<InfoPage />} />
         <Route path="/fisica-practica" element={<FisicaPractica />} />
+        <Route path="/trigonometria-practica" element={<TrigonometriaPractica/>} />
       </Routes>
 
       <Footer />
