@@ -173,9 +173,7 @@ h1 {
   border-radius: 15px;
   padding: 4%;
 }
-code {
-  color: black !important;
-}
+
 
 /** Geometría page */
 .geometriaImgOne {
@@ -302,6 +300,11 @@ form {
   border: #28708f !important;
 }
 
+/** Global elements */
+code {
+  color: black !important;
+}
+
 hr {
   margin: 2% !important;
   margin-left: auto !important;
@@ -313,6 +316,7 @@ hr {
   background-color: #2b7ea1 !important;
   border: #2b7ea1 !important;
 }
+
 
 @media screen and (max-width: 800px) {
   .home {

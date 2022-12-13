@@ -2,9 +2,7 @@ footer {
   background-color: #034663;
   height: 108vh;
 }
-/* .footerContent {
-  display: flex;
-} */
+
 .textFooter {
   color: #ffff;
   padding-top: 5%;
@@ -79,15 +77,7 @@ i:hover {
 .teamCardCenter h4{
   color: #2b7ea1;
 }
-/* .contact {
-  color: #ffff;
-  padding-top: 10%;
-  text-align: center;
-  margin: auto;
-}
-.contact h2 {
-  font-weight: 400;
-} */
+
 .moreInformation{
   width: 50%;
   background-color: #fefefe;
@@ -110,26 +100,6 @@ i:hover {
 .btn-dark:hover{background-color: #3391b9; border: #3391b9;}
 .bxl-youtube{color: #2B7EA1;}
 
-/* .nameOne {
-  width: 65%;
-  padding: 2%;  
-  margin-left: 45%;
-  margin-bottom: 0;
-  text-align: right;
-  background-color: #2B7EA1;
-  border-radius: 8px;
-  color: #fff;
-}
-.nameTwo{
-  width: 100%;
-  padding: 2%;  
-  margin-left: 10%;
-  margin-bottom: 0;
-  text-align: right;
-  background-color: #2B7EA1;
-  border-radius: 8px;
-  color: #fff;
-} */
 @media screen and (max-width: 800px) {
   footer {
     height: 120vh;

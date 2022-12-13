@@ -9,11 +9,11 @@ export const InfoPage = () => {
             <div className="flex-1 justify-content-center cardsInfoSection">
                 <div className="cardInfo shadow" data-aos="zoom-in-down" data-aos-duration="1200">
                     <h2>Misión</h2>
-                    <p>Como grupo, buscamos brindar servicios a la comunidad educativa con materiales de aprendizaje de autoría propia, que conceden exclusividad y calidad; con el objetivo de apoyar y contribuir a los estudiantes en su proceso de formación.</p>
+                    <p>Como grupo, buscamos brindar servicios a la comunidad educativa a través de recursos educativos de autoría propia, que conceden exclusividad y calidad; con el objetivo de apoyar y contribuir a los estudiantes en su proceso de formación.</p>
                 </div>
                 <div className="cardInfo shadow" data-aos="zoom-in-down" data-aos-duration="1200">
                     <h2>Visión</h2>
-                    <p>Proyectamos contribuir al desarrollo académico de las próximas generaciones de alumnos; en aras de aportar herramientas que faciliten el aprendizaje y formación de los escolares. </p>
+                    <p>Proyectamos contribuir al desarrollo académico de las próximas generaciones de alumnos; en aras de aportar herramientas que faciliten el aprendizaje y formación de los estudiantes. </p>
                 </div>
                 <div className="cardInfo lastCardInfo shadow" data-aos="zoom-in-down" data-aos-duration="1200">
                     <h2>Un poco de historia</h2>

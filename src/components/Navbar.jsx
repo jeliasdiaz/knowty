@@ -6,7 +6,7 @@ export const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg fixed-top">
                 <div className="container-fluid container">
-                    <NavLink to="/" className="text-decoration-none bg-transparent"><img src="/img/logo.svg" alt="" className="navbar-brand ms-2" /></NavLink>
+                    <NavLink to="/" className="text-decoration-none bg-transparent"><img src="/img/logo.svg" alt="" className="navbar-brand" /></NavLink>
 
                     
                     <div className="navbar-nav ms-auto shadow bg-white rounded p-1">
