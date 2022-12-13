@@ -68,8 +68,8 @@ const Sociales = () => {
 
                     <h3>Diferencias entre un territorio y otro</h3>
                     <ul>
-                        <li>Limites: son líneas divisorias que separan uno o más territorios</li>
-                        <li>Fronteras: son las áreas de transiciones entre dos unidades política administrativas</li>
+                        <li>Limites: Son líneas divisorias que separan uno o más territorios</li>
+                        <li>Fronteras: Son las áreas de transiciones entre dos unidades política administrativas</li>
                     </ul>
                     <h2>Territorialidad</h2>
                     <ul>
@@ -146,8 +146,8 @@ const Sociales = () => {
                     </ul>
                     <h3>Generan condiciones de</h3>
                     <ul>
-                        <li>Subordinación: estado subyugado a la economía, política y, a veces, cultura de otro estado</li>
-                        <li>Conflicto: estados con intereses antepuestos en los cuales hay fricción que pueden generar guerras</li>
+                        <li>Subordinación: Estado subyugado a la economía, política y, a veces, cultura de otro estado</li>
+                        <li>Conflicto: Estados con intereses antepuestos en los cuales hay fricción que pueden generar guerras</li>
                         <li>Alianzas: Estados con intereses comunes y agendas compartidas</li>
                     </ul>
                     <h2>Estructura</h2>
