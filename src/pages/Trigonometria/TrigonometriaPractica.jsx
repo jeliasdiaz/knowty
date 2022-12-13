@@ -40,17 +40,17 @@ export const TrigonometriaPractica = () => {
     const razonesTrigonometricasExSecondOne = `$$Tan θ = \\frac{opuesto}{adyacente}$$`
     const razonesTrigonometricasExSecondTwo = `$$Tan θ = \\frac{4cm}{3cm}
     $$`
-    const razonesTrigonometricasExSecondThree = `$$θ = Tan^-1 \\frac{4cm}{3cm}
+    const razonesTrigonometricasExSecondThree = `$$θ = Tan^{-1} (\\frac{4cm}{3cm})
     $$`
     const razonesTrigonometricasExSecondFour = `$$θ = 53.13º$$`
-    const razonesTrigonometricasExSecondFive = `$$Tan^-1$$`
+    const razonesTrigonometricasExSecondFive = `$$Tan^{-1}  $$`
 
     const leySenoOne = `$$\\frac{a}{Senθ} = \\frac{b}{Senθ}
     $$`
     const leySenoTwo = `$$\\frac{16m}{Sen 110} = \\frac{5m}{Senθ}$$`
     const leySenoThree = `$$Sen θ = \\frac{Sen 110}{16m} * 5m $$`
     const leySenoFour = `$$Sen θ = 0.29$$`
-    const leySenoFive = `$$θ = Sen^-1 0.29$$`
+    const leySenoFive = `$$θ = Sen^{-1} (0.29)$$`
     const leySenoSix = `$$θ= 16.85º$$`
 
     const leyCosenoOne = `$$x^2 = a^2 + b^2 - 2ab * cos(θ)$$`
