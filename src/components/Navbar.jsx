@@ -29,19 +29,19 @@ export const Navbar = () => {
                 </div>
                 <div className="offcanvas-body text-center">
                     <NavLink to="/estadistica" className="text-decoration-none btn shadow btnOffcanvasOne dropdown-item text-center"><h4>Estadística</h4></NavLink>
-                    <hr className="w-75"/>
+                    <hr className="w-75 mt-2"/>
                     <NavLink to="/cinematica" className="text-decoration-none btn btnOffcanvas shadow dropdown-item"><h4>Física</h4></NavLink>
-                    <hr  className="w-75"/>
+                    <hr  className="w-75 mt-2"/>
                     <NavLink to="/geometria_1" className="text-decoration-none btn btnOffcanvas shadow dropdown-item"><h4>Geometría</h4></NavLink>
-                    <hr  className="w-75"/>
+                    <hr  className="w-75 mt-2"/>
                     <NavLink to="/ingles" className="text-decoration-none btn btnOffcanvas shadow dropdown-item"><h4>Inglés</h4></NavLink>
-                    <hr  className="w-75"/>
+                    <hr  className="w-75 mt-2"/>
                     <NavLink to="/quimica_1" className="text-decoration-none btn btnOffcanvas shadow dropdown-item"><h4>Química</h4></NavLink>
-                    <hr  className="w-75"/>
+                    <hr  className="w-75 mt-2"/>
                     <NavLink to="/sociales_1" className="text-decoration-none btn btnOffcanvas shadow dropdown-item"><h4>Sociales</h4></NavLink>
-                    <hr  className="w-75"/>
+                    <hr  className="w-75 mt-2"/>
                     <NavLink to="/trigonometria_2" className="text-decoration-none btn btnOffcanvas shadow dropdown-item"><h4>Trigonometría</h4></NavLink>
-                    <hr  className="w-75"/>
+                    <hr  className="w-75 mt-2"/>
                 </div>
             </div>
         </>

@@ -83,7 +83,7 @@ export const Cinematica = () => {
                         <Latex>{vectoresEight}</Latex>
 
                     </div>
-                    <hr className="my-4"/>
+                    <hr/>
                     <div>
                         <h3>M.R.U.</h3>
                         <h6>Posición</h6>
@@ -110,7 +110,7 @@ export const Cinematica = () => {
 
 
                     </div>
-                    <hr  className="my-4"/>
+                    <hr/>
                     <div>
                         <h3>Caída libre y tiro vertical</h3>
                         <h6>Posición</h6>
@@ -130,7 +130,7 @@ export const Cinematica = () => {
 
                     </div>
                 </div>
-                <hr  className="my-4"/>
+                <hr  />
                 <h3>Tiro parábolico</h3>
                 <h6>Componentes de la velocidad</h6>
                 <Latex>{tiroParabolicoOne}</Latex><br />

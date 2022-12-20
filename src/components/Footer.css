@@ -35,7 +35,7 @@ i:hover {
   font-weight: 200;
   font-size: 18px;
 }
-.teamCardOne{
+/* .teamCardOne{
   background-color: #fefefe;
   border-radius: 15px;
   color: black;
@@ -46,7 +46,7 @@ i:hover {
   width: 300px !important;
   margin-top: 2%;
   margin: auto;
-}
+} */
 .teamCard{
   background-color: #fefefe;
   border-radius: 15px;
@@ -54,7 +54,7 @@ i:hover {
   padding: 2%;
   padding-bottom: 0%;
   width: 300px;
-  height: 180px;
+  height: 200px;
   margin: auto;
   margin-top: 3%;
   margin-left: 1% ;
@@ -62,6 +62,9 @@ i:hover {
 }
 .teamCard h4{
   color: #2B7EA1;
+}
+.teamCard i {
+  color: #000 !important;
 }
 .teamCardCenter{
   margin:  auto;
@@ -90,6 +93,10 @@ i:hover {
 .moreInformation h2 {
   font-size: 25px;
 }
+.moreInformation p{
+  font-weight: 500;
+}
+
 .bxl-gmail{color: #2B7EA1;}
 .btn-dark {
   background-color: #2B7EA1 !important;

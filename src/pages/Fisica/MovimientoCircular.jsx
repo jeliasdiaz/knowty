@@ -51,7 +51,7 @@ export const MovimientoCircular = () => {
                         <Latex>{mcuFour}</Latex><br/><br />
                     </div>
 
-                    <hr className="w-100 my-4" />
+                    <hr className="w-100" />
                     <div>
                         <h2>M.C.U.A.</h2>
                         <h5>Posición</h5>
@@ -61,9 +61,9 @@ export const MovimientoCircular = () => {
                         <Latex>{mcuaTwo}</Latex><br/><br />
 
                         <h5>Aceleración</h5>
-                        <Latex>{mcuaThree}</Latex><br/><br />
+                        <Latex>{mcuaThree}</Latex><br/>
                     </div>
-                    <hr className="w-100 my-4" />
+                    <hr className="w-100" />
                     <div>
                         <h4>Extra</h4>
                         <h5>Conversion importante</h5>

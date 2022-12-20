@@ -36,8 +36,8 @@ body {
   padding-top: 13%;
 }
 .sectionOne h1 {
-  font-size: 55px;
-  font-weight: 400;
+  font-size: 60px;
+  font-weight: 500;
 }
 .sectionOne p {
   font-size: 18px;
@@ -63,6 +63,9 @@ body {
 }
 .sectionTwoText h2 {
   font-family: "Roboto", sans-serif;
+}
+#sectionTwoTitle{
+  font-size: 38px;
 }
 
 .flex-1 {
@@ -121,10 +124,14 @@ body {
 }
 .pagination li {
   border-radius: 1.3rem !important;
+  list-style-type: none !important;
 }
 .pagination li a:hover {
   background-color: #bfdfed;
   color: #fff !important;
+}
+.pagination li:before {
+  content: none
 }
 .page-link {
   color: black !important;
@@ -173,7 +180,6 @@ h1 {
   border-radius: 15px;
   padding: 4%;
 }
-
 
 /** Geometría page */
 .geometriaImgOne {
@@ -306,17 +312,29 @@ code {
 }
 
 hr {
-  margin: 2% !important;
+  margin-top: 6% !important;
+  margin-bottom: 6% !important;
   margin-left: auto !important;
   margin-right: auto !important;
   background-color: white;
   height: 3px !important;
-  border-radius: 12px !important; 
+  border-radius: 12px !important;
   box-shadow: 3px 2px 2px 1px rgb(184, 183, 183) !important;
   background-color: #2b7ea1 !important;
   border: #2b7ea1 !important;
 }
 
+li {
+  list-style-type: none;
+}
+ul li:before {
+  content: "-";
+  position: relative;
+  left: -5px;
+}
+ul li {
+  text-indent: -6px;
+}
 
 @media screen and (max-width: 800px) {
   .home {
@@ -360,6 +378,9 @@ hr {
 
   .sectionTwo img {
     width: 85%;
+  }
+  #sectionTwoTitle {
+    font-size: 36px;
   }
   .flex-1 {
     display: flex;
@@ -408,14 +429,13 @@ hr {
   #profundizarTres {
     margin-top: 3%;
   }
-  
+
   .pagination {
     margin-top: 22%;
   }
   .nav-3 {
     margin-top: 18% !important;
   }
-
 
   .trabajo-2 {
     width: 50%;
@@ -482,6 +502,12 @@ hr {
   /** Practice page  */
   .practiceImg {
     width: 70%;
+  }
+  hr {
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 @media screen and (max-width: 400px) {

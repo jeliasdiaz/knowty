@@ -65,7 +65,7 @@ export const Energia = () => {
                 <button className="btn btn-secondary"><a href="https://youtu.be/JJt-bwQMJck?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
 
 
-                <hr className="my-4" />
+                <hr  />
                 <h4>Potencia</h4>
                 <Latex>
                     {potencia}
@@ -73,7 +73,7 @@ export const Energia = () => {
                 <button className="btn btn-secondary"><a href="https://youtu.be/JJt-bwQMJck?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
 
 
-                <hr className="my-4" />
+                <hr  />
                 <h4>Rendimiento</h4>
                 <Latex>
                     {rendimiento}
@@ -81,14 +81,14 @@ export const Energia = () => {
                 <button className="btn btn-secondary"><a href="https://youtu.be/JJt-bwQMJck?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
 
 
-                <hr className="my-4" />
+                <hr  />
                 <h4>Energía cinética</h4>
                 <Latex>
                     {energiaCinetica}
                 </Latex><br /><br />
                 <button className="btn btn-secondary"><a href="https://youtu.be/wnXnqtrAQGM?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
 
-                <hr className="my-4" />
+                <hr  />
                 <h5>Extra</h5>
                 <Latex>
                     {extraOne}
@@ -99,46 +99,46 @@ export const Energia = () => {
                 </Latex>
                 <br />
 
-                <hr className="my-4" />
+                <hr  />
                 <h4>Energía potencial gravitatoria</h4>
                 <Latex>{energiaGravitatoria}</Latex><br /><br />
                 <button className="btn btn-secondary"><a href="https://youtu.be/wtlJS3cPkG8?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
 
-                <hr className="my-4" />
+                <hr  />
                 <h4>Energía potencial elástica</h4>
                 <Latex>{energiaElastica}</Latex><br /><br />
                 <button className="btn btn-secondary"><a href="https://youtu.be/lRc5kPcbjoI?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
 
-                <hr className="my-4" />
+                <hr  />
                 <h4>Energía mecánica</h4>
                 <Latex>{energiaMecanica}</Latex><br />
 
-                <hr className="my-4" />
+                <hr  />
                 <h4>Conservación de la energía</h4>
                 <Latex>{conservacionEnergia}</Latex><br /><br />
                 <button className="btn btn-secondary mt-2"><a href="https://youtu.be/L_MBur9Swlo?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
 
-                <hr className="my-4" />
+                <hr  />
                 <h4>Cantidad de movimiento</h4>
                 <Latex>{cantidadMovimiento}</Latex><br />
                 <p>ρ = Rho (letra griega cuyo significado es momentum)</p>
                 <button className="btn btn-secondary"><a href="https://youtu.be/gHu4dVBvurQ?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
 
-                <hr className="my-4" />
+                <hr  />
                 <h4>Energía cinética según la cantidad de movimiento</h4>
                 <Latex>{energiaCineticaCantidadMovimiento}</Latex>
 
-                <hr className="my-4" />
+                <hr  />
                 <h4>Impulso</h4>
                 <Latex>{impulso}</Latex>
 
-                <hr className="my-4" />
+                <hr  />
                 <h4>Colisiones elásticas</h4>
                 <Latex>{colisionesElasticasOne}</Latex> <br /> <br />
                 <Latex>{colisionesElasticasTwo}</Latex> <br /><br />
                 <button className="btn btn-secondary"><a href="https://youtu.be/i59oKp32JxA?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
 
-                <hr className="my-4" />
+                <hr  />
                 <h4>Colisiones inelásticas</h4>
                 <Latex>{colisionesInelasticasOne}</Latex><br /><br />
                 <Latex>{colisionesInelasticasTwo}</Latex><br /><br />

@@ -9,7 +9,7 @@ export const Home = () => {
         <div className="sectionOne flex-1 container">
           <div className="sectionOneAppendOne " data-aos="zoom-in" data-aos-duration="900">
             <h1>Knowty</h1>
-            <p>Somos un grupo de estudiantes que te brindarán nuevas perspectivas de la existencia. ¡Adéntrate a una nueva realidad!</p>
+            <p>Somos un grupo de estudiantes que te brindarán nuevas perspectivas de la existencia ¡Adéntrate a una nueva realidad!</p>
           </div>
           <div>
             <img src="/img/homeImg.svg" alt="" className="w-75" data-aos="zoom-in" data-aos-duration="500" />
@@ -25,7 +25,7 @@ export const Home = () => {
           <div className="sectionTwoText" data-aos="zoom-in-down" data-aos-duration="1000">
             <div className="flex-1">
               <div className="text-sectionTwo">
-                <h2>Nuestra meta</h2>
+                <h2 id="sectionTwoTitle">Nuestra meta</h2>
                 <p>
                   Promover el aprendizaje y fácil acceso a contenido de carácter educativo. Asimismo, motivar a los alumnos a cumplir con sus deberes escolares. <br /><br />
 

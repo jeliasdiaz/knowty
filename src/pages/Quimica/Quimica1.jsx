@@ -22,7 +22,7 @@ const Quimica = () => {
 
                 <div>
                     <div >
-                        <h2>Historia de la química (periodos)</h2>
+                        <h2>Historia de la química</h2>
                         <h4>Prehistórico(Era primitiva [500 a.c])</h4>
                         <ul>
                             <li>Descubrimiento y dominación del fuego, siendo la primera reacción química de la humanidad</li>

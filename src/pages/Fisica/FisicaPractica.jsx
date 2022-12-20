@@ -184,7 +184,7 @@ export const FisicaPractica = () => {
                         </div>
 
 
-                        <hr className="my-4"/>
+                        <hr />
                         <div>
                             <h3>M.R.U</h3>
                             <p>Albert pasea en su patineta a velocidad constante y en línea recta a 12 km/h. Albert, desea recorrer la distancia de su hogar a su colegio, la cuál es de 72 metros. Calculé el tiempo requerido para que Albert llegue a su escuela.</p>
@@ -212,7 +212,7 @@ export const FisicaPractica = () => {
                         </div>
 
 
-                        <hr className="my-4"/>
+                        <hr />
                         <div>
                             <h3>M.R.U.A.</h3>
                             <p>Alice está muy apresurada debido a que, la tienda de vestidos va a cerrar. Ella se encuentra a 2 minutos de la tienda, al comienzo del recorrido, tenía una velocidad de 5 km/h, y al final una de 15 km/h al llegar a la tienda. Calcule la aceleración de Alice.</p>
@@ -246,7 +246,7 @@ export const FisicaPractica = () => {
                         </div>
 
 
-                        <hr className="my-4"/>
+                        <hr />
                         <div>
                             <h3>Caída libre</h3>
                             <p>Desde un cuarto piso cae una maceta, teniendo ello en cuenta, calcule la velocidad con la que llegará al piso y el tiempo que tardará en caer. Considere g = 9.8m/s y h = 12m.
@@ -281,7 +281,7 @@ export const FisicaPractica = () => {
                         </div>
 
 
-                        <hr className="my-4"/>
+                        <hr />
                         <div>
                             <h3>Tiro vertical</h3>
                             <p>Albert lanza hacia arriba una pelota con una velocidad inicial de 27 m/s. A partir de esto, calcule la altura máxima que alcanza. Luego, calcule la altura que posee al transcurrir 3 segundos.</p>
@@ -314,7 +314,7 @@ export const FisicaPractica = () => {
                         </div>
             
 
-                        <hr className="my-4"/>
+                        <hr />
                         <div>
                             <h3>Tiro parábolico</h3>
                             <p>En un circo se lanza a una persona desde un cañón, con una velocidad de 50m/s y un ángulo de 40°. Calcule el tiempo de vuelo, altura máxima y su posición horizontal a los 5 segundos.</p>
@@ -356,7 +356,7 @@ export const FisicaPractica = () => {
                         </div>
 
 
-                        <hr className="my-4"/>
+                        <hr />
                         <div>
                             <h3>Dinámica</h3>
                             <h5>N°1</h5>
@@ -457,7 +457,7 @@ export const FisicaPractica = () => {
                         </div>
 
 
-                        <hr className="my-4"/>
+                        <hr />
                         <div>
                             <h3>Torque</h3>
                             <p>Alice y Bob juegan en un sube y baja, Alice se encuentra al lado izquierdo a 0.3 metros del centro con una masa de 60kg. Bob está a una distancia de 0.25m ¿Cuál debe ser la masa de Bob para que este sistema se encuentre en equilibrio?
@@ -512,7 +512,7 @@ export const FisicaPractica = () => {
                         </div>
 
 
-                        <hr className="my-4"/>
+                        <hr />
                         <div>
                             <h3>Trabajo</h3>
                             <p>Bob arrastra una caja haciendo mediante una máquina. Esta tiene una masa de 100 kg. Su amigo Will el físico, realizó los cálculos y halló que el trabajo realizado fue 294000 Jules. Calcule la distancia recorrida por la máquina con la caja.
@@ -551,7 +551,7 @@ export const FisicaPractica = () => {
                         </div>
 
 
-                        <hr className="my-4"/>
+                        <hr />
                         <div>
                             <h3>Potencia</h3>
                             <p>En una fábrica hay una máquina que tiene una potencia de 42000 Watts, realizó el traslado de una caja de 100 kg de un punto A a un punto B, el trabajo realizado por la máquina en dicha situación fue de 294000 Jules. ¿Cuál fue el tiempo empleado?
