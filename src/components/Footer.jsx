@@ -77,12 +77,12 @@ export const Footer = () => {
           <h2>¿Quieres saber más del proyecto?</h2>
           <div className="flex-1 justify-content-evenly">
             <div className="mx-2">
-              <a href="mailto:formuapp2022@gmail.com"><i className='bx bxl-gmail bx-lg'></i></a>
-              <p>formuapp2022@gmail.com</p>
+              <a href="mailto:formuapp2022@gmail.com"><i className='bx bxl-gmail bx-lg '></i></a>
+              <p className="boldFooterText">formuapp2022@gmail.com</p>
             </div>
             <div>
-              <a href="https://www.youtube.com/channel/UCS96F-FxnqVtHP7_TEVmmjg" className="text-white" target="_blank" rel="noreferrer"><i className='bx bxl-youtube bx-lg'></i></a>
-              <p>FormuApp</p>
+              <a href="https://www.youtube.com/channel/UCS96F-FxnqVtHP7_TEVmmjg" className="text-white" target="_blank" rel="noreferrer"><i className='bx bxl-youtube bx-lg'></i></a><br />
+              <a href="https://www.youtube.com/@formuapp1757/videos" className="text-dark boldFooterText" target="_blank" rel="noreferrer">FormuApp</a>
             </div>
           </div>
         </div>

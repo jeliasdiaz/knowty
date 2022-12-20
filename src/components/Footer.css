@@ -35,18 +35,6 @@ i:hover {
   font-weight: 200;
   font-size: 18px;
 }
-/* .teamCardOne{
-  background-color: #fefefe;
-  border-radius: 15px;
-  color: black;
-  padding: 2% !important;
-  padding-bottom: 0%;
-  margin-left: 1% !important;
-  margin-right: 1% !important;
-  width: 300px !important;
-  margin-top: 2%;
-  margin: auto;
-} */
 .teamCard{
   background-color: #fefefe;
   border-radius: 15px;
@@ -93,7 +81,7 @@ i:hover {
 .moreInformation h2 {
   font-size: 25px;
 }
-.moreInformation p{
+.boldFooterText {
   font-weight: 500;
 }
 
@@ -109,7 +97,7 @@ i:hover {
 
 @media screen and (max-width: 800px) {
   footer {
-    height: 120vh;
+    height: 130vh;
   }
   .footerContent {
     flex-wrap: wrap;
@@ -147,9 +135,10 @@ i:hover {
   }
 }
 
+
 @media screen and (max-width: 380px) {
   footer {
-    height: 150vh;
+    height: 170vh;
   }
   .textFooter {
     padding-top: 16%;

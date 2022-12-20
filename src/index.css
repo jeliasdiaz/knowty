@@ -53,7 +53,7 @@ body {
   padding-top: 6%;
 }
 .sectionTwoText {
-  width: 50%;
+  width: 100%;
   padding-bottom: 2%;
 }
 .sectionTwo button {
@@ -64,7 +64,7 @@ body {
 .sectionTwoText h2 {
   font-family: "Roboto", sans-serif;
 }
-#sectionTwoTitle{
+#sectionTwoTitle {
   font-size: 38px;
 }
 
@@ -72,31 +72,42 @@ body {
   display: flex;
 }
 .text-sectionTwo {
-  width: 90%;
-  padding: 4%;
+  width: 100%;
+  padding: 4% !important;
   border-radius: 20px;
   background-color: #2b7ea1;
   color: #fff;
+  height: 80%;
+  margin-top: 4%;
 }
 
 /** Subjects space */
+.subjectsContainer{
+  margin-left: 5%;
+  margin-right: 5%;
+}
 .subjects {
   margin: auto;
   margin-top: 10%;
-  width: 90%;
+  width: 70%;
 }
 
 .subjectLink {
   background-color: #f6f6f6;
   border-radius: 15px;
   padding: 8%;
+  align-items: center;
 }
 .bx-chevron-right {
   color: #023246;
 }
 .subjectLinkTrigonometria {
-  margin-bottom: 18%;
+  width: 60% ;
+  align-items: center;
+  padding: 4% !important;
+  margin: auto;
 }
+
 
 .img-sectionTwo {
   margin-top: 3%;
@@ -131,7 +142,7 @@ body {
   color: #fff !important;
 }
 .pagination li:before {
-  content: none
+  content: none;
 }
 .page-link {
   color: black !important;
@@ -324,7 +335,7 @@ hr {
   border: #2b7ea1 !important;
 }
 
-li {
+ul li {
   list-style-type: none;
 }
 ul li:before {
@@ -335,6 +346,7 @@ ul li:before {
 ul li {
   text-indent: -6px;
 }
+
 
 @media screen and (max-width: 800px) {
   .home {
@@ -416,13 +428,36 @@ ul li {
     margin-right: auto;
     margin-left: auto;
   }
+
+  /** Subjects mobile */
+  .subjects {
+    margin: auto;
+    margin-top: 10%;
+    width: 90%;
+  }
+
+  .subjectLink {
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    padding: 8%;
+    align-items: center;
+  }
+  .bx-chevron-right {
+    color: #023246;
+  }
+  .subjectLinkTrigonometria {
+    width: 100% !important;
+    align-items: center;
+    padding: 8% !important;
+  }
+
   /** Física */
   .cardsFisica {
     flex-wrap: wrap;
     margin: 4%;
   }
   .fisica {
-    width: 90%;
+    width: 95%;
     border-radius: 15px;
     margin-top: 10%;
   }
@@ -436,13 +471,12 @@ ul li {
   .nav-3 {
     margin-top: 18% !important;
   }
-
   .trabajo-2 {
     width: 50%;
   }
   /** Trigonometria page */
   .cardTrigonometria {
-    width: 90%;
+    width: 95%;
     margin-top: 10%;
   }
 
@@ -453,7 +487,7 @@ ul li {
   }
   /** Química page */
   .cardQuimica {
-    width: 90%;
+    width: 95%;
     margin-top: 10%;
   }
   #metodoAlgebraico2 {
@@ -470,7 +504,7 @@ ul li {
   }
   /** English page */
   .cardEnglish {
-    width: 90%;
+    width: 95%;
     margin-top: 10%;
   }
   .infoOne {
@@ -510,6 +544,8 @@ ul li {
     margin-right: auto !important;
   }
 }
+
+
 @media screen and (max-width: 400px) {
   .home {
     background-attachment: unset;
@@ -538,9 +574,9 @@ ul li {
 
   /** Química page */
 
-  .cardQuimica {
+/*   .cardQuimica {
     width: 90%;
-  }
+  } */
   .nav-3 {
     margin-top: 20%;
   }

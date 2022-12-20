@@ -75,7 +75,7 @@ const Inglés = () => {
                         <p>Had + subject + past participle + complement <br />Example: Had she finished the test?</p>
                         <hr />
 
-                        <h5>Present perfect</h5>
+                        <h2>Present perfect</h2>
                         <h6>Affirmative</h6>
                         <p>Subject + have/has + verb in past participle + object <br /> Example: He has completed the task</p>
                         <h6>Negative</h6>

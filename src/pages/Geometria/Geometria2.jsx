@@ -29,7 +29,6 @@ const Geometria1 = () => {
                     
                     <h2>Ecuación general de la circunferencia</h2>
                     <Latex>{generalCircunferencia}</Latex>
-                    <hr />
                 </div>
             </div>
         </div>
