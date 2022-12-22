@@ -1,6 +1,15 @@
 import { Link } from "react-router-dom"
+const Latex = require("react-latex")
 
 const Quimica = () => {
+    const escalasConversionOne = "$$°C + 273$$"
+    const escalasConversionTwo = "$$°k \\ - \\ 273$$"
+    const escalasConversionThree = "$$1.8(°C) + 32$$"
+    const escalasConversionFour = "$$\\frac{°F \\ - \\ 32}{1.8}$$"
+    const escalasConversionFive = "$$\\frac{°F \\ - \\ 32}{1.8  \\ + \\ 273}$$"
+    const escalasConversionSix = "$$1.8(°k - 273) + 32$$"
+
+
     return (
         <div className="homeQuimica" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
@@ -18,7 +27,7 @@ const Quimica = () => {
                     <li className="page-item shadow-lg"><Link to="/quimica_4" className="text-decoration-none page-link">IV periodo</Link></li>
                 </ul>
             </nav>
-            <div className="cardQuimica mb-5 shadow" data-aos="zoom-in" data-aos-duration="900">
+            <div className="cardQuimica mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
 
                 <div>
                     <div >
@@ -65,8 +74,8 @@ const Quimica = () => {
 
                     <div>
                         <h2>Escalas de conversión</h2>
-                        <table class="table table-bordered">
-                            <thead>
+                        <table className="table table-bordered">
+                            <thead className="table-light">
                                 <tr>
                                     <th scope="col">Conversión</th>
                                     <th scope="col">Ecuación</th>
@@ -75,27 +84,27 @@ const Quimica = () => {
                             <tbody>
                                 <tr>
                                     <td>Celsius a Kelvin</td>
-                                    <td>°C + 273</td>
+                                    <td><Latex>{escalasConversionOne}</Latex></td>
                                 </tr>
                                 <tr>
                                     <td>Kelvin a Celsius</td>
-                                    <td>k - 273</td>
+                                    <td><Latex>{escalasConversionTwo}</Latex></td>
                                 </tr>
                                 <tr>
                                     <td>Celsius a Fahrenheit</td>
-                                    <td>1,8(°C) + 32</td>
+                                    <td><Latex>{escalasConversionThree}</Latex></td>
                                 </tr>
                                 <tr>
                                     <td>Fahrenheit a Celsius</td>
-                                    <td>°F - 32 / 1,8</td>
+                                    <td><Latex>{escalasConversionFour}</Latex></td>
                                 </tr>
                                 <tr>
                                     <td>Fahrenheit a Kelvin</td>
-                                    <td>°F - 32 /1,8 + 273</td>
+                                    <td><Latex>{escalasConversionFive}</Latex></td>
                                 </tr>
                                 <tr>
                                     <td>Kelvin a Fahrenheit</td>
-                                    <td>1.8(k - 273) + 32</td>
+                                    <td><Latex>{escalasConversionSix}</Latex></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -234,7 +243,6 @@ const Quimica = () => {
 
                         <p>Dicho de otro modo, los electrones se comportan como ondas de probabilidad, cuya posición es difusa, siendo los orbitales los lugares más probables para hallar un electrón.</p>
                     </div>
-
 
                 </div>
             </div>

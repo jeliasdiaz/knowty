@@ -45,7 +45,7 @@ export const Energia = () => {
                     <li className="page-item shadow-lg"><Link to="/fisica-practica" className="text-decoration-none page-link">Practica</Link></li>
                 </ul>
             </nav>
-            <div className="fisica shadow" data-aos="zoom-in" data-aos-duration="900">
+            <div className="fisica shadow" data-aos="fade-up" data-aos-duration="700">
                 <h4>Trabajo</h4>
                 <Latex>
                     {trabajoOne}

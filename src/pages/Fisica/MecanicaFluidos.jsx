@@ -37,7 +37,7 @@ const MecanicaFluidos = () => {
                 </ul>
             </nav>
             <div className="cardsFisica container">
-                <div className="fisica shadow" data-aos="zoom-in" data-aos-duration="900">
+                <div className="fisica shadow" data-aos="fade-up" data-aos-duration="700">
                     <h4>Densidad</h4>
                     <Latex>{densidad}</Latex><br />
                     <p>(la masa debe estar en kilogramos y el volumen en metros cúbicos)</p>

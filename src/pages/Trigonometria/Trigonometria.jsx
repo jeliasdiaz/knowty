@@ -37,7 +37,7 @@ export const Trigonometria = () => {
 
                     </ul>
                 </nav>
-                <div className="cardTrigonometria mb-5 shadow" data-aos="zoom-in" data-aos-duration="900">
+                <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
                     <div>
                         <h2>Angulos coterminales</h2>
                         <p>Para conocer si dos o más ángulos son coterminales, se debe sumar o restar 360° al ángulo que poseemos</p>
@@ -71,7 +71,7 @@ export const Trigonometria = () => {
                     </div>
 
                     <div>
-                        <h2>Teorema del y coseno</h2>
+                        <h2>Teorema del seno y coseno</h2>
                         <p>Para comprender el teorema del seno y coseno, es menester aclarar que para resolver triángulos rectángulos, debías hacer uso de las razones trigonométricas. En este caso, mediante la ley del seno y coseno, podrás resolver triángulos diferentes a los rectángulos.</p>
 
                         <h2>Ley del seno</h2>
@@ -81,9 +81,9 @@ export const Trigonometria = () => {
                             Por ejemplo: <br />
                             <img src="/img/leySenoEjemplo.svg" alt="" className="w-50" /><br />
                             Definimos las razones de la siguiente forma:
-                            <br />
+                            <br /><br />
                             <Latex>{leySenoOne}</Latex><br /><br />
-                            Despejando la incognita <b>x</b> queda de la siguiente forma: <br />
+                            Despejando la incognita <b>x</b> queda de la siguiente forma: <br /><br />
                             <Latex>{leySenoTwo}</Latex><br /><Latex>{leySenoThree}</Latex><br /><br />
 
                             El otro caso radica en tener el valor de dos lados y un ángulo opuesto a ellos. <br />

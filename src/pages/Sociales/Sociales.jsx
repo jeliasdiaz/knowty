@@ -17,7 +17,7 @@ const Sociales = () => {
                     <li className="page-item shadow-lg"><Link to="/sociales_4" className="text-decoration-none page-link">M. sociales</Link></li>
                 </ul>
             </nav>
-            <div className="cardTrigonometria mb-5 shadow" data-aos="zoom-in" data-aos-duration="900">
+            <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
                 <div>
                     <h2>FARC (Fuerzas armadas revolucionarias de Colombia)</h2>
                     <p>

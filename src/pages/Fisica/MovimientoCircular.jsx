@@ -34,14 +34,14 @@ export const MovimientoCircular = () => {
                     <li className="page-item shadow-lg"><Link to="/fisica-practica" className="text-decoration-none page-link">Practica</Link></li>
                 </ul>
             </nav>
-            <div className="fisica shadow" data-aos="zoom-in" data-aos-duration="900">
+            <div className="fisica shadow" data-aos="fade-up" data-aos-duration="700">
                 <div className="flex">
                     <div>
                         <h2>M.C.U.</h2>
                         <h5>Posición</h5>
                         <Latex>{mcuOne}</Latex><br/><br />
 
-                        <h5>Velocidad</h5>
+                        <h5>Velocidad angular</h5>
                         <Latex>{mcuTwo}</Latex><br/><br />
 
                         <h5>Periodo</h5>

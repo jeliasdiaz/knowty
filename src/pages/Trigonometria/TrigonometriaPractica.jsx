@@ -75,7 +75,7 @@ export const TrigonometriaPractica = () => {
 
                     </ul>
                 </nav>
-            <div className="fisica shadow" data-aos="zoom-in" data-aos-duration="900">
+            <div className="fisica shadow" data-aos="fade-up" data-aos-duration="700">
                 <div >
                     <div className="section">
                         <div>

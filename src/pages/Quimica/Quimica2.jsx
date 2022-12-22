@@ -18,7 +18,7 @@ const Quimica = () => {
                     <li className="page-item shadow-lg"><Link to="/quimica_4" className="text-decoration-none page-link">IV periodo</Link></li>
                 </ul>
             </nav>
-            <div className="cardQuimica mb-5 shadow" data-aos="zoom-in" data-aos-duration="900">
+            <div className="cardQuimica mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
 
                 <div>
                     <div >

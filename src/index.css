@@ -224,8 +224,9 @@ h1 {
 
 /** English */
 .cardEnglish {
-  width: 60%;
-  margin: auto;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 15px;
   padding: 4%;
 }

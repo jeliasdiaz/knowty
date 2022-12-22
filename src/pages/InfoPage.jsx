@@ -7,15 +7,15 @@ export const InfoPage = () => {
                 <img src="/img/logo.svg" alt="" className="ImgInfo" />
             </div>
             <div className="flex-1 justify-content-center cardsInfoSection">
-                <div className="cardInfo shadow" data-aos="zoom-in-down" data-aos-duration="1200">
+                <div className="cardInfo shadow" data-aos="zoom-in" data-aos-duration="1200">
                     <h2>Misión</h2>
                     <p>Como grupo, buscamos brindar servicios a la comunidad educativa a través de recursos educativos de autoría propia, que conceden exclusividad y calidad; con el objetivo de apoyar y contribuir a los estudiantes en su proceso de formación.</p>
                 </div>
-                <div className="cardInfo shadow" data-aos="zoom-in-down" data-aos-duration="1200">
+                <div className="cardInfo shadow" data-aos="zoom-in" data-aos-duration="1200">
                     <h2>Visión</h2>
                     <p>Proyectamos contribuir al desarrollo académico de las próximas generaciones de alumnos; en aras de aportar herramientas que faciliten el aprendizaje y formación de los estudiantes. </p>
                 </div>
-                <div className="cardInfo lastCardInfo shadow" data-aos="zoom-in-down" data-aos-duration="1200">
+                <div className="cardInfo lastCardInfo shadow" data-aos="zoom-in" data-aos-duration="1200">
                     <h2>Un poco de historia</h2>
                     <p>Por extraño que parezca, Knowty inició como una pequeña página, cuyo propósito era tener a la mano fórmulas de Física. En función de ello, notamos que podíamos aportar más a los alumnos, de forma que añadimos nuevo contenido e integrantes al equipo.</p>
                 </div>

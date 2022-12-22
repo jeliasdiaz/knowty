@@ -2,17 +2,38 @@ import Latex from "react-latex"
 import { Link } from "react-router-dom"
 
 export const Trigonometria2 = () => {
-    
+
     const pitagorasOne = `$$c^2 = a^2 + b^2$$`
     const pitagorasTwo = `$$c = \\sqrt{a^2 + b^2}$$`
     const pitagorasThree = `$$\\sqrt{c^2 - b^2 = a}$$`
 
-    const seno = `$$\\frac{Cateto \\ opuesto}{Hipotenusa}$$`
-    const coseno = `$$\\frac{Cateto \\ adyacente}{Hipotenusa}$$`
-    const tan = `$$\\frac{Cateto \\ opuesto}{Cateto \\ adyacente}$$`
-    const cotan = `$$\\frac{Cateto \\ adyacente}{Cateto \\ opuesto}$$`
-    const sec = `$$\\frac{Hipotenusa}{Cateto \\ adyacente}$$`
-    const cosec = `$$\\frac{Hipotenusa}{Cateto \\ opuesto}$$`
+    const seno = `$$ \\textsf{Sen} = \\frac{\\textsf{Cateto \\ opuesto}}{ \\textsf{Hipotenusa}}$$`
+    const coseno = `$$\\textsf{Cos} = \\frac{\\textsf{Cateto \\ adyacente}}{\\textsf{Hipotenusa}}$$`
+    const tan = `$$\\textsf{Tan} = \\frac{\\textsf{Cateto \\ opuesto}}{\\textsf{Cateto \\ adyacente}}$$`
+    const cotan = `$$\\textsf{Cot} = \\frac{\\textsf{Cateto \\ adyacente}}{\\textsf{Cateto \\ opuesto}}$$`
+    const sec = `$$ \\textsf{Sec} = \\frac{\\textsf{Hipotenusa}}{\\textsf{Cateto \\ adyacente}}$$`
+    const cosec = `$$ \\textsf{Cosec} = \\frac{\\textsf{Hipotenusa}}{\\textsf{Cateto \\ opuesto}}$$`
+
+    const sen30 = `$$\\textsf{Sen} = \\frac{1}{2}$$`
+    const cos30 = `$$\\textsf{Cos} = \\frac{\\sqrt{3}}{2}$$`
+    const tan30 = `$$\\textsf{Tan} = \\frac{\\sqrt{3}}{3}$$`
+    const cot30 = `$$\\textsf{Cot} = \\sqrt{3}$$`
+    const sec30 = `$$\\textsf{Sec} = \\frac{2 \\sqrt{3}}{3}$$`
+    const cosec30 = `$$\\textsf{Cosec} = 2$$`
+
+    const sen45 = `$$\\textsf{Sen} = \\frac{\\sqrt{2}}{2}$$`
+    const cos45 = `$$\\textsf{Cos} = \\frac{\\sqrt{2}}{2}$$`
+    const tan45 = `$$\\textsf{Tan} = 1$$`
+    const cot45 = `$$\\textsf{Cot} = 1$$`
+    const sec45 = `$$\\textsf{Sec} = \\sqrt{2}$$`
+    const cosec45 = `$$\\textsf{Cosec} = \\sqrt{2}$$`
+
+    const sen60 = `$$\\textsf{Sen} = \\frac{\\sqrt{3}}{2}$$`
+    const cos60 = `$$\\textsf{Cos} = \\frac{1}{2}$$`
+    const tan60 = `$$\\textsf{Tan} = \\sqrt{3}$$`
+    const cot60 = `$$\\textsf{Cot} = \\frac{\\sqrt{3}}{3}$$`
+    const sec60 = `$$\\textsf{Sec} = 2$$`
+    const cosec60 = `$$\\textsf{Cosec} =\\frac{2 \\sqrt{3}}{3}$$`
 
     return (
         <div className="homeTrigonometria">
@@ -21,16 +42,16 @@ export const Trigonometria2 = () => {
                 <h1>Trigonometría</h1>
             </div>
             <nav data-aos="zoom-in" data-aos-duration="800" className="d-none d-sm-block">
-                    <ul className="pagination  pagination-md justify-content-center">
-                        <li className="page-item shadow-lg"><Link to="/trigonometria_2" className="text-decoration-none page-link">II periodo</Link></li>
+                <ul className="pagination  pagination-md justify-content-center">
+                    <li className="page-item shadow-lg"><Link to="/trigonometria_2" className="text-decoration-none page-link">II periodo</Link></li>
 
-                        <li className="page-item shadow-lg"><Link to="/trigonometria" className="text-decoration-none page-link" >III periodo</Link></li>
-                        
-                        <li className="page-item shadow-lg"><Link to="/trigonometria-practica" className="text-decoration-none page-link">Practica</Link></li>
+                    <li className="page-item shadow-lg"><Link to="/trigonometria" className="text-decoration-none page-link" >III periodo</Link></li>
 
-                    </ul>
-                </nav>
-            <div className="cardTrigonometria mb-5 shadow" data-aos="zoom-in" data-aos-duration="900">
+                    <li className="page-item shadow-lg"><Link to="/trigonometria-practica" className="text-decoration-none page-link">Practica</Link></li>
+
+                </ul>
+            </nav>
+            <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
                 <div>
                     <div>
                         <div >
@@ -48,7 +69,7 @@ export const Trigonometria2 = () => {
                             <p><b>Acutángulo:</b> Todos sus ángulos internos son agudos(menores a 90°) </p>
 
                             <img src="/img/trianguloObtuso.svg" alt="" className="w-25" />
-                            <p><b>Obtusángulo:</b> Posee un ángulo obtuso (mayor a 90° y menor a 180°</p>
+                            <p><b>Obtusángulo:</b> Posee un ángulo obtuso (mayor a 90° y menor a 180°)</p>
 
                             <img src="/img/trianguloRectangulo.svg" alt="" className="w-25" />
                             <p><b>Rectángulo:</b> Posee un ángulo recto (90°)</p>
@@ -79,18 +100,69 @@ export const Trigonometria2 = () => {
                         <div>
                             <h2>Razones trigonométricas</h2>
                             <p>Son la base de la trigonometría. En primer lugar, una razón consiste en la relación de dos valores. Teniendo esto en cuenta, las razones trigonométricas no son más que relaciones entre los valores de las longitudes de los lados de un triángulo rectángulo. Las 6 razones trigonométricas son las siguientes:</p>
-                            
-                            <Latex>{seno}</Latex><br /><br />
-                            <Latex>{coseno}</Latex><br /><br />
-                            <Latex>{tan}</Latex><br /><br />
-                            <Latex>{cotan}</Latex><br /><br />
-                            <Latex>{sec}</Latex><br /><br />
-                            <Latex>{cosec}</Latex><br /><br />
+
+                            <div>
+                                <div className="row">
+                                    <div className="col-6">
+                                        <Latex>{seno}</Latex><br /><br />
+                                        <Latex>{coseno}</Latex><br /><br />
+                                        <Latex>{tan}</Latex><br /><br />
+                                    </div>
+                                    <div className="col-6">
+                                        <Latex>{cotan}</Latex><br /><br />
+                                        <Latex>{sec}</Latex><br /><br />
+                                        <Latex>{cosec}</Latex><br /><br />
+                                    </div>
+                                </div>
+                            </div>
+
+
 
                             <button className="btn btn-secondary"><a href="https://youtu.be/wSw1CzVtuQk?list=PLVkfzhBCZCW172VWuZUrqztV_nTLTazk0" className="text-decoration-none text-white">Profundizar</a></button><br /><br />
                             <br /><br />
                             <h3>Razones trigonométricas para ángulos notables</h3>
-                            <img src="/img/razonesNotables.svg" alt="" className="quimicaEcuacion" />
+                            <table className="table table-bordered">
+                                <thead className="table-light">
+                                    <tr>
+                                        <th scope="col">30°</th>
+                                        <th scope="col">45°</th>
+                                        <th scope="col">60°</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><Latex>{sen30}</Latex></td>
+                                        <td><Latex>{sen45}</Latex></td>
+                                        <td><Latex>{sen60}</Latex></td>
+                                    </tr>
+                                    <tr>
+                                        <td><Latex>{cos30}</Latex></td>
+                                        <td><Latex>{cos45}</Latex></td>
+                                        <td><Latex>{cos60}</Latex></td>
+                                    </tr>
+                                    <tr>
+                                        <td><Latex>{tan30}</Latex></td>
+                                        <td><Latex>{tan45}</Latex></td>
+                                        <td><Latex>{tan60}</Latex></td>
+                                    </tr>
+                                    <tr>
+                                        <td><Latex>{cot30}</Latex></td>
+                                        <td><Latex>{cot45}</Latex></td>
+                                        <td><Latex>{cot60}</Latex></td>
+                                    </tr>
+                                    <tr>
+                                        <td><Latex>{sec30}</Latex></td>
+                                        <td><Latex>{sec45}</Latex></td>
+                                        <td><Latex>{sec60}</Latex></td>
+                                    </tr>
+                                    <tr>
+                                        <td><Latex>{cosec30}</Latex>d</td>
+                                        <td><Latex>{cosec45}</Latex></td>
+                                        <td><Latex>{cosec60}</Latex></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
                         </div>
                     </div>
                 </div>

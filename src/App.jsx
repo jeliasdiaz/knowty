@@ -35,6 +35,7 @@ import { InfoPage } from "./pages/InfoPage";
 import { FisicaPractica } from "./pages/Fisica/FisicaPractica";
 import { TrigonometriaPractica } from "./pages/Trigonometria/TrigonometriaPractica";
 
+
 function App() {
   useEffect(() => {
     AOS.init();

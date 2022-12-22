@@ -22,7 +22,7 @@ const Geometria1 = () => {
                     <li className="page-item shadow-lg"><Link to="/geometria_4" className="text-decoration-none page-link">Elipse</Link></li>
                 </ul>
             </nav>
-            <div className="cardTrigonometria mb-5 shadow" data-aos="zoom-in" data-aos-duration="900">
+            <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
                 <div>
                     <h2>Ecación canónica de la circunferencia con centro (h, k)</h2>
                     <Latex>{canonicaCircunferencia}</Latex><br /><br />

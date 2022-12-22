@@ -2,11 +2,12 @@ export const Estadistica = () => {
   return (
     <div>
       <img src="/img/waveThree.svg" alt="" />
-      <div className="homeEstadistica container">
+      <div className="homeEstadistica">
         <div className="textIntroducion shadow-lg">
           <h1>Estadística</h1>
         </div>
-        <div className="cardEnglish mb-5 shadow" data-aos="zoom-in" data-aos-duration="900">
+        
+        <div className="cardEnglish mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
           <div>
             <h2>Medidas de tendencia central</h2>
             <h5>Media</h5>

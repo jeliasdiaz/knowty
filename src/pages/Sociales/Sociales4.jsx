@@ -6,7 +6,7 @@ const Sociales = () => {
             <div className="textIntroducion shadow-lg">
                 <h1>Movimientos sociales</h1>
             </div>
-            <nav data-aos="zoom-in" data-aos-duration="800" className="d-none d-sm-block">
+            <nav data-aos="zoom-in" data-aos-duration="700" className="d-none d-sm-block">
                 <ul className="pagination  pagination-md justify-content-center">
                     <li className="page-item shadow-lg"><Link to="/sociales_1" className="text-decoration-none page-link">I periodo</Link></li>
 
@@ -17,7 +17,7 @@ const Sociales = () => {
                     <li className="page-item shadow-lg"><Link to="/sociales_4" className="text-decoration-none page-link">M. sociales</Link></li>
                 </ul>
             </nav>
-            <div className="cardTrigonometria mb-5 shadow" data-aos="zoom-in" data-aos-duration="900">
+            <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="900">
                 <div>
                     <h2>Movimientos sociales</h2>
                     <p>
