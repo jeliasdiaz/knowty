@@ -21,10 +21,10 @@ const Sociales = () => {
                 <div>
                     <h2>Movimientos sociales</h2>
                     <p>
-                        Consisten en grupos informales de personas cuyo fin reside en establecer un cambio social. Inicialmente poseían gran influencia del marxismo, sin embargo actualmente poseen diversas bases. Asimismo, suelen exigir modificaciones de ley y acciones que les otorgue ciudadanía. Por último, su consolidación se remonta al siglo XX. <br /> <br />
+                        Consisten en grupos informales de personas cuyo fin reside en establecer un cambio social. Inicialmente, poseían gran influencia del marxismo; sin embargo, actualmente poseen diversas bases. Asimismo, suelen exigir modificaciones de ley y acciones que les otorgue ciudadanía. Por último, su consolidación se remonta al siglo XX. <br /> <br />
 
-                        Por otro lado, surgen de una problematica común en aras de solucionar alguna represión, violencia, etc. Asi como presentar herramientas ante problematicas que no son atentidas por el estado. Es de añadir que los integrantes de estos grupos eran propensos a ser asesinados e incluso desaparecidos. <br /> <br />
-                        Entre los tipos de movimientos sociales tenemos: <br />Viejos movimientos: están relacionados al inicio de la consolidación marxista. De ahí que tuvieran participación en los partidos comunistas y obreros del siglo XX. <br /> <br />
+                        Por otro lado, surgen de una problemática común en aras de solucionar alguna represión, violencia, etc. Asi como presentar herramientas ante problemáticas que no son atendidas por el estado. Es de añadir que los integrantes de estos grupos eran propensos a ser asesinados e incluso desaparecidos. <br /> <br />
+                        Entre los tipos de movimientos sociales tenemos: <br />Viejos movimientos: están relacionados con el inicio de la consolidación marxista. De ahí que tuvieran participación en los partidos comunistas y obreros del siglo XX. <br /> <br />
                         Nuevos movimientos: Surgen a partir de demandas o inconvenientes sociales, caracterizados por la desobediencia civil.
                     </p>
                     <hr />
@@ -37,13 +37,13 @@ const Sociales = () => {
                         <li>Uno de los primeros grupos sociales que surgió</li>
                         <li>Artesanos se agrupan en organizaciones como <b>sociedades de ayuda mutua</b>, cuyo fin era prestarse auxilio en caso de enfermedad, vejez, etc.</li>
                         <li>Estuvieron a favor de la abolición de la esclavitud</li>
-                        <li>Solicitaron respeto hacia los resguardos indigenas</li>
-                        <li>Apoyaron la elección del José Hilario Lopez para la presidencia</li>
+                        <li>Solicitaron respeto hacia los resguardos indígenas</li>
+                        <li>Apoyaron la elección del José Hilario López para la presidencia</li>
                     </ul>
                     <h4>Movimientos campesinos</h4>
                     <ul>
-                        <li>Campesinos trataron de conservar sus tierras acudiendo a juicios, buscando ayuda de autoridades, etc. Puesto que para ese entonces, el latifundismo provacaba que la mayoría de la población estuviera sin acceso a la propiedad, por consiguiente la producción agricola</li>
-                        <li>Mexico en el siglo XX logra una revolución que tuvo como fin una repartición de tierras a campesinos</li>
+                        <li>Campesinos trataron de conservar sus tierras, acudiendo a juicios, buscando ayuda de autoridades, etc. Puesto que para ese entonces, el latifundismo provocaba que la mayoría de la población estuviera sin acceso a la propiedad, por consiguiente la producción agrícola</li>
+                        <li>México en el siglo XX logra una revolución que tuvo como fin una repartición de tierras a campesinos</li>
                         <li>Establecieron la reforma agraria</li>
                     </ul>
                     <h4>Movimientos obreros</h4>

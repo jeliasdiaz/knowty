@@ -98,6 +98,7 @@ body {
   padding: 8%;
   align-items: center;
 }
+
 .bx-chevron-right {
   color: #023246;
 }
@@ -253,7 +254,7 @@ h1 {
   color: #2b7ea1;
 }
 .ImgInfo {
-  width: 10%;
+  width: 8%;
   margin-top: 2%;
 }
 .infoTitle {

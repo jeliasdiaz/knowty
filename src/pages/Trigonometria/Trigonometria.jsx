@@ -76,7 +76,7 @@ export const Trigonometria = () => {
 
                         <h2>Ley del seno</h2>
                         <p>
-                            La usamos cuando en un triángulo, nos dan una pareja y un lado cualquiera. Dicho de otro modo, cuando poseemos el valor de un ángulo y su lado opuesto. <br /> <br /> De igual forma, hacemos uso de esta ley al poseer el valor dos lados y un ángulo opuesto a ellos.
+                            La usamos cuando, en un triángulo, nos dan una pareja y un lado cualquiera. Dicho de otro modo, cuando poseemos el valor de un ángulo y su lado opuesto. <br /> <br /> De igual forma, hacemos uso de esta ley al poseer el valor dos lados y un ángulo opuesto a ellos.
 
                             Por ejemplo: <br />
                             <img src="/img/leySenoEjemplo.svg" alt="" className="w-50" /><br />
@@ -111,7 +111,7 @@ export const Trigonometria = () => {
                             <Latex>{leyCosenoFour}</Latex><br /><br />
                             Aplicamos raiz cuadrada a ambos lados para eliminar la potencia que posee la x.
                             <br /><br />
-                            El otro caso, radica en tener el valor de todos los lados.
+                            Otra posibilidad, radica en tener el valor de todos los lados.
                             Por ejemplo: <br />
                             <img src="/img/leyCosenoEjemplo2.svg" alt="" className="w-50" /><br />
                             Definimos las razones de la siguiente forma: <br />

@@ -32,7 +32,7 @@ const Quimica = () => {
               <br />
               Peróxido de hidrogeno (I) = H<sub>2</sub> O<sub>2</sub>
             </p>
-            <h3>Sistematica</h3>
+            <h3>Sistemática</h3>
             <p>Se usa un prefijo griego: mono, di, tri, tetra, penta, hexa o hepta.</p>
             <h5>Ejemplos</h5>
             <p>
@@ -60,32 +60,32 @@ const Quimica = () => {
           <div>
             <h2>Funciones</h2>
             <h3>Óxidos basicos</h3>
-            <p>Está presente un metal con una molecula de oxigeno.</p>
+            <p>Está presente un metal con una molécula de oxígeno.</p>
             <h5>Fórmula</h5>
             <p>
               M<sub>2</sub>O<sub>x</sub>
               <br />
-              M = Simbolo del metal <br />
-              2 = Número de óxidación el oxígeno <br />
+              M = Símbolo del metal <br />
+              2 = Número de oxidación el oxígeno <br />
               O = Oxígeno <br />
               x = Número de oxidación del metal
             </p>
 
             <h3>Óxidos ácidos </h3>
             <p>
-              Está presente un no metal con una molecula de oxigeno.
+              Está presente un no metal con una molécula de oxígeno.
             </p>
             <h5>Fórmula</h5>
             <p>
               (NoM)<sub>2</sub>O<sub>x</sub>
               <br />
-              NoM = Simbolo del no metal <br />
-              2 = Número de óxidación el oxígeno <br />
+              NoM = Símbolo del no metal <br />
+              2 = Número de oxidación el oxígeno <br />
               O = Oxígeno <br />
               x = Número de oxidación del no metal
             </p>
             <h3>Resumen óxidos</h3>
-            <p>Por ejemplo, si tenemos el óxido de fosforo  (V), lo escribimos de atrás hacia adelante. Es decir, <u>óxido</u> O, <u>fosforo</u> P <u>(V)</u> O<sub>5</sub>. El resultado sería:
+            <p>Por ejemplo, si tenemos el óxido de fósforo  (V), lo escribimos de atrás hacia adelante. Es decir, <u>óxido</u> O, <u>fósforo</u> P <u>(V)</u> O<sub>5</sub>. El resultado sería:
               <br />
               P<sub>2</sub>O<sub>5</sub>. <br /> <br />
 
@@ -110,7 +110,7 @@ const Quimica = () => {
 
           <div>
             <h3>Peróxidos</h3>
-            <p>oxígeno (O<sub>2</sub>)+ metales y excepción del Hidrógeno</p>
+            <p>Oxígeno (O<sub>2</sub>)+ metales y excepción del Hidrógeno</p>
             <h5>Formula</h5>
             <p>
               A<sub>2</sub>(O<sub>2</sub>)<sub>n</sub>
@@ -130,12 +130,12 @@ const Quimica = () => {
           <div>
             <h3>Ácidos</h3>
             <p>
-              Formados por un ión de hidrógeno y un anión <br />Se caracterizan por:
+              Formados por un ion de hidrógeno y un anión <br />Se caracterizan por:
             </p>
             <ul>
               <li>Ceder protones en medio acuoso</li>
               <li>Enrojecen el papel tornasol azul</li>
-              <li>En presencia de la fenolftaleina se torna incolora</li>
+              <li>En presencia de la fenolftaleína se torna incolora</li>
               <li>Sabor agrio picante</li>
             </ul>
             <p>
@@ -167,7 +167,7 @@ const Quimica = () => {
                 </tr>
                 <tr>
                   <td>H<sub>2</sub>SO<sub>4</sub></td>
-                  <td>Ácido sulfurico</td>
+                  <td>Ácido sulfúrico</td>
                 </tr>
                 <tr>
                   <td>HClO</td>
@@ -204,9 +204,9 @@ const Quimica = () => {
             </table>
             <h5>Resumen ácidos</h5>
             <p>
-              Los ácidos hidrácidos contienen hidrógeno y un elemento no metal en su composición (grupo VI-A y VII-A. Solo trabajan con su primera valencia)(H<sub>x</sub>E<sub>y</sub>). En nomenclatura sistemática poseen el sufijo <i>uro</i>. Asimismo, en la tradicional se agrega al final <i>hídrico</i>).
+              Los ácidos hidrácidos contienen hidrógeno y un elemento no metal en su composición (grupo VI-A y VII-A. Solo trabajan con su primera valencia)(H<sub>x</sub>E<sub>y</sub>). En nomenclatura sistemática poseen el sufijo <i>uro</i>. Asimismo, en la tradicional se agrega al final <i>hídrico</i>.
               <br /><br />
-              Por otro lado, los ácidos oxácidos contienen hidrógeno, oxígeno y un elemento no metal. En la nomenclatura tradicional, se usa la palabra <i>Ácido</i> seguido de la raíz del elemento no metal y la terminación -hipo-oso, -oso, -ico, -per-ico. <br /> <br />
+              Por otro lado, los ácidos oxácidos contienen hidrógeno, oxígeno y un elemento no metal. En la nomenclatura tradicional, se usa la palabra <i>Ácido</i>, seguido de la raíz del elemento no metal y la terminación -hipo-oso, -oso, -ico, -per-ico. <br /> <br />
 
             </p>
             <hr />
@@ -224,7 +224,7 @@ const Quimica = () => {
             <h5>Ejemplos</h5>
             <p>Bromuro de calcio = CaBr<sub>2</sub> <br />Calcio posee valencia 2 (grupo II-A) y el bromo en este caso -1, por tanto, debemos añadir otra molécula de bromo para estabilizar la ecuación, dando como resultado 2 - 2 = 0.</p>
 
-            <p>Sulfato de rubidio = Rb<sub>2</sub>SO<sub>4</sub><br />Rubidio posee valencia 1 (grupo I-A) y el oxígeno -2, por tanto al restar 8 - 2 = 6, dando como resultado la valencia del azufre, por tanto, el resultado es 2 + 6 - 8 = 0. Es de añadir que por el nombre de la molécula y la terminación ato podemos asumir que está trabajando con la valencia 6. <br /> <br />
+            <p>Sulfato de rubidio = Rb<sub>2</sub>SO<sub>4</sub><br />Rubidio posee valencia 1 (grupo I-A) y el oxígeno -2, pues al restar 8 - 2 = 6, dando como resultado la valencia del azufre, en consecuencia, el resultado es 2 + 6 - 8 = 0. Es de añadir que por el nombre de la molécula y la terminación ato podemos asumir que está trabajando con la valencia 6. <br /> <br />
 
             </p>
           </div>
@@ -234,7 +234,7 @@ const Quimica = () => {
             <p>
               Para identificar una sal de un ácido, puedes tener en cuenta que las sales, están compuestas por un no metal y un metal, las que no posean oxígeno son haloideas (CaBr<sub>2</sub>). Por otro lado, las que poseen oxígeno son ternarias (Li<sub>2</sub>SO<sub>4</sub>). Por último, las sales que posean hidrógeno, oxígeno, E. no metal y E. metal, es cuaternaria. <br /> <br />
 
-              En lo que concierne a los ácidos, están formados por un elemento no metal y el hidrógeno en el caso de los hidráciddos. En cuanto a los oxácidos, su composición radica en hidrógeno + E. no metal + oxígeno.
+              En lo que concierne a los ácidos, están formados por un elemento no metal y el hidrógeno, en el caso de los hidrácidos. En cuanto a los oxácidos, su composición radica en hidrógeno + E. no metal + oxígeno.
             </p>
             <hr />
           </div>
@@ -280,7 +280,7 @@ const Quimica = () => {
 
             <h4>Balanceo por método algebraico</h4>
             <p>
-              Posee cierta relación con el método de tanteo, reside en que ambos darán un mismo resultado; a diferencia del método redox, el cual emplea un procedimiento que se aleja inicialmente de los métodos por tanteo y algebraico. Aclarado esto, el método algebraico consiste en un proceso matemático, cuyo primer paso es asignar a cada reactivo y producto una letra del abecedario con el fin de determinar los coeficientes, por ejemplo a, b, c, d... <br /> <br />
+              Posee cierta relación con el método de tanteo, reside en que ambos darán un mismo resultado; a diferencia del método redox, el cual emplea un procedimiento que se aleja inicialmente de los métodos por tanteo y algebraico. Aclarado esto, el método algebraico consiste en un proceso matemático, cuyo primer paso es asignar a cada reactivo y producto una letra del abecedario con el fin de determinar los coeficientes, por ejemplo, a, b, c, d... <br /> <br />
 
               Pasos a realizar:
             </p>
@@ -295,11 +295,11 @@ const Quimica = () => {
             <p>
               Por ejemplo, tenemos la siguiente ecuación: <br />
               <img src="/img/metodoAlgebraico-1.svg" alt="" /><br />
-              Fe2O3, lo identificamos como <b>a</b>, C lo identificamos como <b>b</b>. Respecto a los productos, Fe lo identificamos con la letra <b>c</b> y, por último CO con la letra <b>d</b>. Gráficamente luce de la siguiente forma: <br />
+              Fe2O3, lo identificamos como <b>a</b>, C lo identificamos como <b>b</b>. Respecto a los productos, Fe lo identificamos con la letra <b>c</b> y, por último, CO con la letra <b>d</b>. Gráficamente luce de la siguiente forma: <br />
               <img src="/img/metodoAlgebraico-2.png" alt="" id="metodoAlgebraico2" /><br />
               Posteriormente, usamos los subíndices cómo coeficientes de las letras respectivamente. Es decir: <br />
               <img src="/img/metodoAlgebraico-3.svg" alt="" /> <br />
-              Después, reconocemos la letra que se presenta más veces sin tener en cuenta los coeficientes. En este caso, tanto <b>a</b> como <b>d</b> se repiten el mismo número de veces, por tanto podemos usar cualquiera de los dos. Le asignamos un valor arbitrario a cualquiera de las letras, a nuestra elección, usaremos la letra <b>a</b>, con un valor de dos. Reemplazamos: <br />
+              Después, reconocemos la letra que se presenta más veces sin tener en cuenta los coeficientes. En este caso, tanto <b>a</b> como <b>d</b> se repiten el mismo número de veces, como resultado, podemos usar cualquiera de los dos. Le asignamos un valor arbitrario a cualquiera de las letras, a nuestra elección, usaremos la letra <b>a</b>, con un valor de dos. Reemplazamos: <br />
               <img src="/img/metodoAlgebraico-4.svg" alt="" /><br />
               <img src="/img/metodoAlgebraico-5.svg" alt="" /><br />
               Simplificamos: <br />

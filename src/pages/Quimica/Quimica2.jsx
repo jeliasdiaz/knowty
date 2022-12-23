@@ -45,7 +45,7 @@ const Quimica = () => {
                         <h4>Electronegatividad</h4>
                         <ul>
                             <li>Capacidad de un átomo para atraer electrones</li>
-                            <li>Aumenta hacía la derecha y hacia arriba en la tabla periódica</li>
+                            <li>Aumenta hacia la derecha y hacia arriba en la tabla periódica</li>
                         </ul>
                         <hr />
                     </div>
@@ -57,7 +57,7 @@ const Quimica = () => {
                             <li>Son blandos</li>
                             <li>Brillantes</li>
                             <li>Puntos de fusión bajos</li>
-                            <li>Se combinan facilmente con oxígeno</li>
+                            <li>Se combinan fácilmente con oxígeno</li>
                             <li>Propensos a perder más de un electrón de valencia</li>
                         </ul>
 
@@ -90,8 +90,8 @@ const Quimica = () => {
                         <h4>Anfígenos</h4>
                         <ul>
                             <li>No reaccionan al agua</li>
-                            <li>Con el oxigeno componen dióxido que con agua originan oxácidos</li>
-                            <li>Reaccionan con el ácido nítrico concentrado, excepto el oxigeno</li>
+                            <li>Con el oxígeno componen dióxido que con agua originan oxácidos</li>
+                            <li>Reaccionan con el ácido nítrico concentrado, excepto el oxígeno</li>
                         </ul>
 
                         <h4>Halógenos</h4>
@@ -120,12 +120,12 @@ const Quimica = () => {
                         <h2>Compuestos iónicos</h2>
                         <ul>
                             <li>Forman sales sólidas</li>
-                            <li>No forman moléculas sino redes cristalinas. Por tanto, son solidos a temperatura ambiente</li>
+                            <li>No forman moléculas sino redes cristalinas. Por tanto, son sólidos a temperatura ambiente</li>
                             <li>La forma de cristal es cúbica, rómbica o hexagonal</li>
                             <li>Pueden ser duros o frágiles</li>
                             <li>Puntos de fusión y ebullición altos</li>
                             <li>Solubles en disolventes polares como el agua</li>
-                            <li>En estado solido no conducen la corriente eléctrica, pero fundidos o disueltos en agua conducen la corriente eléctrica, debido a que los iones se separan y pueden moverse de forma independiente</li>
+                            <li>En estado sólido no conducen la corriente eléctrica, pero fundidos o disueltos en agua conducen la corriente eléctrica, debido a que los iones se separan y pueden moverse de forma independiente</li>
                         </ul>
 
                         <h2>Compuestos covalentes</h2>

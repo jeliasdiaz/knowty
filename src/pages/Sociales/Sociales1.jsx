@@ -42,7 +42,7 @@ const Sociales = () => {
                     <ul>
                         <li>Aquí se realizan actividades ilícitas</li>
                         <li>Poca presencia estatal</li>
-                        <li>Mucha probreza</li>
+                        <li>Mucha poobreza</li>
                     </ul>
                     <h3>Zonas históricas y culturales</h3>
                     <ul>
@@ -68,8 +68,8 @@ const Sociales = () => {
 
                     <h3>Diferencias entre un territorio y otro</h3>
                     <ul>
-                        <li>Limites: Son líneas divisorias que separan uno o más territorios</li>
-                        <li>Fronteras: Son las áreas de transiciones entre dos unidades política administrativas</li>
+                        <li>Límites: Son líneas divisorias que separan uno o más territorios</li>
+                        <li>Fronteras: Son las áreas de transiciones entre dos unidades políticas</li>
                     </ul>
                     <h2>Territorialidad</h2>
                     <ul>
@@ -80,7 +80,7 @@ const Sociales = () => {
                     <h3>Marcación</h3>
                     <ul>
                         <li>Hasta dónde se ejerce el cambio</li>
-                        <li>Cadenas montañosas, rios, lagos, desiertos, etc.</li>
+                        <li>Cadenas montañosas, ríos, lagos, desiertos, etc.</li>
                     </ul>
                     <h3>Instauración</h3>
                     <ul>
@@ -95,7 +95,7 @@ const Sociales = () => {
                     <h2>Territorialización</h2>
                     <ul>
                         <li>Proceso de protección y mantenimiento de los territorios, sus recursos y sus componentes sociales y culturales</li>
-                        <li>Busca mantener el control y ejercer su defenza.</li>
+                        <li>Busca mantener el control y ejercer su defensa.</li>
                     </ul>
                     <h3>Gentrificación</h3>
                     <ul>
@@ -165,7 +165,7 @@ const Sociales = () => {
                         <li>Falta de productividad agrícola</li>
                         <li>Escasa influencia en las decisiones de orden mundial</li>
                     </ul>
-                    <h4>Semi periferia</h4>
+                    <h4>Semiperiferia</h4>
                     <ul>
                         <li>Países en escalas intermedias del desarrollo</li>
                         <li>Niveles de productividad por encima de los países en vías de desarrollo</li>

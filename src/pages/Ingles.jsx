@@ -33,7 +33,7 @@ const Inglés = () => {
                         <h6>Affirmative</h6>
                         <p>Subject + <b>will</b> + verb in base form + complement <br /> I <b>will</b> help you <br />I <b>will</b> go to the cafeteria</p>
                         <h6>Negative</h6>
-                        <p>Subject + <b>will + not/ won't</b> + vern in base form + complement <br />
+                        <p>Subject + <b>will + not/ won't</b> + verb in base form + complement <br />
                          They <b>won't</b> travel to Jamaica <br />She <b>won't</b> say to you her number</p>
                         <h6>Interrogative</h6>
                         <p><b>Will</b> + subject + verb in base form + complement + ? <br /> <b>Will</b> they come in? <br />
@@ -103,9 +103,8 @@ const Inglés = () => {
 
                     </div>
                     <h2>Determinants a/an</h2>
-                    <p>The easiest way to use a/an is to identify if the word we want to allude to begins with a vowel, if so we use an (an apple). If it starts with a consonant we use a (a pizza). It should be noted that there are times when this trick doesn't apply.</p>
+                    <p>The easiest way to use a/an is to identify if the word we want to allude to begins with a vowel, if so we use an (an apple). If it starts with a consonant, we use a (a pizza). It should be noted that there are times when this trick doesn't apply.</p>
                     <br />
-                    <button className="btn btn-secondary"><a href="https://youtu.be/SSCBzLeLUJM" className="text-decoration-none text-white">Profundizar</a></button>
 
                 </div>
             </div>

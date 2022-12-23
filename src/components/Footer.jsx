@@ -15,7 +15,7 @@ export const Footer = () => {
             </div>
             <div className="teamCard" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>Wilmar Fontalvo</h4>
-              <p>Creador de videos y encargado principal de Youtube</p>
+              <p>Creador de videos y encargado principal de YouTube</p>
               <i class='bx bxl-youtube bx-md text-black position-absolute bottom-0 end-0 mb-2' ></i>
 
             </div>
@@ -47,7 +47,7 @@ export const Footer = () => {
             </div>
             <div className="teamCard" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>Wilmar Fontalvo</h4>
-              <p>Creador de videos y encargado principal de Youtube</p>
+              <p>Creador de videos y encargado principal de YouTube</p>
               <i class='bx bxl-youtube bx-sm text-black position-absolute bottom-0 end-0 mb-2' ></i>
             </div>
           </div>

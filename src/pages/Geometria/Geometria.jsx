@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export const Geometria = () => {
 
-    
+
     return (
         <div className="homeGeometria" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
@@ -28,15 +28,15 @@ export const Geometria = () => {
                         y<sup>2</sup> = 4Px <br />
                     </p>
 
-                    <p>Si P (distancia focal) es negativa la parábola se inclina a la izquierda. <br />
+                    <p>Si P (distancia focal) es negativa, la parábola se inclina a la izquierda. <br />
 
-                        Si P es positiva la parábola se inclina a la derecha. </p>
+                    Si P es positiva, la parábola se inclina a la derecha. </p>
 
                     <h5>Eje de simetría Y:</h5>
-                    <p>Si P (distancia focal) es negativa la parábola se inclina hacia abajo. <br />
+                    <p>Si P (distancia focal) es negativa, la parábola se inclina hacia abajo. <br />
 
-                        Si P es positiva la parábola se inclina hacia arriba. </p>
-                        <p>
+                    Si P es positiva, la parábola se inclina hacia arriba. </p>
+                    <p>
                         x<sup>2</sup> = 4Py <br />
                     </p>
                     <hr />

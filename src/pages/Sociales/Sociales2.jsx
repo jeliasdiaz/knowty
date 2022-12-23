@@ -44,7 +44,7 @@ const Sociales = () => {
                         <li>Sistema económico en el que estamos inmersos</li>
                         <li>Establece la libertad de mercado</li>
                         <li>No intervención estatal</li>
-                        <li>Gasto publico debe ser mínimo</li>
+                        <li>Gasto público debe ser mínimo</li>
                         <li>Los gobiernos no deben establecer regulaciones que afecten a las actividades económicas</li>
                         <li>Defiende la competencia individual y privatización</li>
                         <li>Reducción de impuestos</li>
@@ -93,7 +93,7 @@ const Sociales = () => {
                 <div>
                     <h2>Positivismo</h2>
                     <ul>
-                        <li>Doctrina de pensamiento que postula el metodo cientifico como única forma de obtención de conocimiento</li>
+                        <li>Doctrina de pensamiento que postula el metodo científico como única forma de obtención de conocimiento</li>
                         <li>La experiencia y verificación son esenciales doctrina</li>
                         <li>Todo conocimiento debe llevar al progreso del ser humano</li>
                     </ul>

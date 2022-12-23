@@ -78,7 +78,7 @@ function App() {
         <Route path="/trigonometria-menu" element={<TrigonometriaMenu />} />
         <Route path="/info" element={<InfoPage />} />
         <Route path="/fisica-practica" element={<FisicaPractica />} />
-        <Route path="/trigonometria-practica" element={<TrigonometriaPractica/>} />
+        <Route path="/trigonometria-practica" element={<TrigonometriaPractica />} />
       </Routes>
 
       <Footer />

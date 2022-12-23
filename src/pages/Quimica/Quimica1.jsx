@@ -120,22 +120,23 @@ const Quimica = () => {
 
                         <p><b>Volumen:</b> espacio que ocupa un cuerpo</p>
 
-                        <p><b>Incercia:</b> característica que impide a la materia moverse sin intervención de una fuerza externa</p>
+                        <p><b>Inercia:</b> característica que impide a la materia moverse sin intervención de una fuerza externa</p>
 
                         <p><b>Impenetrabilidad:</b> consisten en que un cuerpo no puede ocupar el espacio de otro cuerpo al mismo tiempo</p>
 
-                        <p><b>Porosidad:</b> espacio que existe entre las particulas</p>
+                        <p><b>Porosidad:</b> espacio que existe entre las partículas</p>
 
                         <h4>Específicas</h4>
                         <p><b>Punto de fusión:</b> es la temperatura a la que una sustancia sólida se funde, pasando al estado líquido</p>
 
                         <p><b>Punto de ebullición:</b> es la temperatura que un líquido debe alcanzar para pasar al estado gaseoso</p>
 
-                        <p><b>Densidad:</b> es la relación entre la masa y el volumen de un cuerpo. Es elevada en la mayoría de solidos, baja en los líquidos y, aún menor en los gases</p>
+                        <p><b>Densidad:</b> es la relación entre la masa y el volumen de un cuerpo. Es elevada en la mayoría de sólidos, baja en los líquidos y, aún menor en los gases</p>
 
                         <h6>Conductividad</h6>
                         <p><b>Térmica:</b> capacidad de un material para transferir calor.</p>
-                        <p><b>Eléctrica:</b> capacidad de un material de conducir corriente eléctrica. Por ejemplo los metales</p>
+
+                        <p><b>Eléctrica:</b> capacidad de un material de conducir corriente eléctrica. Por ejemplo, los metales</p>
 
                         <p><b>Dilatación:</b> cambio de dimensiones que presenta la materia en diferentes estados al variar la temperatura con una presión constante</p>
 
@@ -168,13 +169,13 @@ const Quimica = () => {
                         <p>Este método depende de la distribución de los componentes de la mezcla entre dos fases inmiscibles. Una fase móvil, llamada activa, transporta las sustancias que se separaron y que progresa en relación con otra, denominada fase estacionaria. Ej: Separación de pigmentos vegetales en un papel</p>
 
                         <h4>Sedimentación - Heterogénea</h4>
-                        <p>Es una operación basada en la diferencia de densidades de los componentes de la mezcla, que permite separar mezclas heterogéneas de un solido en un liquido mediante reposo o precipitación. Tratamiento de aguas residuales</p>
+                        <p>Es una operación basada en la diferencia de densidades de los componentes de la mezcla, que permite separar mezclas heterogéneas de un sólido en un líquido mediante reposo o precipitación. Tratamiento de aguas residuales</p>
 
                         <h4>Decantación - Heterogénea</h4>
-                        <p>Separa dos líquidos con diferentes densidades o una mezcla constituida por un solido insoluble en un liquido. Se basa en la diferencia de densidades. Ej: Separación de los sedimentos del vidrio</p>
+                        <p>Separa dos líquidos con diferentes densidades o una mezcla constituida por un sólido insoluble en un líquido. Se basa en la diferencia de densidades. Ej: Separación de los sedimentos del vidrio</p>
 
                         <h4>Filtración - Heterogénea</h4>
-                        <p>Se trata de una operación que permite separar mezclas heterogéneas de un sólido insoluble en un liquido. Se hace pasar a través de un papel filtro, el sólido permanece en la superficie del papel, mientras que el otro componente pasará. Ej: Filtración del café molido del café</p>
+                        <p>Se trata de una operación que permite separar mezclas heterogéneas de un sólido insoluble en un líquido. Se hace pasar a través de un papel filtro, el sólido permanece en la superficie del papel, mientras que el otro componente pasará. Ej: Filtración del café molido del café</p>
 
                         <h4>Centrifugación - Heterogénea</h4>
                         <p>Consiste en la separación de materiales de diferentes densidades que se componen una mezcla. Para lo cual, la mezcla se coloca dentro de un aparato llamado centrifuga que tiene el movimiento de rotación constante y rápido, lo cual hace que las partículas con mayor densidad vayan al fondo y las más livianas queden en la parte superior</p>
@@ -183,13 +184,13 @@ const Quimica = () => {
                         <p>Separar con un imán los componentes de una mezcla de un material magnético de otro que no lo es</p>
 
                         <h4>Tamización - Heterogénea</h4>
-                        <p>Método de separar mezclas con componentes solidos con diferentes tamaños, que pasan por un tamiz</p>
+                        <p>Método de separar mezclas con componentes sólidos con diferentes tamaños, que pasan por un tamiz</p>
 
                         <h4>Electroforesis - Homogénea</h4>
                         <p>Técnica de separación de mezclas basada en la carga eléctrica de las sustancias presentes en una mezcla. Consiste en colocar la mezcla y hacer pasar una corriente eléctrica, de tal forma que las sustancias con carga positiva se mueven hacia el polo negativo, mientras las sustancias cargadas negativamente se mueven al polo positivo. Es fundamental para el análisis de muestras biológicas, la cual sirve para separar proteínas y ácidos nucleicos, etc.</p>
 
                         <h4>Sublimación - Heterogénea</h4>
-                        <p>Paso de un solido a gas sin pasar por el estado liquido. Se usa la sublimación para separa mezclas de compuestos orgánicos, donde alguno de los compuestos puede sublimar. Ej: Por ejemplo, en una mezcla de arena y yodo se puede separar el yodo calentándolo. Este pasa al estado gaseoso subiendo y cuando pasa por una superficie fría vuelve a solidificarse</p>
+                        <p>Paso de un sólido a gas sin pasar por el estado líquido. Se usa la sublimación para separar mezclas de compuestos orgánicos, donde alguno de los compuestos puede sublimar. Ej: Por ejemplo, en una mezcla de arena y yodo se puede separar el yodo calentándolo. Este pasa al estado gaseoso subiendo y cuando pasa por una superficie fría vuelve a solidificarse</p>
                         <hr />
                     </div>
 
@@ -199,10 +200,10 @@ const Quimica = () => {
 
                         <h4>Modelo atómico de Dalton</h4>
                         <ul>
-                            <li>Plantea la idea de un átomo macizo, asimismo es quien rescata las ideas de demócrito (átomos son indivisibles)</li>
+                            <li>Plantea la idea de un átomo macizo, asimismo es quien rescata las ideas de Demócrito (átomos son indivisibles)</li>
                             <li>Los átomos son partículas indivisibles, de los cuales se componen los elementos</li>
                             <li>Los átomos de un mismo elemento son iguales y viceversa</li>
-                            <li>Los compuestos surgen al combina átomos de dos o más elementos</li>
+                            <li>Los compuestos surgen al combinar átomos de dos o más elementos</li>
                         </ul>
                         <h6>Postuló lo siguiente:</h6>
                         <ul>
@@ -219,7 +220,7 @@ const Quimica = () => {
                             <li>El átomo es neutro, las cargas positivas se compensan con las negativas y viceversa</li>
                             <li>Descubrió el electrón</li>
                             <li>Este modelo no era estático, sino que los electrones podían cambiar su posición en la esfera siempre y cuando las cargas fueran compensadas</li>
-                            <li>Para llegar a estas conclusiones Thomson realizó varios experimientos, uno de estos, consistió en utilizar tubos de rayos catódicos al vacio. El rayo se detecta al pintar el extremo del tubo correspondiente al ánodo con fósforo, posterior al impacto del rayo, el fósforo produce una chispa y así es detectado, lo que realizó fue lanzar partículas alfa (núcleos de helio) contra una lámina de oro, observando que la mayoría de partículas atravesaban la lámina como si nada y otras pocas rebotaban. A partir de esto, dedujo que si las partículas alfa atraviesan el oro es porque los átomos deben tener mucho espacio vacío y, algunas al rebotar es porque deben estar chocando con esa parte del átomo que lleva carga positiva, siendo comparativamente más pequeña
+                            <li>Para llegar a estas conclusiones, Thomson realizó varios experimentos, uno de estos, consistió en utilizar tubos de rayos catódicos al vacío. El rayo se detecta al pintar el extremo del tubo correspondiente al ánodo con fósforo, posterior al impacto del rayo, el fósforo produce una chispa y así es detectado, lo que realizó fue lanzar partículas alfa (núcleos de helio) contra una lámina de oro, observando que la mayoría de partículas atravesaban la lámina como si nada y otras pocas rebotaban. A partir de esto, dedujo que si las partículas alfa atraviesan el oro es porque los átomos deben tener mucho espacio vacío y, cuando algunas de estas partículas rebotan, se debe a que están chocando con esa parte del átomo que lleva carga positiva, siendo comparativamente más pequeña
                             </li>
                         </ul>
 

@@ -84,14 +84,14 @@ export const Estadistica = () => {
             <h2>Medidas de dispersión</h2>
             <p>Consisten en números que proporcionan información de la variabilidad de los datos. Dicho de otro modo, indican que tan juntos o separados se encuentran los datos en una distribución. Otro concepto es: evalúan la homogeneidad de un conjunto de datos a través de varios promedios.
               <br /><br />
-              Es menester añadir que, para hallar la dispersión usamos el rango cuyo concepto es la sustracción del dato mayor de un conjunto de datos menos el dato menor de tal grupo.
+              Es menester añadir que, para hallar la dispersión, usamos el rango cuyo concepto es la sustracción del dato mayor de un conjunto de datos menos el dato menor de tal grupo.
               Entre las medidas de dispersión tenemos:</p>
 
             <h5>Varianza</h5>
             <p>Su fin es representar la variabilidad de un conjunto de datos respecto a la media aritmética de los mismos. Se define como la media de los cuadrados de las desviaciones sobre la media.</p>
             <img src="/img/varianzaFormula.svg" alt="" />
             <br /> <br />
-            <h5>Desvación estándar</h5>
+            <h5>Desviación estándar</h5>
             <p>
               Su propósito es medir la dispersión de una distribución de datos. A modo de ejemplo, entre más dispersa está una distribución de datos, más grande es su desviación estándar y viceversa. Dicho en otros términos, es la raíz cuadrada de la varianza. </p>
             <h6>Fórmula</h6>
@@ -111,7 +111,7 @@ export const Estadistica = () => {
               10 + 6 + 1 = 17 <br />
               <sup>17</sup>/<sub>3</sub> = 5.6 <br /> <br />
 
-              Las notas de Juan se encuentran lejos de la media, sin importar que tenga un 10, la dispersión de sus datos es heterogéneos y la dispersión de David es menor, por lo tanto es homogénea.
+              Las notas de Juan se encuentran lejos de la media sin importar que tenga un 10, la dispersión de sus datos son heterogéneos y la dispersión de David es menor, por lo tanto, es homogénea.
 
               En conclusión, David obtendrá mejor puesto y promedio que Juan porque sus notas poseen poca dispersión.
 

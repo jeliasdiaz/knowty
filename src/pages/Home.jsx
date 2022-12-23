@@ -36,7 +36,6 @@ export const Home = () => {
 
               <div className="subjectsContainer d-none d-sm-block" >
                 <div className="d-flex">
-
                   <Link to="/estadistica" className="text-decoration-none text-black">
                     <div className="subjectLink d-flex shadow" data-aos="zoom-in-down" data-aos-duration="1400">
                       <img src="/img/estadisticaIcon.png" alt="" className="w-25 pe-2 " />
@@ -44,6 +43,7 @@ export const Home = () => {
                       <i className='bx bx-chevron-right bx-lg '></i>
                     </div>
                   </Link>
+
                   <Link to="/cinematica" className="text-decoration-none text-black ps-3">
                     <div className="subjectLink d-flex shadow" data-aos="zoom-in-down" data-aos-duration="1400">
                       <img src="/img/fisicaIcon.png" alt="" className="w-25 pe-2 " />
@@ -54,7 +54,6 @@ export const Home = () => {
                 </div>
 
                 <div className="d-flex">
-
                   <Link to="/geometria_1" className="text-decoration-none text-black">
                     <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400">
                       <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2 " />
@@ -62,6 +61,7 @@ export const Home = () => {
                       <i className='bx bx-chevron-right bx-lg '></i>
                     </div>
                   </Link>
+
                   <Link to="/ingles" className="text-decoration-none text-black ps-3">
                     <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400">
                       <img src="/img/englishIcon.png" alt="" className="w-25 pe-2 " />
@@ -72,7 +72,6 @@ export const Home = () => {
                 </div>
 
                 <div className="d-flex">
-
                   <Link to="/quimica_1" className="text-decoration-none text-black">
                     <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400">
                       <img src="/img/quimicaIcon.png" alt="" className="w-25 pe-2 " />
@@ -89,14 +88,11 @@ export const Home = () => {
                   </Link>
                 </div>
 
-
-
-
                 <Link to="/trigonometria_2" className="text-decoration-none text-black">
                   <div className="subjectLink d-flex shadow mt-3 subjectLinkTrigonometria" data-aos="zoom-in-down" data-aos-duration="1400">
                     <img src="/img/trigonometriaIcon.png" alt="" className="w-25 pe-2 " />
-                    <h4 className=" ps-2">Trigonometría</h4>
-                    <i className='bx bx-chevron-right bx-md'></i>
+                    <h4 className="ps-2">Trigonometría</h4>
+                    <i className='bx bx-chevron-right bx-lg'></i>
                   </div>
                 </Link>
               </div>

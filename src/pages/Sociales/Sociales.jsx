@@ -37,7 +37,7 @@ const Sociales = () => {
                     <b>Extras</b>
                     <ul>
                         <li>Alias Timochenko es quien participa en los acuerdos de paz en 2016</li>
-                        <li>El fundador de las FARC es alias Tirofijo. Actualmente alias Timochenko está en la comandancia.</li>
+                        <li>El fundador de las FARC es alias Tirofijo. Actualmente, alias Timochenko está en la comandancia.</li>
                     </ul>
                     <b>Líderes:</b>
                         <ul>
@@ -49,7 +49,7 @@ const Sociales = () => {
                 </div>
 
                 <div>
-                    <h2>ELN (Ejercito de liberación nacional)</h2>
+                    <h2>ELN (Ejército de liberación nacional)</h2>
                     <p>
                         <b>Fundador:</b> Fabio Vásquez Castaño <br />
                         <b>Máximo pensador:</b> Camilo Torres <br />
@@ -76,7 +76,7 @@ const Sociales = () => {
                 </div>
 
                 <div>
-                    <h2>EPL (Ejercito popular de liberación)</h2>
+                    <h2>EPL (Ejército popular de liberación)</h2>
                     <p>
                         <b>Fundación:</b> 1967 <br />
                         <b>Contexto internacional:</b> Guerra fría <br />
@@ -92,9 +92,9 @@ const Sociales = () => {
                     <ul>
                         <li>Pedro Vásquez Rondón</li>
                         <li>Libardo Mora Toro</li>
-                        <li>Oscar William Calvo</li>
+                        <li>Óscar William Calvo</li>
                         <li>Ernesto Rojas Ocampo</li>
-                        <li>Bernardo Gutierrez</li>
+                        <li>Bernardo Gutiérrez</li>
                     </ul>
                     <b>A tener en cuenta:</b>
                     <ul>
@@ -104,7 +104,7 @@ const Sociales = () => {
                     </ul>
                     <b>Extras:</b>
                     <ul>
-                        <li>Lideres sobresalientes a nivel nacional</li>
+                        <li>Líderes sobresalientes a nivel nacional</li>
                         <li>Sus integrantes son de origen caribeño</li>
                         <li>Operaron en lugares como La Guajira, Córdoba, Sucre y Magdalena</li>
                         <li>Tercera guerrilla más numerosa</li>
@@ -137,7 +137,7 @@ const Sociales = () => {
                     <b>Actos emblemáticos</b>
                     <ul>
                         <li>Toma del palacio de justicia</li>
-                        <li>Robo de la espada de bolivar</li>
+                        <li>Robo de la espada de bolÍvar</li>
                         <li>Robo de armas del cantón norte</li>
                         <li>Toma de la embajada de república dominicana. De hecho, Estados Unidos les da dinero por liberar a los embajadores.</li>
                     </ul>
