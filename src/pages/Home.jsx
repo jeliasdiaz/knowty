@@ -12,7 +12,7 @@ export const Home = () => {
             <p>Somos un grupo de estudiantes que te brindarán nuevas perspectivas de la existencia ¡Adéntrate a una nueva realidad!</p>
           </div>
           <div>
-            <img src="/img/homeImg.svg" alt="" className="w-75"  />
+            <img src="/img/homeImg.svg" alt="" className="w-75" />
           </div>
         </div>
         <div>

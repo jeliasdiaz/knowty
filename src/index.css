@@ -74,7 +74,7 @@ body {
 .text-sectionTwo {
   width: 100%;
   padding: 4% !important;
-  border-radius: 20px;
+  border-radius: 25px;
   background-color: #2b7ea1;
   color: #fff;
   height: 80%;
@@ -94,7 +94,7 @@ body {
 
 .subjectLink {
   background-color: #f6f6f6;
-  border-radius: 15px;
+  border-radius: 25px;
   padding: 8%;
   align-items: center;
 }
@@ -157,7 +157,7 @@ body {
   margin: 4%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 4%;
 }
 
@@ -177,7 +177,7 @@ h1 {
   padding: 3%;
   width: 50%;
   margin: auto;
-  border-radius: 15px;
+  border-radius: 20px;
   text-align: center;
   margin-bottom: 5%;
   color: #2b7ea1;
@@ -188,7 +188,7 @@ h1 {
   width: 60%;
   margin: auto;
   margin-top: 5%;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 4%;
 }
 
@@ -201,7 +201,7 @@ h1 {
   width: 60%;
   margin: auto;
   margin-top: 5%;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 4%;
 }
 .quimicaEcuacion {
@@ -227,21 +227,8 @@ h1 {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 4%;
-}
-
-/** Contact page */
-form {
-  width: 60%;
-  height: 70vh;
-  margin: auto;
-  padding: 5%;
-  margin-top: 3%;
-  border-radius: 15px;
-}
-.formAll {
-  height: 90vh;
 }
 
 /** Menu pages */
@@ -272,7 +259,7 @@ form {
 .infoTitle {
   width: 30%;
   padding: 3%;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 .cardsInfoSection {
   margin-top: 2%;
@@ -280,7 +267,7 @@ form {
 .cardInfo {
   color: black;
   padding: 2%;
-  border-radius: 15px;
+  border-radius: 20px;
   width: 350px;
   height: 280px;
   margin-right: 2%;
@@ -439,7 +426,7 @@ ul li {
 
   .subjectLink {
     background-color: #f6f6f6;
-    border-radius: 15px;
+    border-radius: 25px;
     padding: 8%;
     align-items: center;
   }
@@ -459,7 +446,6 @@ ul li {
   }
   .fisica {
     width: 95%;
-    border-radius: 15px;
     margin-top: 10%;
   }
   #profundizarTres {
@@ -524,7 +510,6 @@ ul li {
   .cardInfo {
     color: black;
     padding: 3%;
-    border-radius: 15px;
     width: 300px;
     height: 100%;
     margin-right: 2%;

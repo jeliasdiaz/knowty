@@ -35,9 +35,9 @@ i:hover {
   font-weight: 200;
   font-size: 18px;
 }
-.teamCard{
+.teamCard {
   background-color: #fefefe;
-  border-radius: 15px;
+  border-radius: 20px;
   color: black;
   padding: 2%;
   padding-bottom: 0%;
@@ -45,36 +45,36 @@ i:hover {
   height: 200px;
   margin: auto;
   margin-top: 3%;
-  margin-left: 1% ;
-  margin-right: 1% ;
+  margin-left: 1%;
+  margin-right: 1%;
 }
-.teamCard h4{
-  color: #2B7EA1;
+.teamCard h4 {
+  color: #2b7ea1;
 }
 .teamCard i {
   color: #000 !important;
 }
-.teamCardCenter{
-  margin:  auto;
+.teamCardCenter {
+  margin: auto;
   margin-top: 3%;
   margin-bottom: 3%;
   padding: 2%;
   padding-bottom: 2%;
   background-color: #fefefe;
   color: black;
-  border-radius: 15px;
+  border-radius: 20px;
   width: 300px;
 }
-.teamCardCenter h4{
+.teamCardCenter h4 {
   color: #2b7ea1;
 }
 
-.moreInformation{
+.moreInformation {
   width: 50%;
   background-color: #fefefe;
   padding: 4%;
   margin: auto;
-  border-radius: 15px;
+  border-radius: 20px;
   text-align: center;
   margin-top: 7%;
 }
@@ -85,15 +85,12 @@ i:hover {
   font-weight: 500;
 }
 
-.bxl-gmail{color: #2B7EA1;}
-.btn-dark {
-  background-color: #2B7EA1 !important;
-  border: #2B7EA1 !important;
-  border-radius: 18px !important;
-  margin-top: 4% !important;
+.bxl-gmail {
+  color: #2b7ea1;
 }
-.btn-dark:hover{background-color: #3391b9; border: #3391b9;}
-.bxl-youtube{color: #2B7EA1;}
+.bxl-youtube {
+  color: #2b7ea1;
+}
 
 @media screen and (max-width: 800px) {
   footer {
@@ -111,7 +108,7 @@ i:hover {
   .textFooter h1 {
     font-size: 50px;
   }
-  .teamCard{
+  .teamCard {
     padding: 3%;
     margin: auto;
     margin-top: 7%;
@@ -120,7 +117,7 @@ i:hover {
     height: 220px;
     width: 90%;
   }
-  .teamCardCenter{
+  .teamCardCenter {
     margin-top: 10%;
     width: 260px;
   }
@@ -135,7 +132,6 @@ i:hover {
   }
 }
 
-
 @media screen and (max-width: 380px) {
   footer {
     height: 170vh;
@@ -143,10 +139,10 @@ i:hover {
   .textFooter {
     padding-top: 16%;
   }
-  .teamCard{
+  .teamCard {
     height: 240px;
   }
-  .teamCardCenter{
+  .teamCardCenter {
     width: 230px;
   }
 }
