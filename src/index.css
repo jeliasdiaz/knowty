@@ -535,7 +535,6 @@ ul li {
 
 @media screen and (max-width: 400px) {
   .home {
-    background-attachment: unset;
     height: 99vh;
   }
   .sectionOne i {
@@ -550,20 +549,6 @@ ul li {
     margin-bottom: 8%;
   }
 
-  form {
-    width: 90%;
-    height: 60vh;
-    margin-top: 25%;
-  }
-  .formAll {
-    height: 80vh;
-  }
-
-  /** Química page */
-
-/*   .cardQuimica {
-    width: 90%;
-  } */
   .nav-3 {
     margin-top: 20%;
   }
