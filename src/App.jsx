@@ -1,47 +1,70 @@
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
-import { Cinematica } from "./pages/Fisica/Cinematica";
-import { Dinamica } from "./pages/Fisica/Dinamica";
-import { Energia } from "./pages/Fisica/Energia";
-import MecanicaFluidos from "./pages/Fisica/MecanicaFluidos"
-import { Footer } from "./components/Footer";
-import { MovimientoCircular } from "./pages/Fisica/MovimientoCircular";
-import { Navbar } from "./components/Navbar";
-import { Geometria } from "./pages/Geometria/Geometria";
-import Geometria1 from "./pages/Geometria/Geometria1";
-import Geometria2 from "./pages/Geometria/Geometria2";
-import Geometria4 from "./pages/Geometria/Geometria4";
-import { Home } from "./pages/Home";
-import { Trigonometria } from "./pages/Trigonometria/Trigonometria";
-import { Trigonometria2 } from "./pages/Trigonometria/Trigonometria2";
+
+//* Operation
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { Estadistica } from "./pages/Estadistica";
-import Ingles from "./pages/Ingles";
-import Quimica from "./pages/Quimica/Quimica";
-import Quimica1 from "./pages/Quimica/Quimica1";
-import Quimica2 from "./pages/Quimica/Quimica2";
-import Quimica4 from "./pages/Quimica/Quimica4";
-import Sociales1 from "./pages/Sociales/Sociales1";
-import Sociales from "./pages/Sociales/Sociales";
-import Sociales2 from "./pages/Sociales/Sociales2";
-import Sociales4 from "./pages/Sociales/Sociales4";
-import { FisicaMenu } from "./pages/Fisica/FisicaMenu";
-import { GeometriaMenu } from "./pages/Geometria/GeometriaMenu";
-import { QuimicaMenu } from "./pages/Quimica/QuimicaMenu";
-import { SocialesMenu } from "./pages/Sociales/SocialesMenu";
-import { TrigonometriaMenu } from "./pages/Trigonometria/TrigonometriaMenu";
-import { InfoPage } from "./pages/InfoPage";
-import { FisicaPractica } from "./pages/Fisica/FisicaPractica";
-import { TrigonometriaPractica } from "./pages/Trigonometria/TrigonometriaPractica";
 
+//* Principal components
+import { Home } from "./pages/Home";
+import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
+
+//* Chemistry
+import FirstChemistryPeriod from "./pages/Chemistry/FirstChemistryPeriod";
+import SecondChemistryPeriod from "./pages/Chemistry/ThirdChemistryPeriod";
+import ThirdChemistryPeriod from "./pages/Chemistry/SecondChemistryPeriod";
+import FourthChemistryPeriod from "./pages/Chemistry/FourthChemistryPeriod";
+
+//* English
+import English from "./pages/English";
+
+//* Geometry
+import Straight from "./pages/Geometry/Straight";
+import Circumference from "./pages/Geometry/Circumference";
+import { Parable } from "./pages/Geometry/Parable";
+import Ellipse from "./pages/Geometry/Ellipse";
+
+//* Pyshic
+import { Cinematic } from "./pages/Physic/Cinematic";
+import { Dinamic } from "./pages/Physic/Dinamic";
+import { CircularMovement } from "./pages/Physic/CircularMovement";
+import { Energy } from "./pages/Physic/Energy";
+import FluidMechanics from "./pages/Physic/FluidMechanics"
+
+//* Social
+import FirstSocialPeriod from "./pages/Social/FirstSocialPeriod";
+import EconomicDoctrines from "./pages/Social/EconomicDoctrines";
+import ArmedGroups from "./pages/Social/ArmedGroups";
+import SocialMovements from "./pages/Social/SocialMovements";
+
+//* Statistic 
+import { Statistic } from "./pages/Statistic";
+
+//* Trigonometry
+import { FirstTrigonometryPeriod } from "./pages/Trigonometry/FirstTrigonometryPeriod";
+import { SecondTrigonometryPeriod } from "./pages/Trigonometry/SecondTrigonometryPeriod";
+
+//* Phone menus
+import { PhysicMenu } from "./pages/Physic/PhysicMenu";
+import { GeometryMenu } from "./pages/Geometry/GeometryMenu";
+import { ChemistryMenu } from "./pages/Chemistry/ChemistryMenu";
+import { SocialMenu } from "./pages/Social/SocialMenu";
+import { TrigonometryMenu } from "./pages/Trigonometry/TrigonometryMenu";
+
+//* Practice pages
+import { PhysicPractice } from "./pages/Physic/PhysicPractice";
+import { TrigonometryPractice } from "./pages/Trigonometry/TrigonometryPractice";
+
+//* Information page
+import { InfoPage } from "./pages/InfoPage";
 
 function App() {
+
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
-
 
   return (
     <BrowserRouter>
@@ -50,35 +73,53 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/trigonometria" element={<Trigonometria />} />
-        <Route path="/trigonometria_2" element={<Trigonometria2 />} />
-        <Route path="/geometria" element={<Geometria />} />
-        <Route path="/geometria_1" element={<Geometria1 />} />
-        <Route path="/geometria_2" element={<Geometria2 />} />
-        <Route path="/geometria_4" element={<Geometria4 />} />
-        <Route path="/cinematica" element={<Cinematica />} />
-        <Route path="/dinamica" element={<Dinamica />} />
-        <Route path="/movimientocircular" element={<MovimientoCircular />} />
-        <Route path="/energia" element={<Energia />} />
-        <Route path="/mecanica-fluidos" element={<MecanicaFluidos />} />
-        <Route path="/sociales_1" element={<Sociales1 />} />
-        <Route path="/sociales_2" element={<Sociales2 />} />
-        <Route path="/sociales" element={<Sociales />} />
-        <Route path="/sociales_4" element={<Sociales4 />} />
-        <Route path="/quimica_1" element={<Quimica1 />} />
-        <Route path="/quimica_2" element={<Quimica2 />} />
-        <Route path="/quimica" element={<Quimica />} />
-        <Route path="/quimica_4" element={<Quimica4 />} />
-        <Route path="/estadistica" element={<Estadistica />} />
-        <Route path="/ingles" element={<Ingles />} />
-        <Route path="/fisica-menu" element={<FisicaMenu />} />
-        <Route path="/geometria-menu" element={<GeometriaMenu />} />
-        <Route path="/quimica-menu" element={<QuimicaMenu />} />
-        <Route path="/sociales-menu" element={<SocialesMenu />} />
-        <Route path="/trigonometria-menu" element={<TrigonometriaMenu />} />
         <Route path="/info" element={<InfoPage />} />
-        <Route path="/fisica-practica" element={<FisicaPractica />} />
-        <Route path="/trigonometria-practica" element={<TrigonometriaPractica />} />
+
+
+        <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
+        <Route path="/quimica_2" element={<SecondChemistryPeriod />} />
+        <Route path="/quimica" element={<ThirdChemistryPeriod />} />
+        <Route path="/quimica_4" element={<FourthChemistryPeriod />} />
+
+
+        <Route path="/ingles" element={<English />} />
+
+
+        <Route path="/geometria_1" element={<Straight />} />
+        <Route path="/geometria_2" element={<Circumference />} />
+        <Route path="/geometria" element={<Parable />} />
+        <Route path="/geometria_4" element={<Ellipse />} />
+
+
+        <Route path="/cinematica" element={<Cinematic />} />
+        <Route path="/dinamica" element={<Dinamic />} />
+        <Route path="/movimientocircular" element={<CircularMovement />} />
+        <Route path="/energia" element={<Energy />} />
+        <Route path="/mecanica-fluidos" element={<FluidMechanics />} />
+
+
+        <Route path="/sociales_1" element={<FirstSocialPeriod />} />
+        <Route path="/sociales_2" element={<ArmedGroups />} />
+        <Route path="/sociales" element={<EconomicDoctrines />} />
+        <Route path="/sociales_4" element={<SocialMovements />} />
+
+
+        <Route path="/estadistica" element={<Statistic />} />
+
+
+        <Route path="/trigonometria_2" element={<SecondTrigonometryPeriod />} />
+        <Route path="/trigonometria" element={<FirstTrigonometryPeriod />} />
+
+
+        <Route path="/fisica-menu" element={<PhysicMenu />} />
+        <Route path="/geometria-menu" element={<GeometryMenu />} />
+        <Route path="/quimica-menu" element={<ChemistryMenu />} />
+        <Route path="/sociales-menu" element={<SocialMenu />} />
+        <Route path="/trigonometria-menu" element={<TrigonometryMenu />} />
+
+
+        <Route path="/fisica-practica" element={<PhysicPractice />} />
+        <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
       </Routes>
 
       <Footer />
