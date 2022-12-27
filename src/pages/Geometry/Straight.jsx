@@ -5,11 +5,11 @@ const Straight = () => {
 
     const distanciaPuntos = `$$d(P, Q) =  \\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}$$`
     const distanciaPuntosEjemplo = `$$d(P, Q) = \\sqrt{(-2 - 4)^2 + (-1 - 6)^2 } = \\sqrt{85} = 9.21$$`
-    const puntoMedio = `$$(\\frac{x_1 + x_2}{2}, (\\frac{y_1 + y_2}{2})$$`
-    const puntoMedioEjemplo = `$$(\\frac{4 +  (-2)}{2}, (\\frac{6 + (-2)}{2}) = (1, 2)$$`
-    const inclinacionPendiente = `$$m = (\\frac{y_2 - y_1} {x_2 - x_1})$$`
-    const ecuacionRecta = `$$y = mx  + b$$`
-    const ecuacionGeneralRecta = `$$A_x + B_y + C = 0$$`
+    const puntoMedio = `$$(\\frac{x_1 \\ + \\ x_2}{2}, (\\frac{y_1 \\ + \\ y_2}{2})$$`
+    const puntoMedioEjemplo = `$$(\\frac{4 \\ + \\  (-2)}{2}, (\\frac{6 \\ + \\ (-2)}{2}) = (1, 2)$$`
+    const inclinacionPendiente = `$$m = (\\frac{y_2 \\ - \\ y_1} {x_2 \\ - \\ x_1})$$`
+    const ecuacionRecta = `$$y = mx \\ + \\ b$$`
+    const ecuacionGeneralRecta = `$$A_x \\ + \\ B_y \\ + \\ C = 0$$`
 
     return (
         <div className="homeGeometria" id="geometria">

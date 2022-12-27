@@ -1,23 +1,23 @@
 import Latex from "react-latex"
 import { TrigonometryNav } from "./TrigonometryNav"
 
-export const FirstTrigonometryPeriod = () => {
+export const ThirdTrigonometryPeriod = () => {
 
-    const leySenoOne = `$$\\frac{20}{sen(80)} = \\frac{x}{sen(40)}$$`
-    const leySenoTwo = `$$\\frac{20 * sen(40)}{sen(80)}$$`
+    const leySenoOne = `$$\\large \\frac{20}{sen(80)} = \\frac{x}{sen(40)}$$`
+    const leySenoTwo = `$$\\large \\frac{20 \\ \\cdot \\ sen(40)}{sen(80)}$$`
     const leySenoThree = `$$x = 13.05$$`
-    const leySenoFour = `$$\\frac{sen(80)}{30} =  \\frac{sen(θ)}{15}$$`
-    const leySenoFive = `$$arcsin(\\frac{sen(80) * 15}{30}) = sen(θ)$$`
-    const leySenoSix = `$$\\frac{sen(80) * 15}{30} = θ$$`
+    const leySenoFour = `$$\\large \\frac{sen(80)}{30} =  \\frac{sen(θ)}{15}$$`
+    const leySenoFive = `$$arcsin \\large (\\frac{sen(80) \\ \\cdot \\ 15}{30}) = \\small sen(θ)$$`
+    const leySenoSix = `$$\\large \\frac{sen(80) \\ \\cdot \\ 15}{30} =  θ$$`
     const leySenoSeven = `$$θ = 29.49°$$`
 
-    const leyCosenoOne = `$$x^2 = a^2 + b^2  - 2ab * cos(θ)$$`
-    const leyCosenoTwo = `$$x^2 = 10^2 + 5^2 - 2 * 10 * 5 * cos(75°)$$`
-    const leyCosenoThree = `$$\\sqrt{x} = \\sqrt{10^2 + 5^2 - 2 * 10 * 5 * cos(75°)}$$`
+    const leyCosenoOne = `$$x^2 = a^2 + b^2  - 2ab \\ \\cdot \\ cos(θ)$$`
+    const leyCosenoTwo = `$$x^2 = 10^2 + 5^2 - 2 \\ \\cdot \\ 10 \\ \\cdot \\ 5 \\ \\cdot \\ cos(75°)$$`
+    const leyCosenoThree = `$$\\sqrt{x} = \\sqrt{10^2 + 5^2 - 2 \\ \\cdot \\ 10 \\ \\cdot \\ 5 \\ \\cdot \\ cos(75°)}$$`
     const leyCosenoFour = `$$x = 9.95$$`
-    const leyCosenoFive = `$$\\frac{a^2 + b^2 - c^2}{- 2bc}$$`
-    const leyCosenoSix = `$$arccos(\\frac{20^2 + 10^2 - 18^2}{2 * 20 * 10}) = cos(θ)$$`
-    const leyCosenoSeven = `$$\\frac{20^2 + 10^2 - 18^2}{2 * 20 * 10} = θ$$`
+    const leyCosenoFive = `$$\\large \\frac{a^2  \\ + \\ b^2 \\ - \\ c^2}{- 2bc}$$`
+    const leyCosenoSix = `$$arccos \\large (\\frac{20^2 \\ + \\ 10^2  \\ - \\ 18^2}{2 \\ \\cdot \\ 20 \\ \\cdot \\ 10}) = \\normalsize cos(θ)$$`
+    const leyCosenoSeven = `$$\\large \\frac{20^2 \\ + \\ 10^2 \\ - \\ 18^2}{2 \\ \\cdot \\ 20 \\ \\cdot \\ 10} = θ$$`
     const leyCosenoEight = `$$63.89 = θ$$`
 
     return (

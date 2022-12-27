@@ -1,6 +1,14 @@
+import Latex from "react-latex"
 import { ChemistryNav } from "./ChemistryNav"
-
 const FourthChemistryPeriod = () => {
+
+    const purezaReactivo = `$$SP = \\large \\frac{SI \\ \\cdot \\ \\%P}{100}$$`
+    const sustanciaPura = `$$\\small Sustancia pura = \\large \\frac{Sustancia \\ impura \\ \\cdot \\ Porcentaje \\ de \\ pureza}{100}$$`
+
+    const rendimiento = `$$\\% E_f  = \\frac{P_r}{P_t} \\ \\cdot \\ 100$$`
+
+    const ecuacionOne = `$$2C_2H_2 + 5O_2 \\Rightarrow  4CO_2 + 2H_2O$$`
+    const ecuacionTwo = `$$\\large \\frac{64gr CO_2}{176gr CO_2}  \\ \\cdot \\ \\small 100 \\% = \\small 35.36 \\%$$`
     return (
         <div className="homeQuimica" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
@@ -37,11 +45,11 @@ const FourthChemistryPeriod = () => {
                         <h2>Pureza de un reactivo</h2>
                         <p>
                             Muchos de los reactivos presentes en reacciones químicas, contienen impurezas. Estas últimas son sustancias que no reaccionarán en una reacción. Por ende, las sustancias puras son aquellas que si se presentan o reaccionan en una reacción concreta. La pureza de un reactivo se puede calcular mediante la siguiente ecuación:
-                            <br />
-                            <img src="/img/purezaEcuacionSimplificada.svg" alt="" /><br />
-                            <img src="/img/purezaEcuacion.svg" alt="" className="quimicaEcuacion" />
-
                             <br /><br />
+                            <p><Latex>{purezaReactivo}</Latex></p>
+                            <p><Latex>{sustanciaPura}</Latex></p>
+
+                            <br />
                             Por otra parte, la pureza también es definida como cantidad de sustancia que se ha determinado que existe en una muestra dada de tal sustancia. Esto es, si tenemos cafeína al 80% quiere decir que hay 80 gramos de cafeína de 100 gramos, pues los otros 20 gramos corresponden a las impurezas.
 
                         </p>
@@ -81,7 +89,7 @@ const FourthChemistryPeriod = () => {
                             <br />
                         </p>
                         <p>Su ecuación es la siguiente:</p>
-                        <img src="/img/rendimiento.svg" alt="" />
+                        <p><Latex>{rendimiento}</Latex></p>
                         <p>
                             % Ef = Porcentaje de rendimiento <br />
                             PR = Producto real <br />
@@ -90,9 +98,9 @@ const FourthChemistryPeriod = () => {
                         <p>
                             Ejemplo: <br />
                             Teniendo en cuenta la siguiente ecuación: <br />
-                            <img src="/img/rendimientoEjemplo.svg" alt="" /><br />
+                            <p><Latex>{ecuacionOne}</Latex></p>
                             Si se producen 64gr de CO2, ¿cuál es el porcentaje de rendimiento de la reacción? <br />
-                            <img src="/img/rendimientoEjemploSolucion.svg" alt="" />
+                            <p><Latex>{ecuacionTwo}</Latex></p>
                         </p>
                     </div>
                     <hr />

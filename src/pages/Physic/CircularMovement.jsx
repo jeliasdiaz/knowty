@@ -3,17 +3,17 @@ import { PhysicNav } from "./PhysicNav"
 
 export const CircularMovement = () => {
 
-    const mcuOne = `$$θ = θ_0 + ω * t$$`
-    const mcuTwo = `$$ω = \\frac{(θ_f - θ_i)}{(t_f - t_i)}$$`
-    const mcuThree = `$$T = \\frac{2π}{ω}$$`
-    const mcuFour = `$$f = \\frac{1}{t}$$`
+    const mcuOne = `$$θ = θ_0 + ω \\ \\cdot \\ t$$`
+    const mcuTwo = `$$ω = \\large \\frac{(θ_f - θ_i)}{(t_f - t_i)}$$`
+    const mcuThree = `$$T = \\large \\frac{2π}{ω}$$`
+    const mcuFour = `$$f = \\large \\frac{1}{t}$$`
 
-    const mcuaOne = `$$θ = θ_0 + ω * t + \\frac{1}{2} * a *t^2$$`
-    const mcuaTwo = `$$ω = ω_0 + a * t$$`
-    const mcuaThree = `$$a = \\frac{(w_f - w_i)}{(t_f - t_i)}$$`
+    const mcuaOne = `$$θ = θ_0 + ω \\ \\cdot \\ t + \\frac{1}{2} \\ \\cdot \\ a \\ \\cdot \\ t^2$$`
+    const mcuaTwo = `$$ω = ω_0 + a \\ \\cdot \\ t$$`
+    const mcuaThree = `$$a = \\large \\frac{(w_f - w_i)}{(t_f - t_i)}$$`
 
-    const extraOne = `$$ω = rpm * \\frac{2π}{60}$$`
-    const extraTwo = `$$N_v = \\frac{θ}{2π}$$`
+    const extraOne = `$$ω = rpm \\ \\cdot \\ \\large \\frac{2π}{60}$$`
+    const extraTwo = `$$N_v = \\large \\frac{θ}{2π}$$`
     return (
         <div className="circular-home">
             <img src="/img/waveThree.svg" alt="" />

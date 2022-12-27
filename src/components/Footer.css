@@ -81,15 +81,19 @@ i:hover {
 .moreInformation h2 {
   font-size: 25px;
 }
-.boldFooterText {
-  font-weight: 500;
+.FooterEmailText {
+  font-weight: 400;
+  font-size: 15px;
 }
-
-.bxl-gmail {
+#IoCopy {
+  cursor: pointer;
+}
+.btn-youtube {
   color: #2b7ea1;
 }
-.bxl-youtube {
+.btn-gmail{
   color: #2b7ea1;
+  margin-top: 1%;
 }
 
 @media screen and (max-width: 800px) {

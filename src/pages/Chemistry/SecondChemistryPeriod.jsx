@@ -15,7 +15,9 @@ const SecondChemistryPeriod = () => {
                 <div>
                     <div >
                         <h2>Generalidades</h2>
-                        <img src="/img/configElectronica.png" alt="" className="w-75" /><br /><br />
+                        <h5>Posición en la tabla periódica con base a la configuración electrónica</h5>
+                        <img src="/img/configElectronica.svg" alt="" className="w-25" /><br />
+                        <p> Terminación: <br /> <i>d</i> o <i>f</i>, pertenece al grupo <i>b</i> <br /> <i>s</i> o <i>p</i>, pertenece al grupo <i>a</i> <br /> (Si varía el número de neutrones, es un isótopo)</p>
                         <h4>Radio atómico</h4>
                         <ul>
                             <li>Distancia entre el núcleo del átomo y su orbital más extremo, lo que permite calcular el tamaño del átomo</li>

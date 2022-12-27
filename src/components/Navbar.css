@@ -30,50 +30,18 @@
 .dropdown-menu li {
   transition: all 0.4s;
 }
-
-.bxs-category { 
+#MdInfo:hover, #RiHomeFill:hover, #IoCaretBackCircle:hover{
   cursor: pointer;
 }
+
+.backHoverColor{
+  color: #2B7EA1 !important;
+}
+
 h3 {
   font-size: 20px;
 }
-.bx-x {
-  cursor: pointer;
-}
-.bxs-category-alt {
-  cursor: pointer;
-}
-.offcanvas,
-.offcanvas-lg,
-.offcanvas-md,
-.offcanvas-sm,
-.offcanvas-xl,
-.offcanvas-xxl {
-  --bs-offcanvas-width: 340px !important;
-  background-color: #f6f6f6 !important;
-}
 
-.btnOffcanvas{
-  background-color: #f6f6f6;
-  border-radius: 15px !important;  
-  padding: 6% !important;
-  width: 260px !important;
-  border: none !important;
-  margin-top: 8% !important;
-}
-.btnOffcanvas:hover{
-  box-shadow: 10px 8px 8px 6px #e1e1e1 !important; 
-}
-.btnOffcanvas h3{text-decoration: none;}
-
-.btnOffcanvasOne{
-  background-color: #f6f6f6;
-  border-radius: 15px !important;  
-  padding: 6% !important;
-  width: 260px !important;
-  border: none !important;
-  margin-top: 0% ;
-}
 .dropdown-item{
   margin: auto ;
 }
@@ -81,9 +49,6 @@ h3 {
   color: #2B7EA1 !important;
 }
 @media screen and (max-width: 800px) {
-  .offcanvas.offcanvas-end {
-    width: 250px;
-  }
   hr {
     margin: 10%;
     width: 100%;
@@ -100,4 +65,7 @@ h3 {
   .navIcons:hover{
     width: 75%;
   }
+  .backHoverColor{
+  color: black;
+}
 }

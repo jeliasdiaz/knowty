@@ -7,12 +7,12 @@ export const SecondTrigonometryPeriod = () => {
     const pitagorasTwo = `$$c = \\sqrt{a^2 + b^2}$$`
     const pitagorasThree = `$$\\sqrt{c^2 - b^2 = a}$$`
 
-    const seno = `$$ \\textsf{Sen} = \\frac{\\textsf{Cateto \\ opuesto}}{ \\textsf{Hipotenusa}}$$`
-    const coseno = `$$\\textsf{Cos} = \\frac{\\textsf{Cateto \\ adyacente}}{\\textsf{Hipotenusa}}$$`
-    const tan = `$$\\textsf{Tan} = \\frac{\\textsf{Cateto \\ opuesto}}{\\textsf{Cateto \\ adyacente}}$$`
-    const cotan = `$$\\textsf{Cot} = \\frac{\\textsf{Cateto \\ adyacente}}{\\textsf{Cateto \\ opuesto}}$$`
-    const sec = `$$ \\textsf{Sec} = \\frac{\\textsf{Hipotenusa}}{\\textsf{Cateto \\ adyacente}}$$`
-    const cosec = `$$ \\textsf{Cosec} = \\frac{\\textsf{Hipotenusa}}{\\textsf{Cateto \\ opuesto}}$$`
+    const seno = `$$\\large\\textsf{Sen} = \\frac{\\textsf{Cateto \\ opuesto}}{ \\textsf{Hipotenusa}}$$`
+    const coseno = `$$\\large \\textsf{Cos} = \\frac{\\textsf{Cateto \\ adyacente}}{\\textsf{Hipotenusa}}$$`
+    const tan = `$$\\large \\textsf{Tan} = \\frac{\\textsf{Cateto \\ opuesto}}{\\textsf{Cateto \\ adyacente}}$$`
+    const cotan = `$$\\large \\textsf{Cot} = \\frac{\\textsf{Cateto \\ adyacente}}{\\textsf{Cateto \\ opuesto}}$$`
+    const sec = `$$\\large \\textsf{Sec} = \\frac{\\textsf{Hipotenusa}}{\\textsf{Cateto \\ adyacente}}$$`
+    const cosec = `$$\\large \\textsf{Cosec} = \\frac{\\textsf{Hipotenusa}}{\\textsf{Cateto \\ opuesto}}$$`
 
     const sen30 = `$$\\textsf{Sen} = \\frac{1}{2}$$`
     const cos30 = `$$\\textsf{Cos} = \\frac{\\sqrt{3}}{2}$$`

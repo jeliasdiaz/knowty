@@ -1,4 +1,29 @@
+import Latex from "react-latex"
+
 export const Statistic = () => {
+
+  const decilesPar = `$$D_k = \\frac{n \\ \\cdot \\ k}{10} \\ par$$`
+  const decilesImpar = `$$D_k = \\frac{k(n \\ + \\ 1)}{10} \\ impar$$`
+
+  const percentilesPar = `$$P_k = \\frac{n \\ \\cdot \\ k}{100} \\ par$$`
+  const percentilesImpar = `$$P_k = \\frac{k(n \\ + \\ 1)}{100} \\ impar$$`
+
+  const cuartilesPar = `$$Q_k = \\frac{n \\ \\cdot \\ k}{4} \\ par$$`
+  const cuartilesImpar = `$$Q_k = \\frac{k(n \\ + \\ 1)}{4} \\ par$$`
+  const cuartilesEjemploOne = `$$Q_k = \\frac{8 \\ \\cdot \\ 3}{4}$$`
+  const cuartilesEjemploTwo = `$$Q_k = 6$$`
+
+  const reglaTresDirecta = `$$\\Large  \\frac{C \\ \\cdot \\ B}{A}$$`
+  const reglaTresDirectaEjemplo = `$$\\large  \\frac{8 \\ \\cdot \\ 600}{5} = 960$$`
+
+  const reglaTresInversa = `$$\\Large  \\frac{A \\ \\cdot \\ B}{C}$$`
+  const reglaTresInversaEjemplo = `$$\\large  \\frac{3 \\ \\cdot \\ 4}{6} = 2$$`
+
+  const varianzaOne = `$$S^2 = (\\frac{M \\ - \\ x_i}{n})^2 \\ (muestra)$$`
+  const varianzaTwo = `$$S^2 = (\\frac{M \\ - \\ x_i}{N})^2 \\ (población)$$`
+
+  const desviacionEstandar = `$$ \\small DE = \\normalsize \\sqrt{(\\frac{M \\ - \\ x_i}{N})^2}$$`
+
   return (
     <div>
       <img src="/img/waveThree.svg" alt="" />
@@ -25,25 +50,31 @@ export const Statistic = () => {
             <h2>Medidas de localización</h2>
             <h5>Deciles</h5>
             <p>Permiten calcular los porcentajes desde el 10% hasta el 100% de diez en diez, de modo que el decil 1 es 10% y el decil 10 es 100%.</p>
-            <img src="/img/medidasDispersionDecil.svg" alt="" />
+            <p><Latex>{decilesPar}</Latex></p> 
+            <p><Latex>{decilesImpar}</Latex></p>
             <p>n = número total de datos <br /> k = decil a hallar</p>
             <br />
 
             <h5>Percentiles</h5>
             <p>Permiten calcular los porcentajes desde el 1% hasta el 100% de uno en uno, de modo que el decil 1 es 1% y el decil 100 es 100%.</p>
-            <img src="/img/medidasDispersionPercentil.svg" alt="" />
+            
+            <p><Latex>{percentilesPar}</Latex></p>
+            <p><Latex>{percentilesImpar}</Latex></p>
             <p>n = número total de datos <br /> k = percentil a hallar</p>
             <br />
 
             <h5>Cuartiles</h5>
             <p>Permiten calcular el 25%, 50%, 75% y 100%, donde el cuartil 1 corresponde al 25% y el cuartil 4 al 100%.</p>
-            <img src="/img/medidasDispersionCuartil.svg" alt="" />
+            <p><Latex>{cuartilesPar}</Latex></p>
+            <p><Latex>{cuartilesImpar}</Latex></p>
             <p>n = número total de datos <br /> k = cuartil a hallar</p>
             <p>
               Ejemplo:
               Calcula el 75% de las siguientes notas <br /> 1, 2, 3, 5, 6, 6.5, 7, 8
             </p>
-            <img src="/img/cuartilEjemplo.svg" alt="" /><br />
+            <p><Latex>{cuartilesEjemploOne}</Latex></p>
+            <p><Latex>{cuartilesEjemploTwo}</Latex></p>
+            <br />
             <p>Por ende el 75% corresponde a 6.5</p>
             <hr />
           </div>
@@ -53,28 +84,28 @@ export const Statistic = () => {
             <h5>Directa</h5>
             <p>Los datos están correlacionados, de tal forma que cuando aumenta una magnitud también lo hace la otra.</p>
             <h6>Fórmula</h6>
-            <img src="/img/regla-3.jpg" alt="" className="reglaTresDirecta" /> <br />
-            <img src="/img/regla-3-directa.svg" alt="" />
+            <img src="/img/regla-3.jpg" alt="" className="reglaTresDirecta" /> <br /><br />
+            <p><Latex>{reglaTresDirecta}</Latex></p>
             <br /><br />
             <h6>Ejemplo</h6>
             <p>
               Si 5 centímetros en un mapa son 600 metros en la realidad, ¿cuántos metros son 8 centímetros?
               <br />
               <img src="/img/regla-3-ejemplo.jpg" className="reglaTresDirecta" alt="" /><br />
-              <img src="/img/regla-3-directa-ejemplo.svg" alt="" />
+              <p><Latex>{reglaTresDirectaEjemplo}</Latex></p>
             </p>
 
             <h5>Inversa</h5>
             <p>Los datos están correlacionados, de tal forma que mientras una magnitud aumenta, la otra disminuye.</p>
             <h6>Fórmula</h6>
-            <img src="/img/regla-3-inversa.jpg" alt="" className="reglaTresDirecta" /><br />
-            <img src="/img/regla-3-inversa-2.svg" alt="" />
+            <img src="/img/regla-3-inversa.jpg" alt="" className="reglaTresDirecta" /><br /><br />
+            <p><Latex>{reglaTresInversa}</Latex></p>
             <br /><br />
             <h6>Ejemplo</h6>
             <p>
               Tres personas tardan 4 días en montar un escenario. ¿Cuánto tardarán seis personas? <br />
-              <img src="/img/regla-3-inversa-ejemplo.jpg" alt="" className="reglaTresDirecta" /> <br />
-              <img src="/img/regla-3-inversa-ejemplo2.svg" alt="" />
+              <img src="/img/regla-3-inversa-ejemplo.jpg" alt="" className="reglaTresDirecta" /> <br /><br />
+              <p><Latex>{reglaTresInversaEjemplo}</Latex></p>
             </p> <br />
             <button className="btn btn-secondary"><a href="https://youtu.be/-HORSa7OGzY" className="text-decoration-none text-white">Profundizar</a></button>
             <hr />
@@ -89,13 +120,15 @@ export const Statistic = () => {
 
             <h5>Varianza</h5>
             <p>Su fin es representar la variabilidad de un conjunto de datos respecto a la media aritmética de los mismos. Se define como la media de los cuadrados de las desviaciones sobre la media.</p>
-            <img src="/img/varianzaFormula.svg" alt="" />
+            <p>Datos no agrupados</p>
+            <p><Latex>{varianzaOne}</Latex></p>
+            <p><Latex>{varianzaTwo}</Latex></p>
             <br /> <br />
             <h5>Desviación estándar</h5>
             <p>
               Su propósito es medir la dispersión de una distribución de datos. A modo de ejemplo, entre más dispersa está una distribución de datos, más grande es su desviación estándar y viceversa. Dicho en otros términos, es la raíz cuadrada de la varianza. </p>
             <h6>Fórmula</h6>
-            <img src="/img/desviacionFormula.svg" alt="" />
+            <p><Latex>{desviacionEstandar}</Latex></p>
             <h6>Ejemplo</h6>
             <p>
               Por ejemplo, tenemos las notas de los siguientes estudiantes: <br />

@@ -1,4 +1,11 @@
 import "./Footer.css"
+import { AiFillYoutube } from "react-icons/ai";
+import { FaDev } from "react-icons/fa";
+import { BsMegaphoneFill } from "react-icons/bs";
+import { SiGmail } from "react-icons/si";
+import { IoCopy } from "react-icons/io5";
+import CopyToClipboard from "react-copy-to-clipboard";
+import { Toaster, toast } from "react-hot-toast";
 
 export const Footer = () => {
   return (
@@ -10,29 +17,29 @@ export const Footer = () => {
             <div className="teamCard" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>Jose Díaz</h4>
               <p>Creador del proyecto, programador de la página y creador de materiales para YouTube</p>
-              <i class='bx bxl-dev-to bx-md text-black position-absolute bottom-0 end-0 mb-2'></i>
-              <i class='bx bxl-youtube bx-md text-black position-absolute bottom-0 end-0 mb-2 me-5' ></i>
+              <AiFillYoutube size={36} className="position-absolute bottom-0 end-0 m-1" />
+              <FaDev size={34} className="position-absolute bottom-2 end-1" />
             </div>
             <div className="teamCard" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>Wilmar Fontalvo</h4>
               <p>Creador de videos y encargado principal de YouTube</p>
-              <i class='bx bxl-youtube bx-md text-black position-absolute bottom-0 end-0 mb-2' ></i>
+              <AiFillYoutube size={36} className="position-absolute bottom-0 end-0 m-1" />
 
             </div>
             <div className="teamCard" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>Yader Vega</h4>
               <p>Encargado del marketing y contribuidor al diseño de la página</p>
-              <i class='bx bxs-user-voice bx-md text-black position-absolute bottom-0 end-0 mb-2' ></i>
+              <BsMegaphoneFill size={34} className="position-absolute bottom-0 end-0 m-2" />
             </div>
             <div className="teamCard" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>Mauricio Lopez</h4>
               <p>Principal encargado del marketing de la página y proyecto</p>
-              <i class='bx bxs-user-voice bx-md text-black position-absolute bottom-0 end-0 mb-2' ></i>
+              <BsMegaphoneFill size={34} className="position-absolute bottom-0 end-0 m-2" />
             </div>
             <div className="teamCard" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>David Cáceres</h4>
               <p>Encargado de la creación de videos para el canal de YouTube</p>
-              <i class='bx bxl-youtube bx-md text-black position-absolute bottom-0 end-0 mb-2' ></i>
+              <AiFillYoutube size={36} className="position-absolute bottom-0 end-0 m-1" />
             </div>
           </div>
         </div>
@@ -43,32 +50,32 @@ export const Footer = () => {
             <div className="teamCard" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>David Cáceres</h4>
               <p>Encargado de la creación de videos para el canal de YouTube</p>
-              <i class='bx bxl-youtube bx-sm text-black position-absolute bottom-0 end-0 mb-2' ></i>
+              <AiFillYoutube size={36} className="position-absolute bottom-0 end-0 m-1" />
             </div>
             <div className="teamCard" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>Wilmar Fontalvo</h4>
               <p>Creador de videos y encargado principal de YouTube</p>
-              <i class='bx bxl-youtube bx-sm text-black position-absolute bottom-0 end-0 mb-2' ></i>
+              <AiFillYoutube size={36} className="position-absolute bottom-0 end-0 m-1" />
             </div>
           </div>
           <div>
-            <div className="teamCardCenter" data-aos="zoom-in-down" data-aos-duration="1400">
+            <div className="teamCardCenter pb-2" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>Jose Díaz</h4>
               <p>Creador del proyecto, programador de la página y creador de materiales para YouTube</p>
-              <i class='bx bxl-dev-to bx-sm text-black position-absolute bottom-0 end-0 mb-2'></i>
-              <i class='bx bxl-youtube bx-sm text-black position-absolute bottom-0 end-0 mb-2 me-5' ></i>
+              <FaDev size={32} className="ms-5" />
+              <AiFillYoutube size={36} className="position-absolute bottom-0 end-0 m-1" />
             </div>
           </div>
           <div className="d-flex">
             <div className="teamCard" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>Yader Vega</h4>
               <p>Encargado del marketing y contribuidor al diseño de la página</p>
-              <i class='bx bxs-user-voice bx-sm text-black position-absolute bottom-0 end-0 mb-2' ></i>
+              <BsMegaphoneFill size={34} className="position-absolute bottom-0 end-0 m-2" />
             </div>
             <div className="teamCard" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>Mauricio Lopez</h4>
               <p>Principal encargado del marketing de la página y proyecto</p>
-              <i class='bx bxs-user-voice bx-sm text-black position-absolute bottom-0 end-0 mb-2' ></i>
+              <BsMegaphoneFill size={34} className="position-absolute bottom-0 end-0 m-2" />
             </div>
           </div>
         </div>
@@ -77,16 +84,32 @@ export const Footer = () => {
           <h2>¿Quieres saber más del proyecto?</h2>
           <div className="flex-1 justify-content-evenly">
             <div className="mx-2">
-              <i className='bx bxl-gmail bx-lg '></i>
-              <p className="boldFooterText">formuapp2022@gmail.com</p>
+              {/* <i className='bx bxl-gmail bx-lg '></i> */}
+              <SiGmail size={36} className="btn-gmail" />
+              <div className="d-flex">
+                <p className="FooterEmailText pe-1">formuapp2022@gmail.com</p>
+                <CopyToClipboard text="formuapp2022@gmail.com">
+                  <IoCopy id="IoCopy" size={22} onClick={() => toast.success("Texto copiado", {
+                    style: {
+                      borderRadius: '10px',
+                      background: '#f6f6f6',
+                      color: '#000',
+                      
+                    },
+                  })} />
+                </CopyToClipboard>
+
+              </div>
             </div>
             <div>
-              <i className='bx bxl-youtube bx-lg'></i><br />
+              <AiFillYoutube size={36} className="btn-youtube " /><br />
               <a href="https://www.youtube.com/@formuapp1757/videos" className="text-dark boldFooterText" target="_blank" rel="noreferrer">FormuApp</a>
             </div>
           </div>
         </div>
       </div>
+      <Toaster position="top-right"
+              reverseOrder={false} />
     </footer>
   )
 }

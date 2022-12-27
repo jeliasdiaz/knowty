@@ -3,16 +3,16 @@ import { PhysicNav } from "./PhysicNav"
 
 const FluidMechanics = () => {
 
-    const densidad = `$$ρ = \\frac{masa}{volumen}$$`
-    const pesoEspecifico = `$$δ = p * g$$`
-    const presionLiquidos = `$$P_h = ρ * g * h$$`
-    const presionAbsoluta = `$$P_{abs} = P_{atm} + ρ * g * h$$`
-    const principioPascal = `$$\\frac{F_1}{A_1} = \\frac{F_2}{A_2}$$`
-    const principioArquimedes = `$$F_e = ρ * g * V_s $$`
+    const densidad = `$$ρ = \\large \\frac{masa}{volumen}$$`
+    const pesoEspecifico = `$$δ = p \\ \\cdot \\ g$$`
+    const presionLiquidos = `$$P_h = ρ \\ \\cdot \\ g \\ \\cdot \\ h$$`
+    const presionAbsoluta = `$$P_{abs} = P_{atm} + ρ \\ \\cdot \\ g \\ \\cdot \\ h$$`
+    const principioPascal = `$$ \\large \\frac{F_1}{A_1} = \\frac{F_2}{A_2}$$`
+    const principioArquimedes = `$$F_e = ρ \\ \\cdot \\ g \\ \\cdot \\ V_s $$`
     const principioArquimedesExtra = `$$V_s $$`
-    const principioContinuidadOne = `$$V_1*A_1 = V_2*A_2$$`
+    const principioContinuidadOne = `$$V_1 \\ \\cdot \\ A_1 = V_2 \\ \\cdot \\ A_2$$`
     const principioContinuidadTwo = `$$Q = \\frac{V}{T}$$`
-    const teoremaBernoulli = `$$ρgh_1 + \\frac{1}{2}ρV_1^2 + P_1 = ρgh_2$$`
+    const teoremaBernoulli = `$$ρgh_1  \\ + \\ \\frac{1}{2}ρV_1^2 \\ + \\ P_1 = ρgh_2$$`
 
     return (
         <div className="home-fisica">
@@ -52,7 +52,7 @@ const FluidMechanics = () => {
 
                     <hr className="my-4" />
                     <h4>Ecuación del principio de continuidad</h4>
-                    <Latex>{principioContinuidadOne}</Latex><br />
+                    <p><Latex>{principioContinuidadOne}</Latex></p>
                     <Latex>{principioContinuidadTwo}</Latex>
                     <hr className="my-4" />
                     <h4>Teorema de Bernoulli</h4>

@@ -3,28 +3,28 @@ const  Latex = require("react-latex")
 
 export const Energy = () => {
 
-    const trabajoOne = `$$W = F * cos(θ) * 𐤃x$$`
-    const trabajoTwo = `$$W = F * sen(θ) * 𐤃y$$`
+    const trabajoOne = `$$W = F \\ \\cdot \\ cos(θ) \\ \\cdot \\ 𐤃x$$`
+    const trabajoTwo = `$$W = F \\ \\cdot \\ sen(θ) \\ \\cdot \\ 𐤃y$$`
 
-    const potencia = `$$P =  \\frac{W}{𐤃t}$$`
+    const potencia = `$$P =  \\large \\frac{W}{𐤃t}$$`
 
-    const rendimiento = `$$Rendimiento = \\frac{Potencia \\ útil}{Potencia \\ teórica} * 100$$`
+    const rendimiento = `$$ \\small  Rendimiento = \\normalsize \\frac{Potencia \\ útil}{Potencia \\ teórica} \\ \\cdot \\ 100$$`
 
     const energiaCinetica = `$$E_k = \\frac{1}{2} * m * v^2$$`
-    const extraOne = `$$m = \\frac{2 * E_k}{v^2}$$`
-    const extraTwo= `$$v = \\sqrt{\\frac{2*E_k}{m}}$$`
-    const energiaGravitatoria = `$$E_p = m*g*h$$`
-    const energiaElastica = `$$E_{pe} = \\frac{1}{2} * k * (𐤃x)^2$$`
+    const extraOne = `$$m = \\large \\frac{2 \\ \\cdot \\ E_k}{v^2}$$`
+    const extraTwo= `$$v = \\large \\sqrt{\\frac{2 \\ \\cdot \\ E_k}{m}}$$`
+    const energiaGravitatoria = `$$E_p = m \\ \\cdot \\ g \\ \\cdot \\ h$$`
+    const energiaElastica = `$$E_{pe} = \\large \\frac{1}{2} \\ \\cdot \\ k \\ \\cdot \\ (𐤃x)^2$$`
     const energiaMecanica = `$$E_m = E_p + E_k$$`
     const conservacionEnergia = `$$E_{k1} + E_{p1} + E_{pe1} = E_{k2} + E_{p2} + E_{pe2}$$`
-    const cantidadMovimiento = `$$ρ = m * v$$`
-    const energiaCineticaCantidadMovimiento = `$$E_k = \\frac{p^2}{2 * m}$$`
-    const impulso = `$$F * 𐤃t = I$$`
-    const colisionesElasticasOne = `$$m_1 * v_1 + m_2 * v_2 = m_1 * v_1' + m_2 * v_2'$$`
-    const colisionesElasticasTwo = `$$V_2' = \\frac{2 * m_1 * v_1}{(m_1 + m_2)}'$$`
+    const cantidadMovimiento = `$$ρ = m \\ \\cdot \\ v$$`
+    const energiaCineticaCantidadMovimiento = `$$E_k = \\large \\frac{p^2}{2 \\ \\cdot \\ m}$$`
+    const impulso = `$$F \\ \\cdot \\ 𐤃t = I$$`
+    const colisionesElasticasOne = `$$m_1 \\ \\cdot \\ v_1 \\ + \\ m_2 \\ \\cdot \\ v_2 = m_1 \\ \\cdot \\ v_1'  \\ + \\ m_2 \\ \\cdot \\ v_2'$$`
+    const colisionesElasticasTwo = `$$V_2' = \\large \\frac{2 \\ \\cdot \\ m_1 \\ \\cdot \\ v_1}{(m_1 \\ + \\ m_2)}'$$`
 
-    const colisionesInelasticasOne = `$$m_1 * v_1 + m_2 * v_2 = (m_1 + m_2) * v_2'$$`
-    const colisionesInelasticasTwo = `$$V_2' = \\frac{m_1 * v_1 + m_2 * v_2}{(m_1 + m_2)}'$$`
+    const colisionesInelasticasOne = `$$m_1 \\ \\cdot \\ v_1 + m_2 * v_2 = (m_1 + m_2) \\ \\cdot \\ v_2'$$`
+    const colisionesInelasticasTwo = `$$V_2' = \\large \\frac{m_1 \\ \\cdot \\ v_1 \\ + \\ m_2 \\ \\cdot \\ v_2}{(m_1 \\ + \\ m_2)}'$$`
 
     return (
         <div className="energia-home">

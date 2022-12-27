@@ -3,88 +3,88 @@ import { Link } from 'react-router-dom'
 const Latex = require("react-latex")
 
 export const PhysicPractice = () => {
-    const vectoresOne = `$$A_x = 15N * cos(30) = 12.99N$$`
-    const vectoresTwo = `$$A_y = 15N * sen(30) = 7.5N$$`
-    const vectoresThree = `$$B_x = 27N * sen(55) = -22.11N$$`
-    const vectoresFour = `$$B_y = 27N * cos(55) = -15.48N$$`
-    const vectoresFive = `$$C_x = 12.99N + (-22.11N) = -9.12N$$`
-    const vectoresSix = `$$C_y = 7.5N + (-15.48N) = -7.98N$$`
-    const vectoresSeven = `$$C  = \\sqrt{(-9.12N)^2 + (-7.98N)^2} = 12.11N$$`
-    const vectoresEight = `$$tan^-1(\\frac{-7.98}{-9.12}) = 41.18°$$`
+    const vectoresOne = `$$A_x = \\small 15N \\ \\cdot \\ cos(30) = 12.99N$$`
+    const vectoresTwo = `$$A_y = \\small 15N \\ \\cdot \\ sen(30) = 7.5N$$`
+    const vectoresThree = `$$B_x = \\small 27N \\ \\cdot \\ sen(55) = -22.11N$$`
+    const vectoresFour = `$$B_y = \\small 27N \\ \\cdot \\ cos(55) = -15.48N$$`
+    const vectoresFive = `$$C_x = \\small 12.99N + (-22.11N) = -9.12N$$`
+    const vectoresSix = `$$C_y = \\small 7.5N + (-15.48N) = -7.98N$$`
+    const vectoresSeven = `$$C  = \\small \\sqrt{(-9.12N)^2 + (-7.98N)^2} = 12.11N$$`
+    const vectoresEight = `$$tan^-1(\\frac{-7.98}{-9.12}) = \\small 41.18°$$`
 
-    const mruOne = `$$12km/h = 3.33m/s$$`
-    const mruTwo = `$$t = \\frac{distancia}{velocidad}$$`
-    const mruThree = `$$t = \\frac{70m}{3.33m/s}$$`
-    const mruFour = `$$21.62seg$$`
+    const mruOne = `$$ \\small 12km/h = 3.33m/s$$`
+    const mruTwo = `$$t = \\large \\frac{distancia}{velocidad}$$`
+    const mruThree = `$$t = \\large \\frac{70m}{3.33m/s}$$`
+    const mruFour = `$$ \\small 21.62seg$$`
 
-    const mruaOne = `$$12min = 120seg$$`
-    const mruaTwo = `$$5km/h = 1.38m/s$$`
-    const mruaThree = `$$15km/h = 4.16m/s$$`
-    const mruaFour = `$$a = \\frac{(v_f - v_i)}{t}$$`
-    const mruaFive = `$$a = \\frac{(4.16m/s - 1.38m/s)}{120s}$$`
-    const mruaSix = `$$a = 0.023m/S$$`
+    const mruaOne = `$$\\small  12min = 120seg$$`
+    const mruaTwo = `$$\\small 5km/h = 1.38m/s$$`
+    const mruaThree = `$$\\small 15km/h = 4.16m/s$$`
+    const mruaFour = `$$a =  \\large \\frac{(v_f \\ - \\ v_i)}{t}$$`
+    const mruaFive = `$$a =  \\large \\frac{(4.16m/s \\ - \\ 1.38m/s)}{120s}$$`
+    const mruaSix = `$$a = \\small 0.023m/s$$`
 
-    const caidaLibreOne = `$$t = \\sqrt{\\frac{2h}{g}}$$`
-    const caidaLibreTwo = `$$t = \\sqrt{\\frac{2(12m)}{9.8m/s^2}}$$`
-    const caidaLibreThree = `$$t = 1.56seg$$`
-    const caidaLibreFour = `$$v_f = 0 - 9.8m/s^2 * 1.56seg$$`
-    const caidaLibreFive = `$$v_f = -15.288m/s$$`
+    const caidaLibreOne = `$$t = \\large \\sqrt{\\frac{2h}{g}}$$`
+    const caidaLibreTwo = `$$t = \\large \\sqrt{\\frac{2(12m)}{9.8m/s^2}}$$`
+    const caidaLibreThree = `$$t = \\small 1.56seg$$`
+    const caidaLibreFour = `$$v_f = \\small 0 - 9.8m/s^2 \\ \\cdot \\ 1.56seg$$`
+    const caidaLibreFive = `$$v_f =\\small - 15.288m/s$$`
 
-    const tiroVerticalOne = `$$h_{max} = \\frac{(27m/s)^2}{2 * 9.8m/s^2}$$`
-    const tiroVerticalTwo = `$$h_{max} = 37.19m$$`
-    const tiroVerticalThree = `$$y = y_0 + v_0 *t - \\frac{1}{2} * 9.8m/s^2 * 3seg^2$$`
-    const tiroVerticalFour = `$$y = 0 + 27m/s * 3seg - \\frac{1}{2} * 9.8m/s^2 * 3seg^2$$`
-    const tiroVerticalFive = `$$y = 36.9m$$`
+    const tiroVerticalOne = `$$h_{max} =  \\large \\frac{(27m/s)^2}{2 \\ \\cdot \\ 9.8m/s^2}$$`
+    const tiroVerticalTwo = `$$h_{max} = \\small 37.19m$$`
+    const tiroVerticalThree = `$$y = \\small y_0 + v_0 \\ \\cdot \\ t - \\frac{1}{2} \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ 3seg^2$$`
+    const tiroVerticalFour = `$$y = \\small 0 + 27m/s \\ \\cdot \\ 3seg - \\frac{1}{2} \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ 3seg^2$$`
+    const tiroVerticalFive = `$$y = \\small 36.9m$$`
 
-    const tiroParabolicoOne = `$$v_x = 50m/s * cos(40) = 38.10m/s$$`
-    const tiroParabolicoTwo = `$$v_y = 50m/s * Sen (40) = 32.13m/s$$`
-    const tiroParabolicoThree = `$$t_v = \\frac{2*v_{0y}}{g}$$`
-    const tiroParabolicoFour = `$$t_v = \\frac{2*(32.13m/s)}{9.8m/s^2}$$`
-    const tiroParabolicoFive = `$$t_v = 6.55s$$`
-    const tiroParabolicoSix = `$$h_{max} = \\frac{v_{0y}^2}{2g}$$`
-    const tiroParabolicoSeven = `$$h_{max} = \\frac{(32.13m/s)^2}{2*(9.8m/s^2)}$$`
-    const tiroParabolicoEight = `$$h_{max} = 52.67m$$`
+    const tiroParabolicoOne = `$$v_x = \\small 50m/s \\ \\cdot \\ cos(40) = 38.10m/s$$`
+    const tiroParabolicoTwo = `$$v_y = \\small 50m/s \\ \\cdot \\ \\sin(40) = 32.13m/s$$`
+    const tiroParabolicoThree = `$$t_v = \\large \\frac{2 \\ \\cdot \\ v_{0y}}{g}$$`
+    const tiroParabolicoFour = `$$t_v = \\large \\frac{2 \\ \\cdot \\ (32.13m/s)}{9.8m/s^2}$$`
+    const tiroParabolicoFive = `$$t_v = \\small 6.55s$$`
+    const tiroParabolicoSix = `$$h_{max} = \\large \\frac{v_{0y}^2}{2g}$$`
+    const tiroParabolicoSeven = `$$h_{max} = \\large \\frac{(32.13m/s)^2}{2 \\ \\cdot \\ (9.8m/s^2)}$$`
+    const tiroParabolicoEight = `$$h_{max} = \\small 52.67m$$`
 
 
-    const dinamicaOne = `$$C_x = C * cos(θ)
+    const dinamicaOne = `$$C_x = C \\ \\cdot \\ cos(θ)
     $$`
-    const dinamicaTwo = `$$C_y = C * sen(θ)$$`
-    const dinamicaThree = `$$C_x = C * sen(θ)$$`
-    const dinamicaFour = `$$C_y = C * cos(θ)$$`
-    const dinamicaFive = `$$W_x = 900kg * 9.8m/s^2 * sen(25) = 3727.49N$$`
-    const dinamicaSix = `$$W_y = 900kg * 9.8m/s^2 * cos(25) = 7993.63N$$`
-    const dinamicaSeven = `$$ΣF_x = W_x - T = 0$$`
-    const dinamicaEight = `$$ΣF_x = W_x = T$$`
-    const dinamicaNine = `$$ΣF_x =  T = 3727.49N$$`
+    const dinamicaTwo = `$$C_y = C \\ \\cdot \\ sen(θ)$$`
+    const dinamicaThree = `$$C_x = C \\ \\cdot \\ sen(θ)$$`
+    const dinamicaFour = `$$C_y = C \\ \\cdot \\ cos(θ)$$`
+    const dinamicaFive = `$$W_x = \\small 900kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ sen(25) = 3727.49N$$`
+    const dinamicaSix = `$$W_y = \\small 900kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ cos(25) = 7993.63N$$`
+    const dinamicaSeven = `$$ΣF_x = \\small W_x - T = 0$$`
+    const dinamicaEight = `$$ΣF_x = \\small W_x = T$$`
+    const dinamicaNine = `$$ΣF_x = \\small T = 3727.49N$$`
 
-    const dinamicaTwoOne = `$$W_x = 1300kg * 9.8m/s^2 * Sen(35) = 7307.36N$$`
-    const dinamicaTwoTwo = `$$W_y = 1300kg * 9.8m/s^2 * Cos(35) = 10435.99N$$`
-    const dinamicaTwoThree = `$$ΣF_y = N - W_y = 0$$`
-    const dinamicaTwoFour = `$$ΣF_y = N = W_y$$`
-    const dinamicaTwoFive = `$$Fr= μ * N$$`
-    const dinamicaTwoSix = `$$Fr= 0.5 * 10435.99N$$`
-    const dinamicaTwoSeven = `$$Fr= 5217.995N$$`
+    const dinamicaTwoOne = `$$W_x = \\small 1300kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ Sen(35) = 7307.36N$$`
+    const dinamicaTwoTwo = `$$W_y = \\small 1300kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ Cos(35) = 10435.99N$$`
+    const dinamicaTwoThree = `$$ΣF_y = \\small N - W_y = 0$$`
+    const dinamicaTwoFour = `$$ΣF_y = \\small N = W_y$$`
+    const dinamicaTwoFive = `$$\\text{Fr} = \\small μ \\ \\cdot \\ N$$`
+    const dinamicaTwoSix = `$$\\text{Fr} = \\small 0.5 \\ \\cdot \\ 10435.99N$$`
+    const dinamicaTwoSeven = `$$\\text{Fr} = \\small 5217.995N$$`
     const dinamicaTwoEight = `$$ΣF_x = W_x - Fr = ma$$`
     const dinamicaTwoNine = `$$ΣF_x =\\frac{W_x - Fr}{m} = a$$`
     const dinamicaTwoTen = `$$ΣF_x =\\frac{7307.36N -  5217.995N}{1300kg} = a$$`
     const dinamicaTwoEleven = `$$ΣF_x =  a = 1.60m/s^2$$`
 
-    const torqueOne = `$$W_1 = 60kg * 9.8m/s^2 = 588$$`
+    const torqueOne = `$$W_1 = 60kg \\ \\cdot \\ 9.8m/s^2 = 588$$`
     const torqueTwo = `$$W_2 = ?$$`
     const torqueThree = `$$D_1= 0.3m$$`
     const torqueFour = `$$D_2= 0.25m$$`
-    const torqueFive = `$$F_1 * D_1 * Sen(θ) - F_2 * D_2 * Sen(θ) = 0$$`
-    const torqueSix = `$$588N * 0.3m * Sen(90) - W_1 * 0.25m * Sen(90) = 0$$`
-    const torqueSeven = `$$W_1 = \\frac{588N * 0.3m * Sen(90)}{0.25m * Sen(90)} $$`
+    const torqueFive = `$$F_1 \\ \\cdot \\ D_1 \\ \\cdot \\ Sen(θ) - F_2 \\ \\cdot \\ D_2 \\ \\cdot \\ Sen(θ) = 0$$`
+    const torqueSix = `$$588N \\ \\cdot \\ 0.3m \\ \\cdot \\ Sen(90) - W_1 \\ \\cdot \\ 0.25m \\ \\cdot \\ Sen(90) = 0$$`
+    const torqueSeven = `$$W_1 = \\frac{588N \\ \\cdot \\ 0.3m \\ \\cdot \\ Sen(90)}{0.25m \\ \\cdot \\ Sen(90)} $$`
     const torqueEight = `$$W_1 = 705.6N$$`
-    const torqueNine = `$$m = \\frac{N}{g}$$`
-    const torqueTen = `$$m= \\frac{705.6N}{9.8m/s^2}$$`
-    const torqueEleven = `$$m= 72kg$$`
+    const torqueNine = `$$m = \\large \\frac{N}{g}$$`
+    const torqueTen = `$$m= \\large \\frac{705.6N}{9.8m/s^2}$$`
+    const torqueEleven = `$$m = \\small 72kg$$`
 
-    const trabajoOne = `$$Peso = m * g$$`
-    const trabajoTwo = `$$Peso = 100kg * 9.8m/s^2$$`
-    const trabajoThree = `$$Peso = 980N$$`
-    const trabajoFour = `$$Trabajo= F * d$$`
+    const trabajoOne = `$$\\small \\text{Peso} = m \\ \\cdot \\ g$$`
+    const trabajoTwo = `$$ \\small \\text{Peso} = 100kg \\ \\cdot \\ 9.8m/s^2$$`
+    const trabajoThree = `$$\\small  \\text{Peso} = 980N$$`
+    const trabajoFour = `$$\\small \\text{Trabajo}= F \\ \\cdot \\ d$$`
     const trabajoFive = `$$d= \\frac{trabajo}{F}$$`
     const trabajoSix = `$$d= \\frac{294000J}{980N}$$`
     const trabajoSeven = `$$d = 300m$$`
@@ -94,17 +94,17 @@ export const PhysicPractice = () => {
     const potenciaThree = `$$T = \\frac{294000J}{42000W}$$`
     const potenciaFour = `$$T = 7s$$`
 
-    const rendimientoOne = `$$Rendimiento = \\frac{Potencia útil}{Potencia teórica} * 100$$`
-    const rendimientoTwo = `$$ 27 = \\frac{42000W}{x} * 100$$`
+    const rendimientoOne = `$$\\small Rendimiento = \\normalsize \\frac{Potencia útil}{Potencia teórica} \\ \\cdot \\ 100$$`
+    const rendimientoTwo = `$$ 27 = \\frac{42000W}{x} \\ \\cdot \\ 100$$`
     const rendimientoThree = `$$\\frac{27}{100} = \\frac{42000W}{x}$$`
-    const rendimientoFour = `$$x = \\frac{42000W * 100}{27}$$`
-    const rendimientoFive = `$$x = 155555.55W$$`
+    const rendimientoFour = `$$x = \\frac{42000W \\ \\cdot \\ 100}{27}$$`
+    const rendimientoFive = `$$x = \\small 155555.55W$$`
 
-    const energiaCineticaOne = `$$60kg + 20kg = 80kg$$`
-    const energiaCineticaTwo = `$$E_k = \\frac{1}{2} * 80kg * 15m/s^2$$`
-    const energiaCineticaThree = `$$E_k = 9000 J$$`
+    const energiaCineticaOne = `$$\\small 60kg + 20kg = 80kg$$`
+    const energiaCineticaTwo = `$$E_k = \\frac{1}{2} \\ \\cdot \\ 80kg \\ \\cdot \\ 15m/s^2$$`
+    const energiaCineticaThree = `$$\\small E_k = 9000 J$$`
 
-    const energiaGravitatoriaOne = `$$E_{pg} = 20kg * 9.8m/s^2 * 12m$$`
+    const energiaGravitatoriaOne = `$$E_{pg} = 20kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ 12m$$`
     const energiaGravitatoriaTwo = `$$E_{pg} = 2352 J$$`
 
     return (
@@ -399,7 +399,7 @@ export const PhysicPractice = () => {
                                 </Latex><br /><br />
                                 <Latex>
                                     {dinamicaEight}
-                                </Latex>
+                                </Latex><br /><br />
                                 <Latex>
                                     {dinamicaNine}
                                 </Latex><br /><br />

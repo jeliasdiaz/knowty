@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 const Latex = require("react-latex")
 
 export const TrigonometryPractice = () => {
-    
     const pitagorasExFirstOne = `$$a^2 + b^2 = c^2
     $$`
     const pitagorasExFirstTwo = `$$c^2 - b^2 = a^2$$`
@@ -32,30 +31,30 @@ export const TrigonometryPractice = () => {
     $$`
     const pitagorasExThirdSix = `$$c= 7.81cm$$`
 
-    const razonesTrigonometricasExFirstOne = `$$Sen θ = \\frac{opuesto}{hipotenusa}$$`
-    const razonesTrigonometricasExFirstTwo = `$$Sen 28º = \\frac{x}{36m}$$`
-    const razonesTrigonometricasExFirstThree = `$$x = Sen 28º * 36m$$`
+    const razonesTrigonometricasExFirstOne = `$$Sen θ =  \\large \\frac{opuesto}{hipotenusa}$$`
+    const razonesTrigonometricasExFirstTwo = `$$Sen 28º = \\large \\frac{x}{36m}$$`
+    const razonesTrigonometricasExFirstThree = `$$x = Sen 28º \\ \\cdot \\ 36m$$`
     const razonesTrigonometricasExFirstFour = `$$x= 16.9m$$`
 
-    const razonesTrigonometricasExSecondOne = `$$Tan θ = \\frac{opuesto}{adyacente}$$`
-    const razonesTrigonometricasExSecondTwo = `$$Tan θ = \\frac{4cm}{3cm}
+    const razonesTrigonometricasExSecondOne = `$$Tan θ = \\large \\frac{opuesto}{adyacente}$$`
+    const razonesTrigonometricasExSecondTwo = `$$Tan θ = \\large \\frac{4cm}{3cm}
     $$`
     const razonesTrigonometricasExSecondThree = `$$θ = Tan^{-1} (\\frac{4cm}{3cm})
     $$`
     const razonesTrigonometricasExSecondFour = `$$θ = 53.13º$$`
     const razonesTrigonometricasExSecondFive = `$$Tan^{-1}  $$`
 
-    const leySenoOne = `$$\\frac{a}{Senθ} = \\frac{b}{Senθ}
+    const leySenoOne = `$$\\large \\frac{a}{Senθ} = \\frac{b}{Senθ}
     $$`
-    const leySenoTwo = `$$\\frac{16m}{Sen 110} = \\frac{5m}{Senθ}$$`
-    const leySenoThree = `$$Sen θ = \\frac{Sen 110}{16m} * 5m $$`
+    const leySenoTwo = `$$\\large  \\frac{16m}{Sen 110} = \\frac{5m}{Senθ}$$`
+    const leySenoThree = `$$Sen θ = \\frac{Sen 110}{16m} \\ \\cdot \\ 5m $$`
     const leySenoFour = `$$Sen θ = 0.29$$`
     const leySenoFive = `$$θ = Sen^{-1} (0.29)$$`
     const leySenoSix = `$$θ= 16.85º$$`
 
-    const leyCosenoOne = `$$x^2 = a^2 + b^2 - 2ab * cos(θ)$$`
-    const leyCosenoTwo = `$$x^2 = 8^2 + 20^2 - 2 * 8 * 20 * cos(30°)$$`
-    const leyCosenoThree = `$$\\sqrt{x} = \\sqrt{8^2 + 20^2 - 2 * 8 * 20 * cos(30°)}$$`
+    const leyCosenoOne = `$$x^2 = a^2 + b^2 - 2ab \\ \\cdot \\ cos(θ)$$`
+    const leyCosenoTwo = `$$x^2 = 8^2 + 20^2 - 2 \\ \\cdot \\ 8 \\ \\cdot \\ 20 \\ \\cdot \\ cos(30°)$$`
+    const leyCosenoThree = `$$\\sqrt{x} = \\sqrt{8^2 + 20^2 - 2 \\ \\cdot \\ 8 \\ \\cdot \\ 20 \\ \\cdot \\ cos(30°)}$$`
     const leyCosenoFour = `$$x = 13.67m$$`
 
     return (

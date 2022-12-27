@@ -1,4 +1,6 @@
 import { NavLink, Link } from "react-router-dom"
+import { BiChevronRight } from "react-icons/bi";
+
 export const Home = () => {
   return (
     <>
@@ -7,12 +9,12 @@ export const Home = () => {
           <img src="/img/waveThree.svg" alt="" />
         </div>
         <div className="sectionOne flex-1 container">
-          <div className="sectionOneAppendOne " data-aos="zoom-in" data-aos-duration="900">
+          <div className="sectionOneAppendOne user-select-none" data-aos="zoom-in" data-aos-duration="900">
             <h1>Knowty</h1>
-            <p>Somos un grupo de estudiantes que te brindarán nuevas perspectivas de la existencia ¡Adéntrate a una nueva realidad!</p>
+            <p>Somos un equipo de estudiantes con el fin de aportar a los alumnos. Es hora de adentrarse en las fauces del conocimiento. ¡Sé autodidacta con Knowty!</p>
           </div>
           <div>
-            <img src="/img/homeImg.svg" alt="" className="w-75" />
+            <img src="/img/homeImg.svg" alt="" className="w-75 " />
           </div>
         </div>
         <div>
@@ -30,7 +32,7 @@ export const Home = () => {
                   Promover el aprendizaje y fácil acceso a contenido de carácter educativo. Además, exponer el conocimiento desde varias perspectivas. <Link to="/info" className="text-decoration-none text-white text-decoration-underline">Más información.</Link>
                   <br /><br />
 
-                  El proyecto no posee fines de lucro, sin embargo, si se desea contribuir al crecimiento del mismo, puedes enviar el aporte al Nequi: 310 6598031.
+                  El proyecto no posee fines de lucro, sin embargo, si deseas contribuir al crecimiento del mismo, puedes enviar el aporte al Nequi: 310 6598031.
                 </p>
               </div>
 
@@ -40,7 +42,7 @@ export const Home = () => {
                     <div className="subjectLink d-flex shadow" data-aos="zoom-in-down" data-aos-duration="1400">
                       <img src="/img/estadisticaIcon.png" alt="" className="w-25 pe-2 " />
                       <h4 className=" ps-2">Estadística</h4>
-                      <i className='bx bx-chevron-right bx-lg '></i>
+                      <BiChevronRight size={45} className="BiChevronRight"/>
                     </div>
                   </Link>
 
@@ -48,7 +50,7 @@ export const Home = () => {
                     <div className="subjectLink d-flex shadow" data-aos="zoom-in-down" data-aos-duration="1400">
                       <img src="/img/fisicaIcon.png" alt="" className="w-25 pe-2 " />
                       <h4 className=" ps-2">Física</h4>
-                      <i className='bx bx-chevron-right bx-lg '></i>
+                      <BiChevronRight size={45} className="BiChevronRight"/>
                     </div>
                   </Link>
                 </div>
@@ -58,7 +60,7 @@ export const Home = () => {
                     <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400">
                       <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2 " />
                       <h4 className=" ps-2">Geometría</h4>
-                      <i className='bx bx-chevron-right bx-lg '></i>
+                      <BiChevronRight size={45} className="BiChevronRight"/>
                     </div>
                   </Link>
 
@@ -66,7 +68,7 @@ export const Home = () => {
                     <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400">
                       <img src="/img/englishIcon.png" alt="" className="w-25 pe-2 " />
                       <h4 className=" ps-2">Inglés</h4>
-                      <i className='bx bx-chevron-right bx-lg '></i>
+                      <BiChevronRight size={45} className="BiChevronRight"/>
                     </div>
                   </Link>
                 </div>
@@ -76,14 +78,14 @@ export const Home = () => {
                     <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400">
                       <img src="/img/quimicaIcon.png" alt="" className="w-25 pe-2 " />
                       <h4 className=" ps-2">Química</h4>
-                      <i className='bx bx-chevron-right bx-lg '></i>
+                      <BiChevronRight size={45} className="BiChevronRight"/>
                     </div>
                   </Link>
                   <Link to="/sociales_1" className="text-decoration-none text-black ps-3">
                     <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400">
                       <img src="/img/socialesIcon.png" alt="" className="w-25 pe-2 " />
                       <h4 className=" ps-2">Sociales</h4>
-                      <i className='bx bx-chevron-right bx-lg'></i>
+                      <BiChevronRight size={45} className="BiChevronRight"/>
                     </div>
                   </Link>
                 </div>
@@ -92,7 +94,7 @@ export const Home = () => {
                   <div className="subjectLink d-flex shadow mt-3 subjectLinkTrigonometria" data-aos="zoom-in-down" data-aos-duration="1400">
                     <img src="/img/trigonometriaIcon.png" alt="" className="w-25 pe-2 " />
                     <h4 className="ps-2">Trigonometría</h4>
-                    <i className='bx bx-chevron-right bx-lg'></i>
+                    <BiChevronRight size={45} className="BiChevronRight"/>
                   </div>
                 </Link>
               </div>
@@ -103,7 +105,7 @@ export const Home = () => {
                 <div className="subjectLink d-flex shadow" data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/estadisticaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-3 ps-2">Estadística</h2>
-                  <i className='bx bx-chevron-right bx-lg pt-2'></i>
+                  <BiChevronRight size={45} className="BiChevronRight mt-2"/>
                 </div>
               </NavLink>
 
@@ -111,7 +113,7 @@ export const Home = () => {
                 <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/fisicaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Física</h2>
-                  <i className='bx bx-chevron-right bx-lg pt-3'></i>
+                  <BiChevronRight size={45} className="BiChevronRight mt-3"/>
                 </div>
               </NavLink>
 
@@ -119,7 +121,7 @@ export const Home = () => {
                 <div className="subjectLink d-flex shadow mt-3" data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Geometría</h2>
-                  <i className='bx bx-chevron-right bx-lg pt-3'></i>
+                  <BiChevronRight size={45} className="BiChevronRight mt-3"/>
                 </div>
               </NavLink>
 
@@ -127,7 +129,7 @@ export const Home = () => {
                 <div className="subjectLink d-flex shadow mt-3" data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/englishIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-3 ps-2">Inglés</h2>
-                  <i className='bx bx-chevron-right bx-lg pt-2'></i>
+                  <BiChevronRight size={45} className="BiChevronRight mt-2"/>
                 </div>
               </NavLink>
 
@@ -135,7 +137,7 @@ export const Home = () => {
                 <div className="subjectLink d-flex shadow mt-3" data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/quimicaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Química</h2>
-                  <i className='bx bx-chevron-right bx-lg pt-3'></i>
+                  <BiChevronRight size={45} className="BiChevronRight mt-3"/>
                 </div>
               </NavLink>
 
@@ -143,7 +145,7 @@ export const Home = () => {
                 <div className="subjectLink d-flex shadow mt-3" data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/socialesIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Sociales</h2>
-                  <i className='bx bx-chevron-right bx-lg pt-3'></i>
+                  <BiChevronRight size={45} className="BiChevronRight mt-3"/>
                 </div>
               </NavLink>
 
@@ -151,7 +153,7 @@ export const Home = () => {
                 <div className="subjectLink d-flex shadow mt-3 subjectLinkTrigonometria" data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/trigonometriaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Trigonometría</h2>
-                  <i className='bx bx-chevron-right bx-lg pt-3'></i>
+                  <BiChevronRight size={45} className="BiChevronRight mt-3"/>
                 </div>
               </NavLink>
             </div>

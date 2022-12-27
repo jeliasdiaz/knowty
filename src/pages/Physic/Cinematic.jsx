@@ -3,38 +3,38 @@ import { PhysicNav } from "./PhysicNav.jsx";
 
 export const Cinematic = () => {
 
-    const vectoresOne = `$$C_x = C * cos(θ)
+    const vectoresOne = `$$C_x = C \\cdot cos(θ)
     $$`
-    const vectoresTwo = `$$C_y = C * sen(θ)$$`
-    const vectoresThree = `$$C_x = C * sen(θ)$$`
-    const vectoresFour = `$$C_y = C * cos(θ)$$`
+    const vectoresTwo = `$$C_y = C \\ \\cdot \\ sen(θ)$$`
+    const vectoresThree = `$$C_x = C \\ \\cdot \\ sen(θ)$$`
+    const vectoresFour = `$$C_y = C \\ \\cdot \\ cos(θ)$$`
     const vectoresFive = `$$X_x + Y_y = Z_x$$`
     const vectoresSix = `$$X_y + Y_y = Z_y$$`
     const vectoresSeven = `$$Z = \\sqrt{Z_x^2 + Z_y^2} $$`
-    const vectoresEight = `$$θ_z = tan^-1 (\\frac{Z_y}{Z_x})$$`
+    const vectoresEight = `$$θ_z = tan^-1 \\left(\\frac{Z_y}{Z_x}  \\right)  $$`
 
-    const mruOne = `$$x = x_0 + v * t$$`
-    const mruTwo = `$$v = \\frac{x_f - x_i}{(t_f - t_i)}$$`
+    const mruOne = `$$x = x_0 + v \\ \\cdot \\ t$$`
+    const mruTwo = `$$v = \\large \\frac{(x_f \\ - \\  x_i)}{(t_f \\ - \\ t_i)}$$`
 
-    const mruaOne = `$$x = x_0 + v_0 * t + \\frac{1}{2} * a * t^2$$`
-    const mruaTwo = `$$v = v_0 + a * t$$`
-    const mruaThree = `$$a = \\frac{v_f - v_i}{t_f - t_i}$$`
+    const mruaOne = `$$x =  x_0 \\ + \\ v_0 \\ \\cdot \\ t + \\ \\frac{1}{2} \\ \\cdot \\ a \\ \\cdot \\ t^2$$`
+    const mruaTwo = `$$v =  v_0 \\ + \\ a \\ \\cdot \\ t$$`
+    const mruaThree = `$$a = \\large \\frac{(v_f \\ - \\ v_i)}{(t_f \\ - \\ t_i)}$$`
 
-    const caidaTiroVerticalOne = `$$y = y_0 + v_0 * t - \\frac{1}{2} * g * t ^2$$`
-    const caidaTiroVerticalTwo = `$$v = v_0 - g * t$$`
-    const caidaTiroVerticalThree = `$$h_{max} = v_oy^2$$`
-    const caidaTiroVerticalFour = `$$t_v = \\frac{2v_0}{2g}$$`
-    const caidaTiroVerticalFive = `$$t_c = \\sqrt{\\frac{2h}{g}}$$`
+    const caidaTiroVerticalOne = `$$y = y_0 + v_0 \\ \\cdot \\ t - \\frac{1}{2} \\ \\cdot \\ g \\ \\cdot \\ t ^2$$`
+    const caidaTiroVerticalTwo = `$$v = v_0 - g \\ \\cdot \\ t$$`
+    const caidaTiroVerticalThree = `$$h_{max} = v_{oy}^2$$`
+    const caidaTiroVerticalFour = `$$t_v = \\large \\frac{2v_0}{2g}$$`
+    const caidaTiroVerticalFive = `$$t_c = \\large \\sqrt{\\frac{2h}{g}}$$`
 
-    const tiroParabolicoOne = `$$v_{ox} = v_0 * cos(θ)$$`
-    const tiroParabolicoTwo = `$$v_{oy} = v_0 * sen(θ)$$`
-    const tiroParabolicoThree = `$$x = x_0 + v_0x * t$$`
-    const tiroParabolicoFour = `$$y = y_0 + v_oy * t - \\frac{1}{2} * g * t^2$$`
-    const tiroParabolicoFive = `$$v = v_0 - g * t$$`
-    const tiroParabolicoSix = `$$h_{max} = \\frac{2v_oy}{g}$$`
-    const tiroParabolicoSeven = `$$t_v = \\frac{2v_oy}{g}$$`
-    const tiroParabolicoEight = `$$t_c = \\sqrt{\\frac{2h}{g}}$$`
-    const tiroParabolicoNine = `$$D_h = v_ox * t_v$$`
+    const tiroParabolicoOne = `$$v_{ox} = v_0 \\ \\cdot \\ cos(θ)$$`
+    const tiroParabolicoTwo = `$$v_{oy} = v_0 \\ \\cdot \\ sen(θ)$$`
+    const tiroParabolicoThree = `$$x = x_0 + v_{0x} \\ \\cdot \\ t$$`
+    const tiroParabolicoFour = `$$y = y_0 + v_{oy} \\ \\cdot \\ t - \\frac{1}{2} \\ \\cdot \\ g \\ \\cdot \\ t^2$$`
+    const tiroParabolicoFive = `$$v = v_0 - g \\ \\cdot \\ t$$`
+    const tiroParabolicoSix = `$$h_{max} = \\large \\frac{2v_{oy}}{g}$$`
+    const tiroParabolicoSeven = `$$t_v = \\large \\frac{2v_{oy}}{g}$$`
+    const tiroParabolicoEight = `$$t_c = \\large \\sqrt{\\frac{2h}{g}}$$`
+    const tiroParabolicoNine = `$$D_h = v_{ox} \\ \\cdot \\ t_v$$`
 
     return (
         <div className="cinematica-home">

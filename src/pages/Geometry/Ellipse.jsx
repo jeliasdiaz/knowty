@@ -3,12 +3,13 @@ import { GeometryNav } from "./GeometryNav"
 
 const Ellipse = () => {
     
-    const elipseOne = `$$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$$`
-    const elipseTwo = `$$ LR = \\frac{2 * b^2}{a}$$`
-    const elipseThree = `$$e = \\frac{c}{a}$$`
-    const elipseFour = `$$\\frac{x^2}{25} + \\frac{y^2}{9} = 1$$`
-    const elipseFive = `$$\\frac{2*3^2}{5} = 3.6$$`
-    const elipseSix = `$$\\frac{(x-h)^2}{a^2} + \\frac{(y - k)^2}{b^2} = 1$$`
+    const elipseOne = `$$ \\large \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = \\small 1$$`
+    const elipseTwo = `$$\\small LR = \\large \\frac{2 \\ \\cdot \\ b^2}{a}$$`
+    const elipseThree = `$$e = \\Large \\frac{c}{a}$$`
+    const elipseFour = `$$ \\large \\frac{x^2}{25} + \\frac{y^2}{9} = \\small 1$$`
+    const c = `$$\\small c = \\sqrt{5^2 \\ - 3^2 = 4}$$`
+    const elipseFive = `$$\\large \\frac{2 \\ \\cdot \\ 3^2}{5} = \\small 3.6$$`
+    const elipseSix = `$$\\large \\frac{(x-h)^2}{a^2} + \\frac{(y - k)^2}{b^2} = \\small 1$$`
 
     return (
         <div className="homeGeometria" id="geometria">
@@ -22,7 +23,7 @@ const Ellipse = () => {
             <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
                 <div>
                     <h2>Ecuación de la elipse con vértice en (0, 0)</h2>
-                    <Latex>{elipseOne}</Latex>
+                    <p><Latex>{elipseOne}</Latex></p>
                     <p>
                         a = distancia del centro al vértice del eje mayor <br />
                         b = distancia del centro al vértice del eje menor <br />
@@ -30,15 +31,14 @@ const Ellipse = () => {
                     </p>
 
                     <Latex>{elipseTwo}</Latex><br />
-                    <img src="/img/excentricidadElipse.svg" alt="" />
-                    <Latex>{elipseThree}</Latex>
+                    <Latex>{elipseThree}</Latex><br /><br />
 
                     <p>Ejemplo</p>
+                    <p><Latex>{elipseFour}</Latex> </p>
                     <p>
-                    <Latex>{elipseFour}</Latex>
                         a = 5 <br />
                         b = 3 <br />
-                        c = √5² - 3² = 4
+                        <Latex>{c}</Latex>
                     </p>
                     <p>LR (lado recto) =</p>
                     <Latex>{elipseFive}</Latex>

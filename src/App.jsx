@@ -12,8 +12,8 @@ import { Footer } from "./components/Footer";
 
 //* Chemistry
 import FirstChemistryPeriod from "./pages/Chemistry/FirstChemistryPeriod";
-import SecondChemistryPeriod from "./pages/Chemistry/ThirdChemistryPeriod";
-import ThirdChemistryPeriod from "./pages/Chemistry/SecondChemistryPeriod";
+import ThirdChemistryPeriod from "./pages/Chemistry/ThirdChemistryPeriod";
+import SecondChemistryPeriod from "./pages/Chemistry/SecondChemistryPeriod";
 import FourthChemistryPeriod from "./pages/Chemistry/FourthChemistryPeriod";
 
 //* English
@@ -42,7 +42,7 @@ import SocialMovements from "./pages/Social/SocialMovements";
 import { Statistic } from "./pages/Statistic";
 
 //* Trigonometry
-import { FirstTrigonometryPeriod } from "./pages/Trigonometry/FirstTrigonometryPeriod";
+import { ThirdTrigonometryPeriod } from "./pages/Trigonometry/ThirdTrigonometryPeriod";
 import { SecondTrigonometryPeriod } from "./pages/Trigonometry/SecondTrigonometryPeriod";
 
 //* Phone menus
@@ -99,8 +99,8 @@ function App() {
 
 
         <Route path="/sociales_1" element={<FirstSocialPeriod />} />
-        <Route path="/sociales_2" element={<ArmedGroups />} />
-        <Route path="/sociales" element={<EconomicDoctrines />} />
+        <Route path="/sociales_2" element={<EconomicDoctrines />} />
+        <Route path="/sociales" element={<ArmedGroups />} />
         <Route path="/sociales_4" element={<SocialMovements />} />
 
 
@@ -108,7 +108,7 @@ function App() {
 
 
         <Route path="/trigonometria_2" element={<SecondTrigonometryPeriod />} />
-        <Route path="/trigonometria" element={<FirstTrigonometryPeriod />} />
+        <Route path="/trigonometria" element={<ThirdTrigonometryPeriod />} />
 
 
         <Route path="/fisica-menu" element={<PhysicMenu />} />
