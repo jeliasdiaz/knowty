@@ -1,4 +1,5 @@
 import { PhysicNav } from "./PhysicNav"
+import { SectionTitle } from "../SectionTitle";
 const  Latex = require("react-latex")
 
 export const Energy = () => {
@@ -29,7 +30,7 @@ export const Energy = () => {
     return (
         <div className="energia-home">
             <img src="/img/waveThree.svg" alt="" />
-            <h1 className="textIntroducion shadow-lg">Energía</h1>
+            <SectionTitle title="Energía" />
             
             <PhysicNav/>
 

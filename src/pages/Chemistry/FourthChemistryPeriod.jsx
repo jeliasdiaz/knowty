@@ -1,5 +1,7 @@
 import Latex from "react-latex"
 import { ChemistryNav } from "./ChemistryNav"
+import { SectionTitle } from "../SectionTitle";
+
 const FourthChemistryPeriod = () => {
 
     const purezaReactivo = `$$SP = \\large \\frac{SI \\ \\cdot \\ \\%P}{100}$$`
@@ -12,9 +14,7 @@ const FourthChemistryPeriod = () => {
     return (
         <div className="homeQuimica" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
-            <div className="textIntroducion shadow-lg">
-                <h1>Química</h1>
-            </div>
+            <SectionTitle title="Química"/>
             
             <ChemistryNav/>
 

@@ -1,5 +1,6 @@
 import Latex from "react-latex"
 import { GeometryNav } from "./GeometryNav"
+import { SectionTitle } from "../SectionTitle";
 
 const Ellipse = () => {
     
@@ -14,9 +15,7 @@ const Ellipse = () => {
     return (
         <div className="homeGeometria" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
-            <div className="textIntroducion shadow-lg">
-                <h1>Elipse</h1>
-            </div>
+            <SectionTitle title="Elipse" />
             
             <GeometryNav/>
 

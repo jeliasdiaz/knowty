@@ -1,4 +1,5 @@
 import { GeometryNav } from "./GeometryNav"
+import { SectionTitle } from "../SectionTitle";
 
 export const Parable = () => {
 
@@ -6,9 +7,7 @@ export const Parable = () => {
     return (
         <div className="homeGeometria" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
-            <div className="textIntroducion shadow-lg">
-                <h1>Parábola</h1>
-            </div>
+            <SectionTitle title="Parábola"/>
             
             <GeometryNav/>
 

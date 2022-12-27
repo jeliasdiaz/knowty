@@ -1,5 +1,6 @@
 import Latex from "react-latex"
 import { TrigonometryNav } from "./TrigonometryNav"
+import { SectionTitle } from "../SectionTitle";
 
 export const ThirdTrigonometryPeriod = () => {
 
@@ -24,9 +25,7 @@ export const ThirdTrigonometryPeriod = () => {
         <div className="background">
             <img src="/img/waveThree.svg" alt="" />
             <div className="homeTrigonometria">
-                <div className="textIntroducion shadow-lg">
-                    <h1>Trigonometría</h1>
-                </div>
+                <SectionTitle title="Trigonometría" />
                 
                 <TrigonometryNav/>
 

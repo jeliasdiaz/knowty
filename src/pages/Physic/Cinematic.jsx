@@ -1,5 +1,6 @@
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav.jsx";
+import { SectionTitle } from "../SectionTitle";
 
 export const Cinematic = () => {
 
@@ -39,9 +40,8 @@ export const Cinematic = () => {
     return (
         <div className="cinematica-home">
             <img src="/img/waveThree.svg" alt="" />
-            <div>
-                <h1 className="textIntroducion shadow-lg">Cinemática</h1>
-            </div>
+            
+            <SectionTitle title="Cinemática"/>
 
             <PhysicNav/>
 

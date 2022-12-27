@@ -1,5 +1,6 @@
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav"
+import { SectionTitle } from "../SectionTitle";
 
 export const CircularMovement = () => {
 
@@ -17,7 +18,7 @@ export const CircularMovement = () => {
     return (
         <div className="circular-home">
             <img src="/img/waveThree.svg" alt="" />
-            <h1 className="textIntroducion shadow-lg">Movimiento circular</h1>
+            <SectionTitle title="Movimiento circular"/>
             
             <PhysicNav/>
 

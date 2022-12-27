@@ -1,4 +1,5 @@
 import Latex from "react-latex"
+import { SectionTitle } from "./SectionTitle";
 
 export const Statistic = () => {
 
@@ -28,9 +29,7 @@ export const Statistic = () => {
     <div>
       <img src="/img/waveThree.svg" alt="" />
       <div className="homeEstadistica">
-        <div className="textIntroducion shadow-lg">
-          <h1>Estadística</h1>
-        </div>
+        <SectionTitle title="Estadística" />
         
         <div className="cardEnglish mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
           <div>

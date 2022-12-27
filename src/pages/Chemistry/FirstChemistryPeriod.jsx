@@ -1,4 +1,5 @@
 import { ChemistryNav } from "./ChemistryNav"
+import { SectionTitle } from "../SectionTitle";
 const Latex = require("react-latex")
 
 const FirstChemistryPeriod = () => {
@@ -13,10 +14,7 @@ const FirstChemistryPeriod = () => {
     return (
         <div className="homeQuimica" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
-            <div className="textIntroducion shadow-lg">
-                <h1>Química</h1>
-            </div>
-            
+            <SectionTitle title="Química"/>
             <ChemistryNav/>
             
             <div className="cardQuimica mb-5 shadow" data-aos="fade-up" data-aos-duration="700">

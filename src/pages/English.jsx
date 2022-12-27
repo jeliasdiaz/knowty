@@ -1,10 +1,10 @@
+import { SectionTitle } from "./SectionTitle";
+
 const English = () => {
     return (
         <div className="homeGeometria" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
-            <div className="textIntroducion shadow-lg">
-                <h1>Inglés</h1>
-            </div>
+            <SectionTitle title="Inglés" />
             <div className="cardEnglish mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
                 <div>
                     <h1>Structures</h1>

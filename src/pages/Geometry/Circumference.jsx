@@ -1,5 +1,7 @@
 import Latex from "react-latex"
 import { GeometryNav } from "./GeometryNav"
+import { SectionTitle } from "../SectionTitle";
+
 const Circumference = () => {
 
     const canonicaCircunferencia = `$$r = \\sqrt{(x - h)^2 + (y - k)^2}$$`
@@ -8,9 +10,7 @@ const Circumference = () => {
     return (
         <div className="homeGeometria" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
-            <div className="textIntroducion shadow-lg">
-                <h1>Circunferencia</h1>
-            </div>
+            <SectionTitle title="Circunferencia"/>
             
             <GeometryNav/>
 

@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 import { SocialNav } from "./SocialNav"
+import { SectionTitle } from "../SectionTitle";
+
 const SocialMovements = () => {
     return (
         <div className="homeGeometria" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
-            <div className="textIntroducion shadow-lg">
-                <h1>Movimientos sociales</h1>
-            </div>
+            <SectionTitle title="Movimientos sociales" />
             
             <SocialNav/>
 

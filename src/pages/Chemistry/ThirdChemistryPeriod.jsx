@@ -1,12 +1,23 @@
 import { ChemistryNav } from "./ChemistryNav"
+import { SectionTitle } from "../SectionTitle";
+import Latex from "react-latex";
 
 const ThirdChemistryPeriod = () => {
+
+  const metodoAlgebraicoEjemplo = `$$\\text{Fe}_2O_3 \\ + \\ C \\rightarrow \\ \\text{Fe} \\ + \\ \\text{CO}$$`
+
+  const Fe2O3 = `$$\\text{Fe}_2O_3$$`
+  const Fe = `$$\\text{Fe}$$`
+  const CO = `$$\\text{CO}$$`
+  const metodoAlgebraicoEjemploTwo = `$$\\Large \\frac{Fe_2O_3}{a} \\ 
+  + \\ \\frac{C}{b} \\rightarrow \\frac{Fe}{c} \\ + \\ \\frac{\\text{CO}}{d}$$`
+  const metodoAlgebraicoEjemploThree = `$$2a = c \\newline 3 \\ \\cdot \\ (2) = d \\newline b = d \\newline 4 = c \\newline 6 = d \\newline  b = 6$$`
+  const metodoAlgebraicoEjemploFour = `$$2 = c \\newline 3 = d \\newline b = 3$$`
+  const metodoAlgebraicoEjemploFive = `$$\\text{Fe}_2O_3 \\ + \\ 3C \\rightarrow \\ \\text{2Fe} \\ + \\ \\text{3CO}$$`
   return (
     <div className="homeQuimica" id="geometria">
       <img src="/img/waveThree.svg" alt="" />
-      <div className="textIntroducion shadow-lg">
-        <h1>Química</h1>
-      </div>
+      <SectionTitle title="Química"/>
 
       <ChemistryNav />
 
@@ -286,19 +297,17 @@ const ThirdChemistryPeriod = () => {
             </ol>
             <p>
               Por ejemplo, tenemos la siguiente ecuación: <br />
-              <img src="/img/metodoAlgebraico-1.svg" alt="" /><br />
-              Fe2O3, lo identificamos como <b>a</b>, C lo identificamos como <b>b</b>. Respecto a los productos, Fe lo identificamos con la letra <b>c</b> y, por último, CO con la letra <b>d</b>. Gráficamente luce de la siguiente forma: <br />
-              <img src="/img/metodoAlgebraico-2.png" alt="" id="metodoAlgebraico2" /><br />
+              <Latex>{metodoAlgebraicoEjemplo}</Latex><br />
+              <Latex>{Fe2O3}</Latex>, lo identificamos como <b>a</b>, C lo identificamos como <b>b</b>. Respecto a los productos, <Latex>{Fe}</Latex> lo identificamos con la letra <b>c</b> y, por último, <Latex>{CO}</Latex> con la letra <b>d</b>. Gráficamente luce de la siguiente forma: <br />
+              <Latex>{metodoAlgebraicoEjemploTwo}</Latex><br />
               Posteriormente, usamos los subíndices cómo coeficientes de las letras respectivamente. Es decir: <br />
               <img src="/img/metodoAlgebraico-3.svg" alt="" /> <br />
               Después, reconocemos la letra que se presenta más veces sin tener en cuenta los coeficientes. En este caso, tanto <b>a</b> como <b>d</b> se repiten el mismo número de veces, como resultado, podemos usar cualquiera de los dos. Le asignamos un valor arbitrario a cualquiera de las letras, a nuestra elección, usaremos la letra <b>a</b>, con un valor de dos. Reemplazamos: <br />
-              <img src="/img/metodoAlgebraico-4.svg" alt="" /><br />
-              <img src="/img/metodoAlgebraico-5.svg" alt="" /><br />
+              <Latex>{metodoAlgebraicoEjemploThree}</Latex><br />
               Simplificamos: <br />
-              <img src="/img/metodoAlgebraico-6.svg" alt="" /><br />
+              <Latex>{metodoAlgebraicoEjemploFour}</Latex><br />
               Reemplazamos en la ecuación: <br />
-              <img src="/img/metodoAlgebraico-7.svg" alt="" />
-              <br />
+              <Latex>{metodoAlgebraicoEjemploFive}</Latex><br />
             </p>
 
             <button className="btn btn-secondary"><a href="https://youtu.be/MUukx4RlWmw" className="text-decoration-none text-white">Profundizar</a></button> <br /> <br />

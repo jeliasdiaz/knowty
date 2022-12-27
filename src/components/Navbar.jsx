@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { RiHomeFill } from "react-icons/ri";
+import { AiFillHome } from "react-icons/ai";
 import { MdInfo } from "react-icons/md";
 import { IoCaretBackCircle } from "react-icons/io5";
 import "./Navbar.css"
@@ -26,7 +26,7 @@ export const Navbar = () => {
 
                         <NavLink to="/info"><MdInfo size={38} id="MdInfo" /></NavLink>
 
-                        <NavLink to="/"><RiHomeFill size={38} id="RiHomeFill" /></NavLink>
+                        <NavLink to="/"><AiFillHome size={38} id="RiHomeFill" /></NavLink>
 
                         <a href="javascript:history.back()" className={IsHover ? 'backHoverColor' : ''}
                             onMouseOver={handleMouseOver}

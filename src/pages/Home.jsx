@@ -1,4 +1,4 @@
-import { NavLink, Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { BiChevronRight } from "react-icons/bi";
 
 export const Home = () => {
@@ -27,7 +27,7 @@ export const Home = () => {
           <div className="sectionTwoText justify-content-around" data-aos="fade-down" data-aos-duration="1400">
             <div className="flex-1">
               <div className="text-sectionTwo">
-                <h2 id="sectionTwoTitle">Nuestra meta</h2>
+                <h2>Nuestra meta</h2>
                 <p>
                   Promover el aprendizaje y fácil acceso a contenido de carácter educativo. Además, exponer el conocimiento desde varias perspectivas. <Link to="/info" className="text-decoration-none text-white text-decoration-underline">Más información.</Link>
                   <br /><br />
@@ -101,61 +101,61 @@ export const Home = () => {
             </div>
 
             <div className="subjects d-block d-sm-none ">
-              <NavLink to="/estadistica" className="text-decoration-none text-dark">
+              <Link to="/estadistica" className="text-decoration-none text-dark">
                 <div className="subjectLink d-flex shadow" data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/estadisticaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-3 ps-2">Estadística</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-2"/>
                 </div>
-              </NavLink>
+              </Link>
 
-              <NavLink to="/fisica-menu" className="text-decoration-none text-dark">
+              <Link to="/fisica-menu" className="text-decoration-none text-dark">
                 <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/fisicaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Física</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-3"/>
                 </div>
-              </NavLink>
+              </Link>
 
-              <NavLink to="/geometria-menu" className="text-decoration-none text-dark">
+              <Link to="/geometria-menu" className="text-decoration-none text-dark">
                 <div className="subjectLink d-flex shadow mt-3" data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Geometría</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-3"/>
                 </div>
-              </NavLink>
+              </Link>
 
-              <NavLink to="/ingles" className="text-decoration-none text-dark">
+              <Link to="/ingles" className="text-decoration-none text-dark">
                 <div className="subjectLink d-flex shadow mt-3" data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/englishIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-3 ps-2">Inglés</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-2"/>
                 </div>
-              </NavLink>
+              </Link>
 
-              <NavLink to="/quimica-menu" className="text-decoration-none text-dark">
+              <Link to="/quimica-menu" className="text-decoration-none text-dark">
                 <div className="subjectLink d-flex shadow mt-3" data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/quimicaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Química</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-3"/>
                 </div>
-              </NavLink>
+              </Link>
 
-              <NavLink to="/sociales-menu" className="text-decoration-none text-dark">
+              <Link to="/sociales-menu" className="text-decoration-none text-dark">
                 <div className="subjectLink d-flex shadow mt-3" data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/socialesIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Sociales</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-3"/>
                 </div>
-              </NavLink>
+              </Link>
 
-              <NavLink to="/trigonometria-menu" className="text-decoration-none text-dark ">
+              <Link to="/trigonometria-menu" className="text-decoration-none text-dark ">
                 <div className="subjectLink d-flex shadow mt-3 subjectLinkTrigonometria" data-aos="zoom-in-down" data-aos-duration="900">
                   <img src="/img/trigonometriaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Trigonometría</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-3"/>
                 </div>
-              </NavLink>
+              </Link>
             </div>
 
           </div>

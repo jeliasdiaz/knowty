@@ -1,12 +1,11 @@
 import { ChemistryNav } from "./ChemistryNav"
+import { SectionTitle } from "../SectionTitle";
 
 const SecondChemistryPeriod = () => {
     return (
         <div className="homeQuimica" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
-            <div className="textIntroducion shadow-lg">
-                <h1>Química</h1>
-            </div>
+            <SectionTitle title="Química"/>
             
             <ChemistryNav/>
 

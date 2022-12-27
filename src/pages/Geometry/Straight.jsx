@@ -1,5 +1,6 @@
 import Latex from "react-latex"
 import { GeometryNav } from "./GeometryNav"
+import { SectionTitle } from "../SectionTitle";
 
 const Straight = () => {
 
@@ -14,9 +15,7 @@ const Straight = () => {
     return (
         <div className="homeGeometria" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
-            <div className="textIntroducion shadow-lg">
-                <h1>Recta</h1>
-            </div>
+            <SectionTitle title="Recta"/>
             
             <GeometryNav/>
 

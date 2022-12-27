@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+
 export const GeometryMenu = () => {
   return (
     <>
@@ -36,7 +37,6 @@ export const GeometryMenu = () => {
               <i className='bx bx-chevron-right bx-lg pt-3'></i>
             </div>
           </Link>
-
 
         </div>
       </section>

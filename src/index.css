@@ -61,10 +61,8 @@ body {
   margin-right: 1%;
   margin-top: 3%;
 }
-.sectionTwoText h2 {
+.text-sectionTwo h2 {
   font-family: "Roboto", sans-serif;
-}
-#sectionTwoTitle {
   font-size: 38px;
 }
 
@@ -336,7 +334,8 @@ ul li {
 @media screen and (max-width: 800px) {
   .home {
     background-attachment: fixed;
-    height: 94vh;
+    /* height: 94vh; */
+    height: 100vh;
   }
   .waveOne {
     display: none;
@@ -372,12 +371,12 @@ ul li {
     text-align: start;
     padding-bottom: 3%;
   }
+  .text-sectionTwo h2 {
+    font-size: 36px;
+  }
 
   .sectionTwo img {
     width: 85%;
-  }
-  #sectionTwoTitle {
-    font-size: 36px;
   }
   .flex-1 {
     display: flex;

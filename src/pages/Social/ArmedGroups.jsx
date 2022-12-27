@@ -1,11 +1,11 @@
 import { SocialNav } from "./SocialNav"
+import { SectionTitle } from "../SectionTitle";
+
 const ArmedGroups = () => {
     return (
         <div className="homeGeometria" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
-            <div className="textIntroducion shadow-lg">
-                <h1>Movimientos armados</h1>
-            </div>
+            <SectionTitle title="Movimientos armados"/>
             
             <SocialNav/>
             

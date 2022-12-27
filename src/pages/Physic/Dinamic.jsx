@@ -1,10 +1,12 @@
 import { PhysicNav } from "./PhysicNav.jsx";
+import { SectionTitle } from "../SectionTitle";
 
 export const Dinamic = () => {
     return (
         <div className="dinamica-home">
             <img src="/img/waveThree.svg" alt="" />
-            <h1 className="textIntroducion shadow-lg">Dinámica</h1>
+            
+            <SectionTitle title="Dinámica"/>
             
             <PhysicNav/>
 

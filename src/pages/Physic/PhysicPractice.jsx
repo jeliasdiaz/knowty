@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-const Latex = require("react-latex")
+import { SectionTitle } from "../SectionTitle"; 
+import Latex from "react-latex"
 
 export const PhysicPractice = () => {
     const vectoresOne = `$$A_x = \\small 15N \\ \\cdot \\ cos(30) = 12.99N$$`
@@ -110,9 +111,7 @@ export const PhysicPractice = () => {
     return (
         <div>
             <img src="/img/waveThree.svg" alt="" />
-            <div>
-                <h1 className="textIntroducion shadow-lg">Practica</h1>
-            </div>
+            <SectionTitle title="Practica" />
 
             <nav className="nav-3 d-none d-sm-block" data-aos="zoom-in" data-aos-duration="800">
                 <ul className="pagination pagination-md justify-content-center mt-5">

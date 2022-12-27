@@ -1,11 +1,11 @@
 import { SocialNav } from "./SocialNav"
+import { SectionTitle } from "../SectionTitle";
+
 const FirstSocialPeriod = () => {
     return (
         <div className="homeGeometria" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
-            <div className="textIntroducion shadow-lg">
-                <h1>I periodo</h1>
-            </div>
+            <SectionTitle title="I periodo" />
             
             <SocialNav/>
 

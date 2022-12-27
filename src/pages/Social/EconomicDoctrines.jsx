@@ -1,11 +1,11 @@
 import { SocialNav } from "./SocialNav"
+import { SectionTitle } from "../SectionTitle";
+
 const EconomicDoctrines = () => {
     return (
         <div className="homeGeometria" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
-            <div className="textIntroducion shadow-lg">
-                <h1>Doctrinas económicas</h1>
-            </div>
+            <SectionTitle title="Doctrinas económicas" />
             
             <SocialNav/>
 

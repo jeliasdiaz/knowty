@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-const Latex = require("react-latex")
+import { SectionTitle } from "../SectionTitle";
+import Latex from "react-latex"
 
 export const TrigonometryPractice = () => {
     const pitagorasExFirstOne = `$$a^2 + b^2 = c^2
@@ -60,9 +61,7 @@ export const TrigonometryPractice = () => {
     return (
         <div>
             <img src="/img/waveThree.svg" alt="" />
-            <div>
-                <h1 className="textIntroducion shadow-lg">Practica</h1>
-            </div>
+            <SectionTitle title="Practica" />
 
             <nav data-aos="zoom-in" data-aos-duration="800" className="d-none d-sm-block">
                     <ul className="pagination  pagination-md justify-content-center">

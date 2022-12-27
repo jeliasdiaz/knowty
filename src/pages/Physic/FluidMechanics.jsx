@@ -1,5 +1,6 @@
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav"
+import { SectionTitle } from "../SectionTitle";
 
 const FluidMechanics = () => {
 
@@ -17,9 +18,7 @@ const FluidMechanics = () => {
     return (
         <div className="home-fisica">
             <img src="/img/waveThree.svg" alt="" />
-            <div className="textIntroducion shadow-lg">
-                <h1>Mecánica de fluidos</h1>
-            </div>
+            <SectionTitle title="Mecánica de fluidos"/>
             
             <PhysicNav/>
 
