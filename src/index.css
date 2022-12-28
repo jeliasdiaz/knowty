@@ -12,9 +12,6 @@ body {
 /** Section 1 */
 .home {
   background-color: #f6f6f6;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   height: 100vh;
 }
 
@@ -118,6 +115,7 @@ body {
   width: 406px;
 }
 
+
 /** Física page */
 .cardsFisica {
   display: flex;
@@ -162,14 +160,6 @@ body {
 
 .trabajo-2 {
   width: 30%;
-}
-h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 200;
-}
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 200;
 }
 
 .textIntroducion {
@@ -217,6 +207,7 @@ h1 {
 .reglaTresDirecta {
   width: 15%;
 }
+
 
 /** English */
 .cardEnglish {
@@ -301,6 +292,14 @@ h1 {
 }
 
 /** Global elements */
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
 code {
   color: black !important;
 }
@@ -333,8 +332,6 @@ ul li {
 
 @media screen and (max-width: 800px) {
   .home {
-    background-attachment: fixed;
-    /* height: 94vh; */
     height: 100vh;
   }
   .waveOne {

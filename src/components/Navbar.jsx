@@ -9,12 +9,8 @@ import { useState } from "react";
 export const Navbar = () => {
 
     const [IsHover, setIsHover] = useState(false)
-    const handleMouseOver = () => {
-        setIsHover(true);
-    };
-    const handleMouseOut = () => {
-        setIsHover(false);
-    };
+    const handleMouseOver = () => setIsHover(true);
+    const handleMouseOut = () => setIsHover(false);
 
     return (
         <>
@@ -25,15 +21,17 @@ export const Navbar = () => {
 
                     <div className="navbar-nav ms-auto shadow bg-white rounded p-1 gap-1">
 
-                        <NavLink to="/info"><MdInfo size={38} id="MdInfo" /></NavLink>
+                        <NavLink to="/info"><MdInfo size={38} className="navBtn" /></NavLink>
 
-                        <NavLink to="/"><AiFillHome size={38} id="RiHomeFill" /></NavLink>
+                        <NavLink to="/"><AiFillHome size={38} className="navBtn" /></NavLink>
 
-                        <a href="javascript:history.back()" className={IsHover ? 'backHoverColor' : ''}
+                        <a href="javascript:history.back()" className={IsHover ? 'backHoverColor d-none d-sm-block' : ' d-none d-sm-block'}
                             onMouseOver={handleMouseOver}
-                            onMouseOut={handleMouseOut}><IoCaretBackCircle size={38} id="IoCaretBackCircle" /></a>
+                            onMouseOut={handleMouseOut}><IoCaretBackCircle size={38} className="navBtn" /></a>
 
-                        <NavLink to="/search"><BiSearch size={38} id="RiHomeFill" /></NavLink>
+                        <a href="javascript:history.back()" className="d-block d-sm-none"><IoCaretBackCircle size={38} className="navBtn" /></a>
+
+                        <NavLink to="/search"><BiSearch size={38} className="navBtn" /></NavLink>
                     </div>
                 </div>
             </nav>

@@ -3,7 +3,7 @@ import { SectionTitle } from "../SectionTitle";
 
 const EconomicDoctrines = () => {
     return (
-        <div className="homeGeometria" id="geometria">
+        <div className="homeGeometria">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Doctrinas económicas" />
             
@@ -12,7 +12,7 @@ const EconomicDoctrines = () => {
             <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
 
                 <div>
-                    <h2>Liberalismo</h2>
+                    <h2 className="mainTitleCards">Liberalismo</h2>
                     <ul>
                         <li>Doctrina filosófica de carácter político, económico y social (Es un conjunto de pensamientos)</li>
                         <li>Funciona de base teórica del capitalismo</li>

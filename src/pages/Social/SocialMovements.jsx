@@ -4,7 +4,7 @@ import { SectionTitle } from "../SectionTitle";
 
 const SocialMovements = () => {
     return (
-        <div className="homeGeometria" id="geometria">
+        <div className="homeGeometria">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Movimientos sociales" />
             

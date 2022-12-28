@@ -16,9 +16,9 @@ export const Footer = () => {
           <div className="d-flex">
             <div className="teamCard" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>Jose Díaz</h4>
-              <p>Creador del proyecto, programador de la página y creador de materiales para YouTube</p>
+              <p>Creador del proyecto, programador de la página y creador de contenido para YouTube</p>
               <AiFillYoutube size={36} className="position-absolute bottom-0 end-0 m-1" />
-              <FaDev size={34} className="position-absolute bottom-2 end-1" />
+              <FaDev size={34} className="position-absolute bottom-0 end-0 m-1 me-5" />
             </div>
             <div className="teamCard" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>Wilmar Fontalvo</h4>
@@ -61,8 +61,8 @@ export const Footer = () => {
           <div>
             <div className="teamCardCenter pb-2" data-aos="zoom-in-down" data-aos-duration="1400">
               <h4>Jose Díaz</h4>
-              <p>Creador del proyecto, programador de la página y creador de materiales para YouTube</p>
-              <FaDev size={32} className="ms-5" />
+              <p>Creador del proyecto, programador de la página y creador de contenido para YouTube</p>
+              <FaDev size={32} className="position-absolute bottom-0 end-0 m-1 me-5" />
               <AiFillYoutube size={36} className="position-absolute bottom-0 end-0 m-1" />
             </div>
           </div>
@@ -87,14 +87,13 @@ export const Footer = () => {
               {/* <i className='bx bxl-gmail bx-lg '></i> */}
               <SiGmail size={36} className="btn-gmail" />
               <div className="d-flex">
-                <p className="FooterEmailText pe-1">formuapp2022@gmail.com</p>
+                <p className="FooterEmailText pe-2">formuapp2022@gmail.com</p>
                 <CopyToClipboard text="formuapp2022@gmail.com">
                   <IoCopy id="IoCopy" size={22} onClick={() => toast.success("Texto copiado", {
                     style: {
                       borderRadius: '10px',
                       background: '#f6f6f6',
                       color: '#000',
-                      
                     },
                   })} />
                 </CopyToClipboard>

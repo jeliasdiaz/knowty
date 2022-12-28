@@ -1,6 +1,6 @@
 export const InfoPage = () => {
     return (
-        <div className=" infoPage">
+        <div className="infoPage">
             <img src="/img/waveThree.svg" alt="" />
             <div className="infoOne text-center" data-aos="zoom-in" data-aos-duration="800">
                 <h1 className="shadow-lg m-auto infoTitle">¿Quiénes somos?</h1>

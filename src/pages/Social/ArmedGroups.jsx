@@ -3,7 +3,7 @@ import { SectionTitle } from "../SectionTitle";
 
 const ArmedGroups = () => {
     return (
-        <div className="homeGeometria" id="geometria">
+        <div className="homeGeometria">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Movimientos armados"/>
             

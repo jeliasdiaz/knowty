@@ -175,7 +175,17 @@
     "img": "/img/quimicaIcon.png"
   },
   {
-    "name": "Nomenclaturas",
+    "name": "Nomenclatura tradicional",
+    "url": "/quimica",
+    "img": "/img/quimicaIcon.png"
+  },
+  {
+    "name": "Nomenclatura stock",
+    "url": "/quimica",
+    "img": "/img/quimicaIcon.png"
+  },
+  {
+    "name": "Nomenclatura sistemática",
     "url": "/quimica",
     "img": "/img/quimicaIcon.png"
   },
@@ -230,11 +240,6 @@
     "img": "/img/estadisticaIcon.png"
   },
   {
-    "name": "Sales",
-    "url": "/quimica",
-    "img": "/img/estadisticaIcon.png"
-  },
-  {
     "name": "Estequiometría",
     "url": "/quimica",
     "img": "/img/estadisticaIcon.png"
@@ -271,6 +276,11 @@
   },
   {
     "name": "Regla de 3",
+    "url": "/estadistica",
+    "img": "/img/estadisticaIcon.png"
+  },
+  {
+    "name": "Estadística",
     "url": "/estadistica",
     "img": "/img/estadisticaIcon.png"
   },

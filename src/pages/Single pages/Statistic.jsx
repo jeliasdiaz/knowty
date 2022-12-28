@@ -1,5 +1,5 @@
 import Latex from "react-latex"
-import { SectionTitle } from "./SectionTitle";
+import { SectionTitle } from "../SectionTitle";
 
 export const Statistic = () => {
 
