@@ -1,0 +1,48 @@
+.search {
+  text-align: center;
+  background-color: #fefefe;
+  height: 140vh;
+  text-decoration: none !important;
+}
+.searchInputs {
+    margin: auto;
+    margin-bottom: 2%;
+}
+input {
+  background-color: white;
+  border-radius: 15px;
+  border-color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px;
+  height: 60px;
+  width: 320px;
+}
+input:focus {
+  outline: none;
+}
+.dataItem{
+    font-size: 26px;
+    font-weight: 500;
+    border-radius: 15px;
+    color: black;
+    padding: 1%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: 20%;
+    margin: auto;
+}
+.dataItem:hover{
+    color: #2b7ea1;
+}
+.CardImg{
+    width: 34%;
+}
+
+@media screen and (max-width: 800px) {
+    .dataItem{
+        font-size: 28px;
+        width: 65%;
+        margin: auto;
+    }
+}

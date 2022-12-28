@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import { AiFillHome } from "react-icons/ai";
 import { MdInfo } from "react-icons/md";
 import { IoCaretBackCircle } from "react-icons/io5";
+import { BiSearch } from "react-icons/bi";
 import "./Navbar.css"
 import { useState } from "react";
 
@@ -31,6 +32,8 @@ export const Navbar = () => {
                         <a href="javascript:history.back()" className={IsHover ? 'backHoverColor' : ''}
                             onMouseOver={handleMouseOver}
                             onMouseOut={handleMouseOut}><IoCaretBackCircle size={38} id="IoCaretBackCircle" /></a>
+
+                        <NavLink to="/search"><BiSearch size={38} id="RiHomeFill" /></NavLink>
                     </div>
                 </div>
             </nav>

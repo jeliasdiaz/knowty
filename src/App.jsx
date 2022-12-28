@@ -58,6 +58,7 @@ import { TrigonometryPractice } from "./pages/Trigonometry/TrigonometryPractice"
 
 //* Information page
 import { InfoPage } from "./pages/InfoPage";
+import Search from "./pages/Search";
 
 function App() {
 
@@ -85,10 +86,10 @@ function App() {
         <Route path="/ingles" element={<English />} />
 
 
-        <Route path="/geometria_1" element={<Straight />} />
-        <Route path="/geometria_2" element={<Circumference />} />
-        <Route path="/geometria" element={<Parable />} />
-        <Route path="/geometria_4" element={<Ellipse />} />
+        <Route path="/recta" element={<Straight />} />
+        <Route path="/circunferencia" element={<Circumference />} />
+        <Route path="/parabola" element={<Parable />} />
+        <Route path="/elipse" element={<Ellipse />} />
 
 
         <Route path="/cinematica" element={<Cinematic />} />
@@ -99,9 +100,9 @@ function App() {
 
 
         <Route path="/sociales_1" element={<FirstSocialPeriod />} />
-        <Route path="/sociales_2" element={<EconomicDoctrines />} />
-        <Route path="/sociales" element={<ArmedGroups />} />
-        <Route path="/sociales_4" element={<SocialMovements />} />
+        <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />
+        <Route path="/movimientos-armados" element={<ArmedGroups />} />
+        <Route path="/movimientos-sociales" element={<SocialMovements />} />
 
 
         <Route path="/estadistica" element={<Statistic />} />
@@ -120,6 +121,8 @@ function App() {
 
         <Route path="/fisica-practica" element={<PhysicPractice />} />
         <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
+
+        <Route path="/search"  element={<Search/>}/>
       </Routes>
 
       <Footer />

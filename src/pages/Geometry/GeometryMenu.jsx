@@ -6,7 +6,7 @@ export const GeometryMenu = () => {
       <section className="fisicaMenu">
         <img src="/img/waveThree.svg" alt="" />
         <div className="fisicaSubjectMenu">
-          <Link to="/geometria_1" className="link-secondary text-decoration-none text-dark">
+          <Link to="/recta" className="link-secondary text-decoration-none text-dark">
             <div className="subjectLink d-flex shadow" data-aos="fade-up" data-aos-duration="1000">
               <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2" />
               <h2 className="pt-4 ps-2">Recta</h2>
@@ -14,7 +14,7 @@ export const GeometryMenu = () => {
             </div>
           </Link>
 
-          <Link to="/geometria_2" className="link-secondary text-decoration-none text-dark">
+          <Link to="/circunferencia" className="link-secondary text-decoration-none text-dark">
             <div className="subjectLink d-flex shadow mt-3 " data-aos="fade-up" data-aos-duration="1000">
               <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2" />
               <h2 className="pt-4 ps-2">Circunferencia</h2>
@@ -22,7 +22,7 @@ export const GeometryMenu = () => {
             </div>
           </Link>
 
-          <Link to="/geometria" className="link-secondary text-decoration-none text-dark">
+          <Link to="/parabola" className="link-secondary text-decoration-none text-dark">
             <div className="subjectLink d-flex shadow mt-3" data-aos="fade-up" data-aos-duration="1000">
               <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2" />
               <h2 className="pt-4 ps-2">Parábola</h2>
@@ -30,7 +30,7 @@ export const GeometryMenu = () => {
             </div>
           </Link>
 
-          <Link to="/geometria_4" className="link-secondary text-decoration-none text-dark">
+          <Link to="/elipse" className="link-secondary text-decoration-none text-dark">
             <div className="subjectLink d-flex shadow mt-3" data-aos="fade-up" data-aos-duration="1000">
               <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2" />
               <h2 className="pt-4 ps-2">Elipse</h2>

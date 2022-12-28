@@ -56,7 +56,7 @@ export const Home = () => {
                 </div>
 
                 <div className="d-flex">
-                  <Link to="/geometria_1" className="text-decoration-none text-black">
+                  <Link to="/recta" className="text-decoration-none text-black">
                     <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400">
                       <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2 " />
                       <h4 className=" ps-2">Geometría</h4>
