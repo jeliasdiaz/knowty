@@ -5,6 +5,11 @@
     "img": "/img/fisicaIcon.png"
   },
   {
+    "name": "Practicar física",
+    "url": "/fisica-practica",
+    "img": "/img/fisicaIcon.png"
+  },
+  {
     "name": "Cinemática",
     "url": "/cinematica",
     "img": "/img/fisicaIcon.png"
@@ -37,6 +42,11 @@
   {
     "name": "Tiro parábolico",
     "url": "/cinematica",
+    "img": "/img/fisicaIcon.png"
+  },
+  {
+    "name": "Dinámica",
+    "url": "/dinamica",
     "img": "/img/fisicaIcon.png"
   },
   {
