@@ -1,4 +1,4 @@
-# formuapp
+# Knowty
 - Educational page for 10th grade
 
 # License
