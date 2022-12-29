@@ -1,6 +1,6 @@
 # Knowty
 - Educational page for 10th grade
-- Visit knowtyo
+- Visit knowtyone.netlify.app
 
 # License
 Copyright © 2022 Jose Díaz. All rights reserved
