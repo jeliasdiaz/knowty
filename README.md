@@ -1,4 +1,5 @@
 # formuapp
-- An educational page 
+- Educational page for 10th grade
 
-© 2022 Jose Diaz. All rights reserved
+# License
+Copyright © 2022 Jose Díaz. All rights reserved
