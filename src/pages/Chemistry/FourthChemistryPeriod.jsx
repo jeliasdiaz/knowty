@@ -14,15 +14,18 @@ const FourthChemistryPeriod = () => {
     return (
         <div className="homeQuimica" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
-            <SectionTitle title="Química"/>
-            
-            <ChemistryNav/>
+            <SectionTitle title="Química" />
+
+            <ChemistryNav />
 
             <div className="cardQuimica mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
                 <div>
                     <div>
                         <h2>Reactivo límite y en exceso</h2>
-                        <p>El reactivo límite consiste en aquella sustancia que limita   la reacción, mientras que el reactivo en exceso es aquel restante al límite. Por ejemplo, queremos hacer perros calientes, tenemos 10 salchichas y 14 panes. Si deseamos armar la máxima cantidad de perros (10) notaremos que nos sobran cuatro panes, de modo que el reactivo límite son las salchichas, puesto que limitan la cantidad de perros que podemos hacer, mientras que el reactivo en exceso corresponde a los panes, debido a que se presentan en mayor cantidad, es decir, sobran.</p>
+                        <p>
+                            El reactivo límite consiste en aquella sustancia que limita   la reacción, mientras que el reactivo en exceso es aquel restante al límite. <br /> <br />
+
+                            Por ejemplo, parar hacer perros calientes tenemos 10 salchichas y 14 panes. Si deseamos armar la máxima cantidad de perros (10) notaremos que nos sobran cuatro panes, de modo que el reactivo límite son las salchichas, puesto que limitan la cantidad de perros que podemos hacer, mientras que el reactivo en exceso corresponde a los panes, debido a que se presentan en mayor cantidad, es decir, sobran.</p>
 
                         <button className="btn btn-secondary"><a href="https://youtu.be/B-d5vKJBx-E?t=60" className="text-decoration-none text-white">Profundizar</a></button> <br /><br />
 
@@ -106,7 +109,10 @@ const FourthChemistryPeriod = () => {
                     <hr />
                     <div>
                         <h2>Leyes de los gases</h2>
-                        <p>El estado gaseoso se caracteriza por la poca fuerza de atracción entre las moléculas; provocando que los cuerpos de dicho estado no posean forma ni volumen definido. Por esta razón, los gases se expanden hasta ocupar el volumen del recipiente que los contiene. Teniendo esto claro, se deriva el concepto de gas ideal, este consiste en un gas teórico caracterizado por el movimiento aleatorio de las partículas dentro de ellos. Dicho tipo de gas, se comporta de forma ideal cuando está a temperatura alta y baja presión. De esta manera, las leyes de los gases expuestas a continuación, solo aplican en este tipo de gases.</p>
+                        <p>
+                            El estado gaseoso se caracteriza por la poca fuerza de atracción entre las moléculas; provocando que los cuerpos de dicho estado no posean forma ni volumen definido. Por esta razón, los gases se expanden hasta ocupar el volumen del recipiente que los contiene. <br /> <br />
+
+                            Teniendo esto claro, se deriva el concepto de gas ideal, este consiste en un gas teórico caracterizado por el movimiento aleatorio de las partículas dentro de ellos. Dicho tipo de gas, se comporta de forma ideal cuando está a temperatura alta y baja presión. De esta manera, las leyes de los gases expuestas a continuación, solo aplican en este tipo de gases.</p>
 
                         <h4>Ley de Boyle</h4>
                         <p>Postula que en un gas a mayor presión, menor es el volumen. Dicho de otro modo, la relación es inversamente proporcional a temperatura constante. Dicha ley se evidencia, por ejemplo, en una jeringa que esté sellada, a medida que presionamos el émbolo, el volumen disminuye y la presión aumenta. Su gráfica y ecuación son las siguientes:</p>

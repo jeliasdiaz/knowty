@@ -26,11 +26,10 @@ function Search() {
     <div className="search" >
       <img src="/img/waveThree.svg" alt="" />
       <div className="searchInputs" data-aos="zoom-in" data-aos-duration="1000">
-        <input type="text" placeholder="Buscar asignatura" value={searchTerm} onChange={handleFilter} />
+        <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} />
         <div className="searchIcon">
           {filteredData.length === 0 ? <BiSearch size={35} /> : <IoClose id="clearBtn" onClick={clearInput} size={35} />}
         </div>
-
 
       </div>
       {filteredData.length !== 0 && (

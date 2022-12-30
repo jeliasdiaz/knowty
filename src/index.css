@@ -93,10 +93,13 @@ body {
   padding: 8%;
   align-items: center;
 }
-
+.subjectLink:hover{
+  color: #2b7ea1 !important;
+}
 .BiChevronRight {
   color: #023246 !important;
 }
+
 .subjectLinkTrigonometria {
   width: 60% ;
   align-items: center;
