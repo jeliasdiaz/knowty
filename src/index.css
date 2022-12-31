@@ -95,10 +95,12 @@ body {
 }
 .subjectLink:hover{
   color: #2b7ea1 !important;
+  transition: all 0.2s;
 }
 .BiChevronRight {
   color: #023246 !important;
 }
+
 
 .subjectLinkTrigonometria {
   width: 60% ;
@@ -196,6 +198,10 @@ body {
   border-radius: 20px;
   padding: 4%;
 }
+
+.collapseTitle{
+  align-items: center;
+}
 #metodoAlgebraico2 {
   width: 38%;
 }
@@ -274,15 +280,6 @@ body {
   width: 40%;
 }
 
-.btn-outline-primary {
-  --bs-btn-border-color: #2d7d9f !important;
-  color: black !important;
-  border-radius: 10px !important;
-}
-.btn-outline-primary:hover {
-  --bs-btn-hover-bg: #2d7d9f !important;
-  color: white !important;
-}
 .btn-secondary {
   background-color: #2d7d9f !important;
   border: #2d7d9f !important;
@@ -292,6 +289,8 @@ body {
 .btn-secondary:hover {
   background-color: #28708f !important;
   border: #28708f !important;
+  transform: translateY(-2px);
+  transition: all;
 }
 
 /** Global elements */
@@ -308,8 +307,7 @@ code {
 }
 
 hr {
-  margin-top: 6% !important;
-  margin-bottom: 6% !important;
+  margin-bottom: 5% !important;
   margin-left: auto !important;
   margin-right: auto !important;
   background-color: white;
@@ -423,7 +421,7 @@ ul li {
   .subjectLink {
     background-color: #f6f6f6;
     border-radius: 25px;
-    padding: 8%;
+    padding: 7%;
     align-items: center;
   }
   .bx-chevron-right {
@@ -523,13 +521,11 @@ ul li {
     width: 70%;
   }
   hr {
-    margin-top: 10% !important;
     margin-bottom: 10% !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
 }
-
 
 @media screen and (max-width: 400px) {
   .home {

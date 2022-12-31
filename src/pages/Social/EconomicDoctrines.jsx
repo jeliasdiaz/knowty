@@ -1,57 +1,61 @@
 import { SocialNav } from "./SocialNav"
-import { SectionTitle } from "../SectionTitle";
-
+import { SectionTitle } from "../../components/SectionTitle";
+import CollapseTitle from "../../components/CollapseTitle";
 const EconomicDoctrines = () => {
     return (
         <div className="homeGeometria">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Doctrinas económicas" />
-            
-            <SocialNav/>
+
+            <SocialNav />
 
             <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
-
                 <div>
-                    <h2 className="mainTitleCards">Liberalismo</h2>
-                    <ul>
-                        <li>Doctrina filosófica de carácter político, económico y social (Es un conjunto de pensamientos)</li>
-                        <li>Funciona de base teórica del capitalismo</li>
-                        <li>Defiende las libertades individuales: los ciudadanos tienen derecho de llevar vida una vida privada como prefieran, amparados por tres derechos fundamentales de Locke: **vida, libertad y propiedad privada
-                            <ul>
-                                <li>Los ciudadanos tienen derecho a elegir como son gobernados, de manera que no influya en sus asuntos privados</li>
-                                <li>Igualdad ante la ley tanto de gobernantes como gobernados (todas las personas son iguales ante el estado y la ley)</li>
-                            </ul>
-                        </li>
-                        <li>Derecho a la propiedad privada</li>
-                        <li>Tolerancia religiosa y estados laicos (separación del estado y las religiones)</li>
-                        <li>El sistema que permite el desarrollo del liberalismo es la democracia representativa</li>
-                    </ul>
+                    <CollapseTitle name="Liberalismo" id="#liberalismo" />
+                    <div className="collapse" id="liberalismo">
+                        <ul>
+                            <li>Doctrina filosófica de carácter político, económico y social (Es un conjunto de pensamientos)</li>
+                            <li>Funciona de base teórica del capitalismo</li>
+                            <li>Defiende las libertades individuales: los ciudadanos tienen derecho de llevar vida una vida privada como prefieran, amparados por tres derechos fundamentales de Locke: **vida, libertad y propiedad privada
+                                <ul>
+                                    <li>Los ciudadanos tienen derecho a elegir como son gobernados, de manera que no influya en sus asuntos privados</li>
+                                    <li>Igualdad ante la ley tanto de gobernantes como gobernados (todas las personas son iguales ante el estado y la ley)</li>
+                                </ul>
+                            </li>
+                            <li>Derecho a la propiedad privada</li>
+                            <li>Tolerancia religiosa y estados laicos (separación del estado y las religiones)</li>
+                            <li>El sistema que permite el desarrollo del liberalismo es la democracia representativa</li>
+                        </ul>
+                    </div>
                     <hr />
                 </div>
 
                 <div>
-                    <h2>Neoliberalismo</h2>
-                    <ul>
-                        <li>Lleva los principios del liberalismo al extremo</li>
-                        <li>Sistema económico en el que estamos inmersos</li>
-                        <li>Establece la libertad de mercado</li>
-                        <li>No intervención estatal</li>
-                        <li>Gasto público debe ser mínimo</li>
-                        <li>Los gobiernos no deben establecer regulaciones que afecten a las actividades económicas</li>
-                        <li>Defiende la competencia individual y privatización</li>
-                        <li>Reducción de impuestos</li>
-                    </ul>
-                    <h4>Consecuencias</h4>
-                    <ul>
-                        <li>Reducción de derechos de trabajadores</li>
-                        <li>Desigualdad</li>
-                        <li>Expansión del comercio global</li>
-                    </ul>
+                    <CollapseTitle name="Neoliberalismo" id="#neoliberalismo" />
+                    <div className="collapse" id="neoliberalismo">
+                        <ul>
+                            <li>Lleva los principios del liberalismo al extremo</li>
+                            <li>Sistema económico en el que estamos inmersos</li>
+                            <li>Establece la libertad de mercado</li>
+                            <li>No intervención estatal</li>
+                            <li>Gasto público debe ser mínimo</li>
+                            <li>Los gobiernos no deben establecer regulaciones que afecten a las actividades económicas</li>
+                            <li>Defiende la competencia individual y privatización</li>
+                            <li>Reducción de impuestos</li>
+                        </ul>
+                        <h4>Consecuencias</h4>
+                        <ul>
+                            <li>Reducción de derechos de trabajadores</li>
+                            <li>Desigualdad</li>
+                            <li>Expansión del comercio global</li>
+                        </ul>
+                    </div>
                     <hr />
                 </div>
 
                 <div>
-                    <h2>Marxismo</h2>
+                <CollapseTitle name="Marxismo" id="#marxismo" />
+                    <div className="collapse" id="marxismo">
                     <ul>
                         <li>Doctrina política, económica y social que pretende la consecución del poder estatal por parte del proletariado.</li>
                         <li>Estatización de los medios de producción y comunicación</li>
@@ -65,11 +69,13 @@ const EconomicDoctrines = () => {
                         <li>Excedente mano de obra</li>
                         <li>Las economías capitalistas se retroalimentan de las crisis económicas</li>
                     </ul>
+                    </div>
                     <hr />
                 </div>
 
                 <div>
-                    <h2>Anarquismo</h2>
+                    <CollapseTitle name="Anarquismo" id="#anarquismo" />
+                    <div className="collapse" id="anarquismo">
                     <ul>
                         <li>Similar al marxismo pero, más radical</li>
                         <li>La libertad es el mayor bien de los individuos</li>
@@ -79,16 +85,19 @@ const EconomicDoctrines = () => {
                         <li>Critica principalmente al capitalismo</li>
                         <li>Colectivización de los bienes y modos de producción</li>
                     </ul>
+                    </div>
                     <hr />
                 </div>
 
                 <div>
-                    <h2>Positivismo</h2>
+                <CollapseTitle name="Positivismo" id="#positivismo" />
+                    <div className="collapse" id="positivismo">
                     <ul>
                         <li>Doctrina de pensamiento que postula el metodo científico como única forma de obtención de conocimiento</li>
                         <li>La experiencia y verificación son esenciales doctrina</li>
                         <li>Todo conocimiento debe llevar al progreso del ser humano</li>
                     </ul>
+                    </div>
                 </div>
             </div>
         </div >

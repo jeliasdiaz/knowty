@@ -1,6 +1,7 @@
 import Latex from "react-latex"
 import { TrigonometryNav } from "./TrigonometryNav"
-import { SectionTitle } from "../SectionTitle";
+import { SectionTitle } from "../../components/SectionTitle";
+import CollapseTitle from "../../components/CollapseTitle";
 
 export const ThirdTrigonometryPeriod = () => {
 
@@ -31,22 +32,22 @@ export const ThirdTrigonometryPeriod = () => {
 
                 <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
                     <div>
-                        <h2>Angulos coterminales</h2>
+                        <h3>Angulos coterminales</h3>
                         <p>Para conocer si dos o más ángulos son coterminales, se debe sumar o restar 360° al ángulo que poseemos</p>
                         <hr />
                     </div>
 
                     <div>
-                        <h2>Razones trigonométricas en la circunferencia unitaria</h2>
+                        <h3>Razones trigonométricas en la circunferencia unitaria</h3>
                         <code>Sen a = y <br /> cos a = x <br /> tan a = y/x <br /> cot a = x/y <br /> sec a = 1/x <br /> cosec a = 1/y</code>
                         <hr />
-                        <h2>Razones trigonométricas en la circunferencia</h2>
+                        <h3>Razones trigonométricas en la circunferencia</h3>
                         <code> r = √x^2 + y^2<br /> Sen a = y/r <br /> cos a = x/r <br /> tan a = y/x <br /> cot a = x/y <br /> sec a = r/x <br /> cosec a = r/y</code>
                         <hr />
                     </div>
 
                     <div>
-                        <h2>Ángulos de referencia</h2>
+                        <h3>Ángulos de referencia</h3>
                         <p>Para calcular un ángulo de referencia (θ) en el segundo cuadrante tenemos la siguiente fórmula: θ = 180° - a <br /> <br />
 
                             Para calcularlo en el tercer cuadrante: θ = a - 180° <br /> <br />
@@ -63,10 +64,11 @@ export const ThirdTrigonometryPeriod = () => {
                     </div>
 
                     <div>
-                        <h2>Teorema del seno y coseno</h2>
+                        <h3>Teorema del seno y coseno</h3>
                         <p>Para comprender el teorema del seno y coseno, es menester aclarar que para resolver triángulos rectángulos, debías hacer uso de las razones trigonométricas. En este caso, mediante la ley del seno y coseno, podrás resolver triángulos diferentes a los rectángulos.</p>
 
-                        <h2>Ley del seno</h2>
+                        <CollapseTitle name="Ley del seno" id="#LeySeno" />
+                        <div className="collapse" id="LeySeno">
                         <p>
                             La usamos cuando, en un triángulo, nos dan una pareja y un lado cualquiera. Dicho de otro modo, cuando poseemos el valor de un ángulo y su lado opuesto. <br /> <br /> De igual forma, hacemos uso de esta ley al poseer el valor dos lados y un ángulo opuesto a ellos.
 
@@ -90,7 +92,11 @@ export const ThirdTrigonometryPeriod = () => {
 
                             <button className="btn btn-secondary"><a href="https://youtu.be/8T45M-Kv88I" className="text-decoration-none text-white">Profundizar</a></button> <br /> <br />
                         </p>
-                        <h2>Ley del coseno</h2>
+                        </div>
+                        <hr />
+                        
+                        <CollapseTitle name="Ley del coseno" id="#LeyCoseno" />
+                        <div className="collapse" id="LeyCoseno">
                         <p>
                             La usamos cuando en un triángulo conocemos dos lados y el ángulo formado entre ellos. De igual forma, hacemos uso de esta ley al poseer el valor de todos los lados.
                             Por ejemplo: <br />
@@ -112,11 +118,9 @@ export const ThirdTrigonometryPeriod = () => {
                             <Latex>{leyCosenoSeven}</Latex><br /><br />
                             <Latex>{leyCosenoEight}</Latex><br />
                 
-                            
-                            <br /><br />
-
-                            <button className="btn btn-secondary"><a href="https://youtu.be/BALWWfhnvVc" className="text-decoration-none text-white">Profundizar</a></button>
                         </p>
+                            <button className="btn btn-secondary"><a href="https://youtu.be/BALWWfhnvVc" className="text-decoration-none text-white">Profundizar</a></button>
+                        </div>
                     </div>
                 </div>
             </div>

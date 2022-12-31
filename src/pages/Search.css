@@ -37,13 +37,13 @@ input:focus {
   border-radius: 15px;
   color: black;
   padding: 1%;
-  /*   padding-left: 2.5%;
-  padding-right: 2.5%; */
   width: 20%;
   margin: auto;
+  transition: all 2s;
 }
 .dataItem:hover {
   color: #2b7ea1;
+  transition: color 0.2s;
 }
 .CardImg {
   width: 28%;
@@ -51,6 +51,7 @@ input:focus {
 #clearBtn {
   cursor: pointer;
 }
+
 @media screen and (max-width: 800px) {
   .search {
     height: 100vh;

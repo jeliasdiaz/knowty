@@ -33,9 +33,9 @@ function Search() {
 
       </div>
       {filteredData.length !== 0 && (
-        <div className="dataResult">
+        <div className="dataResult" data-aos="fade-up" data-aos-duration="500">
           {filteredData.slice(0, 5).map(value => (
-            <Link to={value.url} className="text-decoration-none">
+            <Link to={value.url} className="text-decoration-none" key={value.name}>
               <div className="dataItem shadow d-flex align-items-center p-3 my-3">
                 <img src={value.img} alt="" className="CardImg pe-3" />
                 {value.name}

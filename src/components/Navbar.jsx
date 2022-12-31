@@ -18,20 +18,19 @@ export const Navbar = () => {
                 <div className="container-fluid container">
                     <NavLink to="/" className="text-decoration-none bg-transparent"><img src="/img/logo.svg" alt="" className="navbar-brand" /></NavLink>
 
-
                     <div className="navbar-nav ms-auto shadow bg-white rounded p-1 gap-1">
 
                         <NavLink to="/info"><MdInfo size={38} className="navBtn" /></NavLink>
 
                         <NavLink to="/"><AiFillHome size={38} className="navBtn" /></NavLink>
 
+                        <NavLink to="/search"><BiSearch size={38} className="navBtn" /></NavLink>
+                        
                         <a href="javascript:history.back()" className={IsHover ? 'backHoverColor d-none d-sm-block' : ' d-none d-sm-block'}
                             onMouseOver={handleMouseOver}
                             onMouseOut={handleMouseOut}><IoCaretBackCircle size={38} className="navBtn" /></a>
 
                         <a href="javascript:history.back()" className="d-block d-sm-none"><IoCaretBackCircle size={38} className="navBtn" /></a>
-
-                        <NavLink to="/search"><BiSearch size={38} className="navBtn" /></NavLink>
                     </div>
                 </div>
             </nav>

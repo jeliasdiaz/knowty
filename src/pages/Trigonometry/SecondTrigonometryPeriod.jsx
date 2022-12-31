@@ -1,6 +1,7 @@
 import Latex from "react-latex"
 import { TrigonometryNav } from "./TrigonometryNav"
-import { SectionTitle } from "../SectionTitle";
+import { SectionTitle } from "../../components/SectionTitle";
+import CollapseTitle from "../../components/CollapseTitle";
 
 export const SecondTrigonometryPeriod = () => {
 
@@ -39,14 +40,15 @@ export const SecondTrigonometryPeriod = () => {
     return (
         <div className="homeTrigonometria">
             <img src="/img/waveThree.svg" alt="" />
-            <SectionTitle title="Trigonometría"/>
-            
-            <TrigonometryNav/>
+            <SectionTitle title="Trigonometría" />
+
+            <TrigonometryNav />
 
             <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
                 <div>
                     <div>
-                        <div >
+                        <CollapseTitle name="Clasificación de triángulos" id="#clasificacionTriangulos" />
+                        <div className="collapse" id="clasificacionTriangulos">
                             <h2>Clasificación de triángulos</h2>
                             <img src="/img/trianguloEquilatero.svg" alt="" className="w-25" />
                             <p><b>Equilatero:</b> todos sus lados poseen la misma medida.</p>
@@ -72,9 +74,11 @@ export const SecondTrigonometryPeriod = () => {
                                 <li>El ángulo de mayor longitud se opone al ángulo de mayor valor y viceversa.</li>
                             </ul>
                         </div>
-                        <hr />
-                        <div>
-                            <h2>Teorema de Pitágoras</h2>
+                    </div>
+                    <hr />
+                    <div>
+                        <CollapseTitle name="Teorema de Pitágoras" id="#teoremaPitagoras" />
+                        <div className="collapse" id="teoremaPitagoras">
                             <p>Establece que en cualquier triángulo rectángulo la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa. De igual forma, Es usado en triángulos rectángulos con el objetivo de hallar la medida de un cateto o hipotenusa. Para ello, debemos conocer la medida de dos de sus lados.</p>
                             <Latex>{pitagorasOne}</Latex>
                             <p>
@@ -88,74 +92,74 @@ export const SecondTrigonometryPeriod = () => {
                             <p>Aplicado a cualquier cateto reemplazando <i>a</i> por <i>b</i> y viceversa:</p>
                             <Latex>{pitagorasThree}</Latex>
                         </div>
-                        <hr />
-                        <div>
-                            <h2>Razones trigonométricas</h2>
-                            <p>Son la base de la trigonometría. En primer lugar, una razón consiste en la relación de dos valores. Teniendo esto en cuenta, las razones trigonométricas no son más que relaciones entre los valores de las longitudes de los lados de un triángulo rectángulo. Las 6 razones trigonométricas son las siguientes:</p>
+                    </div>
+                    <hr />
+                    <div>
+                        <CollapseTitle name="Razones trigonométricas" id="#razonesTrigonometricas" />
+                        <div className="collapse" id="razonesTrigonometricas">
+                        <p>Son la base de la trigonometría. Ante todo, una razón consiste en la relación de dos valores. Teniendo esto en cuenta, las razones trigonométricas no son más que relaciones entre los valores de las longitudes de los lados de un triángulo rectángulo. Las 6 razones trigonométricas son las siguientes:</p>
 
-                            <div>
-                                <div className="row">
-                                    <div className="col-6">
-                                        <Latex>{seno}</Latex><br /><br />
-                                        <Latex>{coseno}</Latex><br /><br />
-                                        <Latex>{tan}</Latex><br /><br />
-                                    </div>
-                                    <div className="col-6">
-                                        <Latex>{cotan}</Latex><br /><br />
-                                        <Latex>{sec}</Latex><br /><br />
-                                        <Latex>{cosec}</Latex><br /><br />
-                                    </div>
+                        <div>
+                            <div className="row">
+                                <div className="col-6">
+                                    <Latex>{seno}</Latex><br /><br />
+                                    <Latex>{coseno}</Latex><br /><br />
+                                    <Latex>{tan}</Latex><br /><br />
+                                </div>
+                                <div className="col-6">
+                                    <Latex>{cotan}</Latex><br /><br />
+                                    <Latex>{sec}</Latex><br /><br />
+                                    <Latex>{cosec}</Latex><br /><br />
                                 </div>
                             </div>
-
-
-
-                            <button className="btn btn-secondary"><a href="https://youtu.be/wSw1CzVtuQk?list=PLVkfzhBCZCW172VWuZUrqztV_nTLTazk0" className="text-decoration-none text-white">Profundizar</a></button><br /><br />
-                            <br /><br />
-                            <h3>Razones trigonométricas para ángulos notables</h3>
-                            <table className="table table-bordered">
-                                <thead className="table-light">
-                                    <tr>
-                                        <th scope="col">30°</th>
-                                        <th scope="col">45°</th>
-                                        <th scope="col">60°</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><Latex>{sen30}</Latex></td>
-                                        <td><Latex>{sen45}</Latex></td>
-                                        <td><Latex>{sen60}</Latex></td>
-                                    </tr>
-                                    <tr>
-                                        <td><Latex>{cos30}</Latex></td>
-                                        <td><Latex>{cos45}</Latex></td>
-                                        <td><Latex>{cos60}</Latex></td>
-                                    </tr>
-                                    <tr>
-                                        <td><Latex>{tan30}</Latex></td>
-                                        <td><Latex>{tan45}</Latex></td>
-                                        <td><Latex>{tan60}</Latex></td>
-                                    </tr>
-                                    <tr>
-                                        <td><Latex>{cot30}</Latex></td>
-                                        <td><Latex>{cot45}</Latex></td>
-                                        <td><Latex>{cot60}</Latex></td>
-                                    </tr>
-                                    <tr>
-                                        <td><Latex>{sec30}</Latex></td>
-                                        <td><Latex>{sec45}</Latex></td>
-                                        <td><Latex>{sec60}</Latex></td>
-                                    </tr>
-                                    <tr>
-                                        <td><Latex>{cosec30}</Latex>d</td>
-                                        <td><Latex>{cosec45}</Latex></td>
-                                        <td><Latex>{cosec60}</Latex></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
                         </div>
+
+                        <button className="btn btn-secondary"><a href="https://youtu.be/wSw1CzVtuQk?list=PLVkfzhBCZCW172VWuZUrqztV_nTLTazk0" className="text-decoration-none text-white">Profundizar</a></button><br /><br />
+                        <br /><br />
+                        <h3>Razones trigonométricas para ángulos notables</h3>
+                        <table className="table table-bordered">
+                            <thead className="table-light">
+                                <tr>
+                                    <th scope="col">30°</th>
+                                    <th scope="col">45°</th>
+                                    <th scope="col">60°</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><Latex>{sen30}</Latex></td>
+                                    <td><Latex>{sen45}</Latex></td>
+                                    <td><Latex>{sen60}</Latex></td>
+                                </tr>
+                                <tr>
+                                    <td><Latex>{cos30}</Latex></td>
+                                    <td><Latex>{cos45}</Latex></td>
+                                    <td><Latex>{cos60}</Latex></td>
+                                </tr>
+                                <tr>
+                                    <td><Latex>{tan30}</Latex></td>
+                                    <td><Latex>{tan45}</Latex></td>
+                                    <td><Latex>{tan60}</Latex></td>
+                                </tr>
+                                <tr>
+                                    <td><Latex>{cot30}</Latex></td>
+                                    <td><Latex>{cot45}</Latex></td>
+                                    <td><Latex>{cot60}</Latex></td>
+                                </tr>
+                                <tr>
+                                    <td><Latex>{sec30}</Latex></td>
+                                    <td><Latex>{sec45}</Latex></td>
+                                    <td><Latex>{sec60}</Latex></td>
+                                </tr>
+                                <tr>
+                                    <td><Latex>{cosec30}</Latex>d</td>
+                                    <td><Latex>{cosec45}</Latex></td>
+                                    <td><Latex>{cosec60}</Latex></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+
                     </div>
                 </div>
 

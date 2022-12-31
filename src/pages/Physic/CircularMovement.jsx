@@ -1,6 +1,6 @@
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav"
-import { SectionTitle } from "../SectionTitle";
+import { SectionTitle } from "../../components/SectionTitle";
 
 export const CircularMovement = () => {
 

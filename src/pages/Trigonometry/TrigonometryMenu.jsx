@@ -9,7 +9,6 @@ export const TrigonometryMenu = () => {
             <div className="subjectLink d-flex shadow mt-3 " data-aos="fade-up" data-aos-duration="1000">
               <img src="/img/trigonometriaIcon.png" alt="" className="w-25 pe-2" />
               <h2 className="pt-3 ps-2">II periodo</h2>
-              <i className='bx bx-chevron-right bx-lg pt-2'></i>
             </div>
           </Link>
 
@@ -17,7 +16,6 @@ export const TrigonometryMenu = () => {
             <div className="subjectLink d-flex shadow mt-3" data-aos="fade-up" data-aos-duration="1000">
               <img src="/img/trigonometriaIcon.png" alt="" className="w-25 pe-2" />
               <h2 className="pt-3 ps-2">III periodo</h2>
-              <i className='bx bx-chevron-right bx-lg pt-2'></i>
             </div>
           </Link>
 

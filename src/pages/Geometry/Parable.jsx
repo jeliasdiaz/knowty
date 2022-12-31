@@ -1,5 +1,5 @@
 import { GeometryNav } from "./GeometryNav"
-import { SectionTitle } from "../SectionTitle";
+import { SectionTitle } from "../../components/SectionTitle";
 
 export const Parable = () => {
 

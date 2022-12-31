@@ -1,5 +1,6 @@
 import { SocialNav } from "./SocialNav"
-import { SectionTitle } from "../SectionTitle";
+import { SectionTitle } from "../../components/SectionTitle";
+import CollapseTitle from "../../components/CollapseTitle";
 
 const ArmedGroups = () => {
     return (
@@ -11,7 +12,8 @@ const ArmedGroups = () => {
             
             <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
                 <div>
-                    <h2>FARC (Fuerzas armadas revolucionarias de Colombia)</h2>
+                    <CollapseTitle name="FARC (Fuerzas armadas revolucionarias de Colombia)" id="#farc"/>
+                    <div className="collapse" id="farc">
                     <p>
                         <b>Filosofía:</b> Marxista - Leninista <br /> <br />
 
@@ -37,11 +39,13 @@ const ArmedGroups = () => {
                             <li>Alfonso Cano</li>
                             <li>Timochenko</li>
                         </ul>
+                        </div>
                     <hr />
                 </div>
 
                 <div>
-                    <h2>ELN (Ejército de liberación nacional)</h2>
+                    <CollapseTitle name="ELN (Ejército de liberación nacional)" id="#eln"/>
+                    <div className="collapse" id="eln">
                     <p>
                         <b>Fundador:</b> Fabio Vásquez Castaño <br />
                         <b>Máximo pensador:</b> Camilo Torres <br />
@@ -64,11 +68,13 @@ const ArmedGroups = () => {
                         <li>Coce = Comando central, se encarga de las decisiones políticas, económicas y demás.</li>
                         <li>Teología de la liberación = Como los católicos Jesuitas buscaron cambiar las condiciones de vida de las personas.</li>
                     </ul>
+                    </div>
                     <hr />
                 </div>
 
                 <div>
-                    <h2>EPL (Ejército popular de liberación)</h2>
+                    <CollapseTitle name="EPL (Ejército popular de liberación)" id="#epl"/>
+                    <div className="collapse" id="epl">
                     <p>
                         <b>Fundación:</b> 1967 <br />
                         <b>Contexto internacional:</b> Guerra fría <br />
@@ -101,11 +107,13 @@ const ArmedGroups = () => {
                         <li>Operaron en lugares como La Guajira, Córdoba, Sucre y Magdalena</li>
                         <li>Tercera guerrilla más numerosa</li>
                     </ul>
+                    </div>
                     <hr />
                 </div>
 
                 <div>
-                    <h2>M-19 (Movimiento 19 de abril)</h2>
+                    <CollapseTitle name="M-19 (Movimiento 19 de abril)" id="#m-19"/>
+                    <div className="collapse" id="m-19">
                     <p>
                         <b>Fundación:</b> 1974 <br />
                         <b>Objetivo:</b> instaurar una democracia socialista<br />
@@ -133,7 +141,7 @@ const ArmedGroups = () => {
                         <li>Robo de armas del cantón norte</li>
                         <li>Toma de la embajada de república dominicana. De hecho, Estados Unidos les da dinero por liberar a los embajadores.</li>
                     </ul>
-
+                    </div>
                 </div>
 
             </div>

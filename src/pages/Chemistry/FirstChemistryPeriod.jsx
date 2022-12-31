@@ -1,6 +1,7 @@
 import { ChemistryNav } from "./ChemistryNav"
-import { SectionTitle } from "../SectionTitle";
-const Latex = require("react-latex")
+import { SectionTitle } from "../../components/SectionTitle";
+import Latex from "react-latex"
+import CollapseTitle from "../../components/CollapseTitle";
 
 const FirstChemistryPeriod = () => {
     const escalasConversionOne = "$$°C + 273$$"
@@ -18,177 +19,189 @@ const FirstChemistryPeriod = () => {
             <ChemistryNav />
 
             <div className="cardQuimica mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
-
                 <div>
-                    <div >
-                        <h2>Historia de la química</h2>
-                        <h4>Prehistórico(Era primitiva [500 a.c])</h4>
-                        <ul>
-                            <li>Descubrimiento y dominación del fuego, siendo la primera reacción química de la humanidad.</li>
-                            <li>En China se crea la seda artificial, papel, pólvora, porcelana y pintura.</li>
-                            <li>En Egipto se usan técnicas de embalsamiento, momificación y se crea el vidrio.</li>
-                        </ul>
 
-                        <h4>Griego(500-300 a.c)</h4>
-                        <ul>
-                            <li>Empédocles afirma que el universo se encuentra conformado por 4 elementos principales, fuego, agua, aire y tierra.</li>
-                            <li>Leucipo y Demócrito postulan la teoría atómica griega: “Toda la materia está formada por átomos eternos, indestructibles, indivisibles, pero diferentes en tamaño, forma y peso”.</li>
-                        </ul>
+                    <div>
+                        <CollapseTitle name="Historia de la química" id="#historiaDeLaQuimica" />
 
-                        <h4>Alquimia (300-1500 d.c)</h4>
-                        <ul>
-                            <li>Búsqueda de la piedra filosofal, la cual al ser frotada con un metal, este se convertiría en oro. Además, sería capaz de curar cualquier enfermedad.</li>
-                            <li>Se inicia en Egipto y Mesopotamia.</li>
-                            <li>Se descubre el arsénico, antimonio, bismuto.</li>
-                        </ul>
+                        <div className="collapse" id="historiaDeLaQuimica">
+                            <h4>Prehistórico(Era primitiva [500 a.c])</h4>
+                            <ul>
+                                <li>Descubrimiento y dominación del fuego, siendo la primera reacción química de la humanidad.</li>
+                                <li>En China se crea la seda artificial, papel, pólvora, porcelana y pintura.</li>
+                                <li>En Egipto se usan técnicas de embalsamiento, momificación y se crea el vidrio.</li>
+                            </ul>
 
-                        <h4>Iatroquímica ("Química médica" [1500-1660 d.c])</h4>
-                        <ul>
-                            <li>Paracelso afirma que el objetivo fundamental de la química es el de obtener drogas para el tratamiento de enfermedades.</li>
-                        </ul>
+                            <h4>Griego(500-300 a.c)</h4>
+                            <ul>
+                                <li>Empédocles afirma que el universo se encuentra conformado por 4 elementos principales, fuego, agua, aire y tierra.</li>
+                                <li>Leucipo y Demócrito postulan la teoría atómica griega: “Toda la materia está formada por átomos eternos, indestructibles, indivisibles, pero diferentes en tamaño, forma y peso”.</li>
+                            </ul>
 
-                        <h4>Flogisto(1660 d.c – 1770 d.c)</h4>
-                        <ul>
-                            <li>Georg Stahl afirma que el flogisto (sustancia del fuego) se encontraba en todas las sustancias combustibles y, producía una perdida  de flogisto cuando se oxidaban y una ganancia de flogisto cuando se reducían (desmentido).</li>
-                        </ul>
+                            <h4>Alquimia (300-1500 d.c)</h4>
+                            <ul>
+                                <li>Búsqueda de la piedra filosofal, la cual al ser frotada con un metal, este se convertiría en oro. Además, sería capaz de curar cualquier enfermedad.</li>
+                                <li>Se inicia en Egipto y Mesopotamia.</li>
+                                <li>Se descubre el arsénico, antimonio, bismuto.</li>
+                            </ul>
 
-                        <h4>Moderno (1770 D.C- actualidad)</h4>
-                        <ul>
-                            <li>Descubrimiento de la ley de la conservación de la materia.</li>
-                            <li>John Dalton retoma la teoría atómica.</li>
-                        </ul>
+                            <h4>Iatroquímica ("Química médica" [1500-1660 d.c])</h4>
+                            <ul>
+                                <li>Paracelso afirma que el objetivo fundamental de la química es el de obtener drogas para el tratamiento de enfermedades.</li>
+                            </ul>
+
+                            <h4>Flogisto(1660 d.c – 1770 d.c)</h4>
+                            <ul>
+                                <li>Georg Stahl afirma que el flogisto (sustancia del fuego) se encontraba en todas las sustancias combustibles y, producía una perdida  de flogisto cuando se oxidaban y una ganancia de flogisto cuando se reducían (desmentido).</li>
+                            </ul>
+
+                            <h4>Moderno (1770 D.C- actualidad)</h4>
+                            <ul>
+                                <li>Descubrimiento de la ley de la conservación de la materia.</li>
+                                <li>John Dalton retoma la teoría atómica.</li>
+                            </ul>
+                        </div>
+
                         <hr />
                     </div>
 
                     <div>
-                        <h2>Escalas de conversión</h2>
-                        <table className="table table-bordered">
-                            <thead className="table-light">
-                                <tr>
-                                    <th scope="col">Conversión</th>
-                                    <th scope="col">Ecuación</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Celsius a Kelvin</td>
-                                    <td><Latex>{escalasConversionOne}</Latex></td>
-                                </tr>
-                                <tr>
-                                    <td>Kelvin a Celsius</td>
-                                    <td><Latex>{escalasConversionTwo}</Latex></td>
-                                </tr>
-                                <tr>
-                                    <td>Celsius a Fahrenheit</td>
-                                    <td><Latex>{escalasConversionThree}</Latex></td>
-                                </tr>
-                                <tr>
-                                    <td>Fahrenheit a Celsius</td>
-                                    <td><Latex>{escalasConversionFour}</Latex></td>
-                                </tr>
-                                <tr>
-                                    <td>Fahrenheit a Kelvin</td>
-                                    <td><Latex>{escalasConversionFive}</Latex></td>
-                                </tr>
-                                <tr>
-                                    <td>Kelvin a Fahrenheit</td>
-                                    <td><Latex>{escalasConversionSix}</Latex></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <CollapseTitle name="Escalas de conversión" id="#escalasDeConversion" />
+
+                        <div className="collapse" id="escalasDeConversion">
+                            <table className="table table-bordered">
+                                <thead className="table-light">
+                                    <tr>
+                                        <th scope="col">Conversión</th>
+                                        <th scope="col">Ecuación</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Celsius a Kelvin</td>
+                                        <td><Latex>{escalasConversionOne}</Latex></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kelvin a Celsius</td>
+                                        <td><Latex>{escalasConversionTwo}</Latex></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Celsius a Fahrenheit</td>
+                                        <td><Latex>{escalasConversionThree}</Latex></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fahrenheit a Celsius</td>
+                                        <td><Latex>{escalasConversionFour}</Latex></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fahrenheit a Kelvin</td>
+                                        <td><Latex>{escalasConversionFive}</Latex></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kelvin a Fahrenheit</td>
+                                        <td><Latex>{escalasConversionSix}</Latex></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                         <hr />
                     </div>
 
                     <div>
-                        <h2>Propiedades de la materia</h2>
-                        <h4>Generales</h4>
-                        <p>
+                        <CollapseTitle name="Propiedades de la materia" id="#propiedadesMateria" />
+                        <div className="collapse" id="propiedadesMateria">
+                            <h4>Generales</h4>
+                            <p>
+                                <b>Masa:</b> cantidad de materia que contiene un cuerpo. <br />
 
-                            <i>Masa:</i> cantidad de materia que contiene un cuerpo. <br />
+                                <b>Peso:</b> fuerza que ejerce la gravedad ante la materia.  <br />
 
-                            <b>Peso:</b> fuerza que ejerce la gravedad ante la materia.  <br />
+                                <b>Volumen:</b> espacio que ocupa un cuerpo <br />
 
-                            <b>Volumen:</b> espacio que ocupa un cuerpo <br />
+                                <b>Inercia:</b> característica que impide a la materia moverse sin intervención de una fuerza externa. <br />
 
-                            <b>Inercia:</b> característica que impide a la materia moverse sin intervención de una fuerza externa. <br />
+                                <b>Impenetrabilidad:</b> consisten en que un cuerpo no puede ocupar el espacio de otro cuerpo al mismo tiempo. <br />
 
-                            <b>Impenetrabilidad:</b> consisten en que un cuerpo no puede ocupar el espacio de otro cuerpo al mismo tiempo. <br />
-
-                            <b>Porosidad:</b> espacio que existe entre las partículas. <br /><br />
-
+                                <b>Porosidad:</b> espacio que existe entre las partículas. <br /><br />
+                            </p>
                             <h4>Específicas</h4>
-                            <b>Punto de fusión:</b> es la temperatura a la que una sustancia sólida se funde, pasando al estado líquido. <br />
+                            <p>
+                                <b>Punto de fusión:</b> es la temperatura a la que una sustancia sólida se funde, pasando al estado líquido. <br />
 
-                            <b>Punto de ebullición:</b> es la temperatura que un líquido debe alcanzar para pasar al estado gaseoso. <br />
+                                <b>Punto de ebullición:</b> es la temperatura que un líquido debe alcanzar para pasar al estado gaseoso. <br />
 
-                            <b>Densidad:</b> es la relación entre la masa y el volumen de un cuerpo. Es elevada en la mayoría de sólidos, baja en los líquidos y, aún menor en los gases. <br /><br />
-
+                                <b>Densidad:</b> es la relación entre la masa y el volumen de un cuerpo. Es elevada en la mayoría de sólidos, baja en los líquidos y, aún menor en los gases. <br /><br />
+                            </p>
                             <h6>Conductividad</h6>
-                            <b>Térmica:</b> capacidad de un material para transferir calor. <br />
+                            <p>
+                                <b>Térmica:</b> capacidad de un material para transferir calor. <br />
 
-                            <b>Eléctrica:</b> capacidad de un material de conducir corriente eléctrica. Por ejemplo, los metales. <br /> <br />
+                                <b>Eléctrica:</b> capacidad de un material de conducir corriente eléctrica. Por ejemplo, los metales. <br /> <br />
 
-                            <b>Dilatación:</b> cambio de dimensiones que presenta la materia en diferentes estados al variar la temperatura con una presión constante. <br />
+                                <b>Dilatación:</b> cambio de dimensiones que presenta la materia en diferentes estados al variar la temperatura con una presión constante. <br />
 
-                            <b>Ductilidad:</b> capacidad de un material de dejarse deformar hasta convertirse en hilos. <br />
+                                <b>Ductilidad:</b> capacidad de un material de dejarse deformar hasta convertirse en hilos. <br />
 
-                            <b>Maleabilidad:</b> capacidad de ciertos materiales de convertirse en láminas. <br />
+                                <b>Maleabilidad:</b> capacidad de ciertos materiales de convertirse en láminas. <br />
 
-                            <b>Dureza:</b> capacidad de resistencia de un material a ser rayado. <br />
+                                <b>Dureza:</b> capacidad de resistencia de un material a ser rayado. <br />
 
-                            <b>Solubilidad:</b> propiedad que posee una sustancia para disolverse en otra sustancia. <br />
+                                <b>Solubilidad:</b> propiedad que posee una sustancia para disolverse en otra sustancia. <br />
 
-                            <b>Elasticidad:</b> capacidad de un objeto a deformarse al ser sometido a una fuerza y volver a recuperar su forma original. <br />
+                                <b>Elasticidad:</b> capacidad de un objeto a deformarse al ser sometido a una fuerza y volver a recuperar su forma original. <br />
 
-                            <b>Tenacidad:</b> resistencia de un material a romperse por efecto de una fuerza. <br />
-                        </p>
+                                <b>Tenacidad:</b> resistencia de un material a romperse por efecto de una fuerza. <br />
+                            </p>
+                        </div>
                         <hr />
                     </div>
 
                     <div>
-                        <h2>Mecanismos de separación de mezclas</h2>
-                        <h4>Evaporación - Homogénea</h4>
-                        <p>Método físico que permite separar un sólido de un líquido en una mezcla homogénea. Se basa en que el punto de fusión del sólido es mayor al punto de ebullición del líquido. Ej: Separar la sal del agua de mar.</p>
+                        <CollapseTitle name="Mecanismos de separación de mezclas" id="#separacionMezclas" />
+                        <div className="collapse" id="separacionMezclas">
+                            <h4>Evaporación - Homogénea</h4>
+                            <p>Método físico que permite separar un sólido de un líquido en una mezcla homogénea. Se basa en que el punto de fusión del sólido es mayor al punto de ebullición del líquido. Ej: Separar la sal del agua de mar.</p>
 
-                        <h4>Cristalización - Homogénea</h4>
-                        <p>Método utilizado para separar una mezcla de un sólido en un líquido. La mezcla se calienta para evaporar parte del disolvente. Ej: Separar el azúcar del agua en una disolución azucarada.</p>
+                            <h4>Cristalización - Homogénea</h4>
+                            <p>Método utilizado para separar una mezcla de un sólido en un líquido. La mezcla se calienta para evaporar parte del disolvente. Ej: Separar el azúcar del agua en una disolución azucarada.</p>
 
-                        <h4>Destilación - Homogénea</h4>
-                        <p>Método que consiste en la separación de dos o más líquidos miscibles(que se pueden mezclar) con diferentes puntos de ebullición, primero por medio de la evaporación  y posteriormente por la condensación de las sustancias. A través de esta operación se separan principalmente mezclas homogéneas de líquidos Separa mezclas homogéneas de líquidos.</p>
+                            <h4>Destilación - Homogénea</h4>
+                            <p>Método que consiste en la separación de dos o más líquidos miscibles(que se pueden mezclar) con diferentes puntos de ebullición, primero por medio de la evaporación  y posteriormente por la condensación de las sustancias. A través de esta operación se separan principalmente mezclas homogéneas de líquidos Separa mezclas homogéneas de líquidos.</p>
 
-                        <h4>Cromatografía - Homogénea, Heterogénea</h4>
-                        <p>Este método depende de la distribución de los componentes de la mezcla entre dos fases inmiscibles. Una fase móvil, llamada activa, transporta las sustancias que se separaron y que progresa en relación con otra, denominada fase estacionaria. Ej: Separación de pigmentos vegetales en un papel.</p>
+                            <h4>Cromatografía - Homogénea, Heterogénea</h4>
+                            <p>Este método depende de la distribución de los componentes de la mezcla entre dos fases inmiscibles. Una fase móvil, llamada activa, transporta las sustancias que se separaron y que progresa en relación con otra, denominada fase estacionaria. Ej: Separación de pigmentos vegetales en un papel.</p>
 
-                        <h4>Sedimentación - Heterogénea</h4>
-                        <p>Es una operación basada en la diferencia de densidades de los componentes de la mezcla, que permite separar mezclas heterogéneas de un sólido en un líquido mediante reposo o precipitación. Tratamiento de aguas residuales.</p>
+                            <h4>Sedimentación - Heterogénea</h4>
+                            <p>Es una operación basada en la diferencia de densidades de los componentes de la mezcla, que permite separar mezclas heterogéneas de un sólido en un líquido mediante reposo o precipitación. Tratamiento de aguas residuales.</p>
 
-                        <h4>Decantación - Heterogénea</h4>
-                        <p>Separa dos líquidos con diferentes densidades o una mezcla constituida por un sólido insoluble en un líquido. Se basa en la diferencia de densidades. Ej: Separación de los sedimentos del vidrio.</p>
+                            <h4>Decantación - Heterogénea</h4>
+                            <p>Separa dos líquidos con diferentes densidades o una mezcla constituida por un sólido insoluble en un líquido. Se basa en la diferencia de densidades. Ej: Separación de los sedimentos del vidrio.</p>
 
-                        <h4>Filtración - Heterogénea</h4>
-                        <p>Se trata de una operación que permite separar mezclas heterogéneas de un sólido insoluble en un líquido. Se hace pasar a través de un papel filtro, el sólido permanece en la superficie del papel, mientras que el otro componente pasará. Ej: Filtración del café molido del café.</p>
+                            <h4>Filtración - Heterogénea</h4>
+                            <p>Se trata de una operación que permite separar mezclas heterogéneas de un sólido insoluble en un líquido. Se hace pasar a través de un papel filtro, el sólido permanece en la superficie del papel, mientras que el otro componente pasará. Ej: Filtración del café molido del café.</p>
 
-                        <h4>Centrifugación - Heterogénea</h4>
-                        <p>Consiste en la separación de materiales de diferentes densidades que se componen una mezcla. Para lo cual, la mezcla se coloca dentro de un aparato llamado centrifuga que tiene el movimiento de rotación constante y rápido, lo cual hace que las partículas con mayor densidad vayan al fondo y las más livianas queden en la parte superior.</p>
+                            <h4>Centrifugación - Heterogénea</h4>
+                            <p>Consiste en la separación de materiales de diferentes densidades que se componen una mezcla. Para lo cual, la mezcla se coloca dentro de un aparato llamado centrifuga que tiene el movimiento de rotación constante y rápido, lo cual hace que las partículas con mayor densidad vayan al fondo y las más livianas queden en la parte superior.</p>
 
-                        <h4>Imantación - Heterogénea</h4>
-                        <p>Separar con un imán los componentes de una mezcla de un material magnético de otro que no lo es.</p>
+                            <h4>Imantación - Heterogénea</h4>
+                            <p>Separar con un imán los componentes de una mezcla de un material magnético de otro que no lo es.</p>
 
-                        <h4>Tamización - Heterogénea</h4>
-                        <p>Método de separar mezclas con componentes sólidos con diferentes tamaños, que pasan por un tamiz.</p>
+                            <h4>Tamización - Heterogénea</h4>
+                            <p>Método de separar mezclas con componentes sólidos con diferentes tamaños, que pasan por un tamiz.</p>
 
-                        <h4>Electroforesis - Homogénea</h4>
-                        <p>Técnica de separación de mezclas basada en la carga eléctrica de las sustancias presentes en una mezcla. Consiste en colocar la mezcla y hacer pasar una corriente eléctrica, de tal forma que las sustancias con carga positiva se mueven hacia el polo negativo, mientras las sustancias cargadas negativamente se mueven al polo positivo. Es fundamental para el análisis de muestras biológicas, la cual sirve para separar proteínas y ácidos nucleicos, etc.</p>
+                            <h4>Electroforesis - Homogénea</h4>
+                            <p>Técnica de separación de mezclas basada en la carga eléctrica de las sustancias presentes en una mezcla. Consiste en colocar la mezcla y hacer pasar una corriente eléctrica, de tal forma que las sustancias con carga positiva se mueven hacia el polo negativo, mientras las sustancias cargadas negativamente se mueven al polo positivo. Es fundamental para el análisis de muestras biológicas, la cual sirve para separar proteínas y ácidos nucleicos, etc.</p>
 
-                        <h4>Sublimación - Heterogénea</h4>
-                        <p>Paso de un sólido a gas sin pasar por el estado líquido. Se usa la sublimación para separar mezclas de compuestos orgánicos, donde alguno de los compuestos puede sublimar. Ej: Por ejemplo, en una mezcla de arena y yodo se puede separar el yodo calentándolo. Este pasa al estado gaseoso subiendo y cuando pasa por una superficie fría vuelve a solidificarse.</p>
+                            <h4>Sublimación - Heterogénea</h4>
+                            <p>Paso de un sólido a gas sin pasar por el estado líquido. Se usa la sublimación para separar mezclas de compuestos orgánicos, donde alguno de los compuestos puede sublimar. Ej: Por ejemplo, en una mezcla de arena y yodo se puede separar el yodo calentándolo. Este pasa al estado gaseoso subiendo y cuando pasa por una superficie fría vuelve a solidificarse.</p>
+                        </div>
                         <hr />
                     </div>
 
                     <div>
-                        <h2>Modelos atómicos</h2>
-                        <img src="/img/modelosAtomicos.svg" alt="" className="w-75" />
-
+                        <CollapseTitle name="Modelos atómicos" id="#modelosAtomicos"/>
+                    <div className="collapse" id="modelosAtomicos">
+                        <img src="/img/modelosAtomicos.svg" alt="" className="estequiometriaImg" />
                         <h4>Modelo atómico de Dalton</h4>
                         <ul>
                             <li>Plantea la idea de un átomo macizo. Es quien rescata las ideas de Demócrito (átomos son indivisibles).</li>
@@ -238,8 +251,8 @@ const FirstChemistryPeriod = () => {
                             Estas nubes indican las zonas donde sería más probable encontrar un electrón si tratáramos de forzarlo a estar allí, debido a que estos, nuevamente por la indeterminación, están y no están en ese lugar.</p>
 
                         <p>Dicho de otro modo, los electrones se comportan como ondas de probabilidad, cuya posición es difusa, siendo los orbitales los lugares más probables para hallar un electrón.</p>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div >

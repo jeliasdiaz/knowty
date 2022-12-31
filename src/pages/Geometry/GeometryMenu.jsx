@@ -10,7 +10,6 @@ export const GeometryMenu = () => {
             <div className="subjectLink d-flex shadow" data-aos="fade-up" data-aos-duration="1000">
               <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2" />
               <h2 className="pt-4 ps-2">Recta</h2>
-              <i class='bx bx-chevron-right bx-lg pt-3'></i>
             </div>
           </Link>
 
@@ -18,7 +17,6 @@ export const GeometryMenu = () => {
             <div className="subjectLink d-flex shadow mt-3 " data-aos="fade-up" data-aos-duration="1000">
               <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2" />
               <h2 className="pt-4 ps-2">Circunferencia</h2>
-              <i class='bx bx-chevron-right bx-lg pt-3'></i>
             </div>
           </Link>
 
@@ -26,7 +24,6 @@ export const GeometryMenu = () => {
             <div className="subjectLink d-flex shadow mt-3" data-aos="fade-up" data-aos-duration="1000">
               <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2" />
               <h2 className="pt-4 ps-2">Parábola</h2>
-              <i class='bx bx-chevron-right bx-lg pt-3'></i>
             </div>
           </Link>
 

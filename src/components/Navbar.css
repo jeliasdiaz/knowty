@@ -27,19 +27,12 @@
 .nav-3 {
   margin-top: 10%;
 }
-.dropdown-menu li {
-  transition: all 0.4s;
-}
 #MdInfo:hover, #RiHomeFill:hover, #IoCaretBackCircle:hover{
   cursor: pointer;
 }
-
 .backHoverColor{
   color: #2B7EA1 !important;
-}
-
-h3 {
-  font-size: 20px;
+  transition: all 0.2s;
 }
 
 .dropdown-item{
@@ -47,23 +40,12 @@ h3 {
 }
 .active{
   color: #2B7EA1 !important;
+  transition: all 0.2s;
 }
+
 @media screen and (max-width: 800px) {
-  hr {
-    margin: 10%;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
   .navbar-brand {
     width: 22%;
-  }
-  .navIcons{
-    width:auto;
-    cursor: pointer;
-  }
-  .navIcons:hover{
-    width: 75%;
   }
   .backHoverColor{
   color: black;

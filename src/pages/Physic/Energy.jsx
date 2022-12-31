@@ -1,5 +1,5 @@
 import { PhysicNav } from "./PhysicNav"
-import { SectionTitle } from "../SectionTitle";
+import { SectionTitle } from "../../components/SectionTitle";
 const  Latex = require("react-latex")
 
 export const Energy = () => {

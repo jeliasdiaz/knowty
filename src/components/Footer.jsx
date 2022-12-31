@@ -81,10 +81,9 @@ export const Footer = () => {
         </div>
 
         <div className="moreInformation" data-aos="fade-down" data-aos-duration="1400">
-          <h2>¿Quieres saber más del proyecto?</h2>
+          <h2>¿Quieres saber más?</h2>
           <div className="flex-1 justify-content-evenly">
             <div className="mx-2">
-              {/* <i className='bx bxl-gmail bx-lg '></i> */}
               <SiGmail size={36} className="btn-gmail" />
               <div className="d-flex">
                 <p className="FooterEmailText pe-2">formuapp2022@gmail.com</p>
@@ -97,7 +96,6 @@ export const Footer = () => {
                     },
                   })} />
                 </CopyToClipboard>
-
               </div>
             </div>
             <div>
@@ -107,8 +105,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <Toaster position="top-right"
-              reverseOrder={false} />
+      <Toaster position="top-right" reverseOrder={false} />
     </footer>
   )
 }

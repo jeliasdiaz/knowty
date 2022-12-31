@@ -88,6 +88,10 @@ i:hover {
 #IoCopy {
   cursor: pointer;
 }
+#IoCopy:hover {
+  color: #2b7ea1;
+  transition: color 0.2s;
+}
 .btn-youtube {
   color: #2b7ea1;
 }
@@ -95,7 +99,12 @@ i:hover {
   color: #2b7ea1;
   margin-top: 1%;
 }
-
+.boldFooterText{
+  text-decoration: none;
+}
+.boldFooterText:hover{
+  text-decoration: underline;
+}
 @media screen and (max-width: 800px) {
   footer {
     height: 130vh;
