@@ -38,7 +38,7 @@ export const Cinematic = () => {
     const tiroParabolicoNine = `$$D_h = v_{ox} \\ \\cdot \\ t_v$$`
 
     return (
-        <div className="cinematica-home">
+        <div className="home-fisica">
             <img src="/img/waveThree.svg" alt="" />
             
             <SectionTitle title="Cinemática"/>

@@ -7,7 +7,7 @@ const CollapseTitle = ({ name, id }) => {
         IsClicked === false ? setIsClicked(true) : setIsClicked(false)
     }
     return (
-        <div className="d-flex collapseTitle mb-2" data-bs-toggle="collapse" href={id} role="button" onClick={HandleArrow} on>
+        <div className="d-flex collapseTitle mb-2" data-bs-toggle="collapse" href={id} role="button" onClick={HandleArrow}>
             {
                 IsClicked === false ? <MdOutlineKeyboardArrowDown size={45} className="BiChevronRight" /> : <MdOutlineKeyboardArrowUp size={45} className="BiChevronRight" />
             }

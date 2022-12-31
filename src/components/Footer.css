@@ -1,13 +1,19 @@
-footer {
-  background-color: #034663;
-  height: 108vh;
+.footer{
+  background-color: #f6f6f6;
+  height: 118vh;
 }
 
+.dark .footer {
+  background-color: #121212;
+  
+}
 .textFooter {
   color: #ffff;
-  padding-top: 5%;
+  padding-top: 8%;
   text-align: center;
   margin: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .textFooter i {
   margin-right: 3%;
@@ -24,6 +30,19 @@ i:hover {
 .textFooter h1 {
   font-weight: 500;
   font-size: 60px;
+  color: black;
+  background-color: #2b7ea1;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 70%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  width: 25%;
+  margin: auto;
+  padding: 1%;
+}
+.dark .textFooter h1 {
+  background-color: #004a77;
+  color: #e3e3e3;
 }
 .textFooter h3 {
   color: #fff;
@@ -54,6 +73,10 @@ i:hover {
 .teamCard i {
   color: #000 !important;
 }
+.dark .teamCard {
+  background-color: #28292a;
+  color: #e3e3e3;
+}
 .teamCardCenter {
   margin: auto;
   margin-top: 3%;
@@ -68,6 +91,10 @@ i:hover {
 .teamCardCenter h4 {
   color: #2b7ea1;
 }
+.dark .teamCardCenter{
+  background-color: #28292a;
+  color: #e3e3e3;
+}
 
 .moreInformation {
   width: 50%;
@@ -78,11 +105,18 @@ i:hover {
   text-align: center;
   margin-top: 7%;
 }
+.dark .moreInformation{
+  background-color: #28292a;
+  color: #e3e3e3;
+}
 .moreInformation h2 {
   font-size: 25px;
 }
+.dark .moreInformation a {
+  color: #e3e3e3 !important;
+}
 .FooterEmailText {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
 }
 #IoCopy {
@@ -106,7 +140,7 @@ i:hover {
   text-decoration: underline;
 }
 @media screen and (max-width: 800px) {
-  footer {
+  .footer {
     height: 130vh;
   }
   .footerContent {
@@ -120,6 +154,13 @@ i:hover {
   }
   .textFooter h1 {
     font-size: 50px;
+    width: 73%;
+    padding: 3%;
+  }
+  .dark .textFooter h1 {
+    width: 73%;
+    background-color: #004a77;
+    color: #e3e3e3;
   }
   .teamCard {
     padding: 3%;

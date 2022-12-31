@@ -59,7 +59,7 @@ export const TrigonometryPractice = () => {
     const leyCosenoFour = `$$x = 13.67m$$`
 
     return (
-        <div>
+        <div className='homeTrigonometria'>
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Practica" />
 
@@ -216,7 +216,7 @@ export const TrigonometryPractice = () => {
                         <hr className="my-4"/>
                         <div>
                             <h3>Ley del seno</h3>
-                            <img src="/img/leySenoPractice.svg" alt="" /><br /><br />
+                            <img src="/img/leySenoPractice.svg" alt="" className='rounded-3' /><br /><br />
 
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#leySeno">
@@ -244,7 +244,7 @@ export const TrigonometryPractice = () => {
                         <hr className="my-4"/>
                         <div>
                             <h3>Ley del coseno</h3>
-                            <img src="/img/leyCosenoPractica.svg" alt="" />
+                            <img src="/img/leyCosenoPractica.svg" alt="" className='rounded-3' />
 
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#leycoseno">

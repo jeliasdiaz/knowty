@@ -12,9 +12,10 @@ const ThirdChemistryPeriod = () => {
   const CO = `$$\\text{CO}$$`
   const metodoAlgebraicoEjemploTwo = `$$\\Large \\frac{Fe_2O_3}{a} \\ 
   + \\ \\frac{C}{b} \\rightarrow \\frac{Fe}{c} \\ + \\ \\frac{\\text{CO}}{d}$$`
-  const metodoAlgebraicoEjemploThree = `$$2a = c \\newline 3 \\ \\cdot \\ (2) = d \\newline b = d \\newline 4 = c \\newline 6 = d \\newline  b = 6$$`
-  const metodoAlgebraicoEjemploFour = `$$2 = c \\newline 3 = d \\newline b = 3$$`
-  const metodoAlgebraicoEjemploFive = `$$\\text{Fe}_2O_3 \\ + \\ 3C \\rightarrow \\ \\text{2Fe} \\ + \\ \\text{3CO}$$`
+  const metodoAlgebraicoEjemploThree = `$$2a = c \\newline 3a = d \\newline b = d$$`
+  const metodoAlgebraicoEjemploFour = `$$2a = c \\newline 3 \\ \\cdot \\ (2) = d \\newline b = d \\newline 4 = c \\newline 6 = d \\newline  b = 6$$`
+  const metodoAlgebraicoEjemploFive = `$$2 = c \\newline 3 = d \\newline b = 3$$`
+  const metodoAlgebraicoEjemploSix = `$$\\text{Fe}_2O_3 \\ + \\ 3C \\rightarrow \\ \\text{2Fe} \\ + \\ \\text{3CO}$$`
 
   return (
     <div className="homeQuimica" id="geometria">
@@ -258,7 +259,7 @@ const ThirdChemistryPeriod = () => {
           <div>
             <CollapseTitle name="Partes de una ecuación" id="#partesEcuacion" />
             <div className="collapse" id="partesEcuacion">
-              <img src="/img/partes-ecuacion-quimica.svg" alt="" />
+              <img src="/img/partes-ecuacion-quimica.svg" alt="" className="rounded-3" />
             </div>
             <hr />
           </div>
@@ -317,13 +318,13 @@ const ThirdChemistryPeriod = () => {
                 <Latex>{Fe2O3}</Latex>, lo identificamos como <b>a</b>, C lo identificamos como <b>b</b>. Respecto a los productos, <Latex>{Fe}</Latex> lo identificamos con la letra <b>c</b> y, por último, <Latex>{CO}</Latex> con la letra <b>d</b>. Gráficamente luce de la siguiente forma: <br />
                 <Latex>{metodoAlgebraicoEjemploTwo}</Latex><br />
                 Posteriormente, usamos los subíndices cómo coeficientes de las letras respectivamente. Es decir: <br />
-                <img src="/img/metodoAlgebraico-3.svg" alt="" /> <br />
+                <Latex>{metodoAlgebraicoEjemploThree}</Latex><br /> <br />
                 Después, reconocemos la letra que se presenta más veces sin tener en cuenta los coeficientes. En este caso, tanto <b>a</b> como <b>d</b> se repiten el mismo número de veces, como resultado, podemos usar cualquiera de los dos. Le asignamos un valor arbitrario a cualquiera de las letras, a nuestra elección, usaremos la letra <b>a</b>, con un valor de dos. Reemplazamos: <br />
-                <Latex>{metodoAlgebraicoEjemploThree}</Latex><br />
-                Simplificamos: <br />
                 <Latex>{metodoAlgebraicoEjemploFour}</Latex><br />
-                Reemplazamos en la ecuación: <br />
+                Simplificamos: <br />
                 <Latex>{metodoAlgebraicoEjemploFive}</Latex><br />
+                Reemplazamos en la ecuación: <br />
+                <Latex>{metodoAlgebraicoEjemploSix}</Latex><br />
               </p>
 
               <button className="btn btn-secondary"><a href="https://youtu.be/MUukx4RlWmw" className="text-decoration-none text-white">Profundizar</a></button> <br /> <br />
@@ -346,7 +347,7 @@ const ThirdChemistryPeriod = () => {
               </ol>
               <p>
                 Ejemplo: <br />
-                <img src="/img/metodoRedox.svg" alt="" className="w-75" />
+                <img src="/img/metodoRedox.svg" alt="" className="w-75 rounded-3" />
                 <br /> <br />
                 Para comprender mejor esta temática, les recomiendo observar nuestros videos, especialmente el método redox, debido a que es más complejo.
               </p>
@@ -368,7 +369,7 @@ const ThirdChemistryPeriod = () => {
                 C3H8 + 5O2 {"->"} 3CO2 + 4H2O <br />
                 ¿Cuántos moles de O2 se requieren para reaccionar con 4,3 moles de propano?
                 <br />
-                <img src="/img/mol-mol.svg" alt="" className="estequiometriaImg" /><br />
+                <img src="/img/mol-mol.svg" alt="" className="estequiometriaImg rounded-3"   /><br />
                 Identificamos que nos piden cuántos moles de oxígeno se necesitan, por tanto, ubicamos primero el oxígeno en el numerador y el dato que nos dan (C3H8) en el denominador. Posteriormente, multiplicamos la fracción por los 4,3 moles de propano. Luego, cancelamos los moles de C3H8. Dándonos el resultado expresado. <br /> <br />
 
                 <b>Mol - gramo </b> <br />
@@ -376,7 +377,7 @@ const ThirdChemistryPeriod = () => {
                 4Al + 3O2 {"->"} 2Al2O3 <br />
                 ¿Cuántos gramos de aluminio se necesitan oxidar para producir 50 mol de óxido de aluminio? <br />
 
-                <img src="/img/mol-gramo.svg" alt="" className="estequiometriaImg" /><br />
+                <img src="/img/mol-gramo.svg" alt="" className="estequiometriaImg rounded-3" /><br />
 
                 Identificamos que nos piden cuántos gramos de aluminio se necesitan, por tanto, ubicamos primero el aluminio en el numerador y el dato que nos dan (Al2O3) en el denominador. Posteriormente, multiplicamos la fracción por los moles dados. Después, multiplicamos dicho resultado por su peso molecular. <br /> <br />
 
@@ -385,7 +386,7 @@ const ThirdChemistryPeriod = () => {
                 3Cu + 8NO3 {"->"} 3Cu(NO3)2 + 2NO + 4H2O <br />
                 ¿Cuántas moles de HNO3 son necesarias para preparar 0,75 gr de Cu(NO3)2? <br />
 
-                <img src="/img/gramo-mol.svg" alt="" className="estequiometriaImg" /><br />
+                <img src="/img/gramo-mol.svg" alt="" className="estequiometriaImg rounded-3" /><br />
 
                 Identificamos que nos piden cuántas moles de HNO3 se necesitan, por tanto, ubicamos este compuesto en el numerador y el dato que nos dan (Cu(NO3)2) en el denominador. Posteriormente, multiplicamos la fracción por otra, cuyo numerador será un mol del dato en cuestión, el denominador será el peso molecular de tal ecuación. <br /> <br />
 
@@ -394,14 +395,14 @@ const ThirdChemistryPeriod = () => {
                 4P + 3O2 {"->"} 2P2O3 <br />
                 ¿Cuántos gramos de fósforo se necesitan oxidar para producir 200 gr de óxido de fósforo?<br />
 
-                <img src="/img/gramo-gramo.svg" alt="" className="estequiometriaImg" /><br />
+                <img src="/img/gramo-gramo.svg" alt="" className="estequiometriaImg rounded-3" /><br />
 
                 Identificamos lo que nos piden, de modo que el fósforo queda en el numerador y el óxido de fósforo en el denominador. Posteriormente, aplicamos el mismo proceso de gramo - mol, multiplicamos la fracción por otra, cuyo numerador será un mol de óxido de fósforo, el denominador será el peso molecular de tal ecuación. Después, multiplicamos esta fracción por otra, cuyo denominador es un mol de fósforo y en el numerador el peso atómico del mismo. Luego, será multiplicado por 200 gr de óxido de fósforo.
               </p>
 
               <button className="btn btn-secondary"><a href="https://youtu.be/hi0aTzsOZjI" className="text-decoration-none text-white">Profundizar</a></button> <br /> <br />
 
-              <h3>Practica</h3>
+             button <h3>Practica</h3>
               <p>
                 Teniendo en cuenta la siguiente ecuación:
                 <br />
@@ -414,7 +415,7 @@ const ThirdChemistryPeriod = () => {
                 </button>
               </p>
               <div className="collapse" id="collapseExample">
-                <img src="/img/practicaEstequiometria.svg" alt="" className="quimicaEcuacion" />
+                <img src="/img/practicaEstequiometria.svg" alt="" className="estequiometriaImg rounded-3" />
               </div>
             </div>
           </div>

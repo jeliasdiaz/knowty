@@ -13,19 +13,24 @@ body {
 .home {
   background-color: #f6f6f6;
   height: 100vh;
+  transition: all 0.2s;
 }
-
+.dark .home {
+  background-color: #121212;
+  color: #e3e3e3;
+  transition: all 0.2s;
+}
 .waveOne {
   position: absolute;
   width: 100%;
   bottom: 0;
 }
-
 .waveTwo {
   position: relative;
   width: 100%;
   bottom: 0px;
   top: 20px;
+  background-color: #28292a;
 }
 
 .sectionOne {
@@ -43,7 +48,11 @@ body {
 
 /** Section 2 */
 .home-2 {
-  background-color: #e3e3de;
+  background-color: #f6f6f6;
+}
+.dark .home-2{
+  background-color: #121212;
+  color: #fefefe;
 }
 .sectionTwo {
   display: flex;
@@ -75,6 +84,10 @@ body {
   height: 80%;
   margin-top: 4%;
 }
+.dark .text-sectionTwo {
+  background-color: #004a77;
+  color: #e3e3e3;
+}
 
 /** Subjects space */
 .subjectsContainer{
@@ -88,19 +101,26 @@ body {
 }
 
 .subjectLink {
-  background-color: #f6f6f6;
+  background-color: white;
   border-radius: 25px;
   padding: 8%;
   align-items: center;
+}
+.dark .subjectLink {
+  background-color: #28292a;
+  color: #e3e3e3;
 }
 .subjectLink:hover{
   color: #2b7ea1 !important;
   transition: all 0.2s;
 }
+
 .BiChevronRight {
   color: #023246 !important;
 }
-
+.dark .BiChevronRight {
+  color: #e3e3e3 !important;
+}
 
 .subjectLinkTrigonometria {
   width: 60% ;
@@ -108,7 +128,6 @@ body {
   padding: 4% !important;
   margin: auto;
 }
-
 
 .img-sectionTwo {
   margin-top: 3%;
@@ -135,9 +154,15 @@ body {
   --bs-pagination-padding-y: 1rem !important;
   --bs-pagination-border-radius: 1.3rem !important;
 }
+.dark .pagination {
+  --bs-pagination-bg: #28292a !important;
+}
 .pagination li {
   border-radius: 1.3rem !important;
   list-style-type: none !important;
+}
+.dark .page-link {
+  color: #e3e3e3 !important;
 }
 .pagination li a:hover {
   background-color: #bfdfed;
@@ -154,18 +179,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.fisica {
-  width: 70%;
-  margin: 4%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  padding: 4%;
-}
 
-.trabajo-2 {
-  width: 30%;
-}
 
 .textIntroducion {
   padding: 3%;
@@ -176,6 +190,32 @@ body {
   margin-bottom: 5%;
   color: #2b7ea1;
 }
+.dark .textIntroducion{
+  background-color: #28292a;
+}
+/** Física page  */
+.fisica {
+  width: 70%;
+  margin: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 4%;
+}
+.dark .fisica{
+  background-color: #28292a;
+  color: #e3e3e3;
+}
+
+.home-fisica{
+  padding-bottom: 5%;
+}
+.dark .home-fisica{
+  background-color: #121212;
+}
+.trabajo-2 {
+  width: 30%;
+}
 
 /** Trigonometria page */
 .cardTrigonometria {
@@ -184,6 +224,17 @@ body {
   margin-top: 5%;
   border-radius: 20px;
   padding: 4%;
+}
+.dark .cardTrigonometria{
+  background-color: #28292a;
+  color: #e3e3e3;
+}
+.homeTrigonometria {
+  background-color: white;
+  padding-bottom: 5%;
+}
+.dark .homeTrigonometria{
+  background-color: #121212;
 }
 
 /** Geometría page */
@@ -197,6 +248,19 @@ body {
   margin-top: 5%;
   border-radius: 20px;
   padding: 4%;
+}
+.dark .cardQuimica {
+  background-color: #28292a;
+  color: #e3e3e3;
+}
+.homeQuimica{
+  padding-bottom: 5%;
+}
+.dark .homeQuimica{
+  background-color: #121212;
+}
+.dark .table{
+  color: #e3e3e3;
 }
 
 .collapseTitle{
@@ -216,8 +280,19 @@ body {
 .reglaTresDirecta {
   width: 15%;
 }
-
-
+.homeEstadistica{
+  background-color: white;
+  padding-bottom: 5%;
+}
+.dark .homeEstadistica{
+  background-color: #121212;
+}
+.homeGeometria {
+  padding-bottom: 5%;
+}
+.dark .homeGeometria{
+  background-color: #121212;
+}
 /** English */
 .cardEnglish {
   width: 70%;
@@ -225,6 +300,11 @@ body {
   margin-right: auto;
   border-radius: 20px;
   padding: 4%;
+  background-color: white;
+}
+.dark .cardEnglish{
+  color: #e3e3e3;
+  background-color: #28292a;
 }
 
 /** Menu pages */
@@ -232,7 +312,9 @@ body {
   background-color: #f6f6f6;
   height: 130vh;
 }
-
+.dark .fisicaMenu{
+  background-color: #121212;
+}
 .fisicaSubjectMenu {
   margin: auto;
   margin-top: 8%;
@@ -247,6 +329,10 @@ body {
 .infoOne {
   color: #2b7ea1;
 }
+.dark .infoPage{
+  color: #e3e3e3;
+  background-color: #121212;
+}
 .ImgInfo {
   width: 8%;
   margin-top: 2%;
@@ -256,8 +342,14 @@ body {
   padding: 3%;
   border-radius: 20px;
 }
+.dark .infoTitle{
+  background-color: #28292a;
+}
 .cardsInfoSection {
-  margin-top: 2%;
+  padding-top: 2%;
+}
+.dark .cardsInfoSection{
+  background-color: #121212;
 }
 .cardInfo {
   color: black;
@@ -273,6 +365,11 @@ body {
 }
 .lastCardInfo {
   margin-bottom: 5%;
+}
+
+.dark .cardInfo{
+  background-color: #28292a;
+  color: #e3e3e3;
 }
 
 /** Practice page  */
@@ -303,7 +400,10 @@ h1 {
   font-weight: 200;
 }
 code {
-  color: black !important;
+  color: #000 !important;
+}
+.dark code {
+  color: #e3e3e3 !important;
 }
 
 hr {
@@ -316,6 +416,9 @@ hr {
   box-shadow: 3px 2px 2px 1px rgb(184, 183, 183) !important;
   background-color: #2b7ea1 !important;
   border: #2b7ea1 !important;
+}
+.dark hr {
+  box-shadow: none !important;
 }
 
 ul li {

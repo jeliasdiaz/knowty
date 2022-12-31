@@ -12,7 +12,7 @@
   color: rgb(31, 30, 30);
 }
 .navbar-expand-lg a {
-  color: black;
+  color: #212429;
   font-weight: 500;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
@@ -27,12 +27,13 @@
 .nav-3 {
   margin-top: 10%;
 }
-#MdInfo:hover, #RiHomeFill:hover, #IoCaretBackCircle:hover{
+.navBtn:hover{
   cursor: pointer;
 }
 .backHoverColor{
   color: #2B7EA1 !important;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 .dropdown-item{
@@ -45,7 +46,7 @@
 
 @media screen and (max-width: 800px) {
   .navbar-brand {
-    width: 22%;
+    width: 26%;
   }
   .backHoverColor{
   color: black;

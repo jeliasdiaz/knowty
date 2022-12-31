@@ -3,7 +3,7 @@ import { SectionTitle } from "../../components/SectionTitle";
 
 export const Dinamic = () => {
     return (
-        <div className="dinamica-home">
+        <div className="home-fisica">
             <img src="/img/waveThree.svg" alt="" />
             
             <SectionTitle title="Dinámica"/>

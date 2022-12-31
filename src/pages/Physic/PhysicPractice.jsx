@@ -109,7 +109,7 @@ export const PhysicPractice = () => {
     const energiaGravitatoriaTwo = `$$E_{pg} = 2352 J$$`
 
     return (
-        <div>
+        <div className='home-fisica'>
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Practica" />
 

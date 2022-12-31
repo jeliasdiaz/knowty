@@ -1,8 +1,8 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 325.2186732008938 145.51048243775085" width="650.4373464017876" height="291.0209648755017">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670 311" width="670" height="311"><symbol id="image-57c1c88373ad10cdfaea0e17dd1cf54660e28202"><image width="100%" height="100%" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMyNS4yMTg2NzMyMDA4OTM4IDE0NS41MTA0ODI0Mzc3NTA4NSIgd2lkdGg9IjY1MC40MzczNDY0MDE3ODc2IiBoZWlnaHQ9IjI5MS4wMjA5NjQ4NzU1MDE3Ij4KICA8IS0tIHN2Zy1zb3VyY2U6ZXhjYWxpZHJhdyAtLT4KICAKICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgQGZvbnQtZmFjZSB7CiAgICAgICAgZm9udC1mYW1pbHk6ICJWaXJnaWwiOwogICAgICAgIHNyYzogdXJsKCJodHRwczovL2V4Y2FsaWRyYXcuY29tL1ZpcmdpbC53b2ZmMiIpOwogICAgICB9CiAgICAgIEBmb250LWZhY2UgewogICAgICAgIGZvbnQtZmFtaWx5OiAiQ2FzY2FkaWEiOwogICAgICAgIHNyYzogdXJsKCJodHRwczovL2V4Y2FsaWRyYXcuY29tL0Nhc2NhZGlhLndvZmYyIik7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIDxnIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM0LjA4NDIyNjk1NTUwMzcgMTM1LjUxMDQ4MjQzNzc1MDg1KSByb3RhdGUoMCA5MC41NjcyMjMxMjI2OTUwNSAwKSI+PHBhdGggZD0iTTAgMCBDNDMuMjIgMCwgODYuNDQgMCwgMTgxLjEzIDAgTTAgMCBDNzEuMzQgMCwgMTQyLjY4IDAsIDE4MS4xMyAwIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIvPjwvZz48L2c+PGcgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMzUuNTEwNDgyNDM3NzUwODUgMTM1LjUxMDQ4MjQzNzc1MDg1KSByb3RhdGUoMCAyNi4zODU3MjY0MjE1NzI2IC02Mi43NTUyNDEyMTg4NzU0MjYpIj48cGF0aCBkPSJNMCAwIEMtNDkuNTMgLTQ5LjUzLCAtOTkuMDcgLTk5LjA3LCAtMTI1LjUxIC0xMjUuNTEgTTAgMCBDLTQzLjI1IC00My4yNSwgLTg2LjUgLTg2LjUsIC0xMjUuNTEgLTEyNS41MSBNLTEyNS41MSAtMTI1LjUxIEMtNC42NSAtNzUuNTgsIDExNi4yMSAtMjUuNjUsIDE3OC4yOCAwIE0tMTI1LjUxIC0xMjUuNTEgQy01Ni4yMSAtOTYuODgsIDEzLjA4IC02OC4yNSwgMTc4LjI4IDAiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIi8+PC9nPjwvZz48L3N2Zz4="></image></symbol>
   <!-- svg-source:excalidraw -->
   
   <defs>
-    <style>
+    <style class="style-fonts">
       @font-face {
         font-family: "Virgil";
         src: url("https://excalidraw.com/Virgil.woff2");
@@ -13,4 +13,4 @@
       }
     </style>
   </defs>
-  <g stroke-linecap="round"><g transform="translate(134.0842269555037 135.51048243775085) rotate(0 90.56722312269505 0)"><path d="M0 0 C43.22 0, 86.44 0, 181.13 0 M0 0 C71.34 0, 142.68 0, 181.13 0" stroke="#000000" stroke-width="1" fill="none"></path></g></g><g stroke-linecap="round"><g transform="translate(135.51048243775085 135.51048243775085) rotate(0 26.3857264215726 -62.755241218875426)"><path d="M0 0 C-49.53 -49.53, -99.07 -99.07, -125.51 -125.51 M0 0 C-43.25 -43.25, -86.5 -86.5, -125.51 -125.51 M-125.51 -125.51 C-4.65 -75.58, 116.21 -25.65, 178.28 0 M-125.51 -125.51 C-56.21 -96.88, 13.08 -68.25, 178.28 0" stroke="#000000" stroke-width="1" fill="none"></path></g></g></svg>
+  <rect x="0" y="0" width="670" height="311" fill="#ffffff"></rect><g transform="translate(10 10) rotate(0 325 145.5)"><use href="#image-57c1c88373ad10cdfaea0e17dd1cf54660e28202" width="650" height="291"></use></g></svg>

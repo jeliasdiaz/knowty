@@ -16,7 +16,7 @@ const SecondChemistryPeriod = () => {
                         <CollapseTitle name="Generalidades" id="#generalidades" />
                         <div className="collapse" id="generalidades">
                             <h5>Posición en la tabla periódica con base a la configuración electrónica</h5>
-                            <img src="/img/configElectronica.svg" alt="" className="w-25" /><br />
+                            <img src="/img/configElectronica.svg" alt="" className="w-25 rounded-3" /><br />
                             <p> Terminación: <br /> <i>d</i> o <i>f</i>, pertenece al grupo <i>b</i> <br /> <i>s</i> o <i>p</i>, pertenece al grupo <i>a</i> <br /> (Si varía el número de neutrones, es un isótopo)</p>
                             <h4>Radio atómico</h4>
                             <ul>
@@ -111,7 +111,7 @@ const SecondChemistryPeriod = () => {
                     <div>
                         <CollapseTitle name="Enlaces químicos" id="#enlacesQuimicos" />
                         <div className="collapse" id="enlacesQuimicos">
-                            <img src="/img/enlacesQuimicos.svg" alt="" className="estequiometriaImg" />
+                            <img src="/img/enlacesQuimicos.svg" alt="" className="estequiometriaImg rounded-3" />
                         </div>
                         <hr />
                     </div>

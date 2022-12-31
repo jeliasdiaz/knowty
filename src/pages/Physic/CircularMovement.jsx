@@ -16,7 +16,7 @@ export const CircularMovement = () => {
     const extraOne = `$$ω = rpm \\ \\cdot \\ \\large \\frac{2π}{60}$$`
     const extraTwo = `$$N_v = \\large \\frac{θ}{2π}$$`
     return (
-        <div className="circular-home">
+        <div className="home-fisica">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Movimiento circular"/>
             

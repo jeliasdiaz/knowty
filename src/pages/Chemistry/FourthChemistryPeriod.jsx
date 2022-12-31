@@ -32,7 +32,7 @@ const FourthChemistryPeriod = () => {
 
                             <h3>Practica</h3>
                             <p>Con base a la siguiente ecuación, halla el reactivo límite y en exceso. Teniendo 10.5 gr de P y 22.27 gr O2</p>
-                            <img src="/img/reactivoLimiteEjercicio.svg" alt="" className="quimicaEcuacion2" />
+                            <img src="/img/reactivoLimiteEjercicio.svg" alt="" className="estequiometriaImg rounded-3" />
                             <br /><br />
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" aria-expanded="false" href="#reactivo" >
@@ -40,7 +40,7 @@ const FourthChemistryPeriod = () => {
                                 </button>
                             </p>
                             <div className="collapse" id="reactivo">
-                                <img src="/img/reactivoLimiteEjercicioSolucion.svg" alt="" className="quimicaEcuacion" />
+                                <img src="/img/reactivoLimiteEjercicioSolucion.svg" alt="" className="estequiometriaImg rounded-3" />
                             </div>
                         </div>
                         <hr />
@@ -63,7 +63,7 @@ const FourthChemistryPeriod = () => {
 
                             <h3>Practica</h3>
                             <p>Halla la pureza del fósforo y oxígeno diatómico</p>
-                            <img src="/img/reactivoLimiteEjercicio.svg" alt="" className="quimicaEcuacion2" />
+                            <img src="/img/reactivoLimiteEjercicio.svg" alt="" className="estequiometriaImg rounded-3" />
                             <p>
                                 12 gr de P <br />
                                 87.5% <br />
@@ -78,7 +78,7 @@ const FourthChemistryPeriod = () => {
                                 </button>
                             </p>
                             <div className="collapse" id="pureza">
-                                <img src="/img/purezaEjercicioSolucion.svg" alt="" className="quimicaEcuacion" />
+                                <img src="/img/purezaEjercicioSolucion.svg" alt="" className="estequiometriaImg rounded-3" />
                             </div>
                         </div>
                         <hr />
@@ -124,18 +124,18 @@ const FourthChemistryPeriod = () => {
 
                         <h4>Ley de Boyle</h4>
                         <p>Postula que en un gas a mayor presión, menor es el volumen. Dicho de otro modo, la relación es inversamente proporcional a temperatura constante. Dicha ley se evidencia, por ejemplo, en una jeringa que esté sellada, a medida que presionamos el émbolo, el volumen disminuye y la presión aumenta. Su gráfica y ecuación son las siguientes:</p>
-                        <img src="/img/leyBoyle.svg" alt="" className="w-50" />
-                        <img src="/img/leyBoyleFormula.svg" alt="" className="w-25" />
+                        <img src="/img/leyBoyle.svg" alt="" className="w-50 rounded-3" />
+                        <img src="/img/leyBoyleFormula.svg" alt="" className="w-25 rounded-3" />
 
                         <h4>Ley de Charles</h4>
                         <p>Postula que en los gases, el volumen es directamente proporcional a la temperatura a presión constante. Por ejemplo, al llenar un globo con aire caliente, su volumen se expandirá. Su gráfica y ecuación son las siguientes:</p>
-                        <img src="/img/leyCharles.svg" alt="" className="w-50" />
-                        <img src="/img/leyCharlesFormula.svg" alt="" className="w-25" />
+                        <img src="/img/leyCharles.svg" alt="" className="w-50 rounded-3" />
+                        <img src="/img/leyCharlesFormula.svg" alt="" className="w-25 rounded-3" />
 
                         <h4>Ley de Gay-Lussac</h4>
                         <p>Postula que en los gases, la presión es directamente proporcional a la temperatura a volumen constante. Por ejemplo, tenemos la olla a presión, al calentarla y estar sellada, provoca que la presión dentro de esta aumente. Su gráfica y ecuación son las siguientes:</p>
-                        <img src="/img/leyGayLussac.svg" alt="" className="w-50" />
-                        <img src="/img/leyGayLussacFormula.svg" alt="" className="w-25" />
+                        <img src="/img/leyGayLussac.svg" alt="" className="w-50 rounded-3" />
+                        <img src="/img/leyGayLussacFormula.svg" alt="" className="w-25 rounded-3" />
                         </div>
                     </div>
                 </div>

@@ -201,7 +201,7 @@ const FirstChemistryPeriod = () => {
                     <div>
                         <CollapseTitle name="Modelos atómicos" id="#modelosAtomicos"/>
                     <div className="collapse" id="modelosAtomicos">
-                        <img src="/img/modelosAtomicos.svg" alt="" className="estequiometriaImg" />
+                        <img src="/img/modelosAtomicos.svg" alt="" className="estequiometriaImg rounded-3" />
                         <h4>Modelo atómico de Dalton</h4>
                         <ul>
                             <li>Plantea la idea de un átomo macizo. Es quien rescata las ideas de Demócrito (átomos son indivisibles).</li>

@@ -28,7 +28,7 @@ export const Energy = () => {
     const colisionesInelasticasTwo = `$$V_2' = \\large \\frac{m_1 \\ \\cdot \\ v_1 \\ + \\ m_2 \\ \\cdot \\ v_2}{(m_1 \\ + \\ m_2)}'$$`
 
     return (
-        <div className="energia-home">
+        <div className="home-fisica">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Energía" />
             

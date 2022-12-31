@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { BiChevronRight } from "react-icons/bi";
 
 export const Home = () => {
+
   return (
     <>
       <section className="home">
@@ -17,12 +18,12 @@ export const Home = () => {
             <img src="/img/homeImg.svg" alt="" className="w-75 " />
           </div>
         </div>
-        <div>
+{/*         <div>
           <img src="/img/waveOne.svg" alt="" className="waveOne" />
-        </div>
+        </div> */}
       </section>
 
-      <section className="home-2" id="sectionTwo">
+      <section className="home-2">
         <div className="sectionTwo container" >
           <div className="sectionTwoText justify-content-around" data-aos="fade-down" data-aos-duration="1400">
             <div className="flex-1">
@@ -160,9 +161,9 @@ export const Home = () => {
 
           </div>
         </div>
-        <div className="waveTwo">
+{/*         <div className="waveTwo">
           <img src="/img/waveTwo.svg" alt="" />
-        </div>
+        </div> */}
       </section>
     </>
   )
