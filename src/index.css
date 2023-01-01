@@ -116,6 +116,7 @@ ul li {
   border-radius: 25px;
   padding: 8%;
   align-items: center;
+  transition: all 0.2s;
 }
 .subjectLink:hover {
   background-color: #bfdfed;
@@ -319,7 +320,7 @@ ul li {
   /** Section 2 */
   .sectionTwo {
     display: block;
-    padding-top: 18%;
+    padding-top: 16%;
   }
   .text-sectionTwo h2 {
     font-size: 36px;

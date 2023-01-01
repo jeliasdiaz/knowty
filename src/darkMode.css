@@ -28,11 +28,9 @@
 .dark .subjectLink {
   background-color: #28292a;
   color: #e3e3e3;
-  transition: all 0.2s;
 }
 .dark .subjectLink:hover {
   background-color: #004a77;
-  transition: all 0.2s;
 }
 .dark .BiChevronRight {
   color: #e3e3e3 !important;

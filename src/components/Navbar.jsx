@@ -16,16 +16,10 @@ export const Navbar = () => {
   const handleMouseOverTheme = () => setIsHoverTheme(true);
   const handleMouseOutTheme = () => setIsHoverTheme(false);
 
-  const [theme, setTheme] = useState(
-    localStorage.getItem('theme') || ''
-  );
-  const toggleTheme = () => {
-    if (theme === '') {
-      setTheme('dark');
-    } else {
-      setTheme('');
-    }
-  };
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || '');
+  
+  const toggleTheme = () => theme === '' ? setTheme('dark') : setTheme('')
+
   useEffect(() => {
     localStorage.setItem('theme', theme);
     document.body.className = theme;
