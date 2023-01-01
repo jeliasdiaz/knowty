@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { AiFillHome } from "react-icons/ai";
 import { MdInfo } from "react-icons/md";
 import { IoCaretBackCircle } from "react-icons/io5";
@@ -16,6 +16,7 @@ export const Navbar = () => {
   const handleMouseOverTheme = () => setIsHoverTheme(true);
   const handleMouseOutTheme = () => setIsHoverTheme(false);
 
+  // toggle theme
   const [theme, setTheme] = useState(localStorage.getItem('theme') || '');
   
   const toggleTheme = () => theme === '' ? setTheme('dark') : setTheme('')
@@ -24,6 +25,9 @@ export const Navbar = () => {
     localStorage.setItem('theme', theme);
     document.body.className = theme;
   }, [theme]);
+
+  // go back
+  const navigate = useNavigate()
 
   return (
     <>
@@ -42,13 +46,11 @@ export const Navbar = () => {
             <HiMoon size={38} className={IsHoverTheme ? 'backHoverColor d-none d-sm-block' : 'd-none d-sm-block text-dark'} onClick={toggleTheme} onMouseOver={handleMouseOverTheme}
               onMouseOut={handleMouseOutTheme} />
               
-            <a href="javascript:history.back()" className={IsHoverBack ? 'backHoverColor d-none d-sm-block' : ' d-none d-sm-block'}
-              onMouseOver={handleMouseOverBack}
-              onMouseOut={handleMouseOutBack}><IoCaretBackCircle size={38} className="navBtn" /></a>
+            <span onClick={() => navigate(-1)} className={IsHoverBack ? 'backHoverColor d-none d-sm-block' : ' d-none d-sm-block'} onMouseOver={handleMouseOverBack} onMouseOut={handleMouseOutBack}><IoCaretBackCircle size={38} className="navBtn" /></span>
 
             <HiMoon size={38} className="navBtn d-block d-sm-none text-dark" onClick={toggleTheme} />
 
-            <a href="javascript:history.back()" className="d-block d-sm-none"><IoCaretBackCircle size={38} className="navBtn" /></a>
+            <span onClick={() => navigate(-1)} className="d-block d-sm-none"><IoCaretBackCircle size={38} className="navBtn" /></span>
           </div>
         </div>
       </nav>

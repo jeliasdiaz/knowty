@@ -8,6 +8,9 @@
   text-decoration: none;
   font-family: "Roboto", sans-serif;
 }
+.navbar-expand-lg a:hover {
+  color: rgb(31, 30, 30);;
+}
 
 .navbar-brand {
   width: 7%;

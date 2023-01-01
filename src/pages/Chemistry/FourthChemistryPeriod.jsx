@@ -52,12 +52,11 @@ const FourthChemistryPeriod = () => {
                             <p>
                                 Muchos de los reactivos presentes en reacciones químicas, contienen impurezas. Estas últimas son sustancias que no reaccionarán en una reacción. Por ende, las sustancias puras son aquellas que si se presentan o reaccionan en una reacción concreta. La pureza de un reactivo se puede calcular mediante la siguiente ecuación:
                                 <br /><br />
-                                <p><Latex>{purezaReactivo}</Latex></p>
-                                <p><Latex>{sustanciaPura}</Latex></p>
-
-                                <br />
+                            </p>
+                            <p><Latex>{purezaReactivo}</Latex></p>
+                            <p><Latex>{sustanciaPura}</Latex></p>
+                            <p>
                                 Por otra parte, la pureza también es definida como cantidad de sustancia que se ha determinado que existe en una muestra dada de tal sustancia. Esto es, si tenemos cafeína al 80% quiere decir que hay 80 gramos de cafeína de 100 gramos, pues los otros 20 gramos corresponden a las impurezas.
-
                             </p>
                             <button className="btn btn-secondary"><a href="https://youtu.be/B-d5vKJBx-E?t=259" className="text-decoration-none text-white">Profundizar</a></button><br /><br />
 
@@ -107,10 +106,12 @@ const FourthChemistryPeriod = () => {
                             <p>
                                 Ejemplo: <br />
                                 Teniendo en cuenta la siguiente ecuación: <br />
-                                <p><Latex>{ecuacionOne}</Latex></p>
-                                Si se producen 64gr de CO2, ¿cuál es el porcentaje de rendimiento de la reacción? <br />
-                                <p><Latex>{ecuacionTwo}</Latex></p>
                             </p>
+                            <p><Latex>{ecuacionOne}</Latex></p>
+                            <p>
+                                Si se producen 64gr de CO2, ¿cuál es el porcentaje de rendimiento de la reacción? <br />
+                            </p>
+                            <p><Latex>{ecuacionTwo}</Latex></p>
                         </div>
                     </div>
                     <hr />

@@ -69,20 +69,20 @@ export const Statistic = () => {
                 Si 5 centímetros en un mapa son 600 metros en la realidad, ¿cuántos metros son 8 centímetros?
                 <br />
                 <img src="/img/regla-3-ejemplo.jpg" className="reglaTres rounded-3" alt="" /><br /><br />
-                <p><Latex>{reglaTresDirectaEjemplo}</Latex></p>
+              <Latex>{reglaTresDirectaEjemplo}</Latex>
               </p>
 
               <h5>Inversa</h5>
               <p>Los datos están correlacionados, de tal forma que mientras una magnitud aumenta, la otra disminuye.</p>
               <h6>Fórmula</h6>
               <img src="/img/regla-3-inversa.jpg" alt="" className="reglaTres rounded-3" /><br /><br />
-              <p><Latex>{reglaTresInversa}</Latex></p>
+              <Latex>{reglaTresInversa}</Latex>
               <br /><br />
               <h6>Ejemplo</h6>
               <p>
                 Si Tres personas tardan 4 días en montar un escenario. ¿Cuánto tardarán seis personas? <br />
                 <img src="/img/regla-3-inversa-ejemplo.jpg" alt="" className="reglaTres rounded-3" /> <br /><br />
-                <p><Latex>{reglaTresInversaEjemplo}</Latex></p>
+                <Latex>{reglaTresInversaEjemplo}</Latex>
               </p> <br />
               <button className="btn btn-secondary"><a href="https://youtu.be/-HORSa7OGzY" className="text-decoration-none text-white">Profundizar</a></button> <br /> <br />
 
@@ -112,6 +112,7 @@ export const Statistic = () => {
               <p>Permiten calcular el 25%, 50%, 75% y 100%, donde el cuartil 1 corresponde al 25% y el cuartil 4 al 100%.</p>
               <p><Latex>{cuartilesPar}</Latex></p>
               <p><Latex>{cuartilesImpar}</Latex></p>
+
               <p>n = número total de datos <br /> k = cuartil a hallar</p>
               <p>
                 Ejemplo:
@@ -123,7 +124,7 @@ export const Statistic = () => {
               <br />
 
               <h5>Deciles</h5>
-              <p>Permiten calcular los porcentajes desde el 10% hasta el 100% de diez en diez. Esto es, el decil 1 es 10% y el decil 10 es 100%.</p>
+              <p>Permiten calcular los porcentajes desde el 10% hasta el 100% de diez en diez. Esto es, el decil 1 es 10% y el decil 10 es 100%</p>
               <p><Latex>{decilesPar}</Latex></p>
               <p><Latex>{decilesImpar}</Latex></p>
               <p>n = número total de datos <br /> k = decil a hallar</p>
@@ -146,15 +147,18 @@ export const Statistic = () => {
                 Las medidas de localización, son otra alternativa a dicho proceso. Esto es, si un producto posee un precio de 35,000 pesos y, deseas calcular el 25% de descuento que posee. Puedes usar las medidas de localización. El procedimiento a llevar a cabo es el siguiente. <br /><br />
 
                 En primer lugar, si eres bastante curioso, habrás notado que podemos usar tanto los cuartiles como los percentiles para hallar el descuento, a pesar de ello, los cuartiles son la opción más directa para llegar al resultado. En segundo lugar, notamos que el valor total del producto es par, por ello, recurrimos a la ecuación: <br /> <br />
-
-                <p><Latex>{cuartilesPar}</Latex></p>
+              </p>
+              <p><Latex>{cuartilesPar}</Latex></p>
+              <p>
                 De esta manera, solo es cuestión de reemplazar los valores. <i>n</i> que es 1 (25%) y, <i>k</i> que corresponde al precio del producto que deseamos comprar (35,000). Luego, dividimos los datos entre 4. Es decir: <br /> <br />
-                <p><Latex>{explicacionEjemplo}</Latex></p>
-                <p><Latex>{explicacionEjemploResultado}</Latex></p>
-
+              </p>
+              <p><Latex>{explicacionEjemplo}</Latex></p>
+              <p><Latex>{explicacionEjemploResultado}</Latex></p>
+              <p>
                 Debo aclarar que también podríamos expresarlo de la siguiente manera: <br /> <br />
-                <p><Latex>{explicacionEjemploResultadoAlternativo}</Latex></p>
-
+              </p>
+              <p><Latex>{explicacionEjemploResultadoAlternativo}</Latex></p>
+              <p>
                 Por último, te invito buscar otros casos en los que podemos aplicar las medidas de localización. ¡Deja volar tu imaginación!
               </p>
             </div>
