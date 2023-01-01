@@ -60,7 +60,7 @@ export const Home = () => {
                   <Link to="/recta" className="text-decoration-none text-black">
                     <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400">
                       <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2 " />
-                      <h4 className=" ps-2">Geometría</h4>
+                      <h4 className="ps-2">Geometría</h4>
                       <BiChevronRight size={45} className="BiChevronRight"/>
                     </div>
                   </Link>

@@ -1,0 +1,17 @@
+.textIntroduction {
+  padding: 3%;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 5%;
+  color: #2b7ea1;
+}
+
+@media screen and (max-width: 800px) {
+  .textIntroduction {
+    padding: 6%;
+    width: 90%;
+    margin-top: 22%;
+  }
+}

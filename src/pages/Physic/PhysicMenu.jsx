@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 export const PhysicMenu = () => {
   return (
     <>
-      <section className="fisicaMenu">
+      <section className="mobileMenu">
         <img src="/img/waveThree.svg" alt="" />
-        <div className="fisicaSubjectMenu">
+        <div className="mobileSubjectMenu">
           <Link to="/cinematica" className="link-secondary text-decoration-none text-dark">
             <div className="subjectLink d-flex shadow" data-aos="fade-up" data-aos-duration="1000">
               <img src="/img/fisicaIcon.png" alt="" className="w-25 pe-2" />

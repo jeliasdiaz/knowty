@@ -1,0 +1,162 @@
+/** All pages */
+.dark code {
+  color: #e3e3e3 !important;
+  transition: all 0.2s;
+}
+.dark hr {
+  box-shadow: none !important;
+  transition: all 0.2s;
+}
+
+.dark .home {
+  background-color: #121212;
+  color: #e3e3e3;
+  transition: all 0.2s;
+}
+
+.dark .home-2 {
+  background-color: #121212;
+  color: #fefefe;
+  transition: all 0.2s;
+}
+.dark .text-sectionTwo {
+  background-color: #004a77;
+  color: #e3e3e3;
+  transition: all 0.2s;
+}
+
+.dark .subjectLink {
+  background-color: #28292a;
+  color: #e3e3e3;
+  transition: all 0.2s;
+}
+.dark .subjectLink:hover {
+  background-color: #004a77;
+  transition: all 0.2s;
+}
+.dark .BiChevronRight {
+  color: #e3e3e3 !important;
+  transition: all 0.2s;
+}
+.dark .pagination {
+  --bs-pagination-bg: #28292a !important;
+}
+.dark .page-link {
+  color: #e3e3e3 !important;
+  transition: all 0.2s;
+}
+.dark .textIntroduction {
+  background-color: #28292a;
+  transition: all 0.2s;
+}
+
+.dark .fisica {
+  background-color: #28292a;
+  color: #e3e3e3;
+  transition: all 0.2s;
+}
+.dark .home-fisica {
+  background-color: #121212;
+  transition: all 0.2s;
+}
+.dark .cardTrigonometria {
+  background-color: #28292a;
+  color: #e3e3e3;
+  transition: all 0.2s;
+}
+.dark .homeTrigonometria {
+  background-color: #121212;
+  transition: all 0.2s;
+}
+.dark .cardQuimica {
+  background-color: #28292a;
+  color: #e3e3e3;
+  transition: all 0.2s;
+}
+.dark .homeQuimica {
+  background-color: #121212;
+  transition: all 0.2s;
+}
+.dark .table {
+  color: #e3e3e3;
+  transition: all 0.2s;
+}
+.dark .homeEstadistica {
+  background-color: #121212;
+  transition: all 0.2s;
+}
+.dark .homeGeometria {
+  background-color: #121212;
+  transition: all 0.2s;
+}
+.dark .cardEnglish {
+  color: #e3e3e3;
+  background-color: #28292a;
+  transition: all 0.2s;
+}
+
+.dark .mobileMenu {
+  background-color: #121212;
+  transition: all 0.2s;
+}
+
+.dark .infoPage {
+  color: #e3e3e3;
+  background-color: #121212;
+  transition: all 0.2s;
+}
+.dark .infoTitle {
+  background-color: #28292a;
+  transition: all 0.2s;
+}
+.dark .cardsInfoSection {
+  background-color: #121212;
+  transition: all 0.2s;
+}
+.dark .cardInfo {
+  background-color: #28292a;
+  color: #e3e3e3;
+  transition: all 0.2s;
+}
+
+.dark .search {
+  background-color: #121212;
+  transition: all 0.2s;
+}
+.dark .dataItem {
+  background-color: #28292a;
+  color: #e3e3e3;
+}
+
+/** Footer  */
+.dark .footer {
+  background-color: #121212;
+  transition: all 0.2s;
+}
+.dark .textFooter h1 {
+  background-color: #004a77;
+  color: #e3e3e3;
+  transition: all 0.2s;
+}
+.dark .teamCard {
+  background-color: #28292a;
+  color: #e3e3e3;
+}
+.dark .teamCardCenter {
+  background-color: #28292a;
+  color: #e3e3e3;
+}
+.dark .moreInformation {
+  background-color: #28292a;
+  color: #e3e3e3;
+}
+.dark .moreInformation a {
+  color: #e3e3e3 !important;
+}
+@media screen and (max-width: 800px) {
+  .dark .textFooter h1 {
+    width: 73%;
+    background-color: #004a77;
+    color: #e3e3e3;
+  }
+}

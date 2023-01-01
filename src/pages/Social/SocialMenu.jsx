@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 export const SocialMenu = () => {
   return (
     <>
-      <section className="fisicaMenu">
+      <section className="mobileMenu">
         <img src="/img/waveThree.svg" alt="" />
-        <div className="fisicaSubjectMenu">
+        <div className="mobileSubjectMenu">
           <Link to="/sociales_1" className="link-secondary text-decoration-none text-dark">
             <div className="subjectLink d-flex shadow" data-aos="fade-up" data-aos-duration="1000">
               <img src="/img/socialesIcon.png" alt="" className="w-25 pe-2" />

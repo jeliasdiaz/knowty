@@ -41,7 +41,7 @@ export const Parable = () => {
                     </p>
                     <h6>Ejemplo</h6>
                     <p>(y - 2)<sup>2</sup> = -12(x + 3) <br /> v = (-3,2)</p>
-                    <img src="/img/geometriaParabola-1.png" alt="" className="geometriaImgOne" />
+                    <img src="/img/geometriaParabola-1.png" alt="" className="w-75" />
                     <br /> <br />
                     <h5>Paralela al eje y</h5>
                     <p>
@@ -51,7 +51,7 @@ export const Parable = () => {
                     </p>
                     <h6>Ejemplo</h6>
                     <p>(x + 4)<sup>2</sup> = 8(y - 2) <br /> v = (-4,2) <br /> F = (h, p + k)</p>
-                    <img src="/img/geometriaParabola-2.png" alt="" className="geometriaImgOne" /><br /> <br />
+                    <img src="/img/geometriaParabola-2.png" alt="" className="w-75" /><br /> <br />
 
                     <button className="btn btn-secondary"><a href="https://youtu.be/QIzI_7OZ6y0" className="text-decoration-none text-white">Profundizar</a></button>
                 </div>

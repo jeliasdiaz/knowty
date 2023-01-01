@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 export const TrigonometryMenu = () => {
   return (
     <>
-      <section className="fisicaMenu">
+      <section className="mobileMenu">
         <img src="/img/waveThree.svg" alt="" />
-        <div className="fisicaSubjectMenu">
+        <div className="mobileSubjectMenu">
           <Link to="/trigonometria_2" className="link-secondary text-decoration-none text-dark">
             <div className="subjectLink d-flex shadow mt-3 " data-aos="fade-up" data-aos-duration="1000">
               <img src="/img/trigonometriaIcon.png" alt="" className="w-25 pe-2" />
