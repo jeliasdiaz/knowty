@@ -115,7 +115,7 @@ export const PhysicPractice = () => {
 
             <PhysicNav/>
 
-            <div className="fisica shadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="fisica ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div >
                     <div className="section">
                         <div>
@@ -129,9 +129,9 @@ export const PhysicPractice = () => {
                             <p>Vector B:
                                 Magnitud: 27N
                                 Dirección: 55°</p>
-                            <img src="/img/vectoresPracticaImg.svg" alt="" className='practiceImg' />
+                            <img src="/img/vectoresPracticaImg.svg" alt="" className='practiceImg rounded-3' />
                             <p>
-                                <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#vectores">
+                                <button className="btn btn-secondary mt-3" type="button" data-bs-toggle="collapse" href="#vectores">
                                     Solución
                                 </button>
                             </p>
@@ -346,7 +346,7 @@ export const PhysicPractice = () => {
                             <h3>Dinámica</h3>
                             <h5>N°1</h5>
                             <p>En una bodega se mantiene una caja de 900kg mediante una soga. La superficie se encuentra inclinada 25° respecto a la horizontal y la superficie tiene un coeficiente de rozamiento de 0.4. Calcule la tensión.</p>
-                            <img src="/img/dinamicaPracticaImg.svg" alt="" className='practiceImg' /><br /><br />
+                            <img src="/img/dinamicaPracticaImg.svg" alt="" className='practiceImg rounded-3' /><br /><br />
 
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#dinamicaOne">
@@ -356,7 +356,7 @@ export const PhysicPractice = () => {
 
                             <div className="collapse " id="dinamicaOne">
                                 <p>Análisis de fuerzas</p>
-                                <img src="/img/dinamicaPracticaImgTwo.svg" alt="" className='practiceImg' /><br /><br />
+                                <img src="/img/dinamicaPracticaImgTwo.svg" alt="" className='practiceImg rounded-3' /><br /><br />
                                 <p>Descomponer vectores</p>
                                 <p>Si θ está respecto a X:</p>
                                 <Latex>
@@ -392,7 +392,7 @@ export const PhysicPractice = () => {
 
                             <h5>N°2</h5>
                             <p>Un vehículo de 1300kg se encuentra en una superficie inclinada 35° respecto a la horizontal, teniendo en cuenta que el sistema está acelerado, calcule la aceleración del vehículo. Considere μ= 0.5 y g= 9.8m/s².</p>
-                            <img src="/img/dinamicaPracticaImgTwo.svg" alt="" className='practiceImg' /><br /><br />
+                            <img src="/img/dinamicaPracticaImgTwo.svg" alt="" className='practiceImg rounded-3' /><br /><br />
 
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#dinamicaTwo">

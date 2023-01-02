@@ -10,13 +10,13 @@ const SecondChemistryPeriod = () => {
 
             <ChemistryNav />
 
-            <div className="cardQuimica mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="cardQuimica mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <div >
                         <CollapseTitle name="Generalidades" id="#generalidades" />
                         <div className="collapse" id="generalidades">
                             <h5>Posición en la tabla periódica con base a la configuración electrónica</h5>
-                            <img src="/img/configElectronica.svg" alt="" className="w-25 rounded-3" /><br />
+                            <img src="/img/configElectronica.svg" alt="" className="w-50 rounded-3" /><br />
                             <p> Terminación: <br /> <i>d</i> o <i>f</i>, pertenece al grupo <i>b</i> <br /> <i>s</i> o <i>p</i>, pertenece al grupo <i>a</i> <br /> (Si varía el número de neutrones, es un isótopo)</p>
                             <h4>Radio atómico</h4>
                             <ul>

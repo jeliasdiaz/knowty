@@ -38,7 +38,7 @@ export const Statistic = () => {
         </div>
         <SectionTitle title="Estadística" />
 
-        <div className="cardEnglish mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
+        <div className="cardEnglish mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
           <div>
             <CollapseTitle name="Medidas de tendencia central" id="#medidasTendenciaCentral" />
             <div className="collapse"  id="medidasTendenciaCentral">

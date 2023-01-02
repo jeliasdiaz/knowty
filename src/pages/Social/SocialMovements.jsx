@@ -11,7 +11,7 @@ const SocialMovements = () => {
 
             <SocialNav />
 
-            <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="900">
+            <div className="cardTrigonometria mb-5 ownShadow" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
                 <div>
                     <CollapseTitle name="Movimientos sociales" id="#movimientosSociales" />
                     <div className="collapse" id="movimientosSociales">

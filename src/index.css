@@ -9,6 +9,12 @@ body {
   color: white;
 }
 /** Global elements */
+.ownShadow {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+.ownShadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
 h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 200;
@@ -141,7 +147,7 @@ ul li {
   display: flex;
 }
 .nav-3 {
-  margin-top: 5% !important;
+  margin-top: 5%;
 }
 .pagination {
   margin-top: 5%;
@@ -408,7 +414,7 @@ ul li {
     height: 100%;
     margin-right: 2%;
     margin-left: 2%;
-    margin-top: 5%;
+    margin-top: 7%;
   }
   .lastCardInfo {
     margin-bottom: 15%;

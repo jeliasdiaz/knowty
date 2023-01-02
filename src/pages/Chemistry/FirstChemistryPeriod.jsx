@@ -18,7 +18,7 @@ const FirstChemistryPeriod = () => {
             <SectionTitle title="Química" />
             <ChemistryNav />
 
-            <div className="cardQuimica mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="cardQuimica mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
 
                     <div>

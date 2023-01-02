@@ -22,7 +22,7 @@ export const CircularMovement = () => {
             
             <PhysicNav/>
 
-            <div className="fisica shadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="fisica ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div className="flex">
                     <div>
                         <h2>M.C.U.</h2>

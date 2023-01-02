@@ -34,7 +34,7 @@ export const Energy = () => {
             
             <PhysicNav/>
 
-            <div className="fisica shadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="fisica ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <h4>Trabajo</h4>
                 <Latex>
                     {trabajoOne}

@@ -151,6 +151,13 @@
 .dark .moreInformation a {
   color: #e3e3e3 !important;
 }
+
+/**  Shadows */
+.dark .ownShadow, .ownShadow-lg {
+  box-shadow: none;
+  transition: all 0.2s;
+}
+
 @media screen and (max-width: 800px) {
   .dark .textFooter h1 {
     width: 73%;

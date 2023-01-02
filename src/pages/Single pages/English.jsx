@@ -6,7 +6,7 @@ const English = () => {
         <div className="homeGeometria" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Inglés" />
-            <div className="cardEnglish mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="cardEnglish mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <h1>Structures</h1>
                     <div>

@@ -10,7 +10,7 @@ const ArmedGroups = () => {
             
             <SocialNav/>
             
-            <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="cardTrigonometria mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <CollapseTitle name="FARC (Fuerzas armadas revolucionarias de Colombia)" id="#farc"/>
                     <div className="collapse" id="farc">

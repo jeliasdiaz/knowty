@@ -14,7 +14,7 @@ const Circumference = () => {
             
             <GeometryNav/>
 
-            <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="cardTrigonometria mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <h2>Ecación canónica de la circunferencia con centro (h, k)</h2>
                     <Latex>{canonicaCircunferencia}</Latex><br /><br />

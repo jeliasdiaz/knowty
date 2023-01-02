@@ -63,17 +63,17 @@ export const TrigonometryPractice = () => {
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Practica" />
 
-            <nav data-aos="zoom-in" data-aos-duration="800" className="d-none d-sm-block">
+            <nav data-aos="zoom-in" data-aos-duration="800" className="d-none d-sm-block" data-aos-once="true">
                     <ul className="pagination  pagination-md justify-content-center">
-                        <li className="page-item shadow-lg"><Link to="/trigonometria_2" className="text-decoration-none page-link">II periodo</Link></li>
+                        <li className="page-item ownShadow-lg"><Link to="/trigonometria_2" className="text-decoration-none page-link">II periodo</Link></li>
 
-                        <li className="page-item shadow-lg"><Link to="/trigonometria" className="text-decoration-none page-link" >III periodo</Link></li>
+                        <li className="page-item ownShadow-lg"><Link to="/trigonometria" className="text-decoration-none page-link" >III periodo</Link></li>
                         
-                        <li className="page-item shadow-lg"><Link to="/trigonometria-practica" className="text-decoration-none page-link">Practica</Link></li>
+                        <li className="page-item ownShadow-lg"><Link to="/trigonometria-practica" className="text-decoration-none page-link">Practica</Link></li>
 
                     </ul>
                 </nav>
-            <div className="fisica shadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="fisica ownShadow" data-aos="fade-up" data-aos-duration="700">
                 <div >
                     <div className="section">
                         <div>
@@ -90,11 +90,11 @@ export const TrigonometryPractice = () => {
                             <div className="collapse" id="pitagorasExFirst">
                                 <p>El primer paso es interpretar de manera correcta la situación y hacerse una imagen mental y deberías obtener algo como esto:</p>
 
-                                <img src="/img/pitagorasOne.svg" alt=""/>
+                                <img src="/img/pitagorasTwo.svg" alt="" className='rounded-3'/>
 
                                 <p>En segundo lugar, notamos que una de las medidas se encuentra en centímetros y la otra en metros. Debido a esto, debemos convertirlas a una misma unidad, en este caso a metros. </p>
 
-                                <img src="/img/pitagorasTwo.svg" alt="" />
+                                <img src="/img/pitagorasOne.svg" alt="" className='rounded-3'/>
 
                                 <p>Recordemos que la suma de los catetos al cuadrado es igual al cuadrado de la hipotenusa, en este caso desconocemos uno de los catetos, por lo que debemos alterar la ecuación.</p>
 
@@ -121,7 +121,7 @@ export const TrigonometryPractice = () => {
                             <div className="collapse" id="pitagorasExSecond">
                                 <p>Iniciamos graficando la situación</p>
 
-                                <img src="/img/pitagorasThree.svg" alt="" />
+                                <img src="/img/pitagorasThree.svg" alt="" className='rounded-3'/>
 
                                 <p>Ambas distancias al estar en la misma unidad, provoca que no sea necesario convertirlas a otra. Por otro lado, aplicamos el mismo procedimiento del ejercicio anterior.</p>
 
@@ -148,7 +148,7 @@ export const TrigonometryPractice = () => {
                             <div className="collapse" id="pitagorasExThird">
                                 <p>Iniciamos graficando la situación</p>
 
-                                <img src="/img/pitagorasFour.svg" alt="" />
+                                <img src="/img/pitagorasFour.svg" alt="" className='rounded-3'/>
 
                                 <p>Ambas distancias al estar en la misma unidad, provoca que no sea necesario convertirlas a otra. En este caso, aplica la fórmula original.</p>
 
@@ -156,7 +156,6 @@ export const TrigonometryPractice = () => {
 
                                 <p>Reemplazamos</p>  
                                 <Latex>{pitagorasExThirdTwo}</Latex><br />
-
                                 <Latex>{pitagorasExThirdThree}</Latex><br />
                                 <Latex>{pitagorasExThirdFour}</Latex><br />
                                 <Latex>{pitagorasExThirdFive}</Latex><br />
@@ -169,10 +168,10 @@ export const TrigonometryPractice = () => {
                         <div>
                             <h3>Razones trigonométricas</h3>
                             <h5>N°1</h5>
-                            <img src="/img/razonesTrigonometricasOne.svg" alt="" />
+                            <img src="/img/razonesTrigonometricasOne.svg" alt="" className='rounded-3'/>
 
                             <p>
-                                <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#razonesTrigonometricasOne">
+                                <button className="btn btn-secondary mt-3" type="button" data-bs-toggle="collapse" href="#razonesTrigonometricasOne">
                                     Solución
                                 </button>
                             </p>
@@ -191,10 +190,10 @@ export const TrigonometryPractice = () => {
                             </div><br /><br />
 
                             <h5>N°2</h5>
-                            <img src="/img/razonesTrigonometricasTwo.svg" alt="" />
+                            <img src="/img/razonesTrigonometricasTwo.svg" alt="" className='rounded-3'/>
 
                             <p>
-                                <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#razonesTrigonometricasTwo">
+                                <button className="btn btn-secondary mt-3" type="button" data-bs-toggle="collapse" href="#razonesTrigonometricasTwo">
                                     Solución
                                 </button>
                             </p>

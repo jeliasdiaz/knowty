@@ -10,7 +10,7 @@ export const Home = () => {
           <img src="/img/waveThree.svg" alt="" />
         </div>
         <div className="sectionOne flex-1 container">
-          <div className="sectionOneAppendOne user-select-none" data-aos="zoom-in" data-aos-duration="900">
+          <div className="sectionOneAppendOne user-select-none" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
             <h1>Knowty</h1>
             <p>Somos un equipo de estudiantes con el fin de aportar a los alumnos. Es hora de adentrarse en las fauces del conocimiento. ¡Sé autodidacta con Knowty!</p>
           </div>
@@ -18,16 +18,13 @@ export const Home = () => {
             <img src="/img/homeImg.svg" alt="" className="w-75 " />
           </div>
         </div>
-{/*         <div>
-          <img src="/img/waveOne.svg" alt="" className="waveOne" />
-        </div> */}
       </section>
 
       <section className="home-2">
         <div className="sectionTwo container" >
-          <div className="sectionTwoText justify-content-around" data-aos="fade-down" data-aos-duration="1400">
+          <div className="sectionTwoText justify-content-around " data-aos="fade-down" data-aos-duration="1400" data-aos-once="true">
             <div className="flex-1">
-              <div className="text-sectionTwo">
+              <div className="text-sectionTwo ownShadow">
                 <h2>Nuestra meta</h2>
                 <p>
                   Promover el aprendizaje y fácil acceso a contenido de carácter educativo. Además, exponer el conocimiento desde varias perspectivas. <Link to="/info" className="text-decoration-none text-white text-decoration-underline">Más información.</Link>
@@ -40,7 +37,7 @@ export const Home = () => {
               <div className="subjectsContainer d-none d-sm-block" >
                 <div className="d-flex">
                   <Link to="/estadistica" className="text-decoration-none text-black">
-                    <div className="subjectLink d-flex shadow" data-aos="zoom-in-down" data-aos-duration="1400">
+                    <div className="subjectLink d-flex ownShadow" data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
                       <img src="/img/estadisticaIcon.png" alt="" className="w-25 pe-2 " />
                       <h4 className=" ps-2">Estadística</h4>
                       <BiChevronRight size={45} className="BiChevronRight"/>
@@ -48,7 +45,7 @@ export const Home = () => {
                   </Link>
 
                   <Link to="/cinematica" className="text-decoration-none text-black ps-3">
-                    <div className="subjectLink d-flex shadow" data-aos="zoom-in-down" data-aos-duration="1400">
+                    <div className="subjectLink d-flex ownShadow" data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
                       <img src="/img/fisicaIcon.png" alt="" className="w-25 pe-2 " />
                       <h4 className=" ps-2">Física</h4>
                       <BiChevronRight size={45} className="BiChevronRight"/>
@@ -58,7 +55,7 @@ export const Home = () => {
 
                 <div className="d-flex">
                   <Link to="/recta" className="text-decoration-none text-black">
-                    <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400">
+                    <div className="subjectLink d-flex ownShadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
                       <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2 " />
                       <h4 className="ps-2">Geometría</h4>
                       <BiChevronRight size={45} className="BiChevronRight"/>
@@ -66,7 +63,7 @@ export const Home = () => {
                   </Link>
 
                   <Link to="/ingles" className="text-decoration-none text-black ps-3">
-                    <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400">
+                    <div className="subjectLink d-flex ownShadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
                       <img src="/img/englishIcon.png" alt="" className="w-25 pe-2 " />
                       <h4 className=" ps-2">Inglés</h4>
                       <BiChevronRight size={45} className="BiChevronRight"/>
@@ -76,14 +73,14 @@ export const Home = () => {
 
                 <div className="d-flex">
                   <Link to="/quimica_1" className="text-decoration-none text-black">
-                    <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400">
+                    <div className="subjectLink d-flex ownShadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
                       <img src="/img/quimicaIcon.png" alt="" className="w-25 pe-2 " />
                       <h4 className=" ps-2">Química</h4>
                       <BiChevronRight size={45} className="BiChevronRight"/>
                     </div>
                   </Link>
                   <Link to="/sociales_1" className="text-decoration-none text-black ps-3">
-                    <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400">
+                    <div className="subjectLink d-flex ownShadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
                       <img src="/img/socialesIcon.png" alt="" className="w-25 pe-2 " />
                       <h4 className=" ps-2">Sociales</h4>
                       <BiChevronRight size={45} className="BiChevronRight"/>
@@ -92,7 +89,7 @@ export const Home = () => {
                 </div>
 
                 <Link to="/trigonometria_2" className="text-decoration-none text-black">
-                  <div className="subjectLink d-flex shadow mt-3 subjectLinkTrigonometria" data-aos="zoom-in-down" data-aos-duration="1400">
+                  <div className="subjectLink d-flex ownShadow mt-3 subjectLinkTrigonometria" data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
                     <img src="/img/trigonometriaIcon.png" alt="" className="w-25 pe-2 " />
                     <h4 className="ps-2">Trigonometría</h4>
                     <BiChevronRight size={45} className="BiChevronRight"/>
@@ -103,7 +100,7 @@ export const Home = () => {
 
             <div className="subjects d-block d-sm-none ">
               <Link to="/estadistica" className="text-decoration-none text-dark">
-                <div className="subjectLink d-flex shadow" data-aos="zoom-in-down" data-aos-duration="900">
+                <div className="subjectLink d-flex ownShadow" data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
                   <img src="/img/estadisticaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-3 ps-2">Estadística</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-2"/>
@@ -111,7 +108,7 @@ export const Home = () => {
               </Link>
 
               <Link to="/fisica-menu" className="text-decoration-none text-dark">
-                <div className="subjectLink d-flex shadow mt-3 " data-aos="zoom-in-down" data-aos-duration="900">
+                <div className="subjectLink d-flex ownShadow mt-3 " data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
                   <img src="/img/fisicaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Física</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-3"/>
@@ -119,7 +116,7 @@ export const Home = () => {
               </Link>
 
               <Link to="/geometria-menu" className="text-decoration-none text-dark">
-                <div className="subjectLink d-flex shadow mt-3" data-aos="zoom-in-down" data-aos-duration="900">
+                <div className="subjectLink d-flex ownShadow mt-3" data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
                   <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Geometría</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-3"/>
@@ -127,7 +124,7 @@ export const Home = () => {
               </Link>
 
               <Link to="/ingles" className="text-decoration-none text-dark">
-                <div className="subjectLink d-flex shadow mt-3" data-aos="zoom-in-down" data-aos-duration="900">
+                <div className="subjectLink d-flex ownShadow mt-3" data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
                   <img src="/img/englishIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-3 ps-2">Inglés</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-2"/>
@@ -135,7 +132,7 @@ export const Home = () => {
               </Link>
 
               <Link to="/quimica-menu" className="text-decoration-none text-dark">
-                <div className="subjectLink d-flex shadow mt-3" data-aos="zoom-in-down" data-aos-duration="900">
+                <div className="subjectLink d-flex ownShadow mt-3" data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
                   <img src="/img/quimicaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Química</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-3"/>
@@ -143,7 +140,7 @@ export const Home = () => {
               </Link>
 
               <Link to="/sociales-menu" className="text-decoration-none text-dark">
-                <div className="subjectLink d-flex shadow mt-3" data-aos="zoom-in-down" data-aos-duration="900">
+                <div className="subjectLink d-flex ownShadow mt-3" data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
                   <img src="/img/socialesIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Sociales</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-3"/>
@@ -151,7 +148,7 @@ export const Home = () => {
               </Link>
 
               <Link to="/trigonometria-menu" className="text-decoration-none text-dark ">
-                <div className="subjectLink d-flex shadow mt-3 subjectLinkTrigonometria" data-aos="zoom-in-down" data-aos-duration="900">
+                <div className="subjectLink d-flex ownShadow mt-3 subjectLinkTrigonometria" data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
                   <img src="/img/trigonometriaIcon.png" alt="" className="w-25 pe-2" />
                   <h2 className="pt-4 ps-2">Trigonometría</h2>
                   <BiChevronRight size={45} className="BiChevronRight mt-3"/>

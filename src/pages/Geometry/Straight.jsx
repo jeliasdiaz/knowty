@@ -19,7 +19,7 @@ const Straight = () => {
             
             <GeometryNav/>
 
-            <div className="cardTrigonometria mb-5 shadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="cardTrigonometria mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700">
                 <div>
                     <h2>Distancia entre dos puntos</h2>
                     <p>Está determinada mediante la expresión:</p>

@@ -3,13 +3,13 @@
   background-color: transparent;
 }
 .navbar-expand-lg a {
-  color: rgb(31, 30, 30);;
+  color: rgb(31, 30, 30);
   font-weight: 500;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
 }
 .navbar-expand-lg a:hover {
-  color: rgb(31, 30, 30);;
+  color: rgb(31, 30, 30);
 }
 
 .navbar-brand {
@@ -18,18 +18,28 @@
 .navbar-nav {
   flex-direction: row !important;
 }
-.nav-3 {
-  margin-top: 10%;
+.navBtn {
+  transition: all 0.2s;
 }
 .navBtn:hover{
   cursor: pointer;
-}
-.backHoverColor{
-  color: #2B7EA1 !important;
-  transition: all 0.2s;
-  cursor: pointer;
-}
 
+}
+.HiSun, .HiMoon{
+  transform: rotateZ(-5deg);
+  transition: all 0.2s;
+}
+.HiMoon:hover, .HiSun:hover{
+  transform: rotateZ(45deg);
+  transition: all 0.2s;
+}
+.Search {
+  transition: all 0.5s;
+}
+.Search:hover {
+  transform:rotateZ(180deg);
+  transition: all 0.5s;
+}
 .dropdown-item{
   margin: auto ;
 }
