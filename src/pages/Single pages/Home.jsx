@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { BiChevronRight } from "react-icons/bi";
+import SubjectCard from "../../components/SubjectCard";
 
 export const Home = () => {
 
@@ -22,7 +22,7 @@ export const Home = () => {
 
       <section className="home-2">
         <div className="sectionTwo container" >
-          <div className="sectionTwoText justify-content-around " data-aos="fade-down" data-aos-duration="1400" data-aos-once="true">
+          <div className="sectionTwoText " data-aos="fade-down" data-aos-duration="1400" data-aos-once="true">
             <div className="flex-1">
               <div className="text-sectionTwo ownShadow">
                 <h2>Nuestra meta</h2>
@@ -36,124 +36,41 @@ export const Home = () => {
 
               <div className="subjectsContainer d-none d-sm-block" >
                 <div className="d-flex">
-                  <Link to="/estadistica" className="text-decoration-none text-black">
-                    <div className="subjectLink d-flex ownShadow" data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
-                      <img src="/img/estadisticaIcon.png" alt="" className="w-25 pe-2 " />
-                      <h4 className=" ps-2">Estadística</h4>
-                      <BiChevronRight size={45} className="BiChevronRight"/>
-                    </div>
-                  </Link>
+                  <SubjectCard path="estadistica" img="estadistica" title="Estadística" />
 
-                  <Link to="/cinematica" className="text-decoration-none text-black ps-3">
-                    <div className="subjectLink d-flex ownShadow" data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
-                      <img src="/img/fisicaIcon.png" alt="" className="w-25 pe-2 " />
-                      <h4 className=" ps-2">Física</h4>
-                      <BiChevronRight size={45} className="BiChevronRight"/>
-                    </div>
-                  </Link>
+                  <SubjectCard path="cinematica" img="fisica" title="Física" settingOne="ps-3"/>
                 </div>
 
                 <div className="d-flex">
-                  <Link to="/recta" className="text-decoration-none text-black">
-                    <div className="subjectLink d-flex ownShadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
-                      <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2 " />
-                      <h4 className="ps-2">Geometría</h4>
-                      <BiChevronRight size={45} className="BiChevronRight"/>
-                    </div>
-                  </Link>
+                  <SubjectCard path="recta" img="geometria" title="Geometría" settingTwo="mt-3" />
 
-                  <Link to="/ingles" className="text-decoration-none text-black ps-3">
-                    <div className="subjectLink d-flex ownShadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
-                      <img src="/img/englishIcon.png" alt="" className="w-25 pe-2 " />
-                      <h4 className=" ps-2">Inglés</h4>
-                      <BiChevronRight size={45} className="BiChevronRight"/>
-                    </div>
-                  </Link>
+                  <SubjectCard path="/ingles" img="english" title="Inglés" settingOne="ps-3" settingTwo="mt-3" />
                 </div>
 
                 <div className="d-flex">
-                  <Link to="/quimica_1" className="text-decoration-none text-black">
-                    <div className="subjectLink d-flex ownShadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
-                      <img src="/img/quimicaIcon.png" alt="" className="w-25 pe-2 " />
-                      <h4 className=" ps-2">Química</h4>
-                      <BiChevronRight size={45} className="BiChevronRight"/>
-                    </div>
-                  </Link>
-                  <Link to="/sociales_1" className="text-decoration-none text-black ps-3">
-                    <div className="subjectLink d-flex ownShadow mt-3 " data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
-                      <img src="/img/socialesIcon.png" alt="" className="w-25 pe-2 " />
-                      <h4 className=" ps-2">Sociales</h4>
-                      <BiChevronRight size={45} className="BiChevronRight"/>
-                    </div>
-                  </Link>
+                  <SubjectCard path="quimica_1" img="quimica" title="Química" settingTwo="mt-3" />
+                  
+                  <SubjectCard path="sociales_1" img="sociales" title="Sociales" settingOne="ps-3" settingTwo="mt-3" />
                 </div>
 
-                <Link to="/trigonometria_2" className="text-decoration-none text-black">
-                  <div className="subjectLink d-flex ownShadow mt-3 subjectLinkTrigonometria" data-aos="zoom-in-down" data-aos-duration="1400" data-aos-once="true">
-                    <img src="/img/trigonometriaIcon.png" alt="" className="w-25 pe-2 " />
-                    <h4 className="ps-2">Trigonometría</h4>
-                    <BiChevronRight size={45} className="BiChevronRight"/>
-                  </div>
-                </Link>
+                <SubjectCard path="trigonometria_1" img="trigonometria" title="Trigonometría" settingTwo="mt-3 subjectLinkTrigonometria" />
               </div>
             </div>
 
             <div className="subjects d-block d-sm-none ">
-              <Link to="/estadistica" className="text-decoration-none text-dark">
-                <div className="subjectLink d-flex ownShadow" data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
-                  <img src="/img/estadisticaIcon.png" alt="" className="w-25 pe-2" />
-                  <h2 className="pt-3 ps-2">Estadística</h2>
-                  <BiChevronRight size={45} className="BiChevronRight mt-2"/>
-                </div>
-              </Link>
+              <SubjectCard path="estadistica" img="estadistica" title="Estadística" />
 
-              <Link to="/fisica-menu" className="text-decoration-none text-dark">
-                <div className="subjectLink d-flex ownShadow mt-3 " data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
-                  <img src="/img/fisicaIcon.png" alt="" className="w-25 pe-2" />
-                  <h2 className="pt-4 ps-2">Física</h2>
-                  <BiChevronRight size={45} className="BiChevronRight mt-3"/>
-                </div>
-              </Link>
+              <SubjectCard path="fisica-menu" img="fisica" title="Física" settingTwo="mt-3" />
 
-              <Link to="/geometria-menu" className="text-decoration-none text-dark">
-                <div className="subjectLink d-flex ownShadow mt-3" data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
-                  <img src="/img/geometriaIcon.png" alt="" className="w-25 pe-2" />
-                  <h2 className="pt-4 ps-2">Geometría</h2>
-                  <BiChevronRight size={45} className="BiChevronRight mt-3"/>
-                </div>
-              </Link>
+              <SubjectCard path="geometria-menu" img="geometria" title="Geometría" settingTwo="mt-3" />
 
-              <Link to="/ingles" className="text-decoration-none text-dark">
-                <div className="subjectLink d-flex ownShadow mt-3" data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
-                  <img src="/img/englishIcon.png" alt="" className="w-25 pe-2" />
-                  <h2 className="pt-3 ps-2">Inglés</h2>
-                  <BiChevronRight size={45} className="BiChevronRight mt-2"/>
-                </div>
-              </Link>
+              <SubjectCard path="ingles" img="english" title="Inglés" settingTwo="mt-3" />
 
-              <Link to="/quimica-menu" className="text-decoration-none text-dark">
-                <div className="subjectLink d-flex ownShadow mt-3" data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
-                  <img src="/img/quimicaIcon.png" alt="" className="w-25 pe-2" />
-                  <h2 className="pt-4 ps-2">Química</h2>
-                  <BiChevronRight size={45} className="BiChevronRight mt-3"/>
-                </div>
-              </Link>
+              <SubjectCard path="quimica-menu" img="quimica" title="Química" settingTwo="mt-3" />
 
-              <Link to="/sociales-menu" className="text-decoration-none text-dark">
-                <div className="subjectLink d-flex ownShadow mt-3" data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
-                  <img src="/img/socialesIcon.png" alt="" className="w-25 pe-2" />
-                  <h2 className="pt-4 ps-2">Sociales</h2>
-                  <BiChevronRight size={45} className="BiChevronRight mt-3"/>
-                </div>
-              </Link>
+              <SubjectCard path="sociales-menu" img="sociales" title="Sociales" settingTwo="mt-3" />
 
-              <Link to="/trigonometria-menu" className="text-decoration-none text-dark ">
-                <div className="subjectLink d-flex ownShadow mt-3 subjectLinkTrigonometria" data-aos="zoom-in-down" data-aos-duration="900" data-aos-once="true">
-                  <img src="/img/trigonometriaIcon.png" alt="" className="w-25 pe-2" />
-                  <h2 className="pt-4 ps-2">Trigonometría</h2>
-                  <BiChevronRight size={45} className="BiChevronRight mt-3"/>
-                </div>
-              </Link>
+              <SubjectCard path="trigonometria-menu" img="trigonometria" title="Trigonometría" settingTwo="mt-3" />
             </div>
 
           </div>

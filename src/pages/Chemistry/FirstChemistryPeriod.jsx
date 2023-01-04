@@ -157,7 +157,7 @@ const FirstChemistryPeriod = () => {
                     </div>
 
                     <div>
-                        <CollapseTitle name="Mecanismos de separación de mezclas" id="#separacionMezclas" />
+                        <CollapseTitle name="Separación de mezclas" id="#separacionMezclas" />
                         <div className="collapse" id="separacionMezclas">
                             <h4>Evaporación - Homogénea</h4>
                             <p>Método físico que permite separar un sólido de un líquido en una mezcla homogénea. Se basa en que el punto de fusión del sólido es mayor al punto de ebullición del líquido. Ej: Separar la sal del agua de mar.</p>
@@ -202,7 +202,7 @@ const FirstChemistryPeriod = () => {
                         <CollapseTitle name="Modelos atómicos" id="#modelosAtomicos"/>
                     <div className="collapse" id="modelosAtomicos">
                         <img src="/img/modelosAtomicos.svg" alt="" className="estequiometriaImg rounded-3" />
-                        <h4>Modelo atómico de Dalton</h4>
+                        <h4 className="pt-4">Modelo atómico de Dalton</h4>
                         <ul>
                             <li>Plantea la idea de un átomo macizo. Es quien rescata las ideas de Demócrito (átomos son indivisibles).</li>
                             <li>Los átomos de un mismo elemento son iguales y viceversa.</li>
@@ -215,7 +215,7 @@ const FirstChemistryPeriod = () => {
                             <li>Al unirse dos o más átomos de distintos elementos, lo hacen en proporciones determinadas y sencillas, creando así los compuestos, formados por moléculas. Las moléculas de un determinado compuesto son idénticas entre sí.</li>
                             <li>Durante una reacción química los átomos se intercambian, más no sufren transformación alguna, ni se crean o destruyen en el proceso.</li>
                         </ul>
-
+                        <hr />
                         <h4>Modelo atómico de Thomson</h4>
                         <ul>
                             <li>Según su modelo atómico, el átomo está formado por electrones de carga negativa incrustados en una esfera de carga positiva, como en un “pudin de pasas”.</li>
@@ -228,14 +228,15 @@ const FirstChemistryPeriod = () => {
                             Para llegar a estas conclusiones, Thomson realizó varios experimentos, uno de estos, consistió en utilizar tubos de rayos catódicos al vacío. El rayo se detecta al pintar el extremo del tubo correspondiente al ánodo con fósforo, posterior al impacto del rayo. El fósforo produce una chispa y así es detectado, lo que realizó fue lanzar partículas alfa (núcleos de helio) contra una lámina de oro, observando que la mayoría de partículas atravesaban la lámina como si nada y otras pocas rebotaban. <br /> <br />
 
                             A partir de esto, dedujo que si las partículas alfa atraviesan el oro, es porque los átomos deben tener mucho espacio vacío y, cuando algunas de estas partículas rebotan, se debe a que están chocando con esa parte del átomo que lleva carga positiva, siendo comparativamente más pequeña.</p>
-
+                        
+                        <hr />
                         <h4>Modelo atómico de Rutherford</h4>
                         <ul>
                             <li>El átomo en sí, es espacio vacío.</li>
                             <li>En el núcleo se concentra la masa y la carga positiva del átomo.</li>
                             <li>Los electrones con carga negativa, giran alrededor del núcleo en trayectorias circulares a las que denominó órbitas.</li>
                         </ul>
-
+                        <hr />
                         <h4>Modelo atómico de Bohr</h4>
                         <ul>
                             <li>Los electrones orbitan el núcleo en órbitas que tienen un tamaño y energía establecidos. Estos niveles se designan por letras o números.</li>
@@ -244,6 +245,7 @@ const FirstChemistryPeriod = () => {
                             <li>Los niveles de energía tienen diferentes números de electrones.</li>
                             <li>La energía de la órbita está relacionada con su tamaño. La energía más baja se encuentra en la órbita más pequeña. Es decir, entre más lejos esté el nivel de energía del núcleo, mayor será la energía que tiene.</li>
                         </ul>
+                        <hr />
                         <h4>Modelo atómico de Schrödinger</h4>
                         <p>
                             Para entender este modelo es necesario añadir que, entre el mundo cuántico y el mundo que experimentamos normalmente, existe una gran diferencia, la <b>indeterminación.</b> Por esta razón, los átomos no poseen un lugar fijo. De ahí que la forma correcta de ver a un electrón girando no es mediante una esfera que sigue un camino, sino, a través de nubes de probabilidad (orbitales), puesto que la posición de los electrones dentro el átomo es indefinida gracias a la indeterminación. <br /><br />

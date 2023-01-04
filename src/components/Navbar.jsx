@@ -45,9 +45,9 @@ export const Navbar = () => {
             {
               Icon
                 ?
-                <HiMoon size={38} className="navBtn HiMoon" onClick={function () { toggleTheme(); toggleIcon() }} />
-                :
                 <HiSun size={38} className="navBtn HiSun" onClick={function () { toggleTheme(); toggleIcon() }} />
+                :
+                <HiMoon size={38} className="navBtn HiMoon" onClick={function () { toggleTheme(); toggleIcon() }} />
             }
 
             <span onClick={() => navigate(-1)} className="navBtn"><IoCaretBackCircle size={38} className="navBtn" /></span>

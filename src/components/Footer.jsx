@@ -80,27 +80,29 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="moreInformation ownShadow" data-aos="fade-down" data-aos-duration="1400" >
-          <h3>¿Quieres saber más?</h3>
-          <div className="flex-1 justify-content-evenly">
-            <div className="mx-2">
-              <SiGmail size={36} className="btn-gmail" />
-              <div className="d-flex">
-                <p className="FooterEmailText pe-2">formuapp2022@gmail.com</p>
-                <CopyToClipboard text="formuapp2022@gmail.com">
-                  <IoCopy id="IoCopy" size={22} onClick={() => toast.success("Texto copiado", {
-                    style: {
-                      borderRadius: '10px',
-                      background: '#f6f6f6',
-                      color: '#000',
-                    },
-                  })} />
-                </CopyToClipboard>
+        <div className="pb-5">
+          <div className="moreInformation ownShadow" data-aos="fade-down" data-aos-duration="1400" >
+            <h3>¿Quieres saber más?</h3>
+            <div className="flex-1 justify-content-evenly">
+              <div className="mx-2">
+                <SiGmail size={36} className="btn-gmail" />
+                <div className="d-flex">
+                  <p className="FooterEmailText pe-2">formuapp2022@gmail.com</p>
+                  <CopyToClipboard text="formuapp2022@gmail.com">
+                    <IoCopy id="IoCopy" size={22} onClick={() => toast.success("Texto copiado", {
+                      style: {
+                        borderRadius: '10px',
+                        background: '#f6f6f6',
+                        color: '#000',
+                      },
+                    })} />
+                  </CopyToClipboard>
+                </div>
               </div>
-            </div>
-            <div>
-              <AiFillYoutube size={36} className="btn-youtube " /><br />
-              <a href="https://www.youtube.com/@formuapp1757/videos" className="text-dark boldFooterText" target="_blank" rel="noreferrer">FormuApp</a>
+              <div>
+                <AiFillYoutube size={36} className="btn-youtube " /><br />
+                <a href="https://www.youtube.com/@formuapp1757/videos" className="text-dark boldFooterText" target="_blank" rel="noreferrer">FormuApp</a>
+              </div>
             </div>
           </div>
         </div>

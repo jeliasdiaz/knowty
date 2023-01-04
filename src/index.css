@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,17 +10,12 @@ body {
 }
 /** Global elements */
 .ownShadow {
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  box-shadow: 0 .5rem 1rem rgba(10, 6, 6, 0.15) ;
 }
 .ownShadow-lg {
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
 }
-h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 200;
-}
-h1 {
-  font-family: "Roboto", sans-serif;
+h2, h1 {
   font-weight: 200;
 }
 code {
@@ -71,14 +66,14 @@ ul li {
 }
 .sectionOne {
   padding: 5%;
-  padding-top: 13%;
+  padding-top: 12rem;
 }
 .sectionOne h1 {
   font-size: 60px;
   font-weight: 500;
 }
 .sectionOne p {
-  font-size: 18px;
+  font-size: 16px;
   width: 52%;
 }
 
@@ -89,14 +84,15 @@ ul li {
 }
 .sectionTwo {
   display: flex;
+  width: 100%;
   padding-top: 3%;
 }
 .sectionTwoText {
-  width: 100%;
+  max-width: 70rem;
   padding-bottom: 2%;
 }
 .text-sectionTwo h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 38px;
 }
 .flex-1 {
@@ -116,6 +112,11 @@ ul li {
 .subjectsContainer {
   margin-left: 5%;
   margin-right: 5%;
+  max-width: 80rem;
+  flex-wrap: wrap !important;
+}
+.subjectLink h4 {
+  font-size: 1.3em !important;
 }
 .subjectLink {
   background-color: white;
@@ -127,6 +128,9 @@ ul li {
 .subjectLink:hover {
   background-color: #bfdfed;
   color: #fefefe !important;
+}
+.subjectLink h4{
+  font-size: 1.5rem;
 }
 .BiChevronRight {
   color: #023246 !important;
@@ -268,6 +272,7 @@ ul li {
   align-items: center;
   color: #2b7ea1;
   transition: all 0.2s;
+  min-height: 100vh;
 }
 .ImgInfo {
   width: 8%;
@@ -285,8 +290,8 @@ ul li {
   color: black;
   padding: 2%;
   border-radius: 20px;
-  width: 350px;
-  height: 280px;
+  width: 21.875rem;
+  height: 20rem ;
   margin-right: 2%;
   margin-left: 2%;
 }
@@ -297,7 +302,7 @@ ul li {
   margin-bottom: 5%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   /** Global elements  */
   hr {
     margin-bottom: 10% !important;
@@ -326,10 +331,12 @@ ul li {
   /** Section 2 */
   .sectionTwo {
     display: block;
-    padding-top: 16%;
   }
   .text-sectionTwo h2 {
     font-size: 36px;
+  }
+  .text-sectionTwo p {
+    font-size: 0.95em;
   }
   .flex-1 {
     display: flex;
@@ -345,6 +352,9 @@ ul li {
     margin: auto;
     margin-top: 10%;
     width: 90%;
+  }
+  .subjectLink h4 {
+    font-size: 1.5em !important;
   }
   .subjectLink {
     background-color: #f6f6f6;
@@ -427,9 +437,6 @@ ul li {
 }
 
 @media screen and (max-width: 400px) {
-  .home {
-    height: 100vh;
-  }
   .sectionOne i {
     margin: auto;
     padding-top: 60%;
@@ -446,9 +453,5 @@ ul li {
   }
   .mobileMenu {
     height: 110vh;
-  }
-  .infoPage {
-    height: 170vh;
-    align-items: center;
   }
 }

@@ -4,7 +4,7 @@ export const InfoPage = () => {
             <img src="/img/waveThree.svg" alt="" />
             <div className="infoOne text-center" data-aos="zoom-in" data-aos-duration="800">
                 <h1 className="ownShadow-lg m-auto infoTitle">¿Quiénes somos?</h1>
-                <img src="/img/logo.svg" alt="" className="ImgInfo" />
+                <img src="/img/logo.svg" alt="" className="ImgInfo" data-aos="fade-in" data-aos-duration="600" data-aos-once="true" />
             </div>
             <div className="flex-1 justify-content-center cardsInfoSection">
                 <div className="cardInfo ownShadow" data-aos="zoom-in" data-aos-duration="1200" data-aos-once="true">

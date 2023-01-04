@@ -29,8 +29,12 @@
   transform: rotateZ(-5deg);
   transition: all 0.2s;
 }
-.HiMoon:hover, .HiSun:hover{
+.HiSun:hover{
   transform: rotateZ(45deg);
+  transition: all 0.2s;
+}
+.HiMoon:hover{
+  transform: rotateZ(15deg);
   transition: all 0.2s;
 }
 .Search {

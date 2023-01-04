@@ -1,6 +1,6 @@
 .footer{
   background-color: #f6f6f6;
-  height: 118vh;
+  min-height: 100vh;
   transition: all 0.2s;
 }
 .textFooter {
@@ -26,15 +26,15 @@ i:hover {
 .textFooter h1 {
   font-weight: 500;
   font-size: 60px;
-  color: black;
+  color: white;
   background-color: #2b7ea1;
   border-top-left-radius: 40%;
   border-top-right-radius: 70%;
   border-bottom-left-radius: 30%;
   border-bottom-right-radius: 30%;
-  width: 23%;
+  width: 18rem;
   margin: auto;
-  padding: 1%;
+  padding: 1.2%;
 }
 .textFooter h3 {
   color: #fff;
@@ -52,8 +52,8 @@ i:hover {
   color: black;
   padding: 2%;
   padding-bottom: 0%;
-  width: 300px;
-  height: 200px;
+  width: 18.75rem;
+  height: 12.5rem;
   margin: auto;
   margin-top: 3%;
   margin-left: 1%;
@@ -116,9 +116,6 @@ i:hover {
   text-decoration: underline;
 }
 @media screen and (max-width: 800px) {
-  .footer {
-    height: 130vh;
-  }
   .footerContent {
     flex-wrap: wrap;
   }
@@ -130,7 +127,7 @@ i:hover {
   }
   .textFooter h1 {
     font-size: 46px;
-    width: 73%;
+    width: 13rem !important;
     padding: 3%;
   }
   
