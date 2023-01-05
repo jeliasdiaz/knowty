@@ -28,7 +28,7 @@ function Search() {
       <div className="searchInputs" data-aos="zoom-in" data-aos-duration="1000">
         <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} />
         <div className="searchIcon">
-          {filteredData.length === 0 ? <BiSearch size={35} /> : <IoClose id="clearBtn" onClick={clearInput} size={35} />}
+          {filteredData.length === 0 ? <BiSearch size={35}/> : <IoClose id="clearBtn" onClick={clearInput} size={35} />}
         </div>
 
       </div>

@@ -32,25 +32,25 @@ const FirstChemistryPeriod = () => {
                                 <li>En Egipto se usan técnicas de embalsamiento, momificación y se crea el vidrio.</li>
                             </ul>
 
-                            <h4>Griego(500-300 a.c)</h4>
+                            <h4>Griego(500 -3 00 a.c)</h4>
                             <ul>
                                 <li>Empédocles afirma que el universo se encuentra conformado por 4 elementos principales, fuego, agua, aire y tierra.</li>
                                 <li>Leucipo y Demócrito postulan la teoría atómica griega: “Toda la materia está formada por átomos eternos, indestructibles, indivisibles, pero diferentes en tamaño, forma y peso”.</li>
                             </ul>
 
-                            <h4>Alquimia (300-1500 d.c)</h4>
+                            <h4>Alquimia (300 - 1500 d.c)</h4>
                             <ul>
                                 <li>Búsqueda de la piedra filosofal, la cual al ser frotada con un metal, este se convertiría en oro. Además, sería capaz de curar cualquier enfermedad.</li>
                                 <li>Se inicia en Egipto y Mesopotamia.</li>
                                 <li>Se descubre el arsénico, antimonio, bismuto.</li>
                             </ul>
 
-                            <h4>Iatroquímica ("Química médica" [1500-1660 d.c])</h4>
+                            <h4>Iatroquímica ("Química médica" [1500 - 1660 d.c])</h4>
                             <ul>
                                 <li>Paracelso afirma que el objetivo fundamental de la química es el de obtener drogas para el tratamiento de enfermedades.</li>
                             </ul>
 
-                            <h4>Flogisto(1660 d.c – 1770 d.c)</h4>
+                            <h4>Flogisto(1660 d.c - 1770 d.c)</h4>
                             <ul>
                                 <li>Georg Stahl afirma que el flogisto (sustancia del fuego) se encontraba en todas las sustancias combustibles y, producía una perdida  de flogisto cuando se oxidaban y una ganancia de flogisto cuando se reducían (desmentido).</li>
                             </ul>

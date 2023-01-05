@@ -11,7 +11,6 @@
 .navbar-expand-lg a:hover {
   color: rgb(31, 30, 30);
 }
-
 .navbar-brand {
   width: 7%;
 }
@@ -30,10 +29,12 @@
   transition: all 0.2s;
 }
 .HiSun:hover{
+  transform-origin: center;
   transform: rotateZ(45deg);
   transition: all 0.2s;
 }
 .HiMoon:hover{
+  transform-origin: center;
   transform: rotateZ(15deg);
   transition: all 0.2s;
 }
@@ -53,8 +54,11 @@
 }
 
 @media screen and (max-width: 800px) {
+  .navbar-expand-lg {
+    padding-top: 3% !important;
+  }
   .navbar-brand {
-    width: 26%;
+    width: 35%;
   }
   .backHoverColor{
   color: black;

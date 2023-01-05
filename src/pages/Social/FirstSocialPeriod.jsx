@@ -10,7 +10,7 @@ const FirstSocialPeriod = () => {
 
             <SocialNav />
 
-            <div className="cardTrigonometria mb-5 ownownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+            <div className="cardTrigonometria mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <CollapseTitle name="Suelos" id="#suelos" />
                     <div className="collapse" id="suelos">

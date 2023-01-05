@@ -10,12 +10,13 @@ body {
 }
 /** Global elements */
 .ownShadow {
-  box-shadow: 0 .5rem 1rem rgba(10, 6, 6, 0.15) ;
+  box-shadow: 0 0.5rem 1rem rgba(10, 6, 6, 0.15);
 }
 .ownShadow-lg {
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
-h2, h1 {
+h2,
+h1 {
   font-weight: 200;
 }
 code {
@@ -67,6 +68,7 @@ ul li {
 .sectionOne {
   padding: 5%;
   padding-top: 12rem;
+  justify-content: space-between;
 }
 .sectionOne h1 {
   font-size: 60px;
@@ -74,7 +76,13 @@ ul li {
 }
 .sectionOne p {
   font-size: 16px;
-  width: 52%;
+  width: 22rem;
+}
+.sectionOne img {
+  width: 22rem;
+}
+.sectionOneAppendOne {
+  padding-top: 1em;
 }
 
 /** Section 2 */
@@ -129,7 +137,7 @@ ul li {
   background-color: #bfdfed;
   color: #fefefe !important;
 }
-.subjectLink h4{
+.subjectLink h4 {
   font-size: 1.5rem;
 }
 .BiChevronRight {
@@ -182,7 +190,7 @@ ul li {
 
 /** Física page  */
 .fisica {
-  width: 70%;
+  width: 60%;
   margin: 4%;
   margin-left: auto;
   margin-right: auto;
@@ -242,7 +250,7 @@ ul li {
 
 /** English */
 .cardEnglish {
-  width: 70%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
@@ -291,15 +299,60 @@ ul li {
   padding: 2%;
   border-radius: 20px;
   width: 21.875rem;
-  height: 20rem ;
+  height: 20rem;
   margin-right: 2%;
   margin-left: 2%;
 }
-.cardInfo h2 {
+.cardInfo h3 {
   color: #2b7ea1;
 }
 .lastCardInfo {
   margin-bottom: 5%;
+}
+
+/** Blog */
+.blogContainer {
+  min-height: 100vh;
+}
+.blogCard {
+  width: 30rem;
+  margin: auto;
+  background: white;
+  border-radius: 15px;
+}
+.blogCardImg {
+  width: 9em;
+  object-fit: cover;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.blogCardImg:hover {
+  opacity: 0.9;
+}
+
+.blogCardText {
+  width: 22em;
+  padding: 0.5em;
+  color: #000;
+  border: 0px 2px 0px 2px #000 1;
+}
+.blogCardText p {
+  font-size: 16px;
+}
+.blogSectionContainer {
+  min-height: 100vh;
+}
+.blogSectionContainerTwo {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.blogSection {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 4%;
+  background-color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -317,6 +370,10 @@ ul li {
     padding-top: 22%;
     margin: auto;
     text-align: center;
+  }
+  .sectionOne img {
+    width: 18rem;
+    margin: auto;
   }
   .sectionOne p {
     font-size: 18px;
@@ -433,6 +490,28 @@ ul li {
   /** Practice page  */
   .practiceImg {
     width: 70%;
+  }
+  /** Blog */
+  .containerCards {
+    padding-top: 10%;
+  }
+  .blogCard {
+    width: 24rem;
+  }
+  .blogCardImg {
+    width: 8em;
+  }
+  .blogCardText {
+    width: 18em;
+  }
+/*   .blogCardText p {
+    font-size: 16px;
+  } */
+  .blogSectionContainerTwo {
+    padding-top: 10%;
+  }
+  .blogSection {
+    width: 95%;
   }
 }
 

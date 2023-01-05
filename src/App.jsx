@@ -59,6 +59,8 @@ import { TrigonometryPractice } from "./pages/Trigonometry/TrigonometryPractice"
 //* Information page
 import { InfoPage } from "./pages/Single pages/InfoPage";
 import Search from "./pages/Search";
+import Blog from "./pages/Single pages/Blog";
+import SpacedRepetition from "./pages/Blog/SpacedRepetition";
 
 function App() {
 
@@ -75,6 +77,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/info" element={<InfoPage />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/repeticion-espaciada" element={<SpacedRepetition />} />
 
 
         <Route path="/quimica_1" element={<FirstChemistryPeriod />} />

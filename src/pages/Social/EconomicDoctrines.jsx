@@ -16,11 +16,12 @@ const EconomicDoctrines = () => {
                         <ul>
                             <li>Doctrina filosófica de carácter político, económico y social (Es un conjunto de pensamientos)</li>
                             <li>Funciona de base teórica del capitalismo</li>
-                            <li>Defiende las libertades individuales: los ciudadanos tienen derecho de llevar vida una vida privada como prefieran, amparados por tres derechos fundamentales de Locke: **vida, libertad y propiedad privada
+                            <li>Defiende las libertades individuales: los ciudadanos tienen derecho de llevar vida una vida privada como prefieran, amparados por tres derechos fundamentales de Locke: vida, libertad y propiedad privada 
                                 <ul>
                                     <li>Los ciudadanos tienen derecho a elegir como son gobernados, de manera que no influya en sus asuntos privados</li>
                                     <li>Igualdad ante la ley tanto de gobernantes como gobernados (todas las personas son iguales ante el estado y la ley)</li>
                                 </ul>
+                                <br />
                             </li>
                             <li>Derecho a la propiedad privada</li>
                             <li>Tolerancia religiosa y estados laicos (separación del estado y las religiones)</li>

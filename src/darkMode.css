@@ -126,6 +126,8 @@
   color: #e3e3e3;
 }
 
+
+
 /** Footer  */
 .dark .footer {
   background-color: #121212;
@@ -150,6 +152,25 @@
 .dark .moreInformation a {
   color: #e3e3e3 !important;
 }
+
+.dark .blogContainer{
+  background-color: #121212;
+}
+.dark .blogCard{
+  background-color: #28292a;
+  color: white;
+}
+.dark .blogCardText{
+  color: white;
+}
+.dark .blogSectionContainer {
+  background: #121212;
+}
+.dark .blogSection{
+  background: #28292a;
+  color: white;
+}
+
 
 /**  Shadows */
 .dark .ownShadow, .ownShadow-lg {
