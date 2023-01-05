@@ -28,6 +28,10 @@
   transform: rotateZ(-5deg);
   transition: all 0.2s;
 }
+.HiSun:active, .HiMoon:active{
+  transform: rotateZ(-5deg);
+  transition: all 0.2s;
+}
 .HiSun:hover{
   transform-origin: center;
   transform: rotateZ(45deg);

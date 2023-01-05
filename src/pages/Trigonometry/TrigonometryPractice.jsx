@@ -243,7 +243,7 @@ export const TrigonometryPractice = () => {
                         <hr className="my-4"/>
                         <div>
                             <h3>Ley del coseno</h3>
-                            <img src="/img/leyCosenoPractica.svg" alt="" className='rounded-3' />
+                            <img src="/img/leyCosenoPractica.svg" alt="" className='rounded-3 mb-3' />
 
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#leycoseno">
@@ -259,7 +259,6 @@ export const TrigonometryPractice = () => {
                                 <Latex>{leyCosenoThree}</Latex><br /><br />
                                 <Latex>{leyCosenoFour}</Latex><br /><br />
                             </div>  
-
                         </div>
                     </div>
                 </div>
