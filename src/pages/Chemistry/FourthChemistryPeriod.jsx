@@ -12,13 +12,13 @@ const FourthChemistryPeriod = () => {
     const ecuacionOne = `$$2C_2H_2 + 5O_2 \\Rightarrow  4CO_2 + 2H_2O$$`
     const ecuacionTwo = `$$\\large \\frac{64gr CO_2}{176gr CO_2}  \\ \\cdot \\ \\small 100 \\% = \\small 35.36 \\%$$`
     return (
-        <div className="homeQuimica" id="geometria">
+        <div className="homeCard" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Química" />
 
             <ChemistryNav />
 
-            <div className="cardQuimica mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+            <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <div>
                         <CollapseTitle name="Reactivo límite y en exceso" id="#reactivoLimiteExceso" />

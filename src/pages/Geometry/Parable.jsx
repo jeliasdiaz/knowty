@@ -5,15 +5,15 @@ export const Parable = () => {
 
 
     return (
-        <div className="homeGeometria" id="geometria">
+        <div className="homeCard" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Parábola"/>
             
             <GeometryNav/>
 
-            <div className="cardTrigonometria mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700">
                 <div>
-                    <h2>Ecuación de la parábola con vértice en (0,0)</h2>
+                    <h3>Ecuación de la parábola con vértice en (0,0)</h3>
                     <h5>Eje de simetría X:</h5>
                     <p>
                         y<sup>2</sup> = 4Px <br />
@@ -33,7 +33,7 @@ export const Parable = () => {
                     <hr />
                 </div>
                 <div>
-                    <h2>Ecuación de la parábola con vértice en (h, k)</h2>
+                    <h3>Ecuación de la parábola con vértice en (h, k)</h3>
                     <h5>Paralela al eje x</h5>
                     <p>
                         (y - k)<sup>2</sup> = 4P(x - h) <br />

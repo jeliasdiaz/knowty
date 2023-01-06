@@ -3,13 +3,13 @@ import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
 const EconomicDoctrines = () => {
     return (
-        <div className="homeGeometria">
+        <div className="homeCard">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Doctrinas económicas" />
 
             <SocialNav />
 
-            <div className="cardTrigonometria mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+            <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <CollapseTitle name="Liberalismo" id="#liberalismo" />
                     <div className="collapse" id="liberalismo">

@@ -80,7 +80,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="pb-5">
+        <div className="footerPaddingBottom">
           <div className="moreInformation ownShadow" data-aos="fade-down" data-aos-duration="1400" >
             <h3>¿Quieres saber más?</h3>
             <div className="flex-1 justify-content-evenly">

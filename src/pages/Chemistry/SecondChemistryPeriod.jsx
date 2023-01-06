@@ -4,13 +4,13 @@ import CollapseTitle from "../../components/CollapseTitle";
 
 const SecondChemistryPeriod = () => {
     return (
-        <div className="homeQuimica" id="geometria">
+        <div className="homeCard" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Química" />
 
             <ChemistryNav />
 
-            <div className="cardQuimica mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+            <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <div >
                         <CollapseTitle name="Generalidades" id="#generalidades" />

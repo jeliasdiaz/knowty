@@ -32,13 +32,13 @@ export const Statistic = () => {
 
   return (
     <>
-      <div className="homeEstadistica">
+      <div className="homeCard">
         <div>
           <img src="/img/waveThree.svg" alt="" />
         </div>
         <SectionTitle title="Estadística" />
 
-        <div className="cardEnglish mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+        <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
           <div>
             <CollapseTitle name="Medidas de tendencia central" id="#medidasTendenciaCentral" />
             <div className="collapse"  id="medidasTendenciaCentral">

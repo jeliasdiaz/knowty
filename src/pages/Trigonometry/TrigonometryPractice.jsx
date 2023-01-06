@@ -59,7 +59,7 @@ export const TrigonometryPractice = () => {
     const leyCosenoFour = `$$x = 13.67m$$`
 
     return (
-        <div className='homeTrigonometria'>
+        <div className='homeCard'>
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Practica" />
 
@@ -73,7 +73,7 @@ export const TrigonometryPractice = () => {
 
                     </ul>
                 </nav>
-            <div className="fisica ownShadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700">
                 <div >
                     <div className="section">
                         <div>

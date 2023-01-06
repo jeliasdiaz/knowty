@@ -37,15 +37,14 @@ hr {
 }
 ul li {
   list-style-type: none;
+  text-indent: -6px;
 }
 ul li:before {
   content: "-";
   position: relative;
   left: -5px;
 }
-ul li {
-  text-indent: -6px;
-}
+
 .btn-secondary {
   background-color: #2b7ea1 !important;
   border: #2d7d9f !important;
@@ -63,7 +62,7 @@ ul li {
 .home {
   background-color: #f6f6f6;
   height: 100vh;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .sectionOne {
   padding: 5%;
@@ -71,11 +70,12 @@ ul li {
   justify-content: space-between;
 }
 .sectionOne h1 {
-  font-size: 60px;
+  font-size: 3.75em;
   font-weight: 500;
+  letter-spacing: 0.05em;
 }
 .sectionOne p {
-  font-size: 16px;
+  font-size: 1em;
   width: 22rem;
 }
 .sectionOne img {
@@ -88,7 +88,7 @@ ul li {
 /** Section 2 */
 .home-2 {
   background-color: #f6f6f6;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .sectionTwo {
   display: flex;
@@ -131,7 +131,7 @@ ul li {
   border-radius: 25px;
   padding: 8%;
   align-items: center;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .subjectLink:hover {
   background-color: #bfdfed;
@@ -142,7 +142,7 @@ ul li {
 }
 .BiChevronRight {
   color: #023246 !important;
-  transition: all 0.2s;
+  transition: all 0.1s;
 }
 .subjectLink:hover .BiChevronRight {
   color: #fefefe !important;
@@ -167,6 +167,7 @@ ul li {
   --bs-pagination-padding-x: 1rem !important;
   --bs-pagination-padding-y: 1rem !important;
   --bs-pagination-border-radius: 1.3rem !important;
+  transition: all 0.5s;
 }
 .pagination li {
   border-radius: 1.3rem !important;
@@ -181,84 +182,38 @@ ul li {
 }
 .page-link {
   color: black !important;
-  transition: all 0.2s;
-}
-.flex {
-  display: flex;
-  flex-wrap: wrap;
+  transition: all 0.5s;
 }
 
-/** Física page  */
-.fisica {
-  width: 60%;
-  margin: 4%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  padding: 4%;
-}
-.home-fisica {
+/** Subjects space  */
+.homeCard {
   padding-bottom: 5%;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
-
-/** Trigonometria page */
-.cardTrigonometria {
+.subjectCard {
   width: 60%;
   margin: auto;
   margin-top: 5%;
   border-radius: 20px;
   padding: 4%;
 }
-.homeTrigonometria {
-  background-color: white;
-  padding-bottom: 5%;
-  transition: all 0.2s;
+.subjectCard li {
+  padding-top: 0.3em;
+}
+.subjectCard h4 {
+  padding-top: 0.5em;
+}
+.table {
+  width: 34rem !important;
 }
 
-/** Química page */
-.cardQuimica {
-  width: 60%;
-  margin: auto;
-  margin-top: 5%;
-  border-radius: 20px;
-  padding: 4%;
-}
-.homeQuimica {
-  padding-bottom: 5%;
-  transition: all 0.2s;
-}
+/** Img */
 .estequiometriaImg {
   width: 80%;
 }
-
-/** Estadística */
 .reglaTres {
   width: 15%;
 }
-.homeEstadistica {
-  background-color: white;
-  padding-bottom: 5%;
-  transition: all 0.2s;
-}
-
-/** Geometría */
-.homeGeometria {
-  padding-bottom: 5%;
-  transition: all 0.2s;
-}
-
-/** English */
-.cardEnglish {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  padding: 4%;
-  background-color: white;
-}
-
-/** Practice page  */
 .practiceImg {
   width: 40%;
 }
@@ -279,7 +234,7 @@ ul li {
 .infoPage {
   align-items: center;
   color: #2b7ea1;
-  transition: all 0.2s;
+  transition: all 0.5s;
   min-height: 100vh;
 }
 .ImgInfo {
@@ -425,42 +380,27 @@ ul li {
     padding: 8% !important;
   }
 
-  /** Física */
-  .cardsFisica {
-    flex-wrap: wrap;
-    margin: 4%;
-  }
-  .fisica {
+  /** Subjects card  */
+  .subjectCard {
     width: 95%;
     margin-top: 10%;
   }
-  .nav-3 {
-    margin-top: 18% !important;
+  .table {
+    width: 100% !important;
   }
 
-  /** Trigonometria page */
-  .cardTrigonometria {
-    width: 95%;
-    margin-top: 10%;
-  }
-
-  /** Química page */
-  .cardQuimica {
-    width: 95%;
-    margin-top: 10%;
-  }
-
+  /** Img */
   .estequiometriaImg {
     width: 100%;
   }
   .reglaTres {
     width: 20%;
   }
-  /** English page */
-  .cardEnglish {
-    width: 95%;
-    margin-top: 10%;
+  .practiceImg {
+    width: 70%;
   }
+
+  /** Information page */
   .infoOne {
     margin-top: 8%;
   }
@@ -487,10 +427,6 @@ ul li {
     margin-bottom: 15%;
   }
 
-  /** Practice page  */
-  .practiceImg {
-    width: 70%;
-  }
   /** Blog */
   .containerCards {
     padding-top: 10%;
@@ -504,9 +440,6 @@ ul li {
   .blogCardText {
     width: 18em;
   }
-/*   .blogCardText p {
-    font-size: 16px;
-  } */
   .blogSectionContainerTwo {
     padding-top: 10%;
   }
@@ -526,9 +459,6 @@ ul li {
   .sectionOneAppendOne {
     margin: auto;
     margin-bottom: 8%;
-  }
-  .nav-3 {
-    margin-top: 20%;
   }
   .mobileMenu {
     height: 110vh;

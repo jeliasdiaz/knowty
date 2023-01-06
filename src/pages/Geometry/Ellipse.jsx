@@ -13,15 +13,15 @@ const Ellipse = () => {
     const elipseSix = `$$\\large \\frac{(x-h)^2}{a^2} + \\frac{(y - k)^2}{b^2} = \\small 1$$`
 
     return (
-        <div className="homeGeometria" id="geometria">
+        <div className="homeCard" >
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Elipse" />
             
             <GeometryNav/>
 
-            <div className="cardTrigonometria mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+            <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
-                    <h2>Ecuación de la elipse con vértice en (0, 0)</h2>
+                    <h3>Ecuación de la elipse con vértice en (0, 0)</h3>
                     <p><Latex>{elipseOne}</Latex></p>
                     <p>
                         a = distancia del centro al vértice del eje mayor <br />
@@ -45,7 +45,7 @@ const Ellipse = () => {
                     <hr />
                 </div>
                 <div>
-                    <h2>Ecuación de la elipse con vértice en (h, k)</h2>
+                    <h3>Ecuación de la elipse con vértice en (h, k)</h3>
                     <Latex>{elipseSix}</Latex>
                 </div>
             </div>

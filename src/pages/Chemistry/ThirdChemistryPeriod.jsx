@@ -18,13 +18,13 @@ const ThirdChemistryPeriod = () => {
   const metodoAlgebraicoEjemploSix = `$$\\text{Fe}_2O_3 \\ + \\ 3C \\rightarrow \\ \\text{2Fe} \\ + \\ \\text{3CO}$$`
 
   return (
-    <div className="homeQuimica" id="geometria">
+    <div className="homeCard" id="geometria">
       <img src="/img/waveThree.svg" alt="" />
       <SectionTitle title="Química" />
 
       <ChemistryNav />
 
-      <div className="cardQuimica mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+      <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
         <div>
           <div>
             <CollapseTitle name="Nomenclaturas" id="#nomenclaturas" />
@@ -268,7 +268,7 @@ const ThirdChemistryPeriod = () => {
             <CollapseTitle name="Balanceo de una ecuación química" id="#balanceoEcuacion" />
             <div className="collapse" id="balanceoEcuacion">
               <p>
-                Consiste en la búsqueda de coeficientes numéricos que hagan que el número de cada tipo de átomos presentes en la reacción química sea el mismo tanto en reactivos como en productos. Dicho de otro modo, reside en buscar equilibrio en la ecuación, de tal forma que el número de átomos en ambas partes sea el mismo.
+                Consiste en la búsqueda de coeficientes numéricos que hagan que el número de cada tipo de átomos presentes en la reacción química sea el mismo tanto en reactivos como en productos. Dicho de otro modo, reside en buscar equilibrio en la ecuación, de tal forma que el número de átomos en ambas partes sea el mismo. <br /> <br />
 
                 De igual importancia, debes tener en cuenta que el subíndice nunca puedes cambiarlo. Solo puedes agregar coeficientes para alcanzar el equilibrio.
               </p>

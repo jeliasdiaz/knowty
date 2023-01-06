@@ -16,14 +16,14 @@ export const CircularMovement = () => {
     const extraOne = `$$ω = rpm \\ \\cdot \\ \\large \\frac{2π}{60}$$`
     const extraTwo = `$$N_v = \\large \\frac{θ}{2π}$$`
     return (
-        <div className="home-fisica">
+        <div className="homeCard">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Movimiento circular"/>
             
             <PhysicNav/>
 
-            <div className="fisica ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
-                <div className="flex">
+            <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+                <div>
                     <div>
                         <h2>M.C.U.</h2>
                         <h5>Posición</h5>

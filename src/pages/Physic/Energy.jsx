@@ -28,13 +28,13 @@ export const Energy = () => {
     const colisionesInelasticasTwo = `$$V_2' = \\large \\frac{m_1 \\ \\cdot \\ v_1 \\ + \\ m_2 \\ \\cdot \\ v_2}{(m_1 \\ + \\ m_2)}'$$`
 
     return (
-        <div className="home-fisica">
+        <div className="homeCard">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Energía" />
             
             <PhysicNav/>
 
-            <div className="fisica ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+            <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <h4>Trabajo</h4>
                 <Latex>
                     {trabajoOne}

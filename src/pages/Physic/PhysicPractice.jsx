@@ -109,13 +109,13 @@ export const PhysicPractice = () => {
     const energiaGravitatoriaTwo = `$$E_{pg} = 2352 J$$`
 
     return (
-        <div className='home-fisica'>
+        <div className='homeCard'>
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Practica" />
 
             <PhysicNav/>
 
-            <div className="fisica ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+            <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div >
                     <div className="section">
                         <div>

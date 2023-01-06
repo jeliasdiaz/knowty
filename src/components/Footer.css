@@ -1,7 +1,7 @@
-.footer{
+.footer {
   background-color: #f6f6f6;
   min-height: 100vh;
-  transition: all 0.2s;
+  transition: all 0.5s;
 }
 .textFooter {
   color: #ffff;
@@ -58,6 +58,7 @@ i:hover {
   margin-top: 3%;
   margin-left: 1%;
   margin-right: 1%;
+  transition: all 0.5s;
 }
 .teamCard h4 {
   color: #2b7ea1;
@@ -75,6 +76,7 @@ i:hover {
   color: black;
   border-radius: 20px;
   width: 300px;
+  transition: all 0.5s;
 }
 .teamCardCenter h4 {
   color: #2b7ea1;
@@ -87,6 +89,7 @@ i:hover {
   border-radius: 20px;
   text-align: center;
   margin-top: 7%;
+  transition: all 0.5s;
 }
 .moreInformation h2 {
   font-size: 25px;
@@ -94,6 +97,9 @@ i:hover {
 .FooterEmailText {
   font-weight: 500;
   font-size: 15px;
+}
+.footerPaddingBottom {
+  padding-bottom: 10%;
 }
 #IoCopy {
   cursor: pointer;
@@ -105,14 +111,14 @@ i:hover {
 .btn-youtube {
   color: #2b7ea1;
 }
-.btn-gmail{
+.btn-gmail {
   color: #2b7ea1;
   margin-top: 1%;
 }
-.boldFooterText{
+.boldFooterText {
   text-decoration: none;
 }
-.boldFooterText:hover{
+.boldFooterText:hover {
   text-decoration: underline;
 }
 @media screen and (max-width: 800px) {
@@ -130,7 +136,7 @@ i:hover {
     width: 13rem !important;
     padding: 3%;
   }
-  
+
   .teamCard {
     padding: 3%;
     margin: auto;

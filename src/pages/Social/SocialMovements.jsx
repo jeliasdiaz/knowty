@@ -5,13 +5,13 @@ import CollapseTitle from "../../components/CollapseTitle";
 
 const SocialMovements = () => {
     return (
-        <div className="homeGeometria">
+        <div className="homeCard">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Movimientos sociales" />
 
             <SocialNav />
 
-            <div className="cardTrigonometria mb-5 ownShadow" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
+            <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
                 <div>
                     <CollapseTitle name="Movimientos sociales" id="#movimientosSociales" />
                     <div className="collapse" id="movimientosSociales">

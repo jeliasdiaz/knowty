@@ -13,15 +13,15 @@ const Straight = () => {
     const ecuacionGeneralRecta = `$$A_x \\ + \\ B_y \\ + \\ C = 0$$`
 
     return (
-        <div className="homeGeometria" id="geometria">
+        <div className="homeCard" id="geometria">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Recta"/>
             
             <GeometryNav/>
 
-            <div className="cardTrigonometria mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700">
                 <div>
-                    <h2>Distancia entre dos puntos</h2>
+                    <h3>Distancia entre dos puntos</h3>
                     <p>Está determinada mediante la expresión:</p>
                     <Latex>{distanciaPuntos}</Latex><br /> <br />
                     <p>Ejemplo: Halla la distancia entre los puntos A(4, 6) y B(-2, -1)</p>
@@ -30,7 +30,7 @@ const Straight = () => {
                 </div>
 
                 <div>
-                    <h2>Punto medio de un segmento</h2>
+                    <h3>Punto medio de un segmento</h3>
                     <Latex>{puntoMedio}</Latex><br /> <br />
                     <p>Ejemplo, halle el punto medio entre los puntos  A(4, 6) y B(-2, -2)</p>
                     <Latex>{puntoMedioEjemplo}</Latex>
@@ -38,19 +38,19 @@ const Straight = () => {
                 </div>
 
                 <div>
-                    <h2>Inclinación y pendiente</h2>
+                    <h3>Inclinación y pendiente</h3>
                     <Latex>{inclinacionPendiente}</Latex>
                     <hr />
                 </div>
 
                 <div>
-                    <h2>Ecuación de la recta</h2>
+                    <h3>Ecuación de la recta</h3>
                     <Latex>{ecuacionRecta}</Latex>
                     <hr />
                 </div>
 
                 <div>
-                    <h2>Ecuación general de la recta</h2>
+                    <h3>Ecuación general de la recta</h3>
                     <Latex>{ecuacionGeneralRecta}</Latex>
                 </div>
             </div>

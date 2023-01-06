@@ -23,14 +23,14 @@ export const ThirdTrigonometryPeriod = () => {
     const leyCosenoEight = `$$63.89 = θ$$`
 
     return (
-        <div className="homeTrigonometria">
+        <div className="homeCard">
             <img src="/img/waveThree.svg" alt="" />
             <div className="homeTrigonometria">
                 <SectionTitle title="Trigonometría" />
                 
                 <TrigonometryNav/>
 
-                <div className="cardTrigonometria mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+                <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                     <div>
                         <h3>Angulos coterminales</h3>
                         <p>Para conocer si dos o más ángulos son coterminales, se debe sumar o restar 360° al ángulo que poseemos</p>

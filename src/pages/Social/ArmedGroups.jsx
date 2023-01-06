@@ -4,13 +4,13 @@ import CollapseTitle from "../../components/CollapseTitle";
 
 const ArmedGroups = () => {
     return (
-        <div className="homeGeometria">
+        <div className="homeCard">
             <img src="/img/waveThree.svg" alt="" />
             <SectionTitle title="Movimientos armados"/>
             
             <SocialNav/>
             
-            <div className="cardTrigonometria mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+            <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <CollapseTitle name="FARC (Fuerzas armadas revolucionarias de Colombia)" id="#farc"/>
                     <div className="collapse" id="farc">

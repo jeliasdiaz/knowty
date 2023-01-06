@@ -16,52 +16,52 @@ const FluidMechanics = () => {
     const teoremaBernoulli = `$$ρgh_1  \\ + \\ \\frac{1}{2}ρV_1^2 \\ + \\ P_1 = ρgh_2$$`
 
     return (
-        <div className="home-fisica">
+        <div className="homeCard">
             <img src="/img/waveThree.svg" alt="" />
-            <SectionTitle title="Mecánica de fluidos"/>
-            
-            <PhysicNav/>
+            <SectionTitle title="Mecánica de fluidos" />
 
-            <div className="cardsFisica container">
-                <div className="fisica ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
-                    <h4>Densidad</h4>
-                    <Latex>{densidad}</Latex><br />
-                    <p>(la masa debe estar en kilogramos y el volumen en metros cúbicos)</p>
+            <PhysicNav />
 
-                    <hr className="my-4" />
-                    <h4>Peso específico</h4>
-                    <Latex>{pesoEspecifico}</Latex>
+            <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+                <h4>Densidad</h4>
+                <Latex>{densidad}</Latex><br />
+                <p>(la masa debe estar en kilogramos y el volumen en metros cúbicos)</p>
 
-                    <hr className="my-4" />
-                    <h4>Presión en líquidos</h4>
-                    <Latex>{presionLiquidos}</Latex><br />
+                <hr className="my-4" />
+                <h4>Peso específico</h4>
+                <Latex>{pesoEspecifico}</Latex>
 
-                    <hr className="my-4" />
-                    <h4>Presión absoluta</h4>
-                    <Latex>{presionAbsoluta}</Latex>
+                <hr className="my-4" />
+                <h4>Presión en líquidos</h4>
+                <Latex>{presionLiquidos}</Latex><br />
 
-                    <hr className="my-4" />
-                    <h4>Principio de Pascal</h4>
-                    <Latex>{principioPascal}</Latex>
+                <hr className="my-4" />
+                <h4>Presión absoluta</h4>
+                <Latex>{presionAbsoluta}</Latex>
 
-                    <hr className="my-4" />
-                    <h4>Principio de Arquímedes</h4>
-                    <Latex>{principioArquimedes}</Latex><br />
-                    <p>Fe = Fuerza de empuje <br /> ρ = Densidad <br /> <Latex>{principioArquimedesExtra}</Latex> = Volumen sumergido</p>
+                <hr className="my-4" />
+                <h4>Principio de Pascal</h4>
+                <Latex>{principioPascal}</Latex>
 
-                    <hr className="my-4" />
-                    <h4>Ecuación del principio de continuidad</h4>
-                    <p><Latex>{principioContinuidadOne}</Latex></p>
-                    <Latex>{principioContinuidadTwo}</Latex>
-                    <hr className="my-4" />
-                    <h4>Teorema de Bernoulli</h4>
-                    <Latex>{teoremaBernoulli}</Latex>
-                    <hr />
-                    <div className="flex justify-content-center">
-                        <button className="btn btn-secondary"><a href="https://youtu.be/F5s7LVa78xY" className="text-decoration-none text-white">Profundizar 1</a></button>
-                        <button className="btn btn-secondary mx-2"><a href="https://youtu.be/F5s7LVa78xY" className="text-decoration-none text-white">Profundizar 2</a></button>
-                        <button className="btn btn-secondary" id="profundizarTres"><a href="https://youtu.be/F5s7LVa78xY" className="text-decoration-none text-white">Profundizar 3</a></button>
-                    </div>
+                <hr className="my-4" />
+                <h4>Principio de Arquímedes</h4>
+                <Latex>{principioArquimedes}</Latex><br />
+                <p>Fe = Fuerza de empuje <br /> ρ = Densidad <br /> <Latex>{principioArquimedesExtra}</Latex> = Volumen sumergido</p>
+
+                <hr className="my-4" />
+                <h4>Ecuación del principio de continuidad</h4>
+                <p><Latex>{principioContinuidadOne}</Latex></p>
+                <Latex>{principioContinuidadTwo}</Latex>
+                <hr className="my-4" />
+                <h4>Teorema de Bernoulli</h4>
+                <Latex>{teoremaBernoulli}</Latex>
+                <hr />
+                <div className="flex-1 justify-content-center">
+                    <button className="btn btn-secondary"><a href="https://youtu.be/F5s7LVa78xY" className="text-decoration-none text-white">Profundizar 1</a></button>
+
+                    <button className="btn btn-secondary mx-2"><a href="https://youtu.be/F5s7LVa78xY" className="text-decoration-none text-white">Profundizar 2</a></button>
+
+                    <button className="btn btn-secondary" id="profundizarTres"><a href="https://youtu.be/F5s7LVa78xY" className="text-decoration-none text-white">Profundizar 3</a></button>
                 </div>
             </div>
         </div>
