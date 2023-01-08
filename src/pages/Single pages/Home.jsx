@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import SubjectCard from "../../components/SubjectCard";
 
 export const Home = () => {
