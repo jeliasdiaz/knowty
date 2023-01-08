@@ -36,7 +36,7 @@ export const Footer = () => {
           </div>
 
           <div>
-            <MembersCard name="Jose Díaz" description="Creador del proyecto y página. Creador de contenido para YouTube" icon={<AiFillYoutube size={36} />} iconTwo={<FaDev size={34} />} />
+            <MembersCard name="Jose Díaz" description="Creador del proyecto y página. Creador de contenido para YouTube" icon={<AiFillYoutube size={36} />} iconTwo={<FaDev size={34} />} optionalClass="pt-4"/>
           </div>
 
           <div className="d-flex">
