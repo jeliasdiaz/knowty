@@ -15,25 +15,25 @@ const ArmedGroups = () => {
                     <CollapseTitle name="FARC (Fuerzas armadas revolucionarias de Colombia)" id="#farc"/>
                     <div className="collapse" id="farc">
                     <p>
-                        <b>Filosofía:</b> Marxista - Leninista <br /> <br />
+                        <span className="fw-semibold">Filosofía:</span> Marxista - Leninista <br /> <br />
 
-                        <b>Origen:</b> Surgen durante el periodo de "la violencia", luego del asesinato de Gaitán <br /><br />
+                        <span className="fw-semibold">Origen:</span > Surgen durante el periodo de "la violencia", luego del asesinato de Gaitán <br /><br />
 
-                        <b>Motivaciones:</b> Representar a la población campesina ante el manejo de las tierras en manos de pocos. Es menester aclarar que, las FARC se originan como grupos de campesinos en contra del estado. <br /> <br />
+                        <span className="fw-semibold">Motivaciones:</span> Representar a la población campesina ante el manejo de las tierras en manos de pocos. Es menester aclarar que, las FARC se originan como grupos de campesinos en contra del estado. <br /> <br />
 
-                        <b>Contexto internacional:</b> Guerra fría, a partir de esta, cuba adopta ciertos ideales. Surge la revolución cubana, de la cual Gaitán adopta ideales marxistas a favor de los campesinos; luego de ser asesinado, las FARC adoptan esta ideología. <br /> <br />
+                        <span className="fw-semibold">Contexto internacional:</span> Guerra fría, a partir de esta, cuba adopta ciertos ideales. Surge la revolución cubana, de la cual Gaitán adopta ideales marxistas a favor de los campesinos; luego de ser asesinado, las FARC adoptan esta ideología. <br /> <br />
                     </p>
-                    <b>A tener en cuenta:</b>
+                    <span className="fw-semibold">A tener en cuenta:</span>
                     <ul>
                         <li>Obtenían el poder mediante la lucha guerrillera </li>
                         <li>Posteriormente, tergiversan sus ideales debido a que en un principio se involucran en "negocios" como el narcotráfico para cumplir sus cometidos. Sin embargo, se envuelven en secuestros, lavados de dinero, etc.</li>
                     </ul>
-                    <b>Extras</b>
+                    <span className="fw-semibold">Extras</span>
                     <ul>
                         <li>Alias Timochenko es quien participa en los acuerdos de paz en 2016</li>
                         <li>El fundador de las FARC es alias Tirofijo. Actualmente, alias Timochenko está en la comandancia.</li>
                     </ul>
-                    <b>Líderes:</b>
+                    <span className="fw-semibold">Líderes:</span>
                         <ul>
                             <li>Manuel Marulanda (Tiro fijo)</li>
                             <li>Alfonso Cano</li>
@@ -47,23 +47,23 @@ const ArmedGroups = () => {
                     <CollapseTitle name="ELN (Ejército de liberación nacional)" id="#eln"/>
                     <div className="collapse" id="eln">
                     <p>
-                        <b>Fundador:</b> Fabio Vásquez Castaño <br />
-                        <b>Máximo pensador:</b> Camilo Torres <br />
-                        <b>Base teórica:</b> Revolución cubana <br />
+                        <span className="fw-semibold">Fundador:</span> Fabio Vásquez Castaño <br />
+                        <span className="fw-semibold">Máximo pensador:</span> Camilo Torres <br />
+                        <span className="fw-semibold">Base teórica:</span> Revolución cubana <br />
                     </p>
-                    <b>Líderes:</b>
+                    <span className="fw-semibold">Líderes:</span>
                     <ul>
                         <li>Fabio Vásquez</li>
                         <li>El cura Pérez (Manuel Pérez)</li>
                         <li>Gabino (Nicolás Rodrigues)</li>
                         <li>Antonio García</li>
                     </ul>
-                    <b>A tener en cuenta:</b> <br />
+                    <span className="fw-semibold">A tener en cuenta:</span> <br />
                     <ul>
                         <li>Proviene de estudiantes universitarios, reconocidos por su buena preparación académica. Esta es su diferencia con las FARC, debido a que esta última, surge de grupos de campesinos.</li>
                         <li>Lograron poner en jaque a muchas multinacionales</li>
                     </ul>
-                    <b>Extras</b>
+                    <span className="fw-semibold">Extras</span>
                     <ul>
                         <li>Coce = Comando central, se encarga de las decisiones políticas, económicas y demás.</li>
                         <li>Teología de la liberación = Como los católicos Jesuitas buscaron cambiar las condiciones de vida de las personas.</li>
@@ -76,17 +76,17 @@ const ArmedGroups = () => {
                     <CollapseTitle name="EPL (Ejército popular de liberación)" id="#epl"/>
                     <div className="collapse" id="epl">
                     <p>
-                        <b>Fundación:</b> 1967 <br />
-                        <b>Contexto internacional:</b> Guerra fría <br />
-                        <b>Filosofía:</b> Marxista - Leninista <br />
+                        <span className="fw-semibold">Fundación:</span> 1967 <br />
+                        <span className="fw-semibold">Contexto internacional:</span> Guerra fría <br />
+                        <span className="fw-semibold">Filosofía:</span> Marxista - Leninista <br />
                     </p>
-                    <b>Objetivos:</b>
+                    <span className="fw-semibold">Objetivos:</span>
                     <ul>
                         <li>Establecer un estado socialista</li>
                         <li>Derrocar el estado</li>
                         <li>Defender el territorio</li>
                     </ul>
-                    <b>Líderes:</b>
+                    <span className="fw-semibold">Líderes:</span>
                     <ul>
                         <li>Pedro Vásquez Rondón</li>
                         <li>Libardo Mora Toro</li>
@@ -94,13 +94,13 @@ const ArmedGroups = () => {
                         <li>Ernesto Rojas Ocampo</li>
                         <li>Bernardo Gutiérrez</li>
                     </ul>
-                    <b>A tener en cuenta:</b>
+                    <span className="fw-semibold">A tener en cuenta:</span>
                     <ul>
                         <li>Obtenían el poder mediante las armas</li>
                         <li>Fuerte apoyo del sindicalismo, este último busca defender los derechos de los trabajadores de industrias</li>
                         <li>En 1991 se firman acuerdos de paz con el presidente César Gaviria. No obstante, parte de la guerrilla no se acoge a estos acuerdos de paz</li>
                     </ul>
-                    <b>Extras:</b>
+                    <span className="fw-semibold">Extras:</span>
                     <ul>
                         <li>Líderes sobresalientes a nivel nacional</li>
                         <li>Sus integrantes son de origen caribeño</li>
@@ -115,10 +115,10 @@ const ArmedGroups = () => {
                     <CollapseTitle name="M-19 (Movimiento 19 de abril)" id="#m-19"/>
                     <div className="collapse" id="m-19">
                     <p>
-                        <b>Fundación:</b> 1974 <br />
-                        <b>Objetivo:</b> instaurar una democracia socialista<br />
+                        <span className="fw-semibold">Fundación:</span> 1974 <br />
+                        <span className="fw-semibold">Objetivo:</span> instaurar una democracia socialista<br />
                     </p>
-                    <b>Líderes:</b>
+                    <span className="fw-semibold">Líderes:</span>
                     <ul>
                         <li>Jaime Bateman (máximo comandante)</li>
                         <li>Iván Marino Ospina (lideró los acuerdos de Corinto)</li>
@@ -126,7 +126,7 @@ const ArmedGroups = () => {
                         <li>Antonio García</li>
                         <li>Carlos Pizarro (lideró los diálogos de paz)</li>
                     </ul>
-                    <b>A tener en cuenta:</b>
+                    <span className="fw-semibold">A tener en cuenta:</span>
                     <ul>
                         <li>Conformado por personas que pertenecían a las FARC</li>
                         <li>Tuvieron apoyo de estudiantes y sindicalistas</li>
@@ -134,7 +134,7 @@ const ArmedGroups = () => {
                         <li>Se enfocaron en las zonas urbanas debido a que se percatan que en las zonas rurales el estado no presta atención</li>
                     </ul>
 
-                    <b>Actos emblemáticos</b>
+                    <span className="fw-semibold">Actos emblemáticos</span>
                     <ul>
                         <li>Toma del palacio de justicia</li>
                         <li>Robo de la espada de bolÍvar</li>

@@ -31,30 +31,30 @@ const SocialMovements = () => {
                     <div className="collapse" id="movimientosSocialesAmerica">
                         <h4>Movimientos artesanos</h4>
                         <ul>
-                            <li>Uno de los primeros grupos sociales que surgió</li>
+                            <li>Uno de los primeros grupos sociales que surgió.</li>
                             <li>Artesanos se agrupan en organizaciones como <b>sociedades de ayuda mutua</b>, cuyo fin era prestarse auxilio en caso de enfermedad, vejez, etc.</li>
-                            <li>Estuvieron a favor de la abolición de la esclavitud</li>
-                            <li>Solicitaron respeto hacia los resguardos indígenas</li>
-                            <li>Apoyaron la elección del José Hilario López para la presidencia</li>
+                            <li>Estuvieron a favor de la abolición de la esclavitud.</li>
+                            <li>Solicitaron respeto hacia los resguardos indígenas.</li>
+                            <li>Apoyaron la elección del José Hilario López para la presidencia.</li>
                         </ul>
                         <h4>Movimientos campesinos</h4>
                         <ul>
-                            <li>Campesinos trataron de conservar sus tierras, acudiendo a juicios, buscando ayuda de autoridades, etc. Puesto que para ese entonces, el latifundismo provocaba que la mayoría de la población estuviera sin acceso a la propiedad, por consiguiente la producción agrícola</li>
-                            <li>México en el siglo XX logra una revolución que tuvo como fin una repartición de tierras a campesinos</li>
-                            <li>Establecieron la reforma agraria</li>
+                            <li>Campesinos trataron de conservar sus tierras, acudiendo a juicios, buscando ayuda de autoridades, etc. Puesto que para ese entonces, el latifundismo provocaba que la mayoría de la población estuviera sin acceso a la propiedad, por consiguiente la producción agrícola.</li>
+                            <li>México en el siglo XX logra una revolución que tuvo como fin una repartición de tierras a campesinos.</li>
+                            <li>Establecieron la reforma agraria.</li>
                         </ul>
                         <h4>Movimientos obreros</h4>
                         <ul>
                             <li>Formación de los primeros sindicatos, debido a las precarias condiciones de trabajo de los obreros.</li>
-                            <li>Tuvieron como fin reducir la jornada laboral a 8 horas, aumento de los salarios, mejora de las condiciones higiénicas de trabajo</li>
-                            <li>Los sindicatos buscaron mejorar la situación de los trabajadores recorriendo a protestas que iban desde la huelga hasta el sabotaje de las empresas</li>
-                            <li>Muchas de las huelgas fueron reprimidas por parte de los gobiernos e incluso por las mismas empresas</li>
+                            <li>Tuvieron como fin reducir la jornada laboral a 8 horas, aumento de los salarios, mejora de las condiciones higiénicas de trabajo.</li>
+                            <li>Los sindicatos buscaron mejorar la situación de los trabajadores recorriendo a protestas que iban desde la huelga hasta el sabotaje de las empresas.</li>
+                            <li>Muchas de las huelgas fueron reprimidas por parte de los gobiernos e incluso por las mismas empresas.</li>
                         </ul>
                         <h4>Movimientos estudiantiles</h4>
                         <ul>
-                            <li>Jóvenes latinoamericanos buscaban un orden social más justo</li>
+                            <li>Jóvenes latinoamericanos buscaban un orden social más justo.</li>
                             <li>Buscaron la mejora del sistema educativo universitario, así como autonomía universitaria, de modo que la iglesia no tuviese por qué impartir cátedras.</li>
-                            <li>El principal movimiento fue el de la Universidad de Córdoba en Argentina</li>
+                            <li>El principal movimiento fue el de la Universidad de Córdoba en Argentina.</li>
                         </ul>
                         <h4>Movimientos guerrilleros</h4>
                         <p>De este tema ya se ha hablado en la sección correspondiente al <Link to="/sociales" className="text-decoration-none">tercer periodo de Sociales</Link>.</p>

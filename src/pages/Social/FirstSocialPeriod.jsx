@@ -34,7 +34,7 @@ const FirstSocialPeriod = () => {
                         </ul>
                         <h4>Zonas de alto impacto o tolerancia</h4>
                         <ul>
-                            <li>Aquí se realizan actividades ilícitas.</li>
+                            <li>Ocurren actividades ilícitas.</li>
                             <li>Poca presencia estatal.</li>
                             <li>Mucha poobreza.</li>
                         </ul>

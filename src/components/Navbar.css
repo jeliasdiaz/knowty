@@ -16,28 +16,32 @@
 }
 .navbar-nav {
   flex-direction: row !important;
+  background: white;
+  gap: 0.5rem;
+  margin-left: auto;
 }
 .navBtn {
   transition: all 0.2s;
 }
-.navBtn:hover{
+.navBtn:hover {
   cursor: pointer;
-
 }
-.HiSun, .HiMoon{
+.HiSun,
+.HiMoon {
   transform: rotateZ(-5deg);
   transition: all 0.2s;
 }
-.HiSun:active, .HiMoon:active{
+.HiSun:active,
+.HiMoon:active {
   transform: rotateZ(-5deg);
   transition: all 0.2s;
 }
-.HiSun:hover{
+.HiSun:hover {
   transform-origin: center;
   transform: rotateZ(45deg);
   transition: all 0.2s;
 }
-.HiMoon:hover{
+.HiMoon:hover {
   transform-origin: center;
   transform: rotateZ(15deg);
   transition: all 0.2s;
@@ -46,14 +50,14 @@
   transition: all 0.5s;
 }
 .Search:hover {
-  transform:rotateZ(180deg);
+  transform: rotateZ(180deg);
   transition: all 0.5s;
 }
-.dropdown-item{
-  margin: auto ;
+.dropdown-item {
+  margin: auto;
 }
-.active{
-  color: #2B7EA1 !important;
+.active {
+  color: #2b7ea1 !important;
   transition: all 0.2s;
 }
 
@@ -64,7 +68,7 @@
   .navbar-brand {
     width: 30%;
   }
-  .backHoverColor{
-  color: black;
-}
+  .backHoverColor {
+    color: black;
+  }
 }

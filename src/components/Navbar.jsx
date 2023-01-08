@@ -35,7 +35,7 @@ export const Navbar = () => {
         <div className="container-fluid container">
           <NavLink to="/" className="text-decoration-none bg-transparent"><img src="/img/logo.svg" alt="" className="navbar-brand" /></NavLink>
 
-          <div className="navbar-nav ms-auto shadow bg-white rounded p-1 gap-2">
+          <div className="navbar-nav ownShadow rounded p-1">
 
             <NavLink to="/info"><MdInfo size={38} className="navBtn" /></NavLink>
 
