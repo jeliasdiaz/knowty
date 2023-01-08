@@ -25,10 +25,10 @@ export const Home = () => {
               <div className="text-sectionTwo ownShadow">
                 <h2>Nuestra meta</h2>
                 <p>
-                  Promover el aprendizaje y fácil acceso a contenido de carácter educativo. Además, exponer el conocimiento desde varias perspectivas. <Link to="/info" className="text-decoration-none text-white text-decoration-underline">Más información.</Link>
+                  Ayudar a los estudiantes en su proceso acádemico y desarrollo personal; proporcionando un espacio virtual en el que podrán repasar lecciones, adelantarse a nuevas y analizar temáticas desde otras perspectivas.
                   <br /><br />
 
-                  El proyecto no posee fines de lucro, sin embargo, si deseas contribuir al crecimiento del mismo, puedes enviar el aporte al Nequi: 310 6598031.
+                  El proyecto no posee fines de lucro, aunque, si deseas contribuir al crecimiento del mismo, puedes enviar el aporte al Nequi: 310 659 8031.
                 </p>
               </div>
 
@@ -70,12 +70,8 @@ export const Home = () => {
 
               <SubjectCard path="trigonometria-menu" img="trigonometria" title="Trigonometría" settingTwo="mt-3" />
             </div>
-
           </div>
         </div>
-        {/*         <div className="waveTwo">
-          <img src="/img/waveTwo.svg" alt="" />
-        </div> */}
       </section>
     </>
   )

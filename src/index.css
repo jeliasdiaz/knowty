@@ -135,6 +135,7 @@ ul li:before {
 }
 .subjectLink:hover {
   background-color: #bfdfed;
+  transition:  all 0.2s !important;
   color: #fefefe !important;
 }
 .subjectLink h4 {
@@ -142,7 +143,7 @@ ul li:before {
 }
 .BiChevronRight {
   color: #023246 !important;
-  transition: all 0.1s;
+  transition: all 0.2s;
 }
 .subjectLink:hover .BiChevronRight {
   color: #fefefe !important;
@@ -282,7 +283,7 @@ ul li:before {
   border-top-left-radius: 15px;
 }
 .blogCardImg:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .blogCardText {

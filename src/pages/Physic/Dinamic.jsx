@@ -31,7 +31,7 @@ export const Dinamic = () => {
                     </div>
                 </div>
                 <hr />
-                <div className="mt-5">
+                <div className="mt-3">
                     <h2>Torque</h2>
                     <ul>
                         <li>Análisis del sistema</li>

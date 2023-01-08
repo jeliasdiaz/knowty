@@ -120,7 +120,7 @@ export const PhysicPractice = () => {
                     <div className="section">
                         <div>
                             <h3>Vectores</h3>
-                            <p>Calcule la suma y dirección de los vectores A y B conociendo los siguientes datos (solución en la siguiente página):</p>
+                            <p>Calcule la suma y dirección de los vectores A y B conociendo los siguientes datos:</p>
 
                             <p>Vector A:
                                 Magnitud: 15N

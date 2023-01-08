@@ -57,7 +57,7 @@ const SocialMovements = () => {
                             <li>El principal movimiento fue el de la Universidad de Córdoba en Argentina</li>
                         </ul>
                         <h4>Movimientos guerrilleros</h4>
-                        <p>De este tema ya se ha hablado en la sección correspondiente al <Link to="/sociales" className="text-decoration-none link-primary">tercer periodo de Sociales</Link>.</p>
+                        <p>De este tema ya se ha hablado en la sección correspondiente al <Link to="/sociales" className="text-decoration-none">tercer periodo de Sociales</Link>.</p>
                     </div>
                 </div>
             </div>

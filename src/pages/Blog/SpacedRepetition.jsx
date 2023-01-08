@@ -6,7 +6,7 @@ const SpacedRepetition = () => {
         <div className="blogSection ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
           <h2 className="pb-3">La mejor forma de estudiar para examenes</h2>
           <p>
-            Probablemente, estés estudiando como todos lo hacen, ¿verdad? Horas y horas repasando todo antes de un examen. Es hora de mejorar ese corregir. <br /> <br />
+            Probablemente, estés estudiando como la mayoría, ¿verdad? Horas y horas repasando todo antes de un examen. Es hora de mejorar ese mal hábito. <br /> <br />
 
             Ante todo, ¿cada cuanto te dispones a recordar lo que estudiaste? Si lo haces solo cuando vas a realizar un examen, o directamente no lo haces; debes saber que mediante un método conocido como repetición espaciada, te permite recordar más. <br /> <br />
 

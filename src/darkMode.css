@@ -97,7 +97,6 @@
 }
 
 
-
 /** Footer  */
 .dark .footer {
   background-color: #121212;
@@ -108,7 +107,6 @@
   transition: all 0.5s;
 }
 .dark .teamCard {
-  background-color: #28292a;
   color: #e3e3e3;
   transition: all 0.5s;
 }
@@ -122,10 +120,8 @@
   color: #e3e3e3;
   transition: all 0.5s;
 }
-.dark .moreInformation a {
-  color: #e3e3e3 !important;
-}
 
+/** Blog  */
 .dark .blogContainer{
   background-color: #121212;
 }
