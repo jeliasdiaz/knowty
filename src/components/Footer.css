@@ -70,50 +70,47 @@ i:hover {
   color: #000 !important;
 }
 
-.moreInformation {
-  width: 50%;
-  background-color: #fefefe;
-  padding: 4%;
-  margin: auto;
-  border-radius: 20px;
-  text-align: center;
-  margin-top: 7%;
-  transition: all 0.5s;
+.footerContainer{
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-top: 7%;
 }
-.moreInformation h2 {
-  font-size: 25px;
-}
-.moreInformation a {
-  color: #0d6efd !important;
-  text-underline-offset: 4px;
-}
-.FooterEmailText {
+.copyright{
   font-weight: 500;
-  font-size: 15px;
+  justify-content: center;
+  color: #64748b;
 }
-.footerPaddingBottom {
-  padding-bottom: 10%;
+.sectionTitle{
+  color: #64748b;
+  font-weight: 600;
 }
-#IoCopy {
-  cursor: pointer;
-}
-#IoCopy:hover {
-  color: #2b7ea1;
-  transition: color 0.2s;
-}
-.btn-youtube {
-  color: #2b7ea1;
-}
-.btn-gmail {
-  color: #2b7ea1;
-  margin-top: 1%;
-}
-.boldFooterText {
+.sectionsLinks a{
+  font-weight: 500;
   text-decoration: none;
+  color: #64748b !important;
 }
-.boldFooterText:hover {
-  text-decoration: underline;
+.sectionsLinks a:hover{
+  color: black !important;
 }
+.footerIcons{
+  color: black;
+  padding: 5%;
+  background: white;
+  border-radius: 50%;
+  width: 3rem;
+  object-fit:cover;
+  transition: all 0.3s;
+}
+.footerIcons a{
+  color: black;
+}
+.footerIcons a:hover{
+  color: #bfdfed;
+  cursor: pointer; 
+  transform: scale(1.4);
+}
+
+
 @media screen and (max-width: 800px) {
   .footerContent {
     flex-wrap: wrap;
@@ -140,18 +137,8 @@ i:hover {
     width: 90%;
   }
   
-
-  .moreInformation {
-    background-color: #fefefe;
-    padding: 4%;
-    width: 90%;
-    margin-top: 10%;
-  }
-  .moreInformation h2 {
-    font-size: 22px;
-  }
-  .FooterEmailText {
-    font-size: 13px;
+  .footerContainer{
+    padding-top: 15%;
   }
 }
 
@@ -165,5 +152,4 @@ i:hover {
   .teamCard {
     height: 240px;
   }
-
 }

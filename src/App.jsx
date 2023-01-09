@@ -126,7 +126,7 @@ function App() {
         <Route path="/fisica-practica" element={<PhysicPractice />} />
         <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
 
-        <Route path="/search"  element={<Search/>}/>
+        <Route path="/buscar"  element={<Search/>}/>
       </Routes>
 
       <Footer />

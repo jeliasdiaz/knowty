@@ -115,10 +115,16 @@
   color: #e3e3e3;
   transition: all 0.5s;
 }
-.dark .moreInformation {
+/* .dark .moreInformation {
   background-color: #28292a;
   color: #e3e3e3;
   transition: all 0.5s;
+} */
+.dark .contactUs{
+  color: white !important;
+}
+.dark .sectionsLinks a:hover{
+  color: #e3e3e3 !important;
 }
 
 /** Blog  */

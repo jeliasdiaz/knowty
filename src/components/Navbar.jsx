@@ -41,7 +41,7 @@ export const Navbar = () => {
 
             <NavLink to="/"><AiFillHome size={38} className="navBtn" /></NavLink>
 
-            <NavLink to="/search"><BiSearch size={38} className="navBtn Search" /></NavLink>
+            <NavLink to="/buscar"><BiSearch size={38} className="navBtn Search" /></NavLink>
 
             <NavLink to="/blog"><FaMicroblog size={36} className="navBtn" /></NavLink>
 
