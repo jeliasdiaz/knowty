@@ -4,9 +4,6 @@ import { FaDev } from "react-icons/fa";
 import { BsMegaphoneFill } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import { FaInstagram } from "react-icons/fa";
-import { IoCopy } from "react-icons/io5";
-import CopyToClipboard from "react-copy-to-clipboard";
-import { Toaster, toast } from "react-hot-toast";
 import MembersCard from "./MembersCard";
 import { Link } from "react-router-dom";
 
@@ -85,7 +82,6 @@ export const Footer = () => {
           <p>Copyright &copy; 2022 - {currentYear} Knowty.</p>
         </div>
       </div>
-      <Toaster position="top-right" reverseOrder={false} />
     </footer>
   )
 }
