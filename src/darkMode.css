@@ -115,16 +115,18 @@
   color: #e3e3e3;
   transition: all 0.5s;
 }
-/* .dark .moreInformation {
-  background-color: #28292a;
-  color: #e3e3e3;
-  transition: all 0.5s;
-} */
+
 .dark .contactUs{
   color: white !important;
 }
+.dark .sectionTitle{
+  color: #899bb6;
+}
 .dark .sectionsLinks a:hover{
-  color: #e3e3e3 !important;
+  color: #899bb6 !important;
+}
+.dark .copyright {
+  color: #899bb6;
 }
 
 /** Blog  */

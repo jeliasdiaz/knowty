@@ -13,7 +13,7 @@ const FourthChemistryPeriod = () => {
     const ecuacionTwo = `$$\\large \\frac{64gr CO_2}{176gr CO_2}  \\ \\cdot \\ \\small 100 \\% = \\small 35.36 \\%$$`
     return (
         <div className="homeCard" id="geometria">
-            <img src="/img/waveThree.svg" alt="" />
+            <img src="/img/waveThree.svg" alt="Ola" />
             <SectionTitle title="Química" />
 
             <ChemistryNav />
@@ -32,7 +32,7 @@ const FourthChemistryPeriod = () => {
 
                             <h3>Practica</h3>
                             <p>Con base a la siguiente ecuación, halla el reactivo límite y en exceso. Teniendo 10.5 gr de P y 22.27 gr O2</p>
-                            <img src="/img/reactivoLimiteEjercicio.svg" alt="" className="estequiometriaImg rounded-3" />
+                            <img src="/img/reactivoLimiteEjercicio.svg" alt="Reactivo limite ejercicio" className="estequiometriaImg rounded-3" />
                             <br /><br />
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" aria-expanded="false" href="#reactivo" >
@@ -40,7 +40,7 @@ const FourthChemistryPeriod = () => {
                                 </button>
                             </p>
                             <div className="collapse" id="reactivo">
-                                <img src="/img/reactivoLimiteEjercicioSolucion.svg" alt="" className="estequiometriaImg rounded-3" />
+                                <img src="/img/reactivoLimiteEjercicioSolucion.svg" alt="Reactivo limite solución" className="estequiometriaImg rounded-3" />
                             </div>
                         </div>
                         <hr />

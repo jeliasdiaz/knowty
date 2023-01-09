@@ -9,7 +9,7 @@ const Circumference = () => {
 
     return (
         <div className="homeCard" id="geometria">
-            <img src="/img/waveThree.svg" alt="" />
+            <img src="/img/waveThree.svg" alt="Ola" />
             <SectionTitle title="Circunferencia"/>
             
             <GeometryNav/>

@@ -39,7 +39,7 @@ export const Cinematic = () => {
 
     return (
         <div className="homeCard">
-            <img src="/img/waveThree.svg" alt="" />
+            <img src="/img/waveThree.svg" alt="Ola" />
             
             <SectionTitle title="Cinemática"/>
 

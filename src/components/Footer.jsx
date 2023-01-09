@@ -21,12 +21,12 @@ export const Footer = () => {
             <MembersCard name="Jose Díaz" description="Creador del proyecto y página. Creador de contenido para YouTube" icon={<AiFillYoutube size={36} />} iconTwo={<FaDev size={34} />} />
 
             <MembersCard name="Wilmar Fontalvo" description="Creador de videos y encargado principal de YouTube" icon={<AiFillYoutube size={36} />} />
+            
+            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página" icon={<BsMegaphoneFill size={34} />}/>
 
-            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página" icon={<BsMegaphoneFill size={34} />} />
+            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto" icon={<BsMegaphoneFill size={34} />}/>
 
-            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto" icon={<BsMegaphoneFill size={34} />} />
-
-            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube" icon={<AiFillYoutube size={36} />} />
+            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube" icon={<AiFillYoutube size={36} />}/>
           </div>
         </div>
 
@@ -39,7 +39,7 @@ export const Footer = () => {
           </div>
 
           <div>
-            <MembersCard name="Jose Díaz" description="Creador del proyecto y página. Creador de contenido para YouTube" icon={<AiFillYoutube size={36} />} iconTwo={<FaDev size={34} />} optionalClass="pt-4" />
+            <MembersCard name="Jose Díaz" description="Creador del proyecto y página. Creador de contenido para YouTube" icon={<AiFillYoutube size={36} />} iconTwo={<FaDev size={34} />} optionalClass="pt-4 w-75 mx-auto "/>
           </div>
 
           <div className="d-flex">
@@ -53,15 +53,15 @@ export const Footer = () => {
       <div class="footerContainer">
         <div class="d-flex justify-content-between">
           <div class="mb-3">
-            <h3 className="contactUs">Contactanos!</h3>
+            <h3 className="contactUs">¡Contactanos!</h3>
             <div className="d-flex gap-2 ">
-              <div className=" footerIcons ownShadow">
-                <a href="mailto:formuapp2022@gmail.com"><SiGmail size={30} /></a>
+              <div className="footerIcons ownShadow">
+                <a href="mailto:knowtyinfo@gmail.com"><SiGmail size={30} /></a>
               </div>
-              <div className=" footerIcons ownShadow">
+              <div className="footerIcons ownShadow">
                 <a href="https://www.youtube.com/@formuapp1757"><AiFillYoutube size={30} /></a>
               </div>
-              <div className=" footerIcons ownShadow">
+              <div className="footerIcons ownShadow">
                 <a href="https://www.instagram.com/formuapp2022/"><FaInstagram size={30} /></a>
               </div>
             </div>
@@ -70,15 +70,15 @@ export const Footer = () => {
           <div>
             <h5 className="sectionTitle">Enlaces</h5>
             <div className="sectionsLinks">
-              <Link to="/" className="d-block text-decoration-none text-black">Inicio</Link>
-              <Link to="/info" className="d-block text-decoration-none text-black">Sobre nosotros</Link>
-              <Link to="/blog" className="d-block text-decoration-none text-black">Blog</Link>
-              <Link to="/buscar" className="d-block text-decoration-none text-black">Buscar</Link>
+              <Link to="/" className="d-block text-black">Inicio</Link>
+              <Link to="/info" className="d-block text-black">Sobre nosotros</Link>
+              <Link to="/blog" className="d-block text-black">Blog</Link>
+              <Link to="/buscar" className="d-block text-black">Buscar</Link>
             </div>
           </div>
         </div>
 
-        <div class="d-flex pt-4 mt-4 border-top text-center copyright">
+        <div class="d-flex border-top copyright">
           <p>Copyright &copy; 2022 - {currentYear} Knowty.</p>
         </div>
       </div>

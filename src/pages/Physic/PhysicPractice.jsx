@@ -129,7 +129,7 @@ export const PhysicPractice = () => {
                             <p>Vector B:
                                 Magnitud: 27N
                                 Dirección: 55°</p>
-                            <img src="/img/vectoresPracticaImg.svg" alt="" className='practiceImg rounded-3' />
+                            <img src="/img/vectoresPracticaImg.svg" alt="Vectores practica" className='practiceImg rounded-3' />
                             <p>
                                 <button className="btn btn-secondary mt-3" type="button" data-bs-toggle="collapse" href="#vectores">
                                     Solución
@@ -346,7 +346,7 @@ export const PhysicPractice = () => {
                             <h3>Dinámica</h3>
                             <h5>N°1</h5>
                             <p>En una bodega se mantiene una caja de 900kg mediante una soga. La superficie se encuentra inclinada 25° respecto a la horizontal y la superficie tiene un coeficiente de rozamiento de 0.4. Calcule la tensión.</p>
-                            <img src="/img/dinamicaPracticaImg.svg" alt="" className='practiceImg rounded-3' /><br /><br />
+                            <img src="/img/dinamicaPracticaImg.svg" alt="Dinamica practica uno" className='practiceImg rounded-3' /><br /><br />
 
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#dinamicaOne">
@@ -356,7 +356,7 @@ export const PhysicPractice = () => {
 
                             <div className="collapse " id="dinamicaOne">
                                 <p>Análisis de fuerzas</p>
-                                <img src="/img/dinamicaPracticaImgTwo.svg" alt="" className='practiceImg rounded-3' /><br /><br />
+                                <img src="/img/dinamicaPracticaImgTwo.svg" alt="Dinamica practica dos" className='practiceImg rounded-3' /><br /><br />
                                 <p>Descomponer vectores</p>
                                 <p>Si θ está respecto a X:</p>
                                 <Latex>
@@ -392,7 +392,7 @@ export const PhysicPractice = () => {
 
                             <h5>N°2</h5>
                             <p>Un vehículo de 1300kg se encuentra en una superficie inclinada 35° respecto a la horizontal, teniendo en cuenta que el sistema está acelerado, calcule la aceleración del vehículo. Considere μ= 0.5 y g= 9.8m/s².</p>
-                            <img src="/img/dinamicaPracticaImgTwo.svg" alt="" className='practiceImg rounded-3' /><br /><br />
+                            <img src="/img/dinamicaPracticaImgTwo.svg" alt="Dinamica practica dos" className='practiceImg rounded-3' /><br /><br />
 
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#dinamicaTwo">
@@ -448,7 +448,7 @@ export const PhysicPractice = () => {
                             <p>Alice y Bob juegan en un sube y baja, Alice se encuentra al lado izquierdo a 0.3 metros del centro con una masa de 60kg. Bob está a una distancia de 0.25m ¿Cuál debe ser la masa de Bob para que este sistema se encuentre en equilibrio?
                             </p>
 
-                            <img src="/img/torquePracticaImg.svg" alt="" className='practiceImg'/><br /><br />
+                            <img src="/img/torquePracticaImg.svg" alt="Torque practica" className='practiceImg'/><br /><br />
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#tiroParabolico">
                                     Solución

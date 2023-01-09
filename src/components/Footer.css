@@ -19,10 +19,7 @@
 .textFooter p {
   font-size: 14px;
 }
-/* .textFooter a:hover,
-i:hover {
-  transform: scale(1.2);
-} */
+
 .textFooter h1 {
   font-weight: 500;
   font-size: 60px;
@@ -79,6 +76,8 @@ i:hover {
   font-weight: 500;
   justify-content: center;
   color: #64748b;
+  padding-top: 1.6rem;
+  margin-top: 1.4rem;
 }
 .sectionTitle{
   color: #64748b;
@@ -91,7 +90,10 @@ i:hover {
 }
 .sectionsLinks a:hover{
   color: black !important;
+  text-decoration: underline;
+  text-underline-offset: 2;
 }
+
 .footerIcons{
   color: black;
   padding: 5%;
@@ -101,20 +103,18 @@ i:hover {
   object-fit:cover;
   transition: all 0.3s;
 }
+.footerIcons:hover{
+  transform: scale(1.1);
+}
 .footerIcons a{
   color: black;
 }
 .footerIcons a:hover{
-  color: #bfdfed;
+  color: #2b7ea1;
   cursor: pointer; 
-  transform: scale(1.4);
 }
 
-
 @media screen and (max-width: 800px) {
-  .footerContent {
-    flex-wrap: wrap;
-  }
   .textFooter {
     padding-top: 16%;
     margin-left: 0%;
@@ -126,16 +126,6 @@ i:hover {
     width: 13rem !important;
     padding: 3%;
   }
-
-  .teamCard {
-    padding: 3%;
-    margin: auto;
-    margin-top: 7%;
-    margin-left: 2%;
-    margin-right: 2%;
-    height: 13.75rem;
-    width: 90%;
-  }
   
   .footerContainer{
     padding-top: 15%;
@@ -143,13 +133,7 @@ i:hover {
 }
 
 @media screen and (max-width: 380px) {
-  .footer {
-    height: 170vh;
-  }
-  .textFooter {
-    padding-top: 16%;
-  }
-  .teamCard {
-    height: 240px;
+  .footerContainer{
+    padding-top: 20%;
   }
 }

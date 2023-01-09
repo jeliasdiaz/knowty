@@ -33,9 +33,7 @@ export const Statistic = () => {
   return (
     <>
       <div className="homeCard">
-        <div>
-          <img src="/img/waveThree.svg" alt="" />
-        </div>
+        <img src="/img/waveThree.svg" alt="" />
         <SectionTitle title="Estadística" />
 
         <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
@@ -61,27 +59,27 @@ export const Statistic = () => {
               <h5>Directa</h5>
               <p>Los datos están correlacionados, de tal forma que cuando aumenta una magnitud también lo hace la otra.</p>
               <h6>Fórmula</h6>
-              <img src="/img/regla-3.jpg" alt="" className="reglaTres rounded-3" /> <br /><br />
+              <img src="/img/regla-3.jpg" alt="Regla de tres directa" className="reglaTres rounded-3" /> <br /><br />
               <p><Latex>{reglaTresDirecta}</Latex></p>
               <br /><br />
               <h6>Ejemplo</h6>
               <p>
                 Si 5 centímetros en un mapa son 600 metros en la realidad, ¿cuántos metros son 8 centímetros?
                 <br />
-                <img src="/img/regla-3-ejemplo.jpg" className="reglaTres rounded-3" alt="" /><br /><br />
+                <img src="/img/regla-3-ejemplo.jpg" className="reglaTres rounded-3" alt="Regla de tres directa ejemplo" /><br /><br />
               <Latex>{reglaTresDirectaEjemplo}</Latex>
               </p>
 
               <h5>Inversa</h5>
               <p>Los datos están correlacionados, de tal forma que mientras una magnitud aumenta, la otra disminuye.</p>
               <h6>Fórmula</h6>
-              <img src="/img/regla-3-inversa.jpg" alt="" className="reglaTres rounded-3" /><br /><br />
+              <img src="/img/regla-3-inversa.jpg" alt="regla de tres inversa" className="reglaTres rounded-3" /><br /><br />
               <Latex>{reglaTresInversa}</Latex>
               <br /><br />
               <h6>Ejemplo</h6>
               <p>
                 Si Tres personas tardan 4 días en montar un escenario. ¿Cuánto tardarán seis personas? <br />
-                <img src="/img/regla-3-inversa-ejemplo.jpg" alt="" className="reglaTres rounded-3" /> <br /><br />
+                <img src="/img/regla-3-inversa-ejemplo.jpg" alt="regla de tres inversa ejemplo" className="reglaTres rounded-3" /> <br /><br />
                 <Latex>{reglaTresInversaEjemplo}</Latex>
               </p> <br />
               <button className="btn btn-secondary"><a href="https://youtu.be/-HORSa7OGzY" className="text-decoration-none text-white">Profundizar</a></button> <br /> <br />
@@ -229,7 +227,7 @@ export const Statistic = () => {
                 Mediana: 5,8 <br />
                 Moda: No hay
               </p>
-              <img src="/img/campanaGauss.png" alt="" className="estequiometriaImg rounded-3" /> <br /> <br />
+              <img src="/img/campanaGauss.png" alt="Campana de Gauss" className="estequiometriaImg rounded-3" /> <br /> <br />
               <p>Con base a la información, tenemos una asimetría negativa debido a que la media es menor que la mediana.</p>
 
               <button className="btn btn-secondary"><a href="https://youtu.be/q44bP7xo2QM" className="text-decoration-none text-white">Profundizar</a></button>

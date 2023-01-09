@@ -73,7 +73,7 @@ export const ThirdTrigonometryPeriod = () => {
                             La usamos cuando, en un triángulo, nos dan una pareja y un lado cualquiera. Dicho de otro modo, cuando poseemos el valor de un ángulo y su lado opuesto. <br /> <br /> De igual forma, hacemos uso de esta ley al poseer el valor dos lados y un ángulo opuesto a ellos.
 
                             Por ejemplo: <br />
-                            <img src="/img/leySenoEjemplo.svg" alt="" className="w-50 rounded-3" /><br />
+                            <img src="/img/leySenoEjemplo.svg" alt="Ley del seno ejemplo" className="w-50 rounded-3" /><br />
                             Definimos las razones de la siguiente forma:
                             <br /><br />
                             <Latex>{leySenoOne}</Latex><br /><br />
@@ -100,7 +100,7 @@ export const ThirdTrigonometryPeriod = () => {
                         <p>
                             La usamos cuando en un triángulo conocemos dos lados y el ángulo formado entre ellos. De igual forma, hacemos uso de esta ley al poseer el valor de todos los lados.
                             Por ejemplo: <br />
-                            <img src="/img/leyCosenoEjemplo.svg" alt="" className="w-50 rounded-3" /> <br />
+                            <img src="/img/leyCosenoEjemplo.svg" alt="Ley del coseno ejemplo uno" className="w-50 rounded-3" /> <br />
                             Definimos las razones de la siguiente forma:
                             <br />
                             <Latex>{leyCosenoOne}</Latex><br />
@@ -111,7 +111,7 @@ export const ThirdTrigonometryPeriod = () => {
                             <br /><br />
                             Otra posibilidad, radica en tener el valor de todos los lados.
                             Por ejemplo: <br />
-                            <img src="/img/leyCosenoEjemplo2.svg" alt="" className="w-50 rounded-3" /><br />
+                            <img src="/img/leyCosenoEjemplo2.svg" alt="Ley del coseno ejemplo dos" className="w-50 rounded-3" /><br />
                             Definimos las razones de la siguiente forma: <br />
                             <Latex>{leyCosenoFive}</Latex><br /><br />
                             <Latex>{leyCosenoSix}</Latex><br /><br />

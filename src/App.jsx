@@ -61,6 +61,7 @@ import { InfoPage } from "./pages/Single pages/InfoPage";
 import Search from "./pages/Search";
 import Blog from "./pages/Single pages/Blog";
 import SpacedRepetition from "./pages/Blog/SpacedRepetition";
+import NotFound from "./pages/Single pages/NotFound";
 
 function App() {
 
@@ -127,11 +128,13 @@ function App() {
         <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
 
         <Route path="/buscar"  element={<Search/>}/>
+        <Route path="*"  element={<NotFound />}/>
       </Routes>
 
       <Footer />
     </BrowserRouter>
   );
 }
+
 
 export default App;

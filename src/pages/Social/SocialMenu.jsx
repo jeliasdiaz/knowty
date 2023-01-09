@@ -7,28 +7,28 @@ export const SocialMenu = () => {
         <div className="mobileSubjectMenu">
           <Link to="/sociales_1" className="link-secondary text-decoration-none text-dark">
             <div className="subjectLink d-flex ownShadow" data-aos="fade-up" data-aos-duration="1000">
-              <img src="/img/socialesIcon.png" alt="" className="w-25 pe-2" />
+              <img src="/img/socialesIcon.png" alt="Sociales ícono" className="w-25 pe-2" />
               <h2 className="pt-4 ps-2">I periodo</h2>
             </div>
           </Link>
 
           <Link to="/doctrinas-economicas" className="link-secondary text-decoration-none text-dark">
             <div className="subjectLink d-flex ownShadow mt-3 " data-aos="fade-up" data-aos-duration="1000">
-              <img src="/img/socialesIcon.png" alt="" className="w-25 pe-2" />
+              <img src="/img/socialesIcon.png" alt="Sociales ícono" className="w-25 pe-2" />
               <h2 className="pt-4 ps-2">D. económicas</h2>
             </div>
           </Link>
 
           <Link to="/movimientos-armados" className="link-secondary text-decoration-none text-dark">
             <div className="subjectLink d-flex ownShadow mt-3" data-aos="fade-up" data-aos-duration="1000">
-              <img src="/img/socialesIcon.png" alt="" className="w-25 pe-2" />
+              <img src="/img/socialesIcon.png" alt="Sociales ícono" className="w-25 pe-2" />
               <h2 className="pt-4 ps-2">M. armados</h2>
             </div>
           </Link>
 
           <Link to="/movimientos-sociales" className="link-secondary text-decoration-none text-dark">
             <div className="subjectLink d-flex ownShadow mt-3" data-aos="fade-up" data-aos-duration="1000">
-              <img src="/img/socialesIcon.png" alt="" className="w-25 pe-2" />
+              <img src="/img/socialesIcon.png" alt="Sociales ícono" className="w-25 pe-2" />
               <h2 className="pt-4 ps-2">M. sociales</h2>
             </div>
           </Link>

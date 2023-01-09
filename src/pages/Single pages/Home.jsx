@@ -13,7 +13,7 @@ export const Home = () => {
             <h1>Knowty</h1>
             <p>Somos un equipo de estudiantes con el fin de aportar a los alumnos. Es hora de adentrarse en las fauces del conocimiento. ¡Sé autodidacta con Knowty!</p>
           </div>
-          <img src="/img/homeImg.svg" alt="" />
+          <img src="/img/homeImg.svg" alt="home" />
         </div>
       </section>
 

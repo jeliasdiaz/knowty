@@ -50,22 +50,22 @@ export const SecondTrigonometryPeriod = () => {
                         <CollapseTitle name="Clasificación de triángulos" id="#clasificacionTriangulos" />
                         <div className="collapse" id="clasificacionTriangulos">
                             <h2>Clasificación de triángulos</h2>
-                            <img src="/img/trianguloEquilatero.svg" alt="" className="w-25 rounded-3" />
+                            <img src="/img/trianguloEquilatero.svg" alt="Triangulo equilatero" className="w-25 rounded-3" />
                             <p><b>Equilatero:</b> todos sus lados poseen la misma medida.</p>
 
-                            <img src="/img/trianguloIsoceles.svg" alt="" className="w-25 rounded-3" />
+                            <img src="/img/trianguloIsoceles.svg" alt="Triangulo isoceles" className="w-25 rounded-3" />
                             <p><b>Isóceles:</b> Dos de sus lados poseen la misma medida.</p>
 
-                            <img src="/img/trianguloEscaleno.svg" alt="" className="w-25 rounded-3" />
+                            <img src="/img/trianguloEscaleno.svg" alt="Triangulo escaleno" className="w-25 rounded-3" />
                             <p><b>Escaleno:</b> La medida de todos sus lados es diferente.</p>
 
-                            <img src="/img/trianguloAcutangulo.svg" alt="" className="w-25 rounded-3" />
+                            <img src="/img/trianguloAcutangulo.svg" alt="Triangulo acutangulo" className="w-25 rounded-3" />
                             <p><b>Acutángulo:</b> Todos sus ángulos internos son agudos(menores a 90°) </p>
 
-                            <img src="/img/trianguloObtuso.svg" alt="" className="w-25 rounded-3" />
+                            <img src="/img/trianguloObtuso.svg" alt="Triangulo obtuso" className="w-25 rounded-3" />
                             <p><b>Obtusángulo:</b> Posee un ángulo obtuso (mayor a 90° y menor a 180°)</p>
 
-                            <img src="/img/trianguloRectangulo.svg" alt="" className="w-25 rounded-3" />
+                            <img src="/img/trianguloRectangulo.svg" alt="Triangulo rectangulo" className="w-25 rounded-3" />
                             <p><b>Rectángulo:</b> Posee un ángulo recto (90°)</p>
 
                             <h3>Nota</h3>
@@ -169,8 +169,6 @@ export const SecondTrigonometryPeriod = () => {
 
                     </div>
                 </div>
-
-
             </div>
         </div>
     )
