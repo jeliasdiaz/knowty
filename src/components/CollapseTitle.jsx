@@ -4,7 +4,7 @@ const CollapseTitle = ({ name, id }) => {
     const [IsClicked, setIsClicked] = useState(false)
 
     const HandleArrow = () => {
-        IsClicked  ? setIsClicked(false) : setIsClicked(true)
+        setIsClicked(!IsClicked)
     }
     return (
         <div className="d-flex collapseTitle mb-2 align-items-center" data-bs-toggle="collapse" href={id} role="button" onClick={HandleArrow}>
