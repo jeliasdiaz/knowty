@@ -2,6 +2,7 @@ import Latex from "react-latex"
 import { TrigonometryNav } from "./TrigonometryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
+import MoreBtn from "../../components/MoreBtn";
 
 export const ThirdTrigonometryPeriod = () => {
 
@@ -90,7 +91,7 @@ export const ThirdTrigonometryPeriod = () => {
                             Usamos arcoseno (sen <sup>-1</sup>) para "cancelar" el seno al lado de theta, de forma que el resultado es: <br />
                             <Latex>{leySenoSix}</Latex><br /><Latex>{leySenoSeven}</Latex><br /><br />
 
-                            <button className="btn btn-secondary"><a href="https://youtu.be/8T45M-Kv88I" className="text-decoration-none text-white">Profundizar</a></button> <br /> <br />
+                            <MoreBtn url="https://youtu.be/8T45M-Kv88I" />
                         </p>
                         </div>
                         <hr />
@@ -119,7 +120,7 @@ export const ThirdTrigonometryPeriod = () => {
                             <Latex>{leyCosenoEight}</Latex><br />
                 
                         </p>
-                            <button className="btn btn-secondary"><a href="https://youtu.be/BALWWfhnvVc" className="text-decoration-none text-white">Profundizar</a></button>
+                            <MoreBtn url="https://youtu.be/BALWWfhnvVc" />
                         </div>
                     </div>
                 </div>

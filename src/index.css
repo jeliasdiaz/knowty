@@ -8,6 +8,7 @@ body {
   background: rgb(6, 122, 255);
   color: white;
 }
+
 /** Global elements */
 .ownShadow {
   box-shadow: 0 0.5rem 1rem rgba(10, 6, 6, 0.15);

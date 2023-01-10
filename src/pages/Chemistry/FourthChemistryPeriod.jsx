@@ -2,6 +2,7 @@ import Latex from "react-latex"
 import { ChemistryNav } from "./ChemistryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
+import MoreBtn from "../../components/MoreBtn";
 const FourthChemistryPeriod = () => {
 
     const purezaReactivo = `$$SP = \\large \\frac{SI \\ \\cdot \\ \\%P}{100}$$`
@@ -28,7 +29,7 @@ const FourthChemistryPeriod = () => {
 
                                 Por ejemplo, parar hacer perros calientes tenemos 10 salchichas y 14 panes. Si deseamos armar la máxima cantidad de perros (10) notaremos que nos sobran cuatro panes, de modo que el reactivo límite son las salchichas, puesto que limitan la cantidad de perros que podemos hacer, mientras que el reactivo en exceso corresponde a los panes, debido a que se presentan en mayor cantidad, es decir, sobran.</p>
 
-                            <button className="btn btn-secondary"><a href="https://youtu.be/B-d5vKJBx-E?t=60" className="text-decoration-none text-white">Profundizar</a></button> <br /><br />
+                            <MoreBtn url="https://youtu.be/B-d5vKJBx-E" />
 
                             <h3>Practica</h3>
                             <p>Con base a la siguiente ecuación, halla el reactivo límite y en exceso. Teniendo 10.5 gr de P y 22.27 gr O2</p>
@@ -58,7 +59,7 @@ const FourthChemistryPeriod = () => {
                             <p>
                                 Por otra parte, la pureza también es definida como cantidad de sustancia que se ha determinado que existe en una muestra dada de tal sustancia. Esto es, si tenemos cafeína al 80% quiere decir que hay 80 gramos de cafeína de 100 gramos, pues los otros 20 gramos corresponden a las impurezas.
                             </p>
-                            <button className="btn btn-secondary"><a href="https://youtu.be/B-d5vKJBx-E?t=259" className="text-decoration-none text-white">Profundizar</a></button><br /><br />
+                            <MoreBtn url="https://youtu.be/B-d5vKJBx-E" />
 
                             <h3>Practica</h3>
                             <p>Halla la pureza del fósforo y oxígeno diatómico</p>

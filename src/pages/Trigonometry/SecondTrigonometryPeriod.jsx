@@ -2,6 +2,7 @@ import Latex from "react-latex"
 import { TrigonometryNav } from "./TrigonometryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
+import MoreBtn from "../../components/MoreBtn";
 
 export const SecondTrigonometryPeriod = () => {
 
@@ -114,7 +115,7 @@ export const SecondTrigonometryPeriod = () => {
                                 </div>
                             </div>
 
-                            <button className="btn btn-secondary"><a href="https://youtu.be/wSw1CzVtuQk?list=PLVkfzhBCZCW172VWuZUrqztV_nTLTazk0" className="text-decoration-none text-white">Profundizar</a></button><br /><br />
+                            <MoreBtn url="https://youtu.be/wSw1CzVtuQk?list=PLVkfzhBCZCW172VWuZUrqztV_nTLTazk0" />
                             <br /><br />
                             <h3>Razones trigonométricas para ángulos notables</h3>
                             <table className="table table-bordered table-hover text-end">

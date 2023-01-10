@@ -5,9 +5,10 @@ import { IoCaretBackCircle } from "react-icons/io5";
 import { BiSearch } from "react-icons/bi";
 import { HiMoon } from "react-icons/hi2";
 import { HiSun } from "react-icons/hi2";
-import { FaMicroblog } from "react-icons/fa";
+import { FaLightbulb } from "react-icons/fa";
 import "./Navbar.css"
 import { useEffect, useState } from "react";
+import NavIcon from "./NavIcon";
 
 export const Navbar = () => {
   // toggle theme
@@ -31,20 +32,32 @@ export const Navbar = () => {
   const location = useLocation()
 
   return (
-    
+
     <>
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container-fluid container">
           <NavLink to="/" className="text-decoration-none bg-transparent"><img src="/img/logo.svg" alt="" className="navbar-brand" /></NavLink>
 
           <div className="navbar-nav ownShadow rounded p-1">
-            <NavLink to="/info"><MdInfo size={38} className="navBtn" /></NavLink>
+            <div className="d-none d-sm-flex">
+              <NavIcon path="/info" icon={<MdInfo size={38} className="navBtn" />} tooltipContent="Información" tooltipId="Informacion" />
 
-            <NavLink to="/"><AiFillHome size={38} className="navBtn" /></NavLink>
+              <NavIcon path="/" icon={<AiFillHome size={38} className="navBtn" />} tooltipContent="Inicio" tooltipId="inicio" />
 
-            <NavLink to="/buscar"><BiSearch size={38} className="navBtn Search" /></NavLink>
+              <NavIcon path="/buscar" icon={<BiSearch size={38} className="navBtn Search" />} tooltipContent="Buscar" tooltipId="buscar" />
 
-            <NavLink to="/blog"><FaMicroblog size={36} className="navBtn" /></NavLink>
+              <NavIcon path="/blog" icon={<FaLightbulb size={36} className="navBtn" />} tooltipContent="Ideas" tooltipId="ideas" />
+            </div>
+
+            <div className="d-flex d-sm-none">
+              <NavLink to="/info"><MdInfo size={38} className="navBtn" /></NavLink>
+
+              <NavLink to="/"><AiFillHome size={38} className="navBtn" /></NavLink>
+
+              <NavLink to="/buscar"><BiSearch size={38} className="navBtn Search" /></NavLink>
+
+              <NavLink to="/blog"><FaLightbulb size={36} className="navBtn" /></NavLink>
+            </div>
 
             {
               Icon
@@ -53,9 +66,9 @@ export const Navbar = () => {
                 :
                 <HiMoon size={38} className="navBtn HiMoon" onClick={function () { toggleTheme(); toggleIcon() }} />
             }
-            
+
             {
-              location.pathname === "/" ? '' : <span onClick={() => navigate(-1)} className="navBtn"><IoCaretBackCircle size={38} className="navBtn" /></span>
+              location.pathname === "/" ? '' : <span onClick={() => navigate(-1)} className="navBtn"><IoCaretBackCircle size={38} data-aos="fade-left" data-aos-duration="600"/></span>
             }
           </div>
         </div>

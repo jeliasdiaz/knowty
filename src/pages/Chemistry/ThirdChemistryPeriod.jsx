@@ -2,6 +2,7 @@ import { ChemistryNav } from "./ChemistryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import Latex from "react-latex";
 import CollapseTitle from "../../components/CollapseTitle";
+import MoreBtn from "../../components/MoreBtn";
 
 const ThirdChemistryPeriod = () => {
 
@@ -295,7 +296,8 @@ const ThirdChemistryPeriod = () => {
 
                 Es decir, nos queda tal que, dos aluminios, dos hidrógenos y dos cloros por parte tanto de reactivos como de productos.
               </p>
-              <button className="btn btn-secondary"><a href="https://youtu.be/tX-JRR53Dms" className="text-decoration-none text-white">Profundizar</a></button> <br /> <br />
+              
+              <MoreBtn url="https://youtu.be/tX-JRR53Dms" />
 
 
               <h4>Balanceo por método algebraico</h4>
@@ -327,7 +329,7 @@ const ThirdChemistryPeriod = () => {
                 <Latex>{metodoAlgebraicoEjemploSix}</Latex><br />
               </p>
 
-              <button className="btn btn-secondary"><a href="https://youtu.be/MUukx4RlWmw" className="text-decoration-none text-white">Profundizar</a></button> <br /> <br />
+              <MoreBtn url="https://youtu.be/MUukx4RlWmw" />
 
               <h4>Balanceo por método óxido reducción</h4>
               <p>
@@ -352,7 +354,7 @@ const ThirdChemistryPeriod = () => {
                 Para comprender mejor esta temática, les recomiendo observar nuestros videos, especialmente el método redox, debido a que es más complejo.
               </p>
 
-              <button className="btn btn-secondary"><a href="https://youtu.be/bQ0MwYR0oio" className="text-decoration-none text-white">Profundizar</a></button>
+              <MoreBtn url="https://youtu.be/bQ0MwYR0oio" />
             </div>
             <hr />
 
@@ -400,7 +402,7 @@ const ThirdChemistryPeriod = () => {
                 Identificamos lo que nos piden, de modo que el fósforo queda en el numerador y el óxido de fósforo en el denominador. Posteriormente, aplicamos el mismo proceso de gramo - mol, multiplicamos la fracción por otra, cuyo numerador será un mol de óxido de fósforo, el denominador será el peso molecular de tal ecuación. Después, multiplicamos esta fracción por otra, cuyo denominador es un mol de fósforo y en el numerador el peso atómico del mismo. Luego, será multiplicado por 200 gr de óxido de fósforo.
               </p>
 
-              <button className="btn btn-secondary"><a href="https://youtu.be/hi0aTzsOZjI" className="text-decoration-none text-white">Profundizar</a></button> <br /> <br />
+              <MoreBtn url="https://youtu.be/bQ0MwYR0oio" />
 
              button <h3>Practica</h3>
               <p>

@@ -1,5 +1,6 @@
 import { GeometryNav } from "./GeometryNav"
 import { SectionTitle } from "../../components/SectionTitle";
+import MoreBtn from "../../components/MoreBtn";
 
 export const Parable = () => {
 
@@ -53,7 +54,7 @@ export const Parable = () => {
                     <p>(x + 4)<sup>2</sup> = 8(y - 2) <br /> v = (-4,2) <br /> F = (h, p + k)</p>
                     <img src="/img/geometriaParabola-2.png" alt="Parabola dos" className="w-75 rounded-3" /><br /> <br />
 
-                    <button className="btn btn-secondary"><a href="https://youtu.be/QIzI_7OZ6y0" className="text-decoration-none text-white">Profundizar</a></button>
+                    <MoreBtn url="https://youtu.be/QIzI_7OZ6y0" /> 
                 </div>
             </div>
         </div>

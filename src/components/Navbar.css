@@ -22,6 +22,7 @@
 }
 .navBtn {
   transition: all 0.2s;
+  transition-timing-function: ease-in;
 }
 .navBtn:hover {
   cursor: pointer;
@@ -67,7 +68,7 @@
     padding-top: 3% !important;
   }
   .navbar-brand {
-    width: 10%;
+    width: 2.6rem !important;
   }
   .backHoverColor {
     color: black;

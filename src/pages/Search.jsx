@@ -13,7 +13,7 @@ function Search() {
   const handleFilter = (event) => {
     const searchWord = event.target.value;
     setSearchTerm(searchWord);
-    const newFilter = data.filter(value => value.name.toLowerCase().startsWith(searchWord.toLowerCase()));
+    const newFilter = data.filter(value => value.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").startsWith(searchWord.toLowerCase()));
     setFilteredData(searchWord ? newFilter : []);
   };
 

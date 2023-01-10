@@ -1,6 +1,7 @@
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav.jsx";
 import { SectionTitle } from "../../components/SectionTitle";
+import MoreBtn from "../../components/MoreBtn.jsx";
 
 export const Cinematic = () => {
 
@@ -78,7 +79,7 @@ export const Cinematic = () => {
                         <h6>Velocidad</h6>
                         <Latex>{mruTwo}</Latex><br /><br />
 
-                        <button className="btn btn-secondary"><a href="https://youtu.be/q44bP7xo2QM" className="text-decoration-none text-white">Profundizar</a></button>
+                        <MoreBtn url="https://youtu.be/q44bP7xo2QM" />
 
                         <hr />
 
@@ -92,7 +93,7 @@ export const Cinematic = () => {
                         <h6>Aceleración</h6>
                         <Latex>{mruaThree}</Latex><br /><br />
 
-                        <button className="btn btn-secondary"><a href="https://youtu.be/q44bP7xo2QM" className="text-decoration-none text-white">Profundizar</a></button>
+                        <MoreBtn url="https://youtu.be/q44bP7xo2QM" />
 
 
                     </div>

@@ -1,6 +1,7 @@
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav"
 import { SectionTitle } from "../../components/SectionTitle";
+import MoreBtn from "../../components/MoreBtn";
 
 const FluidMechanics = () => {
 
@@ -57,11 +58,7 @@ const FluidMechanics = () => {
                 <Latex>{teoremaBernoulli}</Latex>
                 <hr />
                 <div className="flex-1 justify-content-center">
-                    <button className="btn btn-secondary"><a href="https://youtu.be/F5s7LVa78xY" className="text-decoration-none text-white">Profundizar 1</a></button>
-
-                    <button className="btn btn-secondary mx-2"><a href="https://youtu.be/F5s7LVa78xY" className="text-decoration-none text-white">Profundizar 2</a></button>
-
-                    <button className="btn btn-secondary" id="profundizarTres"><a href="https://youtu.be/F5s7LVa78xY" className="text-decoration-none text-white">Profundizar 3</a></button>
+                    <MoreBtn url="https://youtu.be/CkZNUX-5rMY"/>
                 </div>
             </div>
         </div>

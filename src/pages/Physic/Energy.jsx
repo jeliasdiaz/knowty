@@ -1,5 +1,6 @@
 import { PhysicNav } from "./PhysicNav"
 import { SectionTitle } from "../../components/SectionTitle";
+import MoreBtn from "../../components/MoreBtn";
 const  Latex = require("react-latex")
 
 export const Energy = () => {
@@ -51,7 +52,7 @@ export const Energy = () => {
                     <br />
                     Si a es mayor a 90°; el trabajo es negativo (fuerzas en dirección opuesta)
                 </p>
-                <button className="btn btn-secondary"><a href="https://youtu.be/JJt-bwQMJck?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
+                <MoreBtn url="https://youtu.be/JJt-bwQMJck" />
 
 
                 <hr  />
@@ -59,7 +60,7 @@ export const Energy = () => {
                 <Latex>
                     {potencia}
                 </Latex><br /><br />
-                <button className="btn btn-secondary"><a href="https://youtu.be/JJt-bwQMJck?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
+                <MoreBtn url="https://youtu.be/JJt-bwQMJck" />
 
 
                 <hr  />
@@ -67,7 +68,7 @@ export const Energy = () => {
                 <Latex>
                     {rendimiento}
                 </Latex><br /><br />
-                <button className="btn btn-secondary"><a href="https://youtu.be/JJt-bwQMJck?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
+                <MoreBtn url="https://youtu.be/JJt-bwQMJck" />
 
 
                 <hr  />
@@ -75,7 +76,7 @@ export const Energy = () => {
                 <Latex>
                     {energiaCinetica}
                 </Latex><br /><br />
-                <button className="btn btn-secondary"><a href="https://youtu.be/wnXnqtrAQGM?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
+                <MoreBtn url="https://youtu.be/wnXnqtrAQGM" />
 
                 <hr  />
                 <h5>Extra</h5>
@@ -91,12 +92,12 @@ export const Energy = () => {
                 <hr  />
                 <h4>Energía potencial gravitatoria</h4>
                 <Latex>{energiaGravitatoria}</Latex><br /><br />
-                <button className="btn btn-secondary"><a href="https://youtu.be/wtlJS3cPkG8?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
+                <MoreBtn url="https://youtu.be/wtlJS3cPkG8" />
 
                 <hr  />
                 <h4>Energía potencial elástica</h4>
                 <Latex>{energiaElastica}</Latex><br /><br />
-                <button className="btn btn-secondary"><a href="https://youtu.be/lRc5kPcbjoI?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
+                <MoreBtn url="https://youtu.be/lRc5kPcbjoI" />
 
                 <hr  />
                 <h4>Energía mecánica</h4>
@@ -105,13 +106,13 @@ export const Energy = () => {
                 <hr  />
                 <h4>Conservación de la energía</h4>
                 <Latex>{conservacionEnergia}</Latex><br /><br />
-                <button className="btn btn-secondary mt-2"><a href="https://youtu.be/L_MBur9Swlo?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
+                <MoreBtn url="https://youtu.be/L_MBur9Swlo" />
 
                 <hr  />
                 <h4>Cantidad de movimiento</h4>
                 <Latex>{cantidadMovimiento}</Latex><br />
                 <p>ρ = Rho (letra griega cuyo significado es momentum)</p>
-                <button className="btn btn-secondary"><a href="https://youtu.be/gHu4dVBvurQ?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
+                <MoreBtn url="https://youtu.be/gHu4dVBvurQ" />
 
                 <hr  />
                 <h4>Energía cinética según la cantidad de movimiento</h4>
@@ -125,13 +126,13 @@ export const Energy = () => {
                 <h4>Colisiones elásticas</h4>
                 <Latex>{colisionesElasticasOne}</Latex> <br /> <br />
                 <Latex>{colisionesElasticasTwo}</Latex> <br /><br />
-                <button className="btn btn-secondary"><a href="https://youtu.be/i59oKp32JxA?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
+                <MoreBtn url="https://youtu.be/i59oKp32JxA" />
 
                 <hr  />
                 <h4>Colisiones inelásticas</h4>
                 <Latex>{colisionesInelasticasOne}</Latex><br /><br />
                 <Latex>{colisionesInelasticasTwo}</Latex><br /><br />
-                <button className="btn btn-secondary"><a href="https://youtu.be/i59oKp32JxA?list=PLVkfzhBCZCW1E3k0Qc1h4piYRLO9EM4Ij" className="text-decoration-none text-white">Profundizar</a></button>
+                <MoreBtn url="https://youtu.be/i59oKp32JxA" />
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 import { PhysicNav } from "./PhysicNav.jsx";
 import { SectionTitle } from "../../components/SectionTitle";
+import MoreBtn from "../../components/MoreBtn.jsx";
 
 export const Dinamic = () => {
     return (
@@ -26,7 +27,7 @@ export const Dinamic = () => {
                     </p>
 
                     <div>
-                        <button className="btn btn-secondary"><a href="https://youtu.be/F5s7LVa78xY" className="text-decoration-none text-white">Profundizar</a></button>
+                        <MoreBtn url="https://youtu.be/F5s7LVa78xY" />
 
                     </div>
                 </div>

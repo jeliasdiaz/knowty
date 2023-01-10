@@ -1,5 +1,6 @@
 import Latex from "react-latex"
 import CollapseTitle from "../../components/CollapseTitle";
+import MoreBtn from "../../components/MoreBtn";
 import { SectionTitle } from "../../components/SectionTitle";
 
 export const Statistic = () => {
@@ -55,7 +56,6 @@ export const Statistic = () => {
           <div>
             <CollapseTitle name="Regla de tres simple" id="#reglaTresSimple" />
             <div className="collapse"  id="reglaTresSimple">
-              <h2>Regla de 3 simple</h2>
               <h5>Directa</h5>
               <p>Los datos están correlacionados, de tal forma que cuando aumenta una magnitud también lo hace la otra.</p>
               <h6>Fórmula</h6>
@@ -82,7 +82,7 @@ export const Statistic = () => {
                 <img src="/img/regla-3-inversa-ejemplo.jpg" alt="regla de tres inversa ejemplo" className="reglaTres rounded-3" /> <br /><br />
                 <Latex>{reglaTresInversaEjemplo}</Latex>
               </p> <br />
-              <button className="btn btn-secondary"><a href="https://youtu.be/-HORSa7OGzY" className="text-decoration-none text-white">Profundizar</a></button> <br /> <br />
+              <MoreBtn url="https://youtu.be/-HORSa7OGzY" />
 
               <h6>Explicación</h6>
               <p>
@@ -230,7 +230,7 @@ export const Statistic = () => {
               <img src="/img/campanaGauss.png" alt="Campana de Gauss" className="estequiometriaImg rounded-3" /> <br /> <br />
               <p>Con base a la información, tenemos una asimetría negativa debido a que la media es menor que la mediana.</p>
 
-              <button className="btn btn-secondary"><a href="https://youtu.be/q44bP7xo2QM" className="text-decoration-none text-white">Profundizar</a></button>
+              <MoreBtn url="https://youtu.be/q44bP7xo2QM" />
             </div>
           </div>
 

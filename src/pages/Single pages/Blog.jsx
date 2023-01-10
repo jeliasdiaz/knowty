@@ -5,7 +5,7 @@ const Blog = () => {
         <div className="blogContainer">
             <img src="/img/waveThree.svg" alt="" />
             <div className="containerCards">
-                <BlogCard title="La mejor forma de recordar" content="Sueles olvidar lo que aprendiste? Gracias al método que verás, podrás mejorar esta habilidad" to="/repeticion-espaciada" />
+                <BlogCard title="¿Sueles olvidar lo que aprendiste?" content="Entra aquí para aprender la mejor forma de recordar." />
             </div>
         </div>
     )
