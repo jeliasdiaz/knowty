@@ -61,14 +61,20 @@
   transition: all 0.2s;
 }
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 768px) {
   .navbar-expand-lg {
     padding-top: 3% !important;
   }
   .navbar-brand {
-    width: 30%;
+    width: 10%;
   }
   .backHoverColor {
     color: black;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navbar-brand {
+    width: 30%;
   }
 }

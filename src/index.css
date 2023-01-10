@@ -84,7 +84,9 @@ ul li:before {
 .sectionOneAppendOne {
   padding-top: 1em;
 }
-
+.flexHome{
+  display: flex;
+}
 /** Section 2 */
 .home-2 {
   background-color: #f6f6f6;
@@ -97,6 +99,8 @@ ul li:before {
 }
 .sectionTwoText {
   max-width: 70rem;
+  margin-left: auto;
+  margin: auto;
   padding-bottom: 2%;
 }
 .text-sectionTwo h2 {
@@ -333,6 +337,21 @@ ul li:before {
 }
 
 @media screen and (max-width: 768px) {
+  .flexHome{
+    flex-wrap: wrap;
+  }
+  .subjectLink{
+    margin-top: 5%;
+  }
+  .text-sectionTwo{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
   /** Global elements  */
   hr {
     margin-bottom: 10% !important;
