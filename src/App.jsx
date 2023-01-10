@@ -62,7 +62,7 @@ import Search from "./pages/Search";
 import Blog from "./pages/Single pages/Blog";
 import SpacedRepetition from "./pages/Blog/SpacedRepetition";
 import NotFound from "./pages/Single pages/NotFound";
-import ScrollToTop from "./pages/Single pages/ScrollToTop";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
 
@@ -70,6 +70,7 @@ function App() {
     AOS.init();
     AOS.refresh();
   }, []);
+
 
   return (
     <BrowserRouter>

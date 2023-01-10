@@ -1,4 +1,4 @@
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { AiFillHome } from "react-icons/ai";
 import { MdInfo } from "react-icons/md";
 import { IoCaretBackCircle } from "react-icons/io5";
@@ -28,8 +28,10 @@ export const Navbar = () => {
 
   // go back
   const navigate = useNavigate()
+  const location = useLocation()
 
   return (
+    
     <>
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container-fluid container">
@@ -51,8 +53,10 @@ export const Navbar = () => {
                 :
                 <HiMoon size={38} className="navBtn HiMoon" onClick={function () { toggleTheme(); toggleIcon() }} />
             }
-
-            <span onClick={() => navigate(-1)} className="navBtn"><IoCaretBackCircle size={38} className="navBtn" /></span>
+            
+            {
+              location.pathname === "/" ? '' : <span onClick={() => navigate(-1)} className="navBtn"><IoCaretBackCircle size={38} className="navBtn" /></span>
+            }
           </div>
         </div>
       </nav>

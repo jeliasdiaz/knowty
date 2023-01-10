@@ -75,7 +75,7 @@
 }
 .dark .infoTitle {
   background-color: #28292a;
-  transition: all 0.5s;
+  color: #2b7ea1;
 }
 .dark .cardsInfoSection {
   background-color: #121212;

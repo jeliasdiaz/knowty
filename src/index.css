@@ -180,7 +180,7 @@ ul li:before {
 }
 .pagination li a:hover {
   background-color: #bfdfed;
-  color: #fff !important;
+  color: black !important;
 }
 .pagination li:before {
   content: none;

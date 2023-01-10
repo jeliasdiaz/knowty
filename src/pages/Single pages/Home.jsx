@@ -11,7 +11,7 @@ export const Home = () => {
         <div className="sectionOne flex-1 container">
           <div className="sectionOneAppendOne user-select-none  " data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
             <h1>Knowty</h1>
-            <p>Somos un equipo de estudiantes con el fin de aportar a los alumnos. Es hora de adentrarse en las fauces del conocimiento. ¡Sé autodidacta con Knowty!</p>
+            <p>De estudiantes, para estudiantes. Es hora de adentrarse en las fauces del conocimiento. ¡Sé autodidacta con Knowty!</p>
           </div>
           <img src="/img/homeImg.svg" alt="home" />
         </div>
@@ -32,42 +32,42 @@ export const Home = () => {
               </div>
 
               <div className="subjectsContainer d-none d-sm-block" >
-                <div className="d-flex">
-                  <SubjectCard path="estadistica" img="estadistica" title="Estadística" />
+                <div className="d-flex gap-3">
+                  <SubjectCard path="/estadistica" img="estadistica" title="Estadística" />
 
-                  <SubjectCard path="cinematica" img="fisica" title="Física" settingOne="ps-3" />
+                  <SubjectCard path="/cinematica" img="fisica" title="Física" />
                 </div>
 
-                <div className="d-flex">
-                  <SubjectCard path="recta" img="geometria" title="Geometría" settingTwo="mt-3" />
+                <div className="d-flex gap-3 mt-3">
+                  <SubjectCard path="/recta" img="geometria" title="Geometría"  />
 
-                  <SubjectCard path="ingles" img="english" title="Inglés" settingOne="ps-3" settingTwo="mt-3" />
+                  <SubjectCard path="/ingles" img="english" title="Inglés"  />
                 </div>
 
-                <div className="d-flex">
-                  <SubjectCard path="quimica_1" img="quimica" title="Química" settingTwo="mt-3" />
+                <div className="d-flex gap-3 mt-3">
+                  <SubjectCard path="/quimica_1" img="quimica" title="Química" />
 
-                  <SubjectCard path="sociales_1" img="sociales" title="Sociales" settingOne="ps-3" settingTwo="mt-3" />
+                  <SubjectCard path="/sociales_1" img="sociales" title="Sociales" />
                 </div>
 
-                <SubjectCard path="trigonometria_2" img="trigonometria" title="Trigonometría" settingTwo="mt-3 subjectLinkTrigonometria" />
+                <SubjectCard path="/trigonometria_2" img="trigonometria" title="Trigonometría" marginTop="mt-3 subjectLinkTrigonometria" />
               </div>
             </div>
 
             <div className="subjects d-block d-sm-none ">
-              <SubjectCard path="estadistica" img="estadistica" title="Estadística" />
+              <SubjectCard path="/estadistica" img="estadistica" title="Estadística" />
 
-              <SubjectCard path="fisica-menu" img="fisica" title="Física" settingTwo="mt-3" />
+              <SubjectCard path="/fisica-menu" img="fisica" title="Física" marginTop="mt-3" />
 
-              <SubjectCard path="geometria-menu" img="geometria" title="Geometría" settingTwo="mt-3" />
+              <SubjectCard path="/geometria-menu" img="geometria" title="Geometría" marginTop="mt-3" />
 
-              <SubjectCard path="ingles" img="english" title="Inglés" settingTwo="mt-3" />
+              <SubjectCard path="/ingles" img="english" title="Inglés" marginTop="mt-3" />
 
-              <SubjectCard path="quimica-menu" img="quimica" title="Química" settingTwo="mt-3" />
+              <SubjectCard path="/quimica-menu" img="quimica" title="Química" marginTop="mt-3" />
 
-              <SubjectCard path="sociales-menu" img="sociales" title="Sociales" settingTwo="mt-3" />
+              <SubjectCard path="/sociales-menu" img="sociales" title="Sociales" marginTop="mt-3" />
 
-              <SubjectCard path="trigonometria-menu" img="trigonometria" title="Trigonometría" settingTwo="mt-3" />
+              <SubjectCard path="/trigonometria-menu" img="trigonometria" title="Trigonometría" marginTop="mt-3" />
             </div>
           </div>
         </div>

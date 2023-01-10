@@ -8,7 +8,6 @@ import MembersCard from "./MembersCard";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
-
   const date = new Date()
   const currentYear = date.getFullYear()
 
@@ -18,34 +17,34 @@ export const Footer = () => {
         <div className="textFooter d-none d-md-block d-lg-block">
           <h1>Knowty</h1>
           <div className="d-flex justify-content-center">
-            <MembersCard name="Jose Díaz" description="Creador del proyecto y página. Creador de contenido para YouTube" icon={<AiFillYoutube size={36} />} iconTwo={<FaDev size={34} />} />
+            <MembersCard name="Jose Díaz" description="Creador del proyecto, página y contenido para YouTube." icon={<AiFillYoutube size={36} />} iconTwo={<FaDev size={34} />} />
 
-            <MembersCard name="Wilmar Fontalvo" description="Creador de videos y encargado principal de YouTube" icon={<AiFillYoutube size={36} />} />
+            <MembersCard name="Wilmar Fontalvo" description="Creador de videos y encargado principal de YouTube." icon={<AiFillYoutube size={36} />} />
             
-            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página" icon={<BsMegaphoneFill size={34} />}/>
+            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página." icon={<BsMegaphoneFill size={34} />}/>
 
-            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto" icon={<BsMegaphoneFill size={34} />}/>
+            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto." icon={<BsMegaphoneFill size={34} />}/>
 
-            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube" icon={<AiFillYoutube size={36} />}/>
+            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube." icon={<AiFillYoutube size={36} />}/>
           </div>
         </div>
 
         <div className="textFooter d-block d-sm-none">
           <h1>Knowty</h1>
           <div className="d-flex">
-            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube" icon={<AiFillYoutube size={36} />} />
+            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube." icon={<AiFillYoutube size={36} />} />
 
-            <MembersCard name="Wilmar Fontalvo" description="Creador de videos y encargado principal de YouTube" icon={<AiFillYoutube size={36} />} />
+            <MembersCard name="Wilmar Fontalvo" description="Creador de videos y encargado principal de YouTube." icon={<AiFillYoutube size={36} />} />
           </div>
 
           <div>
-            <MembersCard name="Jose Díaz" description="Creador del proyecto y página. Creador de contenido para YouTube" icon={<AiFillYoutube size={36} />} iconTwo={<FaDev size={34} />} optionalClass="pt-4 w-75 mx-auto "/>
+            <MembersCard name="Jose Díaz" description="Creador del proyecto y página. Creador de contenido para YouTube." icon={<AiFillYoutube size={36} />} iconTwo={<FaDev size={34} />} optionalClass="pt-4 w-75 mx-auto "/>
           </div>
 
           <div className="d-flex">
-            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página" icon={<BsMegaphoneFill size={34} />} />
+            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página." icon={<BsMegaphoneFill size={34} />} />
 
-            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto" icon={<BsMegaphoneFill size={34} />} />
+            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto." icon={<BsMegaphoneFill size={34} />} />
           </div>
         </div>
       </div>
@@ -55,15 +54,15 @@ export const Footer = () => {
           <div class="mb-3">
             <h3 className="contactUs">¡Contactanos!</h3>
             <div className="d-flex gap-2 ">
-              <div className="footerIcons ownShadow">
-                <a href="mailto:knowtyinfo@gmail.com"><SiGmail size={30} /></a>
-              </div>
-              <div className="footerIcons ownShadow">
-                <a href="https://www.youtube.com/@formuapp1757"><AiFillYoutube size={30} /></a>
-              </div>
-              <div className="footerIcons ownShadow">
-                <a href="https://www.instagram.com/formuapp2022/"><FaInstagram size={30} /></a>
-              </div>
+              <a href="mailto:knowtyinfo@gmail.com" target="_blank" rel="noreferrer" className="footerIcons ownShadow">  
+                <div><SiGmail size={30} /></div>
+              </a>
+              <a href="https://www.youtube.com/@formuapp1757" target="_blank" rel="noreferrer" className="footerIcons ownShadow">
+                <div><AiFillYoutube size={30} /></div>
+              </a>
+              <a href="https://www.instagram.com/formuapp2022/" target="_blank" rel="noreferrer" className="footerIcons ownShadow">
+                <div><FaInstagram size={30} /></div>
+              </a>
             </div>
           </div>
 
