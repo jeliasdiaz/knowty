@@ -43,8 +43,8 @@ input:focus {
   transition: all 0.2s;
 }
 .dataItem:hover {
-  color: #2b7ea1;
-  transition: color 0.2s;
+  background-color: #bfdfed;
+  color: #fefefe;
 }
 .CardImg {
   width: 28%;

@@ -49,9 +49,9 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div class="footerContainer">
-        <div class="d-flex justify-content-between">
-          <div class="mb-3">
+      <div className="footerContainer">
+        <div className="d-flex justify-content-between">
+          <div className="mb-3">
             <h3 className="contactUs">¡Contactanos!</h3>
             <div className="d-flex gap-2 ">
               <a href="mailto:knowtyinfo@gmail.com" target="_blank" rel="noreferrer" className="footerIcons ownShadow">  
@@ -77,7 +77,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div class="d-flex border-top copyright">
+        <div className="d-flex border-top copyright">
           <p>Copyright &copy; 2022 - {currentYear} Knowty.</p>
         </div>
       </div>

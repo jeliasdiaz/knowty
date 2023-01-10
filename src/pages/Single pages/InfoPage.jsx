@@ -6,14 +6,15 @@ export const InfoPage = () => {
                 <h2 className="ownShadow-lg m-auto infoTitle">¿Quiénes somos?</h2>
                 <img src="/img/logo.svg" alt="" className="ImgInfo" data-aos="fade-in" data-aos-duration="600" data-aos-once="true" />
             </div>
-            <div className="flex-1 justify-content-center cardsInfoSection pb-5">
+            <div className="flex-1 cardsInfoSection">
                 <div className="cardInfo ownShadow" data-aos="zoom-in" data-aos-duration="1200" data-aos-once="true">
                     <h3>Misión</h3>
-                    <p>Como grupo, buscamos contribuir a la comunidad educativa a través de recursos educativos de autoría propia, que conceden exclusividad y calidad; con el objetivo de apoyar y contribuir a los estudiantes en su proceso de formación.</p>
+                    <p>Este proyecto surge y existe con el objetivo de lograr que los alumnos mejoren su desempeño académico, a través de contenido educativo, diseñado para facilitar la comprensión de temáticas por parte de los estudiantes.</p>
                 </div>
                 <div className="cardInfo ownShadow" data-aos="zoom-in" data-aos-duration="1200" data-aos-once="true">
                     <h3>Visión</h3>
-                    <p>Proyectamos contribuir al desarrollo académico de las próximas generaciones de alumnos; en aras de aportar herramientas que faciliten el aprendizaje y formación de los estudiantes. </p>
+                    <p>Knowty será una de las páginas educativas más usadas por los estudiantes en el colegio Metropolitano de Soledad 2000, brindando información de calidad clara y concisa. A través de la cual, alumnos podrán mejorar su desempeño académico.</p>
+
                 </div>
                 <div className="cardInfo ownShadow" data-aos="zoom-in" data-aos-duration="1200" data-aos-once="true">
                     <h3>Un poco de historia</h3>

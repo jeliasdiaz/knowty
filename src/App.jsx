@@ -84,7 +84,6 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/repeticion-espaciada" element={<SpacedRepetition />} />
 
-
           <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
           <Route path="/quimica_2" element={<SecondChemistryPeriod />} />
           <Route path="/quimica" element={<ThirdChemistryPeriod />} />
