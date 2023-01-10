@@ -148,6 +148,11 @@
   color: white;
 }
 
+/** Not Found */
+.dark .notFoundContainer {
+  background-color: #121212;
+  color: #fefefe;
+}
 
 /**  Shadows */
 .dark .ownShadow, .ownShadow-lg {

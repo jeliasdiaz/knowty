@@ -62,6 +62,7 @@ import Search from "./pages/Search";
 import Blog from "./pages/Single pages/Blog";
 import SpacedRepetition from "./pages/Blog/SpacedRepetition";
 import NotFound from "./pages/Single pages/NotFound";
+import ScrollToTop from "./pages/Single pages/ScrollToTop";
 
 function App() {
 
@@ -72,66 +73,68 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Navbar />
-      <Outlet />
+      <ScrollToTop>
+        <Navbar />
+        <Outlet />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/info" element={<InfoPage />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/repeticion-espaciada" element={<SpacedRepetition />} />
-
-
-        <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
-        <Route path="/quimica_2" element={<SecondChemistryPeriod />} />
-        <Route path="/quimica" element={<ThirdChemistryPeriod />} />
-        <Route path="/quimica_4" element={<FourthChemistryPeriod />} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/info" element={<InfoPage />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/repeticion-espaciada" element={<SpacedRepetition />} />
 
 
-        <Route path="/ingles" element={<English />} />
+          <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
+          <Route path="/quimica_2" element={<SecondChemistryPeriod />} />
+          <Route path="/quimica" element={<ThirdChemistryPeriod />} />
+          <Route path="/quimica_4" element={<FourthChemistryPeriod />} />
 
 
-        <Route path="/recta" element={<Straight />} />
-        <Route path="/circunferencia" element={<Circumference />} />
-        <Route path="/parabola" element={<Parable />} />
-        <Route path="/elipse" element={<Ellipse />} />
+          <Route path="/ingles" element={<English />} />
 
 
-        <Route path="/cinematica" element={<Cinematic />} />
-        <Route path="/dinamica" element={<Dinamic />} />
-        <Route path="/movimientocircular" element={<CircularMovement />} />
-        <Route path="/energia" element={<Energy />} />
-        <Route path="/mecanica-fluidos" element={<FluidMechanics />} />
+          <Route path="/recta" element={<Straight />} />
+          <Route path="/circunferencia" element={<Circumference />} />
+          <Route path="/parabola" element={<Parable />} />
+          <Route path="/elipse" element={<Ellipse />} />
 
 
-        <Route path="/sociales_1" element={<FirstSocialPeriod />} />
-        <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />
-        <Route path="/movimientos-armados" element={<ArmedGroups />} />
-        <Route path="/movimientos-sociales" element={<SocialMovements />} />
+          <Route path="/cinematica" element={<Cinematic />} />
+          <Route path="/dinamica" element={<Dinamic />} />
+          <Route path="/movimientocircular" element={<CircularMovement />} />
+          <Route path="/energia" element={<Energy />} />
+          <Route path="/mecanica-fluidos" element={<FluidMechanics />} />
 
 
-        <Route path="/estadistica" element={<Statistic />} />
+          <Route path="/sociales_1" element={<FirstSocialPeriod />} />
+          <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />
+          <Route path="/movimientos-armados" element={<ArmedGroups />} />
+          <Route path="/movimientos-sociales" element={<SocialMovements />} />
 
 
-        <Route path="/trigonometria_2" element={<SecondTrigonometryPeriod />} />
-        <Route path="/trigonometria" element={<ThirdTrigonometryPeriod />} />
+          <Route path="/estadistica" element={<Statistic />} />
 
 
-        <Route path="/fisica-menu" element={<PhysicMenu />} />
-        <Route path="/geometria-menu" element={<GeometryMenu />} />
-        <Route path="/quimica-menu" element={<ChemistryMenu />} />
-        <Route path="/sociales-menu" element={<SocialMenu />} />
-        <Route path="/trigonometria-menu" element={<TrigonometryMenu />} />
+          <Route path="/trigonometria_2" element={<SecondTrigonometryPeriod />} />
+          <Route path="/trigonometria" element={<ThirdTrigonometryPeriod />} />
 
 
-        <Route path="/fisica-practica" element={<PhysicPractice />} />
-        <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
+          <Route path="/fisica-menu" element={<PhysicMenu />} />
+          <Route path="/geometria-menu" element={<GeometryMenu />} />
+          <Route path="/quimica-menu" element={<ChemistryMenu />} />
+          <Route path="/sociales-menu" element={<SocialMenu />} />
+          <Route path="/trigonometria-menu" element={<TrigonometryMenu />} />
 
-        <Route path="/buscar"  element={<Search/>}/>
-        <Route path="*"  element={<NotFound />}/>
-      </Routes>
 
-      <Footer />
+          <Route path="/fisica-practica" element={<PhysicPractice />} />
+          <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
+
+          <Route path="/buscar" element={<Search />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+
+        <Footer />
+      </ScrollToTop>
     </BrowserRouter>
   );
 }

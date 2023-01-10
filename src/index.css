@@ -285,7 +285,6 @@ ul li:before {
 .blogCardImg:hover {
   opacity: 0.8;
 }
-
 .blogCardText {
   width: 22em;
   padding: 0.5em;
@@ -312,20 +311,23 @@ ul li:before {
 }
 
 /** Not Found */
-.notFoundContainer{
+.notFoundContainer {
+  background: #fff;
+}
+.notFound{
   width: 35%;
   margin: auto;
   height: 100vh;
   text-align: center;
   padding-top: 2rem;
 }
-.notFoundContainer h1{
+.notFound h1{
   font-size: 50px;
 }
-.notFoundContainer h6{
+.notFound h6{
   font-size: 24px;
 }
-.notFoundContainer p{
+.notFound p{
   text-align: justify;
   hyphens: auto;
 }
