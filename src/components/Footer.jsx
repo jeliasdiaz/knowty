@@ -38,7 +38,7 @@ export const Footer = () => {
           </div>
 
           <div>
-            <MembersCard name="Jose Díaz" description="Creador del proyecto y página. Creador de contenido para YouTube." icon={<AiFillYoutube size={36} />} iconTwo={<FaDev size={34} />} optionalClass="pt-4 w-75 mx-auto "/>
+            <MembersCard name="Jose Díaz" description="Creador del proyecto, página y contenido para YouTube." icon={<AiFillYoutube size={36} />} iconTwo={<FaDev size={34} />} optionalClass="pt-4 w-75 mx-auto "/>
           </div>
 
           <div className="d-flex">
