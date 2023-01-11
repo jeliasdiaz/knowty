@@ -1,12 +1,12 @@
 import { PhysicNav } from "./PhysicNav.jsx";
 import { SectionTitle } from "../../components/SectionTitle";
 import MoreBtn from "../../components/MoreBtn.jsx";
+import TopWave from "../../components/TopWave.jsx";
 
 export const Dinamic = () => {
     return (
         <div className="homeCard">
-            <img src="/img/waveThree.svg" alt="" />
-
+            <TopWave />
             <SectionTitle title="Dinámica" />
 
             <PhysicNav />

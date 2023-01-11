@@ -1,7 +1,9 @@
+import TopWave from "../../components/TopWave"
+
 export const InfoPage = () => {
     return (
         <div className="infoPage">
-            <img src="/img/waveThree.svg" alt="" />
+            <TopWave />
             <div className="infoOne text-center" data-aos="zoom-in" data-aos-duration="800">
                 <h2 className="ownShadow-lg m-auto infoTitle">¿Quiénes somos?</h2>
                 <img src="/img/logo.svg" alt="" className="ImgInfo" data-aos="fade-in" data-aos-duration="600" data-aos-once="true" />

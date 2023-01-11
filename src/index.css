@@ -4,11 +4,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-*::selection {
-  background: rgb(6, 122, 255);
-  color: white;
-}
-
 /** Global elements */
 .ownShadow {
   box-shadow: 0 0.5rem 1rem rgba(10, 6, 6, 0.15);
@@ -87,7 +82,7 @@ ul li:before {
 .sectionOneAppendOne {
   padding-top: 1em;
 }
-.flexHome{
+.flexHome {
   display: flex;
 }
 /** Section 2 */
@@ -143,7 +138,7 @@ ul li:before {
 }
 .subjectLink:hover {
   background-color: #bfdfed;
-  transition:  all 0.2s !important;
+  transition: all 0.2s !important;
   color: #fefefe !important;
 }
 .subjectLink h4 {
@@ -151,7 +146,7 @@ ul li:before {
 }
 .BiChevronRight {
   color: #023246 !important;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 .subjectLink:hover .BiChevronRight {
   color: #fefefe !important;
@@ -326,37 +321,36 @@ ul li:before {
 .notFoundContainer {
   background: #fff;
 }
-.notFound{
+.notFound {
   width: 35%;
   margin: auto;
   height: 100vh;
   text-align: center;
   padding-top: 2rem;
 }
-.notFound h1{
+.notFound h1 {
   font-size: 50px;
 }
-.notFound h6{
+.notFound h6 {
   font-size: 24px;
 }
-.notFound p{
+.notFound p {
   text-align: justify;
   hyphens: auto;
 }
 
 @media screen and (max-width: 768px) {
-  .flexHome{
+  .flexHome {
     flex-wrap: wrap;
   }
-  .subjectLink{
+  .subjectLink {
     margin-top: 5%;
   }
-  .text-sectionTwo{
+  .text-sectionTwo {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
-
 }
 
 @media screen and (max-width: 450px) {

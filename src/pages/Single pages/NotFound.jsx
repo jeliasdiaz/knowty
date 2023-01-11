@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
+import TopWave from "../../components/TopWave"
 
 const NotFound = () => {
   return (
     <div className="notFoundContainer">
-        <img src="/img/waveThree.svg" alt="" />
+        <TopWave />
         <div className="notFound" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
             <h1>404</h1>
             <p className="pt-4">Lo siento, puede que sea un error en la URL o esta ruta no existe. De todos modos, puedes regresar al inicio.</p>

@@ -1,6 +1,7 @@
 import Latex from "react-latex"
 import { GeometryNav } from "./GeometryNav"
 import { SectionTitle } from "../../components/SectionTitle";
+import TopWave from "../../components/TopWave";
 
 const Circumference = () => {
 
@@ -9,7 +10,7 @@ const Circumference = () => {
 
     return (
         <div className="homeCard" id="geometria">
-            <img src="/img/waveThree.svg" alt="Ola" />
+            <TopWave />
             <SectionTitle title="Circunferencia"/>
             
             <GeometryNav/>

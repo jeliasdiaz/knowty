@@ -1,10 +1,11 @@
 import CollapseTitle from "../../components/CollapseTitle";
 import { SectionTitle } from "../../components/SectionTitle";
+import TopWave from "../../components/TopWave";
 
 const English = () => {
     return (
         <div className="homeCard" id="geometria">
-            <img src="/img/waveThree.svg" alt="" />
+            <TopWave />
             <SectionTitle title="Inglés" />
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>

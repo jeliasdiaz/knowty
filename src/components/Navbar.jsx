@@ -39,7 +39,7 @@ export const Navbar = () => {
           <NavLink to="/" className="text-decoration-none bg-transparent"><img src="/img/logo.svg" alt="" className="navbar-brand" /></NavLink>
 
           <div className="navbar-nav ownShadow rounded p-1">
-            <div className="d-none d-sm-flex">
+            <div className="d-none d-sm-flex gap-1">
               <NavIcon path="/info" icon={<MdInfo size={38} className="navBtn" />} tooltipContent="Información" tooltipId="Informacion" />
 
               <NavIcon path="/" icon={<AiFillHome size={38} className="navBtn" />} tooltipContent="Inicio" tooltipId="inicio" />
@@ -49,7 +49,7 @@ export const Navbar = () => {
               <NavIcon path="/blog" icon={<FaLightbulb size={36} className="navBtn" />} tooltipContent="Ideas" tooltipId="ideas" />
             </div>
 
-            <div className="d-flex d-sm-none">
+            <div className="d-flex d-sm-none gap-1">
               <NavLink to="/info"><MdInfo size={38} className="navBtn" /></NavLink>
 
               <NavLink to="/"><AiFillHome size={38} className="navBtn" /></NavLink>
@@ -58,7 +58,7 @@ export const Navbar = () => {
 
               <NavLink to="/blog"><FaLightbulb size={36} className="navBtn" /></NavLink>
             </div>
-
+            
             {
               Icon
                 ?

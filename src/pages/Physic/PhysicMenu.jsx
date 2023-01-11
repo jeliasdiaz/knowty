@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
+import TopWave from "../../components/TopWave"
 export const PhysicMenu = () => {
   return (
     <>
       <section className="mobileMenu">
-        <img src="/img/waveThree.svg" alt="" />
+        <TopWave />
         <div className="mobileSubjectMenu">
           <Link to="/cinematica" className="link-secondary text-decoration-none text-dark">
             <div className="subjectLink d-flex ownShadow" data-aos="fade-up" data-aos-duration="1000">

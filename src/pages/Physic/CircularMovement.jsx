@@ -1,6 +1,7 @@
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav"
 import { SectionTitle } from "../../components/SectionTitle";
+import TopWave from "../../components/TopWave";
 
 export const CircularMovement = () => {
 
@@ -17,7 +18,7 @@ export const CircularMovement = () => {
     const extraTwo = `$$N_v = \\large \\frac{θ}{2π}$$`
     return (
         <div className="homeCard">
-            <img src="/img/waveThree.svg" alt="" />
+            <TopWave />
             <SectionTitle title="Movimiento circular"/>
             
             <PhysicNav/>

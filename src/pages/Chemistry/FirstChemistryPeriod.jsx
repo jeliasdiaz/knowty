@@ -2,6 +2,7 @@ import { ChemistryNav } from "./ChemistryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import Latex from "react-latex"
 import CollapseTitle from "../../components/CollapseTitle";
+import TopWave from "../../components/TopWave";
 
 const FirstChemistryPeriod = () => {
     const escalasConversionOne = "$$°C + 273$$"
@@ -14,7 +15,7 @@ const FirstChemistryPeriod = () => {
 
     return (
         <div className="homeCard" id="geometria">
-            <img src="/img/waveThree.svg" alt="Ola" />
+            <TopWave />
             <SectionTitle title="Química" />
             <ChemistryNav />
 

@@ -1,6 +1,7 @@
 import Latex from "react-latex"
 import { GeometryNav } from "./GeometryNav"
 import { SectionTitle } from "../../components/SectionTitle";
+import TopWave from "../../components/TopWave";
 
 const Ellipse = () => {
     
@@ -14,7 +15,7 @@ const Ellipse = () => {
 
     return (
         <div className="homeCard" >
-            <img src="/img/waveThree.svg" alt="Ola" />
+            <TopWave />
             <SectionTitle title="Elipse" />
             
             <GeometryNav/>

@@ -1,7 +1,9 @@
+import TopWave from "../../components/TopWave"
+
 const SpacedRepetition = () => {
   return (
     <div className="blogSectionContainer">
-      <img src="/img/waveThree.svg" alt="Ola" />
+      <TopWave />
       <div className="blogSectionContainerTwo">
         <div className="blogSection ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
           <h2 className="pb-3">La mejor forma de estudiar para examenes</h2>

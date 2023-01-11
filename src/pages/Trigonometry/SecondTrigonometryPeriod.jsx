@@ -3,6 +3,7 @@ import { TrigonometryNav } from "./TrigonometryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
 import MoreBtn from "../../components/MoreBtn";
+import TopWave from "../../components/TopWave";
 
 export const SecondTrigonometryPeriod = () => {
 
@@ -40,7 +41,7 @@ export const SecondTrigonometryPeriod = () => {
 
     return (
         <div className="homeCard">
-            <img src="/img/waveThree.svg" alt="" />
+            <TopWave />
             <SectionTitle title="Trigonometría" />
 
             <TrigonometryNav />

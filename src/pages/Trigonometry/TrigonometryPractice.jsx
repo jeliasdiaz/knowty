@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { SectionTitle } from "../../components/SectionTitle";
 import Latex from "react-latex"
+import TopWave from '../../components/TopWave';
 
 export const TrigonometryPractice = () => {
     const pitagorasExFirstOne = `$$a^2 + b^2 = c^2
@@ -60,7 +61,7 @@ export const TrigonometryPractice = () => {
 
     return (
         <div className='homeCard'>
-            <img src="/img/waveThree.svg" alt="" />
+            <TopWave />
             <SectionTitle title="Practica" />
 
             <nav data-aos="zoom-in" data-aos-duration="800" className="d-none d-sm-block" data-aos-once="true">

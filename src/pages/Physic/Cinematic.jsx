@@ -2,6 +2,7 @@ import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav.jsx";
 import { SectionTitle } from "../../components/SectionTitle";
 import MoreBtn from "../../components/MoreBtn.jsx";
+import TopWave from "../../components/TopWave.jsx";
 
 export const Cinematic = () => {
 
@@ -40,8 +41,7 @@ export const Cinematic = () => {
 
     return (
         <div className="homeCard">
-            <img src="/img/waveThree.svg" alt="Ola" />
-            
+            <TopWave />
             <SectionTitle title="Cinemática"/>
 
             <PhysicNav/>

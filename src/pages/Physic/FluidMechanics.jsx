@@ -2,6 +2,7 @@ import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import MoreBtn from "../../components/MoreBtn";
+import TopWave from "../../components/TopWave";
 
 const FluidMechanics = () => {
 
@@ -18,7 +19,7 @@ const FluidMechanics = () => {
 
     return (
         <div className="homeCard">
-            <img src="/img/waveThree.svg" alt="" />
+            <TopWave />
             <SectionTitle title="Mecánica de fluidos" />
 
             <PhysicNav />

@@ -2,6 +2,7 @@ import Latex from "react-latex"
 import CollapseTitle from "../../components/CollapseTitle";
 import MoreBtn from "../../components/MoreBtn";
 import { SectionTitle } from "../../components/SectionTitle";
+import TopWave from "../../components/TopWave";
 
 export const Statistic = () => {
 
@@ -34,7 +35,7 @@ export const Statistic = () => {
   return (
     <>
       <div className="homeCard">
-        <img src="/img/waveThree.svg" alt="" />
+        <TopWave />
         <SectionTitle title="Estadística" />
 
         <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">

@@ -3,6 +3,7 @@ import { SectionTitle } from "../../components/SectionTitle";
 import Latex from "react-latex";
 import CollapseTitle from "../../components/CollapseTitle";
 import MoreBtn from "../../components/MoreBtn";
+import TopWave from "../../components/TopWave";
 
 const ThirdChemistryPeriod = () => {
 
@@ -20,7 +21,7 @@ const ThirdChemistryPeriod = () => {
 
   return (
     <div className="homeCard" id="geometria">
-      <img src="/img/waveThree.svg" alt="Ola" />
+      <TopWave />
       <SectionTitle title="Química" />
 
       <ChemistryNav />

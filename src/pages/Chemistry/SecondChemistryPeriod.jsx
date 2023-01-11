@@ -1,11 +1,12 @@
 import { ChemistryNav } from "./ChemistryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
+import TopWave from "../../components/TopWave";
 
 const SecondChemistryPeriod = () => {
     return (
         <div className="homeCard" id="geometria">
-            <img src="/img/waveThree.svg" alt="Ola" />
+            <TopWave />
             <SectionTitle title="Química" />
 
             <ChemistryNav />

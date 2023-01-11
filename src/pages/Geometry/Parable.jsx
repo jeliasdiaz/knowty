@@ -1,13 +1,14 @@
 import { GeometryNav } from "./GeometryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import MoreBtn from "../../components/MoreBtn";
+import TopWave from "../../components/TopWave";
 
 export const Parable = () => {
 
 
     return (
         <div className="homeCard" id="geometria">
-            <img src="/img/waveThree.svg" alt="Ola" />
+            <TopWave />
             <SectionTitle title="Parábola"/>
             
             <GeometryNav/>

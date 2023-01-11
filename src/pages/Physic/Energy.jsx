@@ -1,6 +1,7 @@
 import { PhysicNav } from "./PhysicNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import MoreBtn from "../../components/MoreBtn";
+import TopWave from "../../components/TopWave";
 const  Latex = require("react-latex")
 
 export const Energy = () => {
@@ -30,7 +31,7 @@ export const Energy = () => {
 
     return (
         <div className="homeCard">
-            <img src="/img/waveThree.svg" alt="" />
+            <TopWave />
             <SectionTitle title="Energía" />
             
             <PhysicNav/>

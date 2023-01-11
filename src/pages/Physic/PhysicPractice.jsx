@@ -2,6 +2,7 @@ import React from 'react'
 import { SectionTitle } from "../../components/SectionTitle"; 
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav";
+import TopWave from '../../components/TopWave';
 
 export const PhysicPractice = () => {
     const vectoresOne = `$$A_x = \\small 15N \\ \\cdot \\ cos(30) = 12.99N$$`
@@ -110,7 +111,7 @@ export const PhysicPractice = () => {
 
     return (
         <div className='homeCard'>
-            <img src="/img/waveThree.svg" alt="" />
+            <TopWave />
             <SectionTitle title="Practica" />
 
             <PhysicNav/>

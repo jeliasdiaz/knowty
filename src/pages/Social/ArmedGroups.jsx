@@ -1,11 +1,12 @@
 import { SocialNav } from "./SocialNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
+import TopWave from "../../components/TopWave";
 
 const ArmedGroups = () => {
     return (
         <div className="homeCard">
-            <img src="/img/waveThree.svg" alt="" />
+            <TopWave />
             <SectionTitle title="Movimientos armados"/>
             
             <SocialNav/>

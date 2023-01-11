@@ -4,6 +4,7 @@ import "./Search.css";
 import { Link } from "react-router-dom";
 import { BiSearch } from "react-icons/bi";
 import { IoClose } from "react-icons/io5";
+import TopWave from "../components/TopWave";
 
 function Search() {
 
@@ -24,7 +25,7 @@ function Search() {
 
   return (
     <div className="search" >
-      <img src="/img/waveThree.svg" alt="" />
+      <TopWave />
       <div className="searchInputs" data-aos="zoom-in" data-aos-duration="1000">
         <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} />
         <div className="searchIcon">

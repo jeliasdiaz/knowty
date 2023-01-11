@@ -3,6 +3,7 @@ import { ChemistryNav } from "./ChemistryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
 import MoreBtn from "../../components/MoreBtn";
+import TopWave from "../../components/TopWave";
 const FourthChemistryPeriod = () => {
 
     const purezaReactivo = `$$SP = \\large \\frac{SI \\ \\cdot \\ \\%P}{100}$$`
@@ -14,7 +15,7 @@ const FourthChemistryPeriod = () => {
     const ecuacionTwo = `$$\\large \\frac{64gr CO_2}{176gr CO_2}  \\ \\cdot \\ \\small 100 \\% = \\small 35.36 \\%$$`
     return (
         <div className="homeCard" id="geometria">
-            <img src="/img/waveThree.svg" alt="Ola" />
+            <TopWave />
             <SectionTitle title="Química" />
 
             <ChemistryNav />
