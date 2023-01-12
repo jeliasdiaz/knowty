@@ -6,7 +6,7 @@ export const InfoPage = () => {
             <TopWave />
             <div className="infoOne text-center" data-aos="zoom-in" data-aos-duration="800">
                 <h2 className="ownShadow-lg m-auto infoTitle">¿Quiénes somos?</h2>
-                <img src="/img/logo.svg" alt="" className="ImgInfo" data-aos="fade-in" data-aos-duration="600" data-aos-once="true" />
+                <img src="/img/logo.svg" alt="Knowty logo" className="ImgInfo" data-aos="fade-in" data-aos-duration="600" data-aos-once="true" />
             </div>
             <div className="flex-1 cardsInfoSection">
                 <div className="cardInfo ownShadow" data-aos="zoom-in" data-aos-duration="1200" data-aos-once="true">
