@@ -123,6 +123,12 @@
 .dark .copyright {
   color: #899bb6;
 }
+.dark .footerIcons{
+  background-color: #28292a;
+}
+.dark .contactIcon {
+  color: white;
+}
 
 /** Blog  */
 .dark .blogContainer{

@@ -81,7 +81,7 @@ export const SecondTrigonometryPeriod = () => {
                     <div>
                         <CollapseTitle name="Teorema de Pitágoras" id="#teoremaPitagoras" />
                         <div className="collapse" id="teoremaPitagoras">
-                            <p>Establece que en cualquier triángulo rectángulo la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa. De igual forma, Es usado en triángulos rectángulos con el objetivo de hallar la medida de un cateto o hipotenusa. Para ello, debemos conocer la medida de dos de sus lados.</p>
+                            <p>Establece que en cualquier triángulo rectángulo la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa. De igual forma, es usado en triángulos rectángulos con el objetivo de hallar la medida de un cateto o hipotenusa. Para ello, debemos conocer la medida de dos de sus lados.</p>
                             <Latex>{pitagorasOne}</Latex>
                             <p>
                                 c = hipotenusa (lado más largo) <br />

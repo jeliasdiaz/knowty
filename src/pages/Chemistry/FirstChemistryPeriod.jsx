@@ -119,13 +119,13 @@ const FirstChemistryPeriod = () => {
                                     <span className="fw-semibold">Peso:</span> fuerza que ejerce la gravedad ante la materia.  <br />
                                 </p>
                                 <p>
-                                    <span className="fw-semibold">Volumen:</span> espacio que ocupa un cuerpo <br />
+                                    <span className="fw-semibold">Volumen:</span> espacio que ocupa un cuerpo. <br />
                                 </p>
                                 <p>
                                     <span className="fw-semibold">Inercia:</span> característica que impide a la materia moverse sin intervención de una fuerza externa. <br />
                                 </p>
                                 <p>
-                                    <span className="fw-semibold">Impenetrabilidad:</span> consisten en que un cuerpo no puede ocupar el espacio de otro cuerpo al mismo tiempo. <br />
+                                    <span className="fw-semibold">Impenetrabilidad:</span> consiste en que un cuerpo no puede ocupar el espacio de otro cuerpo al mismo tiempo. <br />
                                 </p>
                                 <p>
                                     <span className="fw-semibold">Porosidad:</span> espacio que existe entre las partículas. <br /><br />
@@ -140,7 +140,7 @@ const FirstChemistryPeriod = () => {
                                     <span className="fw-semibold">Punto de ebullición:</span> es la temperatura que un líquido debe alcanzar para pasar al estado gaseoso. <br />
                                 </p>
                                 <p>
-                                    <span className="fw-semibold">Densidad:</span> es la relación entre la masa y el volumen de un cuerpo. Es elevada en la mayoría de sólidos, baja en los líquidos y, aún menor en los gases. <br /><br />
+                                    <span className="fw-semibold">Densidad:</span> relación entre la masa y el volumen de un cuerpo. Es elevada en la mayoría de sólidos, baja en los líquidos y, aún menor en los gases. <br /><br />
                                 </p>
 
                                 <h6>Conductividad</h6>
@@ -181,40 +181,40 @@ const FirstChemistryPeriod = () => {
                         <CollapseTitle name="Separación de mezclas" id="#separacionMezclas" />
                         <div className="collapse" id="separacionMezclas">
                             <h4>Evaporación - Homogénea</h4>
-                            <p>Método físico que permite separar un sólido de un líquido en una mezcla homogénea. Se basa en que el punto de fusión del sólido es mayor al punto de ebullición del líquido. Ej: Separar la sal del agua de mar.</p>
+                            <p>Método físico que permite separar un sólido de un líquido en una mezcla. Se basa en que el punto de fusión del sólido es mayor al punto de ebullición del líquido. Por ejemplo, separar la sal del agua de mar.</p>
 
                             <h4>Cristalización - Homogénea</h4>
-                            <p>Método utilizado para separar una mezcla de un sólido en un líquido. La mezcla se calienta para evaporar parte del disolvente. Ej: Separar el azúcar del agua en una disolución azucarada.</p>
+                            <p>Método utilizado para separar una mezcla de un sólido en un líquido. La mezcla se calienta para evaporar parte del disolvente. Por ejemplo, separar el azúcar del agua en una disolución azucarada.</p>
 
                             <h4>Destilación - Homogénea</h4>
-                            <p>Método que consiste en la separación de dos o más líquidos miscibles(que se pueden mezclar) con diferentes puntos de ebullición, primero por medio de la evaporación  y posteriormente por la condensación de las sustancias. A través de esta operación se separan principalmente mezclas homogéneas de líquidos Separa mezclas homogéneas de líquidos.</p>
+                            <p>Método que consiste en la separación de dos o más líquidos miscibles (que se pueden mezclar) con diferentes puntos de ebullición, primero por medio de la evaporación  y posteriormente por la condensación de las sustancias. A través de esta operación se separan principalmente mezclas homogéneas de líquidos.</p>
 
                             <h4>Cromatografía - Homogénea, Heterogénea</h4>
-                            <p>Este método depende de la distribución de los componentes de la mezcla entre dos fases inmiscibles. Una fase móvil, llamada activa, transporta las sustancias que se separaron y que progresa en relación con otra, denominada fase estacionaria. Ej: Separación de pigmentos vegetales en un papel.</p>
+                            <p>Este método depende de la distribución de los componentes de la mezcla entre dos fases inmiscibles. Una fase móvil, llamada activa, transporta las sustancias que se separaron y que progresa en relación con otra, denominada fase estacionaria. Por ejemplo, la separación de pigmentos vegetales en un papel.</p>
 
                             <h4>Sedimentación - Heterogénea</h4>
-                            <p>Es una operación basada en la diferencia de densidades de los componentes de la mezcla, que permite separar mezclas heterogéneas de un sólido en un líquido mediante reposo o precipitación. Tratamiento de aguas residuales.</p>
+                            <p>Es una operación basada en la diferencia de densidades de los componentes de la mezcla, que permite separar mezclas heterogéneas de un sólido en un líquido mediante reposo o precipitación. Por ejemplo, los tratamientos de aguas residuales.</p>
 
                             <h4>Decantación - Heterogénea</h4>
-                            <p>Separa dos líquidos con diferentes densidades o una mezcla constituida por un sólido insoluble en un líquido. Se basa en la diferencia de densidades. Ej: Separación de los sedimentos del vidrio.</p>
+                            <p>Separa dos líquidos con diferentes densidades o una mezcla constituida por un sólido insoluble en un líquido. Se basa en la diferencia de densidades. Por ejemplo, la separación de los sedimentos del vidrio.</p>
 
                             <h4>Filtración - Heterogénea</h4>
-                            <p>Se trata de una operación que permite separar mezclas heterogéneas de un sólido insoluble en un líquido. Se hace pasar a través de un papel filtro, el sólido permanece en la superficie del papel, mientras que el otro componente pasará. Ej: Filtración del café molido del café.</p>
+                            <p>Se trata de una operación que permite separar mezclas heterogéneas de un sólido insoluble en un líquido. Para llevar a cabo el proceso, se hace pasar la mezcla a través de un papel filtro, en el que el sólido permanecerá en la superficie del papel, mientras que el liquído pasará. Por ejemplo, colar un jugo.</p>
 
                             <h4>Centrifugación - Heterogénea</h4>
                             <p>Consiste en la separación de materiales de diferentes densidades que se componen una mezcla. Para lo cual, la mezcla se coloca dentro de un aparato llamado centrifuga que tiene el movimiento de rotación constante y rápido, lo cual hace que las partículas con mayor densidad vayan al fondo y las más livianas queden en la parte superior.</p>
 
                             <h4>Imantación - Heterogénea</h4>
-                            <p>Separar con un imán los componentes de una mezcla de un material magnético de otro que no lo es.</p>
+                            <p>Reside en separar con un imán los componentes de una mezcla heterogénea, de un material magnético de otro que no lo es.</p>
 
                             <h4>Tamización - Heterogénea</h4>
-                            <p>Método de separar mezclas con componentes sólidos con diferentes tamaños, que pasan por un tamiz.</p>
+                            <p>Método para separar mezclas con componentes sólidos de diferentes tamaños. Para llevar a cabo el proceso, se hace pasar la mezcla por un tamiz. Separando los cuerpos grandes de los pequeños.</p>
 
                             <h4>Electroforesis - Homogénea</h4>
                             <p>Técnica de separación de mezclas basada en la carga eléctrica de las sustancias presentes en una mezcla. Consiste en colocar la mezcla y hacer pasar una corriente eléctrica, de tal forma que las sustancias con carga positiva se mueven hacia el polo negativo, mientras las sustancias cargadas negativamente se mueven al polo positivo. Es fundamental para el análisis de muestras biológicas, la cual sirve para separar proteínas y ácidos nucleicos, etc.</p>
 
                             <h4>Sublimación - Heterogénea</h4>
-                            <p>Paso de un sólido a gas sin pasar por el estado líquido. Se usa la sublimación para separar mezclas de compuestos orgánicos, donde alguno de los compuestos puede sublimar. Ej: Por ejemplo, en una mezcla de arena y yodo se puede separar el yodo calentándolo. Este pasa al estado gaseoso subiendo y cuando pasa por una superficie fría vuelve a solidificarse.</p>
+                            <p>Paso de un sólido a gas sin pasar por el estado líquido. Se usa la sublimación para separar mezclas de compuestos orgánicos, donde alguno de los compuestos puede sublimar. Por ejemplo, en una mezcla de arena y yodo se puede separar el yodo calentándolo. Este pasa al estado gaseoso subiendo y cuando pasa por una superficie fría vuelve a solidificarse.</p>
                         </div>
                         <hr />
                     </div>
@@ -232,8 +232,8 @@ const FirstChemistryPeriod = () => {
                             <h6>Postulados</h6>
                             <ul>
                                 <li>La materia está constituida por minúsculas partículas indivisibles llamadas átomos.</li>
-                                <li>Cada elemento está constituido por átomos idénticos entre sí y con iguales propiedades. Los átomos de un elemento difieren de los de otros.</li>
-                                <li>Al unirse dos o más átomos de distintos elementos, lo hacen en proporciones determinadas y sencillas, creando así los compuestos, formados por moléculas. Las moléculas de un determinado compuesto son idénticas entre sí.</li>
+                                <li>Cada elemento está constituido por átomos idénticos entre sí y con  propiedades iguales. Los átomos de un elemento difieren de los de otros.</li>
+                                <li>Al unirse dos o más átomos de distintos elementos, lo hacen en proporciones determinadas y sencillas, creando así los compuestos formados por moléculas. Las moléculas de un determinado compuesto son idénticas entre sí.</li>
                                 <li>Durante una reacción química los átomos se intercambian, más no sufren transformación alguna, ni se crean o destruyen en el proceso.</li>
                             </ul>
                             <hr />
@@ -269,9 +269,9 @@ const FirstChemistryPeriod = () => {
                             <hr />
                             <h4>Modelo atómico de Schrödinger</h4>
                             <p>
-                                Para entender este modelo es necesario añadir que, entre el mundo cuántico y el mundo que experimentamos normalmente, existe una gran diferencia, la <b>indeterminación.</b> Por esta razón, los átomos no poseen un lugar fijo. De ahí que la forma correcta de ver a un electrón girando no es mediante una esfera que sigue un camino, sino, a través de nubes de probabilidad (orbitales), puesto que la posición de los electrones dentro el átomo es indefinida gracias a la indeterminación. <br /><br />
+                                Entre el mundo cuántico y el mundo que experimentamos normalmente, existe una gran diferencia. La <span className="fw-semibold">indeterminación.</span> Por esta razón, los átomos no poseen un lugar fijo. De ahí que la forma correcta de ver a un electrón girando no es mediante una esfera que sigue un camino, sino, a través de nubes de probabilidad (orbitales), puesto que la posición de los electrones dentro el átomo es indefinida gracias a la indeterminación. <br /><br />
 
-                                Estas nubes indican las zonas donde sería más probable encontrar un electrón si tratáramos de forzarlo a estar allí, debido a que estos, nuevamente por la indeterminación, están y no están en ese lugar.</p>
+                                Estas nubes indican las zonas donde sería más probable encontrar un electrón <span className="fw-semibold">si</span> tratáramos de forzarlo a estar allí, debido a que estos (nuevamente por la indeterminación) están y no están en ese lugar.</p>
 
                             <p>Dicho de otro modo, los electrones se comportan como ondas de probabilidad, cuya posición es difusa, siendo los orbitales los lugares más probables para hallar un electrón.</p>
                         </div>

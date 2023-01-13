@@ -122,12 +122,12 @@ const SecondChemistryPeriod = () => {
                         <div className="collapse" id="compuestosIonicos">
                             <ul>
                                 <li>Forman sales sólidas.</li>
-                                <li>No forman moléculas sino redes cristalinas. Por tanto, son sólidos a temperatura ambiente.</li>
-                                <li>La forma de cristal es cúbica, rómbica o hexagonal.</li>
+                                <li>Forman redes cristalinas. Por tanto, son sólidos a temperatura ambiente.</li>
+                                <li>La forma del cristal es cúbica, rómbica o hexagonal.</li>
                                 <li>Pueden ser duros o frágiles.</li>
                                 <li>Puntos de fusión y ebullición altos.</li>
                                 <li>Solubles en disolventes polares como el agua.</li>
-                                <li>En estado sólido no conducen la corriente eléctrica, pero fundidos o disueltos en agua conducen la corriente eléctrica, debido a que los iones se separan y pueden moverse de forma independiente.</li>
+                                <li>En estado sólido no conducen la corriente eléctrica, pero, fundidos o disueltos en agua conducen la corriente eléctrica. Debido a que los iones se separan y pueden moverse de forma independiente.</li>
                             </ul>
                         </div>
                         <hr />
@@ -139,7 +139,7 @@ const SecondChemistryPeriod = () => {
                                     <li>Son en su mayoría compuestos orgánicos.</li>
                                     <li>Puntos de fusión y ebullición relativamente bajos.</li>
                                     <li>Son soluciones acuosas y en su mayoría no conducen la corriente eléctrica.</li>
-                                    <li>Sus reacciones son muy lentos, generalmente necesitan catalizadores.</li>
+                                    <li>Sus reacciones son muy lentos, generalmente necesitan catalizadores (sustancia que acelera una reacción química).</li>
                                 </ul>
                             </div>
                         </div>

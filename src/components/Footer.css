@@ -101,10 +101,10 @@
 .footerIcons:hover{
   transform: scale(1.1);
 }
-.footerIcons a{
+.contactIcon{
   color: black;
 }
-.footerIcons a:hover{
+.contactIcon:hover{
   color: #2b7ea1;
   cursor: pointer; 
 }

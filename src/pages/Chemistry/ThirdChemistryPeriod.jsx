@@ -52,7 +52,7 @@ const ThirdChemistryPeriod = () => {
                 Peróxido de <u>di</u>sodio = Na<sub>2</sub>O<sub>2</sub>
               </p>
               <h3>Tradicional</h3>
-              <p>Utiliza las terminaciones -ico (Mayor) -oso (Menor),- per-ico (+ Mayor), hipo-oso (- Menor) para indicar la valencia del elemento. Es de añadir, que los elementos que poseen un solo nivel de valencia, su terminación es -ico. El sufijo depende del número de oxidación que tenga el elemento y del número de oxidación que actúa en la fórmula.</p>
+              <p>Utiliza las terminaciones -ico (Mayor) -oso (Menor), -per-ico (+ Mayor), hipo-oso (- Menor) para indicar la valencia del elemento. Es de añadir, que los elementos que poseen un solo nivel de valencia, su terminación es -ico. El sufijo depende del número de oxidación que tenga el elemento y del número de oxidación que actúa en la fórmula.</p>
               <h5>Ejemplos</h5>
               <p>
                 Óxido hipobromoso = Br<sub>2</sub>O
@@ -71,7 +71,7 @@ const ThirdChemistryPeriod = () => {
             <CollapseTitle name="Óxidos" id="#oxidos" />
             <div className="collapse" id="oxidos">
               <h3>Óxidos basicos</h3>
-              <p>Está presente un metal con una molécula de oxígeno.</p>
+              <p>Son aquellos que contienen oxígeno y un metal. De hecho, también se les conoce como óxidos metálicos. Ejemplos: dióxido de calcio (CaO), óxido de hierro (III) (Fe<sub>2</sub>O<sub>3</sub>), óxido de magnesio (MgO), etc.</p>
               <h5>Fórmula</h5>
               <p>
                 M<sub>2</sub>O<sub>x</sub>
@@ -84,7 +84,7 @@ const ThirdChemistryPeriod = () => {
 
               <h3>Óxidos ácidos </h3>
               <p>
-                Está presente un no metal con una molécula de oxígeno.
+                Son aquellos que contienen oxígeno y un no metal. También conocidos como óxidos no metálicos. Ejemplos: ácido sulfúrico (SO2), ácido nítrico (NO2), etc.
               </p>
               <h5>Fórmula</h5>
               <p>
@@ -107,7 +107,7 @@ const ThirdChemistryPeriod = () => {
           <div>
             <CollapseTitle name="Hidróxidos" id="#hidroxidos" />
             <div className="collapse" id="hidroxidos">
-              <p>Se forman por la unión entre un metal o más iones hidroxilo (OH<sup>-</sup>) provenientes del H<sub>2</sub>O</p>
+              <p>Compuesto químico que contiene un átomo de oxígeno y uno de hidrógeno. A menudo se conoce como "agua con un exceso de oxígeno". Además, forman por la unión entre un metal o más iones hidroxilo (OH<sup>-</sup>) provenientes del H<sub>2</sub>O</p>
               <h5>Ejemplos</h5>
               <p>
                 Hidróxido de cromo (III) = Cr(OH)<sub>3</sub>
@@ -124,7 +124,7 @@ const ThirdChemistryPeriod = () => {
           <div>
             <CollapseTitle name="Peróxidos" id="#peroxidos" />
             <div className="collapse" id="peroxidos">
-              <p>Oxígeno (O<sub>2</sub>)+ metales y excepción del Hidrógeno</p>
+              <p>Son compuestos altamente reactivos y pueden descomponerse fácilmente, liberando oxígeno. Están formados a partir de la unión de dos átomos de oxígeno (O<sub>2</sub>) en una molécula.</p>
               <h5>Formula</h5>
               <p>
                 A<sub>2</sub>(O<sub>2</sub>)<sub>n</sub>
@@ -146,13 +146,12 @@ const ThirdChemistryPeriod = () => {
             <CollapseTitle name="Ácidos" id="#acidos" />
             <div className="collapse" id="acidos">
               <p>
-                Formados por un ion de hidrógeno y un anión <br />Se caracterizan por:
+                Son compuestos químicos que tienen propiedades específicas, como la capacidad de donar protones (iones H+) y tener un pH menor a 7 en solución acuosa (mezcla homogénea en la que un componente está disuelto en agua). Formados por un ion de hidrógeno y un anión <br />Se caracterizan por:
               </p>
               <ul>
-                <li>Ceder protones en medio acuoso</li>
-                <li>Enrojecen el papel tornasol azul</li>
-                <li>En presencia de la fenolftaleína se torna incolora</li>
-                <li>Sabor agrio picante</li>
+                <li>Ceder protones en medio acuoso.</li>
+                <li>Sabor agrio picante.</li>
+                <li>Tienden a reaccionar con las bases para formar sales y agua</li>
               </ul>
               <p>
                 Se clasifican en: <br />
@@ -220,10 +219,11 @@ const ThirdChemistryPeriod = () => {
               </table>
               <h5>Resumen ácidos</h5>
               <p>
-                Los ácidos hidrácidos contienen hidrógeno y un elemento no metal en su composición (grupo VI-A y VII-A. Solo trabajan con su primera valencia)(H<sub>x</sub>E<sub>y</sub>). En nomenclatura sistemática poseen el sufijo <i>uro</i>. Asimismo, en la tradicional se agrega al final <i>hídrico</i>.
+                Los ácidos hidrácidos son aquellos que contienen hidrógeno y un elemento no metálico en su composición. Estos ácidos solo trabajan con su primera valencia y en nomenclatura sistemática tienen el sufijo "uro". En la nomenclatura tradicional se agrega "hídrico" al final.
                 <br /><br />
-                Por otro lado, los ácidos oxácidos contienen hidrógeno, oxígeno y un elemento no metal. En la nomenclatura tradicional, se usa la palabra <i>Ácido</i>, seguido de la raíz del elemento no metal y la terminación -hipo-oso, -oso, -ico, -per-ico. <br /> <br />
+                Los ácidos oxácidos, por otro lado, son aquellos que contienen hidrógeno, oxígeno y un elemento no metálico. En la nomenclatura tradicional, se usa la palabra "ácido", seguida de la raíz del elemento no metálico y la terminación -hipo-oso, -oso, -ico, -per-ico.
               </p>
+              <br /> <br />
             </div>
             <hr />
           </div>
@@ -232,16 +232,14 @@ const ThirdChemistryPeriod = () => {
             <CollapseTitle name="Sales" id="#sales" />
             <div className="collapse" id="sales">
               <p>
-                Son la combinación de ácidos con bases. Pueden ser haloideas, formadas con halógenos (grupo VII-A). Asimismo, pueden ser cuaternarias, que contienen hidrógeno en su molécula. Es de añadir, que en las sales cuaternarias (oxisales) se emplea la nomenclatura tradicional de la siguiente forma: <br />
-                hipo-oso  = hipo-ito <br />
-                oso = ito <br />
-                ico = ato <br />
-                per-ico = per-ato
+                Son compuestos químicos que se forman a partir de la combinación de ácidos con bases. Pueden ser haloideas, formadas con halógenos (grupo VII-A) o cuaternarias, que contienen hidrógeno en su molécula. <br /><br />
+
+                Es importante mencionar que en las sales cuaternarias (oxisales) se utiliza la nomenclatura tradicional de la siguiente manera: "hipo-ito" para las que terminan en "hipo-oso", "ito" para las que terminan en "oso", "ato" para las que terminan en "ico" y "per-ato" para las que terminan en "per-ico".
               </p>
               <h5>Ejemplos</h5>
-              <p>Bromuro de calcio = CaBr<sub>2</sub> <br />Calcio posee valencia 2 (grupo II-A) y el bromo en este caso -1, por tanto, debemos añadir otra molécula de bromo para estabilizar la ecuación, dando como resultado 2 - 2 = 0.</p>
+              <p><span className="fw-semibold">Bromuro de calcio = CaBr<sub>2</sub></span> <br />Calcio posee valencia 2 (grupo II-A) y el bromo en este caso -1. Por lo tanto, se necesita añadir otra molécula de bromo para estabilizar la ecuación, dando como resultado una ecuación balanceada con una carga neta de 0.</p>
 
-              <p>Sulfato de rubidio = Rb<sub>2</sub>SO<sub>4</sub><br />Rubidio posee valencia 1 (grupo I-A) y el oxígeno -2, pues al restar 8 - 2 = 6, dando como resultado la valencia del azufre, en consecuencia, el resultado es 2 + 6 - 8 = 0. Es de añadir que por el nombre de la molécula y la terminación ato podemos asumir que está trabajando con la valencia 6. <br /> <br />
+              <p><span className="fw-semibold">Sulfato de rubidio = Rb<sub>2</sub>SO<sub>4</sub></span><br />Rubidio posee valencia 1 (grupo I-A) y el oxígeno -2, pues al restar 8 - 2 = 6, dando como resultado la valencia del azufre, en consecuencia, el resultado es 2 + 6 - 8 = 0. Es de añadir que por el nombre de la molécula y la terminación ato podemos asumir que está trabajando con la valencia 6. <br /> <br />
 
               </p>
 
@@ -249,9 +247,10 @@ const ThirdChemistryPeriod = () => {
               <div>
                 <h4>¿Cómo discernir?</h4>
                 <p>
-                  Para identificar una sal de un ácido, puedes tener en cuenta que las sales, están compuestas por un no metal y un metal, las que no posean oxígeno son haloideas (CaBr<sub>2</sub>). Por otro lado, las que poseen oxígeno son ternarias (Li<sub>2</sub>SO<sub>4</sub>). Por último, las sales que posean hidrógeno, oxígeno, E. no metal y E. metal, es cuaternaria. <br /> <br />
+                  Para identificar una sal de un ácido, debes tener en que existen varios tipos de sales, como las haloideas, que están compuestas por un no metal y un metal y no contienen oxígeno (ejemplo: CaBr<sub>2</sub>). También están las sales ternarias, que contienen oxígeno (ejemplo: Li<sub>2</sub>SO<sub>4</sub>) y las sales cuaternarias, que contienen hidrógeno, oxígeno, un elemento no metal y un elemento metálico.
+                  <br /> <br />
 
-                  En lo que concierne a los ácidos, están formados por un elemento no metal y el hidrógeno, en el caso de los hidrácidos. En cuanto a los oxácidos, su composición radica en hidrógeno + E. no metal + oxígeno.
+                  En cuanto a los ácidos, están formados por un elemento no metal y el hidrógeno en el caso de los hidrácidos (ejemplo: HCl). Los oxácidos contienen hidrógeno, un elemento no metal y oxígeno (ejemplo: H<sub>2</sub>SO<sub>4</sub>).
                 </p>
               </div>
             </div>
@@ -270,14 +269,14 @@ const ThirdChemistryPeriod = () => {
             <CollapseTitle name="Balanceo de una ecuación química" id="#balanceoEcuacion" />
             <div className="collapse" id="balanceoEcuacion">
               <p>
-                Consiste en la búsqueda de coeficientes numéricos que hagan que el número de cada tipo de átomos presentes en la reacción química sea el mismo tanto en reactivos como en productos. Dicho de otro modo, reside en buscar equilibrio en la ecuación, de tal forma que el número de átomos en ambas partes sea el mismo. <br /> <br />
+                Consiste en la búsqueda de coeficientes numéricos que hagan que el número de cada tipo de átomos presentes en la reacción química sea el mismo tanto en reactivos como en productos. Es decir, reside en buscar equilibrio en la ecuación, de tal forma que el número de átomos en ambas partes sea el mismo. <br /> <br />
 
                 De igual importancia, debes tener en cuenta que el subíndice nunca puedes cambiarlo. Solo puedes agregar coeficientes para alcanzar el equilibrio.
               </p>
 
               <h4>Balanceo por tanteo</h4>
               <p>
-                Se fundamenta en la prueba y error. El número de átomos de los reactivos debe ser igual al número de átomos en los productos. Es de añadir que, este tipo de balanceo es poco eficiente. <br /> <br />
+                Se fundamenta en la prueba y error. Puesto que se debe experimentar con coeficientes. Es un proceso que requiere paciencia y práctica. Pero es eficaz para balancear ecuaciones químicas. De esta manera, el número de átomos de los reactivos debe ser igual al número de átomos en los productos.<br /> <br />
                 Pasos a realizar:
               </p>
               <ol>
@@ -290,20 +289,22 @@ const ThirdChemistryPeriod = () => {
               <p>
                 Por ejemplo, tenemos la siguiente ecuación: <br />
 
-                Al + HCl → AlCl + H2 <br />
+                Al + HCl → AlCl + H<sub>2</sub> <br />
                 Balanceada:
 
-                2Al + 2HCl → 2AlCl + H2 <br /> <br />
+                2Al + 2HCl → 2AlCl + H<sub>2</sub> <br /> <br />
 
-                Es decir, nos queda tal que, dos aluminios, dos hidrógenos y dos cloros por parte tanto de reactivos como de productos.
+                De esta forma, obtenemos dos aluminios, dos hidrógenos y dos cloros. Por parte tanto de reactivos como de productos.
               </p>
-              
+
               <MoreBtn url="https://youtu.be/tX-JRR53Dms" />
 
 
               <h4>Balanceo por método algebraico</h4>
               <p>
-                Posee cierta relación con el método de tanteo, reside en que ambos darán un mismo resultado; a diferencia del método redox, el cual emplea un procedimiento que se aleja inicialmente de los métodos por tanteo y algebraico. Aclarado esto, el método algebraico consiste en un proceso matemático, cuyo primer paso es asignar a cada reactivo y producto una letra del abecedario con el fin de determinar los coeficientes, por ejemplo, a, b, c, d... <br /> <br />
+                Posee cierta relación con el método de tanteo. Ambos darán un mismo resultado; a diferencia del método redox, el cual emplea un procedimiento que se aleja inicialmente de los métodos por tanteo y algebraico. <br /> <br />
+                
+                Consiste en un proceso matemático, cuyo primer paso es asignar a cada reactivo y producto una letra del abecedario con el fin de determinar los coeficientes, por ejemplo, a, b, c, d... <br /> <br />
 
                 Pasos a realizar:
               </p>
@@ -316,13 +317,18 @@ const ThirdChemistryPeriod = () => {
                 <li>Reemplazamos en la ecuación</li>
               </ol>
               <p>
-                Por ejemplo, tenemos la siguiente ecuación: <br />
-                <Latex>{metodoAlgebraicoEjemplo}</Latex><br />
-                <Latex>{Fe2O3}</Latex>, lo identificamos como <b>a</b>, C lo identificamos como <b>b</b>. Respecto a los productos, <Latex>{Fe}</Latex> lo identificamos con la letra <b>c</b> y, por último, <Latex>{CO}</Latex> con la letra <b>d</b>. Gráficamente luce de la siguiente forma: <br />
-                <Latex>{metodoAlgebraicoEjemploTwo}</Latex><br />
+                Por ejemplo, tenemos la siguiente ecuación: <br /><br />
+                <Latex>{metodoAlgebraicoEjemplo}</Latex><br /><br />
+                
+                <Latex>{Fe2O3}</Latex>, lo identificamos como <b>a</b>, C lo identificamos como <b>b</b>. Respecto a los productos, <Latex>{Fe}</Latex> lo identificamos con la letra <b>c</b> y, por último, <Latex>{CO}</Latex> con la letra <b>d</b>. Gráficamente luce de la siguiente forma: <br /><br />
+
+                <Latex>{metodoAlgebraicoEjemploTwo}</Latex><br /><br />
+
                 Posteriormente, usamos los subíndices cómo coeficientes de las letras respectivamente. Es decir: <br />
                 <Latex>{metodoAlgebraicoEjemploThree}</Latex><br /> <br />
+
                 Después, reconocemos la letra que se presenta más veces sin tener en cuenta los coeficientes. En este caso, tanto <b>a</b> como <b>d</b> se repiten el mismo número de veces, como resultado, podemos usar cualquiera de los dos. Le asignamos un valor arbitrario a cualquiera de las letras, a nuestra elección, usaremos la letra <b>a</b>, con un valor de dos. Reemplazamos: <br />
+
                 <Latex>{metodoAlgebraicoEjemploFour}</Latex><br />
                 Simplificamos: <br />
                 <Latex>{metodoAlgebraicoEjemploFive}</Latex><br />
@@ -334,11 +340,9 @@ const ThirdChemistryPeriod = () => {
 
               <h4>Balanceo por método óxido reducción</h4>
               <p>
-                Mediante este método hacemos uso de la variación en los estados de oxidación presentes en los elementos. A partir de estos, realizaremos el procedimiento para balancear la ecuación. Es menester aclarar que, estos procesos nos ayudan para orientarnos en los coeficientes, debido a que en algunas ocasiones debemos hacer uso de tanteo para equilibrar el resto de elementos. <br />
-
-                Pasos a seguir:
-
+                Mediante este método hacemos uso de la variación en los estados de oxidación presentes en los elementos. A partir de estos, realizaremos el procedimiento para balancear la ecuación. Es importante aclarar que estos procesos nos ayudan a orientarnos en los coeficientes, debido a que en algunas ocasiones debemos hacer uso de balanceo por tanteo para equilibrar el resto de elementos.
               </p>
+              <p>Pasos a seguir:</p>
               <ol>
                 <li>Hallar los estados de oxidación tanto en los elementos que pertenecen a los reactivos como a los productos.</li>
                 <li>Observamos los elementos que cambiaron su estado de oxidación. Es decir, poseen un estado de oxidación diferente cuando son reactivos y productos.</li>
@@ -369,47 +373,47 @@ const ThirdChemistryPeriod = () => {
                 Ejemplo <br />
                 <b>Mol - mol</b><br />
                 Teniendo en cuenta la siguiente ecuación: <br />
-                C3H8 + 5O2 {"->"} 3CO2 + 4H2O <br />
-                ¿Cuántos moles de O2 se requieren para reaccionar con 4,3 moles de propano?
+                C<sub>3</sub>H<sub>8</sub> + 5O<sub>2</sub> {"->"} 3CO<sub>2</sub> + 4H<sub>2</sub>O <br />
+                ¿Cuántos moles de O<sub>2</sub> se requieren para reaccionar con 4,3 moles de propano?
                 <br />
-                <img src="/img/mol-mol.svg" alt="Mol - mol" className="estequiometriaImg rounded-3"   /><br />
-                Identificamos que nos piden cuántos moles de oxígeno se necesitan, por tanto, ubicamos primero el oxígeno en el numerador y el dato que nos dan (C3H8) en el denominador. Posteriormente, multiplicamos la fracción por los 4,3 moles de propano. Luego, cancelamos los moles de C3H8. Dándonos el resultado expresado. <br /> <br />
+                <img src="/img/mol-mol.svg" alt="Mol - mol" className="estequiometriaImg rounded-3" /><br />
+                Nos piden cuántos moles de oxígeno se necesitan, por tanto, ubicamos primero el oxígeno en el numerador y el dato que nos dan (C<sub>3</sub>H<sub>8</sub>) en el denominador. Posteriormente, multiplicamos la fracción por los 4,3 moles de propano. Luego, cancelamos los moles de C<sub>3</sub>H<sub>8</sub>. Dándonos el resultado expresado. <br /> <br />
 
                 <b>Mol - gramo </b> <br />
                 Teniendo en cuenta la siguiente ecuación: <br />
-                4Al + 3O2 {"->"} 2Al2O3 <br />
+                4Al + 3O<sub>2</sub> {"->"} 2Al<sub>2</sub>O<sub>3</sub> <br />
                 ¿Cuántos gramos de aluminio se necesitan oxidar para producir 50 mol de óxido de aluminio? <br />
 
                 <img src="/img/mol-gramo.svg" alt="Mol - gramo" className="estequiometriaImg rounded-3" /><br />
 
-                Identificamos que nos piden cuántos gramos de aluminio se necesitan, por tanto, ubicamos primero el aluminio en el numerador y el dato que nos dan (Al2O3) en el denominador. Posteriormente, multiplicamos la fracción por los moles dados. Después, multiplicamos dicho resultado por su peso molecular. <br /> <br />
+                Nos piden cuántos gramos de aluminio se necesitan, por tanto, ubicamos primero el aluminio en el numerador y el dato que nos dan (Al<sub>2</sub>O<sub>3</sub>) en el denominador. Posteriormente, multiplicamos la fracción por los moles dados. Después, multiplicamos dicho resultado por su peso molecular. <br /> <br />
 
                 <b>Gramo - mol</b> <br />
                 Teniendo en cuenta la siguiente ecuación: <br />
-                3Cu + 8NO3 {"->"} 3Cu(NO3)2 + 2NO + 4H2O <br />
+                3Cu + 8NO<sub>3</sub> {"->"} 3Cu(NO3)2 + 2NO + 4H<sub>2</sub>O <br />
                 ¿Cuántas moles de HNO3 son necesarias para preparar 0,75 gr de Cu(NO3)2? <br />
 
                 <img src="/img/gramo-mol.svg" alt="Gramo - mol" className="estequiometriaImg rounded-3" /><br />
 
-                Identificamos que nos piden cuántas moles de HNO3 se necesitan, por tanto, ubicamos este compuesto en el numerador y el dato que nos dan (Cu(NO3)2) en el denominador. Posteriormente, multiplicamos la fracción por otra, cuyo numerador será un mol del dato en cuestión, el denominador será el peso molecular de tal ecuación. <br /> <br />
+                Nos piden cuántas moles de HNO<sub>3</sub> se necesitan, por tanto, ubicamos este compuesto en el numerador y el dato que nos dan (Cu(NO<sub>3</sub>)<sub>2</sub>) en el denominador. Posteriormente, multiplicamos la fracción por otra, cuyo numerador será un mol del dato en cuestión, el denominador será el peso molecular de tal ecuación. <br /> <br />
 
                 <b>Gramo - gramo</b> <br />
                 Teniendo en cuenta la siguiente ecuación: <br />
-                4P + 3O2 {"->"} 2P2O3 <br />
+                4P + 3O<sub>2</sub> {"->"} 2P<sub>2</sub>O<sub>3</sub> <br />
                 ¿Cuántos gramos de fósforo se necesitan oxidar para producir 200 gr de óxido de fósforo?<br />
 
                 <img src="/img/gramo-gramo.svg" alt="Gramo - gramo" className="estequiometriaImg rounded-3" /><br />
 
-                Identificamos lo que nos piden, de modo que el fósforo queda en el numerador y el óxido de fósforo en el denominador. Posteriormente, aplicamos el mismo proceso de gramo - mol, multiplicamos la fracción por otra, cuyo numerador será un mol de óxido de fósforo, el denominador será el peso molecular de tal ecuación. Después, multiplicamos esta fracción por otra, cuyo denominador es un mol de fósforo y en el numerador el peso atómico del mismo. Luego, será multiplicado por 200 gr de óxido de fósforo.
+                Nos piden, de modo que el fósforo queda en el numerador y el óxido de fósforo en el denominador. Posteriormente, aplicamos el mismo proceso de gramo - mol, multiplicamos la fracción por otra, cuyo numerador será un mol de óxido de fósforo, el denominador será el peso molecular de tal ecuación. Después, multiplicamos esta fracción por otra, cuyo denominador es un mol de fósforo y en el numerador el peso atómico del mismo. Luego, será multiplicado por 200 gr de óxido de fósforo.
               </p>
 
               <MoreBtn url="https://youtu.be/bQ0MwYR0oio" />
 
-             button <h3>Practica</h3>
+              button <h3>Practica</h3>
               <p>
                 Teniendo en cuenta la siguiente ecuación:
                 <br />
-                P2O5 + 3H2O {"->"} 2H3PO4 <br />
+                P<sub>2</sub>O<sub>5</sub> + 3H<sub>2</sub>O {"->"} 2H<sub>3</sub>PO<sub>4</sub> <br />
                 ¿Cuántos gramos de H2O se necesitan para producir 500 gramos H3PO4?
               </p>
               <p>

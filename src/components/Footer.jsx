@@ -55,13 +55,13 @@ export const Footer = () => {
             <h3 className="contactUs">¡Contactanos!</h3>
             <div className="d-flex gap-2 ">
               <a href="mailto:knowtyinfo@gmail.com" target="_blank" rel="noreferrer" className="footerIcons ownShadow">  
-                <div><SiGmail size={30} /></div>
+                <div><SiGmail size={30} className="contactIcon"/></div>
               </a>
               <a href="https://www.youtube.com/@formuapp1757" target="_blank" rel="noreferrer" className="footerIcons ownShadow">
-                <div><AiFillYoutube size={30} /></div>
+                <div><AiFillYoutube size={30} className="contactIcon"/></div>
               </a>
               <a href="https://www.instagram.com/formuapp2022/" target="_blank" rel="noreferrer" className="footerIcons ownShadow">
-                <div><FaInstagram size={30} /></div>
+                <div><FaInstagram size={30} className="contactIcon"/></div>
               </a>
             </div>
           </div>
