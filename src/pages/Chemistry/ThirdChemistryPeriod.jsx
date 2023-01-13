@@ -114,7 +114,7 @@ const ThirdChemistryPeriod = () => {
                 <br />
                 Dihidróxido de bario = Ba(OH)<sub>2</sub>
                 <br />
-                Hidróxido ferrico = Fe(OH)<sub>3</sub> <br /> <br />
+                Hidróxido férrico = Fe(OH)<sub>3</sub> <br /> <br />
 
               </p>
             </div>
@@ -146,7 +146,7 @@ const ThirdChemistryPeriod = () => {
             <CollapseTitle name="Ácidos" id="#acidos" />
             <div className="collapse" id="acidos">
               <p>
-                Son compuestos químicos que tienen propiedades específicas, como la capacidad de donar protones (iones H+) y tener un pH menor a 7 en solución acuosa (mezcla homogénea en la que un componente está disuelto en agua). Formados por un ion de hidrógeno y un anión <br />Se caracterizan por:
+                Son compuestos químicos que tienen propiedades específicas, como la capacidad de donar protones (iones H+) y tener un pH menor a 7 en solución acuosa (mezcla homogénea en la que un componente está disuelto en agua). Formados por un ion de hidrógeno y un anión. Se caracterizan por:
               </p>
               <ul>
                 <li>Ceder protones en medio acuoso.</li>
@@ -250,7 +250,7 @@ const ThirdChemistryPeriod = () => {
                   Para identificar una sal de un ácido, debes tener en que existen varios tipos de sales, como las haloideas, que están compuestas por un no metal y un metal y no contienen oxígeno (ejemplo: CaBr<sub>2</sub>). También están las sales ternarias, que contienen oxígeno (ejemplo: Li<sub>2</sub>SO<sub>4</sub>) y las sales cuaternarias, que contienen hidrógeno, oxígeno, un elemento no metal y un elemento metálico.
                   <br /> <br />
 
-                  En cuanto a los ácidos, están formados por un elemento no metal y el hidrógeno en el caso de los hidrácidos (ejemplo: HCl). Los oxácidos contienen hidrógeno, un elemento no metal y oxígeno (ejemplo: H<sub>2</sub>SO<sub>4</sub>).
+                  En cuanto a los ácidos, están formados por un elemento no metal y el hidrógeno, en el caso de los hidrácidos (ejemplo: HCl). Los oxácidos contienen hidrógeno, un elemento no metal y oxígeno (ejemplo: H<sub>2</sub>SO<sub>4</sub>).
                 </p>
               </div>
             </div>
@@ -304,7 +304,7 @@ const ThirdChemistryPeriod = () => {
               <p>
                 Posee cierta relación con el método de tanteo. Ambos darán un mismo resultado; a diferencia del método redox, el cual emplea un procedimiento que se aleja inicialmente de los métodos por tanteo y algebraico. <br /> <br />
                 
-                Consiste en un proceso matemático, cuyo primer paso es asignar a cada reactivo y producto una letra del abecedario con el fin de determinar los coeficientes, por ejemplo, a, b, c, d... <br /> <br />
+                Consiste en un proceso matemático, cuyo primer paso es asignar a cada reactivo y producto una letra del abecedario con el fin de determinar los coeficientes, por ejemplo, a, b, c, d, etc. <br /> <br />
 
                 Pasos a realizar:
               </p>
@@ -327,7 +327,9 @@ const ThirdChemistryPeriod = () => {
                 Posteriormente, usamos los subíndices cómo coeficientes de las letras respectivamente. Es decir: <br />
                 <Latex>{metodoAlgebraicoEjemploThree}</Latex><br /> <br />
 
-                Después, reconocemos la letra que se presenta más veces sin tener en cuenta los coeficientes. En este caso, tanto <b>a</b> como <b>d</b> se repiten el mismo número de veces, como resultado, podemos usar cualquiera de los dos. Le asignamos un valor arbitrario a cualquiera de las letras, a nuestra elección, usaremos la letra <b>a</b>, con un valor de dos. Reemplazamos: <br />
+                Después, reconocemos la letra que se presenta más veces sin tener en cuenta los coeficientes. En este caso, tanto <b>a</b> como <b>d</b> se repiten el mismo número de veces, como resultado, podemos usar cualquiera de los dos. Le asignamos un valor arbitrario a cualquiera de las letras, a nuestra elección, usaremos la letra <b>a</b>, con un valor de dos. <br /><br />
+                
+                Reemplazamos: <br />
 
                 <Latex>{metodoAlgebraicoEjemploFour}</Latex><br />
                 Simplificamos: <br />

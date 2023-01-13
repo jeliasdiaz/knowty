@@ -199,13 +199,13 @@ const FirstChemistryPeriod = () => {
                             <p>Separa dos líquidos con diferentes densidades o una mezcla constituida por un sólido insoluble en un líquido. Se basa en la diferencia de densidades. Por ejemplo, la separación de los sedimentos del vidrio.</p>
 
                             <h4>Filtración - Heterogénea</h4>
-                            <p>Se trata de una operación que permite separar mezclas heterogéneas de un sólido insoluble en un líquido. Para llevar a cabo el proceso, se hace pasar la mezcla a través de un papel filtro, en el que el sólido permanecerá en la superficie del papel, mientras que el liquído pasará. Por ejemplo, colar un jugo.</p>
+                            <p>Se trata de una operación que permite separar mezclas heterogéneas de un sólido insoluble en un líquido. Para llevar a cabo el proceso, se hace pasar la mezcla a través de un papel filtro, en el que el sólido permanecerá en la superficie del papel, mientras que el líquido pasará. Por ejemplo, colar un jugo.</p>
 
                             <h4>Centrifugación - Heterogénea</h4>
                             <p>Consiste en la separación de materiales de diferentes densidades que se componen una mezcla. Para lo cual, la mezcla se coloca dentro de un aparato llamado centrifuga que tiene el movimiento de rotación constante y rápido, lo cual hace que las partículas con mayor densidad vayan al fondo y las más livianas queden en la parte superior.</p>
 
                             <h4>Imantación - Heterogénea</h4>
-                            <p>Reside en separar con un imán los componentes de una mezcla heterogénea, de un material magnético de otro que no lo es.</p>
+                            <p>Reside en separar con un imán los componentes de una mezcla heterogénea, de un material magnético, de otro que no lo es.</p>
 
                             <h4>Tamización - Heterogénea</h4>
                             <p>Método para separar mezclas con componentes sólidos de diferentes tamaños. Para llevar a cabo el proceso, se hace pasar la mezcla por un tamiz. Separando los cuerpos grandes de los pequeños.</p>

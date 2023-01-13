@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 //* Principal components
-import { Home } from "./pages/Single pages/Home";
+import { Home } from "./pages/Single-pages/Home";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 
@@ -17,7 +17,7 @@ import SecondChemistryPeriod from "./pages/Chemistry/SecondChemistryPeriod";
 import FourthChemistryPeriod from "./pages/Chemistry/FourthChemistryPeriod";
 
 //* English
-import English from "./pages/Single pages/English";
+import English from "./pages/Single-pages/English";
 
 //* Geometry
 import Straight from "./pages/Geometry/Straight";
@@ -39,7 +39,7 @@ import ArmedGroups from "./pages/Social/ArmedGroups";
 import SocialMovements from "./pages/Social/SocialMovements";
 
 //* Statistic 
-import { Statistic } from "./pages/Single pages/Statistic";
+import { Statistic } from "./pages/Single-pages/Statistic";
 
 //* Trigonometry
 import { ThirdTrigonometryPeriod } from "./pages/Trigonometry/ThirdTrigonometryPeriod";
@@ -57,11 +57,11 @@ import { PhysicPractice } from "./pages/Physic/PhysicPractice";
 import { TrigonometryPractice } from "./pages/Trigonometry/TrigonometryPractice";
 
 //* Information page
-import { InfoPage } from "./pages/Single pages/InfoPage";
+import { InfoPage } from "./pages/Single-pages/InfoPage";
 import Search from "./pages/Search";
-import Blog from "./pages/Single pages/Blog";
+import Blog from "./pages/Single-pages/Blog";
 import SpacedRepetition from "./pages/Blog/SpacedRepetition";
-import NotFound from "./pages/Single pages/NotFound";
+import NotFound from "./pages/Single-pages/NotFound";
 import ScrollToTop from "./ScrollToTop";
 
 function App() {

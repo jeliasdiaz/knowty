@@ -11,12 +11,12 @@ export const SecondTrigonometryPeriod = () => {
     const pitagorasTwo = `$$c = \\sqrt{a^2 + b^2}$$`
     const pitagorasThree = `$$\\sqrt{c^2 - b^2 = a}$$`
 
-    const seno = `$$\\large \\frac{\\textsf{Cateto \\ opuesto}}{ \\textsf{Hipotenusa}}$$`
-    const coseno = `$$\\large  \\frac{\\textsf{Cateto \\ adyacente}}{\\textsf{Hipotenusa}}$$`
-    const tan = `$$\\large  \\frac{\\textsf{Cateto \\ opuesto}}{\\textsf{Cateto \\ adyacente}}$$`
-    const cotan = `$$\\large  \\frac{\\textsf{Cateto \\ adyacente}}{\\textsf{Cateto \\ opuesto}}$$`
-    const sec = `$$\\large  \\frac{\\textsf{Hipotenusa}}{\\textsf{Cateto \\ adyacente}}$$`
-    const cosec = `$$\\large  \\frac{\\textsf{Hipotenusa}}{\\textsf{Cateto \\ opuesto}}$$`
+    const seno = `$$\\textsf{Seno} = \\large \\frac{\\textsf{Cateto \\ opuesto}}{ \\textsf{Hipotenusa}}$$`
+    const coseno = `$$\\textsf{Coseno} = \\large  \\frac{\\textsf{Cateto \\ adyacente}}{\\textsf{Hipotenusa}}$$`
+    const tan = `$$\\textsf{Tangente} = \\large  \\frac{\\textsf{Cateto \\ opuesto}}{\\textsf{Cateto \\ adyacente}}$$`
+    const cotan = `$$\\textsf{Cotangente} = \\large  \\frac{\\textsf{Cateto \\ adyacente}}{\\textsf{Cateto \\ opuesto}}$$`
+    const sec = `$$\\textsf{Secante} = \\large  \\frac{\\textsf{Hipotenusa}}{\\textsf{Cateto \\ adyacente}}$$`
+    const cosec = `$$\\textsf{Cosecante} = \\large  \\frac{\\textsf{Hipotenusa}}{\\textsf{Cateto \\ opuesto}}$$`
 
     const sen30 = `$$ \\frac{1}{2}$$`
     const cos30 = `$$ \\frac{\\sqrt{3}}{2}$$`
@@ -51,43 +51,85 @@ export const SecondTrigonometryPeriod = () => {
                     <div>
                         <CollapseTitle name="Clasificación de triángulos" id="#clasificacionTriangulos" />
                         <div className="collapse" id="clasificacionTriangulos">
-                            <h2>Clasificación de triángulos</h2>
-                            <img src="/img/trianguloEquilatero.svg" alt="Triangulo equilatero" className="w-25 rounded-3" />
-                            <p><b>Equilatero:</b> todos sus lados poseen la misma medida.</p>
+                            <div className="d-flex flex-wrap">
 
-                            <img src="/img/trianguloIsoceles.svg" alt="Triangulo isoceles" className="w-25 rounded-3" />
-                            <p><b>Isóceles:</b> Dos de sus lados poseen la misma medida.</p>
 
-                            <img src="/img/trianguloEscaleno.svg" alt="Triangulo escaleno" className="w-25 rounded-3" />
-                            <p><b>Escaleno:</b> La medida de todos sus lados es diferente.</p>
+                                <div className="d-flex justify-content-between">
+                                    <div>
+                                        <img src="/img/trianguloEquilatero.svg" alt="Triangulo equilatero" className="w-50 rounded-3" />
+                                        <h5 className="pt-2">Equilatero</h5>
+                                        <p className="w-75"> Todos sus lados poseen la misma medida.</p>
+                                    </div>
 
-                            <img src="/img/trianguloAcutangulo.svg" alt="Triangulo acutangulo" className="w-25 rounded-3" />
-                            <p><b>Acutángulo:</b> Todos sus ángulos internos son agudos(menores a 90°) </p>
+                                    <div>
+                                        <div className="d-flex justify-content-end">
+                                            <img src="/img/trianguloIsoceles.svg" alt="Triangulo isoceles" className="w-50 rounded-3" />
+                                        </div>
+                                        <h5 className="text-end pt-2">Isóceles</h5>
+                                        <p className="text-end">Dos de sus lados poseen la misma medida.</p>
+                                    </div>
+                                </div>
 
-                            <img src="/img/trianguloObtuso.svg" alt="Triangulo obtuso" className="w-25 rounded-3" />
-                            <p><b>Obtusángulo:</b> Posee un ángulo obtuso (mayor a 90° y menor a 180°)</p>
+                                <div className="d-flex justify-content-between pt-2">
+                                    <div>
+                                        <img src="/img/trianguloEscaleno.svg" alt="Triangulo escaleno" className="w-50 rounded-3" />
+                                        <h5 className="pt-2">Escaleno</h5>
+                                        <p className="w-75">La medida de todos sus lados es diferente.</p>
+                                    </div>
+                                    <div>
+                                        <div className="d-flex justify-content-end">
+                                            <img src="/img/trianguloAcutangulo.svg" alt="Triangulo acutangulo" className="w-75 rounded-3" />
+                                        </div>
+                                        <h5 className="text-end pt-2">Acutángulo</h5>
+                                        <p className="text-end"> Todos sus ángulos internos son agudos.</p>
+                                    </div>
 
-                            <img src="/img/trianguloRectangulo.svg" alt="Triangulo rectangulo" className="w-25 rounded-3" />
-                            <p><b>Rectángulo:</b> Posee un ángulo recto (90°)</p>
+                                </div>
 
-                            <h3>Nota</h3>
-                            <ul>
-                                <li>La sumatoria de los ángulos internos de un triángulo es 180°</li>
-                                <li>El ángulo de mayor longitud se opone al ángulo de mayor valor y viceversa.</li>
-                            </ul>
+                                <div className="d-flex justify-content-between pt-2">
+                                    <div>
+                                        <img src="/img/trianguloObtuso.svg" alt="Triangulo obtuso" className="w-50 rounded-3" />
+                                        <h5 className=" pt-2">Obtusángulo</h5>
+                                        <p className="w-75"> Posee un ángulo obtuso (mayor a 90° y menor a 180°).</p>
+                                    </div>
+
+                                    <div>
+                                        <div className="d-flex justify-content-end">
+                                            <img src="/img/trianguloRectangulo.svg" alt="Triangulo rectangulo" className="w-75 rounded-3" />
+                                        </div>
+                                        <h5 className="text-end pt-2">Rectángulo</h5>
+                                        <p className="text-end"> Posee un ángulo recto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="d-block pt-3">
+                                <h4>Nota</h4>
+                                <ul>
+                                    <li>La sumatoria de los ángulos internos de un triángulo es 180°</li>
+                                    <li>El ángulo de mayor longitud se opone al ángulo de mayor valor y viceversa.</li>
+                                    <li>Los ángulos agudos son aquellos menores a 90°</li>
+                                    <li>Los ángulos rectos poseen 90°</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <hr />
                     <div>
                         <CollapseTitle name="Teorema de Pitágoras" id="#teoremaPitagoras" />
                         <div className="collapse" id="teoremaPitagoras">
-                            <p>Establece que en cualquier triángulo rectángulo la suma de los cuadrados de los catetos es igual al cuadrado de la hipotenusa. De igual forma, es usado en triángulos rectángulos con el objetivo de hallar la medida de un cateto o hipotenusa. Para ello, debemos conocer la medida de dos de sus lados.</p>
+                            <p>Es una regla matemática que se aplica a los triángulos rectángulos. Dicho de otra manera, si tienes un triángulo con un ángulo recto, esta ley te ayudará a calcular la medida de cualquiera de sus tres lados, siempre y cuando ya sepas la medida de los otros dos.</p>
                             <Latex>{pitagorasOne}</Latex>
                             <p>
                                 c = hipotenusa (lado más largo) <br />
-                                a = cateto <br />
+                                a = cateto<br />
                                 b = cateto
                             </p>
+                            <h5>Nota</h5>
+                            <ul>
+                                <li>La hipotenusa corresponde al lado más grande.</li>
+                                <li>Los catetos corresponden a los lados más pequeños del triángulo.</li>
+                            </ul><br />
+
                             <p>Por lo tanto, si queremos hallar <i>c</i>, la ecuación queda de la siguiente forma:</p>
                             <Latex>{pitagorasTwo}</Latex><br /><br />
 
@@ -99,27 +141,29 @@ export const SecondTrigonometryPeriod = () => {
                     <div>
                         <CollapseTitle name="Razones trigonométricas" id="#razonesTrigonometricas" />
                         <div className="collapse" id="razonesTrigonometricas">
-                            <p>Son la base de la trigonometría. Ante todo, una razón consiste en la relación de dos valores. Teniendo esto en cuenta, las razones trigonométricas no son más que relaciones entre los valores de las longitudes de los lados de un triángulo rectángulo. Las 6 razones trigonométricas son las siguientes:</p>
+                            <p>
+                                Son un conjunto de relaciones matemáticas que nos permiten medir ángulos y longitudes de los lados de un triángulo rectángulo. Ante todo, una razón consiste en la relación de dos valores (ejemplo: a/b). Teniendo esto en cuenta, las razones trigonométricas no son más que relaciones que se basan en las medidas de los ángulos y longitudes de los lados del triángulo.
 
-                            <div>
-                                <div className="row">
-                                    <div className="col-6">
-                                        <Latex>{seno}</Latex><br /><br />
-                                        <Latex>{coseno}</Latex><br /><br />
-                                        <Latex>{tan}</Latex><br /><br />
-                                    </div>
-                                    <div className="col-6">
-                                        <Latex>{cotan}</Latex><br /><br />
-                                        <Latex>{sec}</Latex><br /><br />
-                                        <Latex>{cosec}</Latex><br /><br />
-                                    </div>
+                                Existen seis razones trigonométricas, que son:
+                            </p>
+
+                            <div className="d-flex justify-content-between pt-2">
+                                <div className="">
+                                    <Latex>{seno}</Latex><br /><br />
+                                    <Latex>{coseno}</Latex><br /><br />
+                                    <Latex>{tan}</Latex><br /><br />
+                                </div>
+                                <div className="text-end">
+                                    <Latex>{cotan}</Latex><br /><br />
+                                    <Latex>{sec}</Latex><br /><br />
+                                    <Latex>{cosec}</Latex><br /><br />
                                 </div>
                             </div>
 
                             <MoreBtn url="https://youtu.be/wSw1CzVtuQk?list=PLVkfzhBCZCW172VWuZUrqztV_nTLTazk0" />
                             <br /><br />
                             <h3>Razones trigonométricas para ángulos notables</h3>
-                            <table className="table table-bordered table-hover text-end">
+                            <table className="table table-bordered text-end">
                                 <thead className="table-light">
                                     <tr>
                                         <th scope="col"></th>
@@ -172,6 +216,6 @@ export const SecondTrigonometryPeriod = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

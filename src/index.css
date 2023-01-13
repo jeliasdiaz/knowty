@@ -4,6 +4,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+::selection {
+  background-color: #bfdfed;
+  color: black;
+}
 /** Global elements */
 .ownShadow {
   box-shadow: 0 0.5rem 1rem rgba(10, 6, 6, 0.15);
@@ -16,10 +20,6 @@ body {
 h2,
 h1 {
   font-weight: 200;
-}
-code {
-  color: #000 !important;
-  transition: all 0.5s;
 }
 hr {
   margin-bottom: 5% !important;
@@ -102,6 +102,7 @@ ul li:before {
   margin: auto;
   padding-bottom: 2%;
 }
+
 .text-sectionTwo h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 38px;
@@ -118,6 +119,10 @@ ul li:before {
   height: 80%;
   margin-top: 4%;
   transition: all 0.5s;
+}
+.text-sectionTwo ::selection {
+  background-color: #bfdfed;
+  color: #fff;
 }
 
 /** Subjects space */
@@ -205,6 +210,13 @@ ul li:before {
   padding: 4%;
   transition: all 0.5s;
 }
+.collapseTitleIconUp {
+  transform: rotate(180deg);
+  transition: all 0.5s;
+}
+.collapseTitleIconDown{
+  transition: all 0.5s;
+}
 .subjectCard li {
   padding-top: 0.3em;
 }
@@ -241,6 +253,7 @@ ul li:before {
 /** Information page */
 .infoPage {
   align-items: center;
+  background-color: #f6f6f6;
   color: #2b7ea1;
   transition: all 0.5s;
   min-height: 100vh;
@@ -275,6 +288,7 @@ ul li:before {
 /** Blog */
 .blogContainer {
   min-height: 100vh;
+  background-color: #f6f6f6;
   transition: all 0.5s;
 }
 .blogCard {
@@ -319,8 +333,16 @@ ul li:before {
 
 /** Not Found */
 .notFoundContainer {
-  background: #fff;
+  background-color: #fff;
+  transition: all 0.5s;
 }
+
+/** Not Found */
+.dark .notFoundContainer {
+  background-color: #121212;
+  color: #fff;
+}
+
 .notFound {
   width: 35%;
   margin: auto;
@@ -472,7 +494,7 @@ ul li:before {
     padding-top: 10%;
   }
   .blogCard {
-    width: 24rem;
+    width: 95%;
   }
   .blogCardImg {
     width: 8em;
@@ -485,6 +507,11 @@ ul li:before {
   }
   .blogSection {
     width: 95%;
+  }
+  /** Not found */
+  .notFound {
+    width: 75%;
+    padding-top: 6rem;
   }
 }
 

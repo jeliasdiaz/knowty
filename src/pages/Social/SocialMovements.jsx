@@ -28,7 +28,7 @@ const SocialMovements = () => {
                 </div>
 
                 <div>
-                    <CollapseTitle name="Movimientos sociales en América Latina" id="#movimientosSocialesAmerica" />
+                    <CollapseTitle name="Movimientos sociales (Latinoamérica)" id="#movimientosSocialesAmerica" />
                     <div className="collapse" id="movimientosSocialesAmerica">
                         <h4>Movimientos artesanos</h4>
                         <ul>

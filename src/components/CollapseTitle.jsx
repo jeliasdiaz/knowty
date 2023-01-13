@@ -1,17 +1,17 @@
-import { MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowUp } from "react-icons/md";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { useState } from "react";
 const CollapseTitle = ({ name, id }) => {
     const [IsClicked, setIsClicked] = useState(false)
 
-    const HandleArrow = () => {
+    const handleArrow = () => {
         setIsClicked(!IsClicked)
     }
     return (
-        <div className="d-flex collapseTitle mb-2 align-items-center" data-bs-toggle="collapse" href={id} role="button" onClick={HandleArrow}>
+        <div className="d-flex mb-2 align-items-center" data-bs-toggle="collapse" href={id} role="button" onClick={handleArrow}>
             {
-                IsClicked === false ? <MdOutlineKeyboardArrowDown size={45} /> : <MdOutlineKeyboardArrowUp size={45}  />
+                !IsClicked ? <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconDown"/> : <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconUp" />
             }
-            <h3>{name}</h3>
+            <h4>{name}</h4>
         </div>
     )
 }

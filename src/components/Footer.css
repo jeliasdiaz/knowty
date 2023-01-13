@@ -101,12 +101,13 @@
 .footerIcons:hover{
   transform: scale(1.1);
 }
+.footerIcons:hover .contactIcon{
+  color: #2b7ea1;
+  transition: all 0.3s;
+  cursor: pointer; 
+}
 .contactIcon{
   color: black;
-}
-.contactIcon:hover{
-  color: #2b7ea1;
-  cursor: pointer; 
 }
 
 @media screen and (max-width: 800px) {

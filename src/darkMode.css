@@ -1,7 +1,4 @@
 /** All pages */
-.dark code {
-  color: #e3e3e3 !important;
-}
 .dark hr {
   box-shadow: none !important;
 }
@@ -151,12 +148,6 @@
 
 /** Search  */
 .dark .dataItem
-
-/** Not Found */
-.dark .notFoundContainer {
-  background-color: #121212;
-  color: #fefefe;
-}
 
 /**  Shadows */
 .dark .ownShadow, .ownShadow-lg {
