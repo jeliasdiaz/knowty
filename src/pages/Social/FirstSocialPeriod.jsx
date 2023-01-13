@@ -37,7 +37,7 @@ const FirstSocialPeriod = () => {
                         <ul>
                             <li>Ocurren actividades ilícitas.</li>
                             <li>Poca presencia estatal.</li>
-                            <li>Mucha poobreza.</li>
+                            <li>Mucha pobreza.</li>
                         </ul>
                         <h4>Zonas históricas y culturales</h4>
                         <ul>
@@ -64,10 +64,10 @@ const FirstSocialPeriod = () => {
                         </ol>
 
                         <h4>Diferencias entre un territorio y otro</h4>
-                        <ul>
-                            <li>Límites: Son líneas divisorias que separan uno o más territorios.</li>
-                            <li>Fronteras: Son las áreas de transiciones entre dos unidades políticas.</li>
-                        </ul>
+
+                        <p><span className="fw-semibold">Fronteras:</span> Son las áreas de transiciones entre dos unidades políticas.</p>
+                        <p><span className="fw-semibold">Límites:</span> Son líneas divisorias que separan uno o más territorios.</p>
+
                         <hr />
                         <h2>Territorialidad</h2>
                         <ul>
@@ -77,7 +77,7 @@ const FirstSocialPeriod = () => {
                         </ul>
                         <h4>Marcación</h4>
                         <ul>
-                            <li>Hasta dónde se ejerce el cambio</li>
+                            <li>Hasta dónde se ejerce el cambio.</li>
                             <li>Cadenas montañosas, ríos, lagos, desiertos, etc.</li>
                         </ul>
                         <h4>Instauración</h4>
@@ -148,11 +148,15 @@ const FirstSocialPeriod = () => {
                             <li>Dominación.</li>
                         </ul>
                         <h4>Generan condiciones de</h4>
-                        <ul>
-                            <li>Subordinación: Estado subyugado a la economía, política y, a veces, cultura de otro estado.</li>
-                            <li>Conflicto: Estados con intereses antepuestos en los cuales hay fricción que pueden generar guerras.</li>
-                            <li>Alianzas: Estados con intereses comunes y agendas compartidas.</li>
-                        </ul>
+                        <p>
+                            <span className="fw-semibold">Subordinación:</span> Estado subyugado a la economía, política y, a veces, cultura de otro estado. <br />
+                        </p>
+                        <p>
+                            <span className="fw-semibold">Conflicto:</span>  Estados con intereses antepuestos en los cuales hay fricción que pueden generar guerras. <br />
+                        </p>
+                        <p>
+                            <span className="fw-semibold">Alianzas:</span>  Estados con intereses comunes y agendas compartidas.
+                        </p>
                         <h2>Estructura</h2>
                         <h4>Centro</h4>
                         <ul>

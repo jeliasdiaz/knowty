@@ -17,11 +17,11 @@ const SocialMovements = () => {
                     <CollapseTitle name="Movimientos sociales" id="#movimientosSociales" />
                     <div className="collapse" id="movimientosSociales">
                         <p>
-                            Consisten en grupos informales de personas cuyo fin reside en establecer un cambio social. Inicialmente, poseían gran influencia del marxismo; sin embargo, actualmente poseen diversas bases. Asimismo, suelen exigir modificaciones de ley y acciones que les otorgue ciudadanía. Por último, su consolidación se remonta al siglo XX. <br /> <br />
+                            Grupos informales de personas cuyo fin reside en establecer un cambio social. Inicialmente, poseían gran influencia del marxismo; sin embargo actualmente poseen diversas bases. Asimismo, suelen exigir modificaciones de ley y acciones que les otorgue ciudadanía. Por último, su consolidación se remonta al siglo XX. <br /> <br />
 
                             Por otro lado, surgen de una problemática común en aras de solucionar alguna represión, violencia, etc. Asi como presentar herramientas ante problemáticas que no son atendidas por el estado. Es de añadir que los integrantes de estos grupos eran propensos a ser asesinados e incluso desaparecidos. <br /> <br />
-                            Entre los tipos de movimientos sociales tenemos: <br />Viejos movimientos: están relacionados con el inicio de la consolidación marxista. De ahí que tuvieran participación en los partidos comunistas y obreros del siglo XX. <br /> <br />
-                            Nuevos movimientos: Surgen a partir de demandas o inconvenientes sociales, caracterizados por la desobediencia civil.
+                            Entre los movimientos sociales tenemos: <br /><span className="fw-semibold">Viejos movimientos:</span> están relacionados con el inicio de la consolidación marxista. De ahí que tuvieran participación en los partidos comunistas y obreros del siglo XX. <br /> <br />
+                            <span className="fw-semibold">Nuevos movimientos:</span> Surgen a partir de demandas o inconvenientes sociales, caracterizados por la desobediencia civil.
                         </p>
                     </div>
                     <hr />
