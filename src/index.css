@@ -58,7 +58,7 @@ ul li:before {
   transition: all 0.2s;
 }
 .installCard{
-  background-color: white;
+  background-color: #f6f6f6;
   width: 55%;
   border-radius: 15px;
   border: none;
@@ -72,6 +72,7 @@ ul li:before {
   margin-bottom: 4%;
   left: 25%;
   text-align: center;
+  z-index: 10;
 }
 .installCard span {
   margin-top: 6%;

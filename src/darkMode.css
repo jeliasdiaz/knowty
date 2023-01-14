@@ -2,6 +2,10 @@
 .dark hr {
   box-shadow: none !important;
 }
+.dark .installCard{
+  background: #121212;
+  color: white;
+}
 
 .dark .home {
   background-color: #121212;
