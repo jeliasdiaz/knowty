@@ -6,6 +6,9 @@
   background: #121212;
   color: white;
 }
+.dark .closeInstallBtn{
+  color: #fefefe;
+}
 
 .dark .home {
   background-color: #121212;
