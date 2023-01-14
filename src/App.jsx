@@ -164,7 +164,7 @@ function App() {
         {
           installBtn & isReadyForInstall
             ?
-            <button className="installCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+            <button className="installCard ownShadow d-block d-sm-none" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
               <div className="d-flex gap-3 justify-content-center">
                 <img src="/img/logo.svg" alt="logo" className="w-25" />
                 <span onClick={downloadApp}>Descargar</span>
