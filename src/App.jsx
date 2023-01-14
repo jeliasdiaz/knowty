@@ -68,7 +68,7 @@ import SpacedRepetition from "./pages/Blog/SpacedRepetition";
 //* Not found
 import NotFound from "./pages/Single-pages/NotFound";
 
-import { MdOutlineFileDownload, MdClose } from "react-icons/md";
+import { MdClose } from "react-icons/md";
 
 function App() {
 
@@ -163,8 +163,9 @@ function App() {
           <Route path="/buscar" element={<Search />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        
         {
-          installBtn
+          installBtn & isReadyForInstall
           &&
           <button className="installCard" onClick={downloadApp} data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
             <div className="d-flex gap-3">
