@@ -163,19 +163,20 @@ function App() {
           <Route path="/buscar" element={<Search />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        
         {
           installBtn & isReadyForInstall
-          &&
-          <button className="installCard" onClick={downloadApp} data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+          ?
+          <button className="installCard" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
             <div className="d-flex gap-3">
               <img src="/img/logo.svg" alt="logo" className="w-25" />
-              <span className="mt-2">Descargar</span>
+              <span onClick={downloadApp}>Descargar</span>
               <div>
-                <MdClose size={30} className="text-black mt-2" onClick={handleInstallBtn}/>
+                <MdClose size={35} className="text-black mt-2" onClick={handleInstallBtn}/>
               </div>
             </div>
           </button>
+          :
+          ''
         }
         <Footer />
       </ScrollToTop>
