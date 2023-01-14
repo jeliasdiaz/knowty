@@ -6,6 +6,7 @@ import { BiSearch } from "react-icons/bi";
 import { HiMoon } from "react-icons/hi2";
 import { HiSun } from "react-icons/hi2";
 import { FaLightbulb } from "react-icons/fa";
+import { MdOutlineFileDownload } from "react-icons/md";
 import "./Navbar.css"
 import { useEffect, useState } from "react";
 import NavIcon from "./NavIcon";
@@ -31,6 +32,40 @@ export const Navbar = () => {
   const navigate = useNavigate()
   const location = useLocation()
 
+  const [isReadyForInstall, setIsReadyForInstall] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("beforeinstallprompt", (event) => {
+      // Prevent the mini-infobar from appearing on mobile.
+      event.preventDefault();
+      console.log("👍", "beforeinstallprompt", event);
+      // Stash the event so it can be triggered later.
+      window.deferredPrompt = event;
+      // Remove the 'hidden' class from the install button container.
+      setIsReadyForInstall(true);
+    });
+  }, []);
+
+  async function downloadApp() {
+    console.log("👍", "butInstall-clicked");
+    const promptEvent = window.deferredPrompt;
+    if (!promptEvent) {
+      // The deferred prompt isn't available.
+      console.log("oops, no prompt event guardado en window");
+      return;
+    }
+    // Show the install prompt.
+    promptEvent.prompt();
+    // Log the result
+    const result = await promptEvent.userChoice;
+    console.log("👍", "userChoice", result);
+    // Reset the deferred prompt variable, since
+    // prompt() can only be called once.
+    window.deferredPrompt = null;
+    // Hide the install button.
+    setIsReadyForInstall(false);
+  }
+  
   return (
 
     <>
@@ -47,6 +82,7 @@ export const Navbar = () => {
               <NavIcon path="/buscar" icon={<BiSearch size={38} className="navBtn Search" />} tooltipContent="Buscar" tooltipId="buscar" />
 
               <NavIcon path="/blog" icon={<FaLightbulb size={36} className="navBtn" />} tooltipContent="Ideas" tooltipId="ideas" />
+
             </div>
 
             <div className="d-flex d-sm-none gap-1">
@@ -58,7 +94,7 @@ export const Navbar = () => {
 
               <NavLink to="/blog"><FaLightbulb size={36} className="navBtn" /></NavLink>
             </div>
-            
+
             {
               Icon
                 ?
@@ -68,8 +104,12 @@ export const Navbar = () => {
             }
 
             {
-              location.pathname === "/" ? '' : <span onClick={() => navigate(-1)} className="navBtn"><IoCaretBackCircle size={38} data-aos="fade-left" data-aos-duration="600"/></span>
+              location.pathname === "/" ? '' : <span onClick={() => navigate(-1)} className="navBtn"><IoCaretBackCircle size={38} data-aos="fade-left" data-aos-duration="600" /></span>
             }
+
+            {
+              isReadyForInstall && <MdOutlineFileDownload onClick={downloadApp}/>
+              }
           </div>
         </div>
       </nav>
