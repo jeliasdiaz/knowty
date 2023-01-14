@@ -69,6 +69,7 @@ import SpacedRepetition from "./pages/Blog/SpacedRepetition";
 import NotFound from "./pages/Single-pages/NotFound";
 
 import { MdClose } from "react-icons/md";
+import { useLocalSotrage } from "./useLocalStorage";
 
 function App() {
 
@@ -94,22 +95,12 @@ function App() {
     setIsReadyForInstall(false);
   }
 
-  const [installBtn, setInstallBtn] = useState(
-    window.localStorage.getItem("btn")
-  )
+/*   const [installBtn, setInstallBtn] = useState(true)
 
-/*   const handleInstallBtn = () => {
+  const handleInstallBtn = () => {
     setInstallBtn(!installBtn)
   } */
-
-  const setLocalStorage = value => {
-    try {
-      setInstallBtn(value)
-      window.localStorage.setItem("btn", value)
-    } catch (error) {
-      console.error(error)
-    }
-  }
+  const [btn, setBtn] = useLocalSotrage('btn', 'true')
 
   return (
     <BrowserRouter>
@@ -172,14 +163,14 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
         {
-          installBtn & isReadyForInstall
+          btn === 'true' & isReadyForInstall
             ?
             <button className="installCard" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
               <div className="d-flex gap-3">
                 <img src="/img/logo.svg" alt="logo" className="w-25" />
                 <span onClick={downloadApp}>Descargar</span>
                 <div>
-                  <MdClose size={35} className="text-black mt-2" onClick={setLocalStorage(false)} />
+                  <MdClose size={35} className="text-black mt-2" onClick={setBtn('false')} />
                 </div>
               </div>
             </button>
