@@ -54,7 +54,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="subjects d-block d-sm-none ">
+            <div className="subjects d-block d-sm-none">
               <SubjectCard path="/estadistica" img="estadistica" title="Estadística" />
 
               <SubjectCard path="/fisica-menu" img="fisica" title="Física" marginTop="mt-3" />

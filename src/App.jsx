@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 //* Operation
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import ScrollToTop from "./ScrollToTop";
 
 //* Principal components
 import { Home } from "./pages/Single-pages/Home";
@@ -59,10 +60,15 @@ import { TrigonometryPractice } from "./pages/Trigonometry/TrigonometryPractice"
 //* Information page
 import { InfoPage } from "./pages/Single-pages/InfoPage";
 import Search from "./pages/Search";
+
+//* Blog
 import Blog from "./pages/Single-pages/Blog";
 import SpacedRepetition from "./pages/Blog/SpacedRepetition";
+
+//* Not found
 import NotFound from "./pages/Single-pages/NotFound";
-import ScrollToTop from "./ScrollToTop";
+
+import { MdOutlineFileDownload, MdClose } from "react-icons/md";
 
 function App() {
 
@@ -71,11 +77,37 @@ function App() {
     AOS.refresh();
   }, []);
 
+  const [isReadyForInstall, setIsReadyForInstall] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("beforeinstallprompt", (event) => {
+      event.preventDefault();
+      window.deferredPrompt = event;
+      setIsReadyForInstall(true);
+    });
+  }, []);
+
+  async function downloadApp() {
+    const promptEvent = window.deferredPrompt;
+    promptEvent.prompt();
+    window.deferredPrompt = null;
+    setIsReadyForInstall(false);
+  }
+
+  const [installBtn, setInstallBtn] = useState(true)
+  const handleInstallBtn = () => {
+    setInstallBtn(!installBtn)
+  }
+
   return (
     <BrowserRouter>
       <ScrollToTop>
         <Navbar />
         <Outlet />
+
+
+
+
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -131,7 +163,19 @@ function App() {
           <Route path="/buscar" element={<Search />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-
+        {
+          installBtn
+          &&
+          <button className="installCard" onClick={downloadApp} data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+            <div className="d-flex gap-3">
+              <img src="/img/logo.svg" alt="logo" className="w-25" />
+              <span className="mt-2">Descargar</span>
+              <div>
+                <MdClose size={30} className="text-black mt-2" onClick={handleInstallBtn}/>
+              </div>
+            </div>
+          </button>
+        }
         <Footer />
       </ScrollToTop>
     </BrowserRouter>
