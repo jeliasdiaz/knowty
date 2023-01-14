@@ -169,7 +169,7 @@ function App() {
                 <img src="/img/logo.svg" alt="logo" className="w-25" />
                 <span onClick={downloadApp}>Descargar</span>
                 <div>
-                  <MdClose size={35} className="text-black mt-2" onClick={handleInstallBtn} />
+                  <MdClose size={35} className="closeInstallBtn mt-2" onClick={handleInstallBtn} />
                 </div>
               </div>
             </button>
