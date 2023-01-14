@@ -69,7 +69,6 @@ import SpacedRepetition from "./pages/Blog/SpacedRepetition";
 import NotFound from "./pages/Single-pages/NotFound";
 
 import { MdClose } from "react-icons/md";
-import { useLocalSotrage } from "./useLocalStorage";
 
 function App() {
 
@@ -95,12 +94,12 @@ function App() {
     setIsReadyForInstall(false);
   }
 
-/*   const [installBtn, setInstallBtn] = useState(true)
+  const [installBtn, setInstallBtn] = useState(true)
 
   const handleInstallBtn = () => {
     setInstallBtn(!installBtn)
-  } */
-  const [btn, setBtn] = useLocalSotrage('btn', 'true')
+  }
+
 
   return (
     <BrowserRouter>
@@ -163,14 +162,14 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
         {
-          btn === 'true' & isReadyForInstall
+          installBtn & isReadyForInstall
             ?
             <button className="installCard" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
               <div className="d-flex gap-3">
                 <img src="/img/logo.svg" alt="logo" className="w-25" />
                 <span onClick={downloadApp}>Descargar</span>
                 <div>
-                  <MdClose size={35} className="text-black mt-2" onClick={setBtn('false')} />
+                  <MdClose size={35} className="text-black mt-2" onClick={handleInstallBtn} />
                 </div>
               </div>
             </button>
