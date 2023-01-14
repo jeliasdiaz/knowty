@@ -32,25 +32,6 @@ export const Navbar = () => {
   const navigate = useNavigate()
   const location = useLocation()
 
-
-  // Prompt install app
-
-  /* const [isReadyForInstall, setIsReadyForInstall] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener("beforeinstallprompt", (event) => {
-      event.preventDefault();
-      window.deferredPrompt = event;
-      setIsReadyForInstall(true);
-    });
-  }, []);
-
-  async function downloadApp() {
-    const promptEvent = window.deferredPrompt;
-    promptEvent.prompt();
-    window.deferredPrompt = null;
-    setIsReadyForInstall(false);
-  } */
   
   return (
 
@@ -92,10 +73,6 @@ export const Navbar = () => {
             {
               location.pathname === "/" ? '' : <span onClick={() => navigate(-1)} className="navBtn"><IoCaretBackCircle size={38} data-aos="fade-left" data-aos-duration="600" /></span>
             }
-
-            {/* {
-              isReadyForInstall && <MdOutlineFileDownload onClick={downloadApp}/>
-              } */}
           </div>
         </div>
       </nav>
