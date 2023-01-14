@@ -162,10 +162,10 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
         {
-          installBtn & isReadyForInstall
-            ?
-            <button className="installCard" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
-              <div className="d-flex gap-3">
+/*           installBtn & isReadyForInstall
+            ? */
+            <button className="installCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+              <div className="d-flex gap-3 justify-content-center">
                 <img src="/img/logo.svg" alt="logo" className="w-25" />
                 <span onClick={downloadApp}>Descargar</span>
                 <div>
@@ -173,8 +173,8 @@ function App() {
                 </div>
               </div>
             </button>
-            :
-            ''
+/*             :
+            '' */
         }
         <Footer />
       </ScrollToTop>
