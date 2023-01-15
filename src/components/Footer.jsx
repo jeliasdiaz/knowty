@@ -1,9 +1,9 @@
 import "./Footer.css"
 import { AiFillYoutube } from "react-icons/ai";
-import { FaDev } from "react-icons/fa";
 import { BsMegaphoneFill } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import { FaInstagram } from "react-icons/fa";
+import { HiCode } from "react-icons/hi";
 import MembersCard from "./MembersCard";
 import { Link } from "react-router-dom";
 
@@ -17,7 +17,7 @@ export const Footer = () => {
         <div className="textFooter d-none d-md-block d-lg-block">
           <h1>Knowty</h1>
           <div className="d-flex justify-content-center">
-            <MembersCard name="Jose Díaz" description="Creador del proyecto, página y encargado del canal YouTube." icon={<AiFillYoutube size={36} />} iconTwo={<FaDev size={34} />} />
+            <MembersCard name="Jose Díaz" description="Creador del proyecto, página y encargado del canal YouTube." icon={<HiCode size={34}/>} iconTwo={<AiFillYoutube size={36} />} />
 
             <MembersCard name="Wilmar Fontalvo" description="Creador de videos. Encargado de animar y editar." icon={<AiFillYoutube size={36} />} />
             
@@ -38,7 +38,7 @@ export const Footer = () => {
           </div>
 
           <div>
-            <MembersCard name="Jose Díaz" description="Creador del proyecto, página y contenido para YouTube." icon={<AiFillYoutube size={36} />} iconTwo={<FaDev size={34} />} optionalClass="pt-4 w-75 mx-auto "/>
+            <MembersCard name="Jose Díaz" description="Creador del proyecto, página y contenido para YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} />} optionalClass="pt-4 w-75 mx-auto"/>
           </div>
 
           <div className="d-flex">

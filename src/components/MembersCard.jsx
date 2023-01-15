@@ -1,4 +1,4 @@
-const MembersCard = ({name, description, icon, iconTwo, optionalClass}) => {
+const MembersCard = ({ name, description, icon, iconTwo, optionalClass }) => {
     return (
         <div className={`teamCard ${optionalClass}`} data-aos="zoom-in-down" data-aos-duration="1400">
 
