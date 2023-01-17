@@ -27,7 +27,7 @@ const SecondChemistryPeriod = () => {
 
                             <h4>Afinidad electrónica</h4>
                             <ul>
-                                <li>Aumenta de derecha a izquierda y arriba hacia abajo.</li>
+                                <li>Cantidad de energía de liberada cuando se agrega un electrón.</li>
                                 <li>Aumenta de izquierda a derecha y de abajo hacia arriba en la tabla periódica.</li>
                             </ul>
 
