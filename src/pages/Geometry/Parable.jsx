@@ -13,7 +13,7 @@ export const Parable = () => {
             
             <GeometryNav/>
 
-            <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700">
+            <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <h3>Ecuación de la parábola con vértice en (0,0)</h3>
                     <h5>Eje de simetría X:</h5>

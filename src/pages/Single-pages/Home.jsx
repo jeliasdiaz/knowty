@@ -19,9 +19,9 @@ export const Home = () => {
 
       <section className="home-2">
         <div className="sectionTwo container" >
-          <div className="sectionTwoText " data-aos="fade-down" data-aos-duration="1400" data-aos-once="true">
+          <div className="sectionTwoText ">
             <div className="flexHome">
-              <div className="text-sectionTwo ownShadow">
+              <div className="text-sectionTwo ownShadow" data-aos="fade-down" data-aos-duration="1400" data-aos-once="true">
                 <h2>Nuestra meta</h2>
                 <p>
                   Ayudar a los estudiantes en su proceso acádemico y desarrollo personal; proporcionando un espacio virtual en el que podrán repasar lecciones, adelantarse a nuevas y analizar temáticas desde otras perspectivas.
@@ -31,7 +31,7 @@ export const Home = () => {
                 </p>
               </div>
 
-              <div className="subjectsContainer d-none d-sm-block" >
+              <div className="subjectsContainer d-none d-sm-block">
                 <div className="d-flex gap-3">
                   <SubjectCard path="/estadistica" img="estadistica" title="Estadística" />
 

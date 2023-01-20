@@ -33,7 +33,7 @@ hr {
   box-shadow: 3px 2px 2px 1px rgb(184, 183, 183) !important;
   background-color: #2b7ea1 !important;
   border: #2b7ea1 !important;
-  transition: all 0.5s;
+  transition: 0.5s;
 }
 ul li {
   list-style-type: none;
@@ -50,12 +50,12 @@ ul li:before {
   border: #2d7d9f !important;
   color: white;
   border-radius: 10px !important;
+  transition:  transform 0.2s, background-color 0.2s !important;
 }
 .btn-secondary:hover {
   background-color: #28708f !important;
   border: #28708f !important;
   transform: translateY(-2.5px);
-  transition: all 0.2s;
 }
 .installCard{
   background-color: #f6f6f6;
@@ -66,7 +66,7 @@ ul li:before {
   padding-right: 4%;
   padding-top: 2%;
   padding-bottom: 2%;
-  transition: all 0.5s;
+  transition: 0.5s;
   position:fixed;
   bottom: 0;
   margin-bottom: 4%;
@@ -82,7 +82,7 @@ ul li:before {
 .home {
   background-color: #f6f6f6;
   height: 100vh;
-  transition: all 0.5s;
+  transition: 0.5s;
 }
 .sectionOne {
   padding: 5%;
@@ -111,7 +111,7 @@ ul li:before {
 /** Section 2 */
 .home-2 {
   background-color: #f6f6f6;
-  transition: all 0.5s;
+  transition: 0.5s;
 }
 .sectionTwo {
   display: flex;
@@ -140,7 +140,7 @@ ul li:before {
   color: #fff;
   height: 80%;
   margin-top: 4%;
-  transition: all 0.5s;
+  transition: 0.5s;
 }
 .text-sectionTwo ::selection {
   background-color: #bfdfed;
@@ -162,12 +162,16 @@ ul li:before {
   border-radius: 25px;
   padding: 8%;
   align-items: center;
-  transition: all 0.5s;
+}
+.subjectAnimation{
+  transition:  transform 0.2s, background-color 0.2s !important;
 }
 .subjectLink:hover {
   background-color: #bfdfed;
-  transition: all 0.2s !important;
   color: #fefefe !important;
+}
+.subjectAnimation:hover{
+  transform: translateY(-5px) !important; 
 }
 .subjectLink h4 {
   font-size: 1.5rem;
@@ -199,7 +203,7 @@ ul li:before {
   --bs-pagination-padding-x: 1rem !important;
   --bs-pagination-padding-y: 1rem !important;
   --bs-pagination-border-radius: 1.3rem !important;
-  transition: all 0.5s;
+  transition: 0.5s;
 }
 .pagination li {
   border-radius: 1.3rem !important;
@@ -214,13 +218,13 @@ ul li:before {
 }
 .page-link {
   color: black !important;
-  transition: all 0.5s;
+  transition: 0.5s;
 }
 
 /** Subjects space  */
 .homeCard {
   padding-bottom: 5%;
-  transition: all 0.5s;
+  transition: 0.5s;
   background: #f6f6f6;
 }
 .subjectCard {
@@ -230,14 +234,14 @@ ul li:before {
   margin-top: 5%;
   border-radius: 20px;
   padding: 4%;
-  transition: all 0.5s;
+  transition: 0.5s;
 }
 .collapseTitleIconUp {
   transform: rotate(180deg);
-  transition: all 0.5s;
+  transition: 0.5s;
 }
 .collapseTitleIconDown{
-  transition: all 0.5s;
+  transition: 0.5s;
 }
 .subjectCard li {
   padding-top: 0.3em;
@@ -277,7 +281,7 @@ ul li:before {
   align-items: center;
   background-color: #f6f6f6;
   color: #2b7ea1;
-  transition: all 0.5s;
+  transition: 0.5s;
   min-height: 100vh;
 }
 .ImgInfo {
@@ -311,7 +315,7 @@ ul li:before {
 .blogContainer {
   min-height: 100vh;
   background-color: #f6f6f6;
-  transition: all 0.5s;
+  transition: 0.5s;
 }
 .blogCard {
   width: 30rem;
