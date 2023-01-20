@@ -40,11 +40,12 @@ input:focus {
   padding: 1%;
   width: 20%;
   margin: auto;
-  transition: all 0.2s;
+  transition:  transform 0.2s, background-color 0.2s !important;
 }
 .dataItem:hover {
   background-color: #bfdfed;
   color: #fefefe;
+  transform: translateX(-10px) !important;
 }
 .CardImg {
   width: 28%;

@@ -322,15 +322,19 @@ ul li:before {
   margin: auto;
   background: white;
   border-radius: 15px;
+  transition: 0.3s !important;
+}
+.blogCard:hover img{
+  opacity: 0.8;
+}
+.blogCard:hover{
+  transform: translateY(-10px) !important;
 }
 .blogCardImg {
   width: 9em;
   object-fit: cover;
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
-}
-.blogCardImg:hover {
-  opacity: 0.8;
 }
 .blogCardText {
   width: 22em;
