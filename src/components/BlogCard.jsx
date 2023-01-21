@@ -6,7 +6,7 @@ const BlogCard = ({ title, content, to }) => {
             <Link to={to} className="d-flex text-decoration-none">
                 <img src="/img/consejos.jpg" alt="Card img" className="blogCardImg" />
                 <div className="blogCardText">
-                    <h4>{title}</h4>
+                    <h4 className="blogCardTitle">{title}</h4>
                     <p>{content}</p>
                 </div>
             </Link>

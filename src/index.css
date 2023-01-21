@@ -324,9 +324,6 @@ ul li:before {
   border-radius: 15px;
   transition: 0.3s !important;
 }
-.blogCard:hover img{
-  opacity: 0.8;
-}
 .blogCard:hover{
   transform: translateY(-10px) !important;
 }
@@ -344,6 +341,12 @@ ul li:before {
 }
 .blogCardText p {
   font-size: 16px;
+}
+.blogCardTitle {
+  transition: 0.3s;
+}
+.blogCardTitle:hover {
+  color: #2b7ea1;
 }
 .blogSectionContainer {
   min-height: 100vh;
