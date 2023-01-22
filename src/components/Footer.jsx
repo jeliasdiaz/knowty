@@ -1,6 +1,4 @@
 import "./Footer.css"
-import { motion, useInView } from "framer-motion"
-import { useRef } from "react";
 import { AiFillYoutube } from "react-icons/ai";
 import { BsMegaphoneFill } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
@@ -13,84 +11,40 @@ export const Footer = () => {
   const date = new Date()
   const currentYear = date.getFullYear()
 
-  const ref = useRef(null);
-  const phoneRef = useRef(null)
-  const isInView = useInView(ref, { once: false });
   return (
     <footer className="footer">
       <div className="footerContent container">
         <div className="textFooter d-none d-md-block d-lg-block">
           <h1>Knowty</h1>
-          <motion.div className="d-flex justify-content-center" ref={ref}>
-            <MembersCard name="Jose Díaz" description="Creador del proyecto, página y encargado del canal YouTube." icon={<HiCode size={34}/>} iconTwo={<AiFillYoutube size={36} />} 
-            animation={{
-                transform: isInView ? "none" : "translateX(-200px)",
-                opacity: isInView ? 1 : 0,
-                transition: "all 0.6s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-              }}/>
+          <div className="d-flex justify-content-center">
+            <MembersCard name="Jose Díaz" description="Creador del proyecto, página y encargado del canal YouTube." icon={<HiCode size={34}/>} iconTwo={<AiFillYoutube size={36} />} animationDuration={600} />
 
-            <MembersCard name="Wilmar Fontalvo" description="Creador de videos. Encargado de animar y editar." icon={<AiFillYoutube size={36} />} animation={{
-                transform: isInView ? "none" : "translateX(-200px)",
-                opacity: isInView ? 1 : 0,
-                transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-              }}/>
+            <MembersCard name="Wilmar Fontalvo" description="Creador de videos. Encargado de animar y editar." icon={<AiFillYoutube size={36} />}  animationDuration={800}/>
             
-            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página." icon={<BsMegaphoneFill size={34} />} animation={{
-                transform: isInView ? "none" : "translateX(-200px)",
-                opacity: isInView ? 1 : 0,
-                transition: "all 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-              }}/>
+            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página." icon={<BsMegaphoneFill size={34} />} animationDuration={1000}/>
 
-            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto." icon={<BsMegaphoneFill size={34} />} animation={{
-                transform: isInView ? "none" : "translateX(-200px)",
-                opacity: isInView ? 1 : 0,
-                transition: "all 1.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-              }}/>
+            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto." icon={<BsMegaphoneFill size={34} />} animationDuration={1200}/>
 
-            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube." icon={<AiFillYoutube size={36} />} animation={{
-                transform: isInView ? "none" : "translateX(-200px)",
-                opacity: isInView ? 1 : 0,
-                transition: "all 1.8s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-              }} />
-          </motion.div>
+            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube." icon={<AiFillYoutube size={36} />} animationDuration={1400}/>
+          </div>
         </div>
 
         <div className="textFooter d-block d-sm-none">
           <h1>Knowty</h1>
-          <div className="d-flex" ref={phoneRef}>
-            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube." icon={<AiFillYoutube size={36} />} animation={{
-                transform: isInView ? "none" : "translateX(-200px)",
-                opacity: isInView ? 1 : 0,
-                transition: "all 0.8s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-              }}/>
+          <div className="d-flex">
+            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube." icon={<AiFillYoutube size={36} />} animationDuration={600}/>
 
-            <MembersCard name="Wilmar Fontalvo" description="Creador de videos y encargado principal de YouTube." icon={<AiFillYoutube size={36} />} animation={{
-                transform: isInView ? "none" : "translateX(-200px)",
-                opacity: isInView ? 1 : 0,
-                transition: "all 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-              }}/>
+            <MembersCard name="Wilmar Fontalvo" description="Creador de videos y encargado principal de YouTube." icon={<AiFillYoutube size={36} />} animationDuration={800}/>
           </div>
 
-          <div ref={phoneRef}>
-            <MembersCard name="Jose Díaz" description="Creador del proyecto, página y contenido para YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} />} optionalClass="pt-4 w-75 mx-auto" animation={{
-                transform: isInView ? "none" : "translateX(-200px)",
-                opacity: isInView ? 1 : 0,
-                transition: "all 1.4s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-              }}/>
+          <div>
+            <MembersCard name="Jose Díaz" description="Creador del proyecto, página y contenido para YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} animationDuration={1000}/>} optionalClass="pt-4 w-75 mx-auto"/>
           </div>
 
-          <div className="d-flex" ref={phoneRef}>
-            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página." icon={<BsMegaphoneFill size={34} />} animation={{
-                transform: isInView ? "none" : "translateX(-200px)",
-                opacity: isInView ? 1 : 0,
-                transition: "all 1.6s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-              }}/>
+          <div className="d-flex">
+            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página." icon={<BsMegaphoneFill size={34} />} animationDuration={1200}/>
 
-            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto." icon={<BsMegaphoneFill size={34} />} animation={{
-                transform: isInView ? "none" : "translateX(-200px)",
-                opacity: isInView ? 1 : 0,
-                transition: "all 1.8s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-              }}/>
+            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto." icon={<BsMegaphoneFill size={34} />} animationDuration={1400}/>
           </div>
         </div>
       </div>

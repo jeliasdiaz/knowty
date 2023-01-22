@@ -5,9 +5,7 @@ const SpacedRepetition = () => {
     <div className="blogSectionContainer">
       <TopWave />
       <div className="blogSectionContainerTwo">
-        <div className="blogSection ownShadow" initial={{ opacity: 0}}
-        transition={{ ease: "easeIn", duration: 0.2 }}
-        animate={{ opacity: 1, y: [100, 0] }}>
+        <div className="blogSection ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
           <h2 className="pb-3">La mejor forma de estudiar para examenes</h2>
           <p>
             Probablemente, estés estudiando como la mayoría, ¿verdad? Horas y horas repasando todo antes de un examen. Es hora de mejorar ese mal hábito. <br /> <br />

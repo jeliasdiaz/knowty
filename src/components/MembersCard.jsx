@@ -1,7 +1,6 @@
-const MembersCard = ({ name, description, icon, iconTwo, optionalClass, animation }) => {
-    
+const MembersCard = ({ name, description, icon, iconTwo, optionalClass, animationDuration }) => {
     return (
-        <div className={`teamCard ${optionalClass}`} style={animation}>
+        <div className={`teamCard ${optionalClass}`} data-aos="fade-right" data-aos-duration={animationDuration}>
 
             {icon}{iconTwo}
             <h6 className="pt-3">{name}</h6>

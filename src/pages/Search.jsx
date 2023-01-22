@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import data from "./materias.json";
-import { motion } from "framer-motion"
 import "./Search.css";
 import { Link } from "react-router-dom";
 import { BiSearch } from "react-icons/bi";
@@ -14,7 +13,7 @@ function Search() {
 
   const handleFilter = (event) => {
     const searchWord = event.target.value; // Collects the written input
-    setSearchTerm(searchWord);
+    setSearchTerm(searchWord); 
     const newFilter = data.filter(value => value.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").startsWith(searchWord.toLowerCase())); // Inside the data it will look for a name that begins with what is written in the input.
     setFilteredData(searchWord ? newFilter : []);
   };
@@ -27,21 +26,15 @@ function Search() {
   return (
     <div className="search" >
       <TopWave />
-      <motion.div className="searchInputs" initial={{ opacity: 0}}
-        transition={{ ease: "easeIn", duration: 0.6 }}
-        animate={{ opacity: 1, scale: [0.7, 1] }}>
+      <div className="searchInputs" data-aos="zoom-in" data-aos-duration="1000">
         <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} />
         <div className="searchIcon">
-          {filteredData.length === 0 ? <BiSearch size={35} /> : <IoClose id="clearBtn" onClick={clearInput} size={35} />}
+          {filteredData.length === 0 ? <BiSearch size={35}/> : <IoClose id="clearBtn" onClick={clearInput} size={35} />}
         </div>
 
-      </motion.div>
+      </div>
       {filteredData.length !== 0 && (
-        <motion.div className="dataResult" 
-        initial={{ opacity: 0}}
-        transition={{ ease: "easeIn", duration: 0.2 }}
-        animate={{ opacity: 1, y: [50, 0] }}
-        >
+        <div className="dataResult" data-aos="fade-up" data-aos-duration="500">
           {filteredData.slice(0, 5).map(value => (
             <Link to={value.url} className="text-decoration-none" key={value.name}>
               <div className="dataItem shadow d-flex align-items-center p-3 my-3">
@@ -50,7 +43,7 @@ function Search() {
               </div>
             </Link>
           ))}
-        </motion.div>
+        </div>
       )}
     </div>
   );

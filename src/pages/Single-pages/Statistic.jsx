@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import Latex from "react-latex"
 import CollapseTitle from "../../components/CollapseTitle";
 import MoreBtn from "../../components/MoreBtn";
@@ -39,9 +38,7 @@ export const Statistic = () => {
         <TopWave />
         <SectionTitle title="Estadística" />
 
-        <motion.div className="subjectCard mb-5 ownShadow" initial={{ opacity: 0}}
-        transition={{ ease: "easeIn", duration: 0.2 }}
-        animate={{ opacity: 1, y: [100, 0] }}>
+        <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
           <div>
             <CollapseTitle name="Medidas de tendencia central" id="#medidasTendenciaCentral" />
             <div className="collapse"  id="medidasTendenciaCentral">
@@ -238,7 +235,7 @@ export const Statistic = () => {
             </div>
           </div>
 
-        </motion.div>
+        </div>
       </div>
     </>
   )
