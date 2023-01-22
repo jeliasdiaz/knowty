@@ -1,3 +1,7 @@
+.navbar{
+  transition-timing-function: ease-in ;
+  transition: 0.5s;
+}
 .navbar-expand-lg {
   flex-wrap: nowrap !important;
   background-color: transparent;
@@ -31,6 +35,7 @@
 .HiMoon {
   transform: rotateZ(-5deg);
   transition: all 0.2s;
+  color: #1f1e1e;
 }
 .HiSun:active,
 .HiMoon:active {

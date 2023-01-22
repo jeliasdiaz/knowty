@@ -6,12 +6,28 @@ import { BiSearch } from "react-icons/bi";
 import { HiMoon } from "react-icons/hi2";
 import { HiSun } from "react-icons/hi2";
 import { FaLightbulb } from "react-icons/fa";
-/* import { MdOutlineFileDownload } from "react-icons/md"; */
 import "./Navbar.css"
 import { useEffect, useState } from "react";
 import NavIcon from "./NavIcon";
 
 export const Navbar = () => {
+
+  const [yOffset, setYOffset] = useState(window.pageYOffset);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+
+  function handleScroll() {
+    const currentYOffset = window.pageYOffset;
+    const visible = yOffset > currentYOffset;
+
+    setYOffset(currentYOffset);
+    setVisible(visible);
+  }
+
   // toggle theme
   const [theme, setTheme] = useState(localStorage.getItem('theme') || '');
 
@@ -36,7 +52,7 @@ export const Navbar = () => {
   return (
 
     <>
-      <nav className="navbar navbar-expand-lg fixed-top">
+      <nav className={`navbar navbar-expand-lg fixed-top ${visible ? "fixed-top" : "opacity-0"}`}>
         <div className="container-fluid container">
           <NavLink to="/" className="text-decoration-none bg-transparent"><img src="/img/logo.svg" alt="" className="navbar-brand" /></NavLink>
 
