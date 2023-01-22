@@ -189,6 +189,9 @@ ul li:before {
   padding: 4% !important;
   margin: auto;
 }
+.subjectLinkTrigonometria:hover{
+  transform: translateY(-5px) !important; 
+}
 
 /** Física page */
 .cardsFisica {
@@ -322,7 +325,6 @@ ul li:before {
   margin: auto;
   background: white;
   border-radius: 15px;
-  transition: 0.3s !important;
 }
 .blogCard:hover{
   transform: translateY(-10px) !important;

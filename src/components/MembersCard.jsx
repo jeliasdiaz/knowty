@@ -1,6 +1,7 @@
-const MembersCard = ({ name, description, icon, iconTwo, optionalClass }) => {
+const MembersCard = ({ name, description, icon, iconTwo, optionalClass, animation }) => {
+    
     return (
-        <div className={`teamCard ${optionalClass}`} data-aos="zoom-in-down" data-aos-duration="1400">
+        <div className={`teamCard ${optionalClass}`} style={animation}>
 
             {icon}{iconTwo}
             <h6 className="pt-3">{name}</h6>

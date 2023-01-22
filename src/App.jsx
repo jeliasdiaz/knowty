@@ -158,7 +158,7 @@ function App() {
           <Route path="/fisica-practica" element={<PhysicPractice />} />
           <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
 
-          <Route path="/buscar" element={<Search />} />
+          <Route path="/busqueda" element={<Search />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         {
