@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import data from "./materias.json";
-import { motion, useInView } from "framer-motion"
-import { useRef } from "react";
+import { motion } from "framer-motion"
 import "./Search.css";
 import { Link } from "react-router-dom";
 import { BiSearch } from "react-icons/bi";
