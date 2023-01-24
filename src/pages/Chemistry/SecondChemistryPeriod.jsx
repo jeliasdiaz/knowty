@@ -2,6 +2,8 @@ import { ChemistryNav } from "./ChemistryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
 import TopWave from "../../components/TopWave";
+import { Tooltip as ReactTooltip } from "react-tooltip";
+import * as ReactDOMServer from 'react-dom/server';
 
 const SecondChemistryPeriod = () => {
     return (
@@ -121,7 +123,26 @@ const SecondChemistryPeriod = () => {
                         <CollapseTitle name="Compuestos iónicos" id="#compuestosIonicos" />
                         <div className="collapse" id="compuestosIonicos">
                             <ul>
-                                <li>Forman sales sólidas.</li>
+                                <li>Forman
+                                    <span id="sales" 
+                                    /* data-tooltip-content="Compuestos químicos formados a partir de la combinación de ácidos con bases." */
+                                    data-tooltip-html={ReactDOMServer.renderToString(
+                                    <p style={{textAlign: "justify", hyphens: "auto"}}>Compuestos químicos formados a partir <br /> de la combinación de ácidos con bases.</p>
+                                    )}
+                                    type="button">
+                                        <span style={{paddingLeft: "10px", paddingRight: "5px", textDecoration: "underline", textUnderlineOffset: "2px"}}>sales</span>
+                                    </span>
+                                    <ReactTooltip
+                                        anchorId="sales"
+                                        place="top"
+                                        style={{ 
+                                            backgroundColor: "#fff",
+                                            color: "black"
+                                        }}
+                                        delayShow={100}
+                                    />
+                                    sólidas.
+                                </li>
                                 <li>Forman redes cristalinas. Por tanto, son sólidos a temperatura ambiente.</li>
                                 <li>La forma del cristal es cúbica, rómbica o hexagonal.</li>
                                 <li>Pueden ser duros o frágiles.</li>

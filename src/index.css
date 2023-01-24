@@ -9,7 +9,6 @@ body {
   color: black;
 }
 
-
 /** Global elements */
 .ownShadow {
   box-shadow: 0 0.5rem 1rem rgba(10, 6, 6, 0.15);

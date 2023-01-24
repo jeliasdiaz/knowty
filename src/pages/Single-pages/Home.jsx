@@ -1,4 +1,5 @@
 import SubjectCard from "../../components/SubjectCard";
+import TopWave from "../../components/TopWave";
 
 export const Home = () => {
 
@@ -6,7 +7,7 @@ export const Home = () => {
     <>
       <section className="home">
         <div className="d-block d-sm-none">
-          <img src="/img/waveThree.svg" alt="" />
+          <TopWave />
         </div>
         <div className="sectionOne flex-1 container">
           <div className="sectionOneAppendOne user-select-none  " data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
@@ -35,22 +36,22 @@ export const Home = () => {
                 <div className="d-flex gap-3">
                   <SubjectCard path="/estadistica" img="estadistica" title="Estadística" animationDuration={600}/>
 
-                  <SubjectCard path="/cinematica" img="fisica" title="Física" animationDuration={600}/>
+                  <SubjectCard path="/cinematica" img="fisica" title="Física" animationDuration={700}/>
                 </div>
 
                 <div className="d-flex gap-3 mt-3">
-                  <SubjectCard path="/recta" img="geometria" title="Geometría"  animationDuration={800}/>
+                  <SubjectCard path="/recta" img="geometria" title="Geometría"  animationDuration={900}/>
 
                   <SubjectCard path="/ingles" img="english" title="Inglés" animationDuration={800} />
                 </div>
 
                 <div className="d-flex gap-3 mt-3">
-                  <SubjectCard path="/quimica_1" img="quimica" title="Química" animationDuration={1000}/>
+                  <SubjectCard path="/quimica_1" img="quimica" title="Química" animationDuration={1100}/>
 
-                  <SubjectCard path="/sociales_1" img="sociales" title="Sociales" animationDuration={1000}/>
+                  <SubjectCard path="/sociales_1" img="sociales" title="Sociales" animationDuration={1200}/>
                 </div>
 
-                <SubjectCard path="/trigonometria_2" img="trigonometria" title="Trigonometría" marginTop="mt-3 subjectLinkTrigonometria" animationDuration={1200}/>
+                <SubjectCard path="/trigonometria_2" img="trigonometria" title="Trigonometría" marginTop="mt-3 subjectLinkTrigonometria" animationDuration={1300}/>
               </div>
             </div>
 
