@@ -20,7 +20,7 @@ export const InfoPage = () => {
                 </div>
                 <div className="cardInfo ownShadow" data-aos="fade-down" data-aos-duration="1200" data-aos-once="true">
                     <h3>Un poco de historia</h3>
-                    <p> Knowty inició como una pequeña página, cuyo propósito era tener a la mano fórmulas de Física. En función de ello, notamos que podíamos aportar más a los alumnos, de forma que añadimos nuevo contenido e integrantes al equipo.</p>
+                    <p>Knowty inició como una pequeña página, cuyo propósito era tener a la mano fórmulas de Física. A partir de ello, notamos que podíamos aportar más a los alumnos, de forma que añadimos nuevo contenido e integrantes al equipo.</p>
                 </div>
             </div>
         </div>

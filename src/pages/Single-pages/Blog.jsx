@@ -6,7 +6,7 @@ const Blog = () => {
         <div className="blogContainer">
             <TopWave />
             <div className="containerCards">
-                <BlogCard title="¿Sueles olvidar lo que aprendiste?" content="Entra aquí para aprender la mejor forma de recordar." />
+                <BlogCard title="¿Sueles olvidar lo que aprendiste?" content="Entra aquí para aprender la mejor forma de recordar." to={"/repeticion-espaciada"} />
             </div>
         </div>
     )

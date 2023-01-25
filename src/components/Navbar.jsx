@@ -5,7 +5,7 @@ import { IoCaretBackCircle } from "react-icons/io5";
 import { BiSearch } from "react-icons/bi";
 import { HiMoon } from "react-icons/hi2";
 import { HiSun } from "react-icons/hi2";
-import { FaLightbulb } from "react-icons/fa";
+import { BsFillLightbulbFill } from "react-icons/bs";
 import "./Navbar.css"
 import { useEffect, useState } from "react";
 import NavIcon from "./NavIcon";
@@ -64,7 +64,7 @@ export const Navbar = () => {
 
               <NavIcon path="/busqueda" icon={<BiSearch size={38} className="navBtn Search" />} tooltipContent="Buscar" tooltipId="buscar" />
 
-              <NavIcon path="/blog" icon={<FaLightbulb size={36} className="navBtn" />} tooltipContent="Ideas" tooltipId="ideas" />
+              <NavIcon path="/blog" icon={<BsFillLightbulbFill size={36} className="navBtn" />} tooltipContent="Ideas" tooltipId="ideas" />
 
             </div>
 
@@ -75,7 +75,7 @@ export const Navbar = () => {
 
               <NavLink to="/busqueda"><BiSearch size={38} className="navBtn Search" /></NavLink>
 
-              <NavLink to="/blog"><FaLightbulb size={36} className="navBtn" /></NavLink>
+              <NavLink to="/blog"><BsFillLightbulbFill size={36} className="navBtn" /></NavLink>
             </div>
 
             {

@@ -371,11 +371,6 @@ ul li:before {
   transition: all 0.5s;
 }
 
-/** Not Found */
-.dark .notFoundContainer {
-  background-color: #121212;
-  color: #fff;
-}
 
 .notFound {
   width: 35%;

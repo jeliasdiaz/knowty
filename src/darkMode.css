@@ -161,6 +161,12 @@
   box-shadow: none;
 }
 
+/** Not Found */
+.dark .notFoundContainer {
+  background-color: #121212;
+  color: #fff;
+}
+
 @media screen and (max-width: 800px) {
   .dark .textFooter h1 {
     width: 73%;
