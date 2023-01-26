@@ -1,5 +1,6 @@
 /** All pages */
 .dark hr {
+  background-color: #51cbff !important;
   box-shadow: none !important;
 }
 .dark .installCard{

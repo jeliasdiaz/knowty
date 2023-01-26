@@ -2,7 +2,7 @@ import "./Footer.css"
 import { AiFillYoutube } from "react-icons/ai";
 import { BsMegaphoneFill } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
-import { FaInstagram } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 import { HiCode } from "react-icons/hi";
 import MembersCard from "./MembersCard";
 import { Link } from "react-router-dom";
@@ -61,7 +61,7 @@ export const Footer = () => {
                 <div><AiFillYoutube size={30} className="contactIcon"/></div>
               </a>
               <a href="https://www.instagram.com/formuapp2022/" target="_blank" rel="noreferrer" className="footerIcons ownShadow">
-                <div><FaInstagram size={30} className="contactIcon"/></div>
+                <div><AiFillInstagram size={30} className="contactIcon"/></div>
               </a>
             </div>
           </div>

@@ -6,9 +6,9 @@ export const Home = () => {
   return (
     <>
       <section className="home">
-        <div className="d-block d-sm-none">
+
           <TopWave />
-        </div>
+
         <div className="sectionOne flex-1 container">
           <div className="sectionOneAppendOne user-select-none  " data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
             <h1>Knowty</h1>
