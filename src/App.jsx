@@ -59,7 +59,7 @@ import { TrigonometryPractice } from "./pages/Trigonometry/TrigonometryPractice"
 
 //* Information page
 import { InfoPage } from "./pages/Single-pages/InfoPage";
-import Search from "./pages/Search";
+import Search from "./pages/Single-pages/Search";
 
 //* Blog
 import Blog from "./pages/Single-pages/Blog";

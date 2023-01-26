@@ -72,7 +72,7 @@ export const Footer = () => {
               <Link to="/" className="d-block text-black">Inicio</Link>
               <Link to="/info" className="d-block text-black">Sobre nosotros</Link>
               <Link to="/blog" className="d-block text-black">Blog</Link>
-              <Link to="/buscar" className="d-block text-black">Buscar</Link>
+              <Link to="/busqueda" className="d-block text-black">Buscar</Link>
             </div>
           </div>
         </div>
