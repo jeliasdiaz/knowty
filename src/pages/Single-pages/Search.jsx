@@ -34,7 +34,7 @@ function Search() {
 
       </div>
       {
-        searchTerm === "" ? <h6 style={{ color: "gray" }}>Por favor escribe algo para buscar</h6> : filteredData.length !== 0 ? (
+        searchTerm === "" ? <h6 style={{ color: "gray" }} data-aos="fade-up" data-aos-duration="700">Por favor escribe algo para buscar</h6> : filteredData.length !== 0 ? (
           <div className="dataResult" data-aos="fade-up" data-aos-duration="500">
             {
               filteredData.slice(0, 5).map(value => (
