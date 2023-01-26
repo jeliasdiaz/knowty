@@ -14,9 +14,9 @@ const Tooltips = ({content, text }) => {
                 anchorId="sales"
                 place="top"
                 style={{
-                    backgroundColor: "#414344",
                     color: "white"
                 }}
+                className="tooltipBackground"
                 delayShow={100} />
         </>
     )

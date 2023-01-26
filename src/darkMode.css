@@ -167,6 +167,12 @@
   color: #fff;
 }
 
+/** Tooltip  */
+.dark .tooltipBackground {
+  background-color: #414344 !important;
+  color: white !important;
+}
+
 @media screen and (max-width: 800px) {
   .dark .textFooter h1 {
     width: 73%;
