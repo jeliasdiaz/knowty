@@ -69,6 +69,7 @@ import SpacedRepetition from "./pages/Blog/SpacedRepetition";
 import NotFound from "./pages/Single-pages/NotFound";
 
 import { MdClose } from "react-icons/md";
+import ScrollToTopBtn from "./components/ScrollToTopBtn";
 
 function App() {
 
@@ -161,6 +162,7 @@ function App() {
           <Route path="/busqueda" element={<Search />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <ScrollToTopBtn />
         {
           installBtn & isReadyForInstall
             ?
@@ -176,6 +178,7 @@ function App() {
             :
             ''
         }
+        
         <Footer />
       </ScrollToTop>
     </BrowserRouter>
