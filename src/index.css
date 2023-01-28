@@ -271,6 +271,9 @@ ul li:before {
 .subjectCard h4 {
   padding-top: 0.5em;
 }
+.subjectCardImg {
+  width: 23%;
+}
 .table {
   width: 34rem !important;
 }
