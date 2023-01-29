@@ -97,6 +97,7 @@ ul li:before {
   background-color: #28708f;
 }
 
+
 /** Section 1 */
 .home {
   background-color: #f6f6f6;
@@ -170,6 +171,7 @@ ul li:before {
 .subjectsContainer {
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 2.5%;
   max-width: 80rem;
   flex-wrap: wrap !important;
 }
@@ -210,6 +212,10 @@ ul li:before {
 }
 .subjectLinkTrigonometria:hover{
   transform: translateY(-5px) !important; 
+}
+.trigonometryCard h5 {
+  font-size: 17.5px;
+  margin-left: 0% !important;
 }
 
 /** Física page */
@@ -276,7 +282,7 @@ ul li:before {
 }
 
 /** Img */
-.estequiometriaImg {
+.eightyPercentImg {
   width: 80%;
 }
 .reglaTres {
@@ -384,6 +390,37 @@ ul li:before {
   padding: 4%;
   background-color: white;
 }
+
+/** Icons atribution  */
+.iconsContainer {
+  align-items: center;
+  background-color: #f6f6f6;
+  color: #2b7ea1;
+  transition: 0.5s;
+  min-height: 100vh;
+}
+.iconsCard {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 4%;
+  transition: 0.5s;
+}
+.iconsCard ul li{
+  list-style-type: disc;
+  transition: 150ms;
+}
+.iconsCard ul li:hover {
+  text-decoration: underline;
+}
+.iconsCard ul li::before {
+  content: "";
+}
+.iconsCard ul li a{
+  color: black;
+}
+
 
 /** Not Found */
 .notFoundContainer {
@@ -503,7 +540,7 @@ ul li:before {
   }
 
   /** Img */
-  .estequiometriaImg {
+  .eightyPercentImg {
     width: 100%;
   }
   .reglaTres {

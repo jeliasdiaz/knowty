@@ -113,7 +113,7 @@ const SecondChemistryPeriod = () => {
                     <div>
                         <CollapseTitle name="Enlaces químicos" id="#enlacesQuimicos" />
                         <div className="collapse" id="enlacesQuimicos">
-                            <img src="/img/enlacesQuimicos.svg" alt="Enlaces químicos" className="estequiometriaImg rounded-3" />
+                            <img src="/img/enlacesQuimicos.svg" alt="Enlaces químicos" className="eightyPercentImg rounded-3" />
                         </div>
                         <hr />
                     </div>

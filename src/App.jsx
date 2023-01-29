@@ -70,6 +70,7 @@ import NotFound from "./pages/Single-pages/NotFound";
 
 import { MdClose } from "react-icons/md";
 import ScrollToTopBtn from "./components/ScrollToTopBtn";
+import Icons from "./pages/Single-pages/Icons";
 
 function App() {
 
@@ -113,6 +114,8 @@ function App() {
           <Route path="/info" element={<InfoPage />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/repeticion-espaciada" element={<SpacedRepetition />} />
+          <Route path="/busqueda" element={<Search />} />
+          <Route path="/iconos" element={<Icons />} />
 
           <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
           <Route path="/quimica_2" element={<SecondChemistryPeriod />} />
@@ -159,7 +162,6 @@ function App() {
           <Route path="/fisica-practica" element={<PhysicPractice />} />
           <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
 
-          <Route path="/busqueda" element={<Search />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <ScrollToTopBtn />

@@ -3,11 +3,11 @@
   background-color: #51cbff !important;
   box-shadow: none !important;
 }
-.dark .installCard{
+.dark .installCard {
   background: #28292a;
   color: white;
 }
-.dark .closeInstallBtn{
+.dark .closeInstallBtn {
   color: #fefefe;
 }
 
@@ -96,7 +96,6 @@
   color: #e3e3e3;
 }
 
-
 /** Footer  */
 .dark .footer {
   background-color: #121212;
@@ -116,19 +115,19 @@
   transition: all 0.5s;
 }
 
-.dark .contactUs{
+.dark .contactUs {
   color: white !important;
 }
-.dark .sectionTitle{
+.dark .sectionTitle {
   color: #899bb6;
 }
-.dark .sectionsLinks a:hover{
+.dark .sectionsLinks a:hover {
   color: #899bb6 !important;
 }
 .dark .copyright {
   color: #899bb6;
 }
-.dark .footerIcons{
+.dark .footerIcons {
   background-color: #28292a;
 }
 .dark .contactIcon {
@@ -136,29 +135,38 @@
 }
 
 /** Blog  */
-.dark .blogContainer{
+.dark .blogContainer {
   background-color: #121212;
 }
-.dark .blogCard{
+.dark .blogCard {
   background-color: #28292a;
   color: white;
 }
-.dark .blogCardText{
+.dark .blogCardText {
   color: white;
 }
 .dark .blogSectionContainer {
   background: #121212;
 }
-.dark .blogSection{
+.dark .blogSection {
   background: #28292a;
   color: white;
 }
 
-/** Search  */
-.dark .dataItem
-
+/** Icons atribution */
+.dark .iconsContainer {
+  background-color: #121212;
+}
+.dark .iconsCard {
+  background-color: #28292a;
+  color: white;
+}
+.dark .iconsCard ul li a {
+  color: white !important;
+}
 /**  Shadows */
-.dark .ownShadow, .ownShadow-lg {
+.dark .ownShadow,
+.ownShadow-lg {
   box-shadow: none;
 }
 

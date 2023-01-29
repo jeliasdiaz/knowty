@@ -6,8 +6,7 @@ export const Home = () => {
   return (
     <>
       <section className="home">
-
-          <TopWave />
+        <TopWave />
 
         <div className="sectionOne flex-1 container">
           <div className="sectionOneAppendOne user-select-none  " data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
@@ -34,41 +33,47 @@ export const Home = () => {
 
               <div className="subjectsContainer d-none d-sm-block">
                 <div className="d-flex gap-3">
-                  <SubjectCard path="/estadistica" img="estadistica" title="Estadística" animationDuration={600}/>
+                  <SubjectCard path="/estadistica" img="estadistica" title="Estadística" animationDuration={600} />
 
-                  <SubjectCard path="/cinematica" img="fisica" title="Física" animationDuration={700}/>
+                  <SubjectCard path="/cinematica" img="fisica" title="Física" animationDuration={600} />
                 </div>
 
                 <div className="d-flex gap-3 mt-3">
-                  <SubjectCard path="/recta" img="geometria" title="Geometría"  animationDuration={900}/>
+                  <SubjectCard path="/recta" img="geometria" title="Geometría" animationDuration={800} />
 
                   <SubjectCard path="/ingles" img="english" title="Inglés" animationDuration={800} />
                 </div>
 
                 <div className="d-flex gap-3 mt-3">
-                  <SubjectCard path="/quimica_1" img="quimica" title="Química" animationDuration={1100}/>
+                  <SubjectCard path="/quimica_1" img="quimica" title="Química" animationDuration={1000} />
 
-                  <SubjectCard path="/sociales_1" img="sociales" title="Sociales" animationDuration={1200}/>
+                  <SubjectCard path="/sociales_1" img="sociales" title="Sociales" animationDuration={1000} />
                 </div>
 
-                <SubjectCard path="/trigonometria_2" img="trigonometria" title="Trigonometría" marginTop="mt-3 subjectLinkTrigonometria" animationDuration={1300}/>
+                <div className="d-flex gap-3 mt-3">
+                  <SubjectCard path="/trigonometria_2" img="trigonometria" title="Trigonometría" marginTop="trigonometryCard" animationDuration={1200} />
+
+                  <SubjectCard path="/blog" img="consejos" title="Consejos" marginTop="" animationDuration={1200} />
+                </div>
               </div>
             </div>
 
             <div className="subjects d-block d-sm-none">
-              <SubjectCard path="/estadistica" img="estadistica" title="Estadística" animationDuration={600}/>
+              <SubjectCard path="/estadistica" img="estadistica" title="Estadística" animationDuration={600} />
 
-              <SubjectCard path="/fisica-menu" img="fisica" title="Física" marginTop="mt-3" animationDuration={800}/>
+              <SubjectCard path="/fisica-menu" img="fisica" title="Física" marginTop="mt-3" animationDuration={800} />
 
-              <SubjectCard path="/geometria-menu" img="geometria" title="Geometría" marginTop="mt-3" animationDuration={1000}/>
+              <SubjectCard path="/geometria-menu" img="geometria" title="Geometría" marginTop="mt-3" animationDuration={1000} />
 
-              <SubjectCard path="/ingles" img="english" title="Inglés" marginTop="mt-3" animationDuration={1400}/>
+              <SubjectCard path="/ingles" img="english" title="Inglés" marginTop="mt-3" animationDuration={1400} />
 
-              <SubjectCard path="/quimica-menu" img="quimica" title="Química" marginTop="mt-3" animationDuration={1200}/>
+              <SubjectCard path="/quimica-menu" img="quimica" title="Química" marginTop="mt-3" animationDuration={1200} />
 
-              <SubjectCard path="/sociales-menu" img="sociales" title="Sociales" marginTop="mt-3" animationDuration={1400}/>
+              <SubjectCard path="/sociales-menu" img="sociales" title="Sociales" marginTop="mt-3" animationDuration={1400} />
 
-              <SubjectCard path="/trigonometria-menu" img="trigonometria" title="Trigonometría" marginTop="mt-3" animationDuration={1600}/>
+              <SubjectCard path="/trigonometria-menu" img="trigonometria" title="Trigonometría" marginTop="mt-3 trigonometryCard" animationDuration={1600} />
+
+              <SubjectCard path="/blog" img="consejos" title="Tips" animationDuration={1800} />
             </div>
           </div>
         </div>
