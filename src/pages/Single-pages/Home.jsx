@@ -73,7 +73,7 @@ export const Home = () => {
 
               <SubjectCard path="/trigonometria-menu" img="trigonometria" title="Trigonometría" marginTop="mt-3 trigonometryCard" animationDuration={1600} />
 
-              <SubjectCard path="/blog" img="consejos" title="Tips" animationDuration={1800} />
+              <SubjectCard path="/blog" img="consejos" title="Consejos" animationDuration={1800} />
             </div>
           </div>
         </div>

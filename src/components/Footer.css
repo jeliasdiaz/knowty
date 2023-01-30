@@ -78,6 +78,10 @@
   color: #64748b;
   font-weight: 600;
 }
+.sectionTitleCreditos{
+  color: #64748b;
+  font-weight: 600;
+}
 .sectionsLinks a{
   font-weight: 500;
   text-decoration: none;
@@ -109,6 +113,9 @@
   color: black;
   transition: all 0.3s;
 }
+.footerSecondFlex{
+  gap: 2em;
+}
 
 @media screen and (max-width: 800px) {
   .textFooter {
@@ -124,7 +131,22 @@
   }
   
   .footerContainer{
+    margin-right: 5%;
+    margin-left: 5%;
     padding-top: 15%;
+  }
+  .sectionTitleCreditos{
+    text-align: end;
+  }
+  .footerSecondFlex{
+    gap: 0px !important;
+  }
+  .creditos{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .sectionsLinks{
+    text-align: end;
   }
 }
 

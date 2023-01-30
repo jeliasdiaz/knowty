@@ -66,8 +66,8 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div className="d-flex gap-5">
-            <div>
+          <div className="d-flex footerSecondFlex">
+            <div className="creditos">
               <h5 className="sectionTitle">Creditos</h5>
               <div className="sectionsLinks">
                 <Link to="/iconos" className="d-block text-black">Iconos</Link>
