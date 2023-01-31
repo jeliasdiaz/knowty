@@ -182,6 +182,12 @@
   color: white !important;
 }
 
+/** ScrollToTopBtn */
+.dark .scrollToTopBtn {
+  background-color: #28292a;
+  color: white
+}
+
 @media screen and (max-width: 800px) {
   .dark .textFooter h1 {
     width: 73%;

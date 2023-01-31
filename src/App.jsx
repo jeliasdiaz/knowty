@@ -69,8 +69,12 @@ import SpacedRepetition from "./pages/Blog/SpacedRepetition";
 import NotFound from "./pages/Single-pages/NotFound";
 
 import { MdClose } from "react-icons/md";
-import ScrollToTopBtn from "./components/ScrollToTopBtn";
+/* import ScrollToTopBtn from "./components/ScrollToTopBtn"; */
 import Icons from "./pages/Single-pages/Icons";
+
+
+import { useLayoutEffect, useRef } from "react";
+import { IoIosArrowUp } from "react-icons/io";
 
 function App() {
 
@@ -103,87 +107,163 @@ function App() {
   }
 
 
+  const [scrolled, setScrolled] = useState(false)
+
+  const goTop = () => {
+    window.scrollTo(0, 0)
+  }
+
+  const handleScroll = () => {
+    const scroll = window.scrollY;
+    if (scroll > 300) {
+      setScrolled(true);
+    } else if (scroll === 0) {
+      setTimeout(() => {
+        setScrolled(false);
+      }, 2000);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", (e) => handleScroll(e));
+  }, []);
+
+
+
+  const [progress, setProgress] = useState(0);
+  const articleRef = useRef();
+
+  useLayoutEffect(() => {
+    const updateHeight = () => {
+      if (!articleRef.current) return;
+
+      const { height } = articleRef.current.getBoundingClientRect();
+
+      setProgress(window.scrollY / (height - window.innerHeight));
+    };
+
+    updateHeight();
+
+    window.addEventListener("scroll", updateHeight);
+    return () => {
+      window.removeEventListener("scroll", updateHeight);
+    };
+  }, []);
+
+  const position = Math.max(1 - progress, 0);
+  const notMoved = position === 1;
+
+  const DIAMETER = 50;
+  const STROKE_WIDTH = 4.3;
+  const RADIUS = DIAMETER / 2 - STROKE_WIDTH / 2;
+  const CIRCUMFERENCE = Math.PI * RADIUS * 2;
+
+
   return (
-    <BrowserRouter>
-      <ScrollToTop>
-        <Navbar />
-        <Outlet />
+    <div ref={articleRef}>
+      <BrowserRouter>
+        <ScrollToTop>
+          <Navbar />
+          <Outlet />
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/info" element={<InfoPage />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/repeticion-espaciada" element={<SpacedRepetition />} />
-          <Route path="/busqueda" element={<Search />} />
-          <Route path="/iconos" element={<Icons />} />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/info" element={<InfoPage />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/repeticion-espaciada" element={<SpacedRepetition />} />
+            <Route path="/busqueda" element={<Search />} />
+            <Route path="/iconos" element={<Icons />} />
 
-          <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
-          <Route path="/quimica_2" element={<SecondChemistryPeriod />} />
-          <Route path="/quimica" element={<ThirdChemistryPeriod />} />
-          <Route path="/quimica_4" element={<FourthChemistryPeriod />} />
-
-
-          <Route path="/ingles" element={<English />} />
+            <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
+            <Route path="/quimica_2" element={<SecondChemistryPeriod />} />
+            <Route path="/quimica" element={<ThirdChemistryPeriod />} />
+            <Route path="/quimica_4" element={<FourthChemistryPeriod />} />
 
 
-          <Route path="/recta" element={<Straight />} />
-          <Route path="/circunferencia" element={<Circumference />} />
-          <Route path="/parabola" element={<Parable />} />
-          <Route path="/elipse" element={<Ellipse />} />
+            <Route path="/ingles" element={<English />} />
 
 
-          <Route path="/cinematica" element={<Cinematic />} />
-          <Route path="/dinamica" element={<Dinamic />} />
-          <Route path="/movimientocircular" element={<CircularMovement />} />
-          <Route path="/energia" element={<Energy />} />
-          <Route path="/mecanica-fluidos" element={<FluidMechanics />} />
+            <Route path="/recta" element={<Straight />} />
+            <Route path="/circunferencia" element={<Circumference />} />
+            <Route path="/parabola" element={<Parable />} />
+            <Route path="/elipse" element={<Ellipse />} />
 
 
-          <Route path="/sociales_1" element={<FirstSocialPeriod />} />
-          <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />
-          <Route path="/movimientos-armados" element={<ArmedGroups />} />
-          <Route path="/movimientos-sociales" element={<SocialMovements />} />
+            <Route path="/cinematica" element={<Cinematic />} />
+            <Route path="/dinamica" element={<Dinamic />} />
+            <Route path="/movimientocircular" element={<CircularMovement />} />
+            <Route path="/energia" element={<Energy />} />
+            <Route path="/mecanica-fluidos" element={<FluidMechanics />} />
 
 
-          <Route path="/estadistica" element={<Statistic />} />
+            <Route path="/sociales_1" element={<FirstSocialPeriod />} />
+            <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />
+            <Route path="/movimientos-armados" element={<ArmedGroups />} />
+            <Route path="/movimientos-sociales" element={<SocialMovements />} />
 
 
-          <Route path="/trigonometria_2" element={<SecondTrigonometryPeriod />} />
-          <Route path="/trigonometria" element={<ThirdTrigonometryPeriod />} />
+            <Route path="/estadistica" element={<Statistic />} />
 
 
-          <Route path="/fisica-menu" element={<PhysicMenu />} />
-          <Route path="/geometria-menu" element={<GeometryMenu />} />
-          <Route path="/quimica-menu" element={<ChemistryMenu />} />
-          <Route path="/sociales-menu" element={<SocialMenu />} />
-          <Route path="/trigonometria-menu" element={<TrigonometryMenu />} />
+            <Route path="/trigonometria_2" element={<SecondTrigonometryPeriod />} />
+            <Route path="/trigonometria" element={<ThirdTrigonometryPeriod />} />
 
 
-          <Route path="/fisica-practica" element={<PhysicPractice />} />
-          <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
+            <Route path="/fisica-menu" element={<PhysicMenu />} />
+            <Route path="/geometria-menu" element={<GeometryMenu />} />
+            <Route path="/quimica-menu" element={<ChemistryMenu />} />
+            <Route path="/sociales-menu" element={<SocialMenu />} />
+            <Route path="/trigonometria-menu" element={<TrigonometryMenu />} />
 
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <ScrollToTopBtn />
-        {
-          installBtn & isReadyForInstall
-            ?
-            <button className="installCard ownShadow d-block d-sm-none" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
-              <div className="d-flex gap-3 justify-content-center">
-                <img src="/img/logo.svg" alt="logo" className="w-25" />
-                <span onClick={downloadApp}>Descargar</span>
-                <div>
-                  <MdClose size={35} className="closeInstallBtn mt-2" onClick={handleInstallBtn} />
+
+            <Route path="/fisica-practica" element={<PhysicPractice />} />
+            <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
+
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+          {
+            installBtn & isReadyForInstall
+              ?
+              <button className="installCard ownShadow d-block d-sm-none" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+                <div className="d-flex gap-3 justify-content-center">
+                  <img src="/img/logo.svg" alt="logo" className="w-25" />
+                  <span onClick={downloadApp}>Descargar</span>
+                  <div>
+                    <MdClose size={35} className="closeInstallBtn mt-2" onClick={handleInstallBtn} />
+                  </div>
                 </div>
-              </div>
-            </button>
-            :
-            ''
-        }
-        
-        <Footer />
-      </ScrollToTop>
-    </BrowserRouter>
+              </button>
+              :
+              ''
+          }
+          {
+            scrolled && !notMoved &&
+            <div onClick={goTop} className="scrollToTopBtn ownShadow" data-aos="fade-up" data-aos-duration="600"><IoIosArrowUp size={30} /><svg
+              viewBox="0 0 50 50"
+              width="50px"
+              height="50px"
+              className="circleProgress"
+            >
+              <circle
+                cx={DIAMETER / 2}
+                cy={DIAMETER / 2}
+                r={RADIUS}
+                stroke="#2B7EA1"
+                fill="transparent"
+                strokeWidth={STROKE_WIDTH}
+                style={{
+                  strokeDasharray: CIRCUMFERENCE,
+                  strokeDashoffset: CIRCUMFERENCE * position
+                }}
+              />
+            </svg></div>
+
+          }
+
+          <Footer />
+        </ScrollToTop>
+      </BrowserRouter>
+    </div>
   );
 }
 
