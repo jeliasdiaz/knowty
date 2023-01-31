@@ -106,7 +106,8 @@ function App() {
     setInstallBtn(!installBtn)
   }
 
-
+  //* Progress button 
+  
   const [scrolled, setScrolled] = useState(false)
 
   const goTop = () => {
@@ -129,27 +130,19 @@ function App() {
   }, []);
 
 
-
   const [progress, setProgress] = useState(0);
   const articleRef = useRef();
 
   useLayoutEffect(() => {
     const updateHeight = () => {
       if (!articleRef.current) return;
-
-      const { height } = articleRef.current.getBoundingClientRect();
-
-      setProgress(window.scrollY / (height - window.innerHeight));
+      setProgress(window.scrollY / (articleRef.current.getBoundingClientRect().height - window.innerHeight));
     };
-
     updateHeight();
-
     window.addEventListener("scroll", updateHeight);
-    return () => {
-      window.removeEventListener("scroll", updateHeight);
-    };
+    return () => window.removeEventListener("scroll", updateHeight);
   }, []);
-
+  
   const position = Math.max(1 - progress, 0);
   const notMoved = position === 1;
 
@@ -236,27 +229,30 @@ function App() {
               :
               ''
           }
+
           {
             scrolled && !notMoved &&
-            <div onClick={goTop} className="scrollToTopBtn ownShadow" data-aos="fade-up" data-aos-duration="600"><IoIosArrowUp size={30} /><svg
-              viewBox="0 0 50 50"
-              width="50px"
-              height="50px"
-              className="circleProgress"
-            >
-              <circle
-                cx={DIAMETER / 2}
-                cy={DIAMETER / 2}
-                r={RADIUS}
-                stroke="#2B7EA1"
-                fill="transparent"
-                strokeWidth={STROKE_WIDTH}
-                style={{
-                  strokeDasharray: CIRCUMFERENCE,
-                  strokeDashoffset: CIRCUMFERENCE * position
-                }}
-              />
-            </svg></div>
+            <div onClick={goTop} className="scrollToTopBtn ownShadow" data-aos="fade-up" data-aos-duration="600"><IoIosArrowUp size={30} />
+              <svg
+                viewBox="0 0 50 50"
+                width="50px"
+                height="50px"
+                className="circleProgress"
+              >
+                <circle
+                  cx={DIAMETER / 2}
+                  cy={DIAMETER / 2}
+                  r={RADIUS}
+                  stroke="#2B7EA1"
+                  fill="transparent"
+                  strokeWidth={STROKE_WIDTH}
+                  style={{
+                    strokeDasharray: CIRCUMFERENCE,
+                    strokeDashoffset: CIRCUMFERENCE * position
+                  }}
+                />
+              </svg>
+            </div>
 
           }
 
