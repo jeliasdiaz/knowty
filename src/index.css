@@ -93,9 +93,7 @@ ul li:before {
   cursor: pointer;
   transition: 0.2s;
 }
-.scrollToTopBtn:hover {
-  background-color: #023246;
-}
+
 .circleProgress {
   position: absolute;
   right: -3.9px;
