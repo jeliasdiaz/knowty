@@ -596,6 +596,12 @@ ul li:before {
   .blogSection {
     width: 95%;
   }
+  /** Icons card  */
+  .iconsCard{
+    width: 95%;
+    margin-top: 10%;
+  }
+
   /** Not found */
   .notFound {
     width: 75%;
