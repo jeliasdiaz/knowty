@@ -113,9 +113,6 @@
   color: black;
   transition: all 0.3s;
 }
-.footerSecondFlex{
-  gap: 2em;
-}
 
 @media screen and (max-width: 800px) {
   .textFooter {
@@ -139,7 +136,7 @@
     text-align: end;
   }
   .footerSecondFlex{
-    gap: 0px !important;
+   padding-right: 3%;
   }
   .creditos{
     margin-left: 10%;

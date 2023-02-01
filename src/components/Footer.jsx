@@ -73,16 +73,6 @@ export const Footer = () => {
                 <Link to="/iconos" className="d-block text-black">Iconos</Link>
               </div>
             </div>
-
-            <div>
-              <h5 className="sectionTitle">Enlaces</h5>
-              <div className="sectionsLinks">
-                <Link to="/" className="d-block text-black">Inicio</Link>
-                <Link to="/info" className="d-block text-black">Sobre nosotros</Link>
-                <Link to="/blog" className="d-block text-black">Blog</Link>
-                <Link to="/busqueda" className="d-block text-black">Buscar</Link>
-              </div>
-            </div>
           </div>
         </div>
 
