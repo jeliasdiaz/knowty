@@ -24,6 +24,33 @@
   gap: 0.5rem;
   margin-left: auto;
 }
+
+/** Nav animation  */
+@keyframes up {
+  0% {
+    top: 10px;
+  }
+  100%{
+    top: -20px;
+  }
+}
+@keyframes down {
+  0% {
+    top: -20px;
+  }
+  100%{
+    top: 10x;
+  }
+}
+.up{
+  animation: up 1s;
+  transition-delay: 0.2s;
+  transform: translateY(-200px);
+}
+.down {
+  animation: down 0.5s;
+}
+
 .navBtn {
   transition: all 0.2s;
   transition-timing-function: ease-in;

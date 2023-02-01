@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from "../materias.json";
-import "../Search.css";
+import "./Search.css";
 import { Link } from "react-router-dom";
 import { BiSearch } from "react-icons/bi";
 import { IoClose } from "react-icons/io5";

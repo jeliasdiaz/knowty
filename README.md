@@ -3,4 +3,4 @@
 - Visit [knowtyone.netlify.app](http://knowtyone.netlify.app/)
 
 # License
-Copyright © 2022 Jose Díaz. All rights reserved
+Copyright © 2023 Jose Díaz. All rights reserved.

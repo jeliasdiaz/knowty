@@ -67,7 +67,6 @@
 .dark .infoPage {
   color: #e3e3e3;
   background-color: #121212;
-  transition: all 0.5s;
 }
 .dark .infoTitle {
   background-color: #28292a;
@@ -75,7 +74,6 @@
 }
 .dark .cardsInfoSection {
   background-color: #121212;
-  transition: all 0.5s;
 }
 .dark .cardInfo {
   background-color: #28292a;
@@ -185,7 +183,7 @@
 /** ScrollToTopBtn */
 .dark .scrollToTopBtn {
   background-color: #414344;
-  color: white
+  color: white;
 }
 
 @media screen and (max-width: 800px) {

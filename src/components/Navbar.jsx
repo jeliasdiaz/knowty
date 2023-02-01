@@ -52,7 +52,7 @@ export const Navbar = () => {
   return (
 
     <>
-      <nav className={`navbar navbar-expand-lg fixed-top ${visible ? "fixed-top" : "opacity-0"}`}>
+      <nav className={`navbar navbar-expand-lg fixed-top ${visible ? "down" : " up"}`}>
         <div className="container-fluid container">
           <NavLink to="/" className="text-decoration-none bg-transparent"><img src="/img/logo.svg" alt="" className="navbar-brand" /></NavLink>
 

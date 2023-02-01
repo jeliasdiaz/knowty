@@ -50,14 +50,14 @@ ul li:before {
   border: #2d7d9f !important;
   color: white;
   border-radius: 10px !important;
-  transition:  transform 0.2s, background-color 0.2s !important;
+  transition: transform 0.2s, background-color 0.2s !important;
 }
 .btn-secondary:hover {
   background-color: #28708f !important;
   border: #28708f !important;
   transform: translateY(-2.5px);
 }
-.installCard{
+.installCard {
   background-color: #f6f6f6;
   width: 55%;
   border-radius: 15px;
@@ -67,7 +67,7 @@ ul li:before {
   padding-top: 2%;
   padding-bottom: 2%;
   transition: 0.5s;
-  position:fixed;
+  position: fixed;
   bottom: 0;
   margin-bottom: 4%;
   left: 25%;
@@ -98,10 +98,9 @@ ul li:before {
 .circleProgress {
   position: absolute;
   right: -3.9px;
-  bottom:-4px;
+  bottom: -4px;
   transition: all 0.2s;
 }
-
 
 /** Section 1 */
 .home {
@@ -189,15 +188,15 @@ ul li:before {
   padding: 8%;
   align-items: center;
 }
-.subjectAnimation{
-  transition:  transform 0.2s, background-color 0.2s !important;
+.subjectAnimation {
+  transition: transform 0.2s, background-color 0.2s !important;
 }
 .subjectLink:hover {
   background-color: #bfdfed;
   color: #fefefe !important;
 }
-.subjectAnimation:hover{
-  transform: translateY(-5px) !important; 
+.subjectAnimation:hover {
+  transform: translateY(-5px) !important;
 }
 .subjectLink h4 {
   font-size: 1.5rem;
@@ -215,8 +214,8 @@ ul li:before {
   padding: 4% !important;
   margin: auto;
 }
-.subjectLinkTrigonometria:hover{
-  transform: translateY(-5px) !important; 
+.subjectLinkTrigonometria:hover {
+  transform: translateY(-5px) !important;
 }
 .trigonometryCard h5 {
   font-size: 17.5px;
@@ -273,7 +272,7 @@ ul li:before {
   transform: rotate(180deg);
   transition: 0.5s;
 }
-.collapseTitleIconDown{
+.collapseTitleIconDown {
   transition: 0.5s;
 }
 .subjectCard li {
@@ -314,7 +313,7 @@ ul li:before {
   align-items: center;
   background-color: #f6f6f6;
   color: #2b7ea1;
-  transition: 0.5s;
+  transition: all 0.5s;
   min-height: 100vh;
 }
 .ImgInfo {
@@ -356,7 +355,7 @@ ul li:before {
   background: white;
   border-radius: 15px;
 }
-.blogCard:hover{
+.blogCard:hover {
   transform: translateY(-10px) !important;
 }
 .blogCardImg {
@@ -412,7 +411,7 @@ ul li:before {
   padding: 4%;
   transition: 0.5s;
 }
-.iconsCard ul li{
+.iconsCard ul li {
   list-style-type: disc;
   transition: 150ms;
 }
@@ -422,10 +421,9 @@ ul li:before {
 .iconsCard ul li::before {
   content: "";
 }
-.iconsCard ul li a{
+.iconsCard ul li a {
   color: black;
 }
-
 
 /** Not Found */
 .notFoundContainer {

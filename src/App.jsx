@@ -3,8 +3,10 @@ import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 //* Operation
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect, useState } from "react";
 import ScrollToTop from "./ScrollToTop";
+import { useEffect, useState } from "react";
+import { useLayoutEffect, useRef } from "react";
+import { IoIosArrowUp } from "react-icons/io";
 
 //* Principal components
 import { Home } from "./pages/Single-pages/Home";
@@ -68,13 +70,12 @@ import SpacedRepetition from "./pages/Blog/SpacedRepetition";
 //* Not found
 import NotFound from "./pages/Single-pages/NotFound";
 
+//* Install PWA close btn
 import { MdClose } from "react-icons/md";
-/* import ScrollToTopBtn from "./components/ScrollToTopBtn"; */
+
+//* Icons credit card
 import Icons from "./pages/Single-pages/Icons";
 
-
-import { useLayoutEffect, useRef } from "react";
-import { IoIosArrowUp } from "react-icons/io";
 
 function App() {
 
@@ -151,7 +152,6 @@ function App() {
   const RADIUS = DIAMETER / 2 - STROKE_WIDTH / 2;
   const CIRCUMFERENCE = Math.PI * RADIUS * 2;
 
-
   return (
     <div ref={articleRef}>
       <BrowserRouter>
@@ -172,15 +172,12 @@ function App() {
             <Route path="/quimica" element={<ThirdChemistryPeriod />} />
             <Route path="/quimica_4" element={<FourthChemistryPeriod />} />
 
-
             <Route path="/ingles" element={<English />} />
-
 
             <Route path="/recta" element={<Straight />} />
             <Route path="/circunferencia" element={<Circumference />} />
             <Route path="/parabola" element={<Parable />} />
             <Route path="/elipse" element={<Ellipse />} />
-
 
             <Route path="/cinematica" element={<Cinematic />} />
             <Route path="/dinamica" element={<Dinamic />} />
@@ -188,19 +185,15 @@ function App() {
             <Route path="/energia" element={<Energy />} />
             <Route path="/mecanica-fluidos" element={<FluidMechanics />} />
 
-
             <Route path="/sociales_1" element={<FirstSocialPeriod />} />
             <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />
             <Route path="/movimientos-armados" element={<ArmedGroups />} />
             <Route path="/movimientos-sociales" element={<SocialMovements />} />
 
-
             <Route path="/estadistica" element={<Statistic />} />
-
 
             <Route path="/trigonometria_2" element={<SecondTrigonometryPeriod />} />
             <Route path="/trigonometria" element={<ThirdTrigonometryPeriod />} />
-
 
             <Route path="/fisica-menu" element={<PhysicMenu />} />
             <Route path="/geometria-menu" element={<GeometryMenu />} />
@@ -208,14 +201,13 @@ function App() {
             <Route path="/sociales-menu" element={<SocialMenu />} />
             <Route path="/trigonometria-menu" element={<TrigonometryMenu />} />
 
-
             <Route path="/fisica-practica" element={<PhysicPractice />} />
             <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
           {
-            installBtn & isReadyForInstall
+            installBtn && isReadyForInstall
               ?
               <button className="installCard ownShadow d-block d-sm-none" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                 <div className="d-flex gap-3 justify-content-center">
