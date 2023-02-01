@@ -28,7 +28,7 @@
 /** Nav animation  */
 @keyframes up {
   0% {
-    top: 10px;
+    top: 0px;
   }
   100%{
     top: -20px;
