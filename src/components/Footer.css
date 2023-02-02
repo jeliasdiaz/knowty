@@ -100,7 +100,7 @@
   border-radius: 50%;
   width: 3rem;
   object-fit:cover;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .footerIcons:hover{
   transform: scale(1.1);
@@ -111,7 +111,7 @@
 }
 .contactIcon{
   color: black;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 
 @media screen and (max-width: 800px) {

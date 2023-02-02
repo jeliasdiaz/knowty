@@ -204,7 +204,7 @@ ul li:before {
 }
 .BiChevronRight {
   color: #023246 !important;
-  transition: all 0.2s;
+  transition: 0.1s;
 }
 .subjectLink:hover .BiChevronRight {
   color: #fefefe !important;

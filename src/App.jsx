@@ -224,7 +224,7 @@ function App() {
 
           {
             scrolled && !notMoved &&
-            <div onClick={goTop} className="scrollToTopBtn ownShadow" data-aos="fade-up" data-aos-duration="500"><IoIosArrowUp size={30} />
+            <div onClick={goTop} className="scrollToTopBtn ownShadow-lg" data-aos="fade-up" data-aos-duration="500"><IoIosArrowUp size={30} />
               <svg
                 viewBox="0 0 50 50"
                 width="50px"
