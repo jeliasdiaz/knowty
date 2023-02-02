@@ -34,29 +34,33 @@ function Search() {
 
       </div>
       {
-        searchTerm === "" ? <h6 style={{ color: "gray" }} data-aos="fade-up" data-aos-duration="700">Por favor escribe algo para buscar</h6> : filteredData.length !== 0 ? (
-          <div className="dataResult" data-aos="fade-up" data-aos-duration="500">
-            {
-              filteredData.slice(0, 5).map(value => (
-                <Link to={value.url} className="text-decoration-none" key={value.name}>
-                  <div className="dataItem shadow d-flex align-items-center p-3 my-3">
-                    <img src={value.img} alt={value.name} className="CardImg pe-3" />
-                    {value.name}
-                  </div>
-                </Link>
-              ))
-            }
-          </div>
-        ) : (
-          <div className="dataResult" data-aos="fade-up" data-aos-duration="500">
-            <Link to="/busqueda" className="text-decoration-none" key="Not found">
-              <div className="dataItem shadow d-flex align-items-center p-3 my-3">
-                <img src="/img/notFound.png" alt="Ningún resultado" className="CardImg pe-3" />
-                Ningún resultado
-              </div>
-            </Link>
-          </div>
-        )
+        searchTerm === ""
+          ?
+          <h6 style={{ color: "gray" }} data-aos="fade-up" data-aos-duration="800">Por favor escribe algo para buscar</h6>
+          :
+          filteredData.length !== 0
+            ?
+            <div className="dataResult" data-aos="fade-up" data-aos-duration="500">
+              {
+                filteredData.slice(0, 5).map(value => (
+                  <Link to={value.url} className="text-decoration-none" key={value.name}>
+                    <div className="dataItem shadow d-flex align-items-center p-3 my-3">
+                      <img src={value.img} alt={value.name} className="CardImg pe-3" />
+                      {value.name}
+                    </div>
+                  </Link>
+                ))
+              }
+            </div>
+            :
+            <div className="dataResult" data-aos="fade-up" data-aos-duration="500">
+              <Link to="/busqueda" className="text-decoration-none" key="Not found">
+                <div className="dataItem shadow d-flex align-items-center p-3 my-3">
+                  <img src="/img/notFound.png" alt="Ningún resultado" className="CardImg pe-3" />
+                  Ningún resultado
+                </div>
+              </Link>
+            </div>
       }
     </div>
   );

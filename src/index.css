@@ -81,6 +81,8 @@ ul li:before {
   background-color: #f6f6f6 !important;
   color: black !important;
 }
+
+/** Scroll to top button  */
 .scrollToTopBtn {
   position: fixed;
   padding: 0.4rem;
@@ -94,7 +96,6 @@ ul li:before {
   transition: 0.2s;
   z-index: 10;
 }
-
 .circleProgress {
   position: absolute;
   right: -3.9px;
@@ -105,7 +106,7 @@ ul li:before {
 /** Section 1 */
 .home {
   background-color: #f6f6f6;
-  height: 100vh;
+  min-height: 100vh;
   transition: 0.5s;
 }
 .sectionOne {
@@ -176,7 +177,8 @@ ul li:before {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 2.5%;
-  max-width: 80rem;
+  min-width: 30%;
+  max-width: 40rem;
   flex-wrap: wrap !important;
 }
 .subjectLink h4 {
@@ -461,6 +463,7 @@ ul li:before {
     margin-left: auto;
     margin-right: auto;
   }
+  
 }
 
 @media screen and (max-width: 450px) {

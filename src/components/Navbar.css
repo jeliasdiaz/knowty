@@ -27,19 +27,19 @@
 
 /** Nav animation  */
 @keyframes up {
-  0% {
+  from {
     top: 0px;
   }
-  100%{
+  to {
     top: -20px;
   }
 }
 @keyframes down {
-  0% {
+  from {
     top: -20px;
   }
-  100%{
-    top: 10x;
+  to {
+    top: 0px;
   }
 }
 .up{

@@ -245,7 +245,6 @@ function App() {
                 />
               </svg>
             </div>
-
           }
 
           <Footer />
