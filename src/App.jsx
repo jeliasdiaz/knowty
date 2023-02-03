@@ -75,6 +75,7 @@ import { MdClose } from "react-icons/md";
 
 //* Icons credit card
 import Icons from "./pages/Single-pages/Icons";
+import StudentsResources from "./pages/Blog/StudentsResources";
 
 
 function App() {
@@ -163,9 +164,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/info" element={<InfoPage />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/repeticion-espaciada" element={<SpacedRepetition />} />
             <Route path="/busqueda" element={<Search />} />
             <Route path="/iconos" element={<Icons />} />
+            <Route path="/repeticion-espaciada" element={<SpacedRepetition />} />
+            <Route path="/recursos-para-estudiantes" element={<StudentsResources />} />
 
             <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
             <Route path="/quimica_2" element={<SecondChemistryPeriod />} />

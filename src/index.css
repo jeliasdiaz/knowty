@@ -395,6 +395,27 @@ ul li:before {
   padding: 4%;
   background-color: white;
 }
+.blogSection ul li {
+  list-style-type: disc;
+}
+.blogSection ul li h4 a {
+  color: #28708f;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 150ms;
+}
+.blogSection ul li h4 a:hover {
+  text-decoration: underline;
+  text-underline-offset:  3px;
+}
+.blogSection ul li::before {
+  content: "";
+}
+.containerCards{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
 
 /** Icons atribution  */
 .iconsContainer {
