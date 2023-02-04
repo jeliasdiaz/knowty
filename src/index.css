@@ -188,15 +188,11 @@ ul li:before {
   border-radius: 25px;
   padding: 8%;
   align-items: center;
-}
-.subjectAnimation {
   transition: transform 0.2s, background-color 0.2s !important;
 }
 .subjectLink:hover {
   background-color: #bfdfed;
   color: #fefefe !important;
-}
-.subjectAnimation:hover {
   transform: translateY(-5px) !important;
 }
 .subjectLink h4 {
@@ -208,15 +204,7 @@ ul li:before {
 }
 .subjectLink:hover .BiChevronRight {
   color: #fefefe !important;
-}
-.subjectLinkTrigonometria {
-  width: 60%;
-  align-items: center;
-  padding: 4% !important;
-  margin: auto;
-}
-.subjectLinkTrigonometria:hover {
-  transform: translateY(-5px) !important;
+  transform: translateX(6px);
 }
 .trigonometryCard h5 {
   font-size: 17.5px;
@@ -355,6 +343,7 @@ ul li:before {
   margin: auto;
   background: white;
   border-radius: 15px;
+  transition: all 0.3s;
 }
 .blogCard:hover {
   transform: translateY(-10px) !important;
@@ -549,10 +538,6 @@ ul li:before {
   }
   .bx-chevron-right {
     color: #023246;
-  }
-  .subjectLinkTrigonometria {
-    width: 100% !important;
-    padding: 8% !important;
   }
 
   /** Subjects card  */

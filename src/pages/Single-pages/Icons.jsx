@@ -6,7 +6,7 @@ const Icons = () => {
             <TopWave />
             <div className="pb-5">
             <div className="iconsCard ownShadow">
-                <h3>Icons from Flaticon</h3>
+                <h3>Iconos de Flaticon</h3>
                 <ul>
                     <li><a href="https://www.flaticon.es/iconos-gratis/grafico-circular" target="_blank" rel="noreferrer" title="gráfico circular iconos" className=" text-decoration-none">Gráfico circular iconos creados por Freepik - Flaticon</a></li>
                     <li><a href="https://www.flaticon.com/free-icons/physics" target="_blank" rel="noreferrer" title="physics icons" className=" text-decoration-none">Íconos de física creados por Freepik - Flaticon</a></li>
