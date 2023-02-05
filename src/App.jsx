@@ -70,12 +70,10 @@ import SpacedRepetition from "./pages/Blog/SpacedRepetition";
 //* Not found
 import NotFound from "./pages/Single-pages/NotFound";
 
-//* Install PWA close btn
-import { MdClose } from "react-icons/md";
-
 //* Icons credit card
 import Icons from "./pages/Single-pages/Icons";
 import StudentsResources from "./pages/Blog/StudentsResources";
+import InstallAppBtn from "./components/InstallAppBtn";
 
 
 function App() {
@@ -84,29 +82,6 @@ function App() {
     AOS.init();
     AOS.refresh();
   }, []);
-
-  const [isReadyForInstall, setIsReadyForInstall] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener("beforeinstallprompt", (event) => {
-      event.preventDefault();
-      window.deferredPrompt = event;
-      setIsReadyForInstall(true);
-    });
-  }, []);
-
-  async function downloadApp() {
-    const promptEvent = window.deferredPrompt;
-    promptEvent.prompt();
-    window.deferredPrompt = null;
-    setIsReadyForInstall(false);
-  }
-
-  const [installBtn, setInstallBtn] = useState(true)
-
-  const handleInstallBtn = () => {
-    setInstallBtn(!installBtn)
-  }
 
   //* Progress button 
 
@@ -209,30 +184,13 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
           {
-            installBtn && isReadyForInstall
-              ?
-              <button className="installCard ownShadow d-block d-sm-none" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
-                <div className="d-flex gap-3 justify-content-center">
-                  <img src="/img/logo.svg" alt="logo" className="w-25" />
-                  <span onClick={downloadApp}>Descargar</span>
-                  <div>
-                    <MdClose size={35} className="closeInstallBtn mt-2" onClick={handleInstallBtn} />
-                  </div>
-                </div>
-              </button>
-              :
-              ''
+            <InstallAppBtn />
           }
 
           {
             scrolled && !notMoved &&
             <div onClick={goTop} className="scrollToTopBtn ownShadow-lg" data-aos="fade-up" data-aos-duration="500"><IoIosArrowUp size={30} />
-              <svg
-                viewBox="0 0 50 50"
-                width="50px"
-                height="50px"
-                className="circleProgress"
-              >
+              <svg viewBox="0 0 50 50" width="50px" height="50px" className="circleProgress">
                 <circle
                   cx={DIAMETER / 2}
                   cy={DIAMETER / 2}

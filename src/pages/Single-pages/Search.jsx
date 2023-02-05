@@ -29,7 +29,7 @@ function Search() {
       <div className="searchInputs" data-aos="fade-up" data-aos-duration="1000">
         <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} />
         <div className="searchIcon">
-          {filteredData.length === 0 ? <BiSearch size={35} /> : <IoClose id="clearBtn" onClick={clearInput} size={35} />}
+          {searchTerm.length === 0 ? <BiSearch size={35} /> : <IoClose id="clearBtn" onClick={clearInput} size={35} />}
         </div>
 
       </div>

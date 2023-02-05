@@ -80,11 +80,10 @@
   transition: all 0.2s;
 }
 .Search {
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .Search:hover {
-  transform: rotateZ(180deg);
-  transition: all 0.5s;
+  transform: rotateZ(45deg);
 }
 .dropdown-item {
   margin: auto;

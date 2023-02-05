@@ -23,7 +23,7 @@ const SpacedRepetition = () => {
 
             Por último, me gustaría recomendarte este video en el que se explica a profundidad la repetición espaciada y cómo puedes aplicarla. <br /><br />
 
-            <button className="btn btn-secondary"><a href="https://youtu.be/pmbJHBrHP4o" className="text-decoration-none text-white">Visitar</a></button>
+            <button className="btn btn-secondary"><a href="https://youtu.be/pmbJHBrHP4o" target="_blank" rel="noreferrer" className="text-decoration-none text-white">Visitar</a></button>
           </p>
         </div>
       </div>
