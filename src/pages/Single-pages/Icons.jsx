@@ -1,6 +1,6 @@
 import TopWave from "../../components/TopWave"
 
-const Icons = () => {
+export const Icons = () => {
     return (
         <div className="iconsContainer">
             <TopWave />
@@ -22,5 +22,3 @@ const Icons = () => {
         </div>
     )
 }
-
-export default Icons

@@ -4,7 +4,7 @@ import Latex from "react-latex"
 import CollapseTitle from "../../components/CollapseTitle";
 import TopWave from "../../components/TopWave";
 
-const FirstChemistryPeriod = () => {
+export const FirstChemistryPeriod = () => {
     const escalasConversionOne = "$$°C + 273$$"
     const escalasConversionTwo = "$$°k \\ - \\ 273$$"
     const escalasConversionThree = "$$1.8(°C) + 32$$"

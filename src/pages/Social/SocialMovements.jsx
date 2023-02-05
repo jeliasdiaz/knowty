@@ -4,7 +4,7 @@ import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
 import TopWave from "../../components/TopWave";
 
-const SocialMovements = () => {
+export const SocialMovements = () => {
     return (
         <div className="homeCard">
             <TopWave />
@@ -65,5 +65,3 @@ const SocialMovements = () => {
         </div>
     )
 }
-
-export default SocialMovements

@@ -3,7 +3,7 @@ import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
 import TopWave from "../../components/TopWave";
 
-const FirstSocialPeriod = () => {
+export const FirstSocialPeriod = () => {
     return (
         <div className="homeCard">
             <TopWave />
@@ -185,5 +185,3 @@ const FirstSocialPeriod = () => {
         </div >
     )
 }
-
-export default FirstSocialPeriod

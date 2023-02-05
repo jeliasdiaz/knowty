@@ -4,7 +4,7 @@ import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
 import MoreBtn from "../../components/MoreBtn";
 import TopWave from "../../components/TopWave";
-const FourthChemistryPeriod = () => {
+export const FourthChemistryPeriod = () => {
 
     const purezaReactivo = `$$SP = \\large \\frac{SI \\ \\cdot \\ \\%P}{100}$$`
     const sustanciaPura = `$$\\small Sustancia pura = \\large \\frac{Sustancia \\ impura \\ \\cdot \\ Porcentaje \\ de \\ pureza}{100}$$`
@@ -148,5 +148,3 @@ const FourthChemistryPeriod = () => {
         </div >
     )
 }
-
-export default FourthChemistryPeriod

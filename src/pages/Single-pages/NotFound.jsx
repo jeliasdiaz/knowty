@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import TopWave from "../../components/TopWave"
 
-const NotFound = () => {
+export const NotFound = () => {
   return (
     <div className="notFoundContainer">
         <TopWave />
@@ -13,5 +13,3 @@ const NotFound = () => {
     </div>
   )
 }
-
-export default NotFound

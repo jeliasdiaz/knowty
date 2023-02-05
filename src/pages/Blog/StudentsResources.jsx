@@ -1,6 +1,6 @@
 import TopWave from "../../components/TopWave"
 
-const StudentsResources = () => {
+export const StudentsResources = () => {
     return (
         <div className="blogSectionContainer">
             <TopWave />
@@ -33,5 +33,3 @@ const StudentsResources = () => {
         </div>
     )
 }
-
-export default StudentsResources

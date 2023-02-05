@@ -4,7 +4,7 @@ import CollapseTitle from "../../components/CollapseTitle";
 import TopWave from "../../components/TopWave";
 import Tooltips from "../../components/Tooltips";
 
-const SecondChemistryPeriod = () => {
+export const SecondChemistryPeriod = () => {
     return (
         <div className="homeCard" id="geometria">
             <TopWave />
@@ -153,5 +153,3 @@ const SecondChemistryPeriod = () => {
         </div >
     )
 }
-
-export default SecondChemistryPeriod

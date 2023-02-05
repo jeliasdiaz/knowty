@@ -2,7 +2,7 @@ import CollapseTitle from "../../components/CollapseTitle";
 import { SectionTitle } from "../../components/SectionTitle";
 import TopWave from "../../components/TopWave";
 
-const English = () => {
+export const English = () => {
     return (
         <div className="homeCard" id="geometria">
             <TopWave />
@@ -375,5 +375,3 @@ const English = () => {
         </div >
     )
 }
-
-export default English

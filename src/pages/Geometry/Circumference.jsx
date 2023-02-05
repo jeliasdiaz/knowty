@@ -3,7 +3,7 @@ import { GeometryNav } from "./GeometryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import TopWave from "../../components/TopWave";
 
-const Circumference = () => {
+export const Circumference = () => {
 
     const canonicaCircunferencia = `$$r = \\sqrt{(x - h)^2 + (y - k)^2}$$`
     const generalCircunferencia = `$$r = \\sqrt{(x - c_1)^2 + (y - c_2)^2}$$`
@@ -27,5 +27,3 @@ const Circumference = () => {
         </div>
     )
 }
-
-export default Circumference

@@ -3,7 +3,7 @@ import { GeometryNav } from "./GeometryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import TopWave from "../../components/TopWave";
 
-const Ellipse = () => {
+export const Ellipse = () => {
     
     const elipseOne = `$$ \\large \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = \\small 1$$`
     const elipseTwo = `$$\\small LR = \\large \\frac{2 \\ \\cdot \\ b^2}{a}$$`
@@ -53,5 +53,3 @@ const Ellipse = () => {
         </div>
     )
 }
-
-export default Ellipse

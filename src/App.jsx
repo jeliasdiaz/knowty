@@ -1,80 +1,36 @@
-import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
-
 //* Operation
+import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import { useEffect, useState, useRef, useLayoutEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTop from "./ScrollToTop";
-import { useEffect, useState } from "react";
-import { useLayoutEffect, useRef } from "react";
 import { IoIosArrowUp } from "react-icons/io";
 
 //* Principal components
-import { Home } from "./pages/Single-pages/Home";
+import { Home, InfoPage, English, Search, Blog, NotFound, Icons, Statistic } from "./pages/Single-pages/";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 
 //* Chemistry
-import FirstChemistryPeriod from "./pages/Chemistry/FirstChemistryPeriod";
-import ThirdChemistryPeriod from "./pages/Chemistry/ThirdChemistryPeriod";
-import SecondChemistryPeriod from "./pages/Chemistry/SecondChemistryPeriod";
-import FourthChemistryPeriod from "./pages/Chemistry/FourthChemistryPeriod";
-
-//* English
-import English from "./pages/Single-pages/English";
+import { FirstChemistryPeriod, FourthChemistryPeriod, SecondChemistryPeriod, ThirdChemistryPeriod, ChemistryMenu } from "./pages/Chemistry";
 
 //* Geometry
-import Straight from "./pages/Geometry/Straight";
-import Circumference from "./pages/Geometry/Circumference";
-import { Parable } from "./pages/Geometry/Parable";
-import Ellipse from "./pages/Geometry/Ellipse";
+import { Circumference, Straight, Ellipse, Parable, GeometryMenu } from "./pages/Geometry";
 
 //* Pyshic
-import { Cinematic } from "./pages/Physic/Cinematic";
-import { Dinamic } from "./pages/Physic/Dinamic";
-import { CircularMovement } from "./pages/Physic/CircularMovement";
-import { Energy } from "./pages/Physic/Energy";
-import FluidMechanics from "./pages/Physic/FluidMechanics"
+import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu } from "./pages/Physic/";
 
 //* Social
-import FirstSocialPeriod from "./pages/Social/FirstSocialPeriod";
-import EconomicDoctrines from "./pages/Social/EconomicDoctrines";
-import ArmedGroups from "./pages/Social/ArmedGroups";
-import SocialMovements from "./pages/Social/SocialMovements";
-
-//* Statistic 
-import { Statistic } from "./pages/Single-pages/Statistic";
+import {FirstSocialPeriod, EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu} from "./pages/Social/";
 
 //* Trigonometry
-import { ThirdTrigonometryPeriod } from "./pages/Trigonometry/ThirdTrigonometryPeriod";
-import { SecondTrigonometryPeriod } from "./pages/Trigonometry/SecondTrigonometryPeriod";
-
-//* Phone menus
-import { PhysicMenu } from "./pages/Physic/PhysicMenu";
-import { GeometryMenu } from "./pages/Geometry/GeometryMenu";
-import { ChemistryMenu } from "./pages/Chemistry/ChemistryMenu";
-import { SocialMenu } from "./pages/Social/SocialMenu";
-import { TrigonometryMenu } from "./pages/Trigonometry/TrigonometryMenu";
-
-//* Practice pages
-import { PhysicPractice } from "./pages/Physic/PhysicPractice";
-import { TrigonometryPractice } from "./pages/Trigonometry/TrigonometryPractice";
-
-//* Information page
-import { InfoPage } from "./pages/Single-pages/InfoPage";
-import Search from "./pages/Single-pages/Search";
+import { ThirdTrigonometryPeriod, SecondTrigonometryPeriod, TrigonometryMenu, TrigonometryPractice } from "./pages/Trigonometry/";
 
 //* Blog
-import Blog from "./pages/Single-pages/Blog";
-import SpacedRepetition from "./pages/Blog/SpacedRepetition";
-
-//* Not found
-import NotFound from "./pages/Single-pages/NotFound";
+import { SpacedRepetition, StudentsResources} from "./pages/Blog/";
 
 //* Icons credit card
-import Icons from "./pages/Single-pages/Icons";
-import StudentsResources from "./pages/Blog/StudentsResources";
 import InstallAppBtn from "./components/InstallAppBtn";
-
 
 function App() {
 

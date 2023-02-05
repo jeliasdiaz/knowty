@@ -6,7 +6,7 @@ import { BiSearch } from "react-icons/bi";
 import { IoClose } from "react-icons/io5";
 import TopWave from "../../components/TopWave";
 
-function Search() {
+export const Search = () => {
 
   const [filteredData, setFilteredData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");

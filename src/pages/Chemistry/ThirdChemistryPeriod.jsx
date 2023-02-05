@@ -5,7 +5,7 @@ import CollapseTitle from "../../components/CollapseTitle";
 import MoreBtn from "../../components/MoreBtn";
 import TopWave from "../../components/TopWave";
 
-const ThirdChemistryPeriod = () => {
+export const ThirdChemistryPeriod = () => {
 
   const metodoAlgebraicoEjemplo = `$$\\text{Fe}_2O_3 \\ + \\ C \\rightarrow \\ \\text{Fe} \\ + \\ \\text{CO}$$`
 
@@ -434,5 +434,3 @@ const ThirdChemistryPeriod = () => {
     </div>
   )
 }
-
-export default ThirdChemistryPeriod

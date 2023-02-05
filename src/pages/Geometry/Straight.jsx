@@ -3,7 +3,7 @@ import { GeometryNav } from "./GeometryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import TopWave from "../../components/TopWave";
 
-const Straight = () => {
+export const Straight = () => {
 
     const distanciaPuntos = `$$d(P, Q) =  \\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}$$`
     const distanciaPuntosEjemplo = `$$d(P, Q) = \\sqrt{(-2 - 4)^2 + (-1 - 6)^2 } = \\sqrt{85} = 9.21$$`
@@ -58,5 +58,3 @@ const Straight = () => {
         </div>
     )
 }
-
-export default Straight

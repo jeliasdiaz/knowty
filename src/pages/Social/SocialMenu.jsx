@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import TopWave from "../../components/TopWave"
+
 export const SocialMenu = () => {
   return (
     <>

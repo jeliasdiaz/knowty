@@ -3,7 +3,7 @@ import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
 import TopWave from "../../components/TopWave";
 
-const ArmedGroups = () => {
+export const ArmedGroups = () => {
     return (
         <div className="homeCard">
             <TopWave />
@@ -156,5 +156,3 @@ const ArmedGroups = () => {
         </div >
     )
 }
-
-export default ArmedGroups

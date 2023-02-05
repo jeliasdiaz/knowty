@@ -2,7 +2,8 @@ import { SocialNav } from "./SocialNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
 import TopWave from "../../components/TopWave";
-const EconomicDoctrines = () => {
+
+export const EconomicDoctrines = () => {
     return (
         <div className="homeCard">
             <TopWave />
@@ -105,5 +106,3 @@ const EconomicDoctrines = () => {
         </div >
     )
 }
-
-export default EconomicDoctrines

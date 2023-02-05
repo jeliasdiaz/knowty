@@ -1,6 +1,6 @@
 import TopWave from "../../components/TopWave"
 
-const SpacedRepetition = () => {
+export const SpacedRepetition = () => {
   return (
     <div className="blogSectionContainer">
       <TopWave />
@@ -30,5 +30,3 @@ const SpacedRepetition = () => {
     </div>
   )
 }
-
-export default SpacedRepetition

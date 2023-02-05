@@ -4,7 +4,7 @@ import { SectionTitle } from "../../components/SectionTitle";
 import MoreBtn from "../../components/MoreBtn";
 import TopWave from "../../components/TopWave";
 
-const FluidMechanics = () => {
+export const FluidMechanics = () => {
 
     const densidad = `$$ρ = \\large \\frac{masa}{volumen}$$`
     const pesoEspecifico = `$$δ = p \\ \\cdot \\ g$$`
@@ -65,5 +65,3 @@ const FluidMechanics = () => {
         </div>
     )
 }
-
-export default FluidMechanics

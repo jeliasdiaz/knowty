@@ -1,7 +1,7 @@
 import BlogCard from "../../components/BlogCard"
 import TopWave from "../../components/TopWave"
 
-const Blog = () => {
+export const Blog = () => {
     return (
         <div className="blogContainer">
             <TopWave />
@@ -12,5 +12,3 @@ const Blog = () => {
         </div>
     )
 }
-
-export default Blog
