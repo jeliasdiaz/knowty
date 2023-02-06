@@ -1,18 +1,17 @@
+import { useEffect, useState } from "react";
+import "./Navbar.css"
+import NavIcon from "./NavIcon";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { AiFillHome } from "react-icons/ai";
 import { MdInfo } from "react-icons/md";
 import { IoCaretBackCircle } from "react-icons/io5";
 import { BiSearch } from "react-icons/bi";
-import { HiMoon } from "react-icons/hi2";
-import { HiSun } from "react-icons/hi2";
+import { HiMoon, HiSun } from "react-icons/hi2";
 import { BsFillLightbulbFill } from "react-icons/bs";
-import "./Navbar.css"
-import { useEffect, useState } from "react";
-import NavIcon from "./NavIcon";
 
 export const Navbar = () => {
 
-  const [yOffset, setYOffset] = useState(window.pageYOffset);
+  const [yOffset, setYOffset] = useState(window.scrollY);
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
@@ -21,7 +20,7 @@ export const Navbar = () => {
   });
 
   function handleScroll() {
-    const currentYOffset = window.pageYOffset;
+    const currentYOffset = window.scrollY;
     const visible = yOffset > currentYOffset;
 
     setYOffset(currentYOffset);
@@ -41,7 +40,7 @@ export const Navbar = () => {
 
   // toggle icon dark and light
   const [Icon, setIcon] = useState(false)
-  const toggleIcon = () => Icon ? setIcon(false) : setIcon(true)
+  const toggleIcon = () => theme === 'dark' ? setIcon(false) : setIcon(true)
 
 
   // go back
