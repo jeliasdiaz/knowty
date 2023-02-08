@@ -53,7 +53,7 @@ export const Home = () => {
                 <div className="d-flex gap-3 mt-3">
                   <SubjectCard path="/trigonometria_2" img="trigonometria" title="Trigonometría" marginTop="trigonometryCard" animationDuration={1200} />
 
-                  <SubjectCard path="/blog" img="consejos" title="Consejos" marginTop="" animationDuration={1200} />
+                  <SubjectCard path="/blog" img="consejos" title="Consejos" animationDuration={1200} />
                 </div>
               </div>
             </div>

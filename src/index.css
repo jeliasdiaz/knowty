@@ -188,7 +188,12 @@ ul li:before {
   border-radius: 25px;
   padding: 8%;
   align-items: center;
+} 
+.animation{
   transition: transform 0.2s, background-color 0.2s !important;
+}
+.animationMobile {
+  transition: transform 0.2s, background-color 0.2s ;
 }
 .subjectLink:hover {
   background-color: #bfdfed;
