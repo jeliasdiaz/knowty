@@ -371,7 +371,7 @@ ul li:before {
 .blogCardTitle {
   transition: 0.3s;
 }
-.blogCardTitle:hover {
+.blogCard:hover .blogCardTitle {
   color: #2b7ea1;
 }
 .blogSectionContainer {

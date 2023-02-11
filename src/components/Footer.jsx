@@ -17,7 +17,7 @@ export const Footer = () => {
         <div className="textFooter d-none d-md-block d-lg-block">
           <h1>Knowty</h1>
           <div className="d-flex justify-content-center">
-            <MembersCard name="Jose Díaz" description="Creador del proyecto, página y encargado del canal YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} />} animationDuration={600} />
+            <MembersCard name="Jose Elías Díaz" description="Creador del proyecto, página y encargado del canal YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} />} animationDuration={600} />
 
             <MembersCard name="Wilmar Fontalvo" description="Creador de videos. Encargado de animar y editar." icon={<AiFillYoutube size={36} />} animationDuration={800} />
 
@@ -38,7 +38,7 @@ export const Footer = () => {
           </div>
 
           <div>
-            <MembersCard name="Jose Díaz" description="Creador del proyecto, página y contenido para YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} animationDuration={1000} />} optionalClass="pt-4 w-75 mx-auto" />
+            <MembersCard name="Jose Elías Díaz" description="Creador del proyecto, página y contenido para YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} animationDuration={1000} />} optionalClass="pt-4 w-75 mx-auto" />
           </div>
 
           <div className="d-flex">
