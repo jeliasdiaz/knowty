@@ -10,6 +10,11 @@ body {
   color: black;
 }
 
+/* @keyframes top {
+  from { transform: translateY(15px); }
+  to { transform: translateY(-15px); }
+} */
+
 /** Global elements */
 .ownShadow {
   box-shadow: 0 0.5rem 1rem rgba(10, 6, 6, 0.15);
@@ -93,9 +98,17 @@ ul li:before {
   opacity: 0.8;
   color: black;
   cursor: pointer;
-  transition: 0.2s;
+  transition: all 0.2s !important;
   z-index: 10;
 }
+
+.scrollToTopBtn:hover{
+  bottom: 1.3rem;
+}
+.scrollToTopBtn:active{
+  bottom: 1.3rem;
+}
+
 .circleProgress {
   position: absolute;
   right: -3.9px;
