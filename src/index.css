@@ -201,7 +201,11 @@ ul li:before {
   border-radius: 25px;
   padding: 8%;
   align-items: center;
+  height: 90px;
 } 
+.subjectLink img{
+  width: 25%;
+}
 .animation{
   transition: transform 0.2s, background-color 0.2s !important;
 }
@@ -484,6 +488,7 @@ ul li:before {
   }
   .subjectLink {
     margin-top: 5%;
+    height: auto;
   }
   .text-sectionTwo {
     width: 90%;
