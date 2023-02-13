@@ -202,6 +202,7 @@ ul li:before {
   padding: 8%;
   align-items: center;
   height: 90px;
+  width: 260px;
 } 
 .subjectLink img{
   width: 25%;
@@ -489,6 +490,7 @@ ul li:before {
   .subjectLink {
     margin-top: 5%;
     height: auto;
+    width: auto;
   }
   .text-sectionTwo {
     width: 90%;
