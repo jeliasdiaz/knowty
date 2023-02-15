@@ -33,7 +33,6 @@ import { SpacedRepetition, StudentsResources} from "./pages/Blog/";
 import InstallAppBtn from "./components/InstallAppBtn";
 
 function App() {
-
   useEffect(() => {
     AOS.init();
     AOS.refresh();
