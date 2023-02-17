@@ -108,6 +108,10 @@ ul li:before {
 .scrollToTopBtn:active{
   bottom: 1.3rem;
 }
+.scrollToTopBtn svg circle {
+  transition-delay: 0.1s;
+  transition: 200ms;
+}
 
 .circleProgress {
   position: absolute;
