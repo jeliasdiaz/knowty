@@ -3,9 +3,8 @@ import { useState } from "react";
 const CollapseTitle = ({ name, id }) => {
     const [IsClicked, setIsClicked] = useState(false)
 
-    const handleArrow = () => {
-        setIsClicked(!IsClicked)
-    }
+    const handleArrow = () => setIsClicked(!IsClicked)
+    
     return (
         <div className="d-flex mb-2 align-items-center" data-bs-toggle="collapse" href={id} role="button" onClick={handleArrow}>
             {

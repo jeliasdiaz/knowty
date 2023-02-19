@@ -2,7 +2,7 @@ import { ChemistryNav } from "./ChemistryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import CollapseTitle from "../../components/CollapseTitle";
 import TopWave from "../../components/TopWave";
-import Tooltips from "../../components/Tooltips";
+import Tooltip from "../../components/Tooltip";
 
 export const SecondChemistryPeriod = () => {
     return (
@@ -123,7 +123,7 @@ export const SecondChemistryPeriod = () => {
                         <div className="collapse" id="compuestosIonicos">
                             <ul>
                                 <li>Forman
-                                    <Tooltips content={<span>Compuestos químicos formados a partir <br /> de la combinación de ácidos con bases.</span>} text="sales" />
+                                    <Tooltip content={<span>Compuestos químicos formados a partir <br /> de la combinación de ácidos con bases.</span>} text="sales" />
                                     sólidas.
                                 </li>
                                 <li>Forman redes cristalinas. Por tanto, son sólidos a temperatura ambiente.</li>

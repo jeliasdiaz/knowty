@@ -102,10 +102,10 @@ ul li:before {
   z-index: 10;
 }
 
-.scrollToTopBtn:hover{
+.scrollToTopBtn:hover {
   bottom: 1.3rem;
 }
-.scrollToTopBtn:active{
+.scrollToTopBtn:active {
   bottom: 1.3rem;
 }
 .scrollToTopBtn svg circle {
@@ -207,15 +207,15 @@ ul li:before {
   align-items: center;
   height: 90px;
   width: 260px;
-} 
-.subjectLink img{
+}
+.subjectLink img {
   width: 25%;
 }
-.animation{
+.animation {
   transition: transform 0.2s, background-color 0.2s !important;
 }
 .animationMobile {
-  transition: transform 0.2s, background-color 0.2s ;
+  transition: transform 0.2s, background-color 0.2s;
 }
 .subjectLink:hover {
   background-color: #bfdfed;
@@ -252,6 +252,10 @@ ul li:before {
   --bs-pagination-padding-y: 1rem !important;
   --bs-pagination-border-radius: 1.3rem !important;
   transition: 0.5s;
+  border-radius: 1.3rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 .pagination li {
   border-radius: 1.3rem !important;
@@ -287,9 +291,11 @@ ul li:before {
 .collapseTitleIconUp {
   transform: rotate(180deg);
   transition: 0.5s;
+  margin-top: 0.5%;
 }
 .collapseTitleIconDown {
   transition: 0.5s;
+  margin-top: 0.5%;
 }
 .subjectCard li {
   padding-top: 0.3em;
@@ -422,12 +428,12 @@ ul li:before {
 }
 .blogSection ul li h4 a:hover {
   text-decoration: underline;
-  text-underline-offset:  3px;
+  text-underline-offset: 3px;
 }
 .blogSection ul li::before {
   content: "";
 }
-.containerCards{
+.containerCards {
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
@@ -633,7 +639,7 @@ ul li:before {
     width: 95%;
   }
   /** Icons card  */
-  .iconsCard{
+  .iconsCard {
     width: 95%;
     margin-top: 10%;
   }

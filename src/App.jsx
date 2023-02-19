@@ -21,13 +21,13 @@ import { Circumference, Straight, Ellipse, Parable, GeometryMenu } from "./pages
 import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu } from "./pages/Physic/";
 
 //* Social
-import {FirstSocialPeriod, EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu} from "./pages/Social/";
+import { FirstSocialPeriod, EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu } from "./pages/Social/";
 
 //* Trigonometry
 import { ThirdTrigonometryPeriod, SecondTrigonometryPeriod, TrigonometryMenu, TrigonometryPractice } from "./pages/Trigonometry/";
 
 //* Blog
-import { SpacedRepetition, StudentsResources} from "./pages/Blog/";
+import { SpacedRepetition, StudentsResources } from "./pages/Blog/";
 
 //* Icons credit card
 import InstallAppBtn from "./components/InstallAppBtn";
@@ -58,7 +58,8 @@ function App() {
   }
 
   useEffect(() => {
-    window.addEventListener("scroll", (e) => handleScroll(e));
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
 
@@ -74,7 +75,7 @@ function App() {
     window.addEventListener("scroll", updateHeight);
     return () => window.removeEventListener("scroll", updateHeight);
   }, []);
-  
+
   const position = Math.max(1 - progress, 0);
   const notMoved = position === 1;
 

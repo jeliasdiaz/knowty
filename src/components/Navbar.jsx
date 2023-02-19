@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
-import "./Navbar.css"
-import NavIcon from "./NavIcon";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import "./Navbar.css"
+import { useToggleNavbar } from "../hooks/useToggleNavbar";
+import { useToggleTheme } from "../hooks/useToggleTheme";
+import NavIcon from "./NavIcon";
 import { AiFillHome } from "react-icons/ai";
 import { MdInfo } from "react-icons/md";
 import { IoCaretBackCircle } from "react-icons/io5";
@@ -11,32 +13,11 @@ import { BsFillLightbulbFill } from "react-icons/bs";
 
 export const Navbar = () => {
 
-  const [yOffset, setYOffset] = useState(window.scrollY);
-  const [visible, setVisible] = useState(true);
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  });
-
-  function handleScroll() {
-    const currentYOffset = window.scrollY;
-    const visible = yOffset > currentYOffset;
-
-    setYOffset(currentYOffset);
-    setVisible(visible);
-  }
+  // Toggle navbar
+  const {visible} = useToggleNavbar()
 
   // toggle theme
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || '');
-
-  const toggleTheme = () => theme === '' ? setTheme('dark') : setTheme('')
-
-  useEffect(() => {
-    localStorage.setItem('theme', theme);
-    document.body.className = theme;
-  }, [theme]);
-
+  const {theme, toggleTheme} = useToggleTheme()
 
   // toggle icon dark and light
   const [Icon, setIcon] = useState(false)
@@ -46,7 +27,6 @@ export const Navbar = () => {
   // go back
   const navigate = useNavigate()
   const location = useLocation()
-
   
   return (
 

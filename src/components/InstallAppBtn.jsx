@@ -6,11 +6,16 @@ const InstallAppBtn = () => {
   const [isReadyForInstall, setIsReadyForInstall] = useState(false);
   
   useEffect(() => {
-    window.addEventListener("beforeinstallprompt", (event) => {
-      event.preventDefault();
-      window.deferredPrompt = event;
+    
+    const beforeInstallPrompt = (e) => {
+      e.preventDefault();
+      window.deferredPrompt = e;
       setIsReadyForInstall(true);
-    });
+    }
+    
+    window.addEventListener("beforeinstallprompt", beforeInstallPrompt)
+    return () => window.removeEventListener("beforeinstallprompt", beforeInstallPrompt)
+    
   }, []);
 
   async function downloadApp() {

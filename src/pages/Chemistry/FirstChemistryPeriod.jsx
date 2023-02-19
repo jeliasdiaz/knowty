@@ -3,6 +3,7 @@ import { SectionTitle } from "../../components/SectionTitle";
 import Latex from "react-latex"
 import CollapseTitle from "../../components/CollapseTitle";
 import TopWave from "../../components/TopWave";
+import Tooltip from "../../components/Tooltip";
 
 export const FirstChemistryPeriod = () => {
     const escalasConversionOne = "$$°C + 273$$"
@@ -36,7 +37,7 @@ export const FirstChemistryPeriod = () => {
                             <h4>Griego (500 - 300 a.c)</h4>
                             <ul>
                                 <li>Empédocles afirma que el universo se encuentra conformado por 4 elementos principales, fuego, agua, aire y tierra.</li>
-                                <li>Leucipo y Demócrito postulan la teoría atómica griega: “Toda la materia está formada por átomos eternos, indestructibles, indivisibles, pero diferentes en tamaño, forma y peso”.</li>
+                                <li>Leucipo y Demócrito postulan la teoría atómica griega: “Toda la materia está formada por <Tooltip content={<span>Estructura básica de la materia. Compuestos por <br /> electrones, protones y neutrones.</span>} text="átomos" /> eternos, indestructibles, indivisibles, pero diferentes en tamaño, forma y peso”.</li>
                             </ul>
 
                             <h4>Alquimia (300 - 1500 d.c)</h4>
