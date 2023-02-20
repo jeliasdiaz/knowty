@@ -1,9 +1,6 @@
 import Latex from "react-latex"
 import { TrigonometryNav } from "./TrigonometryNav"
-import { SectionTitle } from "../../components/SectionTitle";
-import CollapseTitle from "../../components/CollapseTitle";
-import MoreBtn from "../../components/MoreBtn";
-import TopWave from "../../components/TopWave";
+import { SectionTitle, CollapseTitle, MoreBtn, TopWave} from "../../components/";
 
 export const ThirdTrigonometryPeriod = () => {
 

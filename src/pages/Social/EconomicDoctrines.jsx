@@ -1,7 +1,5 @@
 import { SocialNav } from "./SocialNav"
-import { SectionTitle } from "../../components/SectionTitle";
-import CollapseTitle from "../../components/CollapseTitle";
-import TopWave from "../../components/TopWave";
+import { SectionTitle, CollapseTitle, TopWave } from "../../components/";
 
 export const EconomicDoctrines = () => {
     return (

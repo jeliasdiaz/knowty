@@ -1,7 +1,7 @@
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import * as ReactDOMServer from 'react-dom/server';
 
-const Tooltip = ({content, text }) => {
+export const Tooltip = ({content, text }) => {
     return (
         <>
             <span id="sales"
@@ -21,5 +21,3 @@ const Tooltip = ({content, text }) => {
         </>
     )
 }
-
-export default Tooltip

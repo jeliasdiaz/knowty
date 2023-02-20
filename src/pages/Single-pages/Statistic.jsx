@@ -1,8 +1,5 @@
 import Latex from "react-latex"
-import CollapseTitle from "../../components/CollapseTitle";
-import MoreBtn from "../../components/MoreBtn";
-import { SectionTitle } from "../../components/SectionTitle";
-import TopWave from "../../components/TopWave";
+import {CollapseTitle, MoreBtn, SectionTitle, TopWave} from "../../components/";
 
 export const Statistic = () => {
 

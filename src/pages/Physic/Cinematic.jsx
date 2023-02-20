@@ -1,8 +1,6 @@
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav.jsx";
-import { SectionTitle } from "../../components/SectionTitle";
-import MoreBtn from "../../components/MoreBtn.jsx";
-import TopWave from "../../components/TopWave.jsx";
+import { SectionTitle, MoreBtn, TopWave } from "../../components/";
 
 export const Cinematic = () => {
 
@@ -42,9 +40,9 @@ export const Cinematic = () => {
     return (
         <div className="homeCard">
             <TopWave />
-            <SectionTitle title="Cinemática"/>
+            <SectionTitle title="Cinemática" />
 
-            <PhysicNav/>
+            <PhysicNav />
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
@@ -70,7 +68,7 @@ export const Cinematic = () => {
                         <Latex>{vectoresEight}</Latex>
 
                     </div>
-                    <hr/>
+                    <hr />
                     <div>
                         <h3>M.R.U.</h3>
                         <h6>Posición</h6>
@@ -97,7 +95,7 @@ export const Cinematic = () => {
 
 
                     </div>
-                    <hr/>
+                    <hr />
                     <div>
                         <h3>Caída libre y tiro vertical</h3>
                         <h6>Posición</h6>
@@ -117,7 +115,7 @@ export const Cinematic = () => {
 
                     </div>
                 </div>
-                <hr  />
+                <hr />
                 <h3>Tiro parábolico</h3>
                 <h6>Componentes de la velocidad</h6>
                 <Latex>{tiroParabolicoOne}</Latex><br />

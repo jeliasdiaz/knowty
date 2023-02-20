@@ -1,5 +1,4 @@
-import BlogCard from "../../components/BlogCard"
-import TopWave from "../../components/TopWave"
+import { BlogCard, TopWave } from "../../components/"
 
 export const Blog = () => {
     return (

@@ -1,11 +1,10 @@
+import { Link } from "react-router-dom";
 import "./Footer.css"
-import { AiFillYoutube } from "react-icons/ai";
+import { MembersCard } from "./";
+import { AiFillYoutube, AiFillInstagram } from "react-icons/ai";
 import { BsMegaphoneFill } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
-import { AiFillInstagram } from "react-icons/ai";
 import { HiCode } from "react-icons/hi";
-import MembersCard from "./MembersCard";
-import { Link } from "react-router-dom";
 
 export const Footer = () => {
   const date = new Date()

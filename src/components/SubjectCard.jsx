@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { BiChevronRight } from "react-icons/bi";
 
-const SubjectCard = ({ path, img, title, marginTop, animationDelay }) => {
+export const SubjectCard = ({ path, img, title, marginTop, animationDelay }) => {
     return (
         <>
         <Link to={path} className="text-decoration-none text-black d-none d-sm-block" data-aos="fade-down" data-aos-duration={animationDelay} data-aos-once="true">
@@ -23,5 +23,3 @@ const SubjectCard = ({ path, img, title, marginTop, animationDelay }) => {
         </>
     )
 }
-
-export default SubjectCard

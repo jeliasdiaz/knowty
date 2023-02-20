@@ -1,6 +1,4 @@
-import CollapseTitle from "../../components/CollapseTitle";
-import { SectionTitle } from "../../components/SectionTitle";
-import TopWave from "../../components/TopWave";
+import {CollapseTitle, SectionTitle, TopWave} from "../../components/";
 
 export const English = () => {
     return (

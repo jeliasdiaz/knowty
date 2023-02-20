@@ -4,7 +4,7 @@ import "./Search.css";
 import { Link } from "react-router-dom";
 import { BiSearch } from "react-icons/bi";
 import { IoClose } from "react-icons/io5";
-import TopWave from "../../components/TopWave";
+import { TopWave } from "../../components/";
 
 export const Search = () => {
 

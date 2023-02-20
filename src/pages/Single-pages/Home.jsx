@@ -1,8 +1,6 @@
-import SubjectCard from "../../components/SubjectCard";
-import TopWave from "../../components/TopWave";
+import {SubjectCard, TopWave} from "../../components/";
 
 export const Home = () => {
-
   return (
     <>
       <section className="home">

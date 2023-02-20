@@ -1,7 +1,7 @@
 import Latex from "react-latex"
 import { GeometryNav } from "./GeometryNav"
 import { SectionTitle } from "../../components/SectionTitle";
-import TopWave from "../../components/TopWave";
+import { TopWave } from "../../components/";
 
 export const Ellipse = () => {
     

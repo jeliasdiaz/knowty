@@ -1,9 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import "./Navbar.css"
-import { useToggleNavbar } from "../hooks/useToggleNavbar";
-import { useToggleTheme } from "../hooks/useToggleTheme";
-import NavIcon from "./NavIcon";
+import { useToggleNavbar, useToggleTheme } from "../hooks/";
+import {NavIcon} from "./NavIcon";
 import { AiFillHome } from "react-icons/ai";
 import { MdInfo } from "react-icons/md";
 import { IoCaretBackCircle } from "react-icons/io5";

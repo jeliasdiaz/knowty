@@ -1,8 +1,5 @@
 import { ChemistryNav } from "./ChemistryNav"
-import { SectionTitle } from "../../components/SectionTitle";
-import CollapseTitle from "../../components/CollapseTitle";
-import TopWave from "../../components/TopWave";
-import Tooltip from "../../components/Tooltip";
+import { SectionTitle, CollapseTitle, TopWave, Tooltip } from "../../components/";
 
 export const SecondChemistryPeriod = () => {
     return (

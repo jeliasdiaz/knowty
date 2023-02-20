@@ -10,11 +10,6 @@ body {
   color: black;
 }
 
-/* @keyframes top {
-  from { transform: translateY(15px); }
-  to { transform: translateY(-15px); }
-} */
-
 /** Global elements */
 .ownShadow {
   box-shadow: 0 0.5rem 1rem rgba(10, 6, 6, 0.15);

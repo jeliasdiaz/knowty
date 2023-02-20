@@ -1,4 +1,4 @@
-const MembersCard = ({ name, description, icon, iconTwo, optionalClass, animationDuration }) => {
+export const MembersCard = ({ name, description, icon, iconTwo, optionalClass, animationDuration }) => {
     return (
         <div className={`teamCard ${optionalClass}`} data-aos="fade-right" data-aos-duration={animationDuration}>
 
@@ -9,5 +9,3 @@ const MembersCard = ({ name, description, icon, iconTwo, optionalClass, animatio
         </div>
     )
 }
-
-export default MembersCard

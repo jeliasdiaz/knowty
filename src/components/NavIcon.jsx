@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
 import "react-tooltip/dist/react-tooltip.css";
 
-const NavIcon = ({ path, icon, tooltipContent, tooltipId }) => {
+export const NavIcon = ({ path, icon, tooltipContent, tooltipId }) => {
     return (
         <>
             <span id={tooltipId} data-tooltip-content={tooltipContent}>
@@ -17,5 +17,3 @@ const NavIcon = ({ path, icon, tooltipContent, tooltipId }) => {
         </>
     )
 }
-
-export default NavIcon

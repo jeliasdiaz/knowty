@@ -1,6 +1,6 @@
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { useState } from "react";
-const CollapseTitle = ({ name, id }) => {
+export const CollapseTitle = ({ name, id }) => {
     const [IsClicked, setIsClicked] = useState(false)
 
     const handleArrow = () => setIsClicked(!IsClicked)
@@ -14,5 +14,3 @@ const CollapseTitle = ({ name, id }) => {
         </div>
     )
 }
-
-export default CollapseTitle

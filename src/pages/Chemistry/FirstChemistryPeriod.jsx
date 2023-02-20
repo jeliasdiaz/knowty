@@ -1,10 +1,7 @@
 import { ChemistryNav } from "./ChemistryNav"
-import { SectionTitle } from "../../components/SectionTitle";
-import Latex from "react-latex"
-import CollapseTitle from "../../components/CollapseTitle";
-import TopWave from "../../components/TopWave";
-import Tooltip from "../../components/Tooltip";
+import { SectionTitle, CollapseTitle, TopWave, Tooltip  } from "../../components/";
 
+import Latex from "react-latex"
 export const FirstChemistryPeriod = () => {
     const escalasConversionOne = "$$°C + 273$$"
     const escalasConversionTwo = "$$°k \\ - \\ 273$$"
@@ -12,7 +9,6 @@ export const FirstChemistryPeriod = () => {
     const escalasConversionFour = "$$\\large \\frac{°F \\ - \\ 32}{1.8}$$"
     const escalasConversionFive = "$$\\large\\frac{°F \\ - \\ 32}{1.8  \\ + \\ 273}$$"
     const escalasConversionSix = "$$1.8(°k - 273) + 32$$"
-
 
     return (
         <div className="homeCard" id="geometria">
@@ -22,7 +18,6 @@ export const FirstChemistryPeriod = () => {
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
-
                     <div>
                         <CollapseTitle name="Historia de la química" id="#historiaDeLaQuimica" />
 

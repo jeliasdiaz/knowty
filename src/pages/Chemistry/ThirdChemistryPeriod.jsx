@@ -1,9 +1,6 @@
 import { ChemistryNav } from "./ChemistryNav"
-import { SectionTitle } from "../../components/SectionTitle";
+import { SectionTitle, CollapseTitle, MoreBtn, TopWave } from "../../components/";
 import Latex from "react-latex";
-import CollapseTitle from "../../components/CollapseTitle";
-import MoreBtn from "../../components/MoreBtn";
-import TopWave from "../../components/TopWave";
 
 export const ThirdChemistryPeriod = () => {
 

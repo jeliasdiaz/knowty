@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import TopWave from "../../components/TopWave"
+import { TopWave } from "../../components/"
 export const TrigonometryMenu = () => {
   return (
     <>

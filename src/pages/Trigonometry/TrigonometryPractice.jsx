@@ -1,8 +1,6 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
-import { SectionTitle } from "../../components/SectionTitle";
+import { SectionTitle, TopWave } from "../../components/";
 import Latex from "react-latex"
-import TopWave from '../../components/TopWave';
 
 export const TrigonometryPractice = () => {
     const pitagorasExFirstOne = `$$a^2 + b^2 = c^2

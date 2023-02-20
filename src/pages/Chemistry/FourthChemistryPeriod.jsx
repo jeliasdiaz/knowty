@@ -1,9 +1,7 @@
 import Latex from "react-latex"
 import { ChemistryNav } from "./ChemistryNav"
-import { SectionTitle } from "../../components/SectionTitle";
-import CollapseTitle from "../../components/CollapseTitle";
-import MoreBtn from "../../components/MoreBtn";
-import TopWave from "../../components/TopWave";
+import { SectionTitle, CollapseTitle, MoreBtn,TopWave } from "../../components/";
+
 export const FourthChemistryPeriod = () => {
 
     const purezaReactivo = `$$SP = \\large \\frac{SI \\ \\cdot \\ \\%P}{100}$$`

@@ -1,4 +1,4 @@
-import TopWave from "../../components/TopWave"
+import { TopWave } from "../../components/"
 
 export const StudentsResources = () => {
     return (

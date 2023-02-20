@@ -1,8 +1,6 @@
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav"
-import { SectionTitle } from "../../components/SectionTitle";
-import MoreBtn from "../../components/MoreBtn";
-import TopWave from "../../components/TopWave";
+import { SectionTitle, MoreBtn, TopWave } from "../../components/";
 
 export const FluidMechanics = () => {
 

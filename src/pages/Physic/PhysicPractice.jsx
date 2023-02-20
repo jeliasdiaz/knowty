@@ -1,8 +1,6 @@
-import React from 'react'
-import { SectionTitle } from "../../components/SectionTitle"; 
+import { SectionTitle, TopWave } from "../../components/"; 
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav";
-import TopWave from '../../components/TopWave';
 
 export const PhysicPractice = () => {
     const vectoresOne = `$$A_x = \\small 15N \\ \\cdot \\ cos(30) = 12.99N$$`

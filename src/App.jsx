@@ -30,7 +30,7 @@ import { ThirdTrigonometryPeriod, SecondTrigonometryPeriod, TrigonometryMenu, Tr
 import { SpacedRepetition, StudentsResources } from "./pages/Blog/";
 
 //* Icons credit card
-import InstallAppBtn from "./components/InstallAppBtn";
+import { InstallAppBtn } from "./components/InstallAppBtn";
 
 function App() {
   useEffect(() => {

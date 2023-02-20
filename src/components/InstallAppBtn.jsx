@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { MdClose } from "react-icons/md";
 
-const InstallAppBtn = () => {
+export const InstallAppBtn = () => {
   const [isReadyForInstall, setIsReadyForInstall] = useState(false);
   
   useEffect(() => {
@@ -46,5 +46,3 @@ const InstallAppBtn = () => {
     ''
   )
 }
-
-export default InstallAppBtn

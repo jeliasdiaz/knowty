@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-const BlogCard = ({ title, content, to, img }) => {
+export const BlogCard = ({ title, content, to, img }) => {
     return (
         <div data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
             <div className="blogCard ownShadow">
@@ -15,5 +15,3 @@ const BlogCard = ({ title, content, to, img }) => {
         </div>
     )
 }
-
-export default BlogCard

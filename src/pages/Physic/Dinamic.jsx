@@ -1,7 +1,5 @@
 import { PhysicNav } from "./PhysicNav.jsx";
-import { SectionTitle } from "../../components/SectionTitle";
-import MoreBtn from "../../components/MoreBtn.jsx";
-import TopWave from "../../components/TopWave.jsx";
+import { SectionTitle, MoreBtn, TopWave } from "../../components/";
 
 export const Dinamic = () => {
     return (

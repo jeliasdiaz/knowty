@@ -1,7 +1,7 @@
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav"
 import { SectionTitle } from "../../components/SectionTitle";
-import TopWave from "../../components/TopWave";
+import { TopWave } from "../../components/";
 
 export const CircularMovement = () => {
 
