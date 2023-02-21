@@ -32,7 +32,7 @@ export const Search = () => {
   const isVisible = useIsVisible(pageRef)
 
   const onVisible = useCallback(async () => {
-    isVisible && inputRef.current.select()
+    isVisible && inputRef.current.focus()
   }, [isVisible])
 
   useEffect(() => {
