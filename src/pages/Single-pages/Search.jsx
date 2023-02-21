@@ -1,16 +1,17 @@
-import React, { useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import data from "../materias.json";
 import "./Search.css";
-import { Link } from "react-router-dom";
+import { TopWave, NoResultCard, ResultCard } from "../../components/";
+import { useIsVisible } from "../../hooks/useIsVisible";
 import { BiSearch } from "react-icons/bi";
 import { IoClose } from "react-icons/io5";
-import { TopWave } from "../../components/";
 
 export const Search = () => {
 
   const [filteredData, setFilteredData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
+  //* Filter the words that entered in the search input and search for them on the data
   const handleFilter = (event) => {
     const searchWord = event.target.value; // Collects the written input
     setSearchTerm(searchWord);
@@ -18,52 +19,62 @@ export const Search = () => {
     setFilteredData(searchWord ? newFilter : []);
   };
 
+  //* Clear the search input
   const clearInput = () => {
     setFilteredData([]);
     setSearchTerm("");
   };
 
+
+  //* Detect if the user is on the page and select the search input
+  const pageRef = useRef()
+  const inputRef = useRef()
+  const isVisible = useIsVisible(pageRef)
+
+  const onVisible = useCallback(async () => {
+    isVisible && inputRef.current.select()
+  }, [isVisible])
+
+  useEffect(() => {
+    onVisible()
+  }, [onVisible])
+
   return (
-    <div className="search" >
+    <div className="search" ref={pageRef}>
       <TopWave />
       <div className="searchInputs" data-aos="fade-up" data-aos-duration="1000">
-        <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} />
+        {
+          isVisible &&
+          <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} ref={inputRef} />
+        }
         <div className="searchIcon">
-          {searchTerm.length === 0 ? <BiSearch size={35} /> : <IoClose id="clearBtn" onClick={clearInput} size={35} />}
+          {
+            searchTerm.length === 0
+              ? <BiSearch size={35} />
+              : <IoClose id="clearBtn" onClick={clearInput} size={35} />
+          }
         </div>
-
       </div>
+
       {
         searchTerm === ""
-          ?
-          <h6 style={{ color: "gray" }} data-aos="fade-up" data-aos-duration="800">Por favor escribe algo para buscar</h6>
-          :
-          filteredData.length !== 0
-            ?
-            <div className="dataResult" data-aos="fade-up" data-aos-duration="500">
-              {
-                filteredData.slice(0, 5).map(value => (
-                  <Link to={value.url} className="text-decoration-none" key={value.name}>
-                    <div className="dataItem shadow d-flex align-items-center p-3 my-3">
-                      <img src={value.img} alt={value.name} className="CardImg pe-3" />
-                      {value.name}
-                    </div>
-                  </Link>
-                ))
-              }
-            </div>
-            :
-            <div className="dataResult" data-aos="fade-up" data-aos-duration="500">
-              <Link to="/busqueda" className="text-decoration-none" key="Not found">
-                <div className="dataItem shadow d-flex align-items-center p-3 my-3">
-                  <img src="/img/notFound.png" alt="Ningún resultado" className="CardImg pe-3" />
-                  Ningún resultado
-                </div>
-              </Link>
-            </div>
+          ? <h6 style={{ color: "gray" }} data-aos="fade-up" data-aos-duration="800">Por favor escribe algo para buscar</h6>
+
+          : filteredData.length !== 0
+
+            ? (
+              <div className="dataResult" data-aos="fade-up" data-aos-duration="500">
+                {
+                  filteredData.slice(0, 5).map(({ url, name, img }) => (
+                    <ResultCard url={url} img={img} name={name} key={name} />
+                  ))
+                }
+              </div>
+            )
+
+            : <NoResultCard />
       }
+
     </div>
   );
 }
-
-export default Search;

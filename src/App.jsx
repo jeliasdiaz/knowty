@@ -4,7 +4,6 @@ import { useEffect, useState, useRef, useLayoutEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTop from "./ScrollToTop";
-import { IoIosArrowUp } from "react-icons/io";
 
 //* Principal components
 import { Home, InfoPage, English, Search, Blog, NotFound, Icons, Statistic } from "./pages/Single-pages/";
@@ -31,6 +30,7 @@ import { SpacedRepetition, StudentsResources } from "./pages/Blog/";
 
 //* Icons credit card
 import { InstallAppBtn } from "./components/InstallAppBtn";
+import { ScrollBtn } from "./components/ScrollBtn";
 
 function App() {
   useEffect(() => {
@@ -39,7 +39,6 @@ function App() {
   }, []);
 
   //* Progress button 
-
   const [scrolled, setScrolled] = useState(false)
 
   const goTop = () => {
@@ -62,7 +61,7 @@ function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-
+  //* Circular progress around the Progress Button
   const [progress, setProgress] = useState(0);
   const articleRef = useRef();
 
@@ -145,23 +144,7 @@ function App() {
 
           {
             scrolled && !notMoved &&
-            <div onClick={goTop} className="scrollToTopBtn ownShadow-lg" data-aos="fade-up" data-aos-duration="500">
-              <IoIosArrowUp size={30} />
-              <svg viewBox="0 0 50 50" width="50px" height="50px" className="circleProgress">
-                <circle
-                  cx={DIAMETER / 2}
-                  cy={DIAMETER / 2}
-                  r={RADIUS}
-                  stroke="#2B7EA1"
-                  fill="transparent"
-                  strokeWidth={STROKE_WIDTH}
-                  style={{
-                    strokeDasharray: CIRCUMFERENCE,
-                    strokeDashoffset: CIRCUMFERENCE * position
-                  }}
-                />
-              </svg>
-            </div>
+            <ScrollBtn goTop={goTop} DIAMETER={DIAMETER} RADIUS={RADIUS} STROKE_WIDTH={STROKE_WIDTH} CIRCUMFERENCE={CIRCUMFERENCE} position={position} />
           }
 
           <Footer />
