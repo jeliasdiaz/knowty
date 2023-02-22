@@ -26,9 +26,7 @@ export const InstallAppBtn = memo(() => {
 
   const [installBtn, setInstallBtn] = useState(true)
 
-  const handleInstallBtn = () => {
-    setInstallBtn(!installBtn)
-  }
+  const handleInstallBtn = () => setInstallBtn(!installBtn)
 
   return (
     installBtn && isReadyForInstall

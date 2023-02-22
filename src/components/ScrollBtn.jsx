@@ -1,7 +1,6 @@
-import { memo } from "react";
 import { IoIosArrowUp } from "react-icons/io";
 
-export const ScrollBtn = memo(({goTop, DIAMETER, RADIUS, STROKE_WIDTH, CIRCUMFERENCE, position}) => {
+export const ScrollBtn = ({goTop, DIAMETER, RADIUS, STROKE_WIDTH, CIRCUMFERENCE, position}) => {
     return (
         <div onClick={goTop} className="scrollToTopBtn ownShadow-lg" data-aos="fade-up" data-aos-duration="500">
             <IoIosArrowUp size={30} />
@@ -21,4 +20,4 @@ export const ScrollBtn = memo(({goTop, DIAMETER, RADIUS, STROKE_WIDTH, CIRCUMFER
             </svg>
         </div>
     )
-})
+}
