@@ -5,7 +5,7 @@ import { SectionTitle, MoreBtn, TopWave } from "../../components/";
 export const FluidMechanics = () => {
 
     const densidad = `$$ρ = \\large \\frac{masa}{volumen}$$`
-    const pesoEspecifico = `$$δ = p \\ \\cdot \\ g$$`
+    const pesoEspecifico = `$$δ = ρ \\ \\cdot \\ g$$`
     const presionLiquidos = `$$P_h = ρ \\ \\cdot \\ g \\ \\cdot \\ h$$`
     const presionAbsoluta = `$$P_{abs} = P_{atm} + ρ \\ \\cdot \\ g \\ \\cdot \\ h$$`
     const principioPascal = `$$ \\large \\frac{F_1}{A_1} = \\frac{F_2}{A_2}$$`
@@ -15,6 +15,9 @@ export const FluidMechanics = () => {
     const principioContinuidadTwo = `$$Q = \\frac{V}{T}$$`
     const teoremaBernoulli = `$$ρgh_1  \\ + \\ \\frac{1}{2}ρV_1^2 \\ + \\ P_1 = ρgh_2$$`
 
+    const densidadSimbolo = `$$ρ$$`
+    const gravedad = `$$g$$`
+    const altura = `$$h$$`
     return (
         <div className="homeCard">
             <TopWave />
@@ -25,11 +28,17 @@ export const FluidMechanics = () => {
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <h4>Densidad</h4>
                 <Latex>{densidad}</Latex><br />
-                <p>(la masa debe estar en kilogramos y el volumen en metros cúbicos)</p>
+                <small>(la masa debe estar en kilogramos y el volumen en metros cúbicos)</small>
 
                 <hr className="my-4" />
                 <h4>Peso específico</h4>
-                <Latex>{pesoEspecifico}</Latex>
+                <Latex>{pesoEspecifico}</Latex><br /><br />
+
+                <Latex>{densidadSimbolo}</Latex>
+                <span> = densidad.</span><br />
+
+                <Latex>{gravedad}</Latex>
+                <span> = gravedad.</span>
 
                 <hr className="my-4" />
                 <h4>Presión en líquidos</h4>
@@ -37,7 +46,16 @@ export const FluidMechanics = () => {
 
                 <hr className="my-4" />
                 <h4>Presión absoluta</h4>
-                <Latex>{presionAbsoluta}</Latex>
+                <Latex>{presionAbsoluta}</Latex><br /><br />
+
+                <Latex>{densidadSimbolo}</Latex>
+                <span> = densidad.</span><br />
+
+                <Latex>{gravedad}</Latex>
+                <span> = gravedad.</span><br />
+
+                <Latex>{altura}</Latex>
+                <span> = altura.</span>
 
                 <hr className="my-4" />
                 <h4>Principio de Pascal</h4>
@@ -45,7 +63,8 @@ export const FluidMechanics = () => {
 
                 <hr className="my-4" />
                 <h4>Principio de Arquímedes</h4>
-                <Latex>{principioArquimedes}</Latex><br />
+                <Latex>{principioArquimedes}</Latex><br /><br />
+
                 <p>Fe = Fuerza de empuje <br /> ρ = Densidad <br /> <Latex>{principioArquimedesExtra}</Latex> = Volumen sumergido</p>
 
                 <hr className="my-4" />
@@ -57,7 +76,7 @@ export const FluidMechanics = () => {
                 <Latex>{teoremaBernoulli}</Latex>
                 <hr />
                 <div className="flex-1 justify-content-center">
-                    <MoreBtn url="https://youtu.be/CkZNUX-5rMY"/>
+                    <MoreBtn url="https://youtu.be/CkZNUX-5rMY" />
                 </div>
             </div>
         </div>

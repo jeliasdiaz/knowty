@@ -12,7 +12,7 @@ export const Cinematic = () => {
     const vectoresFive = `$$X_x + Y_y = Z_x$$`
     const vectoresSix = `$$X_y + Y_y = Z_y$$`
     const vectoresSeven = `$$Z = \\sqrt{Z_x^2 + Z_y^2} $$`
-    const vectoresEight = `$$θ_z = tan^-1 \\left(\\frac{Z_y}{Z_x}  \\right)  $$`
+    const vectoresEight = `$$θ_z = tan^{-1} \\left(\\frac{Z_y}{Z_x}  \\right)  $$`
 
     const mruOne = `$$x = x_0 + v \\ \\cdot \\ t$$`
     const mruTwo = `$$v = \\large \\frac{(x_f \\ - \\  x_i)}{(t_f \\ - \\ t_i)}$$`
@@ -63,7 +63,7 @@ export const Cinematic = () => {
                         <h6>Calculo del nuevo vector</h6>
                         <Latex>{vectoresFive}</Latex><br />
                         <Latex>{vectoresSix}</Latex><br /><br />
-                        <h6>Calculo magnitud, y dirección </h6>
+                        <h6>Calculo magnitud y dirección </h6>
                         <Latex>{vectoresSeven}</Latex><br />
                         <Latex>{vectoresEight}</Latex>
 

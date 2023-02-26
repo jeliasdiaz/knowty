@@ -1,7 +1,7 @@
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import * as ReactDOMServer from 'react-dom/server';
 
-export const Tooltip = ({content, text }) => {
+export const Tooltip = ({ content, text }) => {
     return (
         <>
             <span id="sales"
@@ -17,7 +17,8 @@ export const Tooltip = ({content, text }) => {
                     color: "white"
                 }}
                 className="tooltipBackground"
-                delayShow={100} />
+                delayShow={100}
+                clickable={true} />
         </>
     )
 }
