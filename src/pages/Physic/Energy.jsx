@@ -34,6 +34,12 @@ export const Energy = () => {
     const energiaCineticaAcronimo = `$$E_k$$`
     const energiaElasticaAcronimo = `$$E_{pe}$$`
     const momentum = `$$ρ$$`
+    const tiempo = `$$t$$`
+    const masa = `$$m$$`
+    const velocidad = `$$v$$`
+    const gravedad = `$$g$$`
+    const altura = `$$h$$`
+
     return (
         <div className="homeCard">
             <TopWave />
@@ -62,25 +68,41 @@ export const Energy = () => {
 
 
                 <hr />
-                <h4>Potencia</h4>
-                <Latex>{potencia}</Latex><br /><br />
-                <Latex>{watts}</Latex>
-                <span> = Watts</span>
-                <br /><br />
+                <div>
+                    <h4>Potencia</h4>
+                    <Latex>{potencia}</Latex><br /><br />
+
+                    <Latex>{watts}</Latex>
+                    <span> = Watts.</span><br />
+
+                    <Latex>{tiempo}</Latex>
+                    <span> = tiempo.</span>
+                </div>
+                <br />
+
+                <MoreBtn url="https://youtu.be/JJt-bwQMJck" />
+
+                <hr />
+                <div>
+                    <h4>Rendimiento</h4>
+                    <Latex>{rendimiento}</Latex>
+                </div>
+                <br />
                 <MoreBtn url="https://youtu.be/JJt-bwQMJck" />
 
 
                 <hr />
-                <h4>Rendimiento</h4>
-                <Latex>
-                    {rendimiento}
-                </Latex><br /><br />
-                <MoreBtn url="https://youtu.be/JJt-bwQMJck" />
+                <div>
+                    <h4>Energía cinética</h4>
+                    <Latex>{energiaCinetica}</Latex><br /><br />
 
+                    <Latex>{masa}</Latex>
+                    <span> = masa.</span><br />
 
-                <hr />
-                <h4>Energía cinética</h4>
-                <Latex>{energiaCinetica}</Latex><br /><br />
+                    <Latex>{velocidad}</Latex>
+                    <span> = velocidad.</span>
+                </div>
+                <br />
                 <MoreBtn url="https://youtu.be/wnXnqtrAQGM" />
 
                 <hr />
@@ -91,8 +113,20 @@ export const Energy = () => {
                 <br />
 
                 <hr />
-                <h4>Energía potencial gravitatoria</h4>
-                <Latex>{energiaGravitatoria}</Latex><br /><br />
+                <div>
+                    <h4>Energía potencial gravitatoria</h4>
+                    <Latex>{energiaGravitatoria}</Latex><br /><br />
+
+                    <Latex>{masa}</Latex>
+                    <span> = masa.</span><br />
+
+                    <Latex>{gravedad}</Latex>
+                    <span> = gravedad.</span><br />
+
+                    <Latex>{altura}</Latex>
+                    <span> = altura.</span>
+                </div>
+                <br />
                 <MoreBtn url="https://youtu.be/wtlJS3cPkG8" />
 
                 <hr />
@@ -135,7 +169,8 @@ export const Energy = () => {
                 <hr />
                 <h4>Cantidad de movimiento</h4>
                 <Latex>{cantidadMovimiento}</Latex><br />
-                <p>ρ = Rho (letra griega cuyo significado es momentum).</p>
+                <p><Latex>{momentum}</Latex> = Rho (letra griega cuyo significado es momentum).</p>
+
                 <MoreBtn url="https://youtu.be/gHu4dVBvurQ" />
 
                 <hr />

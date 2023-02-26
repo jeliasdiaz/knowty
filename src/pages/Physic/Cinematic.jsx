@@ -1,6 +1,7 @@
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav.jsx";
 import { SectionTitle, MoreBtn, TopWave } from "../../components/";
+import { CartesianGrid, Label, Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 
 export const Cinematic = () => {
 
@@ -36,6 +37,92 @@ export const Cinematic = () => {
     const tiroParabolicoSeven = `$$t_v = \\large \\frac{2v_{oy}}{g}$$`
     const tiroParabolicoEight = `$$t_c = \\large \\sqrt{\\frac{2h}{g}}$$`
     const tiroParabolicoNine = `$$D_h = v_{ox} \\ \\cdot \\ t_v$$`
+
+    const posicionMru = [
+        {
+            name: "1s",
+            value: 0,
+        },
+        {
+            name: "2s",
+            value: 2,
+        },
+        {
+            name: "3s",
+            value: 4,
+        },
+        {
+            name: "4s",
+            value: 6,
+        },
+    ];
+
+    const velocidadMru = [
+        {
+            name: "1s",
+            value: 2,
+        },
+        {
+            name: "2s",
+            value: 2,
+        },
+        {
+            name: "3s",
+            value: 2,
+        },
+        {
+            name: "4s",
+            value: 2,
+        },
+    ];
+
+    const posicionMrua = [
+        {
+            value: 0,
+        },
+        {
+            name: "1s",
+            value: 1,
+        },
+        {
+            name: "2s",
+            value: 4,
+        },
+        {
+            name: "3s",
+            value: 9,
+        },
+        {
+            name: "4s",
+            value: 16,
+        },
+        {
+            name: "4s",
+            value: 25,
+        },
+    ];
+
+    const velocidadMrua = [
+        {
+            value: 0,
+        },
+        {
+            name: "1s",
+            value: 2,
+        },
+        {
+            name: "2s",
+            value: 4,
+        },
+        {
+            name: "3s",
+            value: 6,
+        },
+        {
+            name: "4s",
+            value: 8,
+        },
+    ];
 
     return (
         <div className="homeCard">
@@ -74,8 +161,48 @@ export const Cinematic = () => {
                         <h6>Posición</h6>
                         <Latex>{mruOne}</Latex><br /><br />
 
+                        <button className="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" href="#posiciónMru">
+                            Gráfica
+                        </button>
+                        <br /><br /><br />
+
+                        <div className="collapse mx-auto" id="posiciónMru">
+                            <ResponsiveContainer width={"88%"} height={300}>
+                                <LineChart width={500} height={300} data={posicionMru}>
+                                    <Line type="monotone" dataKey="value" stroke="#8884d8" />
+                                    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+                                    <XAxis dataKey="name">
+                                        <Label value="Tiempo" offset={0} position="insideBottom" />
+                                    </XAxis>
+                                    <YAxis>
+                                        <Label value="Posición" angle={-90} position="insideLeft" />
+                                    </YAxis>
+                                </LineChart>
+                            </ResponsiveContainer>
+                        </div>
+
                         <h6>Velocidad</h6>
                         <Latex>{mruTwo}</Latex><br /><br />
+
+                        <button className="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" href="#velocidadMru">
+                            Gráfica
+                        </button>
+                        <br /><br /><br />
+
+                        <div className="collapse mx-auto" id="velocidadMru">
+                            <ResponsiveContainer width={"88%"} height={300}>
+                                <LineChart width={500} height={300} data={velocidadMru}>
+                                    <Line type="monotone" dataKey="value" stroke="#8884d8" />
+                                    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+                                    <XAxis dataKey="name">
+                                        <Label value="Tiempo" offset={0} position="insideBottom" />
+                                    </XAxis>
+                                    <YAxis>
+                                        <Label value="Velocidad" angle={-90} position="insideLeft" />
+                                    </YAxis>
+                                </LineChart>
+                            </ResponsiveContainer>
+                        </div>
 
                         <MoreBtn url="https://youtu.be/q44bP7xo2QM" />
 
@@ -83,16 +210,57 @@ export const Cinematic = () => {
 
                         <h3>M.R.U.A.</h3>
                         <h6>Posición</h6>
-                        <Latex>{mruaOne}</Latex><br /><br />
+                        <Latex>{mruaOne}</Latex>
+                        <br /><br />
+
+                        <button className="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" href="#posicionMrua">
+                            Gráfica
+                        </button>
+                        <br />
+
+                        <div className="collapse mx-auto" id="posicionMrua">
+                            <ResponsiveContainer width={"88%"} height={300}>
+                                <LineChart width={500} height={300} data={posicionMrua} >
+                                    <Line type="monotone" dataKey="value" stroke="#8884d8" />
+                                    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+                                    <XAxis dataKey="name">
+                                        <Label value="Tiempo" offset={0} position="insideBottom" />
+                                    </XAxis>
+                                    <YAxis>
+                                        <Label value="Posición" angle={-90} position="insideLeft" />
+                                    </YAxis>
+                                </LineChart>
+                            </ResponsiveContainer>
+                        </div>
+                        <br />
 
                         <h6>Velocidad</h6>
                         <Latex>{mruaTwo}</Latex><br /><br />
+
+                        <button className="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" href="#velocidadMrua">
+                            Gráfica
+                        </button>
+                        <br /><br />
+
+                        <div className="collapse mx-auto" id="velocidadMrua">
+                            <ResponsiveContainer width={"88%"} height={300}>
+                                <LineChart width={500} height={300} data={velocidadMrua} >
+                                    <Line type="monotone" dataKey="value" stroke="#8884d8" />
+                                    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+                                    <XAxis dataKey="name">
+                                        <Label value="Tiempo" offset={0} position="insideBottom" />
+                                    </XAxis>
+                                    <YAxis>
+                                        <Label value="Velocidad" angle={-90} position="insideLeft" />
+                                    </YAxis>
+                                </LineChart>
+                            </ResponsiveContainer>
+                        </div>
 
                         <h6>Aceleración</h6>
                         <Latex>{mruaThree}</Latex><br /><br />
 
                         <MoreBtn url="https://youtu.be/q44bP7xo2QM" />
-
 
                     </div>
                     <hr />

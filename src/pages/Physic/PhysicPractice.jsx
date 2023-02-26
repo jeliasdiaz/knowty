@@ -1,4 +1,4 @@
-import { SectionTitle, TopWave } from "../../components/"; 
+import { SectionTitle, TopWave } from "../../components/";
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav";
 
@@ -112,7 +112,7 @@ export const PhysicPractice = () => {
             <TopWave />
             <SectionTitle title="Practica" />
 
-            <PhysicNav/>
+            <PhysicNav />
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div >
@@ -243,7 +243,7 @@ export const PhysicPractice = () => {
                             </p>
 
                             <div className="collapse" id="caidaLibre">
-                                <p>Tiempo que tardará en caer</p>
+                                <span>Tiempo que tardará en caer</span><br />
                                 <Latex>
                                     {caidaLibreOne}
                                 </Latex><br /><br />
@@ -253,14 +253,14 @@ export const PhysicPractice = () => {
                                 <Latex>
                                     {caidaLibreThree}
                                 </Latex><br /><br />
-                                <p>Velocidad al llegar</p>
+                                <span>Velocidad al llegar</span><br />
                                 <Latex>
                                     {caidaLibreFour}
                                 </Latex><br />
                                 <Latex>
                                     {caidaLibreFive}
                                 </Latex><br /><br />
-                                <p>Nota: La velocidad tiene resultado negativo, debido a que en el sistema de referencia planteado encontraremos que el vector velocidad se dirige hacia el eje negativo de las <i>Y</i>, por ende el resultado de esta será negativa. Esto no significa que disminuya la velocidad.</p>
+                                <small>Nota: La velocidad tiene resultado negativo, debido a que en el sistema de referencia planteado encontraremos que el vector velocidad se dirige hacia el eje negativo de las <i>Y</i>, por ende el resultado de esta será negativa. Esto no significa que disminuya la velocidad.</small>
                             </div>
                         </div>
 
@@ -277,14 +277,14 @@ export const PhysicPractice = () => {
                             </p>
 
                             <div className="collapse" id="tiroVertical">
-                                <p>Altura máxima</p>
+                                <span>Altura máxima</span><br />
                                 <Latex>
                                     {tiroVerticalOne}
                                 </Latex><br /><br />
                                 <Latex>
                                     {tiroVerticalTwo}
                                 </Latex><br /><br />
-                                <p>Altura al transcurrir 3 segundos</p>
+                                <span>Altura al transcurrir 3 segundos</span><br />
                                 <Latex>
                                     {tiroVerticalThree}
                                 </Latex><br /><br />
@@ -296,7 +296,7 @@ export const PhysicPractice = () => {
                                 </Latex>
                             </div>
                         </div>
-            
+
 
                         <hr />
                         <div>
@@ -310,14 +310,14 @@ export const PhysicPractice = () => {
                             </p>
 
                             <div className="collapse" id="tiroParabolico">
-                                <p>Componentes</p>
+                                <span>Componentes</span><br />
                                 <Latex>
                                     {tiroParabolicoOne}
                                 </Latex><br /><br />
                                 <Latex>
                                     {tiroParabolicoTwo}
                                 </Latex><br /><br />
-                                <p>Altura al transcurrir 3 segundos</p>
+                                <span>Altura al transcurrir 3 segundos</span><br />
                                 <Latex>
                                     {tiroParabolicoThree}
                                 </Latex><br /><br />
@@ -354,36 +354,36 @@ export const PhysicPractice = () => {
                             </p>
 
                             <div className="collapse " id="dinamicaOne">
-                                <p>Análisis de fuerzas</p>
+                                <span>Análisis de fuerzas</span><br />
                                 <img src="/img/dinamicaPracticaImgTwo.svg" alt="Dinamica practica dos" className='practiceImg rounded-3' /><br /><br />
-                                <p>Descomponer vectores</p>
-                                <p>Si θ está respecto a X:</p>
+                                <span>Descomponer vectores</span><br />
+                                <span>Si θ está respecto a X:</span><br />
                                 <Latex>
                                     {dinamicaOne}
-                                </Latex><br /><br />
+                                </Latex><br />
                                 <Latex>
                                     {dinamicaTwo}
                                 </Latex><br /><br />
-                                <p>Si θ está respecto a y:</p>
+                                <span>Si θ está respecto a y:</span><br />
                                 <Latex>
                                     {dinamicaThree}
-                                </Latex><br /><br />
+                                </Latex><br />
                                 <Latex>
                                     {dinamicaFour}
-                                </Latex><br /><br /><br />
-                                <p>Componentes del peso</p>
+                                </Latex><br /><br />
+                                <span>Componentes del peso</span><br />
                                 <Latex>
                                     {dinamicaFive}
-                                </Latex><br /><br />
+                                </Latex><br />
                                 <Latex>
                                     {dinamicaSix}
-                                </Latex><br /><br /><br />
+                                </Latex><br /><br />
                                 <Latex>
                                     {dinamicaSeven}
-                                </Latex><br /><br />
+                                </Latex><br />
                                 <Latex>
                                     {dinamicaEight}
-                                </Latex><br /><br />
+                                </Latex><br />
                                 <Latex>
                                     {dinamicaNine}
                                 </Latex><br /><br />
@@ -400,21 +400,21 @@ export const PhysicPractice = () => {
                             </p>
 
                             <div className="collapse " id="dinamicaTwo">
-                                <p>Componentes del peso</p>
+                                <span>Componentes del peso</span><br />
                                 <Latex>
                                     {dinamicaTwoOne}
                                 </Latex><br />
                                 <Latex>
                                     {dinamicaTwoTwo}
                                 </Latex><br /><br /><br />
-                                <p>Normal</p>
+                                <span>Normal</span><br />
                                 <Latex>
                                     {dinamicaTwoThree}
                                 </Latex><br />
                                 <Latex>
                                     {dinamicaTwoFour}
                                 </Latex><br /><br /><br />
-                                <p>Fricción</p>
+                                <span>Fricción</span><br />
                                 <Latex>
                                     {dinamicaTwoFive}
                                 </Latex><br />
@@ -424,7 +424,7 @@ export const PhysicPractice = () => {
                                 <Latex>
                                     {dinamicaTwoSeven}
                                 </Latex><br /><br />
-                                <p>Planteamos la ecuación</p>
+                                <span>Planteamos la ecuación</span><br />
                                 <Latex>
                                     {dinamicaTwoEight}
                                 </Latex><br /><br />
@@ -447,29 +447,29 @@ export const PhysicPractice = () => {
                             <p>Alice y Bob juegan en un sube y baja, Alice se encuentra al lado izquierdo a 0.3 metros del centro con una masa de 60kg. Bob está a una distancia de 0.25m ¿Cuál debe ser la masa de Bob para que este sistema se encuentre en equilibrio?
                             </p>
 
-                            <img src="/img/torquePracticaImg.svg" alt="Torque practica" className='practiceImg'/><br /><br />
+                            <img src="/img/torquePracticaImg.svg" alt="Torque practica" className='practiceImg rounded-3' /><br /><br />
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#tiroParabolico">
                                     Solución
                                 </button>
                             </p>
-                            
+
 
                             <div className="collapse" id="tiroParabolico">
                                 <p>Datos</p>
                                 <Latex>
                                     {torqueOne}
-                                </Latex><br /><br />
+                                </Latex><br />
                                 <Latex>
                                     {torqueTwo}
-                                </Latex><br /><br />
+                                </Latex><br />
                                 <Latex>
                                     {torqueThree}
-                                </Latex><br /><br />
+                                </Latex><br />
                                 <Latex>
                                     {torqueFour}
-                                </Latex><br /><br /><br />
-                                <p>Planteamiento</p>
+                                </Latex><br /><br />
+                                <span>Planteamiento</span><br />
                                 <Latex>
                                     {torqueFive}
                                 </Latex><br /><br />
@@ -482,7 +482,7 @@ export const PhysicPractice = () => {
                                 <Latex>
                                     {torqueEight}
                                 </Latex><br /><br /><br />
-                                <p>Convertir N a kg</p>
+                                <span>Convertir N a kg</span><br />
                                 <Latex>
                                     {torqueNine}
                                 </Latex><br /><br />
@@ -509,25 +509,25 @@ export const PhysicPractice = () => {
                             </p>
 
                             <div className="collapse" id="trabajo">
-                                <p>Datos</p>
+                                <span>Datos</span><br />
                                 <Latex>
                                     {trabajoOne}
-                                </Latex><br /><br />
+                                </Latex><br />
                                 <Latex>
                                     {trabajoTwo}
-                                </Latex><br /><br />
+                                </Latex><br />
                                 <Latex>
                                     {trabajoThree}
-                                </Latex><br /><br /><br />
+                                </Latex><br /><br />
                                 <Latex>
                                     {trabajoFour}
-                                </Latex><br /><br />
+                                </Latex><br />
                                 <Latex>
                                     {trabajoFive}
-                                </Latex><br /><br />
+                                </Latex><br />
                                 <Latex>
                                     {trabajoSix}
-                                </Latex><br /><br />
+                                </Latex><br />
                                 <Latex>
                                     {trabajoSeven}
                                 </Latex><br /><br />
@@ -565,7 +565,7 @@ export const PhysicPractice = () => {
                         </div>
 
 
-                        <hr className="my-4"/>
+                        <hr className="my-4" />
                         <div>
                             <h3>Rendimiento</h3>
                             <p>Un taller de automóviles cuenta con una máquina cuya potencia es de 50000 watts. Además, la máquina posee un rendimiento del 27%. ¿Cuál es su potencia teórica?
@@ -578,29 +578,29 @@ export const PhysicPractice = () => {
                             </p>
 
                             <div className="collapse" id="rendimiento">
-                                <p>Fórmula</p>
+                                <span>Fórmula</span><br />
                                 <Latex>
                                     {rendimientoOne}
                                 </Latex><br /><br />
-                                <p>Reemplazo de valores</p>
+                                <span>Reemplazo de valores</span><br />
                                 <Latex>
                                     {rendimientoTwo}
                                 </Latex><br /><br />
-                                <p>Despeje de potencia teórica</p>
+                                <span>Despeje de potencia teórica</span><br />
                                 <Latex>
                                     {rendimientoThree}
                                 </Latex><br /><br />
                                 <Latex>
                                     {rendimientoFour}
                                 </Latex><br /><br />
-                                <p>Resultado</p>
+                                <span>Resultado</span><br />
                                 <Latex>
                                     {rendimientoFive}
                                 </Latex><br /><br />
                             </div>
                         </div>
 
-                        <hr className="my-4"/>
+                        <hr className="my-4" />
                         <div>
                             <h3>Energía cinética</h3>
                             <p>Calcule la energía cinética de un triciclo, teniendo en cuenta que el piloto pesa 60kg, el triciclo pesa 20kg y el conjunto se mueve a una velocidad de 15m/s.
@@ -613,22 +613,22 @@ export const PhysicPractice = () => {
                             </p>
 
                             <div className="collapse" id="energiaCinetica">
-                                <p>Suma de masas</p>
+                                <span>Suma de masas</span><br />
                                 <Latex>
                                     {energiaCineticaOne}
                                 </Latex><br /><br />
-                                <p>Uso de la fórmula de energía cinética</p>
+                                <span>Uso de la fórmula de energía cinética</span><br />
                                 <Latex>
                                     {energiaCineticaTwo}
                                 </Latex><br /><br />
-                                <p>Resultado</p>
+                                <span>Resultado</span><br />
                                 <Latex>
                                     {energiaCineticaThree}
                                 </Latex><br /><br />
                             </div>
                         </div>
-                        
-                        <hr className="my-4"/>
+
+                        <hr className="my-4" />
                         <div>
                             <h3>Energía potencial gravitatoria</h3>
                             <p>Calcule la energia potencial de una maceta de 20kg que se encuentra en un cuarto piso. Considere que g = 9.8m/s y altura = 3m.</p>
@@ -640,11 +640,11 @@ export const PhysicPractice = () => {
                             </p>
 
                             <div className="collapse" id="energiaGravitatoria">
-                                <p>Uso de la fórmula de energía cinética</p>
+                                <span>Uso de la fórmula de energía cinéticas</span><br />
                                 <Latex>
                                     {energiaGravitatoriaOne}
                                 </Latex><br /><br />
-                                <p>Resultado</p>
+                                <span>Resultados</span><br />
                                 <Latex>
                                     {energiaGravitatoriaTwo}
                                 </Latex><br /><br />

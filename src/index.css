@@ -47,16 +47,25 @@ ul li:before {
 
 .btn-secondary {
   background-color: #2b7ea1 !important;
-  border: #2d7d9f !important;
+  border-color: #2d7d9f !important;
   color: white;
   border-radius: 10px !important;
   transition: transform 0.2s, background-color 0.2s !important;
 }
 .btn-secondary:hover {
   background-color: #28708f !important;
-  border: #28708f !important;
+  border-color: #28708f !important;
   transform: translateY(-2.5px);
 }
+.btn-outline-secondary {
+  border-color: #2d7d9f !important;
+  border-radius: 10px !important;
+  transition: transform 0.2s, background-color 0.2s !important;
+}
+.btn-outline-secondary:hover {
+  background-color: #2b7ea1 !important;
+}
+
 .installCard {
   background-color: #f6f6f6;
   width: 55%;
@@ -257,6 +266,10 @@ ul li:before {
   list-style-type: none !important;
 }
 .pagination li a:hover {
+  background-color: #bfdfed;
+  color: black !important;
+}
+.pagination li a:focus {
   background-color: #bfdfed;
   color: black !important;
 }
