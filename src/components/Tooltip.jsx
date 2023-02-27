@@ -6,10 +6,10 @@ export const Tooltip = ({ content, text }) => {
         <>
             <span id="sales"
                 data-tooltip-html={ReactDOMServer.renderToString(
-                    <p style={{ textAlign: "justify", hyphens: "auto" }}>{content}</p>
+                    <span style={{ textAlign: "justify", hyphens: "auto" }}>{content}</span>
                 )}
                 type="button">
-                <span style={{ paddingLeft: "10px", paddingRight: "5px", textDecoration: "underline", textUnderlineOffset: "2px" }}>{text}</span>
+                <span style={{ paddingLeft: "0px", paddingRight: "0px", textDecoration: "underline", textUnderlineOffset: "2px" }}>{text}</span>
             </span><ReactTooltip
                 anchorId="sales"
                 place="top"
@@ -18,7 +18,8 @@ export const Tooltip = ({ content, text }) => {
                 }}
                 className="tooltipBackground"
                 delayShow={100}
-                clickable={true} />
+                clickable={true}
+            />
         </>
     )
 }

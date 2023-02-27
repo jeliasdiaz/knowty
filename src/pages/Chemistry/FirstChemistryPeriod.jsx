@@ -1,5 +1,5 @@
 import { ChemistryNav } from "./ChemistryNav"
-import { SectionTitle, CollapseTitle, TopWave, Tooltip  } from "../../components/";
+import { SectionTitle, CollapseTitle, TopWave, Tooltip } from "../../components/";
 
 import Latex from "react-latex"
 export const FirstChemistryPeriod = () => {
@@ -32,7 +32,7 @@ export const FirstChemistryPeriod = () => {
                             <h4>Griego (500 - 300 a.c)</h4>
                             <ul>
                                 <li>Empédocles afirma que el universo se encuentra conformado por 4 elementos principales, fuego, agua, aire y tierra.</li>
-                                <li>Leucipo y Demócrito postulan la teoría atómica griega: “Toda la materia está formada por <Tooltip content={<span>Unidad básica de la materia. Compuestos por <br /> electrones, protones y neutrones.</span>} text="átomos" /> eternos, indestructibles, indivisibles, pero diferentes en tamaño, forma y peso”.</li>
+                                <li>Leucipo y Demócrito postulan la teoría atómica griega: “Toda la materia está formada por  <Tooltip content={<span>Unidad básica de la materia. Compuestos por <br /> electrones, protones y neutrones.</span>} text={<span className="ps-2">átomos</span>} /> eternos, indestructibles, indivisibles, pero diferentes en tamaño, forma y peso”.</li>
                             </ul>
 
                             <h4>Alquimia (300 - 1500 d.c)</h4>
@@ -146,7 +146,7 @@ export const FirstChemistryPeriod = () => {
                                 <p>
                                     <span className="fw-semibold">Eléctrica:</span> capacidad de un material de conducir corriente eléctrica. Por ejemplo, los metales. <br /> <br />
                                 </p>
-                                
+
                                 <p>
                                     <span className="fw-semibold">Dilatación:</span> cambio de dimensiones que presenta la materia en diferentes estados al variar la temperatura con una presión constante. <br />
                                 </p>

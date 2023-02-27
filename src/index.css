@@ -89,6 +89,7 @@ ul li:before {
 .tooltipBackground {
   background-color: #f6f6f6 !important;
   color: black !important;
+  opacity: 1 !important;
 }
 
 /** Scroll to top button  */

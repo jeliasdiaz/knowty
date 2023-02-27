@@ -1,5 +1,5 @@
 import { SocialNav } from "./SocialNav"
-import { SectionTitle, CollapseTitle, TopWave } from "../../components";
+import { SectionTitle, CollapseTitle, TopWave, Tooltip } from "../../components";
 
 export const ExtraSocial = () => {
     return (
@@ -26,7 +26,9 @@ export const ExtraSocial = () => {
                         <CollapseTitle name="Unión patriótica" id="#unionPatriotica" />
                         <div className="collapse" id="unionPatriotica">
                             <p>
-                                Fue un partido político fundado en 1985 que poseía ideologías liberales. Se le reconoce por dos aspectos, el primero, consiste en que las personas consideraban que el partido tenía inclinación por los movimientos guerrilleros debido a sus ideologías liberales. La segunda, reside en el genocidio de más de 1000 miembros de la unión patriótica. Puesto que en ese periodo predominaban las ideas conservadoras, por lo que no le beneficiaba a ningún partido que un grupo insurgente estuviera ganando tanto poder.
+                                Fue un <span className="fw-semibold">partido político</span> fundado en <span className="fw-semibold">1985</span> que poseía ideologías liberales. Se le reconoce por dos aspectos, el primero, consiste en que las personas consideraban que el partido tenía inclinación por los movimientos guerrilleros debido a sus ideologías liberales.
+                                <br /><br />
+                                La segunda, reside en el <Tooltip text={<span>genocidio</span>} content={<span>Acción de asesinar deliberadamente a un gran número <br /> de personas pertenecientes a un grupo étnico, religioso, etc.</span>} /> de más de 1000 miembros de la unión patriótica. Puesto que en ese periodo predominaban las ideas conservadoras, por lo que no le beneficiaba a ningún partido que un grupo insurgente estuviera ganando tanto poder.
                             </p>
                         </div>
                     </div>
