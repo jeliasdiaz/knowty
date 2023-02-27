@@ -12,6 +12,8 @@ export const SocialNav = () => {
                     <li className="page-item"><Link to="/movimientos-armados" className="text-decoration-none page-link">M. armados</Link></li>
 
                     <li className="page-item"><Link to="/movimientos-sociales" className="text-decoration-none page-link">M. sociales</Link></li>
+
+                    <li className="page-item"><Link to="/sociales-extra" className="text-decoration-none page-link">Extra</Link></li>
                 </ul>
             </nav>
         </>

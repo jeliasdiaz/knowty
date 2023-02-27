@@ -35,6 +35,13 @@ export const SocialMenu = () => {
             </div>
           </Link>
 
+          <Link to="/sociales-extra" className="link-secondary text-decoration-none text-dark">
+            <div className="subjectLink d-flex ownShadow mt-3" data-aos="fade-up" data-aos-duration="1000">
+              <img src="/img/socialesIcon.png" alt="Sociales ícono" className="w-25 pe-2" />
+              <h2 className="pt-4 ps-2">Extra</h2>
+            </div>
+          </Link>
+
         </div>
       </section>
     </>

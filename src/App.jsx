@@ -20,7 +20,7 @@ import { Circumference, Straight, Ellipse, Parable, GeometryMenu } from "./pages
 import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu } from "./pages/Physic/";
 
 //* Social
-import { FirstSocialPeriod, EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu } from "./pages/Social/";
+import { FirstSocialPeriod, EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu, ExtraSocial } from "./pages/Social/";
 
 //* Trigonometry
 import { ThirdTrigonometryPeriod, SecondTrigonometryPeriod, TrigonometryMenu, TrigonometryPractice } from "./pages/Trigonometry/";
@@ -121,6 +121,7 @@ function App() {
             <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />
             <Route path="/movimientos-armados" element={<ArmedGroups />} />
             <Route path="/movimientos-sociales" element={<SocialMovements />} />
+            <Route path="/sociales-extra" element={<ExtraSocial />} />
 
             <Route path="/estadistica" element={<Statistic />} />
 

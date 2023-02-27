@@ -124,6 +124,25 @@ export const Cinematic = () => {
         },
     ];
 
+    const aceleracionMrua = [
+        {
+            name: "1s",
+            value: 2,
+        },
+        {
+            name: "2s",
+            value: 2,
+        },
+        {
+            name: "3s",
+            value: 2,
+        },
+        {
+            name: "4s",
+            value: 2,
+        },
+    ];
+
     return (
         <div className="homeCard">
             <TopWave />
@@ -169,10 +188,10 @@ export const Cinematic = () => {
                         <div className="collapse mx-auto" id="posiciónMru">
                             <ResponsiveContainer width={"88%"} height={300}>
                                 <LineChart width={500} height={300} data={posicionMru}>
-                                    <Line type="monotone" dataKey="value" stroke="#8884d8" />
+                                    <Line type="monotone" dataKey="value" stroke="#2b7ea1" />
                                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                                     <XAxis dataKey="name">
-                                        <Label value="Tiempo" offset={0} position="insideBottom" />
+                                        <Label value="Tiempo" offset={-2} position="insideBottom" />
                                     </XAxis>
                                     <YAxis>
                                         <Label value="Posición" angle={-90} position="insideLeft" />
@@ -192,10 +211,10 @@ export const Cinematic = () => {
                         <div className="collapse mx-auto" id="velocidadMru">
                             <ResponsiveContainer width={"88%"} height={300}>
                                 <LineChart width={500} height={300} data={velocidadMru}>
-                                    <Line type="monotone" dataKey="value" stroke="#8884d8" />
+                                    <Line type="monotone" dataKey="value" stroke="#2b7ea1" />
                                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                                     <XAxis dataKey="name">
-                                        <Label value="Tiempo" offset={0} position="insideBottom" />
+                                        <Label value="Tiempo" offset={-2} position="insideBottom" />
                                     </XAxis>
                                     <YAxis>
                                         <Label value="Velocidad" angle={-90} position="insideLeft" />
@@ -221,10 +240,10 @@ export const Cinematic = () => {
                         <div className="collapse mx-auto" id="posicionMrua">
                             <ResponsiveContainer width={"88%"} height={300}>
                                 <LineChart width={500} height={300} data={posicionMrua} >
-                                    <Line type="monotone" dataKey="value" stroke="#8884d8" />
+                                    <Line type="monotone" dataKey="value" stroke="#2b7ea1" />
                                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                                     <XAxis dataKey="name">
-                                        <Label value="Tiempo" offset={0} position="insideBottom" />
+                                        <Label value="Tiempo" offset={-2} position="insideBottom" />
                                     </XAxis>
                                     <YAxis>
                                         <Label value="Posición" angle={-90} position="insideLeft" />
@@ -245,10 +264,10 @@ export const Cinematic = () => {
                         <div className="collapse mx-auto" id="velocidadMrua">
                             <ResponsiveContainer width={"88%"} height={300}>
                                 <LineChart width={500} height={300} data={velocidadMrua} >
-                                    <Line type="monotone" dataKey="value" stroke="#8884d8" />
+                                    <Line type="monotone" dataKey="value" stroke="#2b7ea1" />
                                     <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                                     <XAxis dataKey="name">
-                                        <Label value="Tiempo" offset={0} position="insideBottom" />
+                                        <Label value="Tiempo" offset={-2} position="insideBottom" />
                                     </XAxis>
                                     <YAxis>
                                         <Label value="Velocidad" angle={-90} position="insideLeft" />
@@ -260,8 +279,28 @@ export const Cinematic = () => {
                         <h6>Aceleración</h6>
                         <Latex>{mruaThree}</Latex><br /><br />
 
-                        <MoreBtn url="https://youtu.be/q44bP7xo2QM" />
 
+                        <button className="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" href="#aceleracionMrua">
+                            Gráfica
+                        </button>
+                        <br /><br />
+
+                        <div className="collapse mx-auto" id="aceleracionMrua">
+                            <ResponsiveContainer width={"88%"} height={300}>
+                                <LineChart width={500} height={300} data={aceleracionMrua} >
+                                    <Line type="monotone" dataKey="value" stroke="#2b7ea1" />
+                                    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+                                    <XAxis dataKey="name">
+                                        <Label value="Tiempo" offset={-2} position="insideBottom" />
+                                    </XAxis>
+                                    <YAxis>
+                                        <Label value="Aceleración" angle={-90} position="insideLeft" offset={2} />
+                                    </YAxis>
+                                </LineChart>
+                            </ResponsiveContainer>
+                        </div>
+
+                        <MoreBtn url="https://youtu.be/q44bP7xo2QM" />
                     </div>
                     <hr />
                     <div>
