@@ -56,7 +56,7 @@ export const Footer = () => {
               <a href="mailto:knowtyinfo@gmail.com" target="_blank" rel="noreferrer" className="footerIcons ownShadow">
                 <div><SiGmail size={30} className="contactIcon" /></div>
               </a>
-              <a href="https://www.youtube.com/@formuapp1757" target="_blank" rel="noreferrer" className="footerIcons ownShadow">
+              <a href="https://www.youtube.com/@KnowtyChannel" target="_blank" rel="noreferrer" className="footerIcons ownShadow">
                 <div><AiFillYoutube size={30} className="contactIcon" /></div>
               </a>
               <a href="https://www.instagram.com/knowtyland/" target="_blank" rel="noreferrer" className="footerIcons ownShadow">

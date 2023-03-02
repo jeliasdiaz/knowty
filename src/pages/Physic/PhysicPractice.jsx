@@ -1,6 +1,8 @@
 import { SectionTitle, TopWave } from "../../components/";
 import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav";
+import { Graphic } from "../Single-pages/Graphic";
+import { useState } from "react";
 
 export const PhysicPractice = () => {
     const vectoresOne = `$$A_x = \\small 15N \\ \\cdot \\ cos(30) = 12.99N$$`
@@ -107,6 +109,19 @@ export const PhysicPractice = () => {
     const energiaGravitatoriaOne = `$$E_{pg} = 20kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ 12m$$`
     const energiaGravitatoriaTwo = `$$E_{pg} = 2352 J$$`
 
+    const [numbers, setNumbers] = useState([])
+    const [numbersTwo, setNumbersTwo] = useState([])
+    const onInput = (e) => {
+        const data = e.target.value
+        setNumbers([...numbers, Number(data)])
+    }
+    const onFormSubmit = (e) => {
+        e.preventDefault();
+        setNumbers([])
+        setNumbersTwo(numbers)
+        e.target.reset();
+    }
+
     return (
         <div className='homeCard'>
             <TopWave />
@@ -115,7 +130,25 @@ export const PhysicPractice = () => {
             <PhysicNav />
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
-                <div >
+                <div>
+                    <div>
+                        <h3>Graficador</h3>
+                        <Graphic data={numbersTwo} />
+                        <div className="d-flex gap-3 mx-auto">
+                            <form onSubmit={onFormSubmit}>
+                                <input type="number" className="numberInput" onChange={onInput} />
+                                <input type="number" className="numberInput" onChange={onInput} />
+                                <input type="number" className="numberInput" onChange={onInput} />
+                                <input type="number" className="numberInput" onChange={onInput} />
+                                <input type="number" className="numberInput" onChange={onInput} />
+                                <input type="number" className="numberInput" onChange={onInput} />
+
+                                <button type="submit">send</button>
+                            </form>
+                        </div>
+
+                    </div>
+                    <hr />
                     <div className="section">
                         <div>
                             <h3>Vectores</h3>

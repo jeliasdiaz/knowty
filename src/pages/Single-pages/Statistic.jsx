@@ -1,5 +1,5 @@
 import Latex from "react-latex"
-import {CollapseTitle, MoreBtn, SectionTitle, TopWave} from "../../components/";
+import { CollapseTitle, MoreBtn, SectionTitle, TopWave } from "../../components/";
 
 export const Statistic = () => {
 
@@ -29,6 +29,7 @@ export const Statistic = () => {
   const explicacionEjemploResultado = `$$Q_1 = 8,750 $$`
   const explicacionEjemploResultadoAlternativo = `$$25\\% = 8,750$$`
 
+
   return (
     <>
       <div className="homeCard">
@@ -38,7 +39,7 @@ export const Statistic = () => {
         <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
           <div>
             <CollapseTitle name="Medidas de tendencia central" id="#medidasTendenciaCentral" />
-            <div className="collapse"  id="medidasTendenciaCentral">
+            <div className="collapse" id="medidasTendenciaCentral">
               <h5>Media</h5>
               <p>Es el promedio de un conjunto de números. Se calcula mediante la suma de todos los datos entre el número total de valores o datos.</p>
 
@@ -53,7 +54,7 @@ export const Statistic = () => {
 
           <div>
             <CollapseTitle name="Regla de tres simple" id="#reglaTresSimple" />
-            <div className="collapse"  id="reglaTresSimple">
+            <div className="collapse" id="reglaTresSimple">
               <h5>Directa</h5>
               <p>Los datos están correlacionados, de tal forma que cuando aumenta una magnitud también lo hace la otra.</p>
               <h6>Fórmula</h6>
@@ -65,7 +66,7 @@ export const Statistic = () => {
                 Si 5 centímetros en un mapa son 600 metros en la realidad, ¿cuántos metros son 8 centímetros?
                 <br />
                 <img src="/img/regla-3-ejemplo.jpg" className="reglaTres rounded-3" alt="Regla de tres directa ejemplo" /><br /><br />
-              <Latex>{reglaTresDirectaEjemplo}</Latex>
+                <Latex>{reglaTresDirectaEjemplo}</Latex>
               </p>
 
               <h5>Inversa</h5>
@@ -103,7 +104,7 @@ export const Statistic = () => {
 
           <div>
             <CollapseTitle name="Medidas de localización" id="#medidasLocalizacion" />
-            <div className="collapse"  id="medidasLocalizacion">
+            <div className="collapse" id="medidasLocalizacion">
               <h5>Cuartiles</h5>
               <p>Permiten calcular el 25%, 50%, 75% y 100%, donde el cuartil 1 corresponde al 25% y el cuartil 4 al 100%.</p>
               <p><Latex>{cuartilesPar}</Latex></p>
@@ -163,7 +164,7 @@ export const Statistic = () => {
 
           <div>
             <CollapseTitle name="Medidas de dispersión" id="#medidasDispersion" />
-            <div className="collapse"  id="medidasDispersion">
+            <div className="collapse" id="medidasDispersion">
               <p>
                 Consisten en números que proporcionan información de la variabilidad de los datos. Dicho de otro modo, indican que tan unidos o separados se encuentran los datos en una distribución. Por otro lado, puede considerarse que evalúan la homogeneidad de un conjunto de datos a través de varios promedios.
 
@@ -210,7 +211,7 @@ export const Statistic = () => {
 
           <div>
             <CollapseTitle name="Medidas de simetría y asimetría" id="#medidasSimetriaAsimetria" />
-            <div className="collapse"  id="medidasSimetriaAsimetria">
+            <div className="collapse" id="medidasSimetriaAsimetria">
               <h5>Simetría</h5>
               <p>Son medidas de distribución, cuya característica principal es que la media es igual a la mediana y esta última igual a la moda. Son representadas mediante la campana de Gauss, lo que permite identificar la simetría de los datos respecto a las medidas de tendencia central.</p>
               <h5>Asimetría</h5>

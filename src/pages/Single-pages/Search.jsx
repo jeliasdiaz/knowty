@@ -29,7 +29,7 @@ export const Search = () => {
       <div className="searchInputs" data-aos="fade-up" data-aos-duration="1000">
         {
           isVisible
-          && <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} ref={inputRef} />
+          && <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} ref={inputRef} className="input" />
         }
         <div className="searchIcon">
           {
