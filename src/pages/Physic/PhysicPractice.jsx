@@ -134,18 +134,20 @@ export const PhysicPractice = () => {
                     <div>
                         <h3>Graficador</h3>
                         <Graphic data={numbersTwo} />
-                        <div className="d-flex gap-3 mx-auto">
-                            <form onSubmit={onFormSubmit}>
+                        <form onSubmit={onFormSubmit}>
+                            <div className="numberInputContainer">
                                 <input type="number" className="numberInput" onChange={onInput} />
                                 <input type="number" className="numberInput" onChange={onInput} />
                                 <input type="number" className="numberInput" onChange={onInput} />
                                 <input type="number" className="numberInput" onChange={onInput} />
                                 <input type="number" className="numberInput" onChange={onInput} />
                                 <input type="number" className="numberInput" onChange={onInput} />
+                            </div>
 
-                                <button type="submit">send</button>
-                            </form>
-                        </div>
+                            <div className="d-flex justify-content-center mt-3">
+                                <button type="submit" className="btn btn-outline-secondary">Enviar</button>
+                            </div>
+                        </form>
 
                     </div>
                     <hr />

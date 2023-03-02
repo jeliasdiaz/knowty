@@ -92,8 +92,21 @@ ul li:before {
   opacity: 1 !important;
 }
 
+.numberInputContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 4%;
+}
+
 .numberInput {
   width: 2.5em;
+  height: 2.5em;
+  border: none;
+  border-radius: 5px;
+}
+.numberInput:focus {
+  outline: none;
 }
 .numberInput[type="number"]::-webkit-inner-spin-button,
 .numberInput[type="number"]::-webkit-outer-spin-button {
