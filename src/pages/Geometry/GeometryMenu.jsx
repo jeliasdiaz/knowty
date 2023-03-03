@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
 import { TopWave } from "../../components/"
+import { MenuCard } from "../../components/MenuCard"
 
 export const GeometryMenu = () => {
   return (
@@ -7,35 +7,10 @@ export const GeometryMenu = () => {
       <section className="mobileMenu">
         <TopWave />
         <div className="mobileSubjectMenu">
-          <Link to="/recta" className="link-secondary text-decoration-none text-dark">
-            <div className="subjectLink d-flex ownShadow" data-aos="fade-up" data-aos-duration="1000">
-              <img src="/img/geometriaIcon.png" alt="Geometría ícono" className="w-25 pe-2" />
-              <h2 className="pt-4 ps-2">Recta</h2>
-            </div>
-          </Link>
-
-          <Link to="/circunferencia" className="link-secondary text-decoration-none text-dark">
-            <div className="subjectLink d-flex ownShadow mt-3 " data-aos="fade-up" data-aos-duration="1000">
-              <img src="/img/geometriaIcon.png" alt="Geometría ícono" className="w-25 pe-2" />
-              <h2 className="pt-4 ps-2">Circunferencia</h2>
-            </div>
-          </Link>
-
-          <Link to="/parabola" className="link-secondary text-decoration-none text-dark">
-            <div className="subjectLink d-flex ownShadow mt-3" data-aos="fade-up" data-aos-duration="1000">
-              <img src="/img/geometriaIcon.png" alt="Geometría ícono" className="w-25 pe-2" />
-              <h2 className="pt-4 ps-2">Parábola</h2>
-            </div>
-          </Link>
-
-          <Link to="/elipse" className="link-secondary text-decoration-none text-dark">
-            <div className="subjectLink d-flex ownShadow mt-3" data-aos="fade-up" data-aos-duration="1000">
-              <img src="/img/geometriaIcon.png" alt="Geometría ícono" className="w-25 pe-2" />
-              <h2 className="pt-4 ps-2">Elipse</h2>
-              <i className='bx bx-chevron-right bx-lg pt-3'></i>
-            </div>
-          </Link>
-
+          <MenuCard url="/recta" img="geometriaIcon.png" title="Recta" />
+          <MenuCard url="/circunferencia" img="geometriaIcon.png" title="Circunferencia" />
+          <MenuCard url="/parabola" img="geometriaIcon.png" title="Parábola" />
+          <MenuCard url="/elipse" img="geometriaIcon.png" title="Elipse" />
         </div>
       </section>
     </>

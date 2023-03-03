@@ -136,12 +136,12 @@ export const PhysicPractice = () => {
                         <Graphic data={numbersTwo} />
                         <form onSubmit={onFormSubmit}>
                             <div className="numberInputContainer">
-                                <input type="number" className="numberInput" onChange={onInput} />
-                                <input type="number" className="numberInput" onChange={onInput} />
-                                <input type="number" className="numberInput" onChange={onInput} />
-                                <input type="number" className="numberInput" onChange={onInput} />
-                                <input type="number" className="numberInput" onChange={onInput} />
-                                <input type="number" className="numberInput" onChange={onInput} />
+                                <input type="number" className="numberInput ownShadow" onChange={onInput} />
+                                <input type="number" className="numberInput ownShadow" onChange={onInput} />
+                                <input type="number" className="numberInput ownShadow" onChange={onInput} />
+                                <input type="number" className="numberInput ownShadow" onChange={onInput} />
+                                <input type="number" className="numberInput ownShadow" onChange={onInput} />
+                                <input type="number" className="numberInput ownShadow" onChange={onInput} />
                             </div>
 
                             <div className="d-flex justify-content-center mt-3">

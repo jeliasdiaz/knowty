@@ -51,7 +51,7 @@ export const Home = () => {
                 <div className="d-flex gap-3 mt-3">
                   <SubjectCard path="/trigonometria_2" img="trigonometria" title="Trigonometría" marginTop="trigonometryCard" animationDelay={1200} />
 
-                  <SubjectCard path="/blog" img="consejos" title="Consejos" animationDelay={1200} />
+                  <SubjectCard path="/introduccion-filosofia" img="filosofia" title="Filosofía" animationDelay={1200} />
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ export const Home = () => {
 
               <SubjectCard path="/trigonometria-menu" img="trigonometria" title="Trigonometría" marginTop="mt-3 trigonometryCard" animationDelay={1600} />
 
-              <SubjectCard path="/blog" img="consejos" title="Consejos" animationDelay={1800} />
+              <SubjectCard path="/filosofia-menu" img="filosofia" title="Filosofía" animationDelay={1800} />
             </div>
           </div>
         </div>

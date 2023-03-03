@@ -31,6 +31,8 @@ import { SpacedRepetition, StudentsResources } from "./pages/Blog/";
 //* Icons credit card
 import { InstallAppBtn } from "./components/InstallAppBtn";
 import { ScrollBtn } from "./components/ScrollBtn";
+import { IntroductionPhilosophy } from "./pages/Philosophy/IntroductionPhilosophy";
+import { PhilosophyMenu } from "./pages/Philosophy/PhilosophyMenu";
 
 function App() {
   useEffect(() => {
@@ -113,7 +115,7 @@ function App() {
 
             <Route path="/cinematica" element={<Cinematic />} />
             <Route path="/dinamica" element={<Dinamic />} />
-            <Route path="/movimientocircular" element={<CircularMovement />} />
+            <Route path="/movimiento-circular" element={<CircularMovement />} />
             <Route path="/energia" element={<Energy />} />
             <Route path="/mecanica-fluidos" element={<FluidMechanics />} />
 
@@ -133,9 +135,12 @@ function App() {
             <Route path="/quimica-menu" element={<ChemistryMenu />} />
             <Route path="/sociales-menu" element={<SocialMenu />} />
             <Route path="/trigonometria-menu" element={<TrigonometryMenu />} />
+            <Route path="/filosofia-menu" element={<PhilosophyMenu />} />
 
             <Route path="/fisica-practica" element={<PhysicPractice />} />
             <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
+
+            <Route path="/introduccion-filosofia" element={<IntroductionPhilosophy />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
