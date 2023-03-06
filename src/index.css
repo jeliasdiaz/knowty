@@ -113,9 +113,6 @@ ul li:before {
   -webkit-appearance: none;
   margin: 0;
 }
-.numberInput[type="number"] {
-  -moz-appearance: textfield;
-}
 
 /** Scroll to top button  */
 .scrollToTopBtn {

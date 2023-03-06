@@ -38,6 +38,12 @@ export const Cinematic = () => {
     const tiroParabolicoEight = `$$t_c = \\large \\sqrt{\\frac{2h}{g}}$$`
     const tiroParabolicoNine = `$$D_h = v_{ox} \\ \\cdot \\ t_v$$`
 
+    const cx = `$$C_x$$`
+    const cy = `$$C_y$$`
+    const angulo = `$$θ$$`
+    const magnitud = `$$Z$$`
+    const direccion = `$$θ_z$$`
+
     const posicionMru = [
         {
             name: "1s",
@@ -155,10 +161,13 @@ export const Cinematic = () => {
                     <div>
                         <h3>Vectores</h3>
                         <h6>Descomponer vectores</h6>
+                        <Latex>{angulo}</Latex><span> = ángulo.</span><br />
+                        <Latex>{cx}</Latex><span> = componente horizontal o x.</span><br />
+                        <Latex>{cy}</Latex><span>= componente vertical o y.</span><br /><br />
                         <p>
                             Si θ esta respecto a X <br />
                             <Latex>{vectoresOne}</Latex><br />
-                            <Latex>{vectoresTwo}</Latex>
+                            <Latex>{vectoresTwo}</Latex><br />
                         </p>
                         <p>
                             Si θ esta respecto a Y <br />
@@ -169,9 +178,13 @@ export const Cinematic = () => {
                         <h6>Calculo del nuevo vector</h6>
                         <Latex>{vectoresFive}</Latex><br />
                         <Latex>{vectoresSix}</Latex><br /><br />
+
                         <h6>Calculo magnitud y dirección </h6>
                         <Latex>{vectoresSeven}</Latex><br />
-                        <Latex>{vectoresEight}</Latex>
+                        <Latex>{vectoresEight}</Latex><br /><br />
+
+                        <Latex>{magnitud}</Latex> <span> = magnitud / valor del vector.</span><br />
+                        <Latex>{direccion}</Latex> <span> = dirección / ángulo de inclinación del vector.</span>
 
                     </div>
                     <hr />

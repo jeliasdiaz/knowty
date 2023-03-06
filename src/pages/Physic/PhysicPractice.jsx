@@ -111,14 +111,17 @@ export const PhysicPractice = () => {
 
     const [numbers, setNumbers] = useState([])
     const [numbersTwo, setNumbersTwo] = useState([])
+
     const onInput = (e) => {
-        const data = e.target.value
-        setNumbers([...numbers, Number(data)])
+        setTimeout(() => {
+            const data = Number(e.target.value)
+            setNumbers([...numbers, data])
+        }, 200);
     }
     const onFormSubmit = (e) => {
         e.preventDefault();
-        setNumbers([])
         setNumbersTwo(numbers)
+        setNumbers([])
         e.target.reset();
     }
 
@@ -136,12 +139,12 @@ export const PhysicPractice = () => {
                         <Graphic data={numbersTwo} />
                         <form onSubmit={onFormSubmit}>
                             <div className="numberInputContainer">
-                                <input type="number" className="numberInput ownShadow" onChange={onInput} />
-                                <input type="number" className="numberInput ownShadow" onChange={onInput} />
-                                <input type="number" className="numberInput ownShadow" onChange={onInput} />
-                                <input type="number" className="numberInput ownShadow" onChange={onInput} />
-                                <input type="number" className="numberInput ownShadow" onChange={onInput} />
-                                <input type="number" className="numberInput ownShadow" onChange={onInput} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInput} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInput} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInput} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInput} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInput} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInput} />
                             </div>
 
                             <div className="d-flex justify-content-center mt-3">
