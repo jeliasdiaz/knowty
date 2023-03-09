@@ -25,6 +25,9 @@ import { FirstSocialPeriod, EconomicDoctrines, ArmedGroups, SocialMovements, Soc
 //* Trigonometry
 import { ThirdTrigonometryPeriod, SecondTrigonometryPeriod, TrigonometryMenu, TrigonometryPractice } from "./pages/Trigonometry/";
 
+//* Philosophy
+import { ClassicPhilosophers, PhilosophyMenu } from "./pages/Philosophy/";
+
 //* Blog
 import { SpacedRepetition, StudentsResources } from "./pages/Blog/";
 
@@ -32,7 +35,6 @@ import { SpacedRepetition, StudentsResources } from "./pages/Blog/";
 import { InstallAppBtn } from "./components/InstallAppBtn";
 import { ScrollBtn } from "./components/ScrollBtn";
 import { IntroductionPhilosophy } from "./pages/Philosophy/IntroductionPhilosophy";
-import { PhilosophyMenu } from "./pages/Philosophy/PhilosophyMenu";
 
 function App() {
   useEffect(() => {
@@ -141,6 +143,7 @@ function App() {
             <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
 
             <Route path="/introduccion-filosofia" element={<IntroductionPhilosophy />} />
+            <Route path="/filosofos-clasicos" element={<ClassicPhilosophers />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -151,7 +151,11 @@ export const PhysicPractice = () => {
                                 <button type="submit" className="btn btn-outline-secondary">Enviar</button>
                             </div>
                         </form>
+                    </div>
 
+                    <div>
+                        <h3>Conversor de unidades</h3>
+                        <p>Proximamente...</p>
                     </div>
                     <hr />
                     <div className="section">
