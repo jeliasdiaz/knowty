@@ -11,42 +11,55 @@ export const IntroductionPhilosophy = () => {
             <PhilosophyNav />
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
-                <h3>Filosofía</h3>
-                <p>
-                    Etimológicamente, la palabra filosofía se divide en <i>filo</i> que significa amor y <i>sofía</i> que equivale a sabiduría. Es decir, amor por la sabiduría.
-                </p>
-
-                <h4>Teoría del origen de la filosofía</h4>
-                <p>Se dice que hubo una serie de pasos por los que tuvo que pasar la primera persona que hizo filosofía.</p>
-                <ul>
-                    <li>Admiración del fenómeno.</li>
-                    <li>Pregunta.</li>
-                    <li>Conciencia de que hay cosas que no sabes (ignorancia).</li>
-                    <li>Reflexión formal.</li>
-                </ul>
-
-                <small>Adicionalmente, formalmente se considera a Tales de Mileto como el primer filósofo.</small>
-
-                <hr />
-                <h4>¿Qué es la filosofía?</h4>
-                <ul>
-                    <li>El por qué de las cosas.</li>
-                    <li>Un constante preguntar.</li>
-                    <li>No se trata de preguntar por preguntar.</li>
-                    <li>Se basa en la duda.</li>
-                </ul>
+                <div>
+                    <h3>Filosofía</h3>
+                    <p>
+                        Etimológicamente, la palabra filosofía se divide en <i>filo</i> que significa amor y <i>sofía</i> que equivale a sabiduría. Es decir, amor por la sabiduría. Dicho de otra manera, es una actividad que realizamos las personas para comprendernos a nosotros mismos y al entorno que nos rodea, así como las relaciones que establecemos con el mundo y los demás. Analizando aspectos como la ética, existencia, tiempo, etc.
+                        <br /><br />
+                        Si deseas profundizar, te recomendamos leer:
+                    </p>
+                    <ul className="moreInformationLinks">
+                        <li>
+                            <a href="https://philosophy.fsu.edu/undergraduate-study/why-philosophy/What-is-Philosophy" target="_blank" rel="noreferrer">What is Philosophy? | Department of Philosophy</a>
+                        </li>
+                        <li>
+                            <a href="https://www.worldhistory.org/philosophy/" target="_blank" rel="noreferrer">Philosophy - World History Encyclopedia</a>
+                        </li>
+                    </ul>
+                </div>
 
                 <hr />
-                <h4>¿Qué es el conocimiento?</h4>
-                <p>Es aquel conjunto de hechos, información, contenido intelectual que puede adquirir una persona de lo que se entiende como realidad.</p>
+
+                <div>
+                    <h4>Teoría del origen de la filosofía</h4>
+                    <p>Se dice que hubo una serie de pasos por los que tuvo que pasar la primera persona que hizo filosofía.</p>
+                    <ul>
+                        <li>Admiración del fenómeno.</li>
+                        <li>Pregunta.</li>
+                        <li>Conciencia de que hay cosas que no sabes (ignorancia).</li>
+                        <li>Reflexión formal.</li>
+                    </ul>
+
+                    <small>Se considera a Tales de Mileto como el primer filósofo.</small>
+                </div>
 
                 <hr />
-                <h4>¿Quiénes eran los presocráticos?</h4>
-                <ul>
-                    <li>Aquellos que vivieron antes de Sócrates.</li>
-                    <li>Los primeros filósofos.</li>
-                    <li>Se preguntaron por el <Tooltip text={<span className="ps-2">arché</span>} content={<span>Origen/principio del cosmos. <br /> Elemento primero</span>} /> del universo.</li>
-                </ul>
+
+                <div>
+                    <h4>¿Qué es el conocimiento?</h4>
+                    <p>Es aquel conjunto de hechos, información, contenido intelectual que puede adquirir una persona de lo que se entiende como realidad.</p>
+                </div>
+
+                <hr />
+
+                <div>
+                    <h4>¿Quiénes eran los presocráticos?</h4>
+                    <ul>
+                        <li>Aquellos que vivieron antes de Sócrates.</li>
+                        <li>Los primeros filósofos.</li>
+                        <li>Se preguntaron por el <Tooltip text={<span className="ps-2">arché</span>} content={<span>Origen/principio del cosmos. <br /> Elemento primero</span>} /> del universo.</li>
+                    </ul>
+                </div>
 
                 <hr />
 

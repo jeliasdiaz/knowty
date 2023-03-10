@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import "./Navbar.css"
 import { useToggleNavbar, useToggleTheme } from "../hooks/";
-import {NavIcon} from "./NavIcon";
+import { NavIcon } from "./NavIcon";
 import { AiFillHome } from "react-icons/ai";
 import { MdInfo } from "react-icons/md";
 import { IoCaretBackCircle } from "react-icons/io5";
@@ -13,10 +13,10 @@ import { BsFillLightbulbFill } from "react-icons/bs";
 export const Navbar = () => {
 
   // Toggle navbar
-  const {visible} = useToggleNavbar()
+  const { visible } = useToggleNavbar()
 
   // toggle theme
-  const {theme, toggleTheme} = useToggleTheme()
+  const { theme, toggleTheme } = useToggleTheme()
 
   // toggle icon dark and light
   const [Icon, setIcon] = useState(false)
@@ -26,7 +26,7 @@ export const Navbar = () => {
   // go back
   const navigate = useNavigate()
   const location = useLocation()
-  
+
   return (
 
     <>

@@ -1,5 +1,5 @@
-.navbar{
-  transition-timing-function: ease-in ;
+.navbar {
+  transition-timing-function: ease-in;
   transition: 0.5s;
 }
 .navbar-expand-lg {
@@ -42,7 +42,7 @@
     top: 0px;
   }
 }
-.up{
+.up {
   animation: up 1s;
   transition-delay: 0.2s;
   transform: translateY(-200px);
@@ -92,7 +92,6 @@
   color: #2b7ea1 !important;
   transition: all 0.2s;
 }
-
 
 @media screen and (max-width: 768px) {
   .navbar-expand-lg {

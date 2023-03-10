@@ -272,6 +272,14 @@ ul li:before {
 .nav-3 {
   margin-top: 5%;
 }
+.moreInformationLinks li a {
+  color: #3aa0cc;
+  text-decoration: none;
+}
+.moreInformationLinks li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .pagination {
   margin-top: 5%;
   --bs-pagination-border-width: 0px !important;

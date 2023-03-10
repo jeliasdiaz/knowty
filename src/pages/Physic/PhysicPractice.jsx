@@ -153,6 +153,8 @@ export const PhysicPractice = () => {
                         </form>
                     </div>
 
+                    <hr />
+
                     <div>
                         <h3>Conversor de unidades</h3>
                         <p>Proximamente...</p>
