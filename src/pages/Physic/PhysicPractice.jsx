@@ -108,6 +108,7 @@ export const PhysicPractice = () => {
 
     const energiaGravitatoriaOne = `$$E_{pg} = 20kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ 12m$$`
     const energiaGravitatoriaTwo = `$$E_{pg} = 2352 J$$`
+    const equal = `$$=$$`
 
     const [numbers, setNumbers] = useState([])
     const [numbersTwo, setNumbersTwo] = useState([])
@@ -123,6 +124,17 @@ export const PhysicPractice = () => {
         setNumbersTwo(numbers)
         setNumbers([])
         e.target.reset();
+    }
+
+    const [convertionResult, setConvertionResult] = useState(null)
+
+
+    const conversor = (e, number) => {
+        const numberR = e.target.value
+        if (number === 1) {
+            setConvertionResult(numberR / 3.6)
+            console.log(convertionResult)
+        }
     }
 
     return (
@@ -157,7 +169,24 @@ export const PhysicPractice = () => {
 
                     <div>
                         <h3>Conversor de unidades</h3>
-                        <p>Proximamente...</p>
+                        <div className="d-flex gap-4 mt-3 mb-3">
+                            <div class="btn-group">
+                                <button type="button" className="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tipo
+                                </button>
+                                <ul className="dropdown-menu">
+                                    <li>Km/h to m/s</li>
+                                </ul>
+                            </div>
+                            <div className="d-flex gap-2">
+                                <input type="number" className="numberInput" onInput={(e) => conversor(e, 1)} />
+
+                                <span className="mt-2"><Latex>{equal}</Latex></span>
+
+                                <input type="number" className="convertionResultInput" placeholder="resultado" value={convertionResult} />
+                            </div>
+
+                        </div>
                     </div>
                     <hr />
                     <div className="section">

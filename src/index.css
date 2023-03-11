@@ -114,6 +114,21 @@ ul li:before {
   margin: 0;
 }
 
+.convertionResultInput {
+  width: 6.5em;
+  height: 2.5em;
+  border: none;
+  border-radius: 5px;
+}
+.convertionResultInput:focus {
+  outline: none;
+}
+.convertionResultInput[type="number"]::-webkit-inner-spin-button,
+.convertionResultInput[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 /** Scroll to top button  */
 .scrollToTopBtn {
   position: fixed;
