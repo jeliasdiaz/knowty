@@ -123,6 +123,9 @@ ul li:before {
 .convertionResultInput:focus {
   outline: none;
 }
+.convertionResultInput:focus::placeholder {
+  color: gray;
+}
 .convertionResultInput[type="number"]::-webkit-inner-spin-button,
 .convertionResultInput[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;

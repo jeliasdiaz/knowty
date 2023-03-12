@@ -2,11 +2,16 @@ import { CartesianGrid, Line, LineChart, ResponsiveContainer, XAxis, YAxis } fro
 
 export const Graphic = ({ data }) => {
 
-    const graphic = data.map((value, index) => ({ value, index }));
+    const dataGraphic = data[0]?.map((value) => (
+        {
+            name: data[1].map(x => x),
+            value,
+        }
+    ));
 
     return (
         <ResponsiveContainer width={"88%"} height={300}>
-            <LineChart width={500} height={300} data={graphic}>
+            <LineChart width={500} height={300} data={dataGraphic}>
                 <Line type="monotone" dataKey="value" stroke="#2b7ea1" />
                 <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                 <XAxis dataKey="name" />

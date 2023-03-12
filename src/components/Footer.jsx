@@ -16,34 +16,34 @@ export const Footer = () => {
         <div className="textFooter d-none d-md-block d-lg-block">
           <h1>Knowty</h1>
           <div className="d-flex justify-content-center">
-            <MembersCard name="Jose Elías Díaz" description="Creador del proyecto, página y encargado del canal YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} />} animationDuration={600} />
+            <MembersCard name="Jose Elías Díaz" description="Creador del proyecto, página y encargado del canal YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} />} animationduration={600} />
 
-            <MembersCard name="Wilmar Fontalvo" description="Creador de videos. Encargado de animar y editar." icon={<AiFillYoutube size={36} />} animationDuration={800} />
+            <MembersCard name="Wilmar Fontalvo" description="Creador de videos. Encargado de animar y editar." icon={<AiFillYoutube size={36} />} animationduration={800} />
 
-            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página." icon={<BsMegaphoneFill size={34} />} animationDuration={1000} />
+            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página." icon={<BsMegaphoneFill size={34} />} animationduration={1000} />
 
-            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto." icon={<BsMegaphoneFill size={34} />} animationDuration={1200} />
+            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto." icon={<BsMegaphoneFill size={34} />} animationduration={1200} />
 
-            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube." icon={<AiFillYoutube size={36} />} animationDuration={1400} />
+            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube." icon={<AiFillYoutube size={36} />} animationduration={1400} />
           </div>
         </div>
 
         <div className="textFooter d-block d-sm-none">
           <h1>Knowty</h1>
           <div className="d-flex">
-            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube." icon={<AiFillYoutube size={36} />} animationDuration={600} />
+            <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube." icon={<AiFillYoutube size={36} />} animationduration={600} />
 
-            <MembersCard name="Wilmar Fontalvo" description="Creador de videos y encargado principal de YouTube." icon={<AiFillYoutube size={36} />} animationDuration={800} />
+            <MembersCard name="Wilmar Fontalvo" description="Creador de videos y encargado principal de YouTube." icon={<AiFillYoutube size={36} />} animationduration={800} />
           </div>
 
           <div>
-            <MembersCard name="Jose Elías Díaz" description="Creador del proyecto, página y contenido para YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} animationDuration={1000} />} optionalClass="pt-4 w-75 mx-auto" />
+            <MembersCard name="Jose Elías Díaz" description="Creador del proyecto, página y contenido para YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} animationduration={1000} />} optionalClass="pt-4 w-75 mx-auto" />
           </div>
 
           <div className="d-flex">
-            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página." icon={<BsMegaphoneFill size={34} />} animationDuration={1200} />
+            <MembersCard name="Yader Vega" description="Encargado del marketing y contribuidor al diseño de la página." icon={<BsMegaphoneFill size={34} />} animationduration={1200} />
 
-            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto." icon={<BsMegaphoneFill size={34} />} animationDuration={1400} />
+            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto." icon={<BsMegaphoneFill size={34} />} animationduration={1400} />
           </div>
         </div>
       </div>

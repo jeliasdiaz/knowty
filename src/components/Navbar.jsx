@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
-import "./Navbar.css"
+import "./Navbar.css";
 import { useToggleNavbar, useToggleTheme } from "../hooks/";
 import { NavIcon } from "./NavIcon";
 import { AiFillHome } from "react-icons/ai";
@@ -32,7 +32,7 @@ export const Navbar = () => {
     <>
       <nav className={`navbar navbar-expand-lg fixed-top ${visible ? "down" : " up"}`}>
         <div className="container-fluid container">
-          <NavLink to="/" className="text-decoration-none bg-transparent"><img src="/img/logo.svg" alt="" className="navbar-brand" /></NavLink>
+          <NavLink to="/" className="text-decoration-none bg-transparent"><img src="/img/knowty.png" alt="" className="navbar-brand" /></NavLink>
 
           <div className="navbar-nav ownShadow rounded p-1">
             <div className="d-none d-sm-flex gap-1">

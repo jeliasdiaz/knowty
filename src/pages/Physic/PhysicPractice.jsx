@@ -3,6 +3,7 @@ import Latex from "react-latex"
 import { PhysicNav } from "./PhysicNav";
 import { Graphic } from "../Single-pages/Graphic";
 import { useState } from "react";
+import { useGraphicator } from "../../hooks/";
 
 export const PhysicPractice = () => {
     const vectoresOne = `$$A_x = \\small 15N \\ \\cdot \\ cos(30) = 12.99N$$`
@@ -110,30 +111,16 @@ export const PhysicPractice = () => {
     const energiaGravitatoriaTwo = `$$E_{pg} = 2352 J$$`
     const equal = `$$=$$`
 
-    const [numbers, setNumbers] = useState([])
-    const [numbersTwo, setNumbersTwo] = useState([])
+    // Graphicator
+    const { graphicData, onInputX, onInputY, onFormSubmit } = useGraphicator()
 
-    const onInput = (e) => {
-        setTimeout(() => {
-            const data = Number(e.target.value)
-            setNumbers([...numbers, data])
-        }, 200);
-    }
-    const onFormSubmit = (e) => {
-        e.preventDefault();
-        setNumbersTwo(numbers)
-        setNumbers([])
-        e.target.reset();
-    }
-
-    const [convertionResult, setConvertionResult] = useState(null)
-
+    // Converter
+    const [convertionResult, setConvertionResult] = useState(0)
 
     const conversor = (e, number) => {
         const numberR = e.target.value
         if (number === 1) {
             setConvertionResult(numberR / 3.6)
-            console.log(convertionResult)
         }
     }
 
@@ -148,15 +135,26 @@ export const PhysicPractice = () => {
                 <div>
                     <div>
                         <h3>Graficador</h3>
-                        <Graphic data={numbersTwo} />
+                        <Graphic data={graphicData} />
                         <form onSubmit={onFormSubmit}>
                             <div className="numberInputContainer">
-                                <input type="number" className="numberInput ownShadow" onInput={onInput} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInput} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInput} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInput} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInput} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInput} />
+                                <span className="mt-2">Y</span>
+                                <input type="number" className="numberInput ownShadow" onInput={onInputY} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInputY} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInputY} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInputY} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInputY} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInputY} />
+                            </div>
+
+                            <div className="numberInputContainer">
+                                <span className="mt-2">X</span>
+                                <input type="number" className="numberInput ownShadow" onInput={onInputX} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInputX} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInputX} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInputX} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInputX} />
+                                <input type="number" className="numberInput ownShadow" onInput={onInputX} />
                             </div>
 
                             <div className="d-flex justify-content-center mt-3">
@@ -170,7 +168,7 @@ export const PhysicPractice = () => {
                     <div>
                         <h3>Conversor de unidades</h3>
                         <div className="d-flex gap-4 mt-3 mb-3">
-                            <div class="btn-group">
+                            <div className="btn-group">
                                 <button type="button" className="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                     Tipo
                                 </button>
@@ -183,7 +181,7 @@ export const PhysicPractice = () => {
 
                                 <span className="mt-2"><Latex>{equal}</Latex></span>
 
-                                <input type="number" className="convertionResultInput" placeholder="resultado" value={convertionResult} />
+                                <input type="number" className="convertionResultInput" placeholder="resultado" readOnly={true} value={convertionResult} />
                             </div>
 
                         </div>

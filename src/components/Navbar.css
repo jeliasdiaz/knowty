@@ -17,6 +17,7 @@
 }
 .navbar-brand {
   width: 7%;
+  transform: scale(1.4);
 }
 .navbar-nav {
   flex-direction: row !important;
