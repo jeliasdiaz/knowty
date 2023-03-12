@@ -166,7 +166,8 @@
   color: white !important;
 }
 /**  Shadows */
-.dark .ownShadow,
+.dark .ownShadow-sm,
+.ownShadow,
 .ownShadow-lg {
   box-shadow: none;
 }

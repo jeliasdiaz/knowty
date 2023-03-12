@@ -115,14 +115,22 @@ export const PhysicPractice = () => {
     const { graphicData, onInputX, onInputY, onFormSubmit } = useGraphicator()
 
     // Converter
-    const [convertionResult, setConvertionResult] = useState(0)
+    const [convertionResult, setConvertionResult] = useState("")
+    const [convertionType, setConvertionType] = useState(0)
 
-    const conversor = (e, number) => {
+    const conversor = (e) => {
         const numberR = e.target.value
-        if (number === 1) {
+
+        if (convertionType === 1) {
             setConvertionResult(numberR / 3.6)
         }
+        if (convertionType === 2) {
+            setConvertionResult(numberR * 3.6)
+        }
     }
+
+    const onKm = () => setConvertionType(1)
+    const onMs = () => setConvertionType(2)
 
     return (
         <div className='homeCard'>
@@ -139,22 +147,22 @@ export const PhysicPractice = () => {
                         <form onSubmit={onFormSubmit}>
                             <div className="numberInputContainer">
                                 <span className="mt-2">Y</span>
-                                <input type="number" className="numberInput ownShadow" onInput={onInputY} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInputY} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInputY} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInputY} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInputY} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInputY} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputY} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputY} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputY} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputY} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputY} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputY} />
                             </div>
 
                             <div className="numberInputContainer">
                                 <span className="mt-2">X</span>
-                                <input type="number" className="numberInput ownShadow" onInput={onInputX} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInputX} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInputX} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInputX} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInputX} />
-                                <input type="number" className="numberInput ownShadow" onInput={onInputX} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputX} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputX} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputX} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputX} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputX} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputX} />
                             </div>
 
                             <div className="d-flex justify-content-center mt-3">
@@ -168,20 +176,24 @@ export const PhysicPractice = () => {
                     <div>
                         <h3>Conversor de unidades</h3>
                         <div className="d-flex gap-4 mt-3 mb-3">
-                            <div className="btn-group">
+                            <div className="btn-group convertionType">
                                 <button type="button" className="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                     Tipo
                                 </button>
                                 <ul className="dropdown-menu">
-                                    <li>Km/h to m/s</li>
+                                    <li className="list-styled" onClick={onKm}>km/h a m/s</li>
+                                    <li className="list-styled" onClick={onMs}>m/s a km/h</li>
                                 </ul>
                             </div>
                             <div className="d-flex gap-2">
-                                <input type="number" className="numberInput" onInput={(e) => conversor(e, 1)} />
+
+                                <input type="number" className="numberInput" onInput={conversor} />
+                                <small className="mt-3">{convertionType === 1 ? "km/h" : ""}</small>
+
 
                                 <span className="mt-2"><Latex>{equal}</Latex></span>
 
-                                <input type="number" className="convertionResultInput" placeholder="resultado" readOnly={true} value={convertionResult} />
+                                <input type="number" className="numberInput w-50" placeholder="resultado" readOnly={true} value={convertionResult} />
                             </div>
 
                         </div>

@@ -11,6 +11,12 @@ body {
 }
 
 /** Global elements */
+
+/* Shadows */
+.ownShadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  transition: all 0.5s;
+}
 .ownShadow {
   box-shadow: 0 0.5rem 1rem rgba(10, 6, 6, 0.15);
   transition: all 0.5s;
@@ -19,6 +25,7 @@ body {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
   transition: all 0.5s;
 }
+
 h2,
 h1 {
   font-weight: 200;
@@ -87,7 +94,7 @@ ul li:before {
   margin-top: 6%;
 }
 .tooltipBackground {
-  background-color: #f6f6f6 !important;
+  background-color: #727272 !important;
   color: black !important;
   opacity: 1 !important;
 }
@@ -98,36 +105,18 @@ ul li:before {
   gap: 10px;
   margin-top: 4%;
 }
-
 .numberInput {
   width: 2.5em;
   height: 2.5em;
   border: none;
   border-radius: 5px;
+  background: #bfdfed;
 }
 .numberInput:focus {
   outline: none;
 }
 .numberInput[type="number"]::-webkit-inner-spin-button,
 .numberInput[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-.convertionResultInput {
-  width: 6.5em;
-  height: 2.5em;
-  border: none;
-  border-radius: 5px;
-}
-.convertionResultInput:focus {
-  outline: none;
-}
-.convertionResultInput:focus::placeholder {
-  color: gray;
-}
-.convertionResultInput[type="number"]::-webkit-inner-spin-button,
-.convertionResultInput[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -298,6 +287,25 @@ ul li:before {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+.convertionType ul {
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(10, 6, 6, 0.15);
+  transition: all 0.5s;
+}
+.convertionType ul li {
+  list-style: none;
+  cursor: pointer;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+.convertionType ul li:hover {
+  background-color: #f6f6f6;
+}
+.convertionType ul li:before {
+  content: "";
+  margin-left: 0.6em;
+}
+
 .pagination {
   margin-top: 5%;
   --bs-pagination-border-width: 0px !important;
