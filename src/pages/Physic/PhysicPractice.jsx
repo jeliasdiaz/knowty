@@ -175,7 +175,7 @@ export const PhysicPractice = () => {
 
                     <div>
                         <h3>Conversor de unidades</h3>
-                        <div className="d-flex gap-4 mt-3 mb-3">
+                        <div className="d-flex gap-4 mt-4 mb-4">
                             <div className="btn-group convertionType">
                                 <button type="button" className="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                     Tipo
@@ -185,17 +185,26 @@ export const PhysicPractice = () => {
                                     <li className="list-styled" onClick={onMs}>m/s a km/h</li>
                                 </ul>
                             </div>
-                            <div className="d-flex gap-2">
 
-                                <input type="number" className="numberInput" onInput={conversor} />
-                                <small className="mt-3">{convertionType === 1 ? "km/h" : ""}</small>
+                            <div className="d-flex gap-2">
+                                <input type="number" className="numberInput w-25" onInput={conversor} />
+                                <small className="mt-3">
+                                    {
+                                        convertionType === 1 ? "km/h" : convertionType === 2 ? "m/s" : ""
+
+                                    }
+                                </small>
 
 
                                 <span className="mt-2"><Latex>{equal}</Latex></span>
 
                                 <input type="number" className="numberInput w-50" placeholder="resultado" readOnly={true} value={convertionResult} />
+                                <small className="mt-3">
+                                    {
+                                        convertionType === 1 ? "m/s" : convertionType === 2 ? "km/h" : ""
+                                    }
+                                </small>
                             </div>
-
                         </div>
                     </div>
                     <hr />

@@ -33,11 +33,11 @@ export const Footer = () => {
           <div className="d-flex">
             <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube." icon={<AiFillYoutube size={36} />} animationduration={600} />
 
-            <MembersCard name="Wilmar Fontalvo" description="Creador de videos y encargado principal de YouTube." icon={<AiFillYoutube size={36} />} animationduration={800} />
+            <MembersCard name="Wilmar Fontalvo" description="Creador de videos. Encargado de animar y editar" icon={<AiFillYoutube size={36} />} animationduration={800} />
           </div>
 
           <div>
-            <MembersCard name="Jose Elías Díaz" description="Creador del proyecto, página y contenido para YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} animationduration={1000} />} optionalClass="pt-4 w-75 mx-auto" />
+            <MembersCard name="Jose Elías Díaz" description="Creador del proyecto, página y encargado del canal YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} animationduration={1000} />} optionalClass="pt-4 w-75 mx-auto" />
           </div>
 
           <div className="d-flex">

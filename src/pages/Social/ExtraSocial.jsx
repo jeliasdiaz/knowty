@@ -5,7 +5,7 @@ export const ExtraSocial = () => {
     return (
         <div className="homeCard">
             <TopWave />
-            <SectionTitle title="Movimientos sociales" />
+            <SectionTitle title="Extra" />
 
             <SocialNav />
 

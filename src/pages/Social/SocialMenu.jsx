@@ -1,5 +1,4 @@
-import { TopWave } from "../../components/"
-import { MenuCard } from "../../components/MenuCard"
+import { TopWave, MenuCard } from "../../components/"
 
 export const SocialMenu = () => {
   return (
@@ -11,6 +10,7 @@ export const SocialMenu = () => {
           <MenuCard url="/doctrinas-economicas" img="socialesIcon.png" title="D. económicas" />
           <MenuCard url="/movimientos-armados" img="socialesIcon.png" title="M. armados" />
           <MenuCard url="/movimientos-sociales" img="socialesIcon.png" title="M. sociales" />
+          <MenuCard url="/sociales-extra" img="socialesIcon.png" title="Extra" />
         </div>
       </section>
     </>

@@ -1,5 +1,4 @@
-import { TopWave } from "../../components/"
-import { MenuCard } from "../../components/MenuCard"
+import { TopWave, MenuCard } from "../../components/"
 
 export const PhilosophyMenu = () => {
     return (
