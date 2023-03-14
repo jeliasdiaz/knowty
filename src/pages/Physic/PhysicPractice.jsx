@@ -191,7 +191,6 @@ export const PhysicPractice = () => {
                                 <small className="mt-3">
                                     {
                                         convertionType === 1 ? "km/h" : convertionType === 2 ? "m/s" : ""
-
                                     }
                                 </small>
 

@@ -4,13 +4,10 @@ import { CollapseTitle, MoreBtn, SectionTitle, TopWave } from "../../components/
 export const Statistic = () => {
 
   const decilesPar = `$$D_k = \\large \\frac{n \\ \\cdot \\ k}{10} \\ \\normalsize par$$`
-  const decilesImpar = `$$D_k = \\large  \\frac{k(n \\ + \\ 1)}{10} \\ \\normalsize impar$$`
 
   const percentilesPar = `$$P_k = \\large \\frac{n \\ \\cdot \\ k}{100} \\ \\normalsize par$$`
-  const percentilesImpar = `$$P_k = \\large \\frac{k(n \\ + \\ 1)}{100} \\ \\normalsize impar$$`
 
   const cuartilesPar = `$$Q_k = \\large \\frac{n \\ \\cdot \\ k}{4} \\ \\normalsize par$$`
-  const cuartilesImpar = `$$Q_k = \\large \\frac{k(n \\ + \\ 1)}{4} \\ \\normalsize par$$`
   const cuartilesEjemploOne = `$$Q_k = \\large \\frac{8 \\ \\cdot \\ 3}{4}$$`
   const cuartilesEjemploTwo = `$$Q_k = 6$$`
 
@@ -108,7 +105,6 @@ export const Statistic = () => {
               <h5>Cuartiles</h5>
               <p>Permiten calcular el 25%, 50%, 75% y 100%, donde el cuartil 1 corresponde al 25% y el cuartil 4 al 100%.</p>
               <p><Latex>{cuartilesPar}</Latex></p>
-              <p><Latex>{cuartilesImpar}</Latex></p>
 
               <p>n = número total de datos <br /> k = cuartil a hallar</p>
               <p>
@@ -123,7 +119,6 @@ export const Statistic = () => {
               <h5>Deciles</h5>
               <p>Permiten calcular los porcentajes desde el 10% hasta el 100% de diez en diez. Esto es, el decil 1 es 10% y el decil 10 es 100%</p>
               <p><Latex>{decilesPar}</Latex></p>
-              <p><Latex>{decilesImpar}</Latex></p>
               <p>n = número total de datos <br /> k = decil a hallar</p>
               <br />
 
@@ -131,7 +126,6 @@ export const Statistic = () => {
               <p>Permiten calcular los porcentajes desde el 1% hasta el 100% de uno en uno, de forma que, el decil 1 es 1% y el decil 100 es 100%.</p>
 
               <p><Latex>{percentilesPar}</Latex></p>
-              <p><Latex>{percentilesImpar}</Latex></p>
               <p>n = número total de datos <br /> k = percentil a hallar</p>
               <br />
 
