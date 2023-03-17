@@ -1,9 +1,12 @@
-import { SectionTitle, TopWave } from "../../components/";
-import Latex from "react-latex"
-import { PhysicNav } from "./PhysicNav";
-import { Graphic } from "../Single-pages/Graphic";
 import { useState } from "react";
 import { useGraphicator } from "../../hooks/";
+import { SectionTitle, TopWave } from "../../components/";
+import { PhysicNav } from "./PhysicNav";
+import { Graphic } from "../Single-pages/Graphic";
+import Latex from "react-latex"
+import { IoIosArrowDown } from "react-icons/io";
+import Qty from 'js-quantities/esm';
+import { BsArrowRightShort } from "react-icons/bs";
 
 export const PhysicPractice = () => {
     const vectoresOne = `$$A_x = \\small 15N \\ \\cdot \\ cos(30) = 12.99N$$`
@@ -115,45 +118,24 @@ export const PhysicPractice = () => {
     const { graphicData, onInputX, onInputY, onFormSubmit } = useGraphicator()
 
     // Converter
-    const [convertionResultSpeed, setConvertionResultSpeed] = useState(0)
-    const [convertionResultDistance, setConvertionResultDistance] = useState(0)
-    const [convertionTypeSpeed, setConvertionTypeSpeed] = useState(0)
-    const [convertionTypeDistance, setConvertionTypeDistance] = useState(0)
+    const [convertionResult, setConvertionResult] = useState(0)
 
-    const conversorSpeed = ({ target }) => {
+    const [unitOne, setUnitOne] = useState("")
+    const [unitTwo, setUnitTwo] = useState("")
+
+    const conversor = ({ target }) => {
         const { value } = target
 
-        switch (convertionTypeSpeed) {
-            case 1:
-                return setConvertionResultSpeed(value / 3.6)
-            case 2:
-                return setConvertionResultSpeed(value * 3.6)
-            default:
-                break;
-        }
+        const convert = Qty.swiftConverter(unitOne, unitTwo)
+
+        const result = convert(value)
+        setConvertionResult(result)
     }
 
-    const conversorDistance = ({ target }) => {
-        const { value } = target
+    const handleUnitSelectionOne = (type) => setUnitOne(type)
 
-        switch (convertionTypeDistance) {
-            case 3:
-                return setConvertionResultDistance(value * 1000)
-            case 4:
-                return setConvertionResultDistance(value / 1000)
-            default:
-                break;
-        }
+    const handleUnitSelectionTwo = (type) => setUnitTwo(type)
 
-    }
-
-    // Speed
-    const onKmH = () => setConvertionTypeSpeed(1)
-    const onMS = () => setConvertionTypeSpeed(2)
-
-    // Distance
-    const onKm = () => setConvertionTypeDistance(3)
-    const onM = () => setConvertionTypeDistance(4)
 
     return (
         <div className='homeCard'>
@@ -198,84 +180,69 @@ export const PhysicPractice = () => {
 
                     <div>
                         <h3>Conversor de unidades</h3>
-                        <div className="d-flex gap-4 mt-4 mb-4">
-                            <h5 className="mt-2">Distancia</h5>
+
+                        <div className=" mt-4 mb-4">
+                            <div className="d-flex gap-4 mt-3 mb-3">
+                                <div className="d-flex gap-2">
+                                    <input type="number" className="numberInput w-25" onInput={conversor} />
+
+                                    <span className="mt-2"><Latex>{equal}</Latex></span>
+
+                                    <input type="number" className="numberInput w-50" placeholder="resultado" readOnly={true} value={convertionResult} />
+                                </div>
+                            </div>
                             <div className="btn-group convertionType">
-                                <button type="button" className="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Tipo
+                                <button type="button" className="btn btn-secondary" data-bs-toggle="dropdown" aria-expanded="false">
+                                    {
+                                        unitOne ? unitOne : <IoIosArrowDown size={25} />
+                                    }
                                 </button>
                                 <ul className="dropdown-menu">
-                                    <li className="list-styled" onClick={onKm}>km a m</li>
-                                    <li className="list-styled" onClick={onM}>m a km</li>
+                                    <li className="fw-semibold list-styled">Longitud</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionOne("km")}>Km</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionOne("hm")}>Hm</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionOne("dam")}>Dam</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionOne("m")}>m</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionOne("dm")}>dm</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionOne("cm")}>cm</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionOne("mm")}>mm</li>
+
+                                    <hr className="dropdown-divider" />
+                                    <li className="fw-semibold list-styled">Velocidad</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionOne("km/h")}>km/h</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionOne("m/s")}>m/s</li>
+
                                 </ul>
                             </div>
 
-                            <div className="d-flex gap-2">
-                                <input type="number" className="numberInput w-25" onInput={conversorDistance} />
-                                <small className="mt-3">
-                                    {
-                                        convertionTypeDistance === 3
-                                            ? "km"
-                                            : convertionTypeDistance === 2
-                                                ? "m/s"
-                                                : ""
-                                    }
-                                </small>
+                            <span className="mt-2">
+                                <BsArrowRightShort size={30} className="mx-2" />
+                            </span>
 
-
-                                <span className="mt-2"><Latex>{equal}</Latex></span>
-
-                                <input type="number" className="numberInput w-50" placeholder="resultado" readOnly={true} value={convertionResultDistance} />
-                                <small className="mt-3">
-                                    {
-                                        convertionTypeDistance === 3
-                                            ? "m"
-                                            : convertionTypeDistance === 4
-                                                ? "km"
-                                                : ""
-                                    }
-                                </small>
-                            </div>
-                        </div>
-
-                        <div className="d-flex gap-4 mt-4 mb-4">
-                            <h5 className="mt-2">Velocidad</h5>
                             <div className="btn-group convertionType">
-                                <button type="button" className="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Tipo
+                                <button type="button" className="btn btn-secondary" data-bs-toggle="dropdown" aria-expanded="false">
+                                    {
+                                        unitTwo ? unitTwo : <IoIosArrowDown size={25} />
+                                    }
                                 </button>
                                 <ul className="dropdown-menu">
-                                    <li className="list-styled" onClick={onKmH}>km/h a m/s</li>
-                                    <li className="list-styled" onClick={onMS}>m/s a km/h</li>
+                                    <li className="fw-semibold list-styled">Longitud</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionTwo("km")}>Km</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionTwo("hm")}>Hm</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionTwo("dam")}>Dam</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionTwo("m")}>m</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionTwo("dm")}>dm</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionTwo("cm")}>cm</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionTwo("mm")}>mm</li>
+                                    <li className="fw-semibold list-styled">Velocidad</li>
+                                    <hr className="dropdown-divider" />
+                                    <li className="list-styled" onClick={() => handleUnitSelectionTwo("km/h")}>km/h</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionTwo("m/s")}>m/s</li>
+
                                 </ul>
                             </div>
-
-                            <div className="d-flex gap-2">
-                                <input type="number" className="numberInput w-25" onInput={conversorSpeed} />
-                                <small className="mt-3">
-                                    {
-                                        convertionTypeSpeed === 1
-                                            ? "km/h"
-                                            : convertionTypeSpeed === 2
-                                                ? "m/s"
-                                                : ""
-                                    }
-                                </small>
-
-                                <span className="mt-2"><Latex>{equal}</Latex></span>
-
-                                <input type="number" className="numberInput w-50" placeholder="resultado" readOnly={true} value={convertionResultSpeed} />
-                                <small className="mt-3">
-                                    {
-                                        convertionTypeSpeed === 1
-                                            ? "m/s"
-                                            : convertionTypeSpeed === 2
-                                                ? "km/h"
-                                                : ""
-                                    }
-                                </small>
-                            </div>
                         </div>
+                        <br />
 
                     </div>
                     <hr />
