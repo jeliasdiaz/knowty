@@ -212,6 +212,11 @@ export const PhysicPractice = () => {
                                     <li className="list-styled" onClick={() => handleUnitSelectionOne("km/h")}>km/h</li>
                                     <li className="list-styled" onClick={() => handleUnitSelectionOne("m/s")}>m/s</li>
 
+                                    <hr className="dropdown-divider" />
+                                    <li className="fw-semibold list-styled">Temperatura</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionOne("tempC")}>°C</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionOne("tempF")}>°F</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionOne("tempK")}>K</li>
                                 </ul>
                             </div>
 
@@ -239,6 +244,11 @@ export const PhysicPractice = () => {
                                     <li className="list-styled" onClick={() => handleUnitSelectionTwo("km/h")}>km/h</li>
                                     <li className="list-styled" onClick={() => handleUnitSelectionTwo("m/s")}>m/s</li>
 
+                                    <hr className="dropdown-divider" />
+                                    <li className="fw-semibold list-styled">Temperatura</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionTwo("tempC")}>°C</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionTwo("tempF")}>°F</li>
+                                    <li className="list-styled" onClick={() => handleUnitSelectionTwo("tempK")}>K</li>
                                 </ul>
                             </div>
                         </div>
