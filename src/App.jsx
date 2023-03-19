@@ -45,9 +45,7 @@ function App() {
   //* Progress button 
   const [scrolled, setScrolled] = useState(false)
 
-  const goTop = () => {
-    window.scrollTo(0, 0)
-  }
+  const goTop = () => window.scrollTo(0, 0)
 
   const handleScroll = () => {
     const scroll = window.scrollY;
@@ -87,6 +85,17 @@ function App() {
   const RADIUS = DIAMETER / 2 - STROKE_WIDTH / 2;
   const CIRCUMFERENCE = Math.PI * RADIUS * 2;
 
+
+  //* Cisable right click
+
+  useEffect(() => {
+    const handleContextMenu = (e) => e.preventDefault()
+  
+    document.addEventListener("contextmenu", handleContextMenu)
+
+    return () => document.removeEventListener("contextmenu", handleContextMenu)
+  }, [])
+  
   return (
     <div ref={articleRef}>
       <BrowserRouter>
