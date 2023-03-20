@@ -493,5 +493,25 @@
     "name": "Simetría y asimetría",
     "url": "/estadistica",
     "img": "/img/estadisticaIcon.png"
+  },
+  {
+    "name": "Filosofía",
+    "url": "/introduccion-filosofia",
+    "img": "/img/filosofiaIcon.png"
+  },
+  {
+    "name": "Presocraticos",
+    "url": "/introduccion-filosofia",
+    "img": "/img/filosofiaIcon.png"
+  },
+  {
+    "name": "Sócrates",
+    "url": "/filosofos-clasicos",
+    "img": "/img/filosofiaIcon.png"
+  },
+  {
+    "name": "Platón",
+    "url": "/filosofos-clasicos",
+    "img": "/img/filosofiaIcon.png"
   }
 ]

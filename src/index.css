@@ -37,7 +37,7 @@ hr {
   background-color: white;
   height: 3px !important;
   border-radius: 12px !important;
-  box-shadow: 3px 2px 2px 1px rgb(184, 183, 183) !important;
+  box-shadow: 3px 2px 2px 1px rgb(184, 183, 183);
   background-color: #2b7ea1 !important;
   border: #2b7ea1 !important;
   transition: 0.5s;
@@ -94,7 +94,7 @@ ul li:before {
   margin-top: 6%;
 }
 .tooltipBackground {
-  background-color: #727272 !important;
+  background-color: #f6f6f6 !important;
   color: black !important;
   opacity: 1 !important;
 }
