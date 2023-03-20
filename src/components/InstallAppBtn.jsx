@@ -29,7 +29,7 @@ export const InstallAppBtn = memo(() => {
   const handleInstallBtn = () => setInstallBtn(!installBtn)
 
   return (
-    installBtn 
+    installBtn && isReadyForInstall
       ?
       <button className="installCard ownShadow d-block d-sm-none" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
         <div className="d-flex gap-3 justify-content-center">
