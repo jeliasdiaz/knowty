@@ -29,11 +29,11 @@ export const InstallAppBtn = memo(() => {
   const handleInstallBtn = () => setInstallBtn(!installBtn)
 
   return (
-    installBtn && isReadyForInstall
+    installBtn 
       ?
       <button className="installCard ownShadow d-block d-sm-none" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
         <div className="d-flex gap-3 justify-content-center">
-          <img src="/img/logo.svg" alt="logo" className="w-25" />
+          <img src="/img/knowty.png" alt="logo" className="w-25" />
           <span onClick={downloadApp}>Descargar</span>
           <div>
             <MdClose size={35} className="closeInstallBtn mt-2" onClick={handleInstallBtn} />

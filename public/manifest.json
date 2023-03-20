@@ -9,13 +9,13 @@
       "purpose": "any maskable"
     },
     {
-      "src": "knowtyLogo.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any"
     },
     {
-      "src": "knowtyLogo.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
