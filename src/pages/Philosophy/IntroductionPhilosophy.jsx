@@ -47,18 +47,16 @@ export const IntroductionPhilosophy = () => {
 
                 <div>
                     <h4>¿Qué es el conocimiento?</h4>
-                    <p>Es aquel conjunto de hechos, información, contenido intelectual que puede adquirir una persona de lo que se entiende como realidad.</p>
+                    <p>Es aquel conjunto de hechos, información y contenido intelectual que puede adquirir una persona de lo que se entiende como realidad.</p>
                 </div>
 
                 <hr />
 
                 <div>
                     <h4>¿Quiénes eran los presocráticos?</h4>
-                    <ul>
-                        <li>Aquellos que vivieron antes de Sócrates.</li>
-                        <li>Los primeros filósofos.</li>
-                        <li>Se preguntaron por el <Tooltip text={<span className="ps-2">arché</span>} content={<span>Origen/principio del cosmos. <br /> Elemento primero</span>} /> del universo.</li>
-                    </ul>
+                    <p>
+                        Los presocráticos fueron un grupo de pensadores y filósofos griegos que existieron antes de Sócrates. Se les considera como los primeros filósofos y se preguntaron por el <Tooltip text={<span>arché</span>} content={<span>Origen/principio del cosmos. <br /> Elemento primero</span>} /> del universo. En su mayoría, este correspondió a elementos de la naturaleza.
+                    </p>
                 </div>
 
                 <hr />
@@ -66,10 +64,12 @@ export const IntroductionPhilosophy = () => {
                 <CollapseTitle name="Presocráticos" id="#presocraticos" />
                 <div className="collapse" id="presocraticos">
                     <h4>Anaximandro de Mileto</h4>
+                    <p>Fue el primero en desarrollar una cosmología</p>
                     <ul>
-                        <li>Arché = Apeiron (indeterminación)</li>
-                        <li>La tierra es esférica</li>
-                        <li>Universo infinito</li>
+                        <li>Fue el primero en desarrollar una cosmología.</li>
+                        <li>Arché = Apeiron (indeterminado).</li>
+                        <li>La tierra es esférica.</li>
+                        <li>Universo infinito.</li>
                     </ul>
 
                     <hr />

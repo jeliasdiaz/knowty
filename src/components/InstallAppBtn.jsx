@@ -1,6 +1,6 @@
 //* Install PWA close btn
 import { memo, useEffect, useState } from "react";
-import { MdClose } from "react-icons/md";
+import { DownloadBtn } from "./DownloadBtn";
 
 export const InstallAppBtn = memo(() => {
   const [isReadyForInstall, setIsReadyForInstall] = useState(false);
@@ -30,17 +30,7 @@ export const InstallAppBtn = memo(() => {
 
   return (
     installBtn && isReadyForInstall
-      ?
-      <button className="installCard ownShadow d-block d-sm-none" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
-        <div className="d-flex gap-3 justify-content-center">
-          <img src="/img/knowty.png" alt="logo" className="w-25" />
-          <span onClick={downloadApp}>Descargar</span>
-          <div>
-            <MdClose size={35} className="closeInstallBtn mt-2" onClick={handleInstallBtn} />
-          </div>
-        </div>
-      </button>
-      :
-      ''
+      ? <DownloadBtn downloadApp={downloadApp} handleInstallBtn={handleInstallBtn} />
+      : ''
   )
 })

@@ -90,8 +90,18 @@ ul li:before {
   text-align: center;
   z-index: 10;
 }
+.installCard img {
+  transform: scale(1.2);
+  width: 3em;
+}
 .installCard span {
-  margin-top: 6%;
+  margin-top: 10%;
+  margin-left: 1%;
+  margin-right: 1%;
+  font-size: 17px;
+}
+.closeInstallBtn {
+  margin-top: 38%;
 }
 .tooltipBackground {
   background-color: #f6f6f6 !important;
