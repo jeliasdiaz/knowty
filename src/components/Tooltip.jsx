@@ -33,7 +33,7 @@ export const Tooltip = ({ content, text }) => {
                 style={{
                     color: "white"
                 }}
-                className="tooltipBackground"
+                className="tooltipBackground ownShadow-sm"
                 delayShow={100}
                 clickable={true}
             />
