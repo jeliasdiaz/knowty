@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { CollapseTitle, SectionTitle, Tooltip, TopWave } from '../../components'
 import { PhilosophyNav } from './PhilosophyNav'
 
@@ -55,7 +55,7 @@ export const IntroductionPhilosophy = () => {
                 <div>
                     <h4>¿Quiénes eran los presocráticos?</h4>
                     <p>
-                        Los presocráticos fueron un grupo de pensadores y filósofos griegos que existieron antes de Sócrates. Se les considera como los primeros filósofos y se preguntaron por el <Tooltip text={<span>arché</span>} content={<span>Origen/principio del cosmos. <br /> Elemento primero</span>} /> del universo. En su mayoría, este correspondió a elementos de la naturaleza.
+                        Los presocráticos fueron un grupo de pensadores y filósofos griegos que existieron antes de Sócrates. Se les considera como los primeros filósofos y se preguntaron por el <Tooltip text={<span>arché</span>} content={<span>Origen/principio del cosmos. <br /> Elemento primero</span>} id="arché" />  del universo. En su mayoría, este correspondió a elementos de la naturaleza.
                     </p>
                 </div>
 
@@ -77,6 +77,7 @@ export const IntroductionPhilosophy = () => {
                     <h4>Anaxímenes de Mileto</h4>
                     <ul>
                         <li>Arché = aire</li>
+                        <li>Supuso que el aire está en continuo movimiento, por lo que consideró que también poseía vida. Además, debido a su existencia/vida infinita, asumió que esta era la causa de la materia.</li>
                         <li>"Todas las cosas se originaron por el grado de condensación o enrarecimiento del aire, a causa del frío y del calor."</li>
                     </ul>
 
@@ -85,8 +86,8 @@ export const IntroductionPhilosophy = () => {
                     <h4>Heráclito de Efeso</h4>
                     <ul>
                         <li>Arché = fuego</li>
-                        <li>Todo es un constante devenir.</li>
-                        <li>"No nos podemos bañar dos veces en el mismo río" debido a qué tanto el río como tú, habrán cambiado.</li>
+                        <li>Todo es un constante <Tooltip text={<span className="ms-2">devenir.</span>} content={<span>Proceso de cambio que <br /> ocurre a lo largo del tiempo.</span>} id="devenir" /></li>
+                        <li>"No nos podemos bañar dos veces en el mismo río". Debido a que tanto el río como tú, habrán cambiado.</li>
                     </ul>
 
                     <hr />

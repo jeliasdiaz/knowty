@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import PropTypes from 'prop-types'
 
 export const MenuCard = ({ url, img, title }) => {
     return (
@@ -11,4 +12,10 @@ export const MenuCard = ({ url, img, title }) => {
             </div>
         </Link >
     )
+}
+
+MenuCard.propTypes = {
+    url: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired
 }

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types'
 
 export const ResultCard = ({ url, name, img }) => {
     return (
@@ -9,4 +10,10 @@ export const ResultCard = ({ url, name, img }) => {
             </div>
         </Link>
     )
+}
+
+ResultCard.propTypes = {
+    url: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
 }

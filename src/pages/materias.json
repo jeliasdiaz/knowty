@@ -450,6 +450,21 @@
     "img": "/img/socialesIcon.png"
   },
   {
+    "name": "Unión patriótica",
+    "url": "/sociales-extra",
+    "img": "/img/socialesIcon.png"
+  },
+  {
+    "name": "UP",
+    "url": "/sociales-extra",
+    "img": "/img/socialesIcon.png"
+  },
+  {
+    "name": "Frente nacional",
+    "url": "/sociales-extra",
+    "img": "/img/socialesIcon.png"
+  },
+  {
     "name": "Trigonometría",
     "url": "/trigonometria_2",
     "img": "/img/trigonometriaIcon.png"

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-
+import PropTypes from 'prop-types'
 export const BlogCard = ({ title, content, to, img }) => {
     return (
         <div data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
@@ -14,4 +14,11 @@ export const BlogCard = ({ title, content, to, img }) => {
             </div>
         </div>
     )
+}
+
+BlogCard.propTypes = {
+    title: PropTypes.string.isRequired,
+    content: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    to: PropTypes.string.isRequired,
 }

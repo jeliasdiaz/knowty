@@ -1,13 +1,14 @@
+import { useState } from "react";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import * as ReactDOMServer from 'react-dom/server';
-import { useState } from "react";
+import PropTypes from 'prop-types'
 
-export const Tooltip = ({ content, text }) => {
+export const Tooltip = ({ content, text, id }) => {
     const [hover, setHover] = useState(false)
     const onHover = () => setHover(!hover)
     return (
         <>
-            <span id="sales"
+            <span id={id}
                 data-tooltip-html={ReactDOMServer.renderToString(
                     <span style={{ textAlign: "justify", hyphens: "auto" }}>{content}</span>
                 )}
@@ -28,7 +29,7 @@ export const Tooltip = ({ content, text }) => {
                     {text}
                 </span>
             </span><ReactTooltip
-                anchorId="sales"
+                anchorId={id}
                 place="top"
                 style={{
                     color: "white"
@@ -39,4 +40,10 @@ export const Tooltip = ({ content, text }) => {
             />
         </>
     )
+}
+
+Tooltip.propTypes = {
+    content: PropTypes.object.isRequired,
+    text: PropTypes.object.isRequired,
+    id: PropTypes.string.isRequired
 }

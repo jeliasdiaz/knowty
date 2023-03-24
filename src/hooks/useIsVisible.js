@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import PropTypes from 'prop-types'
 
 export function useIsVisible(ref) {
   const [isIntersecting, setIntersecting] = useState(false);
@@ -14,4 +15,8 @@ export function useIsVisible(ref) {
   }, [ref]);
 
   return isIntersecting;
+}
+
+useIsVisible.propTypes = {
+  ref: PropTypes.func.isRequired
 }

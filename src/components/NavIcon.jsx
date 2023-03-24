@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
 import "react-tooltip/dist/react-tooltip.css";
+import PropTypes from 'prop-types'
 
 export const NavIcon = ({ path, icon, tooltipContent, tooltipId }) => {
     return (
@@ -15,4 +16,11 @@ export const NavIcon = ({ path, icon, tooltipContent, tooltipId }) => {
             />
         </>
     )
+}
+
+NavIcon.propTypes = {
+    path: PropTypes.string.isRequired,
+    icon: PropTypes.object.isRequired,
+    tooltipContent: PropTypes.string.isRequired,
+    tooltipId: PropTypes.string.isRequired,
 }

@@ -1,5 +1,5 @@
 import { MdClose } from "react-icons/md";
-
+import PropTypes from 'prop-types'
 
 export const DownloadBtn = ({downloadApp, handleInstallBtn}) => {
   return (
@@ -13,4 +13,9 @@ export const DownloadBtn = ({downloadApp, handleInstallBtn}) => {
         </div>
       </button>
   )
+}
+
+DownloadBtn.propTypes = {
+  downloadApp: PropTypes.func.isRequired,
+  handleInstallBtn: PropTypes.func.isRequired
 }

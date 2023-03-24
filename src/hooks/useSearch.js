@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from 'prop-types'
 
 export const useSearch = (data) => {
   const [filteredData, setFilteredData] = useState([]);
@@ -30,3 +31,7 @@ export const useSearch = (data) => {
     clearInput,
   };
 };
+
+useSearch.propTypes = {
+  data: PropTypes.object.isRequired
+}

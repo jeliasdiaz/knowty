@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import PropTypes from 'prop-types'
 import { BiChevronRight } from "react-icons/bi";
 
 export const SubjectCard = ({ path, img, title, marginTop, animationDelay }) => {
@@ -22,4 +23,12 @@ export const SubjectCard = ({ path, img, title, marginTop, animationDelay }) => 
 
         </>
     )
+}
+
+SubjectCard.propTypes = {
+    path: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    marginTop: PropTypes.string,
+    animationDelay: PropTypes.number.isRequired,
 }

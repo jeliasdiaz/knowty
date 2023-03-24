@@ -120,7 +120,7 @@ export const SecondChemistryPeriod = () => {
                         <div className="collapse" id="compuestosIonicos">
                             <ul>
                                 <li>Forman
-                                    <Tooltip content={<span>Compuestos químicos formados a partir <br /> de la combinación de ácidos con bases.</span>} text={<span className="ps-2 pe-1">sales</span>} />
+                                    <Tooltip content={<span>Compuestos químicos formados a partir <br /> de la combinación de ácidos con bases.</span>} text={<span className="ps-2 pe-1">sales</span>} id="sales" />
                                     sólidas.
                                 </li>
                                 <li>Forman redes cristalinas. Por tanto, son sólidos a temperatura ambiente.</li>

@@ -1,4 +1,5 @@
 import { CartesianGrid, Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
+import PropTypes from 'prop-types'
 
 export const Graphic = ({ data }) => {
 
@@ -19,4 +20,8 @@ export const Graphic = ({ data }) => {
             </LineChart>
         </ResponsiveContainer>
     )
+}
+
+Graphic.propTypes = {
+    data: PropTypes.object.isRequired
 }
