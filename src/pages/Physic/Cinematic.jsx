@@ -33,7 +33,7 @@ export const Cinematic = () => {
     const tiroParabolicoThree = `$$x = x_0 + v_{0x} \\ \\cdot \\ t$$`
     const tiroParabolicoFour = `$$y = y_0 + v_{oy} \\ \\cdot \\ t - \\frac{1}{2} \\ \\cdot \\ g \\ \\cdot \\ t^2$$`
     const tiroParabolicoFive = `$$v = v_0 - g \\ \\cdot \\ t$$`
-    const tiroParabolicoSix = `$$h_{max} = \\large \\frac{2v_{oy}}{g}$$`
+    const tiroParabolicoSix = `$$h_{max} = \\large \\frac{v_{oy}^2}{g}$$`
     const tiroParabolicoSeven = `$$t_v = \\large \\frac{2v_{oy}}{g}$$`
     const tiroParabolicoEight = `$$t_c = \\large \\sqrt{\\frac{2h}{g}}$$`
     const tiroParabolicoNine = `$$D_h = v_{ox} \\ \\cdot \\ t_v$$`
