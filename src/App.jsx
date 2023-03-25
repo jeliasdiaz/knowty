@@ -88,13 +88,13 @@ function App() {
 
   //* Cisable right click
 
-  // useEffect(() => {
-  //   const handleContextMenu = (e) => e.preventDefault()
+  useEffect(() => {
+    const handleContextMenu = (e) => e.preventDefault()
   
-  //   document.addEventListener("contextmenu", handleContextMenu)
+    document.addEventListener("contextmenu", handleContextMenu)
 
-  //   return () => document.removeEventListener("contextmenu", handleContextMenu)
-  // }, [])
+    return () => document.removeEventListener("contextmenu", handleContextMenu)
+  }, [])
   
   return (
     <div ref={articleRef}>
