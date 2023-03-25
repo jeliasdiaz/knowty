@@ -63,6 +63,13 @@ export const IntroductionPhilosophy = () => {
 
                 <CollapseTitle name="Presocráticos" id="#presocraticos" />
                 <div className="collapse" id="presocraticos">
+                    <h4>Tales de Mileto</h4>
+                    <ul>
+                        <li>Fue uno del los 7 sabios de Grecia.</li>
+                        <li>Fue matemático, astrónomo, físico, filósofo, etc.</li>
+                        <li>Arché = agua</li>
+                    </ul>
+
                     <h4>Anaximandro de Mileto</h4>
                     <p>Fue el primero en desarrollar una cosmología</p>
                     <ul>
