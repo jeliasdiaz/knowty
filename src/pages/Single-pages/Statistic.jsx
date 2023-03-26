@@ -3,11 +3,11 @@ import { CollapseTitle, MoreBtn, SectionTitle, TopWave } from "../../components/
 
 export const Statistic = () => {
 
-  const decilesPar = `$$D_k = \\large \\frac{n \\ \\cdot \\ k}{10} \\ \\normalsize par$$`
+  const decilesPar = `$$D_k = \\large \\frac{n \\ \\cdot \\ k}{10} $$`
 
-  const percentilesPar = `$$P_k = \\large \\frac{n \\ \\cdot \\ k}{100} \\ \\normalsize par$$`
+  const percentilesPar = `$$P_k = \\large \\frac{n \\ \\cdot \\ k}{100} $$`
 
-  const cuartilesPar = `$$Q_k = \\large \\frac{n \\ \\cdot \\ k}{4} \\ \\normalsize par$$`
+  const cuartilesPar = `$$Q_k = \\large \\frac{n \\ \\cdot \\ k}{4} $$`
   const cuartilesEjemploOne = `$$Q_k = \\large \\frac{8 \\ \\cdot \\ 3}{4}$$`
   const cuartilesEjemploTwo = `$$Q_k = 6$$`
 
@@ -22,7 +22,7 @@ export const Statistic = () => {
 
   const desviacionEstandar = `$$ \\small DE = \\normalsize \\sqrt{(\\frac{M \\ - \\ x_i}{N})^2}$$`
 
-  const explicacionEjemplo = `$$Q_1 =  \\large \\frac{1 \\ \\cdot \\ 15000}{4} \\ \\normalsize par$$`
+  const explicacionEjemplo = `$$Q_1 =  \\large \\frac{1 \\ \\cdot \\ 15000}{4}$$`
   const explicacionEjemploResultado = `$$Q_1 = 8,750 $$`
   const explicacionEjemploResultadoAlternativo = `$$25\\% = 8,750$$`
 
@@ -53,7 +53,7 @@ export const Statistic = () => {
             <CollapseTitle name="Regla de tres simple" id="#reglaTresSimple" />
             <div className="collapse" id="reglaTresSimple">
               <h5>Directa</h5>
-              <p>Los datos están correlacionados, de tal forma que cuando aumenta una magnitud también lo hace la otra.</p>
+              <p>Los datos están correlacionados, de tal forma que cuando aumenta una magnitud también lo hace la otra. Es de añadir que dos variables son consideradas directamente proporcionales cuando al dividirse dan como cociente (resultado) una constante.</p>
               <h6>Fórmula</h6>
               <img src="/img/regla-3.jpg" alt="Regla de tres directa" className="reglaTres rounded-3" /> <br /><br />
               <p><Latex>{reglaTresDirecta}</Latex></p>
@@ -67,7 +67,7 @@ export const Statistic = () => {
               </p>
 
               <h5>Inversa</h5>
-              <p>Los datos están correlacionados, de tal forma que mientras una magnitud aumenta, la otra disminuye.</p>
+              <p>Los datos están correlacionados, de tal forma que mientras una magnitud aumenta, la otra disminuye. Es de añadir que dos variables son inversamentep proporcionales cuando al multiplicarse dan como producto una constante.</p>
               <h6>Fórmula</h6>
               <img src="/img/regla-3-inversa.jpg" alt="regla de tres inversa" className="reglaTres rounded-3" /><br /><br />
               <Latex>{reglaTresInversa}</Latex>

@@ -1,5 +1,5 @@
 export const TopWave = () => {
     return (
-        <img src="/img/waveThree.svg" alt="Ola superior" className="user-select-none" />
+        <img src="/img/wave.svg" alt="Ola superior" className="user-select-none" />
     )
 }

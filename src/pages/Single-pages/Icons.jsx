@@ -15,7 +15,6 @@ export const Icons = () => {
                         <li><a href="https://www.flaticon.com/free-icons/flask" target="_blank" rel="noreferrer" title="flask icons" className=" text-decoration-none">Flask iconos creados por Freepik - Flaticon</a></li>
                         <li><a href="https://www.flaticon.com/free-icons/law" target="_blank" rel="noreferrer" title="law icons" className=" text-decoration-none">Íconos de leyes creados por Freepik - Flaticon</a></li>
                         <li><a href="https://www.flaticon.com/free-icons/pythagoras" target="_blank" rel="noreferrer" title="pythagoras icons" className=" text-decoration-none">Íconos de Pitágoras creados por Freepik - Flaticon</a></li>
-                        <li><a href="https://www.flaticon.com/free-icons/tips" target="_blank" rel="noreferrer" title="tips icons" className=" text-decoration-none">Íconos de consejos creados por Smashicons - Flaticon</a></li>
                         <li><a href="https://www.flaticon.es/iconos-gratis/filosofia" target="_blank" rel="noreferrer" title="filosofia iconos" className=" text-decoration-none">Filosofia iconos creados por Freepik - Flaticon</a></li>
                     </ul>
                 </div>

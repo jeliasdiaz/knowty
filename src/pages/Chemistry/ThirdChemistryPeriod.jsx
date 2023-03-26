@@ -104,7 +104,7 @@ export const ThirdChemistryPeriod = () => {
           <div>
             <CollapseTitle name="Hidróxidos" id="#hidroxidos" />
             <div className="collapse" id="hidroxidos">
-              <p>Compuesto químico que contiene un átomo de oxígeno y uno de hidrógeno. A menudo se conoce como "agua con un exceso de oxígeno". Además, forman por la unión entre un metal o más iones hidroxilo (OH<sup>-</sup>) provenientes del H<sub>2</sub>O</p>
+              <p>Compuesto químico que contiene un átomo de oxígeno y uno de hidrógeno. A menudo se conoce como "agua con un exceso de oxígeno". Además, se forman por la unión entre un metal o más iones hidroxilo (OH<sup>-</sup>) provenientes del H<sub>2</sub>O</p>
               <h5>Ejemplos</h5>
               <p>
                 Hidróxido de cromo (III) = Cr(OH)<sub>3</sub>
@@ -165,7 +165,7 @@ export const ThirdChemistryPeriod = () => {
                 x, z = Número de átomos <br /> <br />
               </p>
               <h5>Nomenclatura oxácidos</h5>
-              <table className="table table-hover" >
+              <table className="table " >
                 <thead className="table-light">
                   <tr>
                     <th scope="col">Fórmula</th>
@@ -187,8 +187,9 @@ export const ThirdChemistryPeriod = () => {
                   </tr>
                 </tbody>
               </table>
+              <br />
               <h5>Nomenclatura hidrácidos</h5>
-              <table className="table table-hover">
+              <table className="table">
                 <thead className="table-light">
                   <tr>
                     <th scope="col">Fórmula</th>
@@ -214,6 +215,7 @@ export const ThirdChemistryPeriod = () => {
                   </tr>
                 </tbody>
               </table>
+              <br />
               <h5>Resumen ácidos</h5>
               <p>
                 Los ácidos hidrácidos son aquellos que contienen hidrógeno y un elemento no metálico en su composición. Estos ácidos solo trabajan con su primera valencia y en nomenclatura sistemática tienen el sufijo "uro". En la nomenclatura tradicional se agrega "hídrico" al final.
@@ -239,7 +241,6 @@ export const ThirdChemistryPeriod = () => {
               <p><span className="fw-semibold">Sulfato de rubidio = Rb<sub>2</sub>SO<sub>4</sub></span><br />Rubidio posee valencia 1 (grupo I-A) y el oxígeno -2, pues al restar 8 - 2 = 6, dando como resultado la valencia del azufre, en consecuencia, el resultado es 2 + 6 - 8 = 0. Es de añadir que por el nombre de la molécula y la terminación ato podemos asumir que está trabajando con la valencia 6. <br /> <br />
 
               </p>
-
 
               <div>
                 <h4>¿Cómo discernir?</h4>
@@ -271,94 +272,105 @@ export const ThirdChemistryPeriod = () => {
                 De igual importancia, debes tener en cuenta que el subíndice nunca puedes cambiarlo. Solo puedes agregar coeficientes para alcanzar el equilibrio.
               </p>
 
-              <h4>Balanceo por tanteo</h4>
-              <p>
-                Se fundamenta en la prueba y error. Puesto que se debe experimentar con coeficientes. Es un proceso que requiere paciencia y práctica. Pero es eficaz para balancear ecuaciones químicas. De esta manera, el número de átomos de los reactivos debe ser igual al número de átomos en los productos.<br /> <br />
-                Pasos a realizar:
-              </p>
-              <ol>
-                <li>Se verifica que la ecuación no sea estequiométrica (cuando está balanceada)</li>
-                <li>Se balancean los metales si hay</li>
-                <li>Se equilibran los no metales diferentes a hidrógeno y a oxígeno si los hay</li>
-                <li>Se balancean los hidrógenos</li>
-                <li>Se verifican los oxígenos para corroborar si la ecuación está balanceada</li>
-              </ol>
-              <p>
-                Por ejemplo, tenemos la siguiente ecuación: <br />
+              <CollapseTitle name="Balanceo por tanteo" id="#balanceoTanteo" />
+              <div className="collapse" id="balanceoTanteo">
+                <p>
+                  Se fundamenta en la prueba y error. Puesto que se debe experimentar con coeficientes. Es un proceso que requiere paciencia y práctica. Pero es eficaz para balancear ecuaciones químicas. De esta manera, el número de átomos de los reactivos debe ser igual al número de átomos en los productos.<br /> <br />
+                  Pasos a realizar:
+                </p>
+                <ol>
+                  <li>Se verifica que la ecuación no sea estequiométrica (cuando está balanceada)</li>
+                  <li>Se balancean los metales si hay</li>
+                  <li>Se equilibran los no metales diferentes a hidrógeno y a oxígeno si los hay</li>
+                  <li>Se balancean los hidrógenos</li>
+                  <li>Se verifican los oxígenos para corroborar si la ecuación está balanceada</li>
+                </ol>
+                <p>
+                  Por ejemplo, tenemos la siguiente ecuación: <br />
 
-                Al + HCl → AlCl + H<sub>2</sub> <br />
-                Balanceada:
+                  Al + HCl → AlCl + H<sub>2</sub> <br />
+                  Balanceada:
 
-                2Al + 2HCl → 2AlCl + H<sub>2</sub> <br /> <br />
+                  2Al + 2HCl → 2AlCl + H<sub>2</sub> <br /> <br />
 
-                De esta forma, obtenemos dos aluminios, dos hidrógenos y dos cloros. Por parte tanto de reactivos como de productos.
-              </p>
+                  De esta forma, obtenemos dos aluminios, dos hidrógenos y dos cloros. Por parte tanto de reactivos como de productos.
+                </p>
 
-              <MoreBtn url="https://youtu.be/tX-JRR53Dms" />
+                <MoreBtn url="https://youtu.be/tX-JRR53Dms" />
+              </div>
 
+              <hr />
 
-              <h4>Balanceo por método algebraico</h4>
-              <p>
-                Posee cierta relación con el método de tanteo. Ambos darán un mismo resultado; a diferencia del método redox, el cual emplea un procedimiento que se aleja inicialmente de los métodos por tanteo y algebraico. <br /> <br />
-                
-                Consiste en un proceso matemático, cuyo primer paso es asignar a cada reactivo y producto una letra del abecedario con el fin de determinar los coeficientes, por ejemplo, a, b, c, d, etc. <br /> <br />
+              <CollapseTitle name="Balanceo por método algebraico" id="#balanceoAlgebraico" />
+              <div className="collapse" id="balanceoAlgebraico">
 
-                Pasos a realizar:
-              </p>
-              <ol>
-                <li>Se verifica que la ecuación no sea estequiométrica.</li>
-                <li>Asignamos letras tanto a reactivos como productos</li>
-                <li>Usamos los subíndices cómo coeficientes de las letras respectivamente</li>
-                <li>Reconocemos la letra que se presenta más veces sin tener en cuenta los coeficientes. Posteriormente, asignaremos un valor arbitrario, generalmente entre uno y dos</li>
-                <li>Realizamos las operaciones resultantes y, de ser necesario, simplificar</li>
-                <li>Reemplazamos en la ecuación</li>
-              </ol>
-              <p>
-                Por ejemplo, tenemos la siguiente ecuación: <br /><br />
-                <Latex>{metodoAlgebraicoEjemplo}</Latex><br /><br />
-                
-                <Latex>{Fe2O3}</Latex>, lo identificamos como <b>a</b>, C lo identificamos como <b>b</b>. Respecto a los productos, <Latex>{Fe}</Latex> lo identificamos con la letra <b>c</b> y, por último, <Latex>{CO}</Latex> con la letra <b>d</b>. Gráficamente luce de la siguiente forma: <br /><br />
+                <p>
+                  Posee cierta relación con el método de tanteo. Ambos darán un mismo resultado; a diferencia del método redox, el cual emplea un procedimiento que se aleja inicialmente de los métodos por tanteo y algebraico. <br /> <br />
 
-                <Latex>{metodoAlgebraicoEjemploTwo}</Latex><br /><br />
+                  Consiste en un proceso matemático, cuyo primer paso es asignar a cada reactivo y producto una letra del abecedario con el fin de determinar los coeficientes, por ejemplo, a, b, c, d, etc. <br /> <br />
 
-                Posteriormente, usamos los subíndices cómo coeficientes de las letras respectivamente. Es decir: <br />
-                <Latex>{metodoAlgebraicoEjemploThree}</Latex><br /> <br />
+                  Pasos a realizar:
+                </p>
+                <ol>
+                  <li>Se verifica que la ecuación no sea estequiométrica.</li>
+                  <li>Asignamos letras tanto a reactivos como productos</li>
+                  <li>Usamos los subíndices cómo coeficientes de las letras respectivamente</li>
+                  <li>Reconocemos la letra que se presenta más veces sin tener en cuenta los coeficientes. Posteriormente, asignaremos un valor arbitrario, generalmente entre uno y dos</li>
+                  <li>Realizamos las operaciones resultantes y, de ser necesario, simplificar</li>
+                  <li>Reemplazamos en la ecuación</li>
+                </ol>
+                <p>
+                  Por ejemplo, tenemos la siguiente ecuación: <br /><br />
+                  <Latex>{metodoAlgebraicoEjemplo}</Latex><br /><br />
 
-                Después, reconocemos la letra que se presenta más veces sin tener en cuenta los coeficientes. En este caso, tanto <b>a</b> como <b>d</b> se repiten el mismo número de veces, como resultado, podemos usar cualquiera de los dos. Le asignamos un valor arbitrario a cualquiera de las letras, a nuestra elección, usaremos la letra <b>a</b>, con un valor de dos. <br /><br />
-                
-                Reemplazamos: <br />
+                  <Latex>{Fe2O3}</Latex>, lo identificamos como <b>a</b>, C lo identificamos como <b>b</b>. Respecto a los productos, <Latex>{Fe}</Latex> lo identificamos con la letra <b>c</b> y, por último, <Latex>{CO}</Latex> con la letra <b>d</b>. Gráficamente luce de la siguiente forma: <br /><br />
 
-                <Latex>{metodoAlgebraicoEjemploFour}</Latex><br />
-                Simplificamos: <br />
-                <Latex>{metodoAlgebraicoEjemploFive}</Latex><br />
-                Reemplazamos en la ecuación: <br />
-                <Latex>{metodoAlgebraicoEjemploSix}</Latex><br />
-              </p>
+                  <Latex>{metodoAlgebraicoEjemploTwo}</Latex><br /><br />
 
-              <MoreBtn url="https://youtu.be/MUukx4RlWmw" />
+                  Posteriormente, usamos los subíndices cómo coeficientes de las letras respectivamente. Es decir: <br />
+                  <Latex>{metodoAlgebraicoEjemploThree}</Latex><br /> <br />
 
-              <h4>Balanceo por método óxido reducción</h4>
-              <p>
-                Mediante este método hacemos uso de la variación en los estados de oxidación presentes en los elementos. A partir de estos, realizaremos el procedimiento para balancear la ecuación. Es importante aclarar que estos procesos nos ayudan a orientarnos en los coeficientes, debido a que en algunas ocasiones debemos hacer uso de balanceo por tanteo para equilibrar el resto de elementos.
-              </p>
-              <p>Pasos a seguir:</p>
-              <ol>
-                <li>Hallar los estados de oxidación tanto en los elementos que pertenecen a los reactivos como a los productos.</li>
-                <li>Observamos los elementos que cambiaron su estado de oxidación. Es decir, poseen un estado de oxidación diferente cuando son reactivos y productos.</li>
-                <li>Analizamos si los elementos han ganado o perdido electrones.</li>
-                <li>Posteriormente, realizamos una semiecuación con aquellos elementos que presentaron cierta variación. Sumando o restando cuantos electrones ganaron o perdieron. Luego, balanceamos mediante tanteo la semiecuación.</li>
-                <li>Existen ciertos casos especiales en los que compuestos no se disocian, específicamente los óxidos y peróxidos (medios ácidos). Para estos casos, debemos agregar agua (H₂O) para balancear la semiecuación. Por ende debemos añadir hidrógeno para equilibrar la ecuación.</li>
-                <li>Después, aplicamos el mínimo común múltiplo de los electrones ganados o restados. Un método más directo, es usar tales electrones como coeficientes de la ecuación para luego "cancelar" los electrones.</li>
-                <li>Reemplazamos los coeficientes en la ecuación original y de ser necesario continuar mediante tanteo.</li>
-              </ol>
-              <p>
-                Ejemplo: <br />
-                <img src="/img/metodoRedox.svg" alt="Método redox" className="w-75 rounded-3" />
-                <br /> <br />
-                Para comprender mejor esta temática, les recomiendo observar nuestros videos, especialmente el método redox, debido a que es más complejo.
-              </p>
+                  Después, reconocemos la letra que se presenta más veces sin tener en cuenta los coeficientes. En este caso, tanto <b>a</b> como <b>d</b> se repiten el mismo número de veces, como resultado, podemos usar cualquiera de los dos. Le asignamos un valor arbitrario a cualquiera de las letras, a nuestra elección, usaremos la letra <b>a</b>, con un valor de dos. <br /><br />
 
-              <MoreBtn url="https://youtu.be/bQ0MwYR0oio" />
+                  Reemplazamos: <br />
+
+                  <Latex>{metodoAlgebraicoEjemploFour}</Latex><br />
+                  Simplificamos: <br />
+                  <Latex>{metodoAlgebraicoEjemploFive}</Latex><br />
+                  Reemplazamos en la ecuación: <br />
+                  <Latex>{metodoAlgebraicoEjemploSix}</Latex><br />
+                </p>
+
+                <MoreBtn url="https://youtu.be/MUukx4RlWmw" />
+              </div>
+
+              <hr />
+
+              <CollapseTitle name="Balanceo por método óxido reducción" id="#balanceoRedox" />
+              <div className="collapse" id="balanceoRedox">
+
+                <p>
+                  Mediante este método hacemos uso de la variación en los estados de oxidación presentes en los elementos. A partir de estos, realizaremos el procedimiento para balancear la ecuación. Es importante aclarar que estos procesos nos ayudan a orientarnos en los coeficientes, debido a que en algunas ocasiones debemos hacer uso de balanceo por tanteo para equilibrar el resto de elementos.
+                </p>
+                <p>Pasos a seguir:</p>
+                <ol>
+                  <li>Hallar los estados de oxidación tanto en los elementos que pertenecen a los reactivos como a los productos.</li>
+                  <li>Observamos los elementos que cambiaron su estado de oxidación. Es decir, poseen un estado de oxidación diferente cuando son reactivos y productos.</li>
+                  <li>Analizamos si los elementos han ganado o perdido electrones.</li>
+                  <li>Posteriormente, realizamos una semiecuación con aquellos elementos que presentaron cierta variación. Sumando o restando cuantos electrones ganaron o perdieron. Luego, balanceamos mediante tanteo la semiecuación.</li>
+                  <li>Existen ciertos casos especiales en los que compuestos no se disocian, específicamente los óxidos y peróxidos (medios ácidos). Para estos casos, debemos agregar agua (H₂O) para balancear la semiecuación. Por ende debemos añadir hidrógeno para equilibrar la ecuación.</li>
+                  <li>Después, aplicamos el mínimo común múltiplo de los electrones ganados o restados. Un método más directo, es usar tales electrones como coeficientes de la ecuación para luego "cancelar" los electrones.</li>
+                  <li>Reemplazamos los coeficientes en la ecuación original y de ser necesario continuar mediante tanteo.</li>
+                </ol>
+                <p>
+                  Ejemplo: <br />
+                  <img src="/img/metodoRedox.svg" alt="Método redox" className="w-75 rounded-3" />
+                  <br /> <br />
+                  Para comprender mejor esta temática, les recomiendo observar nuestros videos, especialmente el método redox, debido a que es más complejo.
+                </p>
+
+                <MoreBtn url="https://youtu.be/bQ0MwYR0oio" />
+              </div>
             </div>
             <hr />
 
