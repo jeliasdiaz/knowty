@@ -5,8 +5,8 @@ export const Graphic = ({ data }) => {
 
     const dataGraphic = [
         {
-            name: data[1]?.number1,
-            value: data[0]?.number1,
+            name: data[1]?.numberOne,
+            value: data[0]?.numberOne,
         },
         {
             name: data[1]?.numberTwo,
@@ -44,5 +44,5 @@ export const Graphic = ({ data }) => {
 }
 
 Graphic.propTypes = {
-    data: PropTypes.object.isRequired
+    data: PropTypes.array.isRequired
 }

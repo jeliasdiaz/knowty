@@ -15,7 +15,7 @@ export const useGraphicator = () => {
     numberThree: null,
     numberFour: null,
     numberFive: null,
-    numberSix: null,
+    numberSix: null,  
   });
 
   const [graphicData, setGraphicData] = useState([]);
