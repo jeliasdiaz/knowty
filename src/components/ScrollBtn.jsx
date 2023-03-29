@@ -1,7 +1,9 @@
 import { IoIosArrowUp } from "react-icons/io";
 import PropTypes from 'prop-types'
 
-export const ScrollBtn = ({ goTop, DIAMETER, RADIUS, STROKE_WIDTH, CIRCUMFERENCE, position }) => {
+export const ScrollBtn = ({scrollBtnValues}) => {
+
+    const {DIAMETER, STROKE_WIDTH, RADIUS, CIRCUMFERENCE, position, goTop} = scrollBtnValues
     return (
         <div onClick={goTop} className="scrollToTopBtn ownShadow-lg" data-aos="fade-up" data-aos-duration="500">
             <IoIosArrowUp size={30} />
@@ -24,10 +26,5 @@ export const ScrollBtn = ({ goTop, DIAMETER, RADIUS, STROKE_WIDTH, CIRCUMFERENCE
 }
 
 ScrollBtn.propTypes = {
-    goTop: PropTypes.func.isRequired,
-    DIAMETER: PropTypes.number.isRequired,
-    RADIUS: PropTypes.number.isRequired,
-    STROKE_WIDTH: PropTypes.number.isRequired,
-    CIRCUMFERENCE: PropTypes.number.isRequired,
-    position: PropTypes.number.isRequired,
+    scrollBtnValues: PropTypes.object.isRequired,
 }

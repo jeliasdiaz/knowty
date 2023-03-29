@@ -233,7 +233,7 @@ export const FirstChemistryPeriod = () => {
                                 <li>Durante una reacción química los átomos se intercambian, más no sufren transformación alguna, ni se crean o destruyen en el proceso.</li>
                             </ul>
                             <hr />
-                            <h4>Modelo atómico de Thomson</h4>
+                            <h4>Modelo atómico de Thompson</h4>
                             <ul>
                                 <li>Según su modelo atómico, el átomo está formado por electrones de carga negativa incrustados en una esfera de carga positiva, como en un “pudin de pasas”.</li>
                                 <li>Los electrones se encuentran repartidos de forma uniforme por todo el átomo.</li>
@@ -253,6 +253,11 @@ export const FirstChemistryPeriod = () => {
                                 <li>En el núcleo se concentra la masa y la carga positiva del átomo.</li>
                                 <li>Los electrones con carga negativa, giran alrededor del núcleo en trayectorias circulares a las que denominó órbitas.</li>
                             </ul>
+                            <p>
+                                Para ello, replicó el experimento realizado por Thompson. Notó que la mayoría de las partículas alfa pasaban a través de la lámina de oro, procediendo así que los átomos son en gran medida espacio vacío. De igual forma, se percató de que algunas partículas alfa se desviaban ligeramente, implicando que debían existir interacciones con otras partículas de carga positiva. Mientras que otras rebotaron contra hacia la fuente. <br /> <br />
+
+                                Ante esto, consideró que los electrones negativos equilibraban la carga nuclear positiva, y que viajaban en órbitas circulares alrededor del núcleo.
+                            </p>
                             <hr />
                             <h4>Modelo atómico de Bohr</h4>
                             <ul>

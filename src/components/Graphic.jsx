@@ -3,12 +3,33 @@ import PropTypes from 'prop-types'
 
 export const Graphic = ({ data }) => {
 
-    const dataGraphic = data[0]?.map((value) => (
+    const dataGraphic = [
         {
-            name: data[1].map(x => x),
-            value,
-        }
-    ));
+            name: data[1]?.number1,
+            value: data[0]?.number1,
+        },
+        {
+            name: data[1]?.numberTwo,
+            value: data[0]?.numberTwo,
+        },
+        {
+            name: data[1]?.numberThree,
+            value: data[0]?.numberThree,
+        },
+        {
+            name: data[1]?.numberFour,
+            value: data[0]?.numberFour,
+        },
+        {
+            name: data[1]?.numberFive,
+            value: data[0]?.numberFive,
+        },
+        {
+            name: data[1]?.numberSix,
+            value: data[0]?.numberSix,
+        },
+
+    ]
 
     return (
         <ResponsiveContainer width={"88%"} height={300}>

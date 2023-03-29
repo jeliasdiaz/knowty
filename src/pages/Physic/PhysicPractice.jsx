@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useGraphicator } from "../../hooks/";
 import { SectionTitle, TopWave } from "../../components/";
 import { PhysicNav } from "./PhysicNav";
-import { Graphic } from "../Single-pages/Graphic";
+import { Graphic } from "../../components/Graphic";
 import Latex from "react-latex"
 import { IoIosArrowDown } from "react-icons/io";
 import Qty from 'js-quantities/esm';
@@ -117,6 +117,9 @@ export const PhysicPractice = () => {
     // Graphicator
     const { graphicData, onInputX, onInputY, onFormSubmit } = useGraphicator()
 
+    const {onInputYOne, onInputYTwo, onInputYThree, onInputYFour, onInputYFive, onInputYSix} = onInputY
+    const {onInputXOne, onInputXTwo, onInputXThree, onInputXFour, onInputXFive, onInputXSix} = onInputX
+
     // Converter
     const [convertionResult, setConvertionResult] = useState(0)
 
@@ -152,22 +155,22 @@ export const PhysicPractice = () => {
                         <form onSubmit={onFormSubmit}>
                             <div className="numberInputContainer">
                                 <span className="mt-2">Y</span>
-                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputY} />
-                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputY} />
-                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputY} />
-                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputY} />
-                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputY} />
-                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputY} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputYOne} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputYTwo}/>
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputYThree}/>
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputYFour}/>
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputYFive}/>
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputYSix}/>
                             </div>
 
                             <div className="numberInputContainer">
                                 <span className="mt-2">X</span>
-                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputX} />
-                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputX} />
-                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputX} />
-                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputX} />
-                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputX} />
-                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputX} />
+                                <input type="number" className="numberInput ownShadow-sm" onInput={onInputXOne} />
+                                <input type="number" className="numberInput ownShadow-sm"  onInput={onInputXTwo}/>
+                                <input type="number" className="numberInput ownShadow-sm"  onInput={onInputXThree}/>
+                                <input type="number" className="numberInput ownShadow-sm"  onInput={onInputXFour}/>
+                                <input type="number" className="numberInput ownShadow-sm"  onInput={onInputXFive}/>
+                                <input type="number" className="numberInput ownShadow-sm"  onInput={onInputXSix}/>
                             </div>
 
                             <div className="d-flex justify-content-center mt-3">

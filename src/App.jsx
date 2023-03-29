@@ -85,7 +85,7 @@ function App() {
   const RADIUS = DIAMETER / 2 - STROKE_WIDTH / 2;
   const CIRCUMFERENCE = Math.PI * RADIUS * 2;
 
-
+  const scrollBtnValues = {DIAMETER, STROKE_WIDTH, RADIUS, CIRCUMFERENCE, position, goTop}
   //* Cisable right click
 
   useEffect(() => {
@@ -162,7 +162,7 @@ function App() {
 
           {
             scrolled && !notMoved &&
-            <ScrollBtn goTop={goTop} DIAMETER={DIAMETER} RADIUS={RADIUS} STROKE_WIDTH={STROKE_WIDTH} CIRCUMFERENCE={CIRCUMFERENCE} position={position} />
+            <ScrollBtn scrollBtnValues={scrollBtnValues} />
           }
 
           <Footer />
