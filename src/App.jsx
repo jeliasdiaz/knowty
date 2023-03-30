@@ -164,7 +164,6 @@ function App() {
             scrolled && !notMoved &&
             <ScrollBtn scrollBtnValues={scrollBtnValues} />
           }
-
           <Footer />
         </ScrollToTop>
       </BrowserRouter>
