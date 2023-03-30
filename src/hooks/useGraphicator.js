@@ -15,83 +15,59 @@ export const useGraphicator = () => {
     numberThree: null,
     numberFour: null,
     numberFive: null,
-    numberSix: null,  
+    numberSix: null,
   });
 
   const [graphicData, setGraphicData] = useState([]);
 
   const onInputYOne = (e) => {
-    setTimeout(() => {
-      const data = Number(e.target.value);
-      setNumbersY({...numbersY, numberOne: data});
-    }, 200);
+    const data = Number(e.target.value);
+    setNumbersY({ ...numbersY, numberOne: data });
   };
   const onInputYTwo = (e) => {
-    setTimeout(() => {
-      const data = Number(e.target.value);
-      setNumbersY({...numbersY, numberTwo: data});
-    }, 200);
+    const data = Number(e.target.value);
+    setNumbersY({ ...numbersY, numberTwo: data });
   };
   const onInputYThree = (e) => {
-    setTimeout(() => {
-      const data = Number(e.target.value);
-      setNumbersY({...numbersY, numberThree: data});
-    }, 200);
+    const data = Number(e.target.value);
+    setNumbersY({ ...numbersY, numberThree: data });
   };
   const onInputYFour = (e) => {
-    setTimeout(() => {
-      const data = Number(e.target.value);
-      setNumbersY({...numbersY, numberFour: data});
-    }, 200);
+    const data = Number(e.target.value);
+    setNumbersY({ ...numbersY, numberFour: data });
   };
   const onInputYFive = (e) => {
-    setTimeout(() => {
-      const data = Number(e.target.value);
-      setNumbersY({...numbersY, numberFive: data});
-    }, 200);
+    const data = Number(e.target.value);
+    setNumbersY({ ...numbersY, numberFive: data });
   };
   const onInputYSix = (e) => {
-    setTimeout(() => {
-      const data = Number(e.target.value);
-      setNumbersY({...numbersY, numberSix: data});
-    }, 200);
+    const data = Number(e.target.value);
+    setNumbersY({ ...numbersY, numberSix: data });
   };
 
   const onInputXOne = (e) => {
-    setTimeout(() => {
-      const data = Number(e.target.value);
-      setNumbersX({...numbersX, numberOne:data});
-    }, 200);
+    const data = Number(e.target.value);
+    setNumbersX({ ...numbersX, numberOne: data });
   };
   const onInputXTwo = (e) => {
-    setTimeout(() => {
-      const data = Number(e.target.value);
-      setNumbersX({...numbersX, numberTwo:data});
-    }, 200);
+    const data = Number(e.target.value);
+    setNumbersX({ ...numbersX, numberTwo: data });
   };
   const onInputXThree = (e) => {
-    setTimeout(() => {
-      const data = Number(e.target.value);
-      setNumbersX({...numbersX, numberThree:data});
-    }, 200);
+    const data = Number(e.target.value);
+    setNumbersX({ ...numbersX, numberThree: data });
   };
   const onInputXFour = (e) => {
-    setTimeout(() => {
-      const data = Number(e.target.value);
-      setNumbersX({...numbersX, numberFour:data});
-    }, 200);
+    const data = Number(e.target.value);
+    setNumbersX({ ...numbersX, numberFour: data });
   };
   const onInputXFive = (e) => {
-    setTimeout(() => {
-      const data = Number(e.target.value);
-      setNumbersX({...numbersX, numberFive:data});
-    }, 200);
+    const data = Number(e.target.value);
+    setNumbersX({ ...numbersX, numberFive: data });
   };
   const onInputXSix = (e) => {
-    setTimeout(() => {
-      const data = Number(e.target.value);
-      setNumbersX({...numbersX, numberSix:data});
-    }, 200);
+    const data = Number(e.target.value);
+    setNumbersX({ ...numbersX, numberSix: data });
   };
 
   const onFormSubmit = (e) => {
@@ -101,10 +77,24 @@ export const useGraphicator = () => {
     setNumbersX([]);
     e.target.reset();
   };
-  
-  const onInputY = {onInputYOne, onInputYTwo, onInputYThree, onInputYFour, onInputYFive, onInputYSix}
 
-  const onInputX = {onInputXOne, onInputXTwo, onInputXThree, onInputXFour, onInputXFive, onInputXSix}
+  const onInputY = {
+    onInputYOne,
+    onInputYTwo,
+    onInputYThree,
+    onInputYFour,
+    onInputYFive,
+    onInputYSix,
+  };
+
+  const onInputX = {
+    onInputXOne,
+    onInputXTwo,
+    onInputXThree,
+    onInputXFour,
+    onInputXFive,
+    onInputXSix,
+  };
   return {
     graphicData,
     onInputX,

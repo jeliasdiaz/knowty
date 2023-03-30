@@ -165,7 +165,27 @@
     "img": "/img/quimicaIcon.png"
   },
   {
+    "name": "Modelo Dalton",
+    "url": "/quimica_1",
+    "img": "/img/quimicaIcon.png"
+  },
+  {
+    "name": "Modelo Rutherford",
+    "url": "/quimica_1",
+    "img": "/img/quimicaIcon.png"
+  },
+  {
+    "name": "Modelo Bohr",
+    "url": "/quimica_1",
+    "img": "/img/quimicaIcon.png"
+  },
+  {
     "name": "Radio atómico",
+    "url": "/quimica_2",
+    "img": "/img/quimicaIcon.png"
+  },
+  {
+    "name": "Enlaces químicos",
     "url": "/quimica_2",
     "img": "/img/quimicaIcon.png"
   },
@@ -515,7 +535,7 @@
     "img": "/img/filosofiaIcon.png"
   },
   {
-    "name": "Presocraticos",
+    "name": "Presocráticos",
     "url": "/introduccion-filosofia",
     "img": "/img/filosofiaIcon.png"
   },
