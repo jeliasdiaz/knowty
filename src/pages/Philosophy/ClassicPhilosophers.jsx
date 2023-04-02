@@ -19,7 +19,7 @@ export const ClassicPhilosophers = () => {
                         De hecho, Sócrates no escribió ningún texto, la mayoría de su pensamiento lo conocemos debido a escritos de sus discípulos como Platón. Asimismo, se interesó por la ética y la moral, así como su método conocido como Mayéutica, que consistía en hacer preguntas a la otra persona en aras de hacer que esta llegue a la verdad por si misma.
                         <br /><br />
                         Cabe resaltar que Sócrates vivió en una época contemporánea a los sofistas (grupo de pensadores enfocados en la enseñanza de la retórica y persuasión sobre la búsqueda de la verdad), a los que criticó por su moral, política y la manera de buscar remuneración mediante sus "enseñanzas".
-                        </p>
+                    </p>
                     <h4>Frases</h4>
                     <ul>
                         <li>Cada ser humano tiende dentro de sí dar a luz conocimiento (Mayéutica).</li>
@@ -33,13 +33,16 @@ export const ClassicPhilosophers = () => {
 
                 <CollapseTitle name="Platón" id="#platon" />
                 <div className="collapse" id="platon">
+                    <p>
+                        Platón fue un filósofo griego que vivió alrededor del siglo V a.C. Como estudiante de Sócrates y profesor de Aristóteles, dejó un legado duradero en el mundo de la filosofía. Es famoso por su obra La república, en la que expone sus ideas sobre la justicia y la organización de la sociedad. Su filosofía se caracteriza por ser idealista y enfatizar en la importancia de conceptos abstractos como el mundo de las ideas. Platón también creía en la existencia de una realidad más allá de lo que percibimos con nuestros sentidos y la importancia de la educación en la búsqueda de la verdad.
+                    </p>
                     <ul>
                         <li>Se dedicó al estudio del conocimiento.</li>
                         <li>
                             Su fundamento se encuentra en la justicia, la cual, para él, implica que cada persona cumpla con su papel y función asignados de acuerdo con su habilidad y naturaleza, sin interferir en los roles de los demás. Asimismo, existen dos tipos de justicia.
                             <ul>
-                                <li>Colectiva: Todas las personas cumplen con su deber</li>
-                                <li>Individual: Cada quién hace lo que debe hacer</li>
+                                <li>Colectiva: Todas las personas cumplen con su deber.</li>
+                                <li>Individual: Cada quién hace lo que debe hacer.</li>
                             </ul>
                         </li>
                     </ul>
