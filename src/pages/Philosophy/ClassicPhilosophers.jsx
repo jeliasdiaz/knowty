@@ -13,6 +13,13 @@ export const ClassicPhilosophers = () => {
 
                 <CollapseTitle name="Sócrates" id="#socrates" />
                 <div className="collapse" id="socrates">
+                    <p>
+                        Fue un filósofo griego que vivió en Atenas durante el siglo V a.C. Sus costumbres, pensamientos y creencias tuvieron una gran influencia en el pensamiento occidental, siendo incluso considerado por algunos como uno de los fundadores de la filosofía occidental.
+                        <br /><br />
+                        De hecho, Sócrates no escribió ningún texto, la mayoría de su pensamiento lo conocemos debido a escritos de sus discípulos como Platón. Asimismo, se interesó por la ética y la moral, así como su método conocido como Mayéutica, que consistía en hacer preguntas a la otra persona en aras de hacer que esta llegue a la verdad por si misma.
+                        <br /><br />
+                        Cabe resaltar que Sócrates vivió en una época contemporánea a los sofistas (grupo de pensadores enfocados en la enseñanza de la retórica y persuasión sobre la búsqueda de la verdad), a los que criticó por su moral, política y la manera de buscar remuneración mediante sus "enseñanzas".
+                        </p>
                     <h4>Frases</h4>
                     <ul>
                         <li>Cada ser humano tiende dentro de sí dar a luz conocimiento (Mayéutica).</li>

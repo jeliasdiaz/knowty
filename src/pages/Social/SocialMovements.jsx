@@ -31,7 +31,7 @@ export const SocialMovements = () => {
                         <h4>Movimientos artesanos</h4>
                         <ul>
                             <li>Uno de los primeros grupos sociales que surgió.</li>
-                            <li>Artesanos se agrupan en organizaciones como <b>sociedades de ayuda mutua</b>, cuyo fin era prestarse auxilio en caso de enfermedad, vejez, etc.</li>
+                            <li>Artesanos se agrupan en organizaciones como <span className="fw-semibold">sociedades de ayuda mutua</span>, cuyo fin era prestarse auxilio en caso de enfermedad, vejez, etc.</li>
                             <li>Estuvieron a favor de la abolición de la esclavitud.</li>
                             <li>Solicitaron respeto hacia los resguardos indígenas.</li>
                             <li>Apoyaron la elección del José Hilario López para la presidencia.</li>
