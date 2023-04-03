@@ -5,19 +5,9 @@ import { useEffect, useState } from "react";
 
 export const SubjectCard = ({ path, img, title, marginTop, animationDelay }) => {
 
-    const [angle, setAngle] = useState(20);
-    useEffect(() => {
-        const handleScroll = () => {
-            const newAngle = Math.max(0, 20 - window.scrollY / 30);
-            setAngle(newAngle);
-        };
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
-    
     return (
         <>
-            <Link to={path} className="text-decoration-none text-black d-none d-sm-block" data-aos="fade-down" data-aos-duration={animationDelay} data-aos-once="true" style={{ transform: `translate(30px) rotate(${angle}deg)` }}>
+            <Link to={path} className="text-decoration-none text-black d-none d-sm-block" data-aos="fade-down" data-aos-duration={animationDelay} data-aos-once="true">
                 <div className={`subjectLink d-flex ownShadow-sm ${marginTop} animation`}>
                     <img src={`/img/${img}Icon.png`} alt="Subject img" className=" pe-2 animation" />
                     <h5 className="ms-2 animation">{title}</h5>

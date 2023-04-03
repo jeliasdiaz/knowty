@@ -237,7 +237,7 @@ ul li:before {
 .subjectsContainer {
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 12.5%;
+  margin-top: 2.5%;
   max-width: 80rem;
   flex-wrap: wrap !important;
 }
