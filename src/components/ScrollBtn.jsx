@@ -1,7 +1,8 @@
 import { IoIosArrowUp } from "react-icons/io";
 import PropTypes from 'prop-types'
+import { memo } from "react";
 
-export const ScrollBtn = ({scrollBtnValues}) => {
+export const ScrollBtn = memo(({scrollBtnValues}) => {
 
     const {DIAMETER, STROKE_WIDTH, RADIUS, CIRCUMFERENCE, position, goTop} = scrollBtnValues
     return (
@@ -23,7 +24,7 @@ export const ScrollBtn = ({scrollBtnValues}) => {
             </svg>
         </div>
     )
-}
+})
 
 ScrollBtn.propTypes = {
     scrollBtnValues: PropTypes.object.isRequired,

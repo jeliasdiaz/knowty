@@ -1,6 +1,7 @@
 export * from "./BlogCard";
 export * from "./CollapseTitle";
 export * from "./Footer";
+export * from "./Graphic";
 export * from "./InstallAppBtn";
 export * from "./MenuCard";
 export * from "./MembersCard";

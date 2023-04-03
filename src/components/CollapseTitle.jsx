@@ -2,7 +2,7 @@ import { useState } from "react";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import PropTypes from 'prop-types';
 
-export const CollapseTitle = ({ name, id }) => {
+export const CollapseTitle = (({ name, id }) => {
     const [IsClicked, setIsClicked] = useState(false)
 
     const handleArrow = () => setIsClicked(!IsClicked)
@@ -17,7 +17,7 @@ export const CollapseTitle = ({ name, id }) => {
             <h4>{name}</h4>
         </div>
     )
-}
+})
 
 CollapseTitle.propTypes = {
     name: PropTypes.string.isRequired,

@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { useGraphicator } from "../../hooks/";
-import { SectionTitle, TopWave } from "../../components/";
+import { SectionTitle, TopWave, Graphic } from "../../components/";
 import { PhysicNav } from "./PhysicNav";
-import { Graphic } from "../../components/Graphic";
 import Latex from "react-latex"
 import { IoIosArrowDown } from "react-icons/io";
 import Qty from 'js-quantities/esm';

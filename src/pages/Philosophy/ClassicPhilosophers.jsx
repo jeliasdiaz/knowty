@@ -2,6 +2,7 @@ import { CollapseTitle, SectionTitle, TopWave } from "../../components"
 import { PhilosophyNav } from "./"
 
 export const ClassicPhilosophers = () => {
+
     return (
         <div className="homeCard">
             <TopWave />
@@ -46,6 +47,13 @@ export const ClassicPhilosophers = () => {
                             </ul>
                         </li>
                     </ul>
+                </div>
+                
+                <hr />
+                
+                <CollapseTitle name="Aristóteles" id="#aristoteles"/>
+                <div className="collapse" id="aristoteles">
+                    <span>hi</span>
                 </div>
             </div>
         </div>

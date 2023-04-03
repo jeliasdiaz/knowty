@@ -396,13 +396,13 @@ ul li:before {
 /** Mobile menu pages */
 .mobileMenu {
   background-color: #f6f6f6;
-  height: 130vh;
+  min-height: fit-content;
 }
 .mobileSubjectMenu {
   margin: auto;
   margin-top: 8%;
   width: 90%;
-  margin-bottom: 10%;
+  padding-bottom: 2%;
 }
 
 /** Information page */
