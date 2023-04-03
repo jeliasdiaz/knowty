@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import PropTypes from 'prop-types'
 import { BiChevronRight } from "react-icons/bi";
-import { useEffect, useState } from "react";
 
 export const SubjectCard = ({ path, img, title, marginTop, animationDelay }) => {
 
