@@ -6,7 +6,10 @@ export const Home = () => {
   const [angle, setAngle] = useState(8);
   useEffect(() => {
     const handleScroll = () => {
-      const newAngle = Math.max(0, 8 - window.scrollY / 50);
+      const pixelsScrolled = window.scrollY;
+      const maxRotationAngle = 8; // Máximo ángulo de rotación deseado
+      const maxScrollDistance = 500; // Distancia de scroll para alcanzar el máximo ángulo
+      const newAngle = Math.max(0, maxRotationAngle - (pixelsScrolled / maxScrollDistance) * maxRotationAngle);
       setAngle(newAngle);
     };
     window.addEventListener("scroll", handleScroll);
