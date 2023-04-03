@@ -1,6 +1,18 @@
+import { useEffect, useState } from "react";
 import { SubjectCard, TopWave } from "../../components/";
 
 export const Home = () => {
+  
+  const [angle, setAngle] = useState(8);
+  useEffect(() => {
+    const handleScroll = () => {
+      const newAngle = Math.max(0, 8 - window.scrollY / 50);
+      setAngle(newAngle);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
       <section className="home">
@@ -19,7 +31,7 @@ export const Home = () => {
         <div className="sectionTwo container" >
           <div className="sectionTwoText ">
             <div className="flexHome">
-              <div className="text-sectionTwo ownShadow" data-aos="fade-right" data-aos-duration="1400" data-aos-once="true">
+              <div className="text-sectionTwo ownShadow" style={{ transform: `translate(-${angle}px) rotate(-${angle}deg)` }}>
                 <h2>Nuestra meta</h2>
                 <p>
                   Ayudar a los estudiantes en su proceso acádemico y desarrollo personal; proporcionando un espacio virtual en el que podrán repasar lecciones, adelantarse a nuevas y analizar temáticas desde otras perspectivas.

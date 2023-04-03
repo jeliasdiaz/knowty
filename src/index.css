@@ -211,10 +211,6 @@ ul li:before {
   padding-bottom: 2%;
 }
 
-.text-sectionTwo h2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 38px;
-}
 .flex-1 {
   display: flex;
 }
@@ -228,6 +224,10 @@ ul li:before {
   margin-top: 4%;
   transition: 0.5s;
 }
+.text-sectionTwo h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 38px;
+}
 .text-sectionTwo ::selection {
   background-color: #bfdfed;
   color: #fff;
@@ -237,7 +237,7 @@ ul li:before {
 .subjectsContainer {
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 2.5%;
+  margin-top: 12.5%;
   max-width: 80rem;
   flex-wrap: wrap !important;
 }
@@ -591,9 +591,6 @@ ul li:before {
     margin-left: auto !important;
     margin-right: auto !important;
   }
-  .home {
-    height: 100vh;
-  }
   .sectionOne {
     padding: 5%;
     padding-top: 22%;
@@ -727,9 +724,7 @@ ul li:before {
 }
 
 @media screen and (max-width: 400px) {
-  .sectionOne a {
-    margin-top: 8%;
-  }
+
   .sectionOneAppendOne {
     margin: auto;
     margin-bottom: 8%;

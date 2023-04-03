@@ -51,10 +51,10 @@ export const ClassicPhilosophers = () => {
                 
                 <hr />
                 
-                <CollapseTitle name="Aristóteles" id="#aristoteles"/>
+                {/* <CollapseTitle name="Aristóteles" id="#aristoteles"/>
                 <div className="collapse" id="aristoteles">
                     <span>hi</span>
-                </div>
+                </div> */}
             </div>
         </div>
     )

@@ -86,6 +86,7 @@
   font-weight: 500;
   text-decoration: none;
   color: #64748b !important;
+  text-align: right;
 }
 .sectionsLinks a:hover{
   color: black !important;
