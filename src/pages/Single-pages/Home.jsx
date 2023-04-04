@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { SubjectCard, TopWave } from "../../components/";
 
 export const Home = () => {
