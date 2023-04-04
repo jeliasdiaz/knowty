@@ -49,9 +49,9 @@ export const ClassicPhilosophers = () => {
                     </ul>
                 </div>
                 
-                <hr />
+                {/* <hr />
                 
-                {/* <CollapseTitle name="Aristóteles" id="#aristoteles"/>
+                <CollapseTitle name="Aristóteles" id="#aristoteles"/>
                 <div className="collapse" id="aristoteles">
                     <span>hi</span>
                 </div> */}
