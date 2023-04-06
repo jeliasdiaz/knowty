@@ -5,30 +5,29 @@ export const Graphic = ({ data }) => {
 
     const dataGraphic = [
         {
-            name: data[1]?.numberOne,
-            value: data[0]?.numberOne,
+            name: data[1]?.x1,
+            value: data[0]?.y1,
         },
         {
-            name: data[1]?.numberTwo,
-            value: data[0]?.numberTwo,
+            name: data[1]?.x2,
+            value: data[0]?.y2,
         },
         {
-            name: data[1]?.numberThree,
-            value: data[0]?.numberThree,
+            name: data[1]?.x3,
+            value: data[0]?.y3,
         },
         {
-            name: data[1]?.numberFour,
-            value: data[0]?.numberFour,
+            name: data[1]?.x4,
+            value: data[0]?.y4,
         },
         {
-            name: data[1]?.numberFive,
-            value: data[0]?.numberFive,
+            name: data[1]?.x5,
+            value: data[0]?.y5,
         },
         {
-            name: data[1]?.numberSix,
-            value: data[0]?.numberSix,
+            name: data[1]?.x6,
+            value: data[0]?.y6,
         },
-
     ]
 
     return (
@@ -40,9 +39,9 @@ export const Graphic = ({ data }) => {
                 <YAxis />
             </LineChart>
         </ResponsiveContainer>
-    )
+    );
 }
 
 Graphic.propTypes = {
     data: PropTypes.array.isRequired
-}
+};

@@ -17,7 +17,7 @@ export const ClassicPhilosophers = () => {
                     <p>
                         Fue un filósofo griego que vivió en Atenas durante el siglo V a.C. Sus costumbres, pensamientos y creencias tuvieron una gran influencia en el pensamiento occidental, siendo incluso considerado por algunos como uno de los fundadores de la filosofía occidental.
                         <br /><br />
-                        De hecho, Sócrates no escribió ningún texto, la mayoría de su pensamiento lo conocemos debido a escritos de sus discípulos como Platón. Asimismo, se interesó por la ética y la moral, así como su método conocido como Mayéutica, que consistía en hacer preguntas a la otra persona en aras de hacer que esta llegue a la verdad por si misma.
+                        Sócrates no escribió ningún texto, la mayoría de su pensamiento lo conocemos debido a escritos de sus discípulos, como, por ejemplo: Platón. Asimismo, se interesó por la ética y la moral. Se le atribuye el método "Mayéutica", que surge debido a que la mamá de Sócrates era partera, y este, al observar que la función de su madre era ayudar a parir y no dar a luz ella en sí; comenzó a idear tal método, de manera que las personas "parieran" su propia verdad, esto es, llegar a su propio conocimiento. Además, consistió en hacer preguntas a la otra persona en aras de hacer que esta llegue a la verdad por si misma.
                         <br /><br />
                         Cabe resaltar que Sócrates vivió en una época contemporánea a los sofistas (grupo de pensadores enfocados en la enseñanza de la retórica y persuasión sobre la búsqueda de la verdad), a los que criticó por su moral, política y la manera de buscar remuneración mediante sus "enseñanzas".
                     </p>
@@ -49,12 +49,18 @@ export const ClassicPhilosophers = () => {
                     </ul>
                 </div>
                 
-                {/* <hr />
+                <hr />
                 
                 <CollapseTitle name="Aristóteles" id="#aristoteles"/>
                 <div className="collapse" id="aristoteles">
-                    <span>hi</span>
-                </div> */}
+                    <p>
+                        Fue un filósofo y científico griego que hizo aportes en áreas como la ética, política, metafísica, biología y lógica.
+                        <br /><br />
+                        Su pensamiento estuvo fuertemente influenciado por sus observaciones empíricas del mundo, creyendo así en el concepto de casualidad, de manera que todo tenía una relación de causa y efecto. Motivo por el cual estuvo interesado en buscar la causa última de las cosas.
+                        <br /><br />
+                        Por otra parte, creía que la virtud se encuentra entre dos extremos/excesos, así como en la importancia del conocimiento práctico.
+                    </p>
+                </div>
             </div>
         </div>
     )
