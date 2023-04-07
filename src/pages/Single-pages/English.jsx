@@ -1,4 +1,4 @@
-import {CollapseTitle, SectionTitle, TopWave} from "../../components/";
+import { CollapseTitle, SectionTitle, TopWave } from "../../components/";
 
 export const English = () => {
     return (
@@ -11,6 +11,16 @@ export const English = () => {
                     <div>
                         <CollapseTitle name="Present simple" id="#presentSimple" />
                         <div className="collapse" id="presentSimple">
+                            <p>We add "s," "es," or "ies" to the verb in the third person singular. To negate and ask questions, we use the auxiliary verbs "do" and "does," with the latter being used for the third person singular (he, she, it).</p>
+
+                            <span className="fw-semibold">In other words</span>
+                            <ul>
+                                <li>Add "s", "es" or "ies to the verb.</li>
+                                <li>3<sup>nd</sup> person of singular.</li>
+                                <li>To describe actions we use the structure: S + V * C (She sings).</li>
+                                <li>To describe states we use the structure: S + be + V + C (She is a teacher).</li>
+                            </ul>
+
                             <h5>Affirmative</h5>
                             <h6>Structure</h6>
                             <p>Subject + verb + complement <br /><br /></p>
@@ -18,7 +28,8 @@ export const English = () => {
                             <h6>Examples</h6>
                             <p>
                                 She loves pizza and brownies <br />
-                                He plays the guitar
+                                He plays the guitar <br />
+                                He is eating a slice of pizza
                             </p>
 
                             <hr />
@@ -54,6 +65,12 @@ export const English = () => {
 
                         <CollapseTitle name="Past simple" id="#pastSimple" />
                         <div className="collapse" id="pastSimple">
+
+                            <ul>
+                                <li>To regular verbs, we add "ed", "d", or "ied".</li>
+                                <li>To describe states we use the same structure of present simple, we use the verb to be as was or were (she <span className="fw-semibold">was</span> a teacher).</li>
+                            </ul>
+
                             <h5>Affirmative</h5>
                             <h6>Structure</h6>
                             <p>Subject + <b>did</b> + verb in base form + complement<br /><br /> </p>
@@ -70,7 +87,7 @@ export const English = () => {
                             <h6>Structure</h6>
                             <p>
                                 Subject + <b>did + not</b> + verb in base form <br />
-                                <b>Or</b> <br /> Subject + <b>didn't</b> + verb in base form <br /> <br /> 
+                                <b>Or</b> <br /> Subject + <b>didn't</b> + verb in base form <br /> <br />
                             </p>
 
                             <h6>Examples</h6>
@@ -91,8 +108,6 @@ export const English = () => {
                                 <b>Did</b> she make the cake?
                             </p>
 
-                            {/* <h5>When we use it?</h5>
-                            <p>We often use it to talk about actions that happens in the past, and when something generally happens.</p> <br /> */}
                         </div>
                         <hr />
 
@@ -175,6 +190,8 @@ export const English = () => {
 
                         <CollapseTitle name="Past continuous" id="#pastContinuous" />
                         <div className="collapse" id="pastContinuous">
+                            <p>To describe an action that was happening but stopped, we use the past continuous tense. In addition, "be" is used as "was" or "were".</p>
+
                             <h5>Affirmative</h5>
                             <h6>Structure</h6>
                             <p>Subject + <b>was/were</b> + <b>verb with ing </b><br /><br /> </p>
@@ -320,7 +337,7 @@ export const English = () => {
                             <h6>Examples</h6>
                             <p>
                                 <b>Had</b> she <b>finished</b> the test?<br /><b>
-                                Had</b> he <b>completed</b> the project on time?
+                                    Had</b> he <b>completed</b> the project on time?
                             </p>
                         </div>
                         <hr />
@@ -366,6 +383,19 @@ export const English = () => {
                     <CollapseTitle name="Determinants a/an" id="#determinants" />
                     <div className="collapse" id="determinants">
                         <p>The easiest way to use a/an is to identify if the word we want to allude to begins with a vowel, if so we use an (an apple). If it starts with a consonant, we use a (a pizza).</p>
+                    </div>
+
+                    <hr />
+
+                    <CollapseTitle name="Modal verbs" id="#modalverbs" />
+                    <div className="collapse" id="modalverbs">
+                    
+                    <p>
+                        <span className="fw-semibold">Can:</span> used to express ability, possibility, permission, and requests. For example, students can learn English
+                    </p>
+                    <p>
+                        <span className="fw-semibold">Could:</span> 
+                    </p>
                     </div>
 
                 </div>
