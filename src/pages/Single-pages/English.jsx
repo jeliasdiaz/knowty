@@ -533,13 +533,7 @@ export const English = () => {
             <br />
 
             <p>
-              <span className="fw-semibold">May - might:</span> in general,
-              "may" is used to express a higher degree of probability or to ask
-              for permission, while "might" is used to express a lower degree of
-              probability or to express a hypothetical or counterfactual
-              situation in the past. However, the difference between "may" and
-              "might" is often subtle, and the two words can be used
-              interchangeably in many cases.
+              <span className="fw-semibold">May - might:</span> "may" is used to express a higher degree of probability, ask for permission, or express a hypothetical or counterfactual situation in the present or future, while "might" is used to express a lower degree of probability or a hypothetical or counterfactual situation in the past.
             </p>
             <ul>
               <li>
@@ -553,8 +547,7 @@ export const English = () => {
             <br />
 
             <p>
-              <span className="fw-semibold">Should:</span> is used to indicate
-              expectation, recommendation, or hypothetical situation. It can
+              <span className="fw-semibold">Should:</span> is used to indicate expectation or recommendation, or hypothetical situation. It can
               also be used to express criticism or regret. It is a versatile
               verb that can be used in different contexts depending on the
               situation.
@@ -587,6 +580,7 @@ export const English = () => {
               <li>When I was a child, I would often spend hours playing outside.</li>
               <li>Would you like a cup of tea?</li>
             </ul>
+            <br />
 
             <p>
               <span className="fw-semibold">Ought to:</span> it suggests a stronger obligation than "should", but not as strong as "must".
@@ -595,6 +589,16 @@ export const English = () => {
               <li>You ought to eat more vegetables if you want to be healthy.</li>
               <li>They ought to be here by now.</li>
               <li>He ought to have finished his homework by now.</li>
+            </ul>
+            <br />
+
+            <p>
+              <span className="fw-semibold">Will:</span> is used to express a range of meanings related to future events or actions.
+            </p>
+            <ul>
+              <li>She will graduate next year.</li>
+              <li>They will be here at 5 pm.</li>
+              <li>He will always stand up for what he believes in.</li>
             </ul>
             <br />
 

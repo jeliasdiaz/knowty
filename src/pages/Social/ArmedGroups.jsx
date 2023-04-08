@@ -64,7 +64,7 @@ export const ArmedGroups = () => {
                         </ul>
                         <span className="fw-semibold">A tener en cuenta:</span> <br />
                         <ul>
-                            <li>Proviene de estudiantes universitarios, reconocidos por su buena preparación académica. Esta es su diferencia con las FARC, debido a que esta última, surge de grupos de campesinos.</li>
+                            <li>Proviene de estudiantes universitarios, reconocidos por su buena preparación académica. Esta es su diferencia con las FARC, debido a que esta última, surge de grupos campesinos.</li>
                             <li>Lograron poner en jaque a muchas multinacionales.</li>
                         </ul>
                         <span className="fw-semibold">Extras</span>
