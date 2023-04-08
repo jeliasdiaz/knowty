@@ -491,8 +491,8 @@ export const English = () => {
           <div className="collapse" id="determinants">
             <p>
               The easiest way to use a/an is to identify if the word we want to
-              allude to begins with a vowel, if so we use an (an apple). If it
-              starts with a consonant, we use a (a pizza).
+              allude to begins with a vowel, if so we use "an" (an apple). If it
+              starts with a consonant, we use "a" (a pizza).
             </p>
           </div>
 
@@ -504,14 +504,13 @@ export const English = () => {
               Modal verbs are a type of auxiliary verb in English that modify
               the meaning of the main verb in a sentence. They express various
               shades of meaning related to possibility, ability, permission,
-              obligation, and more. Some
+              obligation, and more.
             </p>
             <br />
             
             <p>
               <span className="fw-semibold">Can:</span> used to express ability,
-              possibility, permission, and requests. For example: students can
-              learn English.
+              possibility, permission, and requests.
             </p>
             <ul>
               <li>Students can learn English.</li>
@@ -578,6 +577,36 @@ export const English = () => {
               <li>You must see that movie, it's really good.</li>
               <li>You must not smoke in here.</li>
             </ul>
+            <br />
+
+            <p>
+              <span className="fw-semibold">Would:</span> used to communicate a conditional or hypothetical situations. It also can be used to describe a repeated action or habit in the past. Moreover, is often used in polite requests or offers.
+            </p>
+            <ul>
+              <li>If I had more time, I would go to the gym.</li>
+              <li>When I was a child, I would often spend hours playing outside.</li>
+              <li>Would you like a cup of tea?</li>
+            </ul>
+
+            <p>
+              <span className="fw-semibold">Ought to:</span> it suggests a stronger obligation than "should", but not as strong as "must".
+            </p>
+            <ul>
+              <li>You ought to eat more vegetables if you want to be healthy.</li>
+              <li>They ought to be here by now.</li>
+              <li>He ought to have finished his homework by now.</li>
+            </ul>
+            <br />
+
+            <p>
+              <span className="fw-semibold">Shall:</span> in the past, it was used as an alternative to "will", even you can find it in well known literature books of the past. Nowadays, "shall" is commonly used to form questions to make an offer or suggestion.
+            </p>
+            <ul>
+              <li>Shall we go for a walk later?</li>
+              <li>I shall do my best to help you.</li>
+              <li>Shall I call you later to discuss the details?</li>
+            </ul>
+
           </div>
         </div>
       </div>
