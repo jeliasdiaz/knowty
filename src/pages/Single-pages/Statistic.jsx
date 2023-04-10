@@ -1,5 +1,5 @@
 import Latex from "react-latex"
-import { CollapseTitle, MoreBtn, SectionTitle, TopWave } from "../../components/";
+import { CollapseInformation, MoreBtn, SectionTitle, TopWave } from "../../components/";
 
 export const Statistic = () => {
 
@@ -35,8 +35,7 @@ export const Statistic = () => {
 
         <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
           <div>
-            <CollapseTitle name="Medidas de tendencia central" id="#medidasTendenciaCentral" />
-            <div className="collapse" id="medidasTendenciaCentral">
+            <CollapseInformation name="Medidas de tendencia central" id="medidasTendenciaCentral" >
               <h5>Media</h5>
               <p>Es el promedio de un conjunto de números. Se calcula mediante la suma de todos los datos entre el número total de valores o datos.</p>
 
@@ -45,13 +44,12 @@ export const Statistic = () => {
 
               <h5>Moda</h5>
               <p>Es el valor que más se repite en una muestra o población.</p>
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
 
           <div>
-            <CollapseTitle name="Regla de tres simple" id="#reglaTresSimple" />
-            <div className="collapse" id="reglaTresSimple">
+            <CollapseInformation name="Regla de tres simple" id="reglaTresSimple" >
               <h5>Directa</h5>
               <p>Los datos están correlacionados, de tal forma que cuando aumenta una magnitud también lo hace la otra. Es de añadir que dos variables son consideradas directamente proporcionales cuando al dividirse dan como cociente (resultado) una constante.</p>
               <h6>Fórmula</h6>
@@ -95,13 +93,12 @@ export const Statistic = () => {
                 Recuerda que entre más relaciones y practiques lo que aprendes en tu día a día, recordarás más los conceptos y aprenderás más rápido.
 
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
 
           <div>
-            <CollapseTitle name="Medidas de localización" id="#medidasLocalizacion" />
-            <div className="collapse" id="medidasLocalizacion">
+            <CollapseInformation name="Medidas de localización" id="medidasLocalizacion" >
               <h5>Cuartiles</h5>
               <p>Permiten calcular el 25%, 50%, 75% y 100%, donde el cuartil 1 corresponde al 25% y el cuartil 4 al 100%.</p>
               <p><Latex>{cuartilesPar}</Latex></p>
@@ -152,13 +149,12 @@ export const Statistic = () => {
               <p>
                 Por último, te invito buscar otros casos en los que podemos aplicar las medidas de localización. ¡Deja volar tu imaginación!
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
 
           <div>
-            <CollapseTitle name="Medidas de dispersión" id="#medidasDispersion" />
-            <div className="collapse" id="medidasDispersion">
+            <CollapseInformation name="Medidas de dispersión" id="medidasDispersion" >
               <p>
                 Consisten en números que proporcionan información de la variabilidad de los datos. Dicho de otro modo, indican que tan unidos o separados se encuentran los datos en una distribución. Por otro lado, puede considerarse que evalúan la homogeneidad de un conjunto de datos a través de varios promedios.
 
@@ -199,13 +195,12 @@ export const Statistic = () => {
 
                 En conclusión, David obtendrá mejor puesto y promedio que Juan porque sus notas poseen poca dispersión.
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
 
           <div>
-            <CollapseTitle name="Medidas de simetría y asimetría" id="#medidasSimetriaAsimetria" />
-            <div className="collapse" id="medidasSimetriaAsimetria">
+            <CollapseInformation name="Medidas de simetría y asimetría" id="medidasSimetriaAsimetria" >
               <h5>Simetría</h5>
               <p>Son medidas de distribución, cuya característica principal es que la media es igual a la mediana y esta última igual a la moda. Son representadas mediante la campana de Gauss, lo que permite identificar la simetría de los datos respecto a las medidas de tendencia central.</p>
               <h5>Asimetría</h5>
@@ -224,7 +219,7 @@ export const Statistic = () => {
               <p>Con base a la información, tenemos una asimetría negativa debido a que la media es menor que la mediana.</p>
 
               <MoreBtn url="https://youtu.be/q44bP7xo2QM" />
-            </div>
+            </CollapseInformation>
           </div>
 
         </div>

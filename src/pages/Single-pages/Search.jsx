@@ -49,8 +49,8 @@ export const Search = () => {
             ? (
               <div className="dataResult" data-aos="fade-up" data-aos-duration="500">
                 {
-                  filteredData.slice(0, 5).map(({ url, name, img }) => (
-                    <ResultCard url={url} img={img} name={name} key={name} />
+                  filteredData.slice(0, 5).map( data => (
+                    <ResultCard {...data} key={data.name} />
                   ))
                 }
               </div>

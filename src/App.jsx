@@ -35,6 +35,9 @@ import { SpacedRepetition, StudentsResources } from "./pages/Blog/";
 import { InstallAppBtn } from "./components/InstallAppBtn";
 import { ScrollBtn } from "./components/ScrollBtn";
 import { IntroductionPhilosophy } from "./pages/Philosophy/IntroductionPhilosophy";
+import { LifeAndCells } from "./pages/Biology/";
+import { Tools } from "./pages/Single-pages/Tools";
+import { BiologyMenu } from "./pages/Biology/BiologyMenu";
 
 function App() {
   useEffect(() => {
@@ -85,17 +88,17 @@ function App() {
   const RADIUS = DIAMETER / 2 - STROKE_WIDTH / 2;
   const CIRCUMFERENCE = Math.PI * RADIUS * 2;
 
-  const scrollBtnValues = {DIAMETER, STROKE_WIDTH, RADIUS, CIRCUMFERENCE, position, goTop}
+  const scrollBtnValues = { DIAMETER, STROKE_WIDTH, RADIUS, CIRCUMFERENCE, position, goTop }
   //* Cisable right click
 
   useEffect(() => {
     const handleContextMenu = (e) => e.preventDefault()
-  
+
     document.addEventListener("contextmenu", handleContextMenu)
 
     return () => document.removeEventListener("contextmenu", handleContextMenu)
   }, [])
-  
+
   return (
     <div ref={articleRef}>
       <BrowserRouter>
@@ -111,6 +114,8 @@ function App() {
             <Route path="/iconos" element={<Icons />} />
             <Route path="/repeticion-espaciada" element={<SpacedRepetition />} />
             <Route path="/recursos-para-estudiantes" element={<StudentsResources />} />
+
+            <Route path="vida-y-celulas" element={<LifeAndCells />} />
 
             <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
             <Route path="/quimica_2" element={<SecondChemistryPeriod />} />
@@ -141,6 +146,7 @@ function App() {
             <Route path="/trigonometria_2" element={<SecondTrigonometryPeriod />} />
             <Route path="/trigonometria" element={<ThirdTrigonometryPeriod />} />
 
+            <Route path="/biologia-menu" element={<BiologyMenu />} />
             <Route path="/fisica-menu" element={<PhysicMenu />} />
             <Route path="/geometria-menu" element={<GeometryMenu />} />
             <Route path="/quimica-menu" element={<ChemistryMenu />} />
@@ -153,6 +159,8 @@ function App() {
 
             <Route path="/introduccion-filosofia" element={<IntroductionPhilosophy />} />
             <Route path="/filosofos-clasicos" element={<ClassicPhilosophers />} />
+
+            <Route path="/tools" element={<Tools />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>

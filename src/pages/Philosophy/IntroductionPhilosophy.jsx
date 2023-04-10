@@ -1,5 +1,5 @@
 
-import { CollapseTitle, SectionTitle, Tooltip, TopWave } from '../../components'
+import { CollapseInformation, SectionTitle, Tooltip, TopWave } from '../../components'
 import { PhilosophyNav } from './PhilosophyNav'
 
 export const IntroductionPhilosophy = () => {
@@ -61,8 +61,7 @@ export const IntroductionPhilosophy = () => {
 
                 <hr />
 
-                <CollapseTitle name="Presocráticos" id="#presocraticos" />
-                <div className="collapse" id="presocraticos">
+                <CollapseInformation name="Presocráticos" id="presocraticos" >
                     <h4>Tales de Mileto</h4>
                     <ul>
                         <li>Fue uno del los 7 sabios de Grecia.</li>
@@ -134,7 +133,7 @@ export const IntroductionPhilosophy = () => {
                     <ul>
                         <li>Arché = átomo</li>
                     </ul>
-                </div>
+                </CollapseInformation>
             </div>
         </div>
     )

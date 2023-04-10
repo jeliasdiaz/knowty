@@ -1,5 +1,5 @@
 import { SocialNav } from "./SocialNav"
-import { SectionTitle, CollapseTitle, TopWave } from "../../components/";
+import { SectionTitle, CollapseInformation, TopWave } from "../../components/";
 
 export const ArmedGroups = () => {
     return (
@@ -11,20 +11,19 @@ export const ArmedGroups = () => {
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
-                    <CollapseTitle name="FARC" id="#farc" />
-                    <div className="collapse" id="farc">
+                    <CollapseInformation name="FARC" id="farc" >
                         <h4 className="pb-4">Fuerzas armadas revolucionarias de Colombia</h4>
                         <p>
-                            <span className="fw-semibold">Filosofía:</span> Marxista - Leninista 
+                            <span className="fw-semibold">Filosofía:</span> Marxista - Leninista
                         </p>
                         <p>
-                            <span className="fw-semibold">Origen:</span > Surgen durante el periodo de "la violencia", luego del asesinato de Gaitán 
+                            <span className="fw-semibold">Origen:</span > Surgen durante el periodo de "la violencia", luego del asesinato de Gaitán
                         </p>
                         <p>
-                            <span className="fw-semibold">Motivaciones:</span> Representar a la población campesina ante el manejo de las tierras en manos de pocos. Es de añadir que las FARC se originan como grupos de campesinos en contra del estado. 
+                            <span className="fw-semibold">Motivaciones:</span> Representar a la población campesina ante el manejo de las tierras en manos de pocos. Es de añadir que las FARC se originan como grupos de campesinos en contra del estado.
                         </p>
                         <p>
-                            <span className="fw-semibold">Contexto internacional:</span> Guerra fría, a partir de esta, cuba adopta ciertos ideales. Surge la revolución cubana, de la cual Gaitán adopta ideales marxistas a favor de los campesinos; luego de ser asesinado, las FARC adoptan esta ideología. 
+                            <span className="fw-semibold">Contexto internacional:</span> Guerra fría, a partir de esta, cuba adopta ciertos ideales. Surge la revolución cubana, de la cual Gaitán adopta ideales marxistas a favor de los campesinos; luego de ser asesinado, las FARC adoptan esta ideología.
                         </p>
                         <span className="fw-semibold">A tener en cuenta:</span>
                         <ul>
@@ -42,13 +41,12 @@ export const ArmedGroups = () => {
                             <li>Alfonso Cano.</li>
                             <li>Timochenko.</li>
                         </ul>
-                    </div>
+                    </CollapseInformation>
                     <hr />
                 </div>
 
                 <div>
-                    <CollapseTitle name="ELN" id="#eln" />
-                    <div className="collapse" id="eln">
+                    <CollapseInformation name="ELN" id="eln" >
                         <h4 className="pb-4">Ejército de liberación nacional</h4>
                         <p>
                             <span className="fw-semibold">Fundador:</span> Fabio Vásquez Castaño <br />
@@ -72,13 +70,12 @@ export const ArmedGroups = () => {
                             <li>Coce = Comando central, se encarga de las decisiones políticas, económicas y demás.</li>
                             <li>Teología de la liberación = Como los católicos Jesuitas buscaron cambiar las condiciones de vida de las personas.</li>
                         </ul>
-                    </div>
+                    </CollapseInformation>
                     <hr />
                 </div>
 
                 <div>
-                    <CollapseTitle name="EPL" id="#epl" />
-                    <div className="collapse" id="epl">
+                    <CollapseInformation name="EPL" id="epl" >
                         <h4 className="pb-4">Ejército popular de liberación</h4>
                         <p>
                             <span className="fw-semibold">Fundación:</span> 1967 <br />
@@ -112,13 +109,12 @@ export const ArmedGroups = () => {
                             <li>Operaron en lugares como La Guajira, Córdoba, Sucre y Magdalena.</li>
                             <li>Tercera guerrilla más numerosa.</li>
                         </ul>
-                    </div>
+                    </CollapseInformation>
                     <hr />
                 </div>
 
                 <div>
-                    <CollapseTitle name="M-19" id="#m-19" />
-                    <div className="collapse" id="m-19">
+                    <CollapseInformation name="M-19" id="m-19" >
                         <h4 className="pb-4">Movimiento 19 de abril</h4>
                         <p>
                             <span className="fw-semibold">Fundación:</span> 1974 <br />
@@ -147,7 +143,7 @@ export const ArmedGroups = () => {
                             <li>Robo de armas del cantón norte.</li>
                             <li>Toma de la embajada de república dominicana. De hecho, Estados Unidos les da dinero por liberar a los embajadores.</li>
                         </ul>
-                    </div>
+                        </CollapseInformation>
                 </div>
 
             </div>

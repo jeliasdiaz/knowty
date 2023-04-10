@@ -1,6 +1,6 @@
 import Latex from "react-latex"
 import { ChemistryNav } from "./ChemistryNav"
-import { SectionTitle, CollapseTitle, MoreBtn, TopWave } from "../../components/";
+import { SectionTitle, CollapseInformation, MoreBtn, TopWave } from "../../components/";
 import { CartesianGrid, Label, Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 
 export const FourthChemistryPeriod = () => {
@@ -64,8 +64,7 @@ export const FourthChemistryPeriod = () => {
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <div>
-                        <CollapseTitle name="Reactivo límite y en exceso" id="#reactivoLimiteExceso" />
-                        <div className="collapse" id="reactivoLimiteExceso" >
+                        <CollapseInformation name="Reactivo límite y en exceso" id="reactivoLimiteExceso" >
                             <p>
                                 Un reactivo límite es una sustancia que limita la cantidad de producto que se puede formar en una reacción. Mientras que el reactivo en exceso es aquel que restante después de que se ha alcanzado el límite. <br /> <br />
 
@@ -88,13 +87,12 @@ export const FourthChemistryPeriod = () => {
                             <div className="collapse" id="reactivo">
                                 <img src="/img/reactivoLimiteEjercicioSolucion.svg" alt="Reactivo limite solución" className="eightyPercentImg rounded-3" />
                             </div>
-                        </div>
+                        </CollapseInformation>
                         <hr />
                     </div>
 
                     <div>
-                        <CollapseTitle name="Pureza de un reactivo" id="#purezaReactivo" />
-                        <div className="collapse" id="purezaReactivo">
+                        <CollapseInformation name="Pureza de un reactivo" id="purezaReactivo" >
                             <p>
                                 Muchos de los reactivos presentes en reacciones químicas, contienen impurezas. Estas últimas son sustancias que no reaccionarán en una reacción. Por ende, las sustancias puras son aquellas que si se presentan o reaccionan en una reacción concreta. La pureza de un reactivo se puede calcular mediante la siguiente ecuación:
                                 <br /><br />
@@ -125,13 +123,12 @@ export const FourthChemistryPeriod = () => {
                             <div className="collapse" id="pureza">
                                 <img src="/img/purezaEjercicioSolucion.svg" alt="" className="eightyPercentImg rounded-3" />
                             </div>
-                        </div>
+                        </CollapseInformation>
                         <hr />
                     </div>
 
                     <div>
-                        <CollapseTitle name="Rendimiento" id="#rendimiento" />
-                        <div className="collapse" id="rendimiento">
+                        <CollapseInformation name="Rendimiento" id="rendimiento" >
                             <p>
                                 Las reacciones que se llevan a cabo, no siempre tienen un 100% de eficiencia. Esto se debe a la producción de reacciones secundarias, de modo que el reactivo límite no se transforma completamente en productos.
                                 <br /><br />
@@ -157,12 +154,11 @@ export const FourthChemistryPeriod = () => {
                                 Si se producen 64gr de CO2, ¿cuál es el porcentaje de rendimiento de la reacción? <br />
                             </p>
                             <p><Latex>{ecuacionTwo}</Latex></p>
-                        </div>
+                        </CollapseInformation>
                     </div>
                     <hr />
                     <div>
-                        <CollapseTitle name="Leyes de los gases" id="#leyesGases" />
-                        <div className="collapse" id="leyesGases">
+                        <CollapseInformation name="Leyes de los gases" id="leyesGases" >
                             <p>
                                 El estado gaseoso se caracteriza por la poca fuerza de atracción entre las moléculas; provocando que los cuerpos de dicho estado no posean forma ni volumen definido. Por esta razón, los gases se expanden hasta ocupar el volumen del recipiente que los contiene. <br /> <br />
 
@@ -226,7 +222,7 @@ export const FourthChemistryPeriod = () => {
                             <h5>Ecuación</h5>
                             <Latex>{leyGayLusaac}</Latex>
                             <br /><br />
-                        </div>
+                        </CollapseInformation>
                     </div>
                 </div>
             </div>

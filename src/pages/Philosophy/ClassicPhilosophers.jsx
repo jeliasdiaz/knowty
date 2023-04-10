@@ -1,4 +1,4 @@
-import { CollapseTitle, SectionTitle, TopWave } from "../../components"
+import { CollapseInformation, SectionTitle, TopWave } from "../../components"
 import { PhilosophyNav } from "./"
 
 export const ClassicPhilosophers = () => {
@@ -12,8 +12,7 @@ export const ClassicPhilosophers = () => {
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
 
-                <CollapseTitle name="Sócrates" id="#socrates" />
-                <div className="collapse" id="socrates">
+                <CollapseInformation name="Sócrates" id="socrates" >
                     <p>
                         Fue un filósofo griego que vivió en Atenas durante el siglo V a.C. Sus costumbres, pensamientos y creencias tuvieron una gran influencia en el pensamiento occidental, siendo incluso considerado por algunos como uno de los fundadores de la filosofía occidental.
                         <br /><br />
@@ -28,12 +27,11 @@ export const ClassicPhilosophers = () => {
                         <li>Todo vicio es el resultado de la ignorancia.</li>
                         <li>La virtud es conocimiento.</li>
                     </ul>
-                </div>
+                </CollapseInformation>
 
                 <hr />
 
-                <CollapseTitle name="Platón" id="#platon" />
-                <div className="collapse" id="platon">
+                <CollapseInformation name="Platón" id="platon">
                     <p>
                         Platón fue un filósofo griego que vivió alrededor del siglo V a.C. Como estudiante de Sócrates y profesor de Aristóteles, dejó un legado duradero en el mundo de la filosofía. Es famoso por su obra La república, en la que expone sus ideas sobre la justicia y la organización de la sociedad. Su filosofía se caracteriza por ser idealista y enfatizar en la importancia de conceptos abstractos como el mundo de las ideas. Platón también creía en la existencia de una realidad más allá de lo que percibimos con nuestros sentidos y la importancia de la educación en la búsqueda de la verdad.
                     </p>
@@ -47,12 +45,11 @@ export const ClassicPhilosophers = () => {
                             </ul>
                         </li>
                     </ul>
-                </div>
-                
+                </CollapseInformation>
+
                 <hr />
-                
-                <CollapseTitle name="Aristóteles" id="#aristoteles"/>
-                <div className="collapse" id="aristoteles">
+
+                <CollapseInformation name="Aristóteles" id="aristoteles" >
                     <p>
                         Fue un filósofo y científico griego que hizo aportes en áreas como la ética, política, metafísica, biología y lógica.
                         <br /><br />
@@ -60,7 +57,7 @@ export const ClassicPhilosophers = () => {
                         <br /><br />
                         Por otra parte, creía que la virtud se encuentra entre dos extremos/excesos, así como en la importancia del conocimiento práctico.
                     </p>
-                </div>
+                </CollapseInformation>
             </div>
         </div>
     )

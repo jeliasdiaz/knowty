@@ -1,5 +1,5 @@
 import { ChemistryNav } from "./ChemistryNav"
-import { SectionTitle, CollapseTitle, TopWave, Tooltip } from "../../components/";
+import { SectionTitle, CollapseInformation, TopWave, Tooltip } from "../../components/";
 
 export const SecondChemistryPeriod = () => {
     return (
@@ -12,8 +12,7 @@ export const SecondChemistryPeriod = () => {
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <div >
-                        <CollapseTitle name="Generalidades" id="#generalidades" />
-                        <div className="collapse" id="generalidades">
+                        <CollapseInformation name="Generalidades" id="generalidades">
                             <h5>Posición en la tabla periódica con base a la configuración electrónica</h5>
                             <img src="/img/configElectronica.svg" alt="Configuración electrónica" className="w-50 rounded-3" /><br />
                             <p> Terminación: <br /> <i>d</i> o <i>f</i>, pertenece al grupo <i>b</i> <br /> <i>s</i> o <i>p</i>, pertenece al grupo <i>a</i> <br /> (Si varía el número de neutrones, es un isótopo)</p>
@@ -40,13 +39,12 @@ export const SecondChemistryPeriod = () => {
                                 <li>Capacidad de un átomo para atraer electrones.</li>
                                 <li>Aumenta hacia la derecha y hacia arriba en la tabla periódica.</li>
                             </ul>
-                        </div>
+                        </CollapseInformation>
                         <hr />
                     </div>
 
                     <div>
-                        <CollapseTitle name="Familia de elementos" id="#familiaElementos" />
-                        <div className="collapse" id="familiaElementos">
+                        <CollapseInformation name="Familia de elementos" id="familiaElementos">
                             <h4>Alcalinos</h4>
                             <ul>
                                 <li>Son blandos.</li>
@@ -103,21 +101,19 @@ export const SecondChemistryPeriod = () => {
                                 <li>Desprovistos de color, olor y sabor.</li>
                                 <li>Puntos de ebullición muy próximos y muy bajos.</li>
                             </ul>
-                        </div>
+                        </CollapseInformation>
                         <hr />
                     </div>
 
                     <div>
-                        <CollapseTitle name="Enlaces químicos" id="#enlacesQuimicos" />
-                        <div className="collapse" id="enlacesQuimicos">
+                        <CollapseInformation name="Enlaces químicos" id="enlacesQuimicos" >
                             <img src="/img/enlacesQuimicos.svg" alt="Enlaces químicos" className="eightyPercentImg rounded-3" />
-                        </div>
+                        </CollapseInformation>
                         <hr />
                     </div>
 
                     <div>
-                        <CollapseTitle name="Compuestos iónicos" id="#compuestosIonicos" />
-                        <div className="collapse" id="compuestosIonicos">
+                        <CollapseInformation name="Compuestos iónicos" id="compuestosIonicos" >
                             <ul>
                                 <li>Forman
                                     <Tooltip content={<span>Compuestos químicos formados a partir <br /> de la combinación de ácidos con bases.</span>} text={<span className="ps-2 pe-1">sales</span>} id="sales" />
@@ -130,11 +126,10 @@ export const SecondChemistryPeriod = () => {
                                 <li>Solubles en disolventes polares como el agua.</li>
                                 <li>En estado sólido no conducen la corriente eléctrica, pero, fundidos o disueltos en agua conducen la corriente eléctrica. Debido a que los iones se separan y pueden moverse de forma independiente.</li>
                             </ul>
-                        </div>
+                        </CollapseInformation>
                         <hr />
                         <div>
-                            <CollapseTitle name="Compuestos covalentes" id="#compuestosCovalentes" />
-                            <div className="collapse" id="compuestosCovalentes">
+                            <CollapseInformation name="Compuestos covalentes" id="compuestosCovalentes" >
                                 <ul>
                                     <li>Sólidos, líquidos y gaseosos.</li>
                                     <li>Son en su mayoría compuestos orgánicos.</li>
@@ -142,7 +137,7 @@ export const SecondChemistryPeriod = () => {
                                     <li>Son soluciones acuosas y en su mayoría no conducen la corriente eléctrica.</li>
                                     <li>Sus reacciones son muy lentos, generalmente necesitan catalizadores (sustancia que acelera una reacción química).</li>
                                 </ul>
-                            </div>
+                            </CollapseInformation>
                         </div>
                     </div>
                 </div>

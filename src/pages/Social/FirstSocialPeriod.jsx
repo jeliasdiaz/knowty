@@ -1,5 +1,5 @@
 import { SocialNav } from "./SocialNav"
-import { SectionTitle, CollapseTitle, TopWave } from "../../components/";
+import { SectionTitle, CollapseInformation, TopWave } from "../../components/";
 
 export const FirstSocialPeriod = () => {
     return (
@@ -11,8 +11,7 @@ export const FirstSocialPeriod = () => {
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
-                    <CollapseTitle name="Suelos" id="#suelos" />
-                    <div className="collapse" id="suelos">
+                    <CollapseInformation name="Suelos" id="suelos" >
                         <ul>
                             <li>Mezcla de minerales.</li>
                             <li>Aptos o no para ser cultivados.</li>
@@ -43,12 +42,11 @@ export const FirstSocialPeriod = () => {
                             <li>Son protegidas por la normatividad.</li>
                             <li>Generan dinamismo económico en el sector turístico.</li>
                         </ul>
-                    </div>
+                    </CollapseInformation>
                     <hr />
                 </div>
                 <div>
-                    <CollapseTitle name="Territorio" id="#territorio" />
-                    <div className="collapse" id="territorio">
+                    <CollapseInformation name="Territorio" id="territorio" >
                         <ul>
                             <li>Porción de espacio donde se ejerce poder.</li>
                             <li>Constituido por seres humanos, recursos naturales, construcciones y edificaciones.</li>
@@ -67,7 +65,7 @@ export const FirstSocialPeriod = () => {
                         <p><span className="fw-semibold">Límites:</span> Son líneas divisorias que separan uno o más territorios.</p>
 
                         <hr />
-                        <h2>Territorialidad</h2>
+                        <h3>Territorialidad</h3>
                         <ul>
                             <li>Acción por la cual se avala la propiedad sobre un territorio que ejerce determinada persona, grupo social o estado.</li>
                             <li>El objetivo es mantener el orden o control sobre los elementos que contiene el territorio.</li>
@@ -89,7 +87,7 @@ export const FirstSocialPeriod = () => {
                             <li>Constituciones establecen el principio de soberanía.</li>
                         </ul>
                         <hr />
-                        <h2>Territorialización</h2>
+                        <h3>Territorialización</h3>
                         <ul>
                             <li>Proceso de protección y mantenimiento de los territorios, sus recursos y sus componentes sociales y culturales.</li>
                             <li>Busca mantener el control y ejercer su defensa.</li>
@@ -98,26 +96,24 @@ export const FirstSocialPeriod = () => {
                         <ul>
                             <li>Renovación de viejos centros urbanos mediante transformaciones materiales e inmateriales conducidas por agentes privados o públicos, provocando la subida del valor de las propiedades y el desplazamiento de la población residente.</li>
                         </ul>
-                    </div>
+                    </CollapseInformation>
                     <hr />
                 </div>
 
                 <div>
-                    <CollapseTitle name="Plan de ordenamiento territorial" id="#ordenamientoTerritorial" />
-                    <div className="collapse" id="ordenamientoTerritorial">
+                    <CollapseInformation name="Plan de ordenamiento territorial" id="ordenamientoTerritorial">
                         <ul>
                             <li>Conjunto de acciones políticas, directrices, etc. Concretadas y coherentes que se constituyen como una herramienta de planeación para el desarrollo físico de un territorio.</li>
                             <li>Orientar y priorizar las inversiones en el territorio tanto del sector público como del sector privado, es decir, define dónde se construyen los parques, los colegios, los hospitales, dónde se ubica la vivienda, las oficinas, los comercios e industrias.</li>
                             <li>Define implícitamente la relación de la ciudadanía con el ente territorial.</li>
                             <li>Define y estipula en cuáles espacios se hacen parques, canchas, hospitales, se implementan acueductos, carreteras, bibliotecas, escuelas.</li>
                         </ul>
-                    </div>
+                    </CollapseInformation>
                     <hr />
                 </div>
 
                 <div>
-                    <CollapseTitle name="Sistema mundo" id="#sistemaMundo" />
-                    <div className="collapse" id="sistemaMundo">
+                    <CollapseInformation name="Sistema mundo" id="sistemaMundo" >
                         <ul>
                             <li>Teoría que explica el funcionamiento de las relaciones sociales, políticas y económicas en torno a las interacciones globales.</li>
                             <li>Caracterización del funcionamiento del sistema capitalista.</li>
@@ -155,7 +151,7 @@ export const FirstSocialPeriod = () => {
                         <p>
                             <span className="fw-semibold">Alianzas:</span>  Estados con intereses comunes y agendas compartidas.
                         </p>
-                        <h2>Estructura</h2>
+                        <h3>Estructura</h3>
                         <h4>Centro</h4>
                         <ul>
                             <li>Países con elevada producción de bienes y servicios.</li>
@@ -176,7 +172,7 @@ export const FirstSocialPeriod = () => {
                             <li>Niveles de productividad por encima de los países en vías de desarrollo.</li>
                             <li>Sus niveles de PIB (Producto Interno Bruto) no le permiten estar por encima de los países del primer mundo.</li>
                         </ul>
-                    </div>
+                    </CollapseInformation>
                 </div>
 
             </div>

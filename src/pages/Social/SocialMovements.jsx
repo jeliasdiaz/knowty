@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { SocialNav } from "./SocialNav"
-import { SectionTitle, CollapseTitle, TopWave } from "../../components/";
+import { SectionTitle, CollapseInformation, TopWave } from "../../components/";
 
 export const SocialMovements = () => {
     return (
@@ -12,8 +12,7 @@ export const SocialMovements = () => {
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
                 <div>
-                    <CollapseTitle name="Movimientos sociales" id="#movimientosSociales" />
-                    <div className="collapse" id="movimientosSociales">
+                    <CollapseInformation name="Movimientos sociales" id="movimientosSociales" >
                         <p>
                             Grupos informales de personas cuyo fin reside en establecer un cambio social. Inicialmente, poseían gran influencia del marxismo; sin embargo actualmente poseen diversas bases. Asimismo, suelen exigir modificaciones de ley y acciones que les otorgue ciudadanía. Por último, su consolidación se remonta al siglo XX. <br /> <br />
 
@@ -21,13 +20,12 @@ export const SocialMovements = () => {
                             Entre los movimientos sociales tenemos: <br /><span className="fw-semibold">Viejos movimientos:</span> están relacionados con el inicio de la consolidación marxista. De ahí que tuvieran participación en los partidos comunistas y obreros del siglo XX. <br /> <br />
                             <span className="fw-semibold">Nuevos movimientos:</span> Surgen a partir de demandas o inconvenientes sociales, caracterizados por la desobediencia civil.
                         </p>
-                    </div>
+                    </CollapseInformation>
                     <hr />
                 </div>
 
                 <div>
-                    <CollapseTitle name="Movimientos sociales (Latinoamérica)" id="#movimientosSocialesAmerica" />
-                    <div className="collapse" id="movimientosSocialesAmerica">
+                    <CollapseInformation name="Movimientos sociales (Latinoamérica)" id="movimientosSocialesAmerica" >
                         <h4>Movimientos artesanos</h4>
                         <ul>
                             <li>Uno de los primeros grupos sociales que surgió.</li>
@@ -57,7 +55,7 @@ export const SocialMovements = () => {
                         </ul>
                         <h4>Movimientos guerrilleros</h4>
                         <p>De este tema ya se ha hablado en la sección correspondiente al <Link to="/sociales" className="text-decoration-none">tercer periodo de Sociales</Link>.</p>
-                    </div>
+                    </CollapseInformation>
                 </div>
             </div>
         </div>

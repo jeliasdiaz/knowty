@@ -1,5 +1,5 @@
 export * from "./BlogCard";
-export * from "./CollapseTitle";
+export * from "./CollapseInformation";
 export * from "./Footer";
 export * from "./Graphic";
 export * from "./InstallAppBtn";

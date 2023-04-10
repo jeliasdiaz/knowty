@@ -1,6 +1,6 @@
 import Latex from "react-latex"
 import { TrigonometryNav } from "./TrigonometryNav"
-import { SectionTitle, CollapseTitle, MoreBtn, TopWave} from "../../components/";
+import { SectionTitle, CollapseInformation, MoreBtn, TopWave } from "../../components/";
 
 export const ThirdTrigonometryPeriod = () => {
 
@@ -94,8 +94,7 @@ export const ThirdTrigonometryPeriod = () => {
                         <h3>Teorema del seno y coseno</h3>
                         <p>Son un conjunto de relaciones que se utilizan para calcular ángulos y lados de un triángulo, especialmente útiles para triángulos que no son rectángulos. Con el teorema del seno y coseno se pueden calcular los lados de un triángulo rectángulo si se conoce un lado y algún ángulo. De igual forma, se pueden calcular los ángulos si se conocen los tres lados del triángulo.</p>
 
-                        <CollapseTitle name="Ley del seno" id="#LeySeno" />
-                        <div className="collapse" id="LeySeno">
+                        <CollapseInformation name="Ley del seno" id="LeySeno" >
                             <p>
                                 La usamos cuando en un triángulo nos dan una pareja y un lado cualquiera. Dicho de otro modo, cuando poseemos el valor de un ángulo y su lado opuesto. <br /> <br /> De igual forma, hacemos uso de esta ley al poseer el valor dos lados y un ángulo opuesto a ellos.
 
@@ -119,11 +118,10 @@ export const ThirdTrigonometryPeriod = () => {
 
                                 <MoreBtn url="https://youtu.be/8T45M-Kv88I" />
                             </p>
-                        </div>
+                        </CollapseInformation>
                         <hr />
 
-                        <CollapseTitle name="Ley del coseno" id="#LeyCoseno" />
-                        <div className="collapse" id="LeyCoseno">
+                        <CollapseInformation name="Ley del coseno" id="LeyCoseno">
                             <p>
                                 La usamos cuando en un triángulo conocemos dos lados y el ángulo formado entre ellos. De igual forma, hacemos uso de esta ley al poseer el valor de todos los lados.
                                 Por ejemplo: <br />
@@ -147,7 +145,7 @@ export const ThirdTrigonometryPeriod = () => {
 
                             </p>
                             <MoreBtn url="https://youtu.be/BALWWfhnvVc" />
-                        </div>
+                        </CollapseInformation>
                     </div>
                 </div>
             </div>

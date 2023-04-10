@@ -1,6 +1,6 @@
 import Latex from "react-latex"
 import { TrigonometryNav } from "./TrigonometryNav"
-import { SectionTitle, CollapseTitle, MoreBtn, TopWave } from "../../components/";
+import { SectionTitle, CollapseInformation, MoreBtn, TopWave } from "../../components/";
 
 export const SecondTrigonometryPeriod = () => {
 
@@ -46,8 +46,7 @@ export const SecondTrigonometryPeriod = () => {
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <div>
-                        <CollapseTitle name="Clasificación de triángulos" id="#clasificacionTriangulos" />
-                        <div className="collapse" id="clasificacionTriangulos">
+                        <CollapseInformation name="Clasificación de triángulos" id="clasificacionTriangulos" >
                             <div className="d-flex flex-wrap">
 
 
@@ -108,12 +107,11 @@ export const SecondTrigonometryPeriod = () => {
                                     <li>Los ángulos rectos poseen 90°</li>
                                 </ul>
                             </div>
-                        </div>
+                        </CollapseInformation>
                     </div>
                     <hr />
                     <div>
-                        <CollapseTitle name="Teorema de Pitágoras" id="#teoremaPitagoras" />
-                        <div className="collapse" id="teoremaPitagoras">
+                        <CollapseInformation name="Teorema de Pitágoras" id="teoremaPitagoras" >
                             <p>Es una regla matemática que se aplica a los triángulos rectángulos. Dicho de otra manera, si tienes un triángulo con un ángulo recto, esta ley te ayudará a calcular la medida de cualquiera de sus tres lados, siempre y cuando ya sepas la medida de los otros dos.</p>
                             <Latex>{pitagorasOne}</Latex>
                             <p>
@@ -132,12 +130,11 @@ export const SecondTrigonometryPeriod = () => {
 
                             <p>Aplicado a cualquier cateto reemplazando <i>a</i> por <i>b</i> y viceversa:</p>
                             <Latex>{pitagorasThree}</Latex>
-                        </div>
+                        </CollapseInformation>
                     </div>
                     <hr />
                     <div>
-                        <CollapseTitle name="Razones trigonométricas" id="#razonesTrigonometricas" />
-                        <div className="collapse" id="razonesTrigonometricas">
+                        <CollapseInformation name="Razones trigonométricas" id="razonesTrigonometricas" >
                             <p>
                                 Son un conjunto de relaciones matemáticas que nos permiten medir ángulos y longitudes de los lados de un triángulo rectángulo. Ante todo, una razón consiste en la relación de dos valores (ejemplo: a/b). Teniendo esto en cuenta, las razones trigonométricas no son más que relaciones que se basan en las medidas de los ángulos y longitudes de los lados del triángulo.
 
@@ -208,7 +205,7 @@ export const SecondTrigonometryPeriod = () => {
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
+                        </CollapseInformation>
 
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-import { CollapseTitle, SectionTitle, TopWave } from "../../components/";
+import { CollapseInformation, SectionTitle, TopWave } from "../../components/";
 
 export const English = () => {
   return (
@@ -14,8 +14,7 @@ export const English = () => {
         <div>
           <h2 className="pb-3">Structures</h2>
           <div>
-            <CollapseTitle name="Present simple" id="#presentSimple" />
-            <div className="collapse" id="presentSimple">
+            <CollapseInformation name="Present simple" id="presentSimple" >
               <p>
                 We add "s," "es," or "ies" to the verb in the third person
                 singular. To negate and ask questions, we use the auxiliary
@@ -83,11 +82,10 @@ export const English = () => {
                 present, and when something usually happens.
               </p>{" "}
               <br />
-            </div>
+            </CollapseInformation>
             <hr />
 
-            <CollapseTitle name="Past simple" id="#pastSimple" />
-            <div className="collapse" id="pastSimple">
+            <CollapseInformation name="Past simple" id="pastSimple" >
               <ul>
                 <li>To regular verbs, we add "ed", "d", or "ied".</li>
                 <li>
@@ -141,11 +139,10 @@ export const English = () => {
                 <b>Did</b> you make dinner for your mother? <br />
                 <b>Did</b> she make the cake?
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
 
-            <CollapseTitle name="Future simple" id="#futureSimple" />
-            <div className="collapse" id="futureSimple">
+            <CollapseInformation name="Future simple" id="futureSimple" >
               <h5>Affirmative</h5>
               <h6>Structure</h6>
               <p>
@@ -188,12 +185,11 @@ export const English = () => {
                 <b>Will</b> they come in? <br />
                 <b>Will </b> you work for Microsoft?
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
           <div>
-            <CollapseTitle name="Present continuous" id="#presentContinuous" />
-            <div className="collapse" id="presentContinuous">
+            <CollapseInformation name="Present continuous" id="presentContinuous" >
               <h5>Affirmative</h5>
               <h6>Structure</h6>
               <p>
@@ -234,11 +230,10 @@ export const English = () => {
                 <b>Is</b> he <b>playing</b>? <br />
                 Are they <b>playing</b> basketball?
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
 
-            <CollapseTitle name="Past continuous" id="#pastContinuous" />
-            <div className="collapse" id="pastContinuous">
+            <CollapseInformation name="Past continuous" id="pastContinuous" >
               <p>
                 To describe an action that was happening but stopped, we use the
                 past continuous tense. In addition, "be" is used as "was" or
@@ -287,11 +282,10 @@ export const English = () => {
                 <b>Was</b> she <b>running</b> away? <br />
                 <b>Was</b> she <b>playing</b> the piano?
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
 
-            <CollapseTitle name="Future continuous" id="#futureContinuous" />
-            <div className="collapse" id="futureContinuous">
+            <CollapseInformation name="Future continuous" id="futureContinuous" >
               <h5>Affirmative</h5>
               <h6>Structure</h6>
               <p>
@@ -335,13 +329,12 @@ export const English = () => {
                 <br />
                 <b>Will</b> they be finishing their homework by tomorrow?
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
 
           <div>
-            <CollapseTitle name="Present perfect" id="#presentPerfect" />
-            <div className="collapse" id="presentPerfect">
+            <CollapseInformation name="Present perfect" id="presentPerfect" >
               <h5>Affirmative</h5>
               <h6>Structure</h6>
               <p>
@@ -386,11 +379,10 @@ export const English = () => {
                 <b>Has</b> he <b>completed</b> the task? <br />
                 <b>Have</b> they <b>seen</b> the new movie?
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
 
-            <CollapseTitle name="Past perfect" id="#pastPerfect" />
-            <div className="collapse" id="pastPerfect">
+            <CollapseInformation name="Past perfect" id="pastPerfect" >
               <h5>Affirmative</h5>
               <h6>Structure</h6>
               <p>
@@ -435,11 +427,10 @@ export const English = () => {
                 <br />
                 <b>Had</b> he <b>completed</b> the project on time?
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
 
-            <CollapseTitle name="Future Perfect" id="#futurePerfect" />
-            <div className="collapse" id="futurePerfect">
+            <CollapseInformation name="Future Perfect" id="futurePerfect" >
               <h5>Affirmative</h5>
               <h6>Structure</h6>
               <p>
@@ -483,23 +474,21 @@ export const English = () => {
               <p>
                 <b>Will</b> she <b> has finished</b> the test?
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
 
-          <CollapseTitle name="Determinants a/an" id="#determinants" />
-          <div className="collapse" id="determinants">
+          <CollapseInformation name="Determinants a/an" id="determinants">
             <p>
               The easiest way to use a/an is to identify if the word we want to
               allude to begins with a vowel, if so we use "an" (an apple). If it
               starts with a consonant, we use "a" (a pizza).
             </p>
-          </div>
+          </CollapseInformation>
 
           <hr />
 
-          <CollapseTitle name="Modal verbs" id="#modalverbs" />
-          <div className="collapse" id="modalverbs">
+          <CollapseInformation name="Modal verbs" id="modalverbs" >
             <p>
               Modal verbs are a type of auxiliary verb in English that modify
               the meaning of the main verb in a sentence. They express various
@@ -507,7 +496,7 @@ export const English = () => {
               obligation, and more.
             </p>
             <br />
-            
+
             <p>
               <span className="fw-semibold">Can:</span> used to express ability,
               possibility, permission, and requests.
@@ -610,8 +599,7 @@ export const English = () => {
               <li>I shall do my best to help you.</li>
               <li>Shall I call you later to discuss the details?</li>
             </ul>
-
-          </div>
+          </CollapseInformation>
         </div>
       </div>
     </div>

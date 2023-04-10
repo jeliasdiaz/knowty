@@ -1,5 +1,5 @@
 import { ChemistryNav } from "./ChemistryNav"
-import { SectionTitle, CollapseTitle, TopWave, Tooltip } from "../../components/";
+import { SectionTitle, CollapseInformation, TopWave, Tooltip } from "../../components/";
 
 import Latex from "react-latex"
 export const FirstChemistryPeriod = () => {
@@ -19,9 +19,7 @@ export const FirstChemistryPeriod = () => {
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
                     <div>
-                        <CollapseTitle name="Historia de la química" id="#historiaDeLaQuimica" />
-
-                        <div className="collapse" id="historiaDeLaQuimica">
+                        <CollapseInformation name="Historia de la química" id="historiaDeLaQuimica">
                             <h4>Prehistórico (Era primitiva [500 a.c])</h4>
                             <ul>
                                 <li>Descubrimiento y dominación del fuego, siendo la primera reacción química de la humanidad.</li>
@@ -57,14 +55,12 @@ export const FirstChemistryPeriod = () => {
                                 <li>Descubrimiento de la ley de la conservación de la materia.</li>
                                 <li>John Dalton retoma la teoría atómica.</li>
                             </ul>
-                        </div>
+                        </CollapseInformation>
                         <hr />
                     </div>
 
                     <div>
-                        <CollapseTitle name="Conversión de temperatura" id="#escalasDeConversion" />
-
-                        <div className="collapse" id="escalasDeConversion">
+                        <CollapseInformation name="Conversión de temperatura" id="escalasDeConversion">
                             <table className="table table-bordered">
                                 <thead className="table-light">
                                     <tr>
@@ -99,13 +95,12 @@ export const FirstChemistryPeriod = () => {
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
+                        </CollapseInformation>
                         <hr />
                     </div>
 
                     <div>
-                        <CollapseTitle name="Propiedades de la materia" id="#propiedadesMateria" />
-                        <div className="collapse" id="propiedadesMateria">
+                        <CollapseInformation name="Propiedades de la materia" id="propiedadesMateria">
                             <h4>Generales</h4>
                             <div>
                                 <p>
@@ -169,13 +164,12 @@ export const FirstChemistryPeriod = () => {
                                     <span className="fw-semibold">Tenacidad:</span> resistencia de un material a romperse por efecto de una fuerza. <br />
                                 </p>
                             </div>
-                        </div>
+                        </CollapseInformation>
                         <hr />
                     </div>
 
                     <div>
-                        <CollapseTitle name="Separación de mezclas" id="#separacionMezclas" />
-                        <div className="collapse" id="separacionMezclas">
+                        <CollapseInformation name="Separación de mezclas" id="separacionMezclas">
                             <h4>Evaporación</h4>
                             <p>Método físico que permite separar un sólido de un líquido en una mezcla. Se basa en que el punto de fusión del sólido es mayor al punto de ebullición del líquido. Por ejemplo, separar la sal del agua de mar.</p>
 
@@ -211,13 +205,12 @@ export const FirstChemistryPeriod = () => {
 
                             <h4>Sublimación</h4>
                             <p>Paso de un sólido a gas sin pasar por el estado líquido. Se usa la sublimación para separar mezclas de compuestos orgánicos, donde alguno de los compuestos puede sublimar. Por ejemplo, en una mezcla de arena y yodo se puede separar el yodo calentándolo. Este pasa al estado gaseoso subiendo y cuando pasa por una superficie fría vuelve a solidificarse.</p>
-                        </div>
+                        </CollapseInformation>
                         <hr />
                     </div>
 
                     <div>
-                        <CollapseTitle name="Modelos atómicos" id="#modelosAtomicos" />
-                        <div className="collapse" id="modelosAtomicos">
+                        <CollapseInformation name="Modelos atómicos" id="modelosAtomicos">
                             <img src="/img/modelosAtomicos.svg" alt="Modelos atómicos" className="eightyPercentImg rounded-3" />
                             <h4 className="pt-4">Modelo atómico de Dalton</h4>
                             <ul>
@@ -275,7 +268,7 @@ export const FirstChemistryPeriod = () => {
                                 Estas nubes indican las zonas donde sería más probable encontrar un electrón <span className="fw-semibold">si</span> tratáramos de forzarlo a estar allí, debido a que estos (nuevamente por la indeterminación) están y no están en ese lugar.</p>
 
                             <p>Dicho de otro modo, los electrones se comportan como ondas de probabilidad, cuya posición es difusa, siendo los orbitales los lugares más probables para hallar un electrón.</p>
-                        </div>
+                        </CollapseInformation>
                     </div>
                 </div>
             </div>

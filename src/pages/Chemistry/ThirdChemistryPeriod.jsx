@@ -1,5 +1,5 @@
 import { ChemistryNav } from "./ChemistryNav"
-import { SectionTitle, CollapseTitle, MoreBtn, TopWave } from "../../components/";
+import { SectionTitle, CollapseInformation, MoreBtn, TopWave } from "../../components/";
 import Latex from "react-latex";
 
 export const ThirdChemistryPeriod = () => {
@@ -26,8 +26,7 @@ export const ThirdChemistryPeriod = () => {
       <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
         <div>
           <div>
-            <CollapseTitle name="Nomenclaturas" id="#nomenclaturas" />
-            <div className="collapse" id="nomenclaturas">
+            <CollapseInformation name="Nomenclaturas" id="nomenclaturas" >
               <h3>Stock</h3>
               <p>Se usa el tipo de compuesto y luego el nombre del elemento, acompañado con su valencia expresada en números romanos.</p>
               <h5>Ejemplos</h5>
@@ -60,13 +59,12 @@ export const ThirdChemistryPeriod = () => {
                 <br />
                 Óxido perclórico = Cl<sub>2</sub>O<sub>7</sub>
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
 
           <div>
-            <CollapseTitle name="Óxidos" id="#oxidos" />
-            <div className="collapse" id="oxidos">
+            <CollapseInformation name="Óxidos" id="oxidos" >
               <h3>Óxidos basicos</h3>
               <p>Son aquellos que contienen oxígeno y un metal. De hecho, también se les conoce como óxidos metálicos. Ejemplos: dióxido de calcio (CaO), óxido de hierro (III) (Fe<sub>2</sub>O<sub>3</sub>), óxido de magnesio (MgO), etc.</p>
               <h5>Fórmula</h5>
@@ -97,13 +95,12 @@ export const ThirdChemistryPeriod = () => {
                 <br />
                 P<sub>2</sub>O<sub>5</sub>. <br /> <br />
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
 
           <div>
-            <CollapseTitle name="Hidróxidos" id="#hidroxidos" />
-            <div className="collapse" id="hidroxidos">
+            <CollapseInformation name="Hidróxidos" id="hidroxidos" >
               <p>Compuesto químico que contiene un átomo de oxígeno y uno de hidrógeno. A menudo se conoce como "agua con un exceso de oxígeno". Además, se forman por la unión entre un metal o más iones hidroxilo (OH<sup>-</sup>) provenientes del H<sub>2</sub>O</p>
               <h5>Ejemplos</h5>
               <p>
@@ -114,13 +111,12 @@ export const ThirdChemistryPeriod = () => {
                 Hidróxido férrico = Fe(OH)<sub>3</sub> <br /> <br />
 
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
 
           <div>
-            <CollapseTitle name="Peróxidos" id="#peroxidos" />
-            <div className="collapse" id="peroxidos">
+            <CollapseInformation name="Peróxidos" id="peroxidos" >
               <p>Son compuestos altamente reactivos y pueden descomponerse fácilmente, liberando oxígeno. Están formados a partir de la unión de dos átomos de oxígeno (O<sub>2</sub>) en una molécula.</p>
               <h5>Formula</h5>
               <p>
@@ -134,14 +130,13 @@ export const ThirdChemistryPeriod = () => {
                 <br />
                 Peróxido de aluminio = Al<sub>2</sub>(O<sub>2</sub>)<sub>3</sub> <br /> <br />
               </p>
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
 
 
           <div>
-            <CollapseTitle name="Ácidos" id="#acidos" />
-            <div className="collapse" id="acidos">
+            <CollapseInformation name="Ácidos" id="acidos" >
               <p>
                 Son compuestos químicos que tienen propiedades específicas, como la capacidad de donar protones (iones H+) y tener un pH menor a 7 en solución acuosa (mezcla homogénea en la que un componente está disuelto en agua). Formados por un ion de hidrógeno y un anión. Se caracterizan por:
               </p>
@@ -223,13 +218,12 @@ export const ThirdChemistryPeriod = () => {
                 Los ácidos oxácidos, por otro lado, son aquellos que contienen hidrógeno, oxígeno y un elemento no metálico. En la nomenclatura tradicional, se usa la palabra "ácido", seguida de la raíz del elemento no metálico y la terminación -hipo-oso, -oso, -ico, -per-ico.
               </p>
               <br /> <br />
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
 
           <div>
-            <CollapseTitle name="Sales" id="#sales" />
-            <div className="collapse" id="sales">
+            <CollapseInformation name="Sales" id="sales" >
               <p>
                 Son compuestos químicos que se forman a partir de la combinación de ácidos con bases. Pueden ser haloideas, formadas con halógenos (grupo VII-A) o cuaternarias, que contienen hidrógeno en su molécula. <br /><br />
 
@@ -251,29 +245,26 @@ export const ThirdChemistryPeriod = () => {
                   En cuanto a los ácidos, están formados por un elemento no metal y el hidrógeno, en el caso de los hidrácidos (ejemplo: HCl). Los oxácidos contienen hidrógeno, un elemento no metal y oxígeno (ejemplo: H<sub>2</sub>SO<sub>4</sub>).
                 </p>
               </div>
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
 
           <div>
-            <CollapseTitle name="Partes de una ecuación" id="#partesEcuacion" />
-            <div className="collapse" id="partesEcuacion">
+            <CollapseInformation name="Partes de una ecuación" id="partesEcuacion" >
               <img src="/img/partes-ecuacion-quimica.svg" alt="Partes ecuación química" className="rounded-3" />
-            </div>
+            </CollapseInformation>
             <hr />
           </div>
 
           <div>
-            <CollapseTitle name="Balanceo de una ecuación química" id="#balanceoEcuacion" />
-            <div className="collapse" id="balanceoEcuacion">
+            <CollapseInformation name="Balanceo de una ecuación química" id="balanceoEcuacion" >
               <p>
                 Consiste en la búsqueda de coeficientes numéricos que hagan que el número de cada tipo de átomos presentes en la reacción química sea el mismo tanto en reactivos como en productos. Es decir, reside en buscar equilibrio en la ecuación, de tal forma que el número de átomos en ambas partes sea el mismo. <br /> <br />
 
                 De igual importancia, debes tener en cuenta que el subíndice nunca puedes cambiarlo. Solo puedes agregar coeficientes para alcanzar el equilibrio.
               </p>
 
-              <CollapseTitle name="Balanceo por tanteo" id="#balanceoTanteo" />
-              <div className="collapse" id="balanceoTanteo">
+              <CollapseInformation name="Balanceo por tanteo" id="balanceoTanteo" >
                 <p>
                   Se fundamenta en la prueba y error. Puesto que se debe experimentar con coeficientes. Es un proceso que requiere paciencia y práctica. Pero es eficaz para balancear ecuaciones químicas. De esta manera, el número de átomos de los reactivos debe ser igual al número de átomos en los productos.<br /> <br />
                   Pasos a realizar:
@@ -297,13 +288,11 @@ export const ThirdChemistryPeriod = () => {
                 </p>
 
                 <MoreBtn url="https://youtu.be/tX-JRR53Dms" />
-              </div>
+              </CollapseInformation>
 
               <hr />
 
-              <CollapseTitle name="Balanceo por método algebraico" id="#balanceoAlgebraico" />
-              <div className="collapse" id="balanceoAlgebraico">
-
+              <CollapseInformation name="Balanceo por método algebraico" id="balanceoAlgebraico" >
                 <p>
                   Posee cierta relación con el método de tanteo. Ambos darán un mismo resultado; a diferencia del método redox, el cual emplea un procedimiento que se aleja inicialmente de los métodos por tanteo y algebraico. <br /> <br />
 
@@ -342,13 +331,11 @@ export const ThirdChemistryPeriod = () => {
                 </p>
 
                 <MoreBtn url="https://youtu.be/MUukx4RlWmw" />
-              </div>
+              </CollapseInformation>
 
               <hr />
 
-              <CollapseTitle name="Balanceo por método óxido reducción" id="#balanceoRedox" />
-              <div className="collapse" id="balanceoRedox">
-
+              <CollapseInformation name="Balanceo por método óxido reducción" id="balanceoRedox" >
                 <p>
                   Mediante este método hacemos uso de la variación en los estados de oxidación presentes en los elementos. A partir de estos, realizaremos el procedimiento para balancear la ecuación. Es importante aclarar que estos procesos nos ayudan a orientarnos en los coeficientes, debido a que en algunas ocasiones debemos hacer uso de balanceo por tanteo para equilibrar el resto de elementos.
                 </p>
@@ -370,15 +357,14 @@ export const ThirdChemistryPeriod = () => {
                 </p>
 
                 <MoreBtn url="https://youtu.be/bQ0MwYR0oio" />
-              </div>
-            </div>
+              </CollapseInformation>
+            </CollapseInformation>
             <hr />
 
           </div>
 
           <div>
-            <CollapseTitle name="Estequiometría" id="#estequiometria" />
-            <div className="collapse" id="estequiometria">
+            <CollapseInformation name="Estequiometría" id="eestequiometria" >
               <p>
                 Consiste en el proceso mediante el cual se relacionan cantidades de reactivos y productos en una ecuación química; estás cantidades pueden ser moléculas, moles, gramos, átomos, etc. Entre los cálculos tenemos: mol - mol, mol - gramo, gramo - mol, gramo - gramo <br /><br />
                 Ejemplo <br />
@@ -435,7 +421,7 @@ export const ThirdChemistryPeriod = () => {
               <div className="collapse" id="collapseExample">
                 <img src="/img/practicaEstequiometria.svg" alt="Practica estequiometría" className="eightyPercentImg rounded-3" />
               </div>
-            </div>
+            </CollapseInformation>
           </div>
 
         </div>
