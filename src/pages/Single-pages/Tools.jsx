@@ -7,7 +7,7 @@ import { IoIosArrowDown } from "react-icons/io"
 import Latex from "react-latex"
 
 export const Tools = () => {
-    
+
     // Graphicator
     const { graphicData, onInputX, onInputY, onFormSubmit } = useGraphicator()
 
@@ -92,25 +92,30 @@ export const Tools = () => {
                                 }
                             </button>
                             <ul className="dropdown-menu">
-                                <li className="fw-semibold list-styled">Longitud</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionOne("km")}>Km</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionOne("hm")}>Hm</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionOne("dam")}>Dam</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionOne("m")}>m</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionOne("dm")}>dm</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionOne("cm")}>cm</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionOne("mm")}>mm</li>
+                                <div className="d-flex gap-3 p-2">
+                                    <div>
+                                        <li className="fw-semibold list-styled">Longitud</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("km")}>Km</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("hm")}>Hm</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("dam")}>Dam</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("m")}>m</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("dm")}>dm</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("cm")}>cm</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("mm")}>mm</li>
+                                    </div>
 
-                                <hr className="dropdown-divider shadow-none" />
-                                <li className="fw-semibold list-styled">Velocidad</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionOne("km/h")}>km/h</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionOne("m/s")}>m/s</li>
+                                    <div>
+                                        <li className="fw-semibold list-styled">Velocidad</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("km/h")}>km/h</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("m/s")}>m/s</li>
 
-                                <hr className="dropdown-divider shadow-none" />
-                                <li className="fw-semibold list-styled">Temperatura</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionOne("tempC")}>°C</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionOne("tempF")}>°F</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionOne("tempK")}>K</li>
+                                        <hr className="dropdown-divider shadow-none" />
+                                        <li className="fw-semibold list-styled">Temperatura</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("tempC")}>°C</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("tempF")}>°F</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("tempK")}>K</li>
+                                    </div>
+                                </div>
                             </ul>
                         </div>
 
@@ -125,25 +130,30 @@ export const Tools = () => {
                                 }
                             </button>
                             <ul className="dropdown-menu">
-                                <li className="fw-semibold list-styled">Longitud</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionTwo("km")}>Km</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionTwo("hm")}>Hm</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionTwo("dam")}>Dam</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionTwo("m")}>m</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionTwo("dm")}>dm</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionTwo("cm")}>cm</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionTwo("mm")}>mm</li>
-                                <hr className="dropdown-divider shadow-none" />
+                                <div className="d-flex gap-3 p-2">
+                                    <div>
+                                        <li className="fw-semibold list-styled">Longitud</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("km")}>Km</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("hm")}>Hm</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("dam")}>Dam</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("m")}>m</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("dm")}>dm</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("cm")}>cm</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("mm")}>mm</li>
+                                    </div>
 
-                                <li className="fw-semibold list-styled">Velocidad</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionTwo("km/h")}>km/h</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionTwo("m/s")}>m/s</li>
+                                    <div>
+                                        <li className="fw-semibold list-styled">Velocidad</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("km/h")}>km/h</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("m/s")}>m/s</li>
 
-                                <hr className="dropdown-divider shadow-none" />
-                                <li className="fw-semibold list-styled">Temperatura</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionTwo("tempC")}>°C</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionTwo("tempF")}>°F</li>
-                                <li className="list-styled" onClick={() => handleUnitSelectionTwo("tempK")}>K</li>
+                                        <hr className="dropdown-divider shadow-none" />
+                                        <li className="fw-semibold list-styled">Temperatura</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("tempC")}>°C</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("tempF")}>°F</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("tempK")}>K</li>
+                                    </div>
+                                </div>
                             </ul>
                         </div>
                     </div>

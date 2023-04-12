@@ -6,7 +6,7 @@ export const FirstChemistryPeriod = () => {
     const escalasConversionOne = "$$°C + 273$$"
     const escalasConversionTwo = "$$°k \\ - \\ 273$$"
     const escalasConversionThree = "$$1.8(°C) + 32$$"
-    const escalasConversionFour = "$$\\large \\frac{°F \\ - \\ 32}{1.8}$$"
+    const escalasConversionFour = "$$\\frac{5}{9} (°F - 32)$$"
     const escalasConversionFive = "$$\\large\\frac{°F \\ - \\ 32}{1.8  \\ + \\ 273}$$"
     const escalasConversionSix = "$$1.8(°k - 273) + 32$$"
 
