@@ -134,7 +134,7 @@ export const SecondTrigonometryPeriod = () => {
                     </div>
                     <hr />
                     <div>
-                        <CollapseInformation name="Razones trigonométricas" id="razonesTrigonometricas" >
+                        <CollapseInformation name="Razones trigonométricas" id="razonesTrigonometricas">
                             <p>
                                 Son un conjunto de relaciones matemáticas que nos permiten medir ángulos y longitudes de los lados de un triángulo rectángulo. Ante todo, una razón consiste en la relación de dos valores (ejemplo: a/b). Teniendo esto en cuenta, las razones trigonométricas no son más que relaciones que se basan en las medidas de los ángulos y longitudes de los lados del triángulo.
 
