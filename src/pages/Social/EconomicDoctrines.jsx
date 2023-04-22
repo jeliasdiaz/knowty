@@ -5,7 +5,7 @@ export const EconomicDoctrines = () => {
     return (
         <div className="homeCard">
             <TopWave />
-            <SectionTitle title="Doctrinas económicas" />
+            <SectionTitle title="Ideologías económicas" />
 
             <SocialNav />
 

@@ -28,11 +28,11 @@
   color: #e3e3e3 !important;
 }
 
-.dark .subjectLink {
+.dark .subjectLink, .subjectLinkMenu {
   background-color: #28292a;
   color: #e3e3e3;
 }
-.dark .subjectLink:hover {
+.dark .subjectLink:hover, .subjectLinkMenu:hover {
   background-color: #004a77;
 }
 .dark .BiChevronRight {

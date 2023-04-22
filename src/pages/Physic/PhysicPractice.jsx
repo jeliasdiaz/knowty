@@ -173,7 +173,7 @@ export const PhysicPractice = () => {
                         <hr />
                         <div>
                             <h3>M.R.U</h3>
-                            <p>Albert pasea en su patineta a velocidad constante y en línea recta a 12 km/h. Albert, desea recorrer la distancia de su hogar a su colegio, la cuál es de 72 metros. Calculé el tiempo requerido para que Albert llegue a su escuela.</p>
+                            <p>Albert pasea en su patineta a velocidad constante y en línea recta a 12 km/h. Albert, desea recorrer la distancia de su hogar a su colegio, la cuál es de 70 metros. Calculé el tiempo requerido para que Albert llegue a su escuela.</p>
 
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#mru">

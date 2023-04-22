@@ -1,12 +1,12 @@
 //* Operation
-import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Outlet, Navigate } from "react-router-dom";
 import { useEffect, useState, useRef, useLayoutEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTop from "./ScrollToTop";
 
 //* Principal components
-import { Home, InfoPage, English, Search, Blog, NotFound, Icons, Statistic } from "./pages/Single-pages/";
+import { Home, InfoPage, English, Search, Blog, Icons, Statistic } from "./pages/Single-pages/";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 
@@ -162,7 +162,7 @@ function App() {
 
             <Route path="/tools" element={<Tools />} />
 
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           {
             <InstallAppBtn />
