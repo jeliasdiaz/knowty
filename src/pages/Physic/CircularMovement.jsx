@@ -1,5 +1,4 @@
 import Latex from "react-latex"
-import { PhysicNav } from "./PhysicNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import { TopWave } from "../../components/";
 
@@ -23,7 +22,6 @@ export const CircularMovement = () => {
             <TopWave />
             <SectionTitle title="Movimiento circular" />
 
-            <PhysicNav />
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>

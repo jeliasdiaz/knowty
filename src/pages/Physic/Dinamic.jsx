@@ -1,4 +1,3 @@
-import { PhysicNav } from "./PhysicNav.jsx";
 import { SectionTitle, MoreBtn, TopWave } from "../../components/";
 
 export const Dinamic = () => {
@@ -7,7 +6,6 @@ export const Dinamic = () => {
             <TopWave />
             <SectionTitle title="Dinámica" />
 
-            <PhysicNav />
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>

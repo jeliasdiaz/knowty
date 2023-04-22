@@ -1,5 +1,5 @@
 import Latex from "react-latex"
-import { ChemistryNav } from "./ChemistryNav"
+
 import { SectionTitle, CollapseInformation, MoreBtn, TopWave } from "../../components/";
 import { CartesianGrid, Label, Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 
@@ -59,7 +59,7 @@ export const FourthChemistryPeriod = () => {
             <TopWave />
             <SectionTitle title="Química" />
 
-            <ChemistryNav />
+            
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>

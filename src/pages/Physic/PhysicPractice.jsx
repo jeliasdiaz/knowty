@@ -1,6 +1,5 @@
 
 import { SectionTitle, TopWave } from "../../components/";
-import { PhysicNav } from "./PhysicNav";
 import Latex from "react-latex"
 
 export const PhysicPractice = () => {
@@ -114,7 +113,6 @@ export const PhysicPractice = () => {
             <TopWave />
             <SectionTitle title="Practica" />
 
-            <PhysicNav />
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>

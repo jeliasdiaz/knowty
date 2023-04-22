@@ -1,4 +1,3 @@
-import { GeometryNav } from "./GeometryNav"
 import { SectionTitle, MoreBtn, TopWave } from "../../components/";
 
 export const Parable = () => {
@@ -7,7 +6,6 @@ export const Parable = () => {
             <TopWave />
             <SectionTitle title="Parábola"/>
             
-            <GeometryNav/>
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>

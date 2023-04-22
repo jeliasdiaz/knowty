@@ -1,4 +1,4 @@
-import { ChemistryNav } from "./ChemistryNav"
+
 import { SectionTitle, CollapseInformation, TopWave, Tooltip } from "../../components/";
 
 export const SecondChemistryPeriod = () => {
@@ -7,7 +7,6 @@ export const SecondChemistryPeriod = () => {
             <TopWave />
             <SectionTitle title="Química" />
 
-            <ChemistryNav />
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>

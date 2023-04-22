@@ -1,5 +1,4 @@
 import Latex from "react-latex"
-import { PhysicNav } from "./PhysicNav"
 import { SectionTitle, MoreBtn, TopWave } from "../../components/";
 
 export const FluidMechanics = () => {
@@ -28,7 +27,6 @@ export const FluidMechanics = () => {
             <TopWave />
             <SectionTitle title="Mecánica de fluidos" />
 
-            <PhysicNav />
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>

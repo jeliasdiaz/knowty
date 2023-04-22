@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { SectionTitle, TopWave } from "../../components/";
 import Latex from "react-latex"
 
@@ -62,16 +61,6 @@ export const TrigonometryPractice = () => {
             <TopWave />
             <SectionTitle title="Practica" />
 
-            <nav data-aos="zoom-in" data-aos-duration="800" className="d-none d-sm-block" data-aos-once="true">
-                    <ul className="pagination  pagination-md justify-content-center">
-                        <li className="page-item ownShadow-lg"><Link to="/trigonometria_2" className="text-decoration-none page-link">II periodo</Link></li>
-
-                        <li className="page-item ownShadow-lg"><Link to="/trigonometria" className="text-decoration-none page-link" >III periodo</Link></li>
-                        
-                        <li className="page-item ownShadow-lg"><Link to="/trigonometria-practica" className="text-decoration-none page-link">Practica</Link></li>
-
-                    </ul>
-                </nav>
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700">
                 <div >
                     <div className="section">

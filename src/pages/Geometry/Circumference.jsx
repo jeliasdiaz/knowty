@@ -1,5 +1,4 @@
 import Latex from "react-latex"
-import { GeometryNav } from "./GeometryNav"
 import { SectionTitle } from "../../components/SectionTitle";
 import { TopWave } from "../../components/";
 
@@ -13,7 +12,6 @@ export const Circumference = () => {
             <TopWave />
             <SectionTitle title="Circunferencia"/>
             
-            <GeometryNav/>
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>

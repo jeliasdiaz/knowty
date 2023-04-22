@@ -33,28 +33,28 @@ export const Home = () => {
                 <div className="d-flex gap-3">
                   <SubjectCard path="/estadistica" img="estadistica" title="Estadística" animationDelay={600} />
 
-                  <SubjectCard path="/cinematica" img="fisica" title="Física" animationDelay={600} />
+                  <SubjectCard path="/fisica-menu" img="fisica" title="Física" animationDelay={600} />
                 </div>
 
                 <div className="d-flex gap-3 mt-3">
-                  <SubjectCard path="/recta" img="geometria" title="Geometría" animationDelay={800} />
+                  <SubjectCard path="/geometria-menu" img="geometria" title="Geometría" animationDelay={800} />
 
                   <SubjectCard path="/ingles" img="english" title="Inglés" animationDelay={800} />
                 </div>
 
                 <div className="d-flex gap-3 mt-3">
-                  <SubjectCard path="/quimica_1" img="quimica" title="Química" animationDelay={1000} />
+                  <SubjectCard path="/quimica-menu" img="quimica" title="Química" animationDelay={1000} />
 
-                  <SubjectCard path="/sociales_1" img="sociales" title="Sociales" animationDelay={1000} />
+                  <SubjectCard path="/sociales-menu" img="sociales" title="Sociales" animationDelay={1000} />
                 </div>
 
                 <div className="d-flex gap-3 mt-3">
-                  <SubjectCard path="/trigonometria_2" img="trigonometria" title="Trigonometría" marginTop="trigonometryCard" animationDelay={1200} />
+                  <SubjectCard path="/trigonometria-menu" img="trigonometria" title="Trigonometría" marginTop="trigonometryCard" animationDelay={1200} />
 
-                  <SubjectCard path="/introduccion-filosofia" img="filosofia" title="Filosofía" animationDelay={1200} />
+                  <SubjectCard path="/filosofia-menu" img="filosofia" title="Filosofía" animationDelay={1200} />
                 </div>
                 <div className="d-flex gap-3 mt-3">
-                  <SubjectCard path="/vida-y-celulas" img="biologia" title="Biología" animationDelay={1400} />
+                  <SubjectCard path="/biologia-menu" img="biologia" title="Biología" animationDelay={1400} />
 
                   <SubjectCard path="/tools" img="tools" title="Tools" animationDelay={1400} />
                 </div>

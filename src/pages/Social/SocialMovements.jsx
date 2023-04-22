@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import { SocialNav } from "./SocialNav"
 import { SectionTitle, CollapseInformation, TopWave } from "../../components/";
 
 export const SocialMovements = () => {
@@ -8,7 +7,6 @@ export const SocialMovements = () => {
             <TopWave />
             <SectionTitle title="Movimientos sociales" />
 
-            <SocialNav />
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
                 <div>

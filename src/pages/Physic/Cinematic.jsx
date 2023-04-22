@@ -1,5 +1,4 @@
 import Latex from "react-latex"
-import { PhysicNav } from "./PhysicNav.jsx";
 import { SectionTitle, MoreBtn, TopWave } from "../../components/";
 import { CartesianGrid, Label, Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 
@@ -154,7 +153,6 @@ export const Cinematic = () => {
             <TopWave />
             <SectionTitle title="Cinemática" />
 
-            <PhysicNav />
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>

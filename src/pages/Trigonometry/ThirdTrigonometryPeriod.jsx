@@ -1,5 +1,4 @@
 import Latex from "react-latex"
-import { TrigonometryNav } from "./TrigonometryNav"
 import { SectionTitle, CollapseInformation, MoreBtn, TopWave } from "../../components/";
 
 export const ThirdTrigonometryPeriod = () => {
@@ -42,7 +41,6 @@ export const ThirdTrigonometryPeriod = () => {
             <div className="homeTrigonometria">
                 <SectionTitle title="Trigonometría" />
 
-                <TrigonometryNav />
 
                 <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                     <div>

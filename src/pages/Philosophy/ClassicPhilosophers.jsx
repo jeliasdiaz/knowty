@@ -1,5 +1,4 @@
 import { CollapseInformation, SectionTitle, TopWave } from "../../components"
-import { PhilosophyNav } from "./"
 
 export const ClassicPhilosophers = () => {
 
@@ -8,7 +7,6 @@ export const ClassicPhilosophers = () => {
             <TopWave />
             <SectionTitle title="Filósofos clásicos" />
 
-            <PhilosophyNav />
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
 

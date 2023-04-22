@@ -1,4 +1,3 @@
-import { SocialNav } from "./SocialNav"
 import { SectionTitle, CollapseInformation, TopWave } from "../../components/";
 
 export const FirstSocialPeriod = () => {
@@ -7,7 +6,6 @@ export const FirstSocialPeriod = () => {
             <TopWave />
             <SectionTitle title="I periodo" />
 
-            <SocialNav />
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>

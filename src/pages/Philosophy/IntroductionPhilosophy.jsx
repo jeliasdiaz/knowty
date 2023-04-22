@@ -4,7 +4,6 @@ import {
   Tooltip,
   TopWave,
 } from "../../components";
-import { PhilosophyNav } from "./PhilosophyNav";
 
 export const IntroductionPhilosophy = () => {
   return (
@@ -12,7 +11,6 @@ export const IntroductionPhilosophy = () => {
       <TopWave />
       <SectionTitle title="Introducción" />
 
-      <PhilosophyNav />
 
       <div
         className="subjectCard ownShadow"

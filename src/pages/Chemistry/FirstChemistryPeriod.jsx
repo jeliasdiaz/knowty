@@ -1,4 +1,3 @@
-import { ChemistryNav } from "./ChemistryNav"
 import { SectionTitle, CollapseInformation, TopWave, Tooltip } from "../../components/";
 
 import Latex from "react-latex"
@@ -14,7 +13,6 @@ export const FirstChemistryPeriod = () => {
         <div className="homeCard" id="geometria">
             <TopWave />
             <SectionTitle title="Química" />
-            <ChemistryNav />
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
