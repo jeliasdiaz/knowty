@@ -28,7 +28,7 @@
   color: #e3e3e3 !important;
 }
 
-.dark .subjectLink, .subjectLinkMenu {
+.dark .subjectLink, .dark .subjectLinkMenu {
   background-color: #28292a;
   color: #e3e3e3;
 }
