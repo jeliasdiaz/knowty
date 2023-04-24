@@ -1,6 +1,10 @@
-import { CollapseInformation, SectionTitle, TopWave } from "../../components/";
+import { Link } from "react-router-dom";
+import { CollapseInformation, SectionTitle, TopWave } from "../../components";
+import { useState } from "react";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 export const English = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="homeCard" id="geometria">
       <TopWave />
@@ -9,75 +13,16 @@ export const English = () => {
         <CollapseInformation name="Structures" id="structures">
 
           <div>
-            <CollapseInformation name="Present simple" id="presentSimple" >
-              <p>
-                We add "s," "es," or "ies" to the verb in the third person
-                singular. To negate and ask questions, we use the auxiliary
-                verbs "do" and "does," with the latter being used for the third
-                person singular (he, she, it).
-              </p>
-              <span className="fw-semibold">In other words</span>
-              <ul>
-                <li>Add "s", "es" or "ies to the verb.</li>
-                <li>
-                  3<sup>nd</sup> person of singular.
-                </li>
-                <li>
-                  To describe actions we use the structure: S + V * C (She
-                  sings).
-                </li>
-                <li>
-                  To describe states we use the structure: S + be + V + C (She
-                  is a teacher).
-                </li>
-              </ul>
-              <h5>Affirmative</h5>
-              <h6>Structure</h6>
-              <p>
-                Subject + verb + complement <br />
-                <br />
-              </p>
-              <h6>Examples</h6>
-              <p>
-                She loves pizza and brownies <br />
-                He plays the guitar <br />
-                He is eating a slice of pizza
-              </p>
-              <hr />
-              <h5>Negative</h5>
-              <h6>Structure</h6>
-              <p>
-                Subject + <b>doesn't/don't</b> + verb in base form + complement{" "}
-                <br />
-                <br />{" "}
-              </p>
-              <h6>Examples</h6>
-              <p>
-                He doesn't like coffee when he goes to sleep.
-                <br />
-                She <b>doesn't </b> play chess
-              </p>
-              <hr />
-              <h5>Interrogative</h5>
-              <h6>Stucture</h6>
-              <p>
-                <b>Do/Does</b> + Subject + Verb in base form + complement + ?{" "}
-                <br />
-                <br />{" "}
-              </p>
-              <h6>Examples</h6>
-              <p>
-                <b>Does</b> he do his homework? <br />
-                <b>Do</b> you cook turkey?
-              </p>
-              <hr />
-              <h5>When we use it?</h5>
-              <p>
-                We often use it to talk about actions that happens in the
-                present, and when something usually happens.
-              </p>{" "}
-              <br />
-            </CollapseInformation>
+            <Link to="/present-simple" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
+              <div className="d-flex">
+                {
+                  !isOpen
+                    ? <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconDown" />
+                    : <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconUp" />
+                }
+                <h4>Present simple</h4>
+              </div>
+            </Link>
             <hr />
 
             <CollapseInformation name="Past simple" id="pastSimple" >
@@ -472,16 +417,19 @@ export const English = () => {
             </CollapseInformation>
           </div>
         </CollapseInformation>
-        
+
         <hr />
 
-        <CollapseInformation name="Determinants a/an" id="determinants">
-          <p>
-            The easiest way to use a/an is to identify if the word we want to
-            allude to begins with a vowel, if so we use "an" (an apple). If it
-            starts with a consonant, we use "a" (a pizza).
-          </p>
-        </CollapseInformation>
+        <Link to="/determinants" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
+          <div className="d-flex">
+            {
+              !isOpen
+                ? <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconDown" />
+                : <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconUp" />
+            }
+            <h4>Determinants an/a</h4>
+          </div>
+        </Link>
 
         <hr />
 

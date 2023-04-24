@@ -210,6 +210,9 @@ export const FirstChemistryPeriod = () => {
                     <div>
                         <CollapseInformation name="Modelos atómicos" id="modelosAtomicos">
                             <img src="/img/modelosAtomicos.svg" alt="Modelos atómicos" className="eightyPercentImg rounded-3" />
+                            <h4 className="pt-4">Aportes de Leucipo y  Demócrito</h4>
+                            <p>Leucipo consideró que hay cierto punto en el que la materia no puede divirse más, mediante el experimento de cortar un objeto en rebanadas, hasta llegar al punto que no pudiera ser cortada.</p>
+                            <hr />
                             <h4 className="pt-4">Modelo atómico de Dalton</h4>
                             <ul>
                                 <li>Plantea la idea de un átomo macizo. Es quien rescata las ideas de Demócrito (átomos son indivisibles).</li>
@@ -224,7 +227,7 @@ export const FirstChemistryPeriod = () => {
                                 <li>Durante una reacción química los átomos se intercambian, más no sufren transformación alguna, ni se crean o destruyen en el proceso.</li>
                             </ul>
                             <hr />
-                            <h4>Modelo atómico de Thompson</h4>
+                            <h4>Modelo atómico de Thomson</h4>
                             <ul>
                                 <li>Según su modelo atómico, el átomo está formado por electrones de carga negativa incrustados en una esfera de carga positiva, como en un “pudin de pasas”.</li>
                                 <li>Los electrones se encuentran repartidos de forma uniforme por todo el átomo.</li>
@@ -259,13 +262,22 @@ export const FirstChemistryPeriod = () => {
                                 <li>La energía de la órbita está relacionada con su tamaño. La energía más baja se encuentra en la órbita más pequeña. Es decir, entre más lejos esté el nivel de energía del núcleo, mayor será la energía que tiene.</li>
                             </ul>
                             <hr />
+                            <h4>Modelo atómico de Sommerfeld</h4>
+                            <p>
+                                Postuló que dentro de los mismos niveles de energía se encuentran subniveles de energía. También que los electrones se encuentran girando en órbitas eliptícas, y definió el número atómico Azimutal o secundario.   
+                             
+                            </p>
                             <h4>Modelo atómico de Schrödinger</h4>
                             <p>
                                 Entre el mundo cuántico y el mundo que experimentamos normalmente, existe una gran diferencia. La <span className="fw-semibold">indeterminación.</span> Por esta razón, los átomos no poseen un lugar fijo. De ahí que la forma correcta de ver a un electrón girando no es mediante una esfera que sigue un camino, sino, a través de nubes de probabilidad (orbitales), puesto que la posición de los electrones dentro el átomo es indefinida gracias a la indeterminación. <br /><br />
 
-                                Estas nubes indican las zonas donde sería más probable encontrar un electrón <span className="fw-semibold">si</span> tratáramos de forzarlo a estar allí, debido a que estos (nuevamente por la indeterminación) están y no están en ese lugar.</p>
+                                Estas nubes indican las zonas donde sería más probable encontrar un electrón <span className="fw-semibold">si</span> tratáramos de forzarlo a estar allí, debido a que estos (nuevamente por la indeterminación) están y no están en ese lugar.
+                                <br />
+                                <br />
+                                Para llegar a estos postulados, Schrödinger consideró el principio de incertidumbre planteado por Heisenberg, que propone que no podemos conocer la posición y velocidad de las partículas subatómicas dentro de un átomo. Así como la dualidad onda-partícula presentada por Louis de Broglie, que expone que las partículas pueden comportarse como ondas y viceversa, de manera que ambas comparten propiedades entre sí.
+                            </p>
 
-                            <p>Dicho de otro modo, los electrones se comportan como ondas de probabilidad, cuya posición es difusa, siendo los orbitales los lugares más probables para hallar un electrón.</p>
+                            <p>Dicho de otro modo, los electrones se comportan como ondas de probabilidad, cuya posición es incierta, siendo los orbitales los lugares más probables para hallar un electrón.</p>
                         </CollapseInformation>
                     </div>
                 </div>

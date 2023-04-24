@@ -38,6 +38,8 @@ import { IntroductionPhilosophy } from "./pages/Philosophy/IntroductionPhilosoph
 import { LifeAndCells } from "./pages/Biology/";
 import { Tools } from "./pages/Single-pages/Tools";
 import { BiologyMenu } from "./pages/Biology/BiologyMenu";
+import { PresentSimple } from "./pages/English/PresentSimple";
+import { Determinants } from "./pages/English/Determinants";
 
 function App() {
   useEffect(() => {
@@ -123,6 +125,8 @@ function App() {
             <Route path="/quimica_4" element={<FourthChemistryPeriod />} />
 
             <Route path="/ingles" element={<English />} />
+            <Route path="/present-simple" element={<PresentSimple />}/>
+            <Route path="/determinants" element={<Determinants />}/>
 
             <Route path="/recta" element={<Straight />} />
             <Route path="/circunferencia" element={<Circumference />} />
@@ -163,6 +167,7 @@ function App() {
             <Route path="/tools" element={<Tools />} />
 
             <Route path="*" element={<Navigate to="/" />} />
+
           </Routes>
           {
             <InstallAppBtn />

@@ -32,7 +32,7 @@
   background-color: #28292a;
   color: #e3e3e3;
 }
-.dark .subjectLink:hover, .subjectLinkMenu:hover {
+.dark .subjectLink:hover, .dark .subjectLinkMenu:hover {
   background-color: #004a77;
 }
 .dark .BiChevronRight {
@@ -60,6 +60,9 @@
 .dark .table {
   color: #e3e3e3;
   transition: all 0.5s;
+}
+.dark .englishLink {
+  color: #e3e3e3;
 }
 
 .dark .mobileMenu {

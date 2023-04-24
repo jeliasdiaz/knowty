@@ -292,12 +292,18 @@ ul li:before {
   transition: transform 0.2s, background-color 0.2s;
 }
 
-.subjectLink:hover,
+.subjectLink:hover {
+  background-color: #bfdfed;
+  color: #fefefe !important;
+  transform: translateY(-5px) !important;
+}
+
 .subjectLinkMenu:hover {
   background-color: #bfdfed;
   color: #fefefe !important;
   transform: translateY(-5px) !important;
 }
+
 .trigonometryCard h5 {
   font-size: 17.5px;
   margin-left: 0% !important;
@@ -454,6 +460,40 @@ ul li:before {
 
 .practiceImg {
   width: 40%;
+}
+
+/** English space  */
+.englishCardContainer {
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  justify-content: center;
+}
+
+.englishCard {
+  width: 40%;
+  background-color: #28292a;
+  color: #e3e3e3;
+  border-radius: 15px;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+.englishCardStructure {
+  width: 30%;
+  background-color: #28292a;
+  color: #e3e3e3;
+  border-radius: 15px;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+.englishLink{
+  text-decoration: none;
+  color: black;
+}
+.englishCardContainer h4 {
+  color: #2b7ea1;
 }
 
 /** Mobile menu pages */
@@ -674,18 +714,21 @@ ul li:before {
     width: auto;
     display: flex;
   }
+
   .subjectLinkMenuContent {
     position: relative;
     top: 0;
     left: 0;
-    transform: translate(0,0);
+    transform: translate(0, 0);
     width: 100%;
     align-items: center;
     display: flex;
   }
-  .subjectLinkMenuContent h2{
+
+  .subjectLinkMenuContent h2 {
     padding-left: 0.5rem;
   }
+
   .subjectLinkMenuContent img {
     margin-bottom: 0;
   }
@@ -801,6 +844,15 @@ ul li:before {
   .practiceImg {
     width: 70%;
   }
+
+  /** English space  */
+  .englishCard {
+    width: 90%;
+  }
+  .englishCardStructure {
+    width: 90%;
+  }
+
 
   /** Information page */
   .infoOne {
