@@ -61,7 +61,11 @@
   color: #e3e3e3;
   transition: all 0.5s;
 }
-.dark .englishLink {
+.dark .englishCard, .dark .englishCardStructure {
+  background-color: #28292a;
+  color: #e3e3e3;
+}
+.dark .englishLink, .dark .englishSubtitle {
   color: #e3e3e3;
 }
 

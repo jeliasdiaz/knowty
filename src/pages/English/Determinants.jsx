@@ -7,7 +7,7 @@ export const Determinants = () => {
             <SectionTitle title="Determinants" />
 
             <div className="englishCardContainer">
-                <div className="englishCard" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+                <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                     <h4>Uso de -an-</h4>
                     <p className="mt-3">
                         Si la siguiente palabra comienza con una vocal (a, e, i, o, u), se utiliza -an-.
@@ -17,7 +17,7 @@ export const Determinants = () => {
                         <small className="ms-3"><span className="fw-semibold">An</span> apple or <span className="fw-semibold">an</span> umbrella</small>
                     </p>
                 </div>
-                <div className="englishCard" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+                <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                     <h4>Uso de -a-</h4>
                     <p className="mt-3">
                         Si la siguiente palabra comienza con una consonante (b, c, d, f, ...), se utiliza -a-.
