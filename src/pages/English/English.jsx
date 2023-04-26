@@ -1,6 +1,6 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { CollapseInformation, SectionTitle, TopWave } from "../../components";
-import { useState } from "react";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 export const English = () => {

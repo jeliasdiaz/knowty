@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import ScrollToTop from "./ScrollToTop";
 
 //* Principal components
-import { Home, InfoPage, English, Search, Blog, Icons, Statistic } from "./pages/Single-pages/";
+import { Home, InfoPage, English, Search, Blog, Credits, Statistic } from "./pages/Single-pages/";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 
@@ -114,7 +114,7 @@ function App() {
             <Route path="/info" element={<InfoPage />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/busqueda" element={<Search />} />
-            <Route path="/iconos" element={<Icons />} />
+            <Route path="/iconos" element={<Credits />} />
             <Route path="/repeticion-espaciada" element={<SpacedRepetition />} />
             <Route path="/recursos-para-estudiantes" element={<StudentsResources />} />
 
@@ -167,6 +167,7 @@ function App() {
             <Route path="/filosofos-clasicos" element={<ClassicPhilosophers />} />
 
             <Route path="/tools" element={<Tools />} />
+            <Route path="/creditos" element={<Credits />} />
 
             <Route path="*" element={<Navigate to="/" />} />
 

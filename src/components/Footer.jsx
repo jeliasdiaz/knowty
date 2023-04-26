@@ -51,7 +51,7 @@ export const Footer = () => {
       <div className="footerContainer">
         <div className="d-flex justify-content-between">
           <div className="mb-3">
-            <h3 className="contactUs">¡Contactanos!</h3>
+            <h3 className="contactUs">¡Contáctanos!</h3>
             <div className="d-flex gap-2 ">
               <a href="mailto:knowtyinfo@gmail.com" target="_blank" rel="noreferrer" className="footerIcons ownShadow-sm">
                 <div><SiGmail size={30} className="contactIcon" /></div>
