@@ -40,6 +40,7 @@ import { Tools } from "./pages/Single-pages/Tools";
 import { BiologyMenu } from "./pages/Biology/BiologyMenu";
 import { PresentSimple } from "./pages/English/PresentSimple";
 import { Determinants } from "./pages/English/Determinants";
+import { PastSimple } from "./pages/English/PastSimple";
 
 function App() {
   useEffect(() => {
@@ -127,6 +128,7 @@ function App() {
             <Route path="/ingles" element={<English />} />
             <Route path="/present-simple" element={<PresentSimple />}/>
             <Route path="/determinants" element={<Determinants />}/>
+            <Route path="/past-simple" element={<PastSimple/>}/>
 
             <Route path="/recta" element={<Straight />} />
             <Route path="/circunferencia" element={<Circumference />} />

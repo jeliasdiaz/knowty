@@ -52,7 +52,7 @@ export const PresentSimple = () => {
                 </div>
             </div>
 
-            <h1 className="englishSubtitle mt-2">Estructuras</h1>
+            <h1 className="englishSubtitle mt-3">Estructuras</h1>
             <div className="englishCardContainer">
                 <div className="englishCardStructure ownShadow"data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                     <h4>Oraciones afirmativas</h4>
@@ -93,7 +93,7 @@ export const PresentSimple = () => {
                 </div>
             </div>
 
-            <h1 className="englishSubtitle mt-2">Reglas</h1>
+            <h1 className="englishSubtitle mt-3">Reglas</h1>
             <div className="englishCardContainer">
                 <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                     <p>Se agrega "s", "es" o "ies" a los verbos cuando el sujeto está en la tercera persona del singular.</p>

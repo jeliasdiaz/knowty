@@ -25,61 +25,16 @@ export const English = () => {
             </Link>
             <hr />
 
-            <CollapseInformation name="Past simple" id="pastSimple" >
-              <ul>
-                <li>To regular verbs, we add "ed", "d", or "ied".</li>
-                <li>
-                  To describe states we use the same structure of present
-                  simple, we use the verb to be as was or were (she{" "}
-                  <span className="fw-semibold">was</span> a teacher).
-                </li>
-              </ul>
-
-              <h5>Affirmative</h5>
-              <h6>Structure</h6>
-              <p>
-                Subject + <b>did</b> + verb in base form + complement
-                <br />
-                <br />{" "}
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                I <b>did</b> my homework at 3:00 pm <br />I did cook the lunch
-                at the 10:00AM
-              </p>
-
-              <hr />
-
-              <h5>Negative</h5>
-              <h6>Structure</h6>
-              <p>
-                Subject + <b>did + not</b> + verb in base form <br />
-                <b>Or</b> <br /> Subject + <b>didn't</b> + verb in base form{" "}
-                <br /> <br />
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                I <b>didn't</b> work in a cafeteria <br />I <b>didn't</b> do my
-                homeworks
-              </p>
-
-              <hr />
-
-              <h5>Interrogative</h5>
-              <h6>Structure</h6>
-              <p>
-                <b>Did</b> + subject + verb in base form + complement ? <br />
-                <br />
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                <b>Did</b> you make dinner for your mother? <br />
-                <b>Did</b> she make the cake?
-              </p>
-            </CollapseInformation>
+            <Link to="/past-simple" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
+              <div className="d-flex">
+                {
+                  !isOpen
+                    ? <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconDown" />
+                    : <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconUp" />
+                }
+                <h4>Past simple</h4>
+              </div>
+            </Link>
             <hr />
 
             <CollapseInformation name="Future simple" id="futureSimple" >
