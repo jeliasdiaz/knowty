@@ -6,17 +6,6 @@ export const Credits = () => {
             <TopWave />
             <div className="pb-5">
                 <div className="iconsCard ownShadow">
-                    <CollapseInformation name="Colaboradores" id="Colaboradores">
-                        <ul>
-                            <li>Harold Smith Martínez</li>
-                            {/* <li>Henoc Solano</li> */}
-                            <li>Emily María Puello Rodriguez</li>
-                            <li>Miguel Andrés Bujato García</li>
-                        </ul>
-                    </CollapseInformation>
-
-                    <hr />
-
                     <CollapseInformation name="Iconos de Flaticon" id="flaticonIconos">
                         <ul>
                             <li><a href="https://www.flaticon.es/iconos-gratis/grafico-circular" target="_blank" rel="noreferrer" title="gráfico circular iconos" className=" text-decoration-none">Gráfico circular iconos creados por Freepik - Flaticon</a></li>
