@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import { useToggleNavbar, useToggleTheme } from "../hooks/";
@@ -9,6 +9,7 @@ import { IoCaretBackCircle } from "react-icons/io5";
 import { BiSearch } from "react-icons/bi";
 import { HiMoon, HiSun } from "react-icons/hi2";
 import { BsFillLightbulbFill } from "react-icons/bs";
+import { titleContext } from "../context/TitleContextSubject";
 
 export const Navbar = () => {
 
@@ -27,13 +28,22 @@ export const Navbar = () => {
   const navigate = useNavigate()
   const location = useLocation()
 
+  const { titleSubject, titleVisible } = useContext(titleContext)
   return (
-
     <>
       <nav className={`navbar navbar-expand-lg fixed-top ${visible ? "down" : " up"}`}>
         <div className="container-fluid container">
-          <NavLink to="/" className="text-decoration-none bg-transparent"><img src="/img/knowty.png" alt="" className="navbar-brand" /></NavLink>
-
+          {
+            titleVisible && !location.pathname.endsWith("menu") && location.pathname !== "/" ? (
+              <small className="p-2 bg-white rounded-3 text-overflow" data-aos="fade-down">
+                {titleSubject}
+              </small>
+            ) : (
+              <NavLink to="/" className="text-decoration-none bg-transparent" data-aos="fade-down" data-aos-delay="200">
+                <img src="/img/knowty.png" alt="" className="navbar-brand" />
+              </NavLink>
+            )
+          }
           <div className="navbar-nav ownShadow rounded p-1">
             <div className="d-none d-sm-flex gap-1">
               <NavIcon path="/info" icon={<MdInfo size={38} className="navBtn" />} tooltipContent="Información" tooltipId="Informacion" />
@@ -43,7 +53,6 @@ export const Navbar = () => {
               <NavIcon path="/busqueda" icon={<BiSearch size={38} className="navBtn Search" />} tooltipContent="Buscar" tooltipId="buscar" />
 
               <NavIcon path="/blog" icon={<BsFillLightbulbFill size={36} className="navBtn" />} tooltipContent="Consejos" tooltipId="consejos" />
-
             </div>
 
             <div className="d-flex d-sm-none gap-1">
