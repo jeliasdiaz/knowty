@@ -1,7 +1,7 @@
 [
   {
     "name": "Física",
-    "url": "/cinematica",
+    "url": "/fisica-menu",
     "img": "/img/fisicaIcon.png"
   },
   {
@@ -126,7 +126,7 @@
   },
   {
     "name": "Química",
-    "url": "/quimica_1",
+    "url": "/quimica-menu",
     "img": "/img/quimicaIcon.png"
   },
   {
@@ -346,7 +346,7 @@
   },
   {
     "name": "Geometría",
-    "url": "/recta",
+    "url": "/geometria-menu",
     "img": "/img/geometriaIcon.png"
   },
   {
@@ -376,7 +376,7 @@
   },
   {
     "name": "Sociales",
-    "url": "/sociales_1",
+    "url": "/sociales-menu",
     "img": "/img/socialesIcon.png"
   },
   {
@@ -486,7 +486,7 @@
   },
   {
     "name": "Trigonometría",
-    "url": "/trigonometria_2",
+    "url": "/trigonometria-menu",
     "img": "/img/trigonometriaIcon.png"
   },
   {
@@ -516,7 +516,7 @@
   },
   {
     "name": "Filosofía",
-    "url": "/introduccion-filosofia",
+    "url": "/filosofia-menu",
     "img": "/img/filosofiaIcon.png"
   },
   {
@@ -533,5 +533,20 @@
     "name": "Platón",
     "url": "/filosofos-clasicos",
     "img": "/img/filosofiaIcon.png"
+  },
+  {
+    "name": "Biología",
+    "url": "/biologia-menu",
+    "img": "/img/biologiaIcon.png"
+  },
+  {
+    "name": "Células",
+    "url": "/vida-y-celulas",
+    "img": "/img/biologiaIcon.png"
+  },
+  {
+    "name": "Tools",
+    "url": "/tools",
+    "img": "/img/toolsIcon.png"
   }
 ]

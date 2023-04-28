@@ -29,13 +29,21 @@ export const Navbar = () => {
   const location = useLocation()
 
   const { titleSubject, titleVisible } = useContext(titleContext)
+  const path = {
+    home: "/",
+    info: "/info",
+    icons: "/iconos",
+    search: "/busqueda",
+    blog: "/blog",
+    menu: "/menu",
+  }
   return (
     <>
       <nav className={`navbar navbar-expand-lg fixed-top ${visible ? "down" : " up"}`}>
-        <div className="container-fluid container">
+        <div className="container-fluid container gap-2">
           {
-            titleVisible && !location.pathname.endsWith("menu") && location.pathname !== "/" ? (
-              <small className="p-2 bg-white rounded-3 text-overflow" data-aos="fade-down">
+            (titleVisible && titleSubject.length > 0 && ![path.menu, path.home, path.icons, path.search, path.blog, path.info].includes(location.pathname)) ? (
+              <small className="titleSubject text-overflow ownShadow" data-aos="fade-down">
                 {titleSubject}
               </small>
             ) : (

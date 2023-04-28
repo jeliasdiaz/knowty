@@ -11,6 +11,11 @@
   color: #fefefe;
 }
 
+.dark .titleSubject {
+  background-color: #303233;
+  color: #3aa0cc;
+}
+
 .dark .home {
   background-color: #121212;
   color: #e3e3e3;

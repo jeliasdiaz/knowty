@@ -12,12 +12,6 @@ body {
 }
 
 /** Global elements */
-.text-overflow{
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 6em;
-}
 /* Shadows */
 .ownShadow-sm {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;

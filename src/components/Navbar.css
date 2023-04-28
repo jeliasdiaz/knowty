@@ -25,6 +25,18 @@
   gap: 0.5rem;
   margin-left: auto;
 }
+/** Title subject  */
+.titleSubject{
+  padding: 0.7em;
+  background: white;
+  border-radius: 10px;
+}
+.text-overflow{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: fit-content;
+}
 
 /** Nav animation  */
 @keyframes up {
@@ -103,6 +115,9 @@
   }
   .backHoverColor {
     color: black;
+  }
+  .text-overflow {
+    width: 10em;
   }
 }
 @media screen and (max-width: 450px) {
