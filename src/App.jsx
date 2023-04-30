@@ -6,12 +6,15 @@ import "aos/dist/aos.css";
 import ScrollToTop from "./ScrollToTop";
 
 //* Principal components
-import { Home, InfoPage, English, Search, Blog, Credits, Statistic } from "./pages/Single-pages/";
+import { Home, InfoPage, Search, Blog, Credits, Statistic } from "./pages/Single-pages/";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 
 //* Chemistry
 import { FirstChemistryPeriod, FourthChemistryPeriod, SecondChemistryPeriod, ThirdChemistryPeriod, ChemistryMenu } from "./pages/Chemistry";
+
+//* English
+import { English, Determinants, PastSimple, PresentSimple, SimpleFuture } from "./pages/English";
 
 //* Geometry
 import { Circumference, Straight, Ellipse, Parable, GeometryMenu } from "./pages/Geometry";
@@ -38,9 +41,6 @@ import { IntroductionPhilosophy } from "./pages/Philosophy/IntroductionPhilosoph
 import { LifeAndCells } from "./pages/Biology/";
 import { Tools } from "./pages/Single-pages/Tools";
 import { BiologyMenu } from "./pages/Biology/BiologyMenu";
-import { PresentSimple } from "./pages/English/PresentSimple";
-import { Determinants } from "./pages/English/Determinants";
-import { PastSimple } from "./pages/English/PastSimple";
 
 function App() {
   useEffect(() => {
@@ -126,9 +126,10 @@ function App() {
             <Route path="/quimica_4" element={<FourthChemistryPeriod />} />
 
             <Route path="/ingles" element={<English />} />
-            <Route path="/present-simple" element={<PresentSimple />}/>
-            <Route path="/determinants" element={<Determinants />}/>
-            <Route path="/past-simple" element={<PastSimple/>}/>
+            <Route path="/presente-simple" element={<PresentSimple />}/>
+            <Route path="/pasado-simple" element={<PastSimple/>}/>
+            <Route path="/futuro-simple" element={<SimpleFuture/>}/>
+            <Route path="/determinantes" element={<Determinants />}/>
 
             <Route path="/recta" element={<Straight />} />
             <Route path="/circunferencia" element={<Circumference />} />

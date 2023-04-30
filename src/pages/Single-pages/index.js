@@ -1,5 +1,4 @@
 export * from "./Blog"
-export * from "../English/English"
 export * from "./Home"
 export * from "./Credits"
 export * from "./InfoPage"

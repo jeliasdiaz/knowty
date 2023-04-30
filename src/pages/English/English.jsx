@@ -13,7 +13,7 @@ export const English = () => {
         <CollapseInformation name="Structures" id="structures">
 
           <div>
-            <Link to="/present-simple" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
+            <Link to="/presente-simple" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
               <div className="d-flex">
                 {
                   !isOpen
@@ -25,7 +25,7 @@ export const English = () => {
             </Link>
             <hr />
 
-            <Link to="/past-simple" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
+            <Link to="/pasado-simple" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
               <div className="d-flex">
                 {
                   !isOpen
@@ -37,50 +37,16 @@ export const English = () => {
             </Link>
             <hr />
 
-            <CollapseInformation name="Future simple" id="futureSimple" >
-              <h5>Affirmative</h5>
-              <h6>Structure</h6>
-              <p>
-                Subject + <b>will</b> + verb in base form + complement <br />{" "}
-                <br />
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                I <b>will</b> help you <br />I <b>will</b> go to the cafeteria
-              </p>
-
-              <hr />
-
-              <h5>Negative</h5>
-              <h6>Structure</h6>
-              <p>
-                Subject + <b>will + not/ won't</b> + verb in base form +
-                complement <br />
-                <br />
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                They <b>won't</b> travel to Jamaica <br />
-                She <b>won't</b> say to you her number
-              </p>
-
-              <hr />
-
-              <h5>Interrogative</h5>
-              <h6>Structure</h6>
-              <p>
-                <b>Will</b> + subject + verb in base form + complement + ?{" "}
-                <br /> <br />
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                <b>Will</b> they come in? <br />
-                <b>Will </b> you work for Microsoft?
-              </p>
-            </CollapseInformation>
+            <Link to="/futuro-simple" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
+              <div className="d-flex">
+                {
+                  !isOpen
+                    ? <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconDown" />
+                    : <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconUp" />
+                }
+                <h4>Future simple</h4>
+              </div>
+            </Link>
             <hr />
           </div>
           <div>
@@ -375,7 +341,7 @@ export const English = () => {
 
         <hr />
 
-        <Link to="/determinants" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
+        <Link to="/determinantes" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
           <div className="d-flex">
             {
               !isOpen
