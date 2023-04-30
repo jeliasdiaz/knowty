@@ -1,7 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
-import { CollapseInformation, SectionTitle, TopWave } from "../../components";
-import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import { CollapseInformation, SectionTitle, TopWave, EnglishLink } from "../../components";
 
 export const English = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,40 +11,13 @@ export const English = () => {
         <CollapseInformation name="Structures" id="structures">
 
           <div>
-            <Link to="/presente-simple" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
-              <div className="d-flex">
-                {
-                  !isOpen
-                    ? <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconDown" />
-                    : <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconUp" />
-                }
-                <h4>Present simple</h4>
-              </div>
-            </Link>
+            <EnglishLink title="Present Simple" path="/presente-simple" isOpen={isOpen} setIsOpen={setIsOpen}></EnglishLink>
             <hr />
 
-            <Link to="/pasado-simple" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
-              <div className="d-flex">
-                {
-                  !isOpen
-                    ? <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconDown" />
-                    : <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconUp" />
-                }
-                <h4>Past simple</h4>
-              </div>
-            </Link>
+            <EnglishLink title="Past Simple" path="/pasado-simple" isOpen={isOpen} setIsOpen={setIsOpen}></EnglishLink>
             <hr />
 
-            <Link to="/futuro-simple" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
-              <div className="d-flex">
-                {
-                  !isOpen
-                    ? <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconDown" />
-                    : <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconUp" />
-                }
-                <h4>Future simple</h4>
-              </div>
-            </Link>
+            <EnglishLink title="Future Simple" path="/futuro-simple" isOpen={isOpen} setIsOpen={setIsOpen}></EnglishLink>
             <hr />
           </div>
           <div>
@@ -337,134 +308,6 @@ export const English = () => {
               </p>
             </CollapseInformation>
           </div>
-        </CollapseInformation>
-
-        <hr />
-
-        <Link to="/determinantes" className="englishLink" onClick={() => setIsOpen(!isOpen)}>
-          <div className="d-flex">
-            {
-              !isOpen
-                ? <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconDown" />
-                : <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconUp" />
-            }
-            <h4>Determinants an/a</h4>
-          </div>
-        </Link>
-
-        <hr />
-
-        <CollapseInformation name="Modal verbs" id="modalverbs" >
-          <p>
-            Modal verbs are a type of auxiliary verb in English that modify
-            the meaning of the main verb in a sentence. They express various
-            shades of meaning related to possibility, ability, permission,
-            obligation, and more.
-          </p>
-          <br />
-
-          <p>
-            <span className="fw-semibold">Can:</span> used to express ability,
-            possibility, permission, and requests.
-          </p>
-          <ul>
-            <li>Students can learn English.</li>
-            <li>Can I help you?</li>
-          </ul>
-          <br />
-
-          <p>
-            <span className="fw-semibold">Could:</span> used to express
-            posibility or ability in the past, polite requests or offers and,
-            conditional or hypothetical situations.
-          </p>
-          <ul>
-            <li>I could speak Spanish fluently when I lived in Spain.</li>
-            <li>Could you please pass me the salt?</li>
-            <li>
-              If I had more time, I could finish the project by tomorrow.
-            </li>
-          </ul>
-          <br />
-
-          <p>
-            <span className="fw-semibold">May - might:</span> "may" is used to express a higher degree of probability, ask for permission, or express a hypothetical or counterfactual situation in the present or future, while "might" is used to express a lower degree of probability or a hypothetical or counterfactual situation in the past.
-          </p>
-          <ul>
-            <li>
-              It may rain later today. (There's a good chance it will rain.)
-            </li>
-            <li>
-              It might rain later today. (There's a possibility, but it's less
-              likely than with "may".)
-            </li>
-          </ul>
-          <br />
-
-          <p>
-            <span className="fw-semibold">Should:</span> is used to indicate expectation or recommendation, or hypothetical situation. It can
-            also be used to express criticism or regret. It is a versatile
-            verb that can be used in different contexts depending on the
-            situation.
-          </p>
-          <ul>
-            <li>You should study more to pass the exam."</li>
-            <li>You shouldn't have said that to her.</li>
-            <li>It should be sunny tomorrow.</li>
-          </ul>
-          <br />
-
-          <p>
-            <span className="fw-semibold">Must:</span> used to express
-            obligation or necessity. Some of it functions is also express a
-            certainty or strong recommendation, prohibition or negative
-            obligation, etc.
-          </p>
-          <ul>
-            <li>I must finish my work before I can go home.</li>
-            <li>You must see that movie, it's really good.</li>
-            <li>You must not smoke in here.</li>
-          </ul>
-          <br />
-
-          <p>
-            <span className="fw-semibold">Would:</span> used to communicate a conditional or hypothetical situations. It also can be used to describe a repeated action or habit in the past. Moreover, is often used in polite requests or offers.
-          </p>
-          <ul>
-            <li>If I had more time, I would go to the gym.</li>
-            <li>When I was a child, I would often spend hours playing outside.</li>
-            <li>Would you like a cup of tea?</li>
-          </ul>
-          <br />
-
-          <p>
-            <span className="fw-semibold">Ought to:</span> it suggests a stronger obligation than "should", but not as strong as "must".
-          </p>
-          <ul>
-            <li>You ought to eat more vegetables if you want to be healthy.</li>
-            <li>They ought to be here by now.</li>
-            <li>He ought to have finished his homework by now.</li>
-          </ul>
-          <br />
-
-          <p>
-            <span className="fw-semibold">Will:</span> is used to express a range of meanings related to future events or actions.
-          </p>
-          <ul>
-            <li>She will graduate next year.</li>
-            <li>They will be here at 5 pm.</li>
-            <li>He will always stand up for what he believes in.</li>
-          </ul>
-          <br />
-
-          <p>
-            <span className="fw-semibold">Shall:</span> in the past, it was used as an alternative to "will", even you can find it in well known literature books of the past. Nowadays, "shall" is commonly used to form questions to make an offer or suggestion.
-          </p>
-          <ul>
-            <li>Shall we go for a walk later?</li>
-            <li>I shall do my best to help you.</li>
-            <li>Shall I call you later to discuss the details?</li>
-          </ul>
         </CollapseInformation>
       </div>
     </div>

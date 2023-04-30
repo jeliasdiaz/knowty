@@ -6,15 +6,17 @@ import "aos/dist/aos.css";
 import ScrollToTop from "./ScrollToTop";
 
 //* Principal components
-import { Home, InfoPage, Search, Blog, Credits, Statistic } from "./pages/Single-pages/";
-import { Navbar } from "./components/Navbar";
-import { Footer } from "./components/Footer";
+import { Home, InfoPage, Search, Blog, Credits, Statistic, Tools } from "./pages/Single-pages/";
+import { Footer, Navbar, InstallAppBtn, ScrollBtn } from "./components";
+
+//* Biology
+import {LifeAndCells, BiologyMenu} from "./pages/Biology";
 
 //* Chemistry
 import { FirstChemistryPeriod, FourthChemistryPeriod, SecondChemistryPeriod, ThirdChemistryPeriod, ChemistryMenu } from "./pages/Chemistry";
 
 //* English
-import { English, Determinants, PastSimple, PresentSimple, SimpleFuture } from "./pages/English";
+import { English, Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVerbs } from "./pages/English";
 
 //* Geometry
 import { Circumference, Straight, Ellipse, Parable, GeometryMenu } from "./pages/Geometry";
@@ -29,18 +31,11 @@ import { FirstSocialPeriod, EconomicDoctrines, ArmedGroups, SocialMovements, Soc
 import { ThirdTrigonometryPeriod, SecondTrigonometryPeriod, TrigonometryMenu, TrigonometryPractice } from "./pages/Trigonometry/";
 
 //* Philosophy
-import { ClassicPhilosophers, PhilosophyMenu } from "./pages/Philosophy/";
+import { ClassicPhilosophers, PhilosophyMenu, IntroductionPhilosophy } from "./pages/Philosophy/";
 
 //* Blog
 import { SpacedRepetition, StudentsResources } from "./pages/Blog/";
-
-//* Icons credit card
-import { InstallAppBtn } from "./components/InstallAppBtn";
-import { ScrollBtn } from "./components/ScrollBtn";
-import { IntroductionPhilosophy } from "./pages/Philosophy/IntroductionPhilosophy";
-import { LifeAndCells } from "./pages/Biology/";
-import { Tools } from "./pages/Single-pages/Tools";
-import { BiologyMenu } from "./pages/Biology/BiologyMenu";
+import { EnglishMenu } from "./pages/English/EnglishMenu";
 
 function App() {
   useEffect(() => {
@@ -130,6 +125,7 @@ function App() {
             <Route path="/pasado-simple" element={<PastSimple/>}/>
             <Route path="/futuro-simple" element={<SimpleFuture/>}/>
             <Route path="/determinantes" element={<Determinants />}/>
+            <Route path="modal-verbs" element={<ModalVerbs />}/>
 
             <Route path="/recta" element={<Straight />} />
             <Route path="/circunferencia" element={<Circumference />} />
@@ -160,6 +156,7 @@ function App() {
             <Route path="/sociales-menu" element={<SocialMenu />} />
             <Route path="/trigonometria-menu" element={<TrigonometryMenu />} />
             <Route path="/filosofia-menu" element={<PhilosophyMenu />} />
+            <Route path="/ingles-menu" element={<EnglishMenu />} />
 
             <Route path="/fisica-practica" element={<PhysicPractice />} />
             <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />

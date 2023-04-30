@@ -67,9 +67,10 @@ export const Footer = () => {
 
           <div className="d-flex footerSecondFlex">
             <div className="creditos">
-              <h5 className="sectionTitle">Creditos</h5>
+              <h5 className="sectionTitle">Extra</h5>
               <div className="sectionsLinks">
                 <Link to="/iconos" className="d-block text-black">Iconos</Link>
+                <Link to="/info" className="d-block text-black">Nosotros</Link>
               </div>
             </div>
           </div>

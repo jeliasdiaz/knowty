@@ -112,7 +112,58 @@ export const SimpleFuture = () => {
             </div>
 
             <h1 className="englishSubtitle mt-3">Usos con "going to"</h1>
-
+            <div className="englishCardContainer">
+                <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+                    <h5>Cuando se llevarán acabo planes que son 100% seguro que van a ocurrir.</h5>
+                    <p className="mt-3">
+                        <span className="fw-semibold">Ejemplo:</span>
+                        <br />
+                        <small className="ms-3">I am going to see you this holiday season</small>
+                        <br />
+                        <small className="ms-3">(Iré a verte estas vacaciones)</small>
+                    </p>
+                </div>
+            </div>
+            
+            <h1 className="englishSubtitle mt-3">Estructuras con "going to"</h1>
+            <div className="englishCardContainer">
+                <div className="englishCardStructure ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+                    <h4>Oraciones afirmativas</h4>
+                    <h5>S + to be + Going to + V + C</h5>
+                    <small>Be = [am, is, are]</small>
+                    <p className="mt-3">
+                        <span className="fw-semibold">Ejemplo:</span>
+                        <br />
+                        <small className="ms-3">I'm going to ea a sandwich tonight.</small>
+                        <br />
+                        <small className="ms-3">Voy a comer un sandwich esta noche.</small>
+                    </p>
+                </div>
+                <div className="englishCardStructure ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+                    <h4>Oraciones negativas</h4>
+                    <h5>S + to be + not + Going to + V + C</h5>
+                    <p className="mt-3">
+                        <span className="fw-semibold">Ejemplo:</span>
+                        <br />
+                        <small className="ms-3">She's not going to go to the cinema with us.</small>
+                        <br />
+                        <small className="ms-3">Ella no va a ir al cine con nosotros.</small>
+                    </p>
+                </div>
+                <div className="englishCardStructure ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+                    <h4>Oraciones interrogativas</h4>
+                    <small>Acciones</small>
+                    <h5>To be + S + Going to + V + C + ?</h5>
+                    <br />
+                    <p className="mt-3">
+                        <span className="fw-semibold">Ejemplo:</span>
+                        <br />
+                        <small className="ms-3">Are you going to write the email for the client?</small>
+                        <br />
+                        <small className="ms-3">¿Tú vas a escribir el correo electrónico para el cliente?</small>
+                    </p>
+                </div>
+            </div>
         </div>
     )
 }

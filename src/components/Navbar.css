@@ -116,9 +116,6 @@
   .backHoverColor {
     color: black;
   }
-  .text-overflow {
-    width: 10em;
-  }
 }
 @media screen and (max-width: 450px) {
   .navbar-brand {

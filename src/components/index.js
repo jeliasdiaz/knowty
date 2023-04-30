@@ -15,3 +15,4 @@ export * from "./TopWave";
 export * from "./NoResultCard";
 export * from "./ResultCard";
 export * from "./ScrollBtn";
+export * from "./EnglishLink"

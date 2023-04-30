@@ -15,7 +15,7 @@ export const MenuCard = ({ url, img, title }) => {
             <div className="subjectLinkMenu ownShadow" data-aos="fade-up" data-aos-duration="1000">
                 <div className="subjectLinkMenuContent">
                     <img src={`/img/${img}`} alt="subject img" className="w-25 pe-2" />
-                    <h2>{title}</h2>
+                    <h4>{title}</h4>
                 </div>
             </div>
         </Link >
