@@ -36,10 +36,10 @@ export const Navbar = () => {
       <nav className={`navbar navbar-expand-lg fixed-top ${visible ? "down" : " up"}`}>
         <div className="container-fluid container gap-2">
           {
-            showTitle
+            showTitle && titleSubject.length > 0
               ? (
                 <small className="titleSubject text-overflow ownShadow" data-aos="fade-down">
-                  {titleSubject}
+                  { titleSubject }
                 </small>
               ) : (
                 <NavLink to="/" className="text-decoration-none bg-transparent" data-aos="fade-down" data-aos-delay="200">

@@ -62,7 +62,7 @@ export const PresentSimple = () => {
                         <br />
                         <small className="ms-3">I play soccer</small>
                         <br />
-                        <small className="ms-3">Yo juego de futbol</small>
+                        <small className="ms-3">Yo juego fútbol</small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow"data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -73,7 +73,7 @@ export const PresentSimple = () => {
                         <br />
                         <small className="ms-3">I do not/don't play soccer</small>
                         <br />
-                        <small className="ms-3">Yo no juego de futbol</small>
+                        <small className="ms-3">Yo no juego fútbol</small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow"data-aos="fade-up" data-aos-duration="600" data-aos-once="true">

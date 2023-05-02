@@ -1,4 +1,4 @@
-import { SectionTitle, TopWave } from "../../components"
+import { SectionTitle, Tooltip, TopWave } from "../../components"
 
 export const SimpleFuture = () => {
 
@@ -72,7 +72,7 @@ export const SimpleFuture = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">They won't cook this week.</small>
+                        <small className="ms-3">They <Tooltip content={<span>Will not</span>} text={<span>won't</span>} id="wont" /> cook this week.</small>
                         <br />
                         <small className="ms-3">Ellos no cocinarán esta semana.</small>
                     </p>
@@ -134,7 +134,7 @@ export const SimpleFuture = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">I'm going to ea a sandwich tonight.</small>
+                        <small className="ms-3">I'm going to eat a sandwich tonight.</small>
                         <br />
                         <small className="ms-3">Voy a comer un sandwich esta noche.</small>
                     </p>

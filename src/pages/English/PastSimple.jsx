@@ -1,5 +1,5 @@
 import Latex from "react-latex"
-import { SectionTitle, TopWave } from '../../components'
+import { SectionTitle, Tooltip, TopWave } from '../../components'
 
 export const PastSimple = () => {
     const ARROW = `$$\\rightarrow$$`
@@ -62,7 +62,7 @@ export const PastSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">I went to the clothing store</small>
+                        <small className="ms-3">I <Tooltip content={<span>Verb</span>} text={<span>went</span>} id="went" /> to the clothing store</small>
                         <br />
                         <small className="ms-3">Fuí a la tienda de ropa</small>
                     </p>
@@ -83,8 +83,6 @@ export const PastSimple = () => {
                     <h4>Oraciones interrogativas</h4>
                     <small>Acciones</small>
                     <h5>Did + S + V + C + ?</h5>
-                    <br />
-                    <small>Estados</small>
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
