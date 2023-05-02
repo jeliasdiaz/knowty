@@ -5,6 +5,7 @@ import { AiFillYoutube, AiFillInstagram } from "react-icons/ai";
 import { BsMegaphoneFill } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import { HiCode } from "react-icons/hi";
+import { ContactForm } from "./ContactForm";
 
 export const Footer = () => {
   const date = new Date()
@@ -47,7 +48,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-
+      <ContactForm />
       <div className="footerContainer">
         <div className="d-flex justify-content-between">
           <div className="mb-3">
