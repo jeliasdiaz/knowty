@@ -52,16 +52,16 @@ export const Footer = () => {
       <div className="footerContainer">
         <div className="d-flex justify-content-between">
           <div className="mb-3">
-            <h3 className="contactUs">¡Contáctanos!</h3>
+            <h3 className="contactUs">¡Nuestras redes!</h3>
             <div className="d-flex gap-2 ">
               <a href="mailto:knowtyinfo@gmail.com" target="_blank" rel="noreferrer" className="footerIcons ownShadow-sm">
-                <div><SiGmail size={30} className="contactIcon" /></div>
+                <SiGmail size={30} className="contactIcon" />
               </a>
               <a href="https://www.youtube.com/@KnowtyChannel" target="_blank" rel="noreferrer" className="footerIcons ownShadow-sm">
-                <div><AiFillYoutube size={30} className="contactIcon" /></div>
+                <AiFillYoutube size={30} className="contactIcon" />
               </a>
               <a href="https://www.instagram.com/knowtyland/" target="_blank" rel="noreferrer" className="footerIcons ownShadow-sm">
-                <div><AiFillInstagram size={30} className="contactIcon" /></div>
+                <AiFillInstagram size={30} className="contactIcon" />
               </a>
             </div>
           </div>

@@ -17,8 +17,8 @@ export const ContactForm = () => {
   };
 
     return (
-        <div className="container">
-            <div className="titleForm ownShadow">
+        <div className="containerForm">
+            <div className="titleForm ownShadow-lg">
                 <div className="titleFormItem left">
                     <div className="title">
                         <span>CONTACTANOS</span>

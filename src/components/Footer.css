@@ -113,7 +113,7 @@
   padding: 5%;
   background: white;
   border-radius: 50%;
-  width: 3rem;
+  width: fit-content;
   object-fit: cover;
   transition: 0.2s;
 }
@@ -206,9 +206,8 @@
 }
 
 
-
  /* Form styles */
-.container {
+.containerForm {
   margin: auto;
   padding: 3%;
 }
@@ -216,7 +215,6 @@
 .titleForm {
   display: flex;
   align-items: center;
-  background-color: #28292a;
   padding: 5%;
   border-radius: 15px;
 }
@@ -265,6 +263,7 @@
   font-size: 14px;
   outline: none;
   transition: border-color .2s;
+  color: black;
 }
 
 .app-form-control::placeholder {

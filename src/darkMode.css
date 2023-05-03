@@ -140,10 +140,13 @@
 .dark .copyright {
   color: #899bb6;
 }
-.dark .footerIcons {
+.dark .footerIcons, .dark .titleForm {
   background-color: #28292a;
 }
 .dark .contactIcon {
+  color: white;
+}
+.dark .app-form-control {
   color: white;
 }
 
