@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser"
 import "./Footer.css"
 export const ContactForm = () => {
@@ -14,8 +14,24 @@ export const ContactForm = () => {
       }, (error) => {
           console.log(error.text);
       });
+    
+      setEmail("")
   };
 
+    const [email, setEmail] = useState("")
+    const [emailError, setEmailError] = useState("");
+    const onEmail = (e) => {
+        const mailValidation = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      
+        const enteredEmail = e.target.value;
+        setEmail(enteredEmail);
+      
+        if (enteredEmail.match(mailValidation)) {
+          setEmailError("");
+        } else if(!enteredEmail.match(mailValidation) && enteredEmail.length > 5){
+          setEmailError("Por favor, ingresa un correo válido.");
+        }
+      };
     return (
         <div className="containerForm">
             <div className="titleForm ownShadow-lg">
@@ -30,13 +46,18 @@ export const ContactForm = () => {
                             <input className="app-form-control" placeholder="Nombre" name="user_name" required/>
                         </div>
                         <div className="app-form-group">
-                            <input className="app-form-control" placeholder="Correo" name="user_email" required/>
+                            <input className="app-form-control" placeholder="Correo" name="user_email" value={email} onInput={onEmail} />
+                            {emailError && <small className="errorMesageEmail">{emailError}</small>}
                         </div>
                         <div className="app-form-group message">
                             <input className="app-form-control" placeholder="Mensaje" name="message" required />
                         </div>
                         <div className="app-form-group buttons">
-                            <button className="app-form-button">SEND</button>
+                            {
+                                emailError 
+                                    ? <button className="app-form-button-disabled" disabled >SEND</button>
+                                    : <button className="app-form-button" >SEND</button>
+                            }
                         </div>
                     </form>
                 </div>

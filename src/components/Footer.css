@@ -284,8 +284,20 @@
 }
 
 .app-form-button:hover {
-  color: #256885;
+  color: #21607a;
 } 
+
+.app-form-button-disabled {
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  color: #21607a;
+}
+.errorMesageEmail {
+  color: #f57070;
+}
 @media screen and (max-width: 320px) {
   .app-form {
     width: 100% !important;
