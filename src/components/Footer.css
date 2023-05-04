@@ -132,78 +132,7 @@
   transition: all 0.2s;
 }
 
-@media screen and (max-width: 800px) {
-  .textFooter {
-    padding-top: 16%;
-    margin-left: 0%;
-    margin: auto;
 
-  }
-
-  .textFooter h1 {
-    font-size: 46px;
-    width: 13rem !important;
-    padding: 3%;
-  }
-
-  .footerContainer {
-    margin-right: 5%;
-    margin-left: 5%;
-    padding-top: 15%;
-  }
-
-  .sectionTitleCreditos {
-    text-align: right;
-  }
-
-  .footerSecondFlex {
-    padding-right: 3%;
-  }
-
-  .creditos {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .sectionsLinks {
-    text-align: right;
-  }
-
-  .sectionsLinks a {
-    font-size: 15px;
-  }
-
-
-  /* Form styles */
-
-  .titleForm {
-    flex-direction: column;
-    margin: auto;
-  }
-
-  .titleFormItem.left {
-    margin-bottom: 30px;
-  }
-
-  .title {
-    flex-direction: row;
-  }
-
-  .title span {
-    margin-right: 12px;
-  }
-
-  .title:after {
-    display: none;
-  }
-  .screen-body-item {
-    display: flex;
-    justify-content: center;
-  }
-  .app-form {
-    width: 20em !important;
-  }
-}
 
 
  /* Form styles */
@@ -217,6 +146,8 @@
   align-items: center;
   padding: 5%;
   border-radius: 15px;
+  width: 90%;
+  margin-inline: auto;
 }
 
 .titleFormItem {
@@ -298,6 +229,81 @@
 .errorMesageEmail {
   color: #f57070;
 }
+
+@media screen and (max-width: 800px) {
+  .textFooter {
+    padding-top: 16%;
+    margin-left: 0%;
+    margin: auto;
+
+  }
+
+  .textFooter h1 {
+    font-size: 46px;
+    width: 13rem !important;
+    padding: 3%;
+  }
+
+  .footerContainer {
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 15%;
+  }
+
+  .sectionTitleCreditos {
+    text-align: right;
+  }
+
+  .footerSecondFlex {
+    padding-right: 3%;
+  }
+
+  .creditos {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .sectionsLinks {
+    text-align: right;
+  }
+
+  .sectionsLinks a {
+    font-size: 15px;
+  }
+
+
+  /* Form styles */
+
+  .titleForm {
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+
+  .titleFormItem.left {
+    margin-bottom: 30px;
+  }
+
+  .title {
+    flex-direction: row;
+  }
+
+  .title span {
+    margin-right: 12px;
+  }
+
+  .title:after {
+    display: none;
+  }
+  .screen-body-item {
+    display: flex;
+    justify-content: center;
+  }
+  .app-form {
+    width: 20em !important;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .app-form {
     width: 100% !important;
