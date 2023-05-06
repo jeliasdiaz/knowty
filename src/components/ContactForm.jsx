@@ -4,34 +4,35 @@ import "./Footer.css"
 export const ContactForm = () => {
     const form = useRef()
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    emailjs.sendForm('service_xhxomcp', 'template_1j6k309', form.current, '7Kg2oCK8qyZmPM9z_')
-      .then((result) => {
-          console.log(result.text);
-          e.target.reset()
-      }, (error) => {
-          console.log(error.text);
-      });
-    
-      setEmail("")
-  };
+        emailjs.sendForm('service_xhxomcp', 'template_1j6k309', form.current, '7Kg2oCK8qyZmPM9z_')
+            .then((result) => {
+                console.log(result.text);
+                e.target.reset()
+            }, (error) => {
+                console.log(error.text);
+            });
+
+        setEmail("")
+    };
 
     const [email, setEmail] = useState("")
     const [emailError, setEmailError] = useState("");
     const onEmail = (e) => {
         const mailValidation = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/g;
-      
+
         const enteredEmail = e.target.value;
         setEmail(enteredEmail);
-      
+
         if (enteredEmail.match(mailValidation)) {
-          setEmailError("");
-        } else if(!enteredEmail.match(mailValidation) && enteredEmail.length > 5){
-          setEmailError("Por favor, ingresa un correo válido.");
+            setEmailError("");
+        } else if (!enteredEmail.match(mailValidation) && enteredEmail.length > 5) {
+            setEmailError("Por favor, ingresa un correo válido.");
         }
-      };
+    };
+
     return (
         <div className="containerForm">
             <div className="titleForm ownShadow-lg">
@@ -43,7 +44,7 @@ export const ContactForm = () => {
                 <div className="screen-body-item">
                     <form ref={form} className="app-form" onSubmit={sendEmail} >
                         <div className="app-form-group">
-                            <input className="app-form-control" placeholder="Nombre" name="user_name" required/>
+                            <input className="app-form-control" placeholder="Nombre" name="user_name" required />
                         </div>
                         <div className="app-form-group">
                             <input className="app-form-control" placeholder="Correo" name="user_email" value={email} onInput={onEmail} />
@@ -54,7 +55,7 @@ export const ContactForm = () => {
                         </div>
                         <div className="app-form-group buttons">
                             {
-                                emailError 
+                                emailError
                                     ? <button className="app-form-button-disabled" disabled >SEND</button>
                                     : <button className="app-form-button" >SEND</button>
                             }

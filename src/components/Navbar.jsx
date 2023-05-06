@@ -4,11 +4,11 @@ import "./Navbar.css";
 import { useToggleNavbar, useToggleTheme } from "../hooks/";
 import { NavIcon } from "./NavIcon";
 import { AiFillHome } from "react-icons/ai";
-import { IoCaretBackCircle } from "react-icons/io5";
 import { BiSearch } from "react-icons/bi";
 import { HiMoon, HiSun } from "react-icons/hi2";
 import { BsFillLightbulbFill } from "react-icons/bs";
 import { titleContext } from "../context/TitleContextSubject";
+import { IoMdArrowBack } from "react-icons/io";
 
 export const Navbar = () => {
 
@@ -73,7 +73,7 @@ export const Navbar = () => {
             }
 
             {
-              location.pathname === "/" ? '' : <span onClick={() => navigate(-1)} className="navBtn"><IoCaretBackCircle size={38} data-aos="fade-left" data-aos-duration="600" /></span>
+              location.pathname === "/" ? '' : <span onClick={() => navigate(-1)} className="navBtn"><IoMdArrowBack size={38} data-aos="fade-left" data-aos-duration="600" /></span>
             }
           </div>
         </div>
