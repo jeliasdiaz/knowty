@@ -1,16 +1,18 @@
 import { Link } from "react-router-dom"
 import { MdOutlineKeyboardArrowDown } from "react-icons/md"
-import { useContext } from "react"
+import { useContext, useState } from "react"
 import { titleContext } from "../context/TitleContextSubject"
 import PropTypes from 'prop-types'
 
-export const EnglishLink = ({isOpen, setIsOpen, title, path}) => {
-    const {onTitleSubject} = useContext(titleContext)
+export const EnglishLink = ({ title, path }) => {
+    const { onTitleSubject } = useContext(titleContext)
     const handleClick = () => {
         onTitleSubject(title)
         setIsOpen(!isOpen)
     }
-    
+
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
         <Link to={path} className="englishLink" onClick={handleClick}>
             <div className="d-flex">
@@ -26,8 +28,6 @@ export const EnglishLink = ({isOpen, setIsOpen, title, path}) => {
 }
 
 EnglishLink.propTypes = {
-    isOpen: PropTypes.bool.isRequired,
-    setIsOpen: PropTypes.func.isRequired,
     title: PropTypes.string.isRequired,
     path: PropTypes.string.isRequired
 };

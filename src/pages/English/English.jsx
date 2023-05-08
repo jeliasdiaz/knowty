@@ -1,120 +1,27 @@
-import { useState } from "react";
 import { CollapseInformation, SectionTitle, TopWave, EnglishLink } from "../../components";
 
 export const English = () => {
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="homeCard" id="geometria">
       <TopWave />
       <SectionTitle title="Inglés" />
       <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
-        <CollapseInformation name="Structures" id="structures">
 
           <div>
-            <EnglishLink title="Present Simple" path="/presente-simple" isOpen={isOpen} setIsOpen={setIsOpen}></EnglishLink>
+            <EnglishLink title="Present simple" path="/presente-simple" />
             <hr />
 
-            <EnglishLink title="Past Simple" path="/pasado-simple" isOpen={isOpen} setIsOpen={setIsOpen}></EnglishLink>
+            <EnglishLink title="Past simple" path="/pasado-simple" />
             <hr />
 
-            <EnglishLink title="Future Simple" path="/futuro-simple" isOpen={isOpen} setIsOpen={setIsOpen}></EnglishLink>
+            <EnglishLink title="Future simple" path="/futuro-simple" />
             <hr />
           </div>
           <div>
-            <CollapseInformation name="Present continuous" id="presentContinuous" >
-              <h5>Affirmative</h5>
-              <h6>Structure</h6>
-              <p>
-                Subject + am/is/are + <b>verb with ing</b> + complement <br />{" "}
-                <br />
-              </p>
 
-              <h6>Examples</h6>
-              <p>
-                He is <b>playing</b> <br />I am <b>studying</b> for my exams.
-              </p>
-
-              <hr />
-
-              <h5>Negative</h5>
-              <h6>Structure</h6>
-              <p>
-                Subject + am/is/are <b>(not)</b> + <b>verb with ing</b> <br />{" "}
-                <br />{" "}
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                He is<b>n't</b> <b>playing</b> <br />
-                She is not watching TV.
-              </p>
-
-              <hr />
-
-              <h5>Interrogative</h5>
-              <h6>Structure</h6>
-              <p>
-                <b>Am/is/are</b> + subject + <b>verb with ing</b> <br /> <br />{" "}
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                <b>Is</b> he <b>playing</b>? <br />
-                Are they <b>playing</b> basketball?
-              </p>
-            </CollapseInformation>
+            <EnglishLink title="Present continuous" path="/presente-continuo" />
             <hr />
-
-            <CollapseInformation name="Past continuous" id="pastContinuous" >
-              <p>
-                To describe an action that was happening but stopped, we use the
-                past continuous tense. In addition, "be" is used as "was" or
-                "were".
-              </p>
-
-              <h5>Affirmative</h5>
-              <h6>Structure</h6>
-              <p>
-                Subject + <b>was/were</b> + <b>verb with ing </b>
-                <br />
-                <br />{" "}
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                He <b>was</b> <b>telling</b> her something <br />
-                She <b>was singing</b> a song
-              </p>
-
-              <hr />
-
-              <h5>Negative</h5>
-              <h6>Structure</h6>
-              <p>
-                Subject + <b>was/were + not</b> + <b>verb with ing</b> <br />{" "}
-                <br />{" "}
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                They <b>weren't</b> <b>swimming </b> in the pool <br />
-                He <b>was not eating</b> his dinner.
-              </p>
-
-              <hr />
-
-              <h5>Interrogative</h5>
-              <h6>Structure</h6>
-              <p>
-                <b>Was/were</b> + subject + <b>verb with ing</b> + ? <br />
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                <b>Was</b> she <b>running</b> away? <br />
-                <b>Was</b> she <b>playing</b> the piano?
-              </p>
-            </CollapseInformation>
+            <EnglishLink title="Past continuous" path="/pasado-continuo" />
             <hr />
 
             <CollapseInformation name="Future continuous" id="futureContinuous" >
@@ -308,7 +215,6 @@ export const English = () => {
               </p>
             </CollapseInformation>
           </div>
-        </CollapseInformation>
       </div>
     </div>
   );

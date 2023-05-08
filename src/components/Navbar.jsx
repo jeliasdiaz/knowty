@@ -8,8 +8,7 @@ import { BiSearch } from "react-icons/bi";
 import { HiMoon, HiSun } from "react-icons/hi2";
 import { BsFillLightbulbFill } from "react-icons/bs";
 import { titleContext } from "../context/TitleContextSubject";
-import { IoMdArrowBack } from "react-icons/io";
-
+import { IoArrowBack } from "react-icons/io5";
 export const Navbar = () => {
 
   // Toggle navbar
@@ -73,7 +72,7 @@ export const Navbar = () => {
             }
 
             {
-              location.pathname === "/" ? '' : <span onClick={() => navigate(-1)} className="navBtn"><IoMdArrowBack size={38} data-aos="fade-left" data-aos-duration="600" /></span>
+              location.pathname === "/" ? '' : <span onClick={() => navigate(-1)} className="navBtn"><IoArrowBack size={38} data-aos="fade-left" data-aos-duration="600" /></span>
             }
           </div>
         </div>

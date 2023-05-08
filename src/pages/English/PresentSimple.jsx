@@ -6,7 +6,7 @@ export const PresentSimple = () => {
     return (
         <div className="homeCard">
             <TopWave />
-            <SectionTitle title="Present Simple" />
+            <SectionTitle title="Present simple" />
 
             <h1 className="englishSubtitle">Usos</h1>
             <div className="englishCardContainer"data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
