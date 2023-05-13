@@ -5,7 +5,7 @@ export const periodicContext = createContext()
 export const PeriodicElementContext = ({children}) => {
     const [periodicProperties, setperiodicProperties] = useState({
         name: "",
-        number: 1,
+        number: 0,
         summary: "",
         symbol: "",
     })

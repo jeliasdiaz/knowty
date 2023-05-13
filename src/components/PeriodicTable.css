@@ -30,11 +30,6 @@
     transform: scale(1.25, 1.25);
     z-index: 1;
 }
-.clicked {
-    transform: scale(1.5, 1.5);
-    z-index: 10;
-}
-
 .elementActive {
     background: white;
     border: 1px solid #aaa;
