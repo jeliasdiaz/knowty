@@ -33,7 +33,7 @@ export const Navbar = () => {
   return (
     <>
       <nav className={`navbar navbar-expand-lg fixed-top ${visible ? "down" : " up"}`}>
-        <div className="container-fluid container gap-2">
+        <div className="container-fluid container gap-2 ">
           {
             showTitle && titleSubject.length > 0
               ? (
@@ -48,31 +48,31 @@ export const Navbar = () => {
           }
           <div className="navbar-nav ownShadow rounded p-1">
             <div className="d-none d-sm-flex gap-1">
-              <NavIcon path="/" icon={<AiFillHome size={38} className="navBtn" />} tooltipContent="Inicio" tooltipId="inicio" />
+              <NavIcon path="/" icon={<AiFillHome size={40} className="navBtn" />} tooltipContent="Inicio" tooltipId="inicio" />
 
-              <NavIcon path="/busqueda" icon={<BiSearch size={38} className="navBtn Search" />} tooltipContent="Buscar" tooltipId="buscar" />
+              <NavIcon path="/busqueda" icon={<BiSearch size={40} className="navBtn Search" />} tooltipContent="Buscar" tooltipId="buscar" />
 
-              <NavIcon path="/blog" icon={<BsFillLightbulbFill size={36} className="navBtn" />} tooltipContent="Consejos" tooltipId="consejos" />
+              <NavIcon path="/blog" icon={<BsFillLightbulbFill size={38} className="navBtn" />} tooltipContent="Consejos" tooltipId="consejos" />
             </div>
 
             <div className="d-flex d-sm-none gap-1">
-              <NavLink to="/"><AiFillHome size={38} className="navBtn" /></NavLink>
+              <NavLink to="/"><AiFillHome size={40} className="navBtn" /></NavLink>
 
-              <NavLink to="/busqueda"><BiSearch size={38} className="navBtn Search" /></NavLink>
+              <NavLink to="/busqueda"><BiSearch size={40} className="navBtn Search" /></NavLink>
 
-              <NavLink to="/blog"><BsFillLightbulbFill size={36} className="navBtn" /></NavLink>
+              <NavLink to="/blog"><BsFillLightbulbFill size={38} className="navBtn" /></NavLink>
             </div>
 
             {
               Icon
                 ?
-                <HiSun size={38} className="navBtn HiSun" onClick={function () { toggleTheme(); toggleIcon() }} />
+                <HiSun size={40} className="navBtn HiSun" onClick={function () { toggleTheme(); toggleIcon() }} />
                 :
-                <HiMoon size={38} className="navBtn HiMoon" onClick={function () { toggleTheme(); toggleIcon() }} />
+                <HiMoon size={40} className="navBtn HiMoon" onClick={function () { toggleTheme(); toggleIcon() }} />
             }
 
             {
-              location.pathname === "/" ? '' : <span onClick={() => navigate(-1)} className="navBtn"><IoArrowBack size={38} data-aos="fade-left" data-aos-duration="600" /></span>
+              location.pathname === "/" ? '' : <span onClick={() => navigate(-1)} className="navBtn"><IoArrowBack size={40} data-aos="fade-left" data-aos-duration="600" /></span>
             }
           </div>
         </div>

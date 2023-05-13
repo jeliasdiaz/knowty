@@ -5,7 +5,7 @@ export const PeriodicElement = ({ element, colorMap }) => {
   const { onPeriodicProperties } = useContext(periodicContext);
 
   const onCliked = () => {
-    onPeriodicProperties(element.name, element.number, element.summary, element.symbol);
+    onPeriodicProperties(element.name, element.number, element.summary, element.symbol, element.atomic_mass, element.electronegativity_pauling);
   };
 
 
@@ -22,6 +22,7 @@ export const PeriodicElement = ({ element, colorMap }) => {
     >
       <strong>{element.symbol}</strong>
       <small className="number">{element.number}</small>
+      <small className="numberTwo">{element.atomic_mass.toFixed(2)}</small>
       <small className="name">{element.name}</small>
     </div>
   );

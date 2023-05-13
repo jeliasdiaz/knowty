@@ -64,6 +64,9 @@ export const Statistic = () => {
                 <Latex>{reglaTresDirectaEjemplo}</Latex>
               </p>
 
+              <br />
+              <br />
+              
               <h5>Inversa</h5>
               <p>Los datos están correlacionados, de tal forma que mientras una magnitud aumenta, la otra disminuye. Es de añadir que dos variables son inversamentep proporcionales cuando al multiplicarse dan como producto una constante.</p>
               <h6>Fórmula</h6>

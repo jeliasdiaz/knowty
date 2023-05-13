@@ -8,10 +8,12 @@ export const PeriodicElementContext = ({children}) => {
         number: 0,
         summary: "",
         symbol: "",
+        atomicMass: 0,
+        electronegativity: 0,
     })
 
-    const onPeriodicProperties = (name, number, summary, symbol) => {
-        setperiodicProperties({name, number, summary, symbol})
+    const onPeriodicProperties = (name, number, summary, symbol, atomicMass, electronegativity) => {
+        setperiodicProperties({name, number, summary, symbol, atomicMass, electronegativity})
     }
     const value = {periodicProperties, onPeriodicProperties}
   return (

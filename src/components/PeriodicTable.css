@@ -11,13 +11,17 @@
     display: grid;
     grid-auto-rows: 100px;
     width: 100%;
-    grid-template-columns: repeat(8, 64px);
-    gap: 2%;
+    grid-template-columns: repeat(8, 110px);
+    font-size: 12px;
+    margin-inline: 2%;
 }
-
+.kindElements small {
+    position: relative;
+    top: 3em;
+}
 .element {
     background: white;
-    border: 1px solid #aaa;
+    border: 3px solid #aaa;
     display: flex;
     position: relative;
     align-items: center;
@@ -38,30 +42,51 @@
     align-items: center;
     justify-content: center;
     border-radius: 12px;
-    margin-left: 6em;
+    margin-left: 10em;
     width: 30em;
+    padding: 1em;
     height: 10em;
     cursor: default;
+    transition: all 0.2s;
 }
 .elementActive .number {
-    font-size: 10px;
+    font-size: 12px;
     position: absolute;
-    top: 5px;
-    left: 10px;
+    top: 1em;
+    left: 1em;
+}
+.elementActive .numberTwo {
+    font-size: 12px;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+.elementActive .electronegativity {
+    font-size: 12px;
+    position: absolute;
+    bottom: 1em !important;
+    right: 1em;
+} 
+.elementActive .name {
+    font-size: 12px;
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
 }
 
-.elementActive .name {
-    font-size: 10px;
-    position: absolute;
-    bottom: 5px;
-    left: 10px;
-}
 .element .number {
     font-size: 8px;
     position: absolute;
     top: 5px;
     left: 5px;
-}r, 
+} 
+
+.element .numberTwo {
+    font-size: 8px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+} 
 
 .element .name {
     font-size: 8px;

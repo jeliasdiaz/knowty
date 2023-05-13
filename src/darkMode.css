@@ -209,9 +209,6 @@
 .dark .element, .dark .elementActive {
   background-color: transparent;
 }
-.dark .clicked {
-  background-color: #28292a;
-}
 .dark .element:hover{
   background-color: #28292a;
 }

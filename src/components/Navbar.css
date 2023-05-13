@@ -37,7 +37,9 @@
   white-space: nowrap;
   width: fit-content;
 }
-
+.navbar div{
+  transition: all 0.2s;
+}
 /** Nav animation  */
 @keyframes up {
   from {
