@@ -1,0 +1,76 @@
+.periodicTable {
+    display: grid;
+    grid-template-columns: repeat(18, 64px);
+    grid-template-rows: repeat(10, 64px);
+    grid-gap: 4px;
+    padding: 2%;
+    overflow: scroll;
+}
+
+.kindElements {
+    display: grid;
+    grid-auto-rows: 100px;
+    width: 100%;
+    grid-template-columns: repeat(8, 64px);
+    gap: 2%;
+}
+
+.element {
+    background: white;
+    border: 1px solid #aaa;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    transition: all 0.2s;
+}
+
+.element:hover {
+    transform: scale(1.25, 1.25);
+    z-index: 1;
+}
+.clicked {
+    transform: scale(1.5, 1.5);
+    z-index: 10;
+}
+
+.elementActive {
+    background: white;
+    border: 1px solid #aaa;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-left: 6em;
+    width: 30em;
+    height: 10em;
+    cursor: default;
+}
+.elementActive .number {
+    font-size: 10px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.elementActive .name {
+    font-size: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.element .number {
+    font-size: 8px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}r, 
+
+.element .name {
+    font-size: 8px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}

@@ -5,6 +5,7 @@ import Qty from "js-quantities"
 import { BsArrowRightShort } from "react-icons/bs"
 import { IoIosArrowDown } from "react-icons/io"
 import Latex from "react-latex"
+import PeriodicTable from "../../components/PeriodicTable"
 
 export const Tools = () => {
 
@@ -181,7 +182,12 @@ export const Tools = () => {
                     <br />
 
                 </div>
-
+                <hr />
+                <div>
+                <h3>Tabla periódica de los elementos</h3>
+                <br />
+                <PeriodicTable />
+                </div>
                 <hr />
 
                 <div>

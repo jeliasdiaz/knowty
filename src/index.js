@@ -7,12 +7,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import { TitleContextSubject } from './context/TitleContextSubject';
+import { PeriodicElementContext } from './context/PeriodicElementContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <TitleContextSubject>
-      <App />
+      <PeriodicElementContext>
+        <App />
+      </PeriodicElementContext>
     </TitleContextSubject>
   </React.StrictMode>
 );

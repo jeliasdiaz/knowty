@@ -29,7 +29,7 @@ export const SecondChemistryPeriod = () => {
 
                             <h4>Energía de ionización</h4>
                             <ul>
-                                <li>Energía necesaria para separar un electrón del átomo.</li>
+                                <li>Energía necesaria para separar un electrón de un átomo.</li>
                                 <li>Aumenta hacia la derecha y hacia arriba en la tabla periódica.</li>
                             </ul>
 
