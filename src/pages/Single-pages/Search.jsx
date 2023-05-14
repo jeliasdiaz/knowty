@@ -1,10 +1,11 @@
 import { useCallback, useEffect, useRef } from "react";
 import { useIsVisible, useSearch } from "../../hooks/";
 import { TopWave, NoResultCard, ResultCard } from "../../components/";
-import data from "../materias.json";
+import data from "../../data/materias.json";
 import "./Search.css";
 import { BiSearch } from "react-icons/bi";
 import { IoClose } from "react-icons/io5";
+import { useNavigate } from "react-router-dom";
 
 export const Search = () => {
   //* Search functionality
@@ -18,7 +19,17 @@ export const Search = () => {
   const onVisible = useCallback(async () => {
     isVisible && inputRef.current.focus()
   }, [isVisible])
+  
+  const navigate = useNavigate()
+  const onSubmit = (e) =>{
+    e.preventDefault()
+    
+    const matchingCard = data.find(card => card.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") === searchTerm)
 
+    if (matchingCard) {
+      navigate(matchingCard.url)
+    }
+  }
   useEffect(() => {
     onVisible()
   }, [onVisible])
@@ -29,7 +40,9 @@ export const Search = () => {
       <div className="searchInputs" data-aos="fade-up" data-aos-duration="1000">
         {
           isVisible
-          && <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} ref={inputRef} className="input" />
+          && <form onSubmit={onSubmit}>
+            <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} ref={inputRef} className="input" />
+          </form>
         }
         <div className="searchIcon">
           {

@@ -7,16 +7,18 @@ export const useSearch = (data) => {
 
   //* Filter the words that entered in the search input and search for them on the data
   const handleFilter = (event) => {
-    const searchWord = event.target.value; // Collects the written input
+    const searchWord = event.target.value; 
+    const searchWordClean = searchWord.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
     setSearchTerm(searchWord);
+
     const newFilter = data.filter((value) =>
       value.name
         .toLowerCase()
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
-        .startsWith(searchWord.toLowerCase())
+        .startsWith(searchWordClean)
     ); // Inside the data it will look for a name that begins with what is written in the input.
-    setFilteredData(searchWord ? newFilter : []);
+    setFilteredData(searchWordClean ? newFilter : []);
   };
 
   //* Clear the search input

@@ -5,7 +5,7 @@ export const BiologyMenu = () => {
     <section className="mobileMenu">
         <TopWave />
         <div className="mobileSubjectMenu">
-          <MenuCard url="/vida-y-celulas" img="biologiaIcon.png" title="Vida y células" />
+          <MenuCard url="/celulas" img="biologiaIcon.png" title="Células" />
         </div>
       </section>
   )

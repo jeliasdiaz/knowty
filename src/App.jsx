@@ -10,7 +10,7 @@ import { Home, InfoPage, Search, Blog, Credits, Statistic, Tools } from "./pages
 import { Footer, Navbar, InstallAppBtn, ScrollBtn } from "./components";
 
 //* Biology
-import {LifeAndCells, BiologyMenu} from "./pages/Biology";
+import { BiologyMenu, Cells} from "./pages/Biology";
 
 //* Chemistry
 import { FirstChemistryPeriod, FourthChemistryPeriod, SecondChemistryPeriod, ThirdChemistryPeriod, ChemistryMenu } from "./pages/Chemistry";
@@ -113,7 +113,7 @@ function App() {
             <Route path="/repeticion-espaciada" element={<SpacedRepetition />} />
             <Route path="/recursos-para-estudiantes" element={<StudentsResources />} />
 
-            <Route path="vida-y-celulas" element={<LifeAndCells />} />
+            <Route path="/celulas" element={<Cells />} />
 
             <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
             <Route path="/quimica_2" element={<SecondChemistryPeriod />} />

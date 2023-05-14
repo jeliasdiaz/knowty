@@ -44,14 +44,14 @@ export const ContactForm = () => {
                 <div className="screen-body-item">
                     <form ref={form} className="app-form" onSubmit={sendEmail} >
                         <div className="app-form-group">
-                            <input className="app-form-control" placeholder="Nombre" name="user_name" required />
+                            <input className="app-form-control" placeholder="Nombre" name="user_name" required autoComplete="off"/>
                         </div>
                         <div className="app-form-group">
-                            <input className="app-form-control" placeholder="Correo" name="user_email" value={email} onInput={onEmail} />
+                            <input className="app-form-control" placeholder="Correo" name="user_email" value={email} onInput={onEmail} autoComplete="off" />
                             {emailError && <small className="errorMesageEmail">{emailError}</small>}
                         </div>
                         <div className="app-form-group message">
-                            <input className="app-form-control" placeholder="Mensaje" name="message" required />
+                            <input className="app-form-control" placeholder="Mensaje" name="message" required autoComplete="off" />
                         </div>
                         <div className="app-form-group buttons">
                             {

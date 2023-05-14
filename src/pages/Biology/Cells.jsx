@@ -1,23 +1,11 @@
-import { CollapseInformation, SectionTitle, TopWave } from '../../components'
+import { CollapseInformation, SectionTitle, Tooltip, TopWave } from '../../components'
 
-export const LifeAndCells = () => {
+export const Cells = () => {
     return (
         <div className="homeCard">
             <TopWave />
-            <SectionTitle title="Vida y células" />
+            <SectionTitle title="Células" />
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
-                <div>
-                    <h3>¿Qué es la vida?</h3>
-                    <p>
-                        La vida es un fenómeno muy complejo y fascinante, que ha sido objeto de estudio y reflexión durante siglos. Definir lo que es la vida es una tarea difícil, ya que involucra muchos aspectos y características que deben ser considerados.
-                        <br /><br />
-                        En términos generales, se puede decir que la vida se refiere a la capacidad de un ser para realizar ciertas funciones vitales, como la reproducción, el crecimiento, la nutrición, la respuesta a estímulos y la adaptación al medio ambiente. Sin embargo, para afirmar que un organismo posee vida, se deben cumplir tres requisitos esenciales: la presencia de células (o una sola célula en el caso de organismos unicelulares), el autosostenimiento y la capacidad de autorreplicación.
-                        <br /><br />
-                        Es de añadir que los virus al no cumplir con los tres requisitos fundamentales para la vida, no se considera estén vivos, a pesar de poseer material genético, ya sea ADN o ARN. De igual forma, todos los individuos siempre tenderán a el estado máximo de equilibrio, conocido como Homeostasis.
-                    </p>
-                </div>
-                <hr />
-
                 <h3>La célula</h3>
                 <p>
                     Es el nombre dado por Robert Hooke a la unidad básica de la vida, mientras observó en el microscopio de una lámina de corcho, pequeñas celdas/cavidades que tenían forma similar a las celdas de un panal de abejas. Con el paso del tiempo, el concepto de célula fue evolucionando, describiendo características de esta. Entre las cuales tenemos la capacidad autosostenerse, presencia de una membrana plasmática, reproducirse mediante procesos de división celular, etc.
@@ -76,6 +64,35 @@ export const LifeAndCells = () => {
                             Son organelos presentes en todas las células, encargados de la síntesis de proteínas. Están compuestos por ARN ribosomal y proteínas. Generalmente se encuentran libres en el citoplassma o unidos a un retículo endoplasmático rugoso. Durante la síntesis de proteínas, los ribosomas leen la información genética del ADN y la traducen en una secuencia de aminoácidos para formar la proteína correspondiente.
                         </p>
                     </CollapseInformation>
+                    <hr />
+                    <CollapseInformation name="Centrosomas" id="centrosomas">
+                        <p>
+                            Están compuestos por dos centriolos y una matriz pericentriolar/centrosfera que rodea al citoplasma. Los centrosomas son importantes para la organización de los microtúbulos, que son los componentes del citoesqueleto que se encargan del mantenimiento de la forma celular, el transporte intracelular y la división celular.
+                            <br />
+                            <br />
+                            Los centriolos, que son cilindros formados por microtúbulos, se encuentran ubicados perpendicularmente entre sí dentro del centrosoma. La matriz pericentriolar es una red de proteínas que rodea a los centriolos y se encarga de la nucleación y organización de los microtúbulos.
+                        </p>
+                    </CollapseInformation>
+                </CollapseInformation>
+                <hr />
+                <CollapseInformation name="Ciclo celular" id="cicloCelular">
+                    <p>
+                        Desde pequeños, se nos enseñó muy bien algo que conocemos como ciclo de vida, aquel en el que se nace, crece, reproduce y muere. Un ciclo general para los seres vivos. De esta manera, la célula como unidad fundamental de la vida, también posee un ciclo de vida, aunque diferente al ya mencionado. Este ciclo por el que pasan las células es llamado Ciclo Celular y este tiene el objetivo de mantener el correcto funcionamiento y estructuración de tejidos mediante la generación de nuevas células que puedan suplir el funcionamiento de sus compañeras ya inertes, así como la producción de gametos.
+                        <br />
+                        <br />
+                        El Ciclo Celular se divide en dos fases, la interfase y la división celular (Fase M). En la cual, la interfase se divide en tres fases más, Fase G1 (GAP1), Fase S (Síntesis) y Fase G2 (GAP2).
+                        <br />
+                        <br />
+                         En la <b>Fase G1</b>, la célula aumenta su tamaño debido a la generación de más orgánulos y alta producción de proteínas, es en esta fase que la célula puede desviarse de su ciclo normal y entrar en un estado llamado <b>G0</b> temporal (Como las células madre, linfocitos o los hepatocitos del hígado) o permanentemente (Como las neuronas), en el que cualquier célula que funcione de forma anormal regresará a este estado de reposo, disminuyendo así la probabilidad de que una célula se vuelva cancerosa. 
+                        <br /><br />
+                        Por otra parte, este estado de G0 también es conocido como quiescencia, el cual no debe confundirse con el estado de senescencia a la que ingresa una célula una vez detectado que su ADN se encuentra dañado por causas como la vejez, de esta manera impendiendo su replicación del error. En caso de ser dañino o simplemente estar en un grave estado, la célula procede a realizar la muerte celular programada (Apoptosis), en caso de que estas células dañadas no hagan la apoptosis y continúen con su ciclo celular, se replicarán causando cáncer y tumores. 
+                        <br />
+                        <br />
+                        Una vez superada la fase G1, la célula entra en la <b>fase S</b> en la cual se sintetizan proteínas nucleares y realiza el proceso de replicación para duplicar su material genético, de esta forma pasan de tener veintitrés pares de cromosomas simples (Una cromátida) a veintitrés pares de cromosomas de doble estructura (Dos cromátidas unidas por un centrómero), en esta fase también se duplican los centrosomas.
+                        <br />
+                        <br />
+                        Por último, en la <b>fase G2</b> vuelve a aumentar su tamaño y síntesis de proteínas. Además, preparándose para la división, se ensamblan las estructuras necesarias para esta. Así, los cromosomas en el núcleo que se encuentran en forma de cromatina, empiezan a enrollarse y condensarse tomando la forma a la que estamos habituados a ver en imágenes, permitiendo así su fácil desplazamiento y a que más adelante se dé la correcta división de material genético. Los dos pares de centriolos se posicionan de forma <Tooltip text={<span>perpendicular</span>} content={<span>Que forma ángulo recto con otra <br /> línea o con otro plano</span>} id="perpendicular" /> al otro.
+                    </p>
                 </CollapseInformation>
             </div>
         </div>

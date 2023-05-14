@@ -266,9 +266,6 @@ ul li:before {
   flex-wrap: wrap !important;
 }
 
-.subjectLink h4 {
-  font-size: 1.3em !important;
-}
 
 .subjectLink {
   background-color: white;
@@ -282,7 +279,9 @@ ul li:before {
 .subjectLink img {
   width: 25%;
 }
-
+.subjectLink h5{
+  margin-bottom: 0;
+}
 .animation {
   transition: transform 0.2s, background-color 0.2s !important;
 }

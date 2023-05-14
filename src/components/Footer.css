@@ -118,7 +118,7 @@
   transition: 0.2s;
 }
 
-.footerIcons:hover {
+.footerIcons:hover svg {
   transform: scale(1.1);
 }
 

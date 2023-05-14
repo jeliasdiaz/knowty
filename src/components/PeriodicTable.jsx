@@ -1,4 +1,4 @@
-import data from "./PeriodicTableJSON.json";
+import data from "../data/PeriodicTableJSON.json";
 import "./PeriodicTable.css";
 import { useEffect, useState } from "react";
 import { PeriodicElement } from "./PeriodicElement";

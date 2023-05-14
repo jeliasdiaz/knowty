@@ -1,2 +1,2 @@
-export * from "./LifeAndCells"
+export * from "./Cells"
 export * from "./BiologyMenu"
