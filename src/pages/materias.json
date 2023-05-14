@@ -548,5 +548,20 @@
     "name": "Tools",
     "url": "/tools",
     "img": "/img/toolsIcon.png"
+  },
+  {
+    "name": "Graficador",
+    "url": "/tools",
+    "img": "/img/toolsIcon.png"
+  },
+  {
+    "name": "Conversor de unidades",
+    "url": "/tools",
+    "img": "/img/toolsIcon.png"
+  },
+  {
+    "name": "Tabla periódica",
+    "url": "/tools",
+    "img": "/img/toolsIcon.png"
   }
 ]
