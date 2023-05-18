@@ -15,7 +15,21 @@ export const PeriodicElementContext = ({children}) => {
     const onPeriodicProperties = (name, number, summary, symbol, atomicMass, electronegativity) => {
         setperiodicProperties({name, number, summary, symbol, atomicMass, electronegativity})
     }
-    const value = {periodicProperties, onPeriodicProperties}
+    const [activeCategory, setActiveCategory] = useState({
+      "noble gas":  true,
+  "alkaline earth metal": true,
+  "nonmetal": true,
+  "alkali metal": true,
+  "transition metal": true,
+  "post-transition metal": true,
+  "lanthanide": true,
+  "metalloid": true,
+    })
+    const onActiveCategory = (category) => {
+      setActiveCategory({[category]: !activeCategory[category]})
+
+    }
+    const value = {periodicProperties, onPeriodicProperties, activeCategory, onActiveCategory}
   return (
     <periodicContext.Provider value={value}>
         {children}

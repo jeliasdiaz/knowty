@@ -2,11 +2,15 @@ import { useContext } from 'react';
 import { periodicContext } from '../context/PeriodicElementContext';
 
 export const PeriodicElement = ({ element, colorMap }) => {
-  const { onPeriodicProperties } = useContext(periodicContext);
+  const { onPeriodicProperties, activeCategory } = useContext(periodicContext);
 
   const onCliked = () => {
     onPeriodicProperties(element.name, element.number, element.summary, element.symbol, element.atomic_mass, element.electronegativity_pauling);
   };
+
+  const { category } = element;
+  const isActiveCategory = activeCategory[category.toLowerCase()];
+  const borderColor = isActiveCategory ? colorMap[category.toLowerCase()] : "gray";
 
 
   return (
@@ -17,7 +21,7 @@ export const PeriodicElement = ({ element, colorMap }) => {
       style={{
         gridRow: element.ypos,
         gridColumn: element.xpos,
-        borderColor: colorMap[element.category],
+        borderColor: borderColor,
       }}
     >
       <strong>{element.symbol}</strong>
