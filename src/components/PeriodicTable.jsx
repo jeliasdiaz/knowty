@@ -42,7 +42,7 @@ const PeriodicTable = () => {
 
   const { onActiveCategory } = useContext(periodicContext)
 
-  const categoryRef = useRef(null);
+  // const categoryRef = useRef(null);
 
   /*   useEffect(() => {
       const handleClickOutsideCategory = (event) => {
