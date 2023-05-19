@@ -40,25 +40,47 @@ const PeriodicTable = () => {
   }, []);
 
 
-  const { onActiveCategory } = useContext(periodicContext)
+  const { onActiveCategory, setActiveCategory } = useContext(periodicContext)
 
-  // const categoryRef = useRef(null);
+  const categoryRef = useRef(null);
 
-  /*   useEffect(() => {
-      const handleClickOutsideCategory = (event) => {
-        if (categoryRef.current && !categoryRef.current.contains(event.target)) {
-          onActiveCategory(true);
-        }
-      };
-  
-      window.addEventListener("click", handleClickOutsideCategory);
-  
-      return () => {
-        window.removeEventListener("click", handleClickOutsideCategory);
-      };
-    }, [colorNames]); */
+  useEffect(() => {
+    const handleClickOutsideCategory = (event) => {
+      if (categoryRef.current && !categoryRef.current.contains(event.target)) {
+        setActiveCategory({
+          "noble gas": true,
+          "alkaline earth metal": true,
+          "nonmetal": true,
+          "alkali metal": true,
+          "transition metal": true,
+          "post-transition metal": true,
+          "lanthanide": true,
+          "metalloid": true,
+        })
+      }
+    }
+
+    window.addEventListener("click", handleClickOutsideCategory);
+
+    return () => {
+      window.removeEventListener("click", handleClickOutsideCategory);
+    };
+  }, [onActiveCategory, setActiveCategory]);
+
+  const clearActiveCategory = () => {
+    setActiveCategory({
+      "noble gas": true,
+      "alkaline earth metal": true,
+      "nonmetal": true,
+      "alkali metal": true,
+      "transition metal": true,
+      "post-transition metal": true,
+      "lanthanide": true,
+      "metalloid": true,
+    })
+  }
   return (
-    <>
+    <div ref={categoryRef}>
       <div className="kindElements">
         {colorSquare.map((color, index) => (
           <span
@@ -68,12 +90,25 @@ const PeriodicTable = () => {
               height: '30px',
               backgroundColor: color,
               borderRadius: '2px',
+              cursor: "pointer"
             }}
             onClick={() => onActiveCategory(colorActive[index])}
           >
             <small>{colors[index]}</small>
           </span>
         ))}
+        <span
+          style={{
+            width: '50px',
+            height: '30px',
+            backgroundColor: "#2b7ea1",
+            borderRadius: '2px',
+            cursor: "pointer"
+          }}
+          onClick={clearActiveCategory}
+        >
+          <small>Todos</small>
+        </span>
       </div>
       <div className="periodicTable">
         <ElementActive />
@@ -93,7 +128,7 @@ const PeriodicTable = () => {
 
 
       </div>
-    </>
+    </div>
   );
 };
 

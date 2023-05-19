@@ -94,6 +94,13 @@
     bottom: 5px;
     left: 5px;
 }
+.element {
+    border-color: lightgray;
+}
+.dark .element {
+    border-color: #414344;
+}
+
 
 @media screen and (max-width: 450px) {
     .kindElements{
