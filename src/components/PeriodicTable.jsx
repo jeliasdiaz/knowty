@@ -44,29 +44,6 @@ const PeriodicTable = () => {
 
   const categoryRef = useRef(null);
 
-  useEffect(() => {
-    const handleClickOutsideCategory = (event) => {
-      if (categoryRef.current && !categoryRef.current.contains(event.target)) {
-        setActiveCategory({
-          "noble gas": true,
-          "alkaline earth metal": true,
-          "nonmetal": true,
-          "alkali metal": true,
-          "transition metal": true,
-          "post-transition metal": true,
-          "lanthanide": true,
-          "metalloid": true,
-        })
-      }
-    }
-
-    window.addEventListener("click", handleClickOutsideCategory);
-
-    return () => {
-      window.removeEventListener("click", handleClickOutsideCategory);
-    };
-  }, [onActiveCategory, setActiveCategory]);
-
   const clearActiveCategory = () => {
     setActiveCategory({
       "noble gas": true,
