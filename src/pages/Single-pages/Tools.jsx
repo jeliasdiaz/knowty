@@ -61,8 +61,8 @@ export const Tools = () => {
             <TopWave />
             <SectionTitle title="Tools" />
 
-            <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
-                <div>
+            <div data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+                <div className="subjectCard mb-5 ownShadow" >
                     <h3>Graficador</h3>
                     <Graphic data={graphicData} />
                     <form onSubmit={onFormSubmit}>
@@ -92,9 +92,8 @@ export const Tools = () => {
                     </form>
                 </div>
 
-                <hr />
 
-                <div>
+                <div  className="subjectCard mb-5 ownShadow">
                     <h3>Conversor de unidades</h3>
 
                     <div className=" mt-4 mb-4">
@@ -182,65 +181,62 @@ export const Tools = () => {
                     <br />
 
                 </div>
-                <hr />
-                <div>
-                <h3>Tabla periódica de los elementos</h3>
-                <br />
-                <PeriodicTable />
-                </div>
-                <hr />
 
-                <div>
+                <div  className="subjectCard mb-5 ownShadow">
                     <h3>Razones trigonométricas para ángulos notables</h3>
                     <table className="table table-bordered text-end">
-                                <thead className="table-light">
-                                    <tr>
-                                        <th scope="col"></th>
-                                        <th scope="col">30°</th>
-                                        <th scope="col">45°</th>
-                                        <th scope="col">60°</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row" className="text-start">Sen</th>
-                                        <td><Latex>{sen30}</Latex></td>
-                                        <td><Latex>{sen45}</Latex></td>
-                                        <td><Latex>{sen60}</Latex></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" className="text-start">Cos</th>
-                                        <td><Latex>{cos30}</Latex></td>
-                                        <td><Latex>{cos45}</Latex></td>
-                                        <td><Latex>{cos60}</Latex></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" className="text-start">Tan</th>
-                                        <td><Latex>{tan30}</Latex></td>
-                                        <td><Latex>{tan45}</Latex></td>
-                                        <td><Latex>{tan60}</Latex></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" className="text-start">Cot</th>
-                                        <td><Latex>{cot30}</Latex></td>
-                                        <td><Latex>{cot45}</Latex></td>
-                                        <td><Latex>{cot60}</Latex></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" className="text-start">Sec</th>
-                                        <td><Latex>{sec30}</Latex></td>
-                                        <td><Latex>{sec45}</Latex></td>
-                                        <td><Latex>{sec60}</Latex></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" className="text-start">Cosec</th>
-                                        <td><Latex>{cosec30}</Latex></td>
-                                        <td><Latex>{cosec45}</Latex></td>
-                                        <td><Latex>{cosec60}</Latex></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <thead className="table-light">
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">30°</th>
+                                <th scope="col">45°</th>
+                                <th scope="col">60°</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" className="text-start">Sen</th>
+                                <td><Latex>{sen30}</Latex></td>
+                                <td><Latex>{sen45}</Latex></td>
+                                <td><Latex>{sen60}</Latex></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" className="text-start">Cos</th>
+                                <td><Latex>{cos30}</Latex></td>
+                                <td><Latex>{cos45}</Latex></td>
+                                <td><Latex>{cos60}</Latex></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" className="text-start">Tan</th>
+                                <td><Latex>{tan30}</Latex></td>
+                                <td><Latex>{tan45}</Latex></td>
+                                <td><Latex>{tan60}</Latex></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" className="text-start">Cot</th>
+                                <td><Latex>{cot30}</Latex></td>
+                                <td><Latex>{cot45}</Latex></td>
+                                <td><Latex>{cot60}</Latex></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" className="text-start">Sec</th>
+                                <td><Latex>{sec30}</Latex></td>
+                                <td><Latex>{sec45}</Latex></td>
+                                <td><Latex>{sec60}</Latex></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" className="text-start">Cosec</th>
+                                <td><Latex>{cosec30}</Latex></td>
+                                <td><Latex>{cosec45}</Latex></td>
+                                <td><Latex>{cosec60}</Latex></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
+            </div>
+
+            <div className="subjectCard mb-5 ownShadow peridocTableWidth">
+                <PeriodicTable />
             </div>
         </div>
     )

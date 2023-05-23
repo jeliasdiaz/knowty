@@ -4,12 +4,12 @@ export const periodicContext = createContext()
 
 export const PeriodicElementContext = ({ children }) => {
   const [periodicProperties, setperiodicProperties] = useState({
-    name: "",
-    number: 0,
-    summary: "",
-    symbol: "",
-    atomicMass: 0,
-    electronegativity: 0,
+    name: "Hydrogen",
+    number: 1,
+    summary: "El hidrógeno es un elemento químico de símbolo químico H y número atómico 1. Con un peso atómico de 1,00794 u, el hidrógeno es el elemento más ligero de la tabla periódica. Su forma monatómica (H) es la sustancia química más abundante en el Universo, constituyendo aproximadamente el 75% de toda la masa bariónica.",
+    symbol: "H",
+    atomicMass: 1.008,
+    electronegativity: 2.20,
   })
   const onPeriodicProperties = (name, number, summary, symbol, atomicMass, electronegativity) => {
     setperiodicProperties({ name, number, summary, symbol, atomicMass, electronegativity })

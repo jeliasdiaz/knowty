@@ -6,11 +6,11 @@ export const ElementActive = () => {
   return (
     <div className="elementActive" >
       <div className="w-75 p-5">
-        <strong>{periodicProperties.symbol}</strong>
+        <img src={`img/periodicTableImg/${periodicProperties.name}.png`} alt=""/>
         <small className="number">{periodicProperties.number}</small>
         <small className="numberTwo">{periodicProperties.atomicMass}</small>
         <small className="electronegativity">{periodicProperties.electronegativity}</small>
-        <small className="name">{periodicProperties.name}</small>
+        <small className="name"><b>{periodicProperties.symbol}</b> {periodicProperties.name}</small>
       </div>
       <summary style={{ fontSize: "10px", listStyle: "none", cursor: "default" }}>{periodicProperties.summary}</summary>
     </div>

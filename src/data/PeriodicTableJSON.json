@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "name": "Hydrogen", 
+            "name": "Hidrógeno", 
             "appearance": "colorless gas", 
             "atomic_mass": 1.008, 
             "boil": 20.271, 
@@ -17,7 +17,7 @@
             "phase": "Gas", 
             "source": "https://en.wikipedia.org/wiki/Hydrogen", 
             "spectral_img": "https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg", 
-            "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.", 
+            "summary": "El hidrógeno es un elemento químico de símbolo químico H y número atómico 1. Con un peso atómico de 1,00794 u, el hidrógeno es el elemento más ligero de la tabla periódica. Su forma monatómica (H) es la sustancia química más abundante en el Universo, constituyendo aproximadamente el 75% de toda la masa bariónica.", 
             "symbol": "H", 
             "xpos": 1, 
             "ypos": 1, 
@@ -32,7 +32,7 @@
             ]
         }, 
         {
-            "name": "Helium", 
+            "name": "Helio", 
             "appearance": "colorless gas, exhibiting a red-orange glow when placed in a high-voltage electric field", 
             "atomic_mass": 4.0026022, 
             "boil": 4.222, 
@@ -48,7 +48,7 @@
             "phase": "Gas", 
             "source": "https://en.wikipedia.org/wiki/Helium", 
             "spectral_img": "https://en.wikipedia.org/wiki/File:Helium_spectrum.jpg", 
-            "summary": "Helium is a chemical element with symbol He and atomic number 2. It is a colorless, odorless, tasteless, non-toxic, inert, monatomic gas that heads the noble gas group in the periodic table. Its boiling and melting points are the lowest among all the elements.", 
+            "summary": "El helio es un elemento químico con símbolo \"He\" y número atómico 2. Es incoloro, inoloro e insaboro, no tóxico, inerte, un gas monoatómico que encabeza el grupo de los gases nobles en la tabla periódica. Sus puntos de fusión y ebullición son los más bajos entre todos los elementos.", 
             "symbol": "He", 
             "xpos": 18, 
             "ypos": 1, 
@@ -64,7 +64,7 @@
             ]
         }, 
         {
-            "name": "Lithium", 
+            "name": "Litio", 
             "appearance": "silvery-white", 
             "atomic_mass": 6.94, 
             "boil": 1603, 
@@ -80,7 +80,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Lithium", 
             "spectral_img": null, 
-            "summary": "Lithium (from Greek:\u03bb\u03af\u03b8\u03bf\u03c2 lithos, \"stone\") is a chemical element with the symbol Li and atomic number 3. It is a soft, silver-white metal belonging to the alkali metal group of chemical elements. Under standard conditions it is the lightest metal and the least dense solid element.", 
+            "summary": "El litio (del griego: λίθος lithos, \"piedra\") es un elemento químico de símbolo Li y número atómico 3. Es un metal blando, de color blanco plateado, perteneciente al grupo de los metales alcalinos. En condiciones normales, es el metal más ligero y el elemento sólido menos denso.", 
             "symbol": "Li", 
             "xpos": 1, 
             "ypos": 2, 
@@ -99,7 +99,7 @@
             ]
         }, 
         {
-            "name": "Beryllium", 
+            "name": "Berilio", 
             "appearance": "white-gray metallic", 
             "atomic_mass": 9.01218315, 
             "boil": 2742, 
@@ -115,7 +115,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Beryllium", 
             "spectral_img": null, 
-            "summary": "Beryllium is a chemical element with symbol Be and atomic number 4. It is created through stellar nucleosynthesis and is a relatively rare element in the universe. It is a divalent element which occurs naturally only in combination with other elements in minerals.", 
+            "summary": "El berilio es un elemento químico de símbolo Be y número atómico 4. Se crea mediante nucleosíntesis estelar y es un elemento relativamente raro en el universo. Es un elemento divalente que sólo se encuentra en la naturaleza en combinación con otros elementos en los minerales.", 
             "symbol": "Be", 
             "xpos": 2, 
             "ypos": 2, 
@@ -134,7 +134,7 @@
             ]
         }, 
         {
-            "name": "Boron", 
+            "name": "Boro", 
             "appearance": "black-brown", 
             "atomic_mass": 10.81, 
             "boil": 4200, 
@@ -150,7 +150,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Boron", 
             "spectral_img": null, 
-            "summary": "Boron is a metalloid chemical element with symbol B and atomic number 5. Produced entirely by cosmic ray spallation and supernovae and not by stellar nucleosynthesis, it is a low-abundance element in both the Solar system and the Earth's crust. Boron is concentrated on Earth by the water-solubility of its more common naturally occurring compounds, the borate minerals.", 
+            "summary": "Es un elemento químico metaloide de símbolo B y número atómico 5.Producido enteramente por espalación de rayos cósmicos y supernovas y no por nucleosíntesis estelar, es un elemento poco abundante tanto en el sistema solar como en la corteza terrestre. El boro se concentra en la Tierra por la solubilidad en agua de sus compuestos naturales más comunes, los minerales de borato.", 
             "symbol": "B", 
             "xpos": 13, 
             "ypos": 2, 
@@ -170,7 +170,7 @@
             ]
         }, 
         {
-            "name": "Carbon", 
+            "name": "Carbono", 
             "appearance": null, 
             "atomic_mass": 12.011, 
             "boil": null, 
@@ -186,7 +186,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Carbon", 
             "spectral_img": "https://en.wikipedia.org/wiki/File:Carbon_Spectra.jpg", 
-            "summary": "Carbon (from Latin:carbo \"coal\") is a chemical element with symbol C and atomic number 6. On the periodic table, it is the first (row 2) of six elements in column (group) 14, which have in common the composition of their outer electron shell. It is nonmetallic and tetravalent\u2014making four electrons available to form covalent chemical bonds.", 
+            "summary": "El carbono (del latín: carbo, \"carbón\") es un elemento químico de símbolo C y número atómico 6. En la tabla periódica, es el primero (fila 2) de los seis elementos de la columna (grupo) 14, que tienen en común la composición de su capa externa de electrones. No es metálico y es tetravalente, por lo que dispone de cuatro electrones para formar enlaces químicos covalentes.", 
             "symbol": "C", 
             "xpos": 14, 
             "ypos": 2, 
@@ -207,7 +207,7 @@
             ]
         }, 
         {
-            "name": "Nitrogen", 
+            "name": "Nitrogeno", 
             "appearance": "colorless gas, liquid or solid", 
             "atomic_mass": 14.007, 
             "boil": 77.355, 
