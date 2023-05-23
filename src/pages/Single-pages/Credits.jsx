@@ -16,14 +16,18 @@ export const Credits = () => {
                             <li><a href="https://www.flaticon.com/free-icons/law" target="_blank" rel="noreferrer" title="law icons" className=" text-decoration-none">Iconos de leyes creados por Freepik - Flaticon</a></li>
                             <li><a href="https://www.flaticon.com/free-icons/pythagoras" target="_blank" rel="noreferrer" title="pythagoras icons" className=" text-decoration-none">Iconos de Pitágoras creados por Freepik - Flaticon</a></li>
                             <li><a href="https://www.flaticon.es/iconos-gratis/filosofia" target="_blank" rel="noreferrer" title="filosofia iconos" className=" text-decoration-none">Filosofía iconos creados por Freepik - Flaticon</a></li>
-                            <li><a href="https://www.flaticon.com/free-icons/dna" title="dna icons" className=" text-decoration-none">Dna icons creados por Freepik - Flaticon</a></li>
-                            <li><a href="https://www.flaticon.com/free-icons/tool-box" title="tool box icons" className=" text-decoration-none">Tool box iconos creados por  pongsakornRed - Flaticon</a></li>
-                            <li><a href="https://www.flaticon.es/iconos-gratis/sonreir" title="sonreír iconos" className=" text-decoration-none">Sol íconos creador por denimao - Flaticon</a></li> 
-                            <li><a href="https://www.flaticon.es/iconos-gratis/globos" title="globos iconos" className=" text-decoration-none">Globos iconos creados por Freepik - Flaticon</a></li> 
-                            <li><a href="https://www.flaticon.es/iconos-gratis/bateria" title="batería iconos" className=" text-decoration-none">Batería icono creado por Freepik - Flaticon</a></li> 
-                            <li><a href="https://www.flaticon.es/iconos-gratis/esmeralda" title="esmeralda iconos" className=" text-decoration-none">Esmeralda iconos creados por Freepik - Flaticon</a></li> 
-                            <li><a href="https://www.flaticon.es/iconos-gratis/tenis" title="tenis iconos" className=" text-decoration-none" >Tenis iconos creados por AmethystDesign - Flaticon</a></li> 
-                            <li><a href="https://www.flaticon.es/iconos-gratis/arbol-de-la-vida" title="arbol-de-la-vida iconos" className=" text-decoration-none">Arbol de la vida iconos creados por Freepik - Flaticon</a></li> 
+                            <li><a href="https://www.flaticon.com/free-icons/dna" title="dna icons" className=" text-decoration-none" target="_blank" rel="noreferrer" >Dna icons creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.com/free-icons/tool-box" title="tool box icons" className=" text-decoration-none" target="_blank" rel="noreferrer" >Tool box iconos creados por  pongsakornRed - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/sonreir" title="sonreír iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Sol íconos creador por denimao - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/globos" title="globos iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Globos iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/bateria" title="batería iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Batería icono creado por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/esmeralda" title="esmeralda iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Esmeralda iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/tenis" title="tenis iconos" className=" text-decoration-none" target="_blank" rel="noreferrer"  >Tenis iconos creados por AmethystDesign - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/arbol-de-la-vida" title="arbol-de-la-vida iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Arbol de la vida iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/gene" title="gene iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Gene iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/aire" title="aire iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Aire iconos creados por torskaya - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/cepillo-de-dientes" title="cepillo-de-dientes iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Cepillo-de-dientes iconos creados por Victoruler - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/television" title="televisión iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Televisión iconos creados por Freepik - Flaticon</a></li>
                         </ul>
                     </CollapseInformation>
                 </div>
