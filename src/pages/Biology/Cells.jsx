@@ -15,7 +15,7 @@ export const Cells = () => {
                 <br />
                 <CollapseInformation name="Células eucariotas" id="eucariota">
                     <p>
-                        Las células eucariotas son células que tienen un núcleo definido y separado del resto de la célula por una membrana nuclear. Además del núcleo, estas células también tienen otros orgánelos celulares, como mitocondrias, retículo endoplásmico, aparato de Golgi y lisosomas, que realizan diversas funciones en la célula. Estas células se encuentran en organismos multicelulares, como plantas, animales y hongos. A menudo son más grandes y complejas que las células procariotas, que carecen de un núcleo definido y otros orgánulos celulares.
+                        Las células eucariotas son células que tienen un núcleo definido y separado del resto de la célula por una membrana nuclear. Además del núcleo, estas células también tienen otros orgánelos celulares, como mitocondrias, retículo endoplasmático, aparato de Golgi y lisosomas, que realizan diversas funciones en la célula. Estas células se encuentran en organismos multicelulares, como plantas, animales y hongos. A menudo son más grandes y complejas que las células procariotas, que carecen de un núcleo definido y otros orgánulos celulares.
 
                     </p>
                 </CollapseInformation>
@@ -41,7 +41,7 @@ export const Cells = () => {
                         </p>
                     </CollapseInformation>
                     <hr />
-                    <CollapseInformation name="Retículo endoplásmico" id="reticuloEndoplasmico">
+                    <CollapseInformation name="Retículo endoplasmático" id="reticuloEndoplasmico">
                         <p>
                             El retículo endoplásmico puede ser liso o rugoso dependiendo de la presencia de ribosomas unidos a su superficie. El RE liso se encarga de la síntesis de lípidos y de la detoxificación celular, mientras que el RE rugoso se encarga de la síntesis de proteínas que serán secretadas o insertadas en la membrana celular.
                         </p>

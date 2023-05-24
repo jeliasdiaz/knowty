@@ -541,7 +541,52 @@
   },
   {
     "name": "Células",
-    "url": "/vida-y-celulas",
+    "url": "/celulas",
+    "img": "/img/biologiaIcon.png"
+  },
+  {
+    "name": "Célula eucariota",
+    "url": "/celulas",
+    "img": "/img/biologiaIcon.png"
+  },
+  {
+    "name": "Célula procariota",
+    "url": "/celulas",
+    "img": "/img/biologiaIcon.png"
+  },
+  {
+    "name": "Mitocondria",
+    "url": "/celulas",
+    "img": "/img/biologiaIcon.png"
+  },
+  {
+    "name": "Retículo endoplasmático",
+    "url": "/celulas",
+    "img": "/img/biologiaIcon.png"
+  },
+  {
+    "name": "Aparato de Golgi",
+    "url": "/celulas",
+    "img": "/img/biologiaIcon.png"
+  },
+  {
+    "name": "Lisosomas",
+    "url": "/celulas",
+    "img": "/img/biologiaIcon.png"
+  },
+  {
+    "name": "Ribosomas",
+    "url": "/celulas",
+    "img": "/img/biologiaIcon.png"
+  },
+  {
+    "name": "Centrosomas",
+    "url": "/celulas",
+    "img": "/img/biologiaIcon.png"
+  },
+  {
+    "name": "Ciclo celular",
+    "url": "/celulas",
     "img": "/img/biologiaIcon.png"
   },
   {

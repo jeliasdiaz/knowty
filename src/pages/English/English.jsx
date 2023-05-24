@@ -23,52 +23,8 @@ export const English = () => {
             <hr />
             <EnglishLink title="Past continuous" path="/pasado-continuo" />
             <hr />
+            <EnglishLink title="Future continuous" path="/futuro-continuo" />
 
-            <CollapseInformation name="Future continuous" id="futureContinuous" >
-              <h5>Affirmative</h5>
-              <h6>Structure</h6>
-              <p>
-                Subject + <b>will + be</b> + <b>verb with ing</b> <br />
-                <br />{" "}
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                I will be singing in the concert tomorrow <br />
-                We <b>will be</b> <b>traveling </b> to Europe next summer.
-              </p>
-
-              <hr />
-
-              <h5>Negative</h5>
-              <h6>Structure</h6>
-              <p>
-                Subject + <b>will + be/won't</b> + <b>verb with ing</b> <br />
-                <br />
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                I <b>won't be singing</b> in the concert tomorrow <br />
-                He <b>will not be attending</b> the meeting.
-              </p>
-
-              <hr />
-
-              <h5>Interrogative</h5>
-              <h6>Structure</h6>
-              <p>
-                <b>Will</b> + subject + <b>be</b> + <b>verb with ing</b> <br />
-                <br />{" "}
-              </p>
-
-              <h6>Examples</h6>
-              <p>
-                <b>Will</b> you <b>be singing</b> in the concert tomorrow?{" "}
-                <br />
-                <b>Will</b> they be finishing their homework by tomorrow?
-              </p>
-            </CollapseInformation>
             <hr />
           </div>
 

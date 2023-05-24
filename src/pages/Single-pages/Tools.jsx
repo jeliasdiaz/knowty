@@ -123,6 +123,7 @@ export const Tools = () => {
                                         <li className="list-styled" onClick={() => handleUnitSelectionOne("dm")}>dm</li>
                                         <li className="list-styled" onClick={() => handleUnitSelectionOne("cm")}>cm</li>
                                         <li className="list-styled" onClick={() => handleUnitSelectionOne("mm")}>mm</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("in")}>in</li>
                                     </div>
 
                                     <div>
@@ -161,6 +162,8 @@ export const Tools = () => {
                                         <li className="list-styled" onClick={() => handleUnitSelectionTwo("dm")}>dm</li>
                                         <li className="list-styled" onClick={() => handleUnitSelectionTwo("cm")}>cm</li>
                                         <li className="list-styled" onClick={() => handleUnitSelectionTwo("mm")}>mm</li>
+                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("in")}>in</li>
+
                                     </div>
 
                                     <div>
@@ -182,7 +185,7 @@ export const Tools = () => {
 
                 </div>
 
-                <div  className="subjectCard mb-5 ownShadow">
+                <div className="subjectCard mb-5 ownShadow">
                     <h3>Razones trigonométricas para ángulos notables</h3>
                     <table className="table table-bordered text-end">
                         <thead className="table-light">

@@ -16,7 +16,7 @@ import { BiologyMenu, Cells} from "./pages/Biology";
 import { FirstChemistryPeriod, FourthChemistryPeriod, SecondChemistryPeriod, ThirdChemistryPeriod, ChemistryMenu } from "./pages/Chemistry";
 
 //* English
-import { English, Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVerbs, PresentContinuous, PastContinuous } from "./pages/English";
+import { English, Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVerbs, PresentContinuous, PastContinuous, FutureContinuous } from "./pages/English";
 
 //* Geometry
 import { Circumference, Straight, Ellipse, Parable, GeometryMenu } from "./pages/Geometry";
@@ -124,6 +124,7 @@ function App() {
             <Route path="/presente-simple" element={<PresentSimple />}/>
             <Route path="/pasado-simple" element={<PastSimple/>}/>
             <Route path="/futuro-simple" element={<SimpleFuture/>}/>
+            <Route path="/futuro-continuo" element={<FutureContinuous/>}/>
             <Route path="/presente-continuo" element={<PresentContinuous/>}/>
             <Route path="/pasado-continuo" element={<PastContinuous/>}/>
             <Route path="/determinantes" element={<Determinants />}/>
