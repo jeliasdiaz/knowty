@@ -11,7 +11,7 @@ export const Home = () => {
             <h1>Knowty</h1>
             <p>De estudiantes, para estudiantes. Es hora de adentrarse en las fauces del conocimiento. ¡Sé autodidacta con Knowty!</p>
           </div>
-          <img src="/img/homeImg.svg" alt="home" className="user-select-none" />
+          <img src="/img/homeImgTwo.png" alt="home" className="user-select-none" />
         </div>
       </section>
 

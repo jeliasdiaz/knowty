@@ -28,6 +28,11 @@ export const Credits = () => {
                             <li><a href="https://www.flaticon.es/iconos-gratis/aire" title="aire iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Aire iconos creados por torskaya - Flaticon</a></li>
                             <li><a href="https://www.flaticon.es/iconos-gratis/cepillo-de-dientes" title="cepillo-de-dientes iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Cepillo-de-dientes iconos creados por Victoruler - Flaticon</a></li>
                             <li><a href="https://www.flaticon.es/iconos-gratis/television" title="televisión iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Televisión iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/sal" title="sal iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Sal iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/coliflor" title="coliflor iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Coliflor iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/aeronave" title="aeronave iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Aeronave iconos creados por Pause08 - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/semiconductor" title="semiconductor iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Semiconductor iconos creados por Natthapong - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/cajita-de-cerillas" title="cajita de cerillas iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Cajita de cerillas iconos creados por Zulfa Mahendra - Flaticon</a></li>
                         </ul>
                     </CollapseInformation>
                 </div>

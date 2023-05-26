@@ -55,7 +55,7 @@ export const Search = () => {
 
       {
         searchTerm === ""
-          ? <h6 style={{ color: "gray" }} data-aos="fade-up" data-aos-duration="800">Por favor escribe algo para buscar</h6>
+          ? <h6 style={{ color: "gray" }} data-aos="fade-up" data-aos-duration="800">Escribe algo para buscar</h6>
 
           : filteredData.length !== 0
 
