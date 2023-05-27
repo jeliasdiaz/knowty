@@ -183,7 +183,7 @@ ul li:before {
 /** Section 1 */
 .home {
   background-color: #f6f6f6;
-  min-height: 100vh;
+  min-height: fit-content;
   transition: 0.5s;
 }
 
@@ -225,7 +225,7 @@ ul li:before {
 .sectionTwo {
   display: flex;
   width: 100%;
-  padding-top: 3%;
+  padding-top: 5%;
 }
 
 .sectionTwoText {
