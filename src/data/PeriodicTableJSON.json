@@ -150,7 +150,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Boron", 
             "spectral_img": null, 
-            "summary": "Es un elemento químico metaloide de símbolo B y número atómico 5.Producido enteramente por espalación de rayos cósmicos y supernovas y no por nucleosíntesis estelar, es un elemento poco abundante tanto en el sistema solar como en la corteza terrestre. El boro se concentra en la Tierra por la solubilidad en agua de sus compuestos naturales más comunes, los minerales de borato.", 
+            "summary": "Es un elemento químico metaloide de símbolo B y número atómico 5. Producido enteramente por espalación de rayos cósmicos y supernovas y no por nucleosíntesis estelar, es un elemento poco abundante tanto en el sistema solar como en la corteza terrestre. El boro se concentra en la Tierra por la solubilidad en agua de sus compuestos naturales más comunes, los minerales de borato.", 
             "symbol": "B", 
             "xpos": 13, 
             "ypos": 2, 
@@ -223,7 +223,7 @@
             "phase": "Gas", 
             "source": "https://en.wikipedia.org/wiki/Nitrogen", 
             "spectral_img": "https://en.wikipedia.org/wiki/File:Nitrogen_Spectra.jpg", 
-            "summary": "Nitrogen is a chemical element with symbol N and atomic number 7. It is the lightest pnictogen and at room temperature, it is a transparent, odorless diatomic gas. Nitrogen is a common element in the universe, estimated at about seventh in total abundance in the Milky Way and the Solar System.", 
+            "summary": "El nitrógeno es un elemento químico de símbolo N y número atómico 7. Es el pnictógeno más ligero y, a temperatura ambiente, es un gas diatómico transparente e inodoro. El nitrógeno es un elemento común en el universo, cuya abundancia total se estima en torno a la séptima parte en la Vía Láctea y el Sistema Solar.", 
             "symbol": "N", 
             "xpos": 15, 
             "ypos": 2, 
@@ -1009,7 +1009,7 @@
             ]
         }, 
         {
-            "name": "Chromium", 
+            "name": "Cromo", 
             "appearance": "silvery metallic", 
             "atomic_mass": 51.99616, 
             "boil": 2944, 
@@ -1025,7 +1025,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Chromium", 
             "spectral_img": null, 
-            "summary": "Chromium is a chemical element with symbol Cr and atomic number 24. It is the first element in Group 6. It is a steely-gray, lustrous, hard and brittle metal which takes a high polish, resists tarnishing, and has a high melting point.", 
+            "summary": "El cromo es un elemento químico de número atómico 24 y símbolo Cr. Es el primer elemento del Grupo 6. Es un metal de color gris acerado, lustroso, duro y quebradizo, que adquiere un pulido intenso, resiste el deslustre y tiene un punto de fusión elevado.", 
             "symbol": "Cr", 
             "xpos": 6, 
             "ypos": 4, 
@@ -1066,7 +1066,7 @@
             ]
         }, 
         {
-            "name": "Manganese", 
+            "name": "Manganeso", 
             "appearance": "silvery metallic", 
             "atomic_mass": 54.9380443, 
             "boil": 2334, 
@@ -1082,7 +1082,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Manganese", 
             "spectral_img": null, 
-            "summary": "Manganese is a chemical element with symbol Mn and atomic number 25. It is not found as a free element in nature; it is often found in combination with iron, and in many minerals. Manganese is a metal with important industrial metal alloy uses, particularly in stainless steels.", 
+            "summary": "El manganeso es un elemento químico de símbolo Mn y número atómico 25. No se encuentra como elemento libre en la naturaleza; suele encontrarse en combinación con el hierro y en muchos minerales. El manganeso es un metal con importantes usos industriales en aleaciones metálicas, sobre todo en aceros inoxidables.", 
             "symbol": "Mn", 
             "xpos": 7, 
             "ypos": 4, 
@@ -1124,7 +1124,7 @@
             ]
         }, 
         {
-            "name": "Iron", 
+            "name": "Hierro", 
             "appearance": "lustrous metallic with a grayish tinge", 
             "atomic_mass": 55.8452, 
             "boil": 3134, 
@@ -1140,7 +1140,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Iron", 
             "spectral_img": "https://en.wikipedia.org/wiki/File:Iron_Spectrum.jpg", 
-            "summary": "Iron is a chemical element with symbol Fe (from Latin:ferrum) and atomic number 26. It is a metal in the first transition series. It is by mass the most common element on Earth, forming much of Earth's outer and inner core.", 
+            "summary": "El hierro es un elemento químico de símbolo Fe (del latín: ferrum) y número atómico 26. Es un metal de la primera serie de transición. Es, en masa, el elemento más común de la Tierra y forma gran parte de su núcleo externo e interno.", 
             "symbol": "Fe", 
             "xpos": 8, 
             "ypos": 4, 
@@ -1183,7 +1183,7 @@
             ]
         }, 
         {
-            "name": "Cobalt", 
+            "name": "Cobalto", 
             "appearance": "hard lustrous gray metal", 
             "atomic_mass": 58.9331944, 
             "boil": 3200, 
@@ -1199,7 +1199,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Cobalt", 
             "spectral_img": null, 
-            "summary": "Cobalt is a chemical element with symbol Co and atomic number 27. Like nickel, cobalt in the Earth's crust is found only in chemically combined form, save for small deposits found in alloys of natural meteoric iron. The free element, produced by reductive smelting, is a hard, lustrous, silver-gray metal.", 
+            "summary": "El cobalto es un elemento químico de símbolo Co y número atómico 27. Al igual que el níquel, el cobalto en la corteza terrestre sólo se encuentra en forma químicamente combinada, salvo pequeños depósitos que se encuentran en aleaciones de hierro meteórico natural. Es un metal duro, lustroso y de color gris plateado.", 
             "symbol": "Co", 
             "xpos": 9, 
             "ypos": 4, 
@@ -1243,7 +1243,7 @@
             ]
         }, 
         {
-            "name": "Nickel", 
+            "name": "Níquel", 
             "appearance": "lustrous, metallic, and silver with a gold tinge", 
             "atomic_mass": 58.69344, 
             "boil": 3003, 
@@ -1259,7 +1259,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Nickel", 
             "spectral_img": null, 
-            "summary": "Nickel is a chemical element with symbol Ni and atomic number 28. It is a silvery-white lustrous metal with a slight golden tinge. Nickel belongs to the transition metals and is hard and ductile.", 
+            "summary": "El níquel es un elemento químico de número atómico 28 y símbolo Ni. Es un metal brillante de color blanco plateado con un ligero tinte dorado. El níquel pertenece a los metales de transición y es duro y dúctil.", 
             "symbol": "Ni", 
             "xpos": 10, 
             "ypos": 4, 
@@ -1304,7 +1304,7 @@
             ]
         }, 
         {
-            "name": "Copper", 
+            "name": "Cobre", 
             "appearance": "red-orange metallic luster", 
             "atomic_mass": 63.5463, 
             "boil": 2835, 
@@ -1320,7 +1320,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Copper", 
             "spectral_img": null, 
-            "summary": "Copper is a chemical element with symbol Cu (from Latin:cuprum) and atomic number 29. It is a soft, malleable and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a reddish-orange color.", 
+            "summary": "El cobre es un elemento químico de símbolo Cu (del latín:cuprum) y número atómico 29. Es un metal blando, maleable y dúctil con una conductividad térmica y eléctrica muy elevada. Una superficie recién expuesta de cobre puro tiene un color rojizo anaranjado.", 
             "symbol": "Cu", 
             "xpos": 11, 
             "ypos": 4, 
@@ -1382,7 +1382,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Zinc", 
             "spectral_img": null, 
-            "summary": "Zinc, in commerce also spelter, is a chemical element with symbol Zn and atomic number 30. It is the first element of group 12 of the periodic table. In some respects zinc is chemically similar to magnesium:its ion is of similar size and its only common oxidation state is +2.", 
+            "summary": "El zinc, en el comercio también espelta, es un elemento químico de símbolo Zn y número atómico 30. Es el primer elemento del grupo 12 de la tabla periódica. En algunos aspectos, el zinc es químicamente similar al magnesio: su ion es de tamaño similar y su único estado de oxidación común es +2.", 
             "symbol": "Zn", 
             "xpos": 12, 
             "ypos": 4, 
@@ -1420,7 +1420,7 @@
             ]
         }, 
         {
-            "name": "Gallium", 
+            "name": "Galio", 
             "appearance": "silver-white", 
             "atomic_mass": 69.7231, 
             "boil": 2673, 
@@ -1436,7 +1436,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Gallium", 
             "spectral_img": null, 
-            "summary": "Gallium is a chemical element with symbol Ga and atomic number 31. Elemental gallium does not occur in free form in nature, but as the gallium(III) compounds that are in trace amounts in zinc ores and in bauxite. Gallium is a soft, silvery metal, and elemental gallium is a brittle solid at low temperatures, and melts at 29.76 \u00b0C (85.57 \u00b0F) (slightly above room temperature).", 
+            "summary": "El galio elemental no se encuentra en estado libre en la naturaleza, sino en forma de compuestos de galio (III) que se encuentran en trazas en los minerales de zinc y en la bauxita. El galio es un metal blando y plateado, y el galio elemental es un sólido quebradizo a bajas temperaturas, que funde a 29,76 \u00b0C (85,57 \u00b0F) (ligeramente por encima de la temperatura ambiente).", 
             "symbol": "Ga", 
             "xpos": 13, 
             "ypos": 4, 
@@ -1457,7 +1457,7 @@
             ]
         }, 
         {
-            "name": "Germanium", 
+            "name": "Germanio", 
             "appearance": "grayish-white", 
             "atomic_mass": 72.6308, 
             "boil": 3106, 
@@ -1473,7 +1473,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Germanium", 
             "spectral_img": null, 
-            "summary": "Germanium is a chemical element with symbol Ge and atomic number 32. It is a lustrous, hard, grayish-white metalloid in the carbon group, chemically similar to its group neighbors tin and silicon. Purified germanium is a semiconductor, with an appearance most similar to elemental silicon.", 
+            "summary": "El germanio es un elemento químico de símbolo Ge y número atómico 32. Es un metaloide lustroso, duro y de color blanco grisáceo del grupo del carbono, químicamente similar a sus vecinos de grupo el estaño y el silicio. El germanio purificado es un semiconductor de aspecto muy similar al silicio elemental.", 
             "symbol": "Ge", 
             "xpos": 14, 
             "ypos": 4, 
@@ -1495,7 +1495,7 @@
             ]
         }, 
         {
-            "name": "Arsenic", 
+            "name": "Arsénico", 
             "appearance": "metallic grey", 
             "atomic_mass": 74.9215956, 
             "boil": null, 
@@ -1511,7 +1511,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Arsenic", 
             "spectral_img": null, 
-            "summary": "Arsenic is a chemical element with symbol As and atomic number 33. Arsenic occurs in many minerals, usually in conjunction with sulfur and metals, and also as a pure elemental crystal. Arsenic is a metalloid.", 
+            "summary": "El arsénico es un elemento químico de símbolo As y número atómico 33. El arsénico se encuentra en muchos minerales, normalmente junto con azufre y metales, y también como cristal elemental puro. El arsénico es un metaloide.", 
             "symbol": "As", 
             "xpos": 15, 
             "ypos": 4, 
@@ -1534,7 +1534,7 @@
             ]
         }, 
         {
-            "name": "Selenium", 
+            "name": "Selenio", 
             "appearance": "black, red, and gray (not pictured) allotropes", 
             "atomic_mass": 78.9718, 
             "boil": 958, 
@@ -1550,7 +1550,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Selenium", 
             "spectral_img": null, 
-            "summary": "Selenium is a chemical element with symbol Se and atomic number 34. It is a nonmetal with properties that are intermediate between those of its periodic table column-adjacent chalcogen elements sulfur and tellurium. It rarely occurs in its elemental state in nature, or as pure ore compounds.", 
+            "summary": "El selenio es un elemento químico de número atómico 34 y símbolo Se. Es un no metal con propiedades intermedias entre las de los elementos calcógenos azufre y telurio, adyacentes en la tabla periódica. Rara vez se encuentra en estado elemental en la naturaleza o en forma de compuestos minerales puros.", 
             "symbol": "Se", 
             "xpos": 16, 
             "ypos": 4, 
@@ -1574,7 +1574,7 @@
             ]
         }, 
         {
-            "name": "Bromine", 
+            "name": "Bromo", 
             "appearance": null, 
             "atomic_mass": 79.904, 
             "boil": 332.0, 
@@ -1590,7 +1590,7 @@
             "phase": "Liquid", 
             "source": "https://en.wikipedia.org/wiki/Bromine", 
             "spectral_img": null, 
-            "summary": "Bromine (from Ancient Greek:\u03b2\u03c1\u1ff6\u03bc\u03bf\u03c2, br\u00f3mos, meaning \"stench\") is a chemical element with symbol Br, and atomic number 35. It is a halogen. The element was isolated independently by two chemists, Carl Jacob L\u00f6wig and Antoine Jerome Balard, in 1825\u20131826.", 
+            "summary": "El bromo (del griego antiguo:\u03b2\u03c1\u1ff6\u03bc\u03bf\u03c2, br\u00f3mos, que significa \"hedor\") es un elemento químico de símbolo Br y número atómico 35. Es un halógeno. Fue aislado de forma independiente por dos químicos, Carl Jacob Lüf6wig y Antoine Jerome Balard, en 1825.", 
             "symbol": "Br", 
             "xpos": 17, 
             "ypos": 4, 
@@ -1615,7 +1615,7 @@
             ]
         }, 
         {
-            "name": "Krypton", 
+            "name": "Kriptón", 
             "appearance": "colorless gas, exhibiting a whitish glow in a high electric field", 
             "atomic_mass": 83.7982, 
             "boil": 119.93, 
@@ -1631,7 +1631,7 @@
             "phase": "Gas", 
             "source": "https://en.wikipedia.org/wiki/Krypton", 
             "spectral_img": "https://en.wikipedia.org/wiki/File:Krypton_Spectrum.jpg", 
-            "summary": "Krypton (from Greek:\u03ba\u03c1\u03c5\u03c0\u03c4\u03cc\u03c2 kryptos \"the hidden one\") is a chemical element with symbol Kr and atomic number 36. It is a member of group 18 (noble gases) elements. A colorless, odorless, tasteless noble gas, krypton occurs in trace amounts in the atmosphere, is isolated by fractionally distilling liquefied air, and is often used with other rare gases in fluorescent lamps.", 
+            "summary": "El Kriptón (del griego:\u03ba\u03c1\u03c5\u03c0\u03c4\u03cc\u03c2 kryptos \"el oculto\") es un elemento químico de símbolo Kr y número atómico 36. Pertenece al grupo de los 18 (gases nobles). El Kriptón es un gas noble incoloro, inodoro e insípido que se encuentra en la atmósfera en cantidades ínfimas, se aísla destilando fraccionadamente aire licuado y se utiliza a menudo con otros gases raros en las lámparas fluorescentes.", 
             "symbol": "Kr", 
             "xpos": 18, 
             "ypos": 4, 
@@ -1678,7 +1678,7 @@
             ]
         }, 
         {
-            "name": "Rubidium", 
+            "name": "Rubidio", 
             "appearance": "grey white", 
             "atomic_mass": 85.46783, 
             "boil": 961, 
@@ -1694,7 +1694,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Rubidium", 
             "spectral_img": null, 
-            "summary": "Rubidium is a chemical element with symbol Rb and atomic number 37. Rubidium is a soft, silvery-white metallic element of the alkali metal group, with an atomic mass of 85.4678. Elemental rubidium is highly reactive, with properties similar to those of other alkali metals, such as very rapid oxidation in air.", 
+            "summary": "El rubidio es un elemento químico de símbolo Rb y número atómico 37. El rubidio es un elemento metálico blando, de color blanco plateado, del grupo de los metales alcalinos, con una masa atómica de 85,4678. El rubidio elemental es muy reactivo, con propiedades similares a las de otros metales alcalinos, como una oxidación muy rápida en el aire.", 
             "symbol": "Rb", 
             "xpos": 1, 
             "ypos": 5, 

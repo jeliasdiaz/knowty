@@ -773,18 +773,19 @@ ul li:before {
 
   .sectionOne {
     padding: 5%;
-    padding-top: 22%;
     margin: auto;
     text-align: center;
   }
 
   .sectionOne img {
-    width: 18rem;
+    width: 20rem;
     margin: auto;
   }
-
+  .sectionOne h1{
+    font-size: 3em;
+  }
   .sectionOne p {
-    font-size: 18px;
+    font-size: 15px;
     width: 96%;
     margin: auto;
   }
