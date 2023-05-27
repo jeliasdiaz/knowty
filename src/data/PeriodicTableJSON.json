@@ -591,7 +591,7 @@
             ]
         }, 
         {
-            "name": "Sulfur", 
+            "name": "Azufre", 
             "appearance": "lemon yellow sintered microcrystals", 
             "atomic_mass": 32.06, 
             "boil": 717.8, 
@@ -607,7 +607,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Sulfur", 
             "spectral_img": "https://en.wikipedia.org/wiki/File:Sulfur_Spectrum.jpg", 
-            "summary": "Sulfur or sulphur (see spelling differences) is a chemical element with symbol S and atomic number 16. It is an abundant, multivalent non-metal. Under normal conditions, sulfur atoms form cyclic octatomic molecules with chemical formula S8.", 
+            "summary": "El azufre o sulfuro (véanse las diferencias ortográficas) es un elemento químico de símbolo S y número atómico 16. Es un no metal multivalente abundante. En condiciones normales, los átomos de azufre forman moléculas octatómicas cíclicas de fórmula química S8.", 
             "symbol": "S", 
             "xpos": 16, 
             "ypos": 3, 
@@ -639,7 +639,7 @@
             ]
         }, 
         {
-            "name": "Chlorine", 
+            "name": "Cloro", 
             "appearance": "pale yellow-green gas", 
             "atomic_mass": 35.45, 
             "boil": 239.11, 
@@ -655,7 +655,7 @@
             "phase": "Gas", 
             "source": "https://en.wikipedia.org/wiki/Chlorine", 
             "spectral_img": "https://en.wikipedia.org/wiki/File:Chlorine_spectrum_visible.png", 
-            "summary": "Chlorine is a chemical element with symbol Cl and atomic number 17. It also has a relative atomic mass of 35.5. Chlorine is in the halogen group (17) and is the second lightest halogen following fluorine.", 
+            "summary": "El cloro es un elemento químico de símbolo Cl y número atómico 17. También tiene una masa atómica relativa de 35,5. El cloro pertenece al grupo de los halógenos (17) y es el segundo halógeno más ligero después del flúor.", 
             "symbol": "Cl", 
             "xpos": 17, 
             "ypos": 3, 
@@ -689,7 +689,7 @@
             ]
         }, 
         {
-            "name": "Argon", 
+            "name": "Argón", 
             "appearance": "colorless gas exhibiting a lilac/violet glow when placed in a high voltage electric field", 
             "atomic_mass": 39.9481, 
             "boil": 87.302, 
@@ -705,7 +705,7 @@
             "phase": "Gas", 
             "source": "https://en.wikipedia.org/wiki/Argon", 
             "spectral_img": "https://en.wikipedia.org/wiki/File:Argon_Spectrum.png", 
-            "summary": "Argon is a chemical element with symbol Ar and atomic number 18. It is in group 18 of the periodic table and is a noble gas. Argon is the third most common gas in the Earth's atmosphere, at 0.934% (9,340 ppmv), making it over twice as abundant as the next most common atmospheric gas, water vapor (which averages about 4000 ppmv, but varies greatly), and 23 times as abundant as the next most common non-condensing atmospheric gas, carbon dioxide (400 ppmv), and more than 500 times as abundant as the next most common noble gas, neon (18 ppmv).", 
+            "summary": "El argón es el tercer gas más común en la atmósfera terrestre, con un 0,934% (9.340 ppmv), lo que lo convierte en más del doble de abundante que el siguiente gas atmosférico más común, el vapor de agua (que tiene una media de unas 4.000 ppmv, pero varía mucho), y 23 veces más abundante que el siguiente gas atmosférico sin condensación más común, el dióxido de carbono (400 ppmv), y más de 500 veces más abundante que el siguiente gas noble más común, el neón (18 ppmv).", 
             "symbol": "Ar", 
             "xpos": 18, 
             "ypos": 3, 
@@ -739,7 +739,7 @@
             ]
         }, 
         {
-            "name": "Potassium", 
+            "name": "Potasio", 
             "appearance": "silvery gray", 
             "atomic_mass": 39.09831, 
             "boil": 1032, 
@@ -755,7 +755,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Potassium", 
             "spectral_img": "https://en.wikipedia.org/wiki/File:Potassium_Spectrum.jpg", 
-            "summary": "Potassium is a chemical element with symbol K (derived from Neo-Latin, kalium) and atomic number 19. It was first isolated from potash, the ashes of plants, from which its name is derived. In the Periodic table, potassium is one of seven elements in column (group) 1 (alkali metals):they all have a single valence electron in their outer electron shell, which they readily give up to create an atom with a positive charge - a cation, and combine with anions to form salts.", 
+            "summary": "El potasio es un elemento químico de símbolo K (derivado del neolatín, kalium) y número atómico 19. Se aisló por primera vez a partir de la potasa, cenizas de plantas de las que deriva su nombre.", 
             "symbol": "K", 
             "xpos": 1, 
             "ypos": 4, 
@@ -791,7 +791,7 @@
             ]
         }, 
         {
-            "name": "Calcium", 
+            "name": "Calcio", 
             "appearance": null, 
             "atomic_mass": 40.0784, 
             "boil": 1757, 
@@ -807,7 +807,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Calcium", 
             "spectral_img": "https://en.wikipedia.org/wiki/File:Calcium_Spectrum.png", 
-            "summary": "Calcium is a chemical element with symbol Ca and atomic number 20. Calcium is a soft gray alkaline earth metal, fifth-most-abundant element by mass in the Earth's crust. The ion Ca2+ is also the fifth-most-abundant dissolved ion in seawater by both molarity and mass, after sodium, chloride, magnesium, and sulfate.", 
+            "summary": "El calcio es un elemento químico de símbolo Ca y número atómico 20. El calcio es un metal alcalinotérreo blando y gris, el quinto elemento más abundante en masa de la corteza terrestre. El ion Ca2+ es también el quinto ion disuelto más abundante en el agua de mar, tanto por molaridad como por masa, después del sodio, el cloruro, el magnesio y el sulfato",
             "symbol": "Ca", 
             "xpos": 2, 
             "ypos": 4, 
@@ -844,7 +844,7 @@
             ]
         }, 
         {
-            "name": "Scandium", 
+            "name": "Escandio", 
             "appearance": "silvery white", 
             "atomic_mass": 44.9559085, 
             "boil": 3109, 
@@ -860,7 +860,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Scandium", 
             "spectral_img": null, 
-            "summary": "Scandium is a chemical element with symbol Sc and atomic number 21. A silvery-white metallic d-block element, it has historically been sometimes classified as a rare earth element, together with yttrium and the lanthanoids. It was discovered in 1879 by spectral analysis of the minerals euxenite and gadolinite from Scandinavia.", 
+            "summary": "El escandio es un elemento químico de número atómico 21 y símbolo Sc. Es un elemento metálico del bloque d de color blanco plateado que históricamente se ha clasificado a veces como un elemento de tierras raras, junto con el itrio y los lantanoides. Se descubrió en 1879 mediante el análisis espectral de los minerales euxenita y gadolinita de Escandinavia.", 
             "symbol": "Sc", 
             "xpos": 3, 
             "ypos": 4, 
@@ -898,7 +898,7 @@
             ]
         }, 
         {
-            "name": "Titanium", 
+            "name": "Titanio", 
             "appearance": "silvery grey-white metallic", 
             "atomic_mass": 47.8671, 
             "boil": 3560, 
@@ -914,7 +914,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Titanium", 
             "spectral_img": null, 
-            "summary": "Titanium is a chemical element with symbol Ti and atomic number 22. It is a lustrous transition metal with a silver color, low density and high strength. It is highly resistant to corrosion in sea water, aqua regia and chlorine.", 
+            "summary": "El titanio es un elemento químico de símbolo Ti y número atómico 22. Es un metal de transición lustroso de color plateado, baja densidad y alta resistencia. Es muy resistente a la corrosión en agua de mar, agua regia y cloro.", 
             "symbol": "Ti", 
             "xpos": 4, 
             "ypos": 4, 
@@ -953,7 +953,7 @@
             ]
         }, 
         {
-            "name": "Vanadium", 
+            "name": "Vanadio", 
             "appearance": "blue-silver-grey metal", 
             "atomic_mass": 50.94151, 
             "boil": 3680, 
@@ -969,7 +969,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Vanadium", 
             "spectral_img": null, 
-            "summary": "Vanadium is a chemical element with symbol V and atomic number 23. It is a hard, silvery grey, ductile and malleable transition metal. The element is found only in chemically combined form in nature, but once isolated artificially, the formation of an oxide layer stabilizes the free metal somewhat against further oxidation.", 
+            "summary": "El vanadio es un elemento químico de símbolo V y número atómico 23. Es un metal de transición duro, de color gris plateado, dúctil y maleable. El elemento sólo se encuentra en forma químicamente combinada en la naturaleza, pero una vez aislado artificialmente, la formación de una capa de óxido estabiliza un poco el metal libre frente a la oxidación posterior.", 
             "symbol": "V", 
             "xpos": 5, 
             "ypos": 4, 

@@ -33,6 +33,12 @@ export const Credits = () => {
                             <li><a href="https://www.flaticon.es/iconos-gratis/aeronave" title="aeronave iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Aeronave iconos creados por Pause08 - Flaticon</a></li>
                             <li><a href="https://www.flaticon.es/iconos-gratis/semiconductor" title="semiconductor iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Semiconductor iconos creados por Natthapong - Flaticon</a></li>
                             <li><a href="https://www.flaticon.es/iconos-gratis/cajita-de-cerillas" title="cajita de cerillas iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Cajita de cerillas iconos creados por Zulfa Mahendra - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/compost" title="compost iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Compost iconos creados por surang - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/piscina" title="piscina iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Piscina iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/idea" title="idea iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Idea iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/platanos" title="plátanos iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Plátanos iconos creados por Luvdat - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/fluorescente" title="fluorescente iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Fluorescente iconos creados por Flat Icons - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/bote-de-jack" title="bote de jack iconos" className=" text-decoration-none" target="_blank" rel="noreferrer" >Bote de jack iconos creados por Freepik - Flaticon</a></li>
                         </ul>
                     </CollapseInformation>
                 </div>
