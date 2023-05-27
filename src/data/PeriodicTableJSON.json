@@ -1958,7 +1958,7 @@
             ]
         }, 
         {
-            "name": "Technetium", 
+            "name": "Tecnecio", 
             "appearance": "shiny gray metal", 
             "atomic_mass": 98, 
             "boil": 4538, 
@@ -1974,7 +1974,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Technetium", 
             "spectral_img": null, 
-            "summary": "Technetium (/t\u025bk\u02c8ni\u02d0\u0283i\u0259m/) is a chemical element with symbol Tc and atomic number 43. It is the element with the lowest atomic number in the periodic table that has no stable isotopes:every form of it is radioactive. Nearly all technetium is produced synthetically, and only minute amounts are found in nature.", 
+            "summary": "El tecnecio (/t\u025bk\u02c8ni\u02d0\u0283i\u0259m/) es un elemento químico de símbolo Tc y número atómico 43. Es el elemento con el número atómico más bajo de la tabla periódica que no tiene isótopos estables: todas sus formas son radiactivas. Casi todo el tecnecio se produce sintéticamente, y en la naturaleza sólo se encuentran cantidades ínfimas.", 
             "symbol": "Tc", 
             "xpos": 7, 
             "ypos": 5, 
