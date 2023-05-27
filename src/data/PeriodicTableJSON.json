@@ -1722,7 +1722,7 @@
             ]
         }, 
         {
-            "name": "Strontium", 
+            "name": "Estroncio", 
             "appearance": null, 
             "atomic_mass": 87.621, 
             "boil": 1650, 
@@ -1738,7 +1738,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Strontium", 
             "spectral_img": null, 
-            "summary": "Strontium is a chemical element with symbol Sr and atomic number 38. An alkaline earth metal, strontium is a soft silver-white or yellowish metallic element that is highly reactive chemically. The metal turns yellow when it is exposed to air.", 
+            "summary": "El estroncio es un elemento químico de símbolo Sr y número atómico 38. Es un metal alcalinotérreo. El estroncio, un metal alcalinotérreo, es un elemento metálico blando de color blanco plateado o amarillento muy reactivo químicamente. El metal se vuelve amarillo cuando se expone al aire.", 
             "symbol": "Sr", 
             "xpos": 2, 
             "ypos": 5, 
@@ -1767,7 +1767,7 @@
             ]
         }, 
         {
-            "name": "Yttrium", 
+            "name": "Itrio", 
             "appearance": "silvery white", 
             "atomic_mass": 88.905842, 
             "boil": 3203, 
@@ -1783,7 +1783,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Yttrium", 
             "spectral_img": null, 
-            "summary": "Yttrium is a chemical element with symbol Y and atomic number 39. It is a silvery-metallic transition metal chemically similar to the lanthanides and it has often been classified as a \"rare earth element\". Yttrium is almost always found combined with the lanthanides in rare earth minerals and is never found in nature as a free element.", 
+            "summary": "Es un metal de transición plateado-metálico químicamente similar a los lantánidos y a menudo se ha clasificado como \"elemento de tierras raras\". El itrio se encuentra casi siempre combinado con los lantánidos en minerales de tierras raras y nunca se encuentra en la naturaleza como elemento libre.", 
             "symbol": "Y", 
             "xpos": 3, 
             "ypos": 5, 
@@ -1813,7 +1813,7 @@
             ]
         }, 
         {
-            "name": "Zirconium", 
+            "name": "Circonio", 
             "appearance": "silvery white", 
             "atomic_mass": 91.2242, 
             "boil": 4650, 
@@ -1829,7 +1829,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Zirconium", 
             "spectral_img": null, 
-            "summary": "Zirconium is a chemical element with symbol Zr and atomic number 40. The name of zirconium is taken from the name of the mineral zircon, the most important source of zirconium. The word zircon comes from the Persian word zargun \u0632\u0631\u06af\u0648\u0646, meaning \"gold-colored\".", 
+            "summary": "El circonio es un elemento químico de símbolo Zr y número atómico 40. El nombre de circonio procede del nombre del mineral circón, la fuente más importante de circonio. La palabra circón procede del persa zargun \u0632\u0631\u06af\u0648\u0646, que significa \"de color dorado\".", 
             "symbol": "Zr", 
             "xpos": 4, 
             "ypos": 5, 
@@ -1853,7 +1853,7 @@
             ]
         }, 
         {
-            "name": "Niobium", 
+            "name": "Niobio", 
             "appearance": "gray metallic, bluish when oxidized", 
             "atomic_mass": 92.906372, 
             "boil": 5017, 
@@ -1869,7 +1869,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Niobium", 
             "spectral_img": null, 
-            "summary": "Niobium, formerly columbium, is a chemical element with symbol Nb (formerly Cb) and atomic number 41. It is a soft, grey, ductile transition metal, which is often found in the pyrochlore mineral, the main commercial source for niobium, and columbite. The name comes from Greek mythology:Niobe, daughter of Tantalus since it is so similar to tantalum.", 
+            "summary": "El niobio, antiguamente columbio, es un elemento químico de símbolo Nb (antiguamente Cb) y número atómico 41. Es un metal de transición blando, gris y dúctil, que suele encontrarse en el mineral pirocloro, principal fuente comercial del niobio, y en la columbita. Su nombre procede de la mitología griega: Niobe, hija de Tántalo, ya que es muy similar al tántalo.", 
             "symbol": "Nb", 
             "xpos": 5, 
             "ypos": 5, 
@@ -1894,7 +1894,7 @@
             ]
         }, 
         {
-            "name": "Molybdenum", 
+            "name": "Molibdeno", 
             "appearance": "gray metallic", 
             "atomic_mass": 95.951, 
             "boil": 4912, 
@@ -1910,7 +1910,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Molybdenum", 
             "spectral_img": null, 
-            "summary": "Molybdenum is a chemical element with symbol Mo and atomic number 42. The name is from Neo-Latin molybdaenum, from Ancient Greek \u039c\u03cc\u03bb\u03c5\u03b2\u03b4\u03bf\u03c2 molybdos, meaning lead, since its ores were confused with lead ores. Molybdenum minerals have been known throughout history, but the element was discovered (in the sense of differentiating it as a new entity from the mineral salts of other metals) in 1778 by Carl Wilhelm Scheele.", 
+            "summary": "Su nombre procede del neolatino molybdaenum. Su nombre procede del neolatín molybdaenum, del griego antiguo \u039c\u03cc\u03bb\u03c5\u03b2\u03b4\u03bf\u03c2 molybdos, que significa plomo, ya que sus minerales se confundían con los de plomo. Los minerales de molibdeno se han conocido a lo largo de la historia, pero el elemento fue descubierto (en el sentido de diferenciarlo como nueva entidad de las sales minerales de otros metales) en 1778 por Carl Wilhelm Scheele.", 
             "symbol": "Mo", 
             "xpos": 6, 
             "ypos": 5, 

@@ -53,6 +53,11 @@ export const Credits = () => {
                             <li><a href="https://www.flaticon.es/iconos-gratis/pelicula" title="película iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Película iconos creados por Freepik - Flaticon</a></li>
                             <li><a href="https://www.flaticon.es/iconos-gratis/antorcha" title="antorcha iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Antorcha iconos creados por Freepik - Flaticon</a></li>
                             <li><a href="https://www.flaticon.es/iconos-gratis/satelite" title="satélite iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Satélite iconos creados por Dighital - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/fuegos-artificiales" title="fuegos artificiales iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Fuegos artificiales iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/maquina-de-corte-por-laser" title="máquina de corte por láser iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Máquina de corte por láser iconos creados por Smashicons - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/tubo-de-ensayo" title="tubo de ensayo iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Tubo de ensayo iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/entrenar" title="entrenar iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Entrenar iconos creados por Mihimihi - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/alicate" title="alicate iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Alicate iconos creados por Freepik - Flaticon</a></li>
                         </ul>
                     </CollapseInformation>
                 </div>
