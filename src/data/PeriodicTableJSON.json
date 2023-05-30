@@ -1995,7 +1995,7 @@
             ]
         }, 
         {
-            "name": "Ruthenium", 
+            "name": "Rutenio", 
             "appearance": "silvery white metallic", 
             "atomic_mass": 101.072, 
             "boil": 4423, 
@@ -2011,7 +2011,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Ruthenium", 
             "spectral_img": null, 
-            "summary": "Ruthenium is a chemical element with symbol Ru and atomic number 44. It is a rare transition metal belonging to the platinum group of the periodic table. Like the other metals of the platinum group, ruthenium is inert to most other chemicals.", 
+            "summary": "El rutenio es un elemento químico de símbolo Ru y número atómico 44. Es un metal de transición raro perteneciente al grupo del platino de la tabla periódica. Al igual que los demás metales del grupo del platino, el rutenio es inerte a la mayoría de las sustancias químicas.", 
             "symbol": "Ru", 
             "xpos": 8, 
             "ypos": 5, 
@@ -2032,7 +2032,7 @@
             ]
         }, 
         {
-            "name": "Rhodium", 
+            "name": "Rodio", 
             "appearance": "silvery white metallic", 
             "atomic_mass": 102.905502, 
             "boil": 3968, 
@@ -2048,7 +2048,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Rhodium", 
             "spectral_img": null, 
-            "summary": "Rhodium is a chemical element with symbol Rh and atomic number 45. It is a rare, silvery-white, hard, and chemically inert transition metal. It is a member of the platinum group.", 
+            "summary": "El rodio es un elemento químico de símbolo Rh y número atómico 45. Es un metal de transición raro, de color blanco plateado, duro y químicamente inerte. Pertenece al grupo del platino.", 
             "symbol": "Rh", 
             "xpos": 9, 
             "ypos": 5, 

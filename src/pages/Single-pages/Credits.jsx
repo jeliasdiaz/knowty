@@ -59,6 +59,8 @@ export const Credits = () => {
                             <li><a href="https://www.flaticon.es/iconos-gratis/entrenar" title="entrenar iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Entrenar iconos creados por Mihimihi - Flaticon</a></li>
                             <li><a href="https://www.flaticon.es/iconos-gratis/alicate" title="alicate iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Alicate iconos creados por Freepik - Flaticon</a></li>
                             <li><a href="https://www.flaticon.es/iconos-gratis/rayos-x" title="rayos x iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Rayos x iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/interruptor-abierto" title="interruptor abierto iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Interruptor abierto iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/estudio" title="estudio iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Estudio iconos creados por Freepik - Flaticon</a></li>
                         </ul>
                     </CollapseInformation>
                 </div>
