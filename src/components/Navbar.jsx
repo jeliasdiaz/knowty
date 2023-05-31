@@ -29,7 +29,19 @@ export const Navbar = () => {
   const { titleSubject, titleVisible } = useContext(titleContext)
   const excludedPaths = ["/", "/info", "/blog", "/icons", "/busqueda"];
   const showTitle = titleVisible && !excludedPaths.includes(location.pathname) && !location.pathname.endsWith("menu");
+
   
+  // Transition page
+  const transitionPage = (ev) => {
+    ev.preventDefault();
+    if (document.startViewTransition) {
+        document.startViewTransition(() => {
+            navigate("/");
+        })
+    } else {
+        navigate("/")
+    }
+}
   return (
     <>
       <nav className={`navbar navbar-expand-lg fixed-top ${visible ? "down" : " up"}`}>
@@ -41,7 +53,7 @@ export const Navbar = () => {
                   { titleSubject }
                 </small>
               ) : (
-                <NavLink to="/" className="text-decoration-none bg-transparent" data-aos="fade-down" data-aos-delay="200">
+                <NavLink to="/" className="text-decoration-none bg-transparent" data-aos="fade-down" data-aos-delay="200" onClick={transitionPage}>
                   <img src="/img/knowty.png" alt="" className="navbar-brand" />
                 </NavLink>
               )

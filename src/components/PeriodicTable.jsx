@@ -56,6 +56,7 @@ const PeriodicTable = () => {
       "metalloid": true,
     })
   }
+
   return (
     <div ref={categoryRef}>
       <div className="kindElements">
