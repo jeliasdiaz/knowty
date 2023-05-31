@@ -7,7 +7,7 @@ export const ModalVerbs = () => {
             <SectionTitle title="Modal verbs" />
 
             <div className="englishCardContainer">
-                <div className="englishCard" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+                <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                     <p>
                         Los verbos modales son un tipo de verbo auxiliar en inglés que modifica el significado del verbo principal de una frase. Expresan varios matices de significado relacionados con la posibilidad, la capacidad, el permiso, la obligación, etc.
                     </p>
@@ -16,7 +16,7 @@ export const ModalVerbs = () => {
 
             <h1 className="englishSubtitle">¿Cuáles son?</h1>
             <div className="englishCardContainer">
-                <div className="englishCardStructure" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
+                <div className="englishCardStructure ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                     <h4>Can</h4>
                     <p>Usado para expresar habilidad, posibilidad, permiso o petición.</p>
                     <span className="fw-semibold mt-3">Ejemplo:</span>
@@ -26,7 +26,7 @@ export const ModalVerbs = () => {
                     </ul>
                 </div>
 
-                <div className="englishCardStructure
+                <div className="englishCardStructure ownShadow 
                 " data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                     <h4>Could</h4>
                     <p>Usado para expresar habilidad o posibilidad en el pasado, peticiones educadas u ofrecimientos, y situaciones condicionales o hipotéticas.</p>
@@ -41,7 +41,7 @@ export const ModalVerbs = () => {
                     </ul>
                 </div>
 
-                <div className="englishCardStructure
+                <div className="englishCardStructure ownShadow 
                 " data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                     <h4>May - might</h4>
                     <p>"May" se utiliza para expresar un mayor grado de probabilidad, pedir permiso o expresar una situación hipotética en el presente o futuro. Mientras que "might" se utiliza para expresar un menor grado de probabilidad o una situación hipotética en el pasado.</p>
@@ -58,7 +58,7 @@ export const ModalVerbs = () => {
                     </ul>
                 </div>
 
-                <div className="englishCardStructure
+                <div className="englishCardStructure ownShadow 
                 " data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                     <h4>Should</h4>
                     <p>Se utiliza para indicar expectativa o recomendación, o situación hipotética. También puede también para expresar crítica o pesar. Es un verbo versátil que puede usarse en diferentes contextos según la situación.</p>
@@ -71,7 +71,7 @@ export const ModalVerbs = () => {
                     </ul>
                 </div>
 
-                <div className="englishCardStructure
+                <div className="englishCardStructure ownShadow 
                 " data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                     <h4>Must</h4>
                     <p>Utilizado para expresar obligación o necesidad. Algunas de sus funciones son también expresar una certeza o recomendación fuerte, prohibición u obligación negativa, etc.</p>
@@ -84,7 +84,7 @@ export const ModalVerbs = () => {
                     </ul>
                 </div>
 
-                <div className="englishCardStructure
+                <div className="englishCardStructure ownShadow
                 " data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                     <h4>Would</h4>
                     <p>Se utiliza para comunicar una situación condicional o hipotética. También puede utilizarse para describir una acción o hábito repetido en el pasado. Además, suele utilizarse en peticiones u ofertas de cortesía.</p>
@@ -97,7 +97,7 @@ export const ModalVerbs = () => {
                     </ul>
                 </div>
 
-                <div className="englishCardStructure
+                <div className="englishCardStructure ownShadow
                 " data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                     <h4>Ought to</h4>
                     <p>Sugiere una obligación más fuerte que "should", pero no tan fuerte como "must".</p>
@@ -110,7 +110,7 @@ export const ModalVerbs = () => {
                     </ul>
                 </div>
 
-                <div className="englishCardStructure
+                <div className="englishCardStructure ownShadow
                 " data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
                     <h4>Shall</h4>
                     <p>En el pasado, se utilizaba como alternativa a "will", incluso se puede encontrar en conocidos libros de literatura del pasado. Hoy en día, "shall" se utiliza comúnmente para formar preguntas para hacer una oferta o sugerencia.</p>

@@ -10,6 +10,11 @@ body {
   background-color: #bfdfed;
   color: black;
 }
+/** Transition between routes */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.25s;
+}
 
 /** Global elements */
 /* Shadows */
@@ -98,12 +103,13 @@ ul li:before {
   z-index: 10;
 }
 
-.installCard div{
+.installCard div {
   display: flex;
   gap: 1em;
   justify-content: center;
   align-items: center;
 }
+
 .installCard img {
   width: 3.5em;
 }
@@ -280,11 +286,13 @@ ul li:before {
 .subjectLink img {
   width: 25%;
 }
-.subjectLink h5{
+
+.subjectLink h5 {
   margin-bottom: 0;
 }
+
 .animation {
-  transition: transform 0.2s, background-color 0.2s !important;
+  transition: transform 0.3s, background-color 0.3s !important;
 }
 
 .animationMobile {
@@ -435,6 +443,7 @@ ul li:before {
   padding: 2%;
   transition: 0.5s !important;
 }
+
 .collapseTitleIconUp {
   transform: rotate(180deg);
   transition: 0.5s;
@@ -495,18 +504,21 @@ ul li:before {
   margin-bottom: 2%;
   transition: 0.5s !important;
 }
-.englishLink{
+
+.englishLink {
   text-decoration: none;
   color: black;
   transition: 0.5s !important;
 
 }
-.englishSubtitle{
+
+.englishSubtitle {
   text-align: center;
   margin: 3%;
   transition: 0.5s !important;
 
 }
+
 .englishCardContainer h4 {
   color: #2b7ea1;
 }
@@ -520,7 +532,6 @@ ul li:before {
 
 .mobileSubjectMenu {
   margin: auto;
-  margin-top: 8%;
   width: 90%;
   padding-bottom: 2%;
   display: flex;
@@ -690,7 +701,8 @@ ul li:before {
 .iconsCard ul li a {
   color: black;
 }
-.iconsCard h4{
+
+.iconsCard h4 {
   padding-top: 0.5em;
 }
 
@@ -760,6 +772,7 @@ ul li:before {
   }
 
   .mobileSubjectMenu {
+    margin-top: 8%;
     display: block;
   }
 }
@@ -781,9 +794,11 @@ ul li:before {
     width: 20rem;
     margin: auto;
   }
-  .sectionOne h1{
+
+  .sectionOne h1 {
     font-size: 3em;
   }
+
   .sectionOne p {
     font-size: 15px;
     width: 96%;
@@ -871,6 +886,7 @@ ul li:before {
     width: 90%;
     margin-bottom: 4%;
   }
+
   .englishCardStructure {
     width: 90%;
     margin-bottom: 4%;
