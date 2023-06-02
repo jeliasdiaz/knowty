@@ -61,6 +61,14 @@ export const Credits = () => {
                             <li><a href="https://www.flaticon.es/iconos-gratis/rayos-x" title="rayos x iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Rayos x iconos creados por Freepik - Flaticon</a></li>
                             <li><a href="https://www.flaticon.es/iconos-gratis/interruptor-abierto" title="interruptor abierto iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Interruptor abierto iconos creados por Freepik - Flaticon</a></li>
                             <li><a href="https://www.flaticon.es/iconos-gratis/estudio" title="estudio iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Estudio iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/corona-dental" title="corona-dental iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Corona-dental iconos creados por Nikita Golubev - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/medalla-de-plata" title="medalla de plata iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Medalla de plata iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/toda-la-vida" title="toda-la-vida iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Toda-la-vida iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/pantalla-tactil" title="pantalla táctil iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Pantalla táctil iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/comida-enlatada" title="comida enlatada iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Comida enlatada iconos creados por smashingstocks - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/bateria" title="batería iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Batería iconos creados por Freepik - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/desinfectar" title="desinfectar iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Desinfectar iconos creados por justicon - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/faro" title="faro iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Faro iconos creados por Freepik - Flaticon</a></li>
                         </ul>
                     </CollapseInformation>
                 </div>

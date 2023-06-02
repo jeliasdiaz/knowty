@@ -2069,7 +2069,7 @@
             ]
         }, 
         {
-            "name": "Palladium", 
+            "name": "Paladio", 
             "appearance": "silvery white", 
             "atomic_mass": 106.421, 
             "boil": 3236, 
@@ -2085,7 +2085,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Palladium", 
             "spectral_img": null, 
-            "summary": "Palladium is a chemical element with symbol Pd and atomic number 46. It is a rare and lustrous silvery-white metal discovered in 1803 by William Hyde Wollaston. He named it after the asteroid Pallas, which was itself named after the epithet of the Greek goddess Athena, acquired by her when she slew Pallas.", 
+            "summary": "El paladio es un elemento químico de número atómico 46 y símbolo Pd. Es un metal blanco plateado, raro y brillante, descubierto en 1803 por William Hyde Wollaston. Le dio el nombre del asteroide Pallas, que a su vez se llamaba así por el epíteto de la diosa griega Atenea, adquirido por ésta al matar a Pallas.", 
             "symbol": "Pd", 
             "xpos": 10, 
             "ypos": 5, 
@@ -2105,7 +2105,7 @@
             ]
         }, 
         {
-            "name": "Silver", 
+            "name": "Plata", 
             "appearance": "lustrous white metal", 
             "atomic_mass": 107.86822, 
             "boil": 2435, 
@@ -2121,7 +2121,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Silver", 
             "spectral_img": null, 
-            "summary": "Silver is a chemical element with symbol Ag (Greek:\u03ac\u03c1\u03b3\u03c5\u03c1\u03bf\u03c2 \u00e1rguros, Latin:argentum, both from the Indo-European root *h\u2082er\u01f5- for \"grey\" or \"shining\") and atomic number 47. A soft, white, lustrous transition metal, it possesses the highest electrical conductivity, thermal conductivity and reflectivity of any metal. The metal occurs naturally in its pure, free form (native silver), as an alloy with gold and other metals, and in minerals such as argentite and chlorargyrite.", 
+            "summary": "La plata es un elemento químico de símbolo Ag y número atómico 47. Es un metal de transición blando, blanco y brillante que posee la mayor conductividad eléctrica, conductividad térmica y reflectividad de todos los metales. Este metal se encuentra en la naturaleza en su forma pura y libre (plata nativa), en aleaciones con oro y otros metales, y en minerales como la argentita y la clorargirita.", 
             "symbol": "Ag", 
             "xpos": 11, 
             "ypos": 5, 
@@ -2142,7 +2142,7 @@
             ]
         }, 
         {
-            "name": "Cadmium", 
+            "name": "Cadmio", 
             "appearance": "silvery bluish-gray metallic", 
             "atomic_mass": 112.4144, 
             "boil": 1040, 
@@ -2158,7 +2158,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Cadmium", 
             "spectral_img": null, 
-            "summary": "Cadmium is a chemical element with symbol Cd and atomic number 48. This soft, bluish-white metal is chemically similar to the two other stable metals in group 12, zinc and mercury. Like zinc, it prefers oxidation state +2 in most of its compounds and like mercury it shows a low melting point compared to transition metals.", 
+            "summary": "El cadmio es un elemento químico de símbolo Cd y número atómico 48. Este metal blando, de color blanco azulado, es químicamente similar a los otros dos metales estables del grupo 12, el zinc y el mercurio. Al igual que el zinc, prefiere el estado de oxidación +2 en la mayoría de sus compuestos y, como el mercurio, presenta un punto de fusión bajo en comparación con los metales de transición.", 
             "symbol": "Cd", 
             "xpos": 12, 
             "ypos": 5, 
@@ -2179,7 +2179,7 @@
             ]
         }, 
         {
-            "name": "Indium", 
+            "name": "Indio", 
             "appearance": "silvery lustrous gray", 
             "atomic_mass": 114.8181, 
             "boil": 2345, 
@@ -2195,7 +2195,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Indium", 
             "spectral_img": null, 
-            "summary": "Indium is a chemical element with symbol In and atomic number 49. It is a post-transition metallic element that is rare in Earth's crust. The metal is very soft, malleable and easily fusible, with a melting point higher than sodium, but lower than lithium or tin.", 
+            "summary": "El indio es un elemento químico de símbolo In y número atómico 49. Es un elemento metálico post-transicional poco frecuente en la corteza terrestre. El metal es muy blando, maleable y fácilmente fusible, con un punto de fusión superior al del sodio, pero inferior al del litio o el estaño.", 
             "symbol": "In", 
             "xpos": 13, 
             "ypos": 5, 
@@ -2217,7 +2217,7 @@
             ]
         }, 
         {
-            "name": "Tin", 
+            "name": "Estaño", 
             "appearance": "silvery-white (beta, \u03b2) or gray (alpha, \u03b1)", 
             "atomic_mass": 118.7107, 
             "boil": 2875, 
@@ -2233,7 +2233,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Tin", 
             "spectral_img": null, 
-            "summary": "Tin is a chemical element with the symbol Sn (for Latin:stannum) and atomic number 50. It is a main group metal in group 14 of the periodic table. Tin shows a chemical similarity to both neighboring group-14 elements, germanium and lead, and has two possible oxidation states, +2 and the slightly more stable +4.", 
+            "summary": "El estaño es un elemento químico de símbolo Sn (del latín:stannum) y número atómico 50. Es un metal principal del grupo 14 de la tabla periódica. El estaño presenta una similitud química con los dos elementos vecinos del grupo 14, el germanio y el plomo, y tiene dos estados de oxidación posibles, +2 y el ligeramente más estable +4.", 
             "symbol": "Sn", 
             "xpos": 14, 
             "ypos": 5, 
@@ -2256,7 +2256,7 @@
             ]
         }, 
         {
-            "name": "Antimony", 
+            "name": "Antimonio", 
             "appearance": "silvery lustrous gray", 
             "atomic_mass": 121.7601, 
             "boil": 1908, 
@@ -2272,7 +2272,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Antimony", 
             "spectral_img": null, 
-            "summary": "Antimony is a chemical element with symbol Sb (from Latin:stibium) and atomic number 51. A lustrous gray metalloid, it is found in nature mainly as the sulfide mineral stibnite (Sb2S3). Antimony compounds have been known since ancient times and were used for cosmetics; metallic antimony was also known, but it was erroneously identified as lead upon its discovery.", 
+            "summary": "Es un metaloide de color gris lustroso que se encuentra en la naturaleza principalmente en forma del mineral sulfuro estibina (Sb2S3). Los compuestos de antimonio se conocen desde la antigüedad y se utilizaban en cosmética; también se conocía el antimonio metálico, pero se identificó erróneamente como plomo tras su descubrimiento.", 
             "symbol": "Sb", 
             "xpos": 15, 
             "ypos": 5, 
@@ -2296,7 +2296,7 @@
             ]
         }, 
         {
-            "name": "Tellurium", 
+            "name": "Telurio", 
             "appearance": null, 
             "atomic_mass": 127.603, 
             "boil": 1261, 
@@ -2312,7 +2312,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Tellurium", 
             "spectral_img": null, 
-            "summary": "Tellurium is a chemical element with symbol Te and atomic number 52. It is a brittle, mildly toxic, rare, silver-white metalloid. Tellurium is chemically related to selenium and sulfur.", 
+            "summary": "El telurio es un elemento químico de símbolo Te y número atómico 52. Es un metaloide poco común, frágil y ligeramente tóxico. Es un metaloide quebradizo, poco tóxico, raro y de color blanco plateado. El telurio está químicamente relacionado con el selenio y el azufre.", 
             "symbol": "Te", 
             "xpos": 16, 
             "ypos": 5, 
@@ -2337,7 +2337,7 @@
             ]
         }, 
         {
-            "name": "Iodine", 
+            "name": "Yodo", 
             "appearance": "lustrous metallic gray, violet as a gas", 
             "atomic_mass": 126.904473, 
             "boil": 457.4, 
@@ -2353,7 +2353,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Iodine", 
             "spectral_img": null, 
-            "summary": "Iodine is a chemical element with symbol I and atomic number 53. The name is from Greek \u1f30\u03bf\u03b5\u03b9\u03b4\u03ae\u03c2 ioeid\u0113s, meaning violet or purple, due to the color of iodine vapor. Iodine and its compounds are primarily used in nutrition, and industrially in the production of acetic acid and certain polymers.", 
+            "summary": "El yodo es un elemento químico de símbolo I y número atómico 53. Su nombre procede del griego \u1f30\u03bf\u03b5\u03b9\u03b4\u03ae\u03c2 ioeid\u0113s, que significa violeta o púrpura, debido al color del vapor de yodo. El yodo y sus compuestos se utilizan principalmente en nutrición, y a nivel industrial en la producción de ácido acético y ciertos polímeros.", 
             "symbol": "I", 
             "xpos": 17, 
             "ypos": 5, 
@@ -2374,7 +2374,7 @@
             ]
         }, 
         {
-            "name": "Xenon", 
+            "name": "Xenón", 
             "appearance": "colorless gas, exhibiting a blue glow when placed in a high voltage electric field", 
             "atomic_mass": 131.2936, 
             "boil": 165.051, 
@@ -2390,7 +2390,7 @@
             "phase": "Gas", 
             "source": "https://en.wikipedia.org/wiki/Xenon", 
             "spectral_img": "https://en.wikipedia.org/wiki/File:Xenon_Spectrum.jpg", 
-            "summary": "Xenon is a chemical element with symbol Xe and atomic number 54. It is a colorless, dense, odorless noble gas, that occurs in the Earth's atmosphere in trace amounts. Although generally unreactive, xenon can undergo a few chemical reactions such as the formation of xenon hexafluoroplatinate, the first noble gas compound to be synthesized.", 
+            "summary": "El xenón es un elemento químico de símbolo Xe y número atómico 54. Es un gas noble incoloro, denso e inodoro que se encuentra en la atmósfera terrestre en cantidades mínimas. Aunque generalmente no es reactivo, el xenón puede sufrir algunas reacciones químicas, como la formación de hexafluoroplatinato de xenón, el primer compuesto de gas noble sintetizado.", 
             "symbol": "Xe", 
             "xpos": 18, 
             "ypos": 5, 
@@ -2411,7 +2411,7 @@
             ]
         }, 
         {
-            "name": "Cesium", 
+            "name": "Cesio", 
             "appearance": "silvery gold", 
             "atomic_mass": 132.905451966, 
             "boil": 944, 
@@ -2427,7 +2427,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Cesium", 
             "spectral_img": null, 
-            "summary": "Caesium or cesium is a chemical element with symbol Cs and atomic number 55. It is a soft, silvery-gold alkali metal with a melting point of 28 \u00b0C (82 \u00b0F), which makes it one of only five elemental metals that are liquid at or near room temperature. Caesium is an alkali metal and has physical and chemical properties similar to those of rubidium and potassium.", 
+            "summary": "Es un metal alcalino blando, de color dorado plateado, con un punto de fusión de 28 \u00b0C (82 \u00b0F), lo que lo convierte en uno de los cinco únicos metales elementales que son líquidos a temperatura ambiente o cercana a ella. El cesio es un metal alcalino y tiene propiedades físicas y químicas similares a las del rubidio y el potasio.", 
             "symbol": "Cs", 
             "xpos": 1, 
             "ypos": 6, 
