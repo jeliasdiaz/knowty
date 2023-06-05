@@ -6,25 +6,27 @@ import { ElementActive } from "./ElementActive";
 import { periodicContext } from "../context/PeriodicElementContext";
 
 const colorMap = {
-  "noble gas": "#FFBC42",
-  "alkaline earth metal": "#759fff",
-  "nonmetal": "#52ee61",
-  "alkali metal": "#8F2D56",
-  "transition metal": "#fd8572",
-  "post-transition metal": "#218380",
-  lanthanide: "#4AABAF",
-  metalloid: "#3aefb6",
+  "gas noble": "#FFBC42",
+  "metal alcalinotérreo": "#759fff",
+  "no metal": "#52ee61",
+  "metal alcalino": "#8F2D56",
+  "metal de transición": "#fd8572",
+  "metal post-transición": "#218380",
+  "lantánido": "#4AABAF",
+  "metaloide": "#3aefb6",
+  "actínido": "#F535AA",
 }
 
 const colorNames = {
-  "Noble gas": "#FFBC42",
-  "Alkaline earth metal": "#759fff",
-  "Nonmetal": "#52ee61",
-  "Alkali metal": "#8F2D56",
-  "Transition metal": "#fd8572",
-  "Post-transition metal": "#218380",
-  "Lanthanide": "#4AABAF",
-  "Metalloid": "#3aefb6",
+  "Gas noble": "#FFBC42",
+  "Metal alcalinotérreo": "#759fff",
+  "No metal": "#52ee61",
+  "Metal alcalino": "#8F2D56",
+  "Metal de transición": "#fd8572",
+  "Metal post-transición": "#218380",
+  "Lantánido": "#4AABAF",
+  "Metaloide": "#3aefb6",
+  "Actínido": "#F535AA",
 }
 
 const PeriodicTable = () => {
@@ -46,14 +48,15 @@ const PeriodicTable = () => {
 
   const clearActiveCategory = () => {
     setActiveCategory({
-      "noble gas": true,
-      "alkaline earth metal": true,
-      "nonmetal": true,
-      "alkali metal": true,
-      "transition metal": true,
-      "post-transition metal": true,
-      "lanthanide": true,
-      "metalloid": true,
+      "gas noble": true,
+      "metal alcalinotérreo": true,
+      "no metal": true,
+      "metal alcalino": true,
+      "metal de transición": true,
+      "metal post-transición": true,
+      "lantánido": true,
+      "metaloide": true,
+      "actínido": true,
     })
   }
 

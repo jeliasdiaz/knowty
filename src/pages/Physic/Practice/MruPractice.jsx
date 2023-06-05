@@ -78,7 +78,7 @@ export const MruPractice = () => {
             <div className="d-flex mt-4">
                 <button className="btn btn-outline-secondary" onClick={previousObject}>Atrás</button>
                 {renderFeedback()}
-                <div className="d-flex gap-1 ms-auto">
+                <div className="d-flex gap-2 ms-auto">
                     <button className="btn btn-secondary" onClick={validateOption}>Enviar</button>
                     <button className="btn btn-outline-secondary" onClick={nextObject}>Siguiente</button>
                 </div>
