@@ -203,7 +203,7 @@ export const TrigonometryPractice = () => {
                         <hr className="my-4"/>
                         <div>
                             <h3>Ley del seno</h3>
-                            <img src="/img/leySenoPractice.svg" alt="Ley del seno practica" className='rounded-3 eightyPercentImg' /><br /><br />
+                            <img src="/img/leySenoPractice.svg" alt="Ley del seno practica" className='rounded-3 w-80' /><br /><br />
 
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#leySeno">

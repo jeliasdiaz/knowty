@@ -93,9 +93,5 @@ self.addEventListener('message', (event) => {
   }
 });
 
-self.addEventListener('fetch', event => {
-  if (/fonts.(googleapis|gstatic).com/.test(event.request.url)) {
-    // process caching font files
-  }
-})
+
 // Any other custom service worker logic can go here.

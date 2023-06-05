@@ -17,12 +17,13 @@ export const Tools = () => {
 
     // Converter
     const [convertionResult, setConvertionResult] = useState(0)
-
+    const [convertionInput, setConvertionInput] = useState(0)
     const [unitOne, setUnitOne] = useState("")
     const [unitTwo, setUnitTwo] = useState("")
 
     const conversor = ({ target }) => {
         const { value } = target
+        setConvertionInput(value)
 
         const convert = Qty.swiftConverter(unitOne, unitTwo)
 
@@ -30,9 +31,22 @@ export const Tools = () => {
         setConvertionResult(result)
     }
 
-    const handleUnitSelectionOne = (type) => setUnitOne(type)
+    const handleUnitSelectionOne = (type) => {
+        setUnitOne(type)
+        setConvertionInput(0)
+    }
 
-    const handleUnitSelectionTwo = (type) => setUnitTwo(type)
+    const handleUnitSelectionTwo = (type) => {
+        setUnitTwo(type)
+        setConvertionInput(0)
+    }
+
+    const renderUnitOptions = (options, handleUnitSelection) => {
+        return options.map((option) => (
+            <li className="list-styled" onClick={() => handleUnitSelection(option.value)}>{option.label}</li>
+        ));
+    };
+
     const equal = `$$=$$`
 
     const sen30 = `$$ \\frac{1}{2}$$`
@@ -93,13 +107,13 @@ export const Tools = () => {
                 </div>
 
 
-                <div  className="subjectCard mb-5 ownShadow">
+                <div className="subjectCard mb-5 ownShadow">
                     <h3>Conversor de unidades</h3>
 
                     <div className=" mt-4 mb-4">
                         <div className="d-flex gap-4 mt-3 mb-3">
                             <div className="d-flex gap-2">
-                                <input type="number" className="numberInput w-25" onInput={conversor} />
+                                <input type="number" className="numberInput w-25" value={convertionInput} onInput={conversor} />
 
                                 <span className="mt-2"><Latex>{equal}</Latex></span>
 
@@ -116,26 +130,43 @@ export const Tools = () => {
                                 <div className="d-flex gap-3 p-2">
                                     <div>
                                         <li className="fw-semibold list-styled">Longitud</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("km")}>Km</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("hm")}>Hm</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("dam")}>Dam</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("m")}>m</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("dm")}>dm</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("cm")}>cm</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("mm")}>mm</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("in")}>in</li>
+                                        {renderUnitOptions([
+                                            { label: "Kilómetro", value: "km" },
+                                            { label: "Hectómetro", value: "hm" },
+                                            { label: "Decámetro", value: "dam" },
+                                            { label: "Metro", value: "m" },
+                                            { label: "Decimetro", value: "dm" },
+                                            { label: "Centímetro", value: "cm" },
+                                            { label: "Milímetro", value: "mm" },
+                                            { label: "Pulgada", value: "in" },
+                                        ], handleUnitSelectionOne)}
+
+                                        <hr className="dropdown-divider shadow-none" />
+                                        <li className="fw-semibold list-styled">Velocidad</li>
+                                        {renderUnitOptions([
+                                            { label: "km/h", value: "km/h" },
+                                            { label: "m/s", value: "m/s" },
+                                            { label: "Milla/h", value: "mph" }
+                                        ], handleUnitSelectionOne)}
                                     </div>
 
                                     <div>
-                                        <li className="fw-semibold list-styled">Velocidad</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("km/h")}>km/h</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("m/s")}>m/s</li>
+                                        <li className="fw-semibold list-styled">Temperatura</li>
+                                        {renderUnitOptions([
+                                            { label: "°C", value: "tempC" },
+                                            { label: "°F", value: "tempF" },
+                                            { label: "°Kelvin", value: "tempK" }
+                                        ], handleUnitSelectionOne)}
 
                                         <hr className="dropdown-divider shadow-none" />
-                                        <li className="fw-semibold list-styled">Temperatura</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("tempC")}>°C</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("tempF")}>°F</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionOne("tempK")}>K</li>
+                                        <li className="fw-semibold list-styled">Masa</li>
+                                        {renderUnitOptions([
+                                            { label: "Gramo", value: "g" },
+                                            { label: "Kilogramo", value: "kg" },
+                                            { label: "Onza", value: "oz" },
+                                            { label: "Libra", value: "lb" },
+                                        ], handleUnitSelectionOne)}
+
                                     </div>
                                 </div>
                             </ul>
@@ -155,27 +186,44 @@ export const Tools = () => {
                                 <div className="d-flex gap-3 p-2">
                                     <div>
                                         <li className="fw-semibold list-styled">Longitud</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("km")}>Km</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("hm")}>Hm</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("dam")}>Dam</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("m")}>m</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("dm")}>dm</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("cm")}>cm</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("mm")}>mm</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("in")}>in</li>
+                                        {renderUnitOptions([
+                                            { label: "Kilómetro", value: "km" },
+                                            { label: "Hectómetro", value: "hm" },
+                                            { label: "Decámetro", value: "dam" },
+                                            { label: "Metro", value: "m" },
+                                            { label: "Decimetro", value: "dm" },
+                                            { label: "Centímetro", value: "cm" },
+                                            { label: "Milímetro", value: "mm" },
+                                            { label: "Pulgada", value: "in" },
+                                        ], handleUnitSelectionTwo)}
+
+                                        <hr className="dropdown-divider shadow-none" />
+                                        <li className="fw-semibold list-styled">Velocidad</li>
+                                        {renderUnitOptions([
+                                            { label: "km/h", value: "km/h" },
+                                            { label: "m/s", value: "m/s" },
+                                            { label: "Milla/h", value: "mph" }
+                                        ], handleUnitSelectionTwo)}
+
 
                                     </div>
 
                                     <div>
-                                        <li className="fw-semibold list-styled">Velocidad</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("km/h")}>km/h</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("m/s")}>m/s</li>
+                                        <li className="fw-semibold list-styled">Temperatura</li>
+                                        {renderUnitOptions([
+                                            { label: "°C", value: "tempC" },
+                                            { label: "°F", value: "tempF" },
+                                            { label: "°Kelvin", value: "tempK"}
+                                        ], handleUnitSelectionTwo)}
 
                                         <hr className="dropdown-divider shadow-none" />
-                                        <li className="fw-semibold list-styled">Temperatura</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("tempC")}>°C</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("tempF")}>°F</li>
-                                        <li className="list-styled" onClick={() => handleUnitSelectionTwo("tempK")}>K</li>
+                                        <li className="fw-semibold list-styled">Masa</li>
+                                        {renderUnitOptions([
+                                            { label: "Gramo", value: "g" },
+                                            { label: "Kilogramo", value: "kg" },
+                                            { label: "Onza", value: "oz" },
+                                            { label: "Libra", value: "lb" },
+                                        ], handleUnitSelectionTwo)}
                                     </div>
                                 </div>
                             </ul>

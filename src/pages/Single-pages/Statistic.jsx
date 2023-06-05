@@ -218,7 +218,7 @@ export const Statistic = () => {
                 Mediana: 5,8 <br />
                 Moda: No hay
               </p>
-              <img src="/img/campanaGauss.png" alt="Campana de Gauss" className="eightyPercentImg rounded-3" /> <br /> <br />
+              <img src="/img/campanaGauss.png" alt="Campana de Gauss" className="w-80 rounded-3" /> <br /> <br />
               <p>Con base a la información, tenemos una asimetría negativa debido a que la media es menor que la mediana.</p>
 
               <MoreBtn url="https://youtu.be/q44bP7xo2QM" />

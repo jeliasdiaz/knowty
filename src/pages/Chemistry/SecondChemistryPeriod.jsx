@@ -106,7 +106,7 @@ export const SecondChemistryPeriod = () => {
 
                     <div>
                         <CollapseInformation name="Enlaces químicos" id="enlacesQuimicos" >
-                            <img src="/img/enlacesQuimicos.svg" alt="Enlaces químicos" className="eightyPercentImg rounded-3" />
+                            <img src="/img/enlacesQuimicos.svg" alt="Enlaces químicos" className="w-80 rounded-3" />
                         </CollapseInformation>
                         <hr />
                     </div>

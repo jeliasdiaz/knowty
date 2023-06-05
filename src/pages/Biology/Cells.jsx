@@ -17,12 +17,32 @@ export const Cells = () => {
                     <p>
                         Las células eucariotas son células que tienen un núcleo definido y separado del resto de la célula por una membrana nuclear. Además del núcleo, estas células también tienen otros orgánelos celulares, como mitocondrias, retículo endoplasmático, aparato de Golgi y lisosomas, que realizan diversas funciones en la célula. Estas células se encuentran en organismos multicelulares, como plantas, animales y hongos. A menudo son más grandes y complejas que las células procariotas, que carecen de un núcleo definido y otros orgánulos celulares.
 
+                        Por otra parte, estas células se dividen en animales y vegetales, las cuales se diferencian en ciertos aspectos:
                     </p>
+                    <ul>
+                        <li>Las células vegetales poseen una pared celular que les proporciona rigidez, mientras que las células animales cuentan con una membrana plasmática</li>
+                        <li>Las células vegetales poseen cloroplastos, encargado de realizar la fotosíntesis</li>
+                        <li>Mientras que las células animales poseen una nutrición heterótrofa, es decir, necesitan alimentarse de otros seres; las células vegetales producen su propio alimento.</li>
+                    </ul>
+
+                    <div className="flex-1 mt-5 mb-4 gap-5">
+                        <div>
+                            <h5>Célula animal</h5>
+                            <img src="/img/celulaAnimal.png" alt="Célula vegetal" className="w-75" />
+
+                        </div>
+
+                        <div>
+                            <h5>Célula vegetal</h5>
+                            <img src="/img/celulaVegetal.png" alt="Célula vegetal" className="w-75" />
+                        </div>
+                    </div>
+
                 </CollapseInformation>
                 <hr />
                 <CollapseInformation name="Células procariotas" id="procariota">
                     <p>
-                        Son células simples y pequeñas que carecen de núcleo y de orgánelos rodeados de membrana. A diferencia de las células eucariotas, encuentradas en plantas, animales, hongos y otros organismos complejos, las células procariotas son típicamente unicelulares y se encuentran en bacterias y arqueas.
+                        Son células simples y pequeñas que carecen de núcleo y de organelos rodeados de membrana. A diferencia de las células eucariotas, encuentradas en plantas, animales, hongos y otros organismos complejos, las células procariotas son típicamente unicelulares y se encuentran en bacterias y arqueas.
                         <br />
                         <br />
                         Además, poseen una estructura celular básica, que incluye una membrana plasmática que rodea el citoplasma, donde se encuentran los ribosomas y el material genético en forma de una molécula circular de ADN. Es de añadir algunas células procariotas pueden tener estructuras adicionales, como flagelos para el movimiento y pili para la adhesión.
@@ -83,9 +103,9 @@ export const Cells = () => {
                         El Ciclo Celular se divide en dos fases, la interfase y la división celular (Fase M). En la cual, la interfase se divide en tres fases más, Fase G1 (GAP1), Fase S (Síntesis) y Fase G2 (GAP2).
                         <br />
                         <br />
-                         En la <b>Fase G1</b>, la célula aumenta su tamaño debido a la generación de más orgánulos y alta producción de proteínas, es en esta fase que la célula puede desviarse de su ciclo normal y entrar en un estado llamado <b>G0</b> temporal (Como las células madre, linfocitos o los hepatocitos del hígado) o permanentemente (Como las neuronas), en el que cualquier célula que funcione de forma anormal regresará a este estado de reposo, disminuyendo así la probabilidad de que una célula se vuelva cancerosa. 
+                        En la <b>Fase G1</b>, la célula aumenta su tamaño debido a la generación de más orgánulos y alta producción de proteínas, es en esta fase que la célula puede desviarse de su ciclo normal y entrar en un estado llamado <b>G0</b> temporal (Como las células madre, linfocitos o los hepatocitos del hígado) o permanentemente (Como las neuronas), en el que cualquier célula que funcione de forma anormal regresará a este estado de reposo, disminuyendo así la probabilidad de que una célula se vuelva cancerosa.
                         <br /><br />
-                        Por otra parte, este estado de G0 también es conocido como quiescencia, el cual no debe confundirse con el estado de senescencia a la que ingresa una célula una vez detectado que su ADN se encuentra dañado por causas como la vejez, de esta manera impendiendo su replicación del error. En caso de ser dañino o simplemente estar en un grave estado, la célula procede a realizar la muerte celular programada (Apoptosis), en caso de que estas células dañadas no hagan la apoptosis y continúen con su ciclo celular, se replicarán causando cáncer y tumores. 
+                        Por otra parte, este estado de G0 también es conocido como quiescencia, el cual no debe confundirse con el estado de senescencia a la que ingresa una célula una vez detectado que su ADN se encuentra dañado por causas como la vejez, de esta manera impendiendo su replicación del error. En caso de ser dañino o simplemente estar en un grave estado, la célula procede a realizar la muerte celular programada (Apoptosis), en caso de que estas células dañadas no hagan la apoptosis y continúen con su ciclo celular, se replicarán causando cáncer y tumores.
                         <br />
                         <br />
                         Una vez superada la fase G1, la célula entra en la <b>fase S</b> en la cual se sintetizan proteínas nucleares y realiza el proceso de replicación para duplicar su material genético, de esta forma pasan de tener veintitrés pares de cromosomas simples (Una cromátida) a veintitrés pares de cromosomas de doble estructura (Dos cromátidas unidas por un centrómero), en esta fase también se duplican los centrosomas.

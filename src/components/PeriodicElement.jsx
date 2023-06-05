@@ -1,3 +1,4 @@
+import { PropTypes } from 'prop-types';
 import { useContext } from 'react';
 import { periodicContext } from '../context/PeriodicElementContext';
 
@@ -31,3 +32,8 @@ export const PeriodicElement = ({ element, colorMap }) => {
     </div>
   );
 };
+
+PeriodicElement.propTypes = {
+  element: PropTypes.object.isRequired,
+  colorMap: PropTypes.string.isRequired,
+}

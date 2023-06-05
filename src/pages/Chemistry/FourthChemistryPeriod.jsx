@@ -77,7 +77,7 @@ export const FourthChemistryPeriod = () => {
 
                             <h3>Practica</h3>
                             <p>Con base a la siguiente ecuación, halla el reactivo límite y en exceso. Teniendo 10.5 gr de P y 22.27 gr O2</p>
-                            <img src="/img/reactivoLimiteEjercicio.svg" alt="Reactivo limite ejercicio" className="eightyPercentImg rounded-3" />
+                            <img src="/img/reactivoLimiteEjercicio.svg" alt="Reactivo limite ejercicio" className="w-80 rounded-3" />
                             <br /><br />
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" aria-expanded="false" href="#reactivo" >
@@ -85,7 +85,7 @@ export const FourthChemistryPeriod = () => {
                                 </button>
                             </p>
                             <div className="collapse" id="reactivo">
-                                <img src="/img/reactivoLimiteEjercicioSolucion.svg" alt="Reactivo limite solución" className="eightyPercentImg rounded-3" />
+                                <img src="/img/reactivoLimiteEjercicioSolucion.svg" alt="Reactivo limite solución" className="w-80 rounded-3" />
                             </div>
                         </CollapseInformation>
                         <hr />
@@ -106,7 +106,7 @@ export const FourthChemistryPeriod = () => {
 
                             <h3>Practica</h3>
                             <p>Halla la pureza del fósforo y oxígeno diatómico</p>
-                            <img src="/img/reactivoLimiteEjercicio.svg" alt="" className="eightyPercentImg rounded-3" />
+                            <img src="/img/reactivoLimiteEjercicio.svg" alt="" className="w-80 rounded-3" />
                             <p>
                                 12 gr de P <br />
                                 87.5% <br />
@@ -121,7 +121,7 @@ export const FourthChemistryPeriod = () => {
                                 </button>
                             </p>
                             <div className="collapse" id="pureza">
-                                <img src="/img/purezaEjercicioSolucion.svg" alt="" className="eightyPercentImg rounded-3" />
+                                <img src="/img/purezaEjercicioSolucion.svg" alt="" className="w-80 rounded-3" />
                             </div>
                         </CollapseInformation>
                         <hr />

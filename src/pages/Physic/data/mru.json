@@ -1,0 +1,21 @@
+[
+  {
+    "content": "Albert pasea en su patineta a velocidad constante y en línea recta a 12 km/h. Albert, desea recorrer la distancia de su hogar a su colegio, la cuál es de 70 metros. Calculé el tiempo requerido para que Albert llegue a su escuela.",
+    "process": {
+      "stepOne": "Conversión de unidades",
+      "stepTwo": "Aplicación de la fórmula",
+      "stepThree": "3. Cálculo dirección",
+      "mruOne": "$$ \\small 12km/h = 3.33m/s$$",
+      "mruTwo": "$$t = \\large \\frac{distancia}{velocidad}$$",
+      "mruThree": "$$t = \\large \\frac{70m}{3.33m/s}$$",
+      "mruFour": "$$t = \\small 21.62seg$$"
+    },
+    "options": {
+      "a": "62.12seg",
+      "b": "22.26seg",
+      "c": "20seg",
+      "d": "21.62seg"
+    },
+    "answer": "21.62seg"
+  }
+]

@@ -372,7 +372,7 @@ export const ThirdChemistryPeriod = () => {
                 C<sub>3</sub>H<sub>8</sub> + 5O<sub>2</sub> {"->"} 3CO<sub>2</sub> + 4H<sub>2</sub>O <br />
                 ¿Cuántos moles de O<sub>2</sub> se requieren para reaccionar con 4,3 moles de propano?
                 <br />
-                <img src="/img/mol-mol.svg" alt="Mol - mol" className="eightyPercentImg rounded-3" /><br />
+                <img src="/img/mol-mol.svg" alt="Mol - mol" className="w-80 rounded-3" /><br />
                 Nos piden cuántos moles de oxígeno se necesitan, por tanto, ubicamos primero el oxígeno en el numerador y el dato que nos dan (C<sub>3</sub>H<sub>8</sub>) en el denominador. Posteriormente, multiplicamos la fracción por los 4,3 moles de propano. Luego, cancelamos los moles de C<sub>3</sub>H<sub>8</sub>. Dándonos el resultado expresado. <br /> <br />
 
                 <b>Mol - gramo </b> <br />
@@ -380,7 +380,7 @@ export const ThirdChemistryPeriod = () => {
                 4Al + 3O<sub>2</sub> {"->"} 2Al<sub>2</sub>O<sub>3</sub> <br />
                 ¿Cuántos gramos de aluminio se necesitan oxidar para producir 50 mol de óxido de aluminio? <br />
 
-                <img src="/img/mol-gramo.svg" alt="Mol - gramo" className="eightyPercentImg rounded-3" /><br />
+                <img src="/img/mol-gramo.svg" alt="Mol - gramo" className="w-80 rounded-3" /><br />
 
                 Nos piden cuántos gramos de aluminio se necesitan, por tanto, ubicamos primero el aluminio en el numerador y el dato que nos dan (Al<sub>2</sub>O<sub>3</sub>) en el denominador. Posteriormente, multiplicamos la fracción por los moles dados. Después, multiplicamos dicho resultado por su peso molecular. <br /> <br />
 
@@ -389,7 +389,7 @@ export const ThirdChemistryPeriod = () => {
                 3Cu + 8NO<sub>3</sub> {"->"} 3Cu(NO3)2 + 2NO + 4H<sub>2</sub>O <br />
                 ¿Cuántas moles de HNO3 son necesarias para preparar 0,75 gr de Cu(NO3)2? <br />
 
-                <img src="/img/gramo-mol.svg" alt="Gramo - mol" className="eightyPercentImg rounded-3" /><br />
+                <img src="/img/gramo-mol.svg" alt="Gramo - mol" className="w-80 rounded-3" /><br />
 
                 Nos piden cuántas moles de HNO<sub>3</sub> se necesitan, por tanto, ubicamos este compuesto en el numerador y el dato que nos dan (Cu(NO<sub>3</sub>)<sub>2</sub>) en el denominador. Posteriormente, multiplicamos la fracción por otra, cuyo numerador será un mol del dato en cuestión, el denominador será el peso molecular de tal ecuación. <br /> <br />
 
@@ -398,7 +398,7 @@ export const ThirdChemistryPeriod = () => {
                 4P + 3O<sub>2</sub> {"->"} 2P<sub>2</sub>O<sub>3</sub> <br />
                 ¿Cuántos gramos de fósforo se necesitan oxidar para producir 200 gr de óxido de fósforo?<br />
 
-                <img src="/img/gramo-gramo.svg" alt="Gramo - gramo" className="eightyPercentImg rounded-3" /><br />
+                <img src="/img/gramo-gramo.svg" alt="Gramo - gramo" className="w-80 rounded-3" /><br />
 
                 Nos piden, de modo que el fósforo queda en el numerador y el óxido de fósforo en el denominador. Posteriormente, aplicamos el mismo proceso de gramo - mol, multiplicamos la fracción por otra, cuyo numerador será un mol de óxido de fósforo, el denominador será el peso molecular de tal ecuación. Después, multiplicamos esta fracción por otra, cuyo denominador es un mol de fósforo y en el numerador el peso atómico del mismo. Luego, será multiplicado por 200 gr de óxido de fósforo.
               </p>
@@ -418,7 +418,7 @@ export const ThirdChemistryPeriod = () => {
                 </button>
               </p>
               <div className="collapse" id="collapseExample">
-                <img src="/img/practicaEstequiometria.svg" alt="Practica estequiometría" className="eightyPercentImg rounded-3" />
+                <img src="/img/practicaEstequiometria.svg" alt="Practica estequiometría" className="w-80 rounded-3" />
               </div>
             </CollapseInformation>
           </div>

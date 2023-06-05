@@ -2449,7 +2449,7 @@
             ]
         }, 
         {
-            "name": "Barium", 
+            "name": "Bario", 
             "appearance": null, 
             "atomic_mass": 137.3277, 
             "boil": 2118, 
@@ -2465,7 +2465,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Barium", 
             "spectral_img": null, 
-            "summary": "Barium is a chemical element with symbol Ba and atomic number 56. It is the fifth element in Group 2, a soft silvery metallic alkaline earth metal. Because of its high chemical reactivity barium is never found in nature as a free element.", 
+            "summary": "Es el quinto elemento del Grupo 2, un metal alcalinotérreo metálico plateado y blando. Debido a su alta reactividad química, el bario nunca se encuentra en la naturaleza como elemento libre.", 
             "symbol": "Ba", 
             "xpos": 2, 
             "ypos": 6, 
@@ -3077,7 +3077,7 @@
             ]
         }, 
         {
-            "name": "Hafnium", 
+            "name": "Hafnio", 
             "appearance": "steel gray", 
             "atomic_mass": 178.492, 
             "boil": 4876, 
