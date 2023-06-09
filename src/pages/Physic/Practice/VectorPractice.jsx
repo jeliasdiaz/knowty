@@ -15,7 +15,11 @@ export const VectorPractice = () => {
         handleOptionChange,
         isCorrect,
         validateOption,
-        isSelected
+        isSelected,
+        showScoreboard,
+        result,
+        showSolution,
+        restartExercises
     } = useControlObjects(vectores, "vectores");
 
     const { content, img, options, process } = vectores[currentObject.vectores];
@@ -71,32 +75,61 @@ export const VectorPractice = () => {
         return null;
     };
 
+    const scoreboard = () => {
+        if (showScoreboard) {
+            return (
+                <div>
+                    <h3 className="text-center">Scoreboard</h3>
+                    <div className="d-flex justify-content-center gap-3">
+                        <span>Imagen chulito</span>
+                        <p>{result}%</p>
+                    </div>
+                    <br />
+                    <button className="btn btn-outline-secondary" onClick={restartExercises}>Regresar</button>
+                </div>
+            )
+        }
+    }
+
     return (
         <div className="subjectCard ownShadow">
             <h2>Vectores</h2>
-            <span>{removeLineBreaks(content)}</span>
-            <img src={img} className="img-fluid rounded" alt="" />
-            <br /><br />
-            <div>
-                {renderOptions()}
-            </div>
 
-            <div className="d-flex mt-4">
-                <button className="btn btn-outline-secondary" onClick={previousObject}>Atrás</button>
-                {renderFeedback()}
-                <div className="d-flex gap-2 ms-auto">
-                    <button className="btn btn-secondary" onClick={validateOption}>Enviar</button>
-                    <button className="btn btn-outline-secondary" onClick={nextObject}>Siguiente</button>
-                </div>
-            </div>
+            {
+                showScoreboard
+                    ? scoreboard()
+                    : (
+                        <>
 
-            <br />
+                            <span>{removeLineBreaks(content)}</span>
+                            <img src={img} className="img-fluid rounded" alt="" />
+                            <br /><br />
+                            <div>
+                                {renderOptions()}
+                            </div>
 
-            <button className="btn btn-outline-secondary mt-3" type="button" onClick={onShowProcess}>
-                Solución
-            </button>
+                            <div className="d-flex mt-4">
+                                <button className="btn btn-outline-secondary" onClick={previousObject}>Atrás</button>
+                                {renderFeedback()}
+                                <div className="d-flex gap-2 ms-auto">
+                                    <button className="btn btn-secondary" onClick={validateOption}>Enviar</button>
+                                    <button className="btn btn-outline-secondary" onClick={nextObject}>Siguiente</button>
+                                </div>
+                            </div>
 
-            {renderProcess()}
+                            <br />
+
+                            {
+                                showSolution &&
+                                <button className="btn btn-outline-secondary mt-3" type="button" onClick={onShowProcess}>
+                                    Solución
+                                </button>
+                            }
+
+                            {renderProcess()}
+                        </>
+                    )
+            }
         </div>
     );
 };

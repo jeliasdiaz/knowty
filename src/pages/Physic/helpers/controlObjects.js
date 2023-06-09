@@ -13,12 +13,16 @@ export const useControlObjects = (data, type) => {
 
   const [isCorrect, setIsCorrect] = useState(false)
   const [isSelected, setIsSelected] = useState(false)
+  const [showScoreboard, setShowScoreboard] = useState(false);
+  const [showSolution, setShowSolution] = useState(false)
   const nextObject = () => {
     if (currentObject[type] < data.length - 1) {
       setCurrentObject({ ...currentObject, [type]: currentObject[type] + 1 });
+    setShowSolution(false)
     }
     else {
       setCurrentObject({ ...currentObject, [type]: currentObject[type] });
+      setShowScoreboard(true); 
     }
     setShowProcess({ ...showProcess, [type]: false });
     setIsSelected(false)
@@ -57,10 +61,22 @@ export const useControlObjects = (data, type) => {
   const validateOption = () => {
     if (selectedOption === data[currentObject[type]].answer) {
       setIsCorrect(true)
+    setCorrectOptions(correctOptions + 1)
+
     }
     setIsSelected(true)
+    setShowSolution(true)
   }
 
+  const restartExercises = () => {
+    setCurrentObject({ ...currentObject, [type]: 0 });
+    setShowScoreboard(false);
+    setIsSelected(false)
+    setShowSolution(false)
+  };
+
+  const [correctOptions, setCorrectOptions] = useState(0)
+  const result = correctOptions / data.length * 100
   return {
     nextObject,
     previousObject,
@@ -71,7 +87,11 @@ export const useControlObjects = (data, type) => {
     isSelected,
     isCorrect,
     handleOptionChange,
-    validateOption
+    validateOption,
+    showScoreboard,
+    result,
+    showSolution,
+    restartExercises
   }
 }
 
