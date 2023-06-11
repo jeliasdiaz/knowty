@@ -73,10 +73,11 @@ export const useControlObjects = (data, type) => {
     setShowScoreboard(false);
     setIsSelected(false)
     setShowSolution(false)
+    setCorrectOptions(0)
   };
 
   const [correctOptions, setCorrectOptions] = useState(0)
-  const result = correctOptions / data.length * 100
+  const scoreResult = correctOptions / data.length * 100
   return {
     nextObject,
     previousObject,
@@ -89,7 +90,7 @@ export const useControlObjects = (data, type) => {
     handleOptionChange,
     validateOption,
     showScoreboard,
-    result,
+    scoreResult,
     showSolution,
     restartExercises
   }

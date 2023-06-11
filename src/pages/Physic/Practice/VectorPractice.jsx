@@ -3,6 +3,7 @@ import Latex from "react-latex";
 import { removeLineBreaks } from "../helpers/removeLineBreaks";
 import vectores from "../data/vectores.json";
 import { useControlObjects } from '../helpers/controlObjects';
+import { BsBarChartFill } from "react-icons/bs";
 
 export const VectorPractice = () => {
     const {
@@ -17,7 +18,7 @@ export const VectorPractice = () => {
         validateOption,
         isSelected,
         showScoreboard,
-        result,
+        scoreResult,
         showSolution,
         restartExercises
     } = useControlObjects(vectores, "vectores");
@@ -75,14 +76,15 @@ export const VectorPractice = () => {
         return null;
     };
 
-    const scoreboard = () => {
+    const renderScoreboard = () => {
         if (showScoreboard) {
             return (
                 <div>
-                    <h3 className="text-center">Scoreboard</h3>
-                    <div className="d-flex justify-content-center gap-3">
-                        <span>Imagen chulito</span>
-                        <p>{result}%</p>
+                    <h3 className="text-center mb-3">Resultados</h3>
+                    <div className="scoreboardCard">
+                        <p className="me-auto mt-0 mb-0">Puntaje</p>
+                        <p className="mt-0 pt-1 mb-0">{scoreResult}%</p>
+                        <span><BsBarChartFill size={20} className="scoreChartColor"  /></span>
                     </div>
                     <br />
                     <button className="btn btn-outline-secondary" onClick={restartExercises}>Regresar</button>
@@ -97,7 +99,7 @@ export const VectorPractice = () => {
 
             {
                 showScoreboard
-                    ? scoreboard()
+                    ? renderScoreboard()
                     : (
                         <>
 

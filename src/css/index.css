@@ -450,6 +450,21 @@ input[type="radio"]:checked + span:before {
   transition: 0.5s;
 }
 
+/** Física practice  */
+.scoreboardCard {
+  display: flex;
+  gap: 1em;
+  width: 50%;
+  margin: auto;
+  border-radius: 12px;
+  padding: 1em;
+  align-items:center !important;
+  border: solid 1px;
+  border-color: gray;
+}
+.scoreChartColor {
+  color: green;
+}
 /** Subjects space  */
 .homeCard {
   padding-bottom: 5%;

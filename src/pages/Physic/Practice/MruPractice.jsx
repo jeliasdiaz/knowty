@@ -3,6 +3,7 @@ import Latex from "react-latex";
 import { useControlObjects } from '../helpers/controlObjects';
 import mru from "../data/mru.json";
 import { removeLineBreaks } from '../helpers/removeLineBreaks';
+import { BsBarChartFill } from "react-icons/bs";
 
 export const MruPractice = () => {
     const {
@@ -15,7 +16,11 @@ export const MruPractice = () => {
         handleOptionChange,
         isCorrect,
         validateOption,
-        isSelected
+        isSelected,
+        showScoreboard,
+        scoreResult,
+        showSolution,
+        restartExercises
     } = useControlObjects(mru, "mru");
 
     const { content, options, process } = mru[currentObject.mru];
@@ -67,28 +72,55 @@ export const MruPractice = () => {
         return null;
     };
 
+    const renderScoreboard = () => {
+        if (showScoreboard) {
+            return (
+                <div>
+                    <h3 className="text-center mb-3">Resultados</h3>
+                    <div className="scoreboardCard">
+                        <p className="me-auto mt-0 mb-0">Puntaje</p>
+                        <p className="mt-0 mb-0 pt-1">{scoreResult}%</p>
+                        <span><BsBarChartFill size={20} className="scoreChartColor" /></span>
+                    </div>
+                    <br />
+                    <button className="btn btn-outline-secondary" onClick={restartExercises}>Regresar</button>
+                </div>
+            )
+        }
+    }
     return (
         <div className="subjectCard ownShadow">
             <h2>M.R.U.</h2>
-            <span>{removeLineBreaks(content)}</span>
+            {
+                showScoreboard
+                    ? renderScoreboard()
+                    : (
+                        <>
+                            <span>{removeLineBreaks(content)}</span>
 
-            {renderOptions()}
+                            {renderOptions()}
 
-            <br />
-            <div className="d-flex mt-4">
-                <button className="btn btn-outline-secondary" onClick={previousObject}>Atrás</button>
-                {renderFeedback()}
-                <div className="d-flex gap-2 ms-auto">
-                    <button className="btn btn-secondary" onClick={validateOption}>Enviar</button>
-                    <button className="btn btn-outline-secondary" onClick={nextObject}>Siguiente</button>
-                </div>
-            </div>
-            <br />
-            <button className="btn btn-outline-secondary mt-3" type="button" onClick={onShowProcess}>
-                Solución
-            </button>
+                            <br />
+                            <div className="d-flex mt-4">
+                                <button className="btn btn-outline-secondary" onClick={previousObject}>Atrás</button>
+                                {renderFeedback()}
+                                <div className="d-flex gap-2 ms-auto">
+                                    <button className="btn btn-secondary" onClick={validateOption}>Enviar</button>
+                                    <button className="btn btn-outline-secondary" onClick={nextObject}>Siguiente</button>
+                                </div>
+                            </div>
+                            <br />
+                            {
+                                showSolution &&
+                                <button className="btn btn-outline-secondary mt-3" type="button" onClick={onShowProcess}>
+                                    Solución
+                                </button>
+                            }
 
-            {renderProcess()}
+                            {renderProcess()}
+                        </>
+                    )
+            }
         </div>
     );
 };
