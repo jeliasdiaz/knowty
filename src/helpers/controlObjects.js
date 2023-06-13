@@ -4,11 +4,13 @@ import PropTypes from 'prop-types'
 export const useControlObjects = (data, type) => {
   const [currentObject, setCurrentObject] = useState({
     vectores: 0,
-    mru: 0
+    mru: 0,
+    pitagoras: 0
   })
   const [showProcess, setShowProcess] = useState({
     vectores: false,
-    mru: false
+    mru: false,
+    pitagoras: 0
   });
 
   const [isCorrect, setIsCorrect] = useState(false)

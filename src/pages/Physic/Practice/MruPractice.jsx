@@ -1,8 +1,8 @@
 import React from "react";
 import Latex from "react-latex";
-import { useControlObjects } from '../helpers/controlObjects';
+import { useControlObjects } from '../../../helpers/controlObjects';
 import mru from "../data/mru.json";
-import { removeLineBreaks } from '../helpers/removeLineBreaks';
+import { removeLineBreaks } from '../../../helpers/removeLineBreaks';
 import { BsBarChartFill } from "react-icons/bs";
 
 export const MruPractice = () => {
@@ -59,9 +59,9 @@ export const MruPractice = () => {
         if (showProcess.mru) {
             return (
                 <div>
-                    <p>{process?.stepOne}</p>
+                    <Latex>{process?.stepOne}</Latex><br />
                     <Latex>{process?.mruOne}</Latex><br /><br />
-                    <p>{process?.stepTwo}</p>
+                    <Latex>{process?.stepTwo}</Latex><br />
                     <Latex>{process?.mruTwo}</Latex><br /><br />
                     <Latex>{process?.mruThree}</Latex><br /><br />
                     <Latex>{process?.mruFour}</Latex><br /><br />
@@ -96,8 +96,9 @@ export const MruPractice = () => {
                     ? renderScoreboard()
                     : (
                         <>
-                            <span>{removeLineBreaks(content)}</span>
-
+                            <span>{content}</span>
+                            <br />
+                            <br />
                             {renderOptions()}
 
                             <br />

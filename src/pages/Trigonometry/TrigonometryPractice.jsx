@@ -1,5 +1,6 @@
 import { SectionTitle, TopWave } from "../../components/";
 import Latex from "react-latex"
+import { PitagorasPractice } from "./Practice/PitagorasPractice";
 
 export const TrigonometryPractice = () => {
     const pitagorasExFirstOne = `$$a^2 + b^2 = c^2
@@ -61,6 +62,8 @@ export const TrigonometryPractice = () => {
             <TopWave />
             <SectionTitle title="Practica" />
 
+            <PitagorasPractice />
+            
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700">
                 <div >
                     <div className="section">

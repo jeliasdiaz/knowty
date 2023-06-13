@@ -30,18 +30,18 @@ export const Navbar = () => {
   const excludedPaths = ["/", "/info", "/blog", "/icons", "/busqueda"];
   const showTitle = titleVisible && !excludedPaths.includes(location.pathname) && !location.pathname.endsWith("menu");
 
-  
+
   // Transition page
   const transitionPage = (ev) => {
     ev.preventDefault();
     if (document.startViewTransition) {
-        document.startViewTransition(() => {
-            navigate("/");
-        })
+      document.startViewTransition(() => {
+        navigate("/");
+      })
     } else {
-        navigate("/")
+      navigate("/")
     }
-}
+  }
   return (
     <>
       <nav className={`navbar navbar-expand-lg fixed-top ${visible ? "down" : " up"}`}>
@@ -50,7 +50,7 @@ export const Navbar = () => {
             showTitle && titleSubject.length > 0
               ? (
                 <small className="titleSubject text-overflow ownShadow" data-aos="fade-down">
-                  { titleSubject }
+                  {titleSubject}
                 </small>
               ) : (
                 <NavLink to="/" className="text-decoration-none bg-transparent" data-aos="fade-down" data-aos-delay="200" onClick={transitionPage}>

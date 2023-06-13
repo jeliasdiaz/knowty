@@ -2,19 +2,7 @@
   {
     "content": "Calcule la suma y dirección de los vectores A y B conociendo los siguientes datos: \n \n Vector A:  Magnitud: 15N; Dirección: 30° \n Vector B: Magnitud: 27N; Dirección 55°",
     "img": "/img/vectoresPracticaImg.svg",
-    "process": {
-      "stepOne": "1. Hallamos sus componente en x y y",
-      "stepTwo": "2. Nuevo vector C, resultado de la suma de los vectores A y B",
-      "stepThree": "3. Cálculo dirección",
-      "vectoresOne": "$$A_x = \\small 15N \\ \\cdot \\ cos(30) = 12.99N$$",
-      "vectoresTwo": "$$A_y = \\small 15N \\ \\cdot \\ sen(30) = 7.5N$$",
-      "vectoresThree": "$$B_x = \\small 27N \\ \\cdot \\ sen(55) = -22.11N$$",
-      "vectoresFour": "$$B_y = \\small 27N \\ \\cdot \\ cos(55) = -15.48N$$",
-      "vectoresFive": "$$C_x = \\small 12.99N + (-22.11N) = -9.12N$$",
-      "vectoresSix": "$$C_y = \\small 7.5N + (-15.48N) = -7.98N$$",
-      "vectoresSeven": "$$C  = \\small \\sqrt{(-9.12N)^2 + (-7.98N)^2} = 12.11N$$",
-      "vectoresEight": "$$tan^-1(\\frac{-7.98}{-9.12}) = \\small 41.18°$$"
-    },
+    "process": "$$ \\text{1. Hallamos sus componente en x y y} \\\\ A_x = \\small 15N \\ \\cdot \\ cos(30) = 12.99N \\\\ A_y = \\small 15N \\ \\cdot \\ sen(30) = 7.5N \\\\ B_x = \\small 27N \\ \\cdot \\ sen(55) = -22.11N \\\\ \\allowbreak \\newline \\text{2. Nuevo vector C, resultado de la suma de los vectores A y B} \\\\  C_x = \\small 12.99N + (-22.11N) = -9.12N \\\\ C_y = \\small 7.5N + (-15.48N) = -7.98N \\\\  C  = \\small \\sqrt{(-9.12N)^2 + (-7.98N)^2} = 12.11N \\\\ \\allowbreak \\newline \\text{3. Cálculo dirección} \\\\ tan^{-1}(\\frac{-7.98}{-9.12}) = \\small 41.18°$$",
     "options": {
       "a": "12.11N",
       "b": "9.12N",
@@ -26,19 +14,7 @@
   {
     "content": "Calcule la suma y dirección de los vectores A y B conociendo los siguientes datos:",
     "img": "/img/vectoresPracticaDosImg.svg",
-    "process": {
-      "stepOne": "1. Hallamos sus componente en x y y",
-      "stepTwo": "2. Nuevo vector C, resultado de la suma de los vectores A y B",
-      "stepThree": "3. Cálculo dirección",
-      "vectoresOne": "$$A_x = \\small 44N \\ \\cdot \\ cos(30) = 38.10N$$",
-      "vectoresTwo": "$$A_y = \\small 44N \\ \\cdot \\ sen(30) = 22N$$",
-      "vectoresThree": "$$B_x = \\small 20N \\ \\cdot \\ cos(40) = 15.32N$$",
-      "vectoresFour": "$$B_y = \\small 20N \\ \\cdot \\ sen(40) = 12.85N$$",
-      "vectoresFive": "$$C_x = \\small 38.10N + 15.32N = 53.42N$$",
-      "vectoresSix": "$$C_y = \\small 22N + 12.85N = 34.85N$$",
-      "vectoresSeven": "$$C  = \\small \\sqrt{(53.42N)^2 + (34.85N)^2} = 63.78N$$",
-      "vectoresEight": "$$tan^-1(\\frac{34.85}{53.42}) = \\small 33.11°$$"
-    },
+    "process": "$$ \\text{1. Hallamos sus componente en x y y} \\\\ A_x = \\small 44N \\ \\cdot \\ cos(30) = 38.10N \\\\ A_y = \\small 44N \\ \\cdot \\ sen(30) = 22N \\\\ B_x = \\small 20N \\ \\cdot \\ cos(40) = 15.32N \\\\ B_y = \\small 20N \\ \\cdot \\ sen(40) = 12.85N \\\\ \\allowbreak \\newline \\text{2. Nuevo vector C, resultado de la suma de los vectores A y B} \\\\ C_x = \\small 38.10N + 15.32N = 53.42N \\\\ C_y = \\small 22N + 12.85N = 34.85N \\\\ C  = \\small \\sqrt{(53.42N)^2 + (34.85N)^2} = 63.78N \\\\ \\allowbreak \\newline \\text{3. Cálculo dirección.} \\\\ tan^{-1}(\\frac{34.85}{53.42}) = \\small 33.11°$$",
     "options": {
       "a": "53.42N y 30°",
       "b": "65.2N y 33.11°",
