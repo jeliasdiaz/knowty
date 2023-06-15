@@ -1,6 +1,5 @@
 import React from "react";
 import Latex from "react-latex";
-import { removeLineBreaks } from "../../../helpers/removeLineBreaks";
 import vectores from "../data/vectores.json";
 import { useControlObjects } from '../../../helpers/controlObjects';
 import { BsBarChartFill } from "react-icons/bs";
