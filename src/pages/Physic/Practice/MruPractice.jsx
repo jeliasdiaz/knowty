@@ -2,7 +2,6 @@ import React from "react";
 import Latex from "react-latex";
 import { useControlObjects } from '../../../helpers/controlObjects';
 import mru from "../data/mru.json";
-import { removeLineBreaks } from '../../../helpers/removeLineBreaks';
 import { BsBarChartFill } from "react-icons/bs";
 
 export const MruPractice = () => {
