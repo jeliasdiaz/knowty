@@ -98,6 +98,8 @@ export const PitagorasPractice = () => {
                         <>
 
                             <span>{content}</span>
+                            <br />
+                            <br />
                             <img src={img} className="img-fluid rounded" alt="" />
                             <br /><br />
                             <div>
