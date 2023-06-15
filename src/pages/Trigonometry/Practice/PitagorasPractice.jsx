@@ -20,86 +20,75 @@ export const PitagorasPractice = () => {
         showSolution,
         restartExercises
     } = useControlObjects(pitagoras, "pitagoras");
-    
+
     const { content, img, options, process } = pitagoras[currentObject.pitagoras];
 
 
     const renderOptions = () => {
-      return Object.keys(options).map((key) => (
-          <React.Fragment key={key}>
-              <label key={key}>
-                  <input
-                      type="radio"
-                      value={options[key]}
-                      checked={selectedOption === options[key]}
-                      onChange={handleOptionChange}
-                  />
-                  <span> {options[key]}</span>
-              </label>
-              <br />
-          </React.Fragment>
-      ));
-  };
+        return Object.keys(options).map((key) => (
+            <React.Fragment key={key}>
+                <label key={key}>
+                    <input
+                        type="radio"
+                        value={options[key]}
+                        checked={selectedOption === options[key]}
+                        onChange={handleOptionChange}
+                    />
+                    <span> {options[key]}</span>
+                </label>
+                <br />
+            </React.Fragment>
+        ));
+    };
 
-  const renderFeedback = () => {
-      if (isSelected && selectedOption) {
-          const alertClass = isCorrect ? 'alert-success' : 'alert-danger';
-          const alertMessage = isCorrect ? '¡Correcto!' : 'Incorrecto';
-          return (
-              <div className={`alert ${alertClass} p-1 w-25 text-center mb-0 ms-auto me-auto`} role="alert">
-                  {alertMessage}
-              </div>
-          );
-      }
-      return null;
-  };
+    const renderFeedback = () => {
+        if (isSelected && selectedOption) {
+            const alertClass = isCorrect ? 'alert-success' : 'alert-danger';
+            const alertMessage = isCorrect ? '¡Correcto!' : 'Incorrecto';
+            return (
+                <div className={`alert ${alertClass} p-1 w-25 text-center mb-0 ms-auto me-auto`} role="alert">
+                    {alertMessage}
+                </div>
+            );
+        }
+        return null;
+    };
 
-  const renderProcess = () => {
-      if (showProcess.pitagoras) {
-          return (
-            <div >
-            <Latex displayMode={true}>{process?.stepOne}</Latex>
-            <br />
-            <br />
-            <img src={process?.imgOne} alt="Teorema pitagoras" className='rounded-3'/>
-            <br />
-            <br />
-            <Latex>{process?.stepTwo}</Latex>
-            
+    const renderProcess = () => {
+        if (showProcess.pitagoras) {
+            return (
+                <div >
+                    <Latex displayMode={true}>{process?.stepOne}</Latex>
+                    <br />
+                    <br />
+                    <img src={process?.imgOne} alt="Teorema pitagoras" className='rounded-3' />
+                    <br />
+                    <br />
+                    <Latex>{process?.stepTwo}</Latex>
+                </div>
+            );
+        }
+        return null;
+    };
 
-            {/* <p> <Latex>{pitagorasExFirstOne}</Latex> <b>a:</b> <Latex>{pitagorasExFirstTwo}</Latex></p>
-
-            <p>Para hallar el cateto faltante, reemplazamos</p>  
-            <Latex>{pitagorasExFirstThree}</Latex><br />
-
-            <Latex>{pitagorasExFirstFour}</Latex><br />
-            <Latex>{pitagorasExFirstFive}</Latex><br />
-            <Latex>{pitagorasExFirstSix}</Latex><br />
-            <Latex>{pitagorasExFirstSeven}</Latex> */}
-        </div>
-          );
-      }
-      return null;
-  };
-
-  const renderScoreboard = () => {
-      if (showScoreboard) {
-          return (
-              <div>
-                  <h3 className="text-center mb-3">Resultados</h3>
-                  <div className="scoreboardCard">
-                      <p className="me-auto mt-0 mb-0">Puntaje</p>
-                      <p className="mt-0 pt-1 mb-0">{scoreResult}%</p>
-                      <span><BsBarChartFill size={20} className="scoreChartColor"  /></span>
-                  </div>
-                  <br />
-                  <button className="btn btn-outline-secondary" onClick={restartExercises}>Regresar</button>
-              </div>
-          )
-      }
-  }
-  return (
-    <div className="subjectCard ownShadow">
+    const renderScoreboard = () => {
+        if (showScoreboard) {
+            return (
+                <div>
+                    <h3 className="text-center mb-3">Resultados</h3>
+                    <div className="scoreboardCard">
+                        <p className="me-auto mt-0 mb-0">Puntaje</p>
+                        <p className="mt-0 pt-1 mb-0">{scoreResult}%</p>
+                        <span><BsBarChartFill size={20} className="scoreChartColor" /></span>
+                    </div>
+                    <br />
+                    <button className="btn btn-outline-secondary" onClick={restartExercises}>Regresar</button>
+                </div>
+            )
+        }
+    }
+    return (
+        <div className="subjectCard ownShadow">
             <h2>Teorema de pitágoras</h2>
 
             {
@@ -138,5 +127,5 @@ export const PitagorasPractice = () => {
                     )
             }
         </div>
-  )
+    )
 }
