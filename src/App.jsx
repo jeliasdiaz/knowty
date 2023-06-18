@@ -10,7 +10,8 @@ import { Home, InfoPage, Search, Blog, Credits, Statistic, Tools } from "./pages
 import { Footer, Navbar, InstallAppBtn, ScrollBtn } from "./components";
 
 //* Biology
-import { BiologyMenu, Cells} from "./pages/Biology";
+import { CellCycle, Cells, ECells, PCells } from "./pages/Biology/Cells";
+import { BiologyMenu } from "./pages/Biology";
 
 //* Chemistry
 import { FirstChemistryPeriod, FourthChemistryPeriod, SecondChemistryPeriod, ThirdChemistryPeriod, ChemistryMenu } from "./pages/Chemistry";
@@ -36,6 +37,8 @@ import { ClassicPhilosophers, PhilosophyMenu, IntroductionPhilosophy } from "./p
 //* Blog
 import { SpacedRepetition, StudentsResources } from "./pages/Blog/";
 import { EnglishMenu } from "./pages/English/EnglishMenu";
+import { VectorPractice } from "./pages/Physic/Practice/VectorPractice";
+import { MruPractice } from "./pages/Physic/Practice/MruPractice";
 
 function App() {
   useEffect(() => {
@@ -114,6 +117,9 @@ function App() {
             <Route path="/recursos-para-estudiantes" element={<StudentsResources />} />
 
             <Route path="/celulas" element={<Cells />} />
+            <Route path="/celula-eucariota" element={<ECells />} />
+            <Route path="/celula-procariota" element={<PCells />} />
+            <Route path="/ciclo-celular" element={ <CellCycle />} />
 
             <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
             <Route path="/quimica_2" element={<SecondChemistryPeriod />} />
@@ -140,6 +146,8 @@ function App() {
             <Route path="/movimiento-circular" element={<CircularMovement />} />
             <Route path="/energia" element={<Energy />} />
             <Route path="/mecanica-fluidos" element={<FluidMechanics />} />
+            <Route  path="/vectores-practica" element={<VectorPractice/>} />
+            <Route  path="/mru-practica" element={<MruPractice/>} />
 
             <Route path="/sociales_1" element={<FirstSocialPeriod />} />
             <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />

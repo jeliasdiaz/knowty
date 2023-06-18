@@ -1,6 +1,4 @@
-import { SectionTitle, TopWave } from "../../../components";
-import { MruPractice } from "./MruPractice";
-import { VectorPractice } from "./VectorPractice";
+import { MenuCard, SectionTitle, TopWave } from "../../../components";
 import Latex from "react-latex"
 
 
@@ -101,9 +99,11 @@ export const PhysicPractice = () => {
             <TopWave />
             <SectionTitle title="Practica" />
 
-            <VectorPractice />
+            <div className="mobileSubjectMenu">
+                <MenuCard url="/vectores-practica" img="knowty.png" title="Vectores" />
 
-            <MruPractice/>
+                <MenuCard url="/mru-practica" img="knowty.png" title="Mru" />
+            </div>
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
 
@@ -562,7 +562,7 @@ export const PhysicPractice = () => {
                 </div>
             </div>
 
-            
+
         </div>
     )
 }

@@ -3116,7 +3116,7 @@
             ]
         }, 
         {
-            "name": "Tantalum", 
+            "name": "Tántalo", 
             "appearance": "gray blue", 
             "atomic_mass": 180.947882, 
             "boil": 5731, 
@@ -3132,7 +3132,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Tantalum", 
             "spectral_img": "https://en.wikipedia.org/wiki/File:Tantalum_spectrum_visible.png", 
-            "summary": "Tantalum is a chemical element with symbol Ta and atomic number 73. Previously known as tantalium, its name comes from Tantalus, an antihero from Greek mythology. Tantalum is a rare, hard, blue-gray, lustrous metal de transición that is highly corrosion-resistant.", 
+            "summary": "Anteriormente conocido como tantalio, su nombre procede de Tántalo, un antihéroe de la mitología griega. El tántalo es un metal de transición raro, duro, de color gris azulado, lustroso y muy resistente a la corrosión.", 
             "symbol": "Ta", 
             "xpos": 5, 
             "ypos": 6, 
@@ -3153,7 +3153,7 @@
             ]
         }, 
         {
-            "name": "Tungsten", 
+            "name": "Tungsteno", 
             "appearance": "grayish white, lustrous", 
             "atomic_mass": 183.841, 
             "boil": 6203, 
@@ -3169,7 +3169,7 @@
             "phase": "Solid", 
             "source": "https://en.wikipedia.org/wiki/Tungsten", 
             "spectral_img": null, 
-            "summary": "Tungsten, also known as wolfram, is a chemical element with symbol W and atomic number 74. The word tungsten comes from the Swedish language tung sten, which directly translates to heavy stone. Its name in Swedish is volfram, however, in order to distinguish it from scheelite, which in Swedish is alternatively named tungsten.", 
+            "summary": "El tungsteno o wolframio es notable por tener el punto de fusión más alto de todos los elementos conocidos, alcanzando aproximadamente 3.422 grados Celsius. Además, tiene una densidad extremadamente alta, siendo uno de los metales más pesados", 
             "symbol": "W", 
             "xpos": 6, 
             "ypos": 6, 

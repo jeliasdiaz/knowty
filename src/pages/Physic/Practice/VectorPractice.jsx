@@ -3,6 +3,7 @@ import Latex from "react-latex";
 import vectores from "../data/vectores.json";
 import { useControlObjects } from '../../../helpers/controlObjects';
 import { BsBarChartFill } from "react-icons/bs";
+import { TopWave } from "../../../components";
 
 export const VectorPractice = () => {
     const {
@@ -73,7 +74,7 @@ export const VectorPractice = () => {
                     <div className="scoreboardCard">
                         <p className="me-auto mt-0 mb-0">Puntaje</p>
                         <p className="mt-0 pt-1 mb-0">{scoreResult}%</p>
-                        <span><BsBarChartFill size={20} className="scoreChartColor"  /></span>
+                        <span><BsBarChartFill size={20} className="scoreChartColor" /></span>
                     </div>
                     <br />
                     <button className="btn btn-outline-secondary" onClick={restartExercises}>Regresar</button>
@@ -83,46 +84,50 @@ export const VectorPractice = () => {
     }
 
     return (
-        <div className="subjectCard ownShadow">
-            <h2>Vectores</h2>
+        <div className="homeCard">
+            <TopWave />
+            <div className="subjectCard ownShadow">
 
-            {
-                showScoreboard
-                    ? renderScoreboard()
-                    : (
-                        <>
+                <h2>Vectores</h2>
 
-                            <span>{content}</span>
-                            <br />
-                            <br />
-                            <img src={img} className="img-fluid rounded" alt="" />
-                            <br /><br />
-                            <div>
-                                {renderOptions()}
-                            </div>
+                {
+                    showScoreboard
+                        ? renderScoreboard()
+                        : (
+                            <>
 
-                            <div className="d-flex mt-4">
-                                <button className="btn btn-outline-secondary" onClick={previousObject}>Atrás</button>
-                                {renderFeedback()}
-                                <div className="d-flex gap-2 ms-auto">
-                                    <button className="btn btn-secondary" onClick={validateOption}>Enviar</button>
-                                    <button className="btn btn-outline-secondary" onClick={nextObject}>Siguiente</button>
+                                <span>{content}</span>
+                                <br />
+                                <br />
+                                <img src={img} className="img-fluid rounded" alt="" />
+                                <br /><br />
+                                <div>
+                                    {renderOptions()}
                                 </div>
-                            </div>
 
-                            <br />
+                                <div className="d-flex mt-4">
+                                    <button className="btn btn-outline-secondary" onClick={previousObject}>Atrás</button>
+                                    {renderFeedback()}
+                                    <div className="d-flex gap-2 ms-auto">
+                                        <button className="btn btn-secondary" onClick={validateOption}>Enviar</button>
+                                        <button className="btn btn-outline-secondary" onClick={nextObject}>Siguiente</button>
+                                    </div>
+                                </div>
 
-                            {
-                                showSolution &&
-                                <button className="btn btn-outline-secondary mt-3" type="button" onClick={onShowProcess}>
-                                    Solución
-                                </button>
-                            }
+                                <br />
 
-                            {renderProcess()}
-                        </>
-                    )
-            }
+                                {
+                                    showSolution &&
+                                    <button className="btn btn-outline-secondary mt-3" type="button" onClick={onShowProcess}>
+                                        Solución
+                                    </button>
+                                }
+
+                                {renderProcess()}
+                            </>
+                        )
+                }
+            </div>
         </div>
     );
 };

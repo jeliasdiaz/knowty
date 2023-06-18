@@ -19,6 +19,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-tooltip": "^5.4.0",
+    "reactflow": "^11.7.2",
     "recharts": "^2.4.3",
     "web-vitals": "^2.1.4",
     "workbox-background-sync": "^6.5.4",

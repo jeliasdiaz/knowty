@@ -3,6 +3,7 @@ import Latex from "react-latex";
 import { useControlObjects } from '../../../helpers/controlObjects';
 import mru from "../data/mru.json";
 import { BsBarChartFill } from "react-icons/bs";
+import { TopWave } from "../../../components";
 
 export const MruPractice = () => {
     const {
@@ -88,39 +89,43 @@ export const MruPractice = () => {
         }
     }
     return (
-        <div className="subjectCard ownShadow">
-            <h2>M.R.U.</h2>
-            {
-                showScoreboard
-                    ? renderScoreboard()
-                    : (
-                        <>
-                            <span>{content}</span>
-                            <br />
-                            <br />
-                            {renderOptions()}
+        <div className="homeCard">
+            <TopWave />
+            <div className="subjectCard ownShadow">
+                <h2>M.R.U.</h2>
+                {
+                    showScoreboard
+                        ? renderScoreboard()
+                        : (
+                            <>
+                                <span>{content}</span>
+                                <br />
+                                <br />
+                                {renderOptions()}
 
-                            <br />
-                            <div className="d-flex mt-4">
-                                <button className="btn btn-outline-secondary" onClick={previousObject}>Atrás</button>
-                                {renderFeedback()}
-                                <div className="d-flex gap-2 ms-auto">
-                                    <button className="btn btn-secondary" onClick={validateOption}>Enviar</button>
-                                    <button className="btn btn-outline-secondary" onClick={nextObject}>Siguiente</button>
+                                <br />
+                                <div className="d-flex mt-4">
+                                    <button className="btn btn-outline-secondary" onClick={previousObject}>Atrás</button>
+                                    {renderFeedback()}
+                                    <div className="d-flex gap-2 ms-auto">
+                                        <button className="btn btn-secondary" onClick={validateOption}>Enviar</button>
+                                        <button className="btn btn-outline-secondary" onClick={nextObject}>Siguiente</button>
+                                    </div>
                                 </div>
-                            </div>
-                            <br />
-                            {
-                                showSolution &&
-                                <button className="btn btn-outline-secondary mt-3" type="button" onClick={onShowProcess}>
-                                    Solución
-                                </button>
-                            }
+                                <br />
+                                {
+                                    showSolution &&
+                                    <button className="btn btn-outline-secondary mt-3" type="button" onClick={onShowProcess}>
+                                        Solución
+                                    </button>
+                                }
 
-                            {renderProcess()}
-                        </>
-                    )
-            }
+                                {renderProcess()}
+                            </>
+                        )
+                }
+            </div>
         </div>
+
     );
 };

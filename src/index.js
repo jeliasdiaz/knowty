@@ -6,6 +6,7 @@ import './css/katex.min.css'
 import App from './App.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'reactflow/dist/style.css';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import { TitleContextSubject } from './context/TitleContextSubject';
 import { PeriodicElementContext } from './context/PeriodicElementContext';
