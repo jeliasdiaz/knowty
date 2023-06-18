@@ -3,7 +3,7 @@ import Latex from "react-latex";
 import vectores from "../data/vectores.json";
 import { useControlObjects } from '../../../helpers/controlObjects';
 import { BsBarChartFill } from "react-icons/bs";
-import { TopWave } from "../../../components";
+import { SectionTitle, TopWave } from "../../../components";
 
 export const VectorPractice = () => {
     const {
@@ -86,6 +86,7 @@ export const VectorPractice = () => {
     return (
         <div className="homeCard">
             <TopWave />
+            <SectionTitle title="Práctica vectores" />
             <div className="subjectCard ownShadow">
 
                 <h2>Vectores</h2>

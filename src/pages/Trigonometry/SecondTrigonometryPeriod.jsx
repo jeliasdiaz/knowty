@@ -5,7 +5,7 @@ export const SecondTrigonometryPeriod = () => {
 
     const pitagorasOne = `$$c^2 = a^2 + b^2$$`
     const pitagorasTwo = `$$c = \\sqrt{a^2 + b^2}$$`
-    const pitagorasThree = `$$\\sqrt{c^2 - b^2 = a}$$`
+    const pitagorasThree = `$$\\sqrt{c^2 - b^2} = a$$`
 
     const seno = `$$\\textsf{Seno} = \\large \\frac{\\textsf{Cateto \\ opuesto}}{ \\textsf{Hipotenusa}}$$`
     const coseno = `$$\\textsf{Coseno} = \\large  \\frac{\\textsf{Cateto \\ adyacente}}{\\textsf{Hipotenusa}}$$`
@@ -35,6 +35,9 @@ export const SecondTrigonometryPeriod = () => {
     const sec60 = `$$ 2$$`
     const cosec60 = `$$\\frac{2 \\sqrt{3}}{3}$$`
 
+    const ejemplo1Pitagoras = `$$a = 7m \\\\ \\allowbreak  b = 5m \\\\ c = 9m  \\\\  \\allowbreak \\\\  c^2 = 7^2 + 10^2 \\\\  \\allowbreak \\ c^2 = 49 + 100 \\\\ \\allowbreak \\ c = \\sqrt{49 + 100} \\\\ \\allowbreak \\ c = \\sqrt{149} \\\\ \\allowbreak \\ c = 12.20m$$`
+
+    const ejemplo2Pitagoras = `$$a = ? \\\\ \\allowbreak  b = 10m \\\\ c = 9m  \\\\  \\allowbreak \\\\  a = \\sqrt{9^2 + 5^2} \\\\  \\allowbreak \\ a = \\sqrt{81 + 25} \\\\ \\allowbreak \\ a = \\sqrt{106} \\\\ \\allowbreak \\ a = 10.29m$$`
     return (
         <div className="homeCard">
             <TopWave />
@@ -110,12 +113,12 @@ export const SecondTrigonometryPeriod = () => {
                     <hr />
                     <div>
                         <CollapseInformation name="Teorema de Pitágoras" id="teoremaPitagoras" >
-                            <p>Es una regla matemática que se aplica a los triángulos rectángulos. Dicho de otra manera, si tienes un triángulo con un ángulo recto, esta ley te ayudará a calcular la medida de cualquiera de sus tres lados, siempre y cuando ya sepas la medida de los otros dos.</p>
+                            <p>Es una regla matemática que se aplica a los triángulos rectángulos. Dicho de otra manera, si tienes un triángulo con un ángulo recto (triángulo rectángulo), esta ley te ayudará a calcular la medida de cualquiera de sus tres lados, siempre y cuando ya sepas la medida de los otros dos.</p>
                             <Latex>{pitagorasOne}</Latex>
                             <p>
-                                c = hipotenusa (lado más largo) <br />
-                                a = cateto<br />
-                                b = cateto
+                                <var>c</var> = hipotenusa (lado más largo) <br />
+                                <var>a</var> = cateto<br />
+                                <var>b</var> = cateto
                             </p>
                             <h5>Nota</h5>
                             <ul>
@@ -123,11 +126,33 @@ export const SecondTrigonometryPeriod = () => {
                                 <li>Los catetos corresponden a los lados más pequeños del triángulo.</li>
                             </ul><br />
 
-                            <p>Por lo tanto, si queremos hallar <i>c</i>, la ecuación queda de la siguiente forma:</p>
+                            <p>Por lo tanto, si queremos hallar <var>c</var>, la ecuación queda de la siguiente forma:</p>
                             <Latex>{pitagorasTwo}</Latex><br /><br />
 
-                            <p>Aplicado a cualquier cateto reemplazando <i>a</i> por <i>b</i> y viceversa:</p>
+                            <p>Aplicado a cualquier cateto reemplazando <var>a</var> por <var>b</var> y viceversa:</p>
                             <Latex>{pitagorasThree}</Latex>
+                            <br /><br />
+                            <table className="table table-bordered text-start">
+                                <thead className="table-light">
+                                    <tr>
+                                        <th scope="col ">Ejemplo 1</th>
+                                        <th scope="col">Ejemplo 2</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                        <img src="img/pitagorasImgEjemplos.svg" alt="Ejemplo 1 teorema de pitágoras" className="rounded-3" /><br /><br />
+                                            <Latex>{ejemplo1Pitagoras}</Latex>
+                                        </th>
+                                        <td>
+                                            <img src="img/pitagorasImgEjemplos.svg" alt="Ejemplo 1 teorema de pitágoras" className="rounded-3" /><br /><br />
+                                            <Latex>{ejemplo2Pitagoras}</Latex>
+
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </CollapseInformation>
                     </div>
                     <hr />

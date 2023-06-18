@@ -13,6 +13,9 @@ export const Statistic = () => {
 
   const reglaTresDirecta = `$$\\Large  \\frac{C \\ \\cdot \\ B}{A}$$`
   const reglaTresDirectaEjemplo = `$$\\large  \\frac{8 \\ \\cdot \\ 600}{5} = 960$$`
+  const reglaTresDirectaEjemplo2 = `$$\\large  \\frac{8 \\ cm}{5 \\ cm} = \\frac{¿x? \\ m}{600 \\ m}$$`
+  const reglaTresDirectaEjemplo3 = `$$\\large  \\frac{8 }{5} = \\frac{¿x?}{600}$$`
+  const reglaTresDirectaEjemplo4 = `$$\\large  \\frac{8}{5} \\ \\cdot \\ 600  = 960$$`
 
   const reglaTresInversa = `$$\\Large  \\frac{A \\ \\cdot \\ B}{C}$$`
   const reglaTresInversaEjemplo = `$$\\Large  \\frac{3 \\ \\cdot \\ 4}{6} = \\large 2$$`
@@ -26,6 +29,7 @@ export const Statistic = () => {
   const explicacionEjemploResultado = `$$Q_1 = 8,750 $$`
   const explicacionEjemploResultadoAlternativo = `$$25\\% = 8,750$$`
 
+  const arrow = `$$\\rightarrow$$`
 
   return (
     <>
@@ -64,11 +68,41 @@ export const Statistic = () => {
                 <Latex>{reglaTresDirectaEjemplo}</Latex>
               </p>
 
+              <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#reglaTresDirectaEjemplo" aria-expanded="false" aria-controls="reglaTresDirectaEjemplo">
+                Explicación
+              </button>
+
+              <div className="collapse" id="reglaTresDirectaEjemplo">
+                <p>
+                  En este ejemplo, se establece una relación entre las medidas de un mapa y la realidad. Si 5 centímetros en el mapa representan 600 metros en la realidad, queremos determinar cuántos metros son equivalentes a 8 centímetros en el mapa.
+                  <br /><br />
+                  Para resolver esto, utilizamos la regla de tres directa. La regla de tres directa nos permite establecer una proporción entre las magnitudes de dos conjuntos de datos.
+                  <br /> <br />
+                  En este caso, podemos establecer la siguiente proporción:
+                  <br /><br />
+                  5 cm en el mapa <Latex>{arrow}</Latex> 600 metros en la realidad <br />
+                  8 cm en el mapa <Latex>{arrow}</Latex> ¿x? metros en la realidad
+                  <br /><br />
+                  Para encontrar el valor de x, dividimos 8 cm entre los 5 cm :
+                  <br /> <br />
+                  <Latex>{reglaTresDirectaEjemplo2}</Latex>
+                  <br /><br />
+                  Al hacerlo, obtenemos una constante entre 8 y 5 Ahora, simplemente multiplicamos esta constante por 600 metros:
+                  <br /><br />
+                  <Latex>{reglaTresDirectaEjemplo2}</Latex> <br /><br />
+                  <Latex>{reglaTresDirectaEjemplo3}</Latex> <br /><br />
+                  <Latex>{reglaTresDirectaEjemplo4}</Latex>
+                  <br /><br />
+                  Resolviendo la expresión, encontramos que x es igual a 960 metros.
+                  <br /><br />
+                  Por lo tanto, si 5 centímetros en el mapa representan 600 metros en la realidad, entonces 8 centímetros en el mapa equivalen a 960 metros en la realidad. De esta manera, si dividimos 600 / 960 y 8 / 5, obtendremos el mismo resultado, indicando que la relación es directa.
+                </p>
+              </div>
               <br />
               <br />
-              
+              <hr />
               <h5>Inversa</h5>
-              <p>Los datos están correlacionados, de tal forma que mientras una magnitud aumenta, la otra disminuye. Es de añadir que dos variables son inversamentep proporcionales cuando al multiplicarse dan como producto una constante.</p>
+              <p>Los datos están correlacionados, de tal forma que mientras una magnitud aumenta, la otra disminuye. Es de añadir que dos variables son inversamente proporcionales cuando al multiplicarse dan como producto una constante.</p>
               <h6>Fórmula</h6>
               <img src="/img/regla-3-inversa.jpg" alt="regla de tres inversa" className="reglaTres rounded-3" /><br /><br />
               <Latex>{reglaTresInversa}</Latex>
@@ -78,24 +112,42 @@ export const Statistic = () => {
                 Si Tres personas tardan 4 días en montar un escenario. ¿Cuánto tardarán seis personas? <br />
                 <img src="/img/regla-3-inversa-ejemplo.jpg" alt="regla de tres inversa ejemplo" className="reglaTres rounded-3" /> <br /><br />
                 <Latex>{reglaTresInversaEjemplo}</Latex>
-              </p> <br />
-              <MoreBtn url="https://youtu.be/-HORSa7OGzY" />
-
-              <h6>Explicación</h6>
-              <p>
-                Si aún no has comprendido este tema. ¡Qué esperas! Este es tu momento de aprenderlo. Además, descubrirás cómo este puede salvarte de apuros. <br /> <br />
-
-                La regla de tres simple, consiste en correlaciones entre ciertos datos. Esto es, si una de las magnitudes aumenta, y la otra también lo hace, quiere decir que ambos valores están correlacionados. Lo mismo ocurre cuando uno de los datos disminuye y la otra aumenta. <br /> <br />
-
-                Usaré uno de los ejemplos anteriores para explicar mejor este proceso. <i>Si tres personas tardan 4 días en montar un escenario. ¿Cuánto tardarán seis personas?</i> Antes poder realizar el procedimiento, antes debes identificar, ¿La relación es directa o inversa? Una de las formas más sencillas de hacerlo es pensar, a mayor cantidad de personas, menor tiempo se demorarán. Puesto que, son más personas trabajando en un mismo objetivo. Es decir, si ambas variables aumentan, será directa. Y si una aumenta y la otra disminuye, será inversa. <br /> <br />
-
-                Por otra parte, imagina que vas a hacer un postre para un amigo que invitaste a comer. Recuerdas que no sabes como realizar dicho postre. Por ello, recurres a usar una receta. Una vez tienes la receta, ocurre algo que te deja atónito. La receta es para 5 personas. <br /> <br />
-
-                En este tipo de escenarios (no necesariamente tan específicos) la regla de 3 puede ser de mucha ayuda; debido a que puedes calcular cuanto requieres de cada ingrediente para no excederte. <br /> <br />
-
-                Recuerda que entre más relaciones y practiques lo que aprendes en tu día a día, recordarás más los conceptos y aprenderás más rápido.
-
               </p>
+              <br />
+
+              <div className="d-flex gap-3">
+                <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#reglaTresInversaEjemplo" aria-expanded="false" aria-controls="reglaTresInversaEjemplo">
+                  Explicación
+                </button>
+                
+
+                <MoreBtn url="https://youtu.be/-HORSa7OGzY" />
+              </div>
+
+              <div className="collapse" id="reglaTresInversaEjemplo">
+                <p>
+                  En este caso, se establece una relación entre la cantidad de personas y el tiempo necesario para montar un escenario. Si tres personas tardan 4 días en completar la tarea, queremos determinar cuánto tiempo tardarán seis personas en hacerlo.
+                  <br /><br />
+                  Utilizamos la regla de tres inversa para resolver este problema. La regla de tres inversa nos permite establecer una proporción entre las magnitudes de dos conjuntos de datos cuando son inversamente proporcionales.
+                  <br /><br />
+                  Podemos establecer la siguiente proporción:
+                  <br /><br />
+                  3 personas <Latex>{arrow}</Latex> 4 días  <br />
+                  6 personas <Latex>{arrow}</Latex> ¿x? días <br /> <br />
+
+                  Para encontrar el valor de x, multiplicamos las 3 personas por 4 días la igualdad por 3:
+                  <br /><br />
+                  3 personas * 4 días = 12 días
+
+                  <br /><br />
+                  Luego, dividimos ese producto entre 6 personas:
+                  <br /><br />
+                  12 días / 6 personas = 2 días
+                  <br /><br />
+                  Por lo tanto, si tres personas tardan 4 días en montar un escenario, entonces seis personas tardarán 2 días en completar la misma tarea.
+                </p>
+              </div>
+
             </CollapseInformation>
             <hr />
           </div>

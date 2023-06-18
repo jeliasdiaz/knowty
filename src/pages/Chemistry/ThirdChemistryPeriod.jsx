@@ -404,8 +404,8 @@ export const ThirdChemistryPeriod = () => {
               </p>
 
               <MoreBtn url="https://youtu.be/bQ0MwYR0oio" />
-
-              button <h3>Practica</h3>
+              <br /><br />
+              <h3>Practica</h3>
               <p>
                 Teniendo en cuenta la siguiente ecuación:
                 <br />

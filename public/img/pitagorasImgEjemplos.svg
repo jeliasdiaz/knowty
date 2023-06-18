@@ -1,0 +1,17 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 209.31566226681446 218.4671301688486" width="209.31566226681446" height="218.4671301688486">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+    </style>
+    
+  </defs>
+  <rect x="0" y="0" width="209.31566226681446" height="218.4671301688486" fill="#ffffff"></rect><g transform="translate(10 69.38158025478685) rotate(0 7.7861328125 16.100000000000023)"><text x="7.7861328125" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="28px" fill="black" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">a</text></g><g stroke-linecap="round"><g transform="translate(45.23431000045298 10) rotate(0 77.02419924721437 77.43836824445975)" fill-rule="evenodd"><path d="M0 0 L154.08 154.66 L-0.03 154.88 L0 0" stroke="none" stroke-width="0" fill="#ced4da" fill-rule="evenodd"></path><path d="M0 0 C49.12 49.3, 98.23 98.6, 154.08 154.66 M0 0 C57.2 57.42, 114.4 114.83, 154.08 154.66 M154.08 154.66 C106.39 154.73, 58.69 154.79, -0.03 154.88 M154.08 154.66 C121.93 154.7, 89.77 154.75, -0.03 154.88 M-0.03 154.88 C-0.02 110.41, -0.01 65.94, 0 0 M-0.03 154.88 C-0.02 95.29, -0.01 35.7, 0 0 M0 0 C0 0, 0 0, 0 0 M0 0 C0 0, 0 0, 0 0" stroke="#000000" stroke-width="2" fill="none"></path></g></g><mask></mask><g transform="translate(101.26774308226209 176.26713016884855) rotate(0 7.7861328125 16.100000000000023)"><text x="7.7861328125" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="28px" fill="black" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">b</text></g><g transform="translate(141.0538758947622 58.76713016884844) rotate(0 7 16.100000000000023)"><text x="7" y="0" font-family="Helvetica, Segoe UI Emoji" font-size="28px" fill="black" text-anchor="middle" style="white-space: pre;" direction="ltr" dominant-baseline="text-before-edge">c</text></g></svg>

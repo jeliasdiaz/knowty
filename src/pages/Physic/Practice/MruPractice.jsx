@@ -3,7 +3,7 @@ import Latex from "react-latex";
 import { useControlObjects } from '../../../helpers/controlObjects';
 import mru from "../data/mru.json";
 import { BsBarChartFill } from "react-icons/bs";
-import { TopWave } from "../../../components";
+import { SectionTitle, TopWave } from "../../../components";
 
 export const MruPractice = () => {
     const {
@@ -91,6 +91,8 @@ export const MruPractice = () => {
     return (
         <div className="homeCard">
             <TopWave />
+            <SectionTitle title="Práctica mru" />
+
             <div className="subjectCard ownShadow">
                 <h2>M.R.U.</h2>
                 {
