@@ -32,7 +32,7 @@ export const CellCycle = () => {
                     </p>
                 </CollapseInformation>
                 <hr />
-                <CollapseInformation name="Fase M">
+                <CollapseInformation name="Fase M" id="fasem">
                     <p>
                         La fase M o mitótica, es la otra fase del ciclo celular, en esta se dan dos procesos principales que son la mitosis y la citocinesis.
 

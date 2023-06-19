@@ -10,7 +10,7 @@ import { Home, InfoPage, Search, Blog, Credits, Statistic, Tools } from "./pages
 import { Footer, Navbar, InstallAppBtn, ScrollBtn } from "./components";
 
 //* Biology
-import { CellCycle, Cells, ECells, PCells } from "./pages/Biology/Cells";
+import { CellCycle, Cells, ECells, Organelles, PCells } from "./pages/Biology/Cells";
 import { BiologyMenu } from "./pages/Biology";
 
 //* Chemistry
@@ -120,6 +120,7 @@ function App() {
             <Route path="/celula-eucariota" element={<ECells />} />
             <Route path="/celula-procariota" element={<PCells />} />
             <Route path="/ciclo-celular" element={ <CellCycle />} />
+            <Route path="/organelos-celulares" element={ <Organelles />} />
 
             <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
             <Route path="/quimica_2" element={<SecondChemistryPeriod />} />

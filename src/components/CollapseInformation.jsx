@@ -3,7 +3,7 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import PropTypes from 'prop-types';
 import { useCollapse } from "react-collapsed";
 
-export const CollapseInformation = ({ name, children }) => {
+export const CollapseInformation = ({ name, children, id }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const { getCollapseProps, getToggleProps } = useCollapse({ isOpen })
@@ -13,7 +13,7 @@ export const CollapseInformation = ({ name, children }) => {
             <div className="d-flex mb-2 align-items-center" href={`#${name}`} {...getToggleProps({
                 style: { display: "block" },
                 onClick: () => setIsOpen((x) => !x)
-            })} >
+            })} id={id}>
                 {
                     !isOpen
                         ? <MdOutlineKeyboardArrowDown size={40} className="collapseTitleIconDown" />

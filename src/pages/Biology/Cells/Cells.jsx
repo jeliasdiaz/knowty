@@ -273,7 +273,8 @@ export const Cells = () => {
             </div>
 
             <div className="mobileSubjectMenu justify-content-center mt-5">
-        
+
+                <MenuCard url="/organelos-celulares" img="aparatoGolgi.png" title="Estructura y organelos" imgSize="w-50" />
 
                 <MenuCard url="/ciclo-celular" img="cicloCelular.png" title="Ciclo Celular" imgSize="w-50" />
 
