@@ -511,6 +511,14 @@ input[type="radio"]:checked + span:before {
   padding-top: 0.5em;
 }
 
+.dropdownBorder {
+  border: 1px solid;
+  border-color: #ccc;
+  padding: 1%;
+  margin-top: 1%;
+  border-radius: 10px;
+}
+
 .table {
   width: 34rem !important;
 }

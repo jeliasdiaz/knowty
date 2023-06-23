@@ -417,7 +417,7 @@ export const ThirdChemistryPeriod = () => {
                   Solución
                 </button>
               </p>
-              <div className="collapse" id="collapseExample">
+              <div className="collapse dropdownBorder" id="collapseExample">
                 <img src="/img/practicaEstequiometria.svg" alt="Practica estequiometría" className="w-80 rounded-3" />
               </div>
             </CollapseInformation>

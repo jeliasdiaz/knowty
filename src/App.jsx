@@ -6,9 +6,13 @@ import "aos/dist/aos.css";
 import ScrollToTop from "./ScrollToTop";
 
 //* Principal components
-import { Home, InfoPage, Search, Blog, Credits, Statistic, Tools } from "./pages/Single-pages/";
+import { Home, InfoPage, Search, Blog, Credits, Tools } from "./pages/Single-pages/";
 import { Footer, Navbar, InstallAppBtn, ScrollBtn } from "./components";
 
+
+//* Statistic
+
+import {Statistic, CentralTendency, LocalizationMeasures} from "./pages/Statistic/"
 //* Biology
 import { CellCycle, Cells, ECells, Organelles, PCells } from "./pages/Biology/Cells";
 import { BiologyMenu } from "./pages/Biology";
@@ -23,7 +27,7 @@ import { English, Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVe
 import { Circumference, Straight, Ellipse, Parable, GeometryMenu } from "./pages/Geometry";
 
 //* Pyshic
-import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu } from "./pages/Physic/";
+import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu, VectorPractice, MruPractice } from "./pages/Physic/";
 
 //* Social
 import { FirstSocialPeriod, EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu, ExtraSocial } from "./pages/Social/";
@@ -37,8 +41,7 @@ import { ClassicPhilosophers, PhilosophyMenu, IntroductionPhilosophy } from "./p
 //* Blog
 import { SpacedRepetition, StudentsResources } from "./pages/Blog/";
 import { EnglishMenu } from "./pages/English/EnglishMenu";
-import { VectorPractice } from "./pages/Physic/Practice/VectorPractice";
-import { MruPractice } from "./pages/Physic/Practice/MruPractice";
+
 
 function App() {
   useEffect(() => {
@@ -157,6 +160,8 @@ function App() {
             <Route path="/sociales-extra" element={<ExtraSocial />} />
 
             <Route path="/estadistica" element={<Statistic />} />
+            <Route path="/medidas-tendencia-central" element={<CentralTendency />} />
+            <Route path="/medidas-localizacion" element={<LocalizationMeasures />} />
 
             <Route path="/trigonometria_2" element={<SecondTrigonometryPeriod />} />
             <Route path="/trigonometria" element={<ThirdTrigonometryPeriod />} />

@@ -83,6 +83,9 @@
   background-color: #121212;
   transition: all 0.5s;
 }
+.dark .dropdownBorder {
+  border-color: gray;
+}
 
 .dark .infoPage {
   color: #e3e3e3;

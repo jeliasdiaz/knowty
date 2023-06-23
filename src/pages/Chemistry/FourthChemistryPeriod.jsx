@@ -84,7 +84,7 @@ export const FourthChemistryPeriod = () => {
                                     Solución
                                 </button>
                             </p>
-                            <div className="collapse" id="reactivo">
+                            <div className="collapse dropdownBorder" id="reactivo">
                                 <img src="/img/reactivoLimiteEjercicioSolucion.svg" alt="Reactivo limite solución" className="w-80 rounded-3" />
                             </div>
                         </CollapseInformation>
@@ -120,7 +120,7 @@ export const FourthChemistryPeriod = () => {
                                     Solución
                                 </button>
                             </p>
-                            <div className="collapse" id="pureza">
+                            <div className="collapse dropdownBorder" id="pureza">
                                 <img src="/img/purezaEjercicioSolucion.svg" alt="" className="w-80 rounded-3" />
                             </div>
                         </CollapseInformation>
