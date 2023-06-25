@@ -12,7 +12,7 @@ import { Footer, Navbar, InstallAppBtn, ScrollBtn } from "./components";
 
 //* Statistic
 
-import {Statistic, CentralTendency, LocalizationMeasures} from "./pages/Statistic/"
+import {Statistic, CentralTendency, LocalizationMeasures, DispersionMeasures} from "./pages/Statistic/"
 //* Biology
 import { CellCycle, Cells, ECells, Organelles, PCells } from "./pages/Biology/Cells";
 import { BiologyMenu } from "./pages/Biology";
@@ -162,6 +162,7 @@ function App() {
             <Route path="/estadistica" element={<Statistic />} />
             <Route path="/medidas-tendencia-central" element={<CentralTendency />} />
             <Route path="/medidas-localizacion" element={<LocalizationMeasures />} />
+            <Route path="/medidas-dispersion" element={<DispersionMeasures />} />
 
             <Route path="/trigonometria_2" element={<SecondTrigonometryPeriod />} />
             <Route path="/trigonometria" element={<ThirdTrigonometryPeriod />} />

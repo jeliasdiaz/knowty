@@ -12,10 +12,7 @@ export const Statistic = () => {
   const reglaTresInversa = `$$\\Large  \\frac{A \\ \\cdot \\ B}{C}$$`
   const reglaTresInversaEjemplo = `$$\\Large  \\frac{3 \\ \\cdot \\ 4}{6} = \\large 2$$`
 
-  const varianzaOne = `$$S^2 = (\\frac{M \\ - \\ x_i}{n})^2 \\ (muestra)$$`
-  const varianzaTwo = `$$S^2 = (\\frac{M \\ - \\ x_i}{N})^2 \\ (población)$$`
 
-  const desviacionEstandar = `$$ \\small DE = \\normalsize \\sqrt{(\\frac{M \\ - \\ x_i}{N})^2}$$`
 
 
   const arrow = `$$\\rightarrow$$`
@@ -126,51 +123,6 @@ export const Statistic = () => {
             </CollapseInformation>
           </div>
           <hr />
-          <div>
-            <CollapseInformation name="Medidas de dispersión" id="medidasDispersion" >
-              <p>
-                Consisten en números que proporcionan información de la variabilidad de los datos. Dicho de otro modo, indican que tan unidos o separados se encuentran los datos en una distribución. Por otro lado, puede considerarse que evalúan la homogeneidad de un conjunto de datos a través de varios promedios.
-
-                <br /><br />
-
-                Es menester añadir que, para hallar la dispersión, usamos el rango cuyo concepto es la sustracción del dato mayor de un conjunto de datos menos el dato menor de tal grupo.
-
-                Entre las medidas de dispersión tenemos:
-              </p>
-
-              <h5>Varianza</h5>
-              <p>Su fin es representar la variabilidad de un conjunto de datos respecto a la media aritmética de los mismos. Se define como la media de los cuadrados de las desviaciones sobre la media.</p>
-              <p>Datos no agrupados</p>
-              <p><Latex>{varianzaOne}</Latex></p>
-              <p><Latex>{varianzaTwo}</Latex></p>
-              <br /> <br />
-              <h5>Desviación estándar</h5>
-              <p>
-                Su propósito es medir la dispersión de una distribución de datos. A modo de ejemplo, entre más dispersa está una distribución de datos, más grande es su desviación estándar y viceversa. Dicho en otros términos, es la raíz cuadrada de la varianza. </p>
-              <h6>Fórmula</h6>
-              <p><Latex>{desviacionEstandar}</Latex></p>
-              <h6>Ejemplo</h6>
-              <p>
-                Por ejemplo, tenemos las notas de los siguientes estudiantes: <br />
-                David: 8, 6 y 7 <br />
-                Juan: 10, 5 y 1 <br /> <br />
-
-                Luego de analizar los datos, llegamos a la conclusión que las notas de Juan se encuentran más alejadas de la media (mayor dispersión). Observemos <br />
-                Media de notas de David: <br />
-                8 + 6 + 7= 21  <br />
-                <sup>21</sup>/<sub>3</sub>= 7 <br />
-
-                Media de notas de Juan: <br />
-                10 + 6 + 1 = 17 <br />
-                <sup>17</sup>/<sub>3</sub> = 5.6 <br /> <br />
-
-                Las notas de Juan se encuentran lejos de la media sin importar que tenga un 10, la dispersión de sus datos son heterogéneos y la dispersión de David es menor, por lo tanto, es homogénea.
-
-                En conclusión, David obtendrá mejor puesto y promedio que Juan porque sus notas poseen poca dispersión.
-              </p>
-            </CollapseInformation>
-            <hr />
-          </div>
 
           <div>
             <CollapseInformation name="Medidas de simetría y asimetría" id="medidasSimetriaAsimetria" >
@@ -202,6 +154,8 @@ export const Statistic = () => {
           <MenuCard url="/medidas-tendencia-central" img="tendenciaCentral.png" title="Medidas de tendencia central" imgSize="w-50" />
           
           <MenuCard url="/medidas-localizacion" img="tendenciaCentral.png" title="Medidas de localización" imgSize="w-50" />
+
+          <MenuCard url="/medidas-dispersion" img="tendenciaCentral.png" title="Medidas de dispersión" imgSize="w-50" />
 
         </div>
       </div>
