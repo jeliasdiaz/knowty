@@ -117,7 +117,7 @@ export const Tools = () => {
 
                                 <span className="mt-2"><Latex>{equal}</Latex></span>
 
-                                <input type="number" className="numberInput w-50" placeholder="resultado" readOnly={true} value={convertionResult} />
+                                <input type="number" className="numberInput w-50" placeholder="resultado" readOnly={true} value={convertionInput ? convertionResult : 0} />
                             </div>
                         </div>
                         <div className="btn-group convertionType">

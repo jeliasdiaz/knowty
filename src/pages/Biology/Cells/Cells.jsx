@@ -62,7 +62,7 @@ const Flow = () => {
             data: { label: 'Mitosis' },
             targetPosition: "left",
             sourcePosition: "right",
-            path: "/mitosis"
+            path: "/ciclo-celular"
         },
         {
             id: '8',

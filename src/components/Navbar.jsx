@@ -44,21 +44,19 @@ export const Navbar = () => {
   }
   return (
     <>
-      <nav className={`navbar navbar-expand-lg fixed-top ${visible ? "down" : " up"}`}>
-        <div className="container-fluid container gap-2 ">
           {
             showTitle && titleSubject.length > 0
               ? (
-                <small className="titleSubject text-overflow ownShadow" data-aos="fade-down">
+                <small className={`titleSubject text-overflow ownShadow fixed-top brandLink`}data-aos="fade-down">
                   {titleSubject}
                 </small>
               ) : (
-                <NavLink to="/" className="text-decoration-none bg-transparent" data-aos="fade-down" data-aos-delay="200" onClick={transitionPage}>
+                <NavLink to="/" className={`text-decoration-none bg-transparent brandLink fixed-top`} data-aos="fade-down" data-aos-delay="200" onClick={transitionPage}>
                   <img src="/img/knowty.png" alt="" className="navbar-brand" />
                 </NavLink>
               )
           }
-          <div className="navbar-nav ownShadow rounded p-1">
+          <div className={`navbar-nav ownShadow rounded p-1 fixed-top ${visible ? "down" : " up"}`}>
             <div className="d-none d-sm-flex gap-1">
               <NavIcon path="/" icon={<AiFillHome size={40} className="navBtn" />} tooltipContent="Inicio" tooltipId="inicio" />
 
@@ -87,8 +85,6 @@ export const Navbar = () => {
               location.pathname === "/" ? '' : <span onClick={() => navigate(-1)} className="navBtn"><IoArrowBack size={40} data-aos="fade-left" data-aos-duration="600" /></span>
             }
           </div>
-        </div>
-      </nav>
     </>
   )
 }

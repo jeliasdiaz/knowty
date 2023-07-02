@@ -16,32 +16,32 @@
   },
   {
     "name": "Vectores",
-    "url": "/cinematica",
+    "url": "/cinematica#:~:text=Vectores",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "MRU",
-    "url": "/cinematica",
+    "url": "/cinematica#:~:text=M.R.U.",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "MRUA",
-    "url": "/cinematica",
+    "url": "/cinematica#:~:text=M.R.U.A.",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Caída libre",
-    "url": "/cinematica",
+    "url": "/cinematica#:~:text=Caída libre",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Tiro vertical",
-    "url": "/cinematica",
+    "url": "/cinematica#:~:text=Tiro vertical",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Tiro parábolico",
-    "url": "/cinematica",
+    "url": "/cinematica#:~:text=Tiro parabólico",
     "img": "/img/fisicaIcon.png"
   },
   {
@@ -50,13 +50,13 @@
     "img": "/img/fisicaIcon.png"
   },
   {
-    "name": "Analisis de fuerza",
+    "name": "Análisis de fuerza",
     "url": "/dinamica",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Torque",
-    "url": "/dinamica",
+    "url": "/dinamica#:~:text=Torque",
     "img": "/img/fisicaIcon.png"
   },
   {
@@ -71,12 +71,12 @@
   },
   {
     "name": "MCU",
-    "url": "/movimientocircular",
+    "url": "/movimiento-circular#:~:text=M.C.U.",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "MCUA",
-    "url": "/movimientocircular",
+    "url": "/movimiento-circular#:~:text=M.C.U.A.",
     "img": "/img/fisicaIcon.png"
   },
   {
@@ -86,42 +86,42 @@
   },
   {
     "name": "Densidad",
-    "url": "/mecanica-fluidos",
+    "url": "/mecanica-fluidos#:~:text=Densidad",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Peso específico",
-    "url": "/mecanica-fluidos",
+    "url": "/mecanica-fluidos#:~:text=Peso específico",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Presión en líquidos",
-    "url": "/mecanica-fluidos",
+    "url": "/mecanica-fluidos#:~:text=Presión en líquidos",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Presión absoluta",
-    "url": "/mecanica-fluidos",
+    "url": "/mecanica-fluidos#:~:text=Presión absoluta",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Principio de Pascal",
-    "url": "/mecanica-fluidos",
+    "url": "/mecanica-fluidos#:~:text=Principio de Pascal",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Principio de Arquímedes",
-    "url": "/mecanica-fluidos",
+    "url": "/mecanica-fluidos#:~:text=Principio de Arquímedes",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Principio de continuidad",
-    "url": "/mecanica-fluidos",
+    "url": "/mecanica-fluidos#:~:text=principio de continuidad",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Teorema de Bernoulli",
-    "url": "/mecanica-fluidos",
+    "url": "/mecanica-fluidos#:~:text=Teorema de Bernoulli",
     "img": "/img/fisicaIcon.png"
   },
   {
@@ -131,12 +131,12 @@
   },
   {
     "name": "Propiedades de la materia",
-    "url": "/quimica_1",
+    "url": "/quimica_1#:~:text=Propiedades de la materia",
     "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Historia Química",
-    "url": "/quimica_1",
+    "url": "/quimica_1#:~:text=Historia de la química",
     "img": "/img/quimicaIcon.png"
   },
   {
@@ -242,77 +242,77 @@
   {
     "name": "Peróxidos",
     "url": "/quimica",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Componentes iónicos",
     "url": "/quimica_2",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Oxácido",
     "url": "/quimica",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Hidrácido",
     "url": "/quimica",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Sales",
     "url": "/quimica",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Balanceo tanteo",
     "url": "/quimica",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Balanceo algebraico",
     "url": "/quimica",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Balanceo redox",
     "url": "/quimica",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Estequiometría",
     "url": "/quimica",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Reactivo límite",
     "url": "/quimica_4",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Pureza reactivo",
     "url": "/quimica_4",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Rendimiento",
     "url": "/quimica_4",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Ley de Boyle",
     "url": "/quimica_4",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Ley de Charles",
     "url": "/quimica_4",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Ley de Gay-Lussac",
     "url": "/quimica_4",
-    "img": "/img/estadisticaIcon.png"
+    "img": "/img/quimicaIcon.png"
   },
   {
     "name": "Regla de 3",
@@ -441,27 +441,27 @@
   },
   {
     "name": "Movimientos armados",
-    "url": "/movimientos-armados",
+    "url": "/movimientos-guerrilleros",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "FARC",
-    "url": "/movimientos-armados",
+    "url": "/movimientos-guerrilleros",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "ELN",
-    "url": "/movimientos-armados",
+    "url": "/movimientos-guerrilleros",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "EPL",
-    "url": "/movimientos-armados",
+    "url": "/movimientos-guerrilleros",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "M-19",
-    "url": "/movimientos-armados",
+    "url": "/movimientos-guerrilleros",
     "img": "/img/socialesIcon.png"
   },
   {

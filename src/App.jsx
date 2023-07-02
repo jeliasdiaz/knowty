@@ -155,7 +155,7 @@ function App() {
 
             <Route path="/sociales_1" element={<FirstSocialPeriod />} />
             <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />
-            <Route path="/movimientos-armados" element={<ArmedGroups />} />
+            <Route path="/movimientos-guerrilleros" element={<ArmedGroups />} />
             <Route path="/movimientos-sociales" element={<SocialMovements />} />
             <Route path="/sociales-extra" element={<ExtraSocial />} />
 

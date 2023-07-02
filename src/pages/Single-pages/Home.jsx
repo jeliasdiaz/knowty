@@ -16,8 +16,8 @@ export const Home = () => {
       </section>
 
       <section className="home-2">
-        <div className="sectionTwo container" >
-          <div className="sectionTwoText ">
+        <div className="sectionTwo container">
+          <div className="sectionTwoText">
             <div className="flexHome">
               <div className="text-sectionTwo ownShadow" data-aos="fade-right" data-aos-duration="1400" data-aos-once="true">
                 <h2>Nuestra meta</h2>

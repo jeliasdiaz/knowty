@@ -18,9 +18,9 @@ export const NavIcon = ({ path, icon, tooltipContent, tooltipId }) => {
     return (
         <>
             <span id={tooltipId} data-tooltip-content={tooltipContent}>
-                <NavLink to={path} 
-                onClick={transitionPage}> { icon }</NavLink>
-        </span >
+                <NavLink to={path}
+                    onClick={transitionPage}> {icon}</NavLink>
+            </span >
             <ReactTooltip
                 anchorId={tooltipId}
                 style={{ backgroundColor: "#337ab7", color: "#fff", padding: "5px" }}
