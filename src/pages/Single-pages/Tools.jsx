@@ -70,6 +70,13 @@ export const Tools = () => {
     const sec60 = `$$ 2$$`
     const cosec60 = `$$\\frac{2 \\sqrt{3}}{3}$$`
 
+    const escalasConversionOne = "$$°C + 273$$"
+    const escalasConversionTwo = "$$°k \\ - \\ 273$$"
+    const escalasConversionThree = "$$1.8(°C) + 32$$"
+    const escalasConversionFour = "$$\\frac{5}{9} (°F - 32)$$"
+    const escalasConversionFive = "$$\\large\\frac{°F \\ - \\ 32}{1.8  \\ + \\ 273}$$"
+    const escalasConversionSix = "$$1.8(°k - 273) + 32$$"
+
     return (
         <div className="homeCard">
             <TopWave />
@@ -213,7 +220,7 @@ export const Tools = () => {
                                         {renderUnitOptions([
                                             { label: "°C", value: "tempC" },
                                             { label: "°F", value: "tempF" },
-                                            { label: "°Kelvin", value: "tempK"}
+                                            { label: "°Kelvin", value: "tempK" }
                                         ], handleUnitSelectionTwo)}
 
                                         <hr className="dropdown-divider shadow-none" />
@@ -233,9 +240,9 @@ export const Tools = () => {
 
                 </div>
 
-                <div className="subjectCard mb-5 ownShadow">
+                <div className="subjectCard mb-5 ownShadow text-center">
                     <h3>Razones trigonométricas para ángulos notables</h3>
-                    <table className="table table-bordered text-end">
+                    <table className="table table-bordered text-end mx-auto">
                         <thead className="table-light">
                             <tr>
                                 <th scope="col"></th>
@@ -280,6 +287,44 @@ export const Tools = () => {
                                 <td><Latex>{cosec30}</Latex></td>
                                 <td><Latex>{cosec45}</Latex></td>
                                 <td><Latex>{cosec60}</Latex></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                                            
+                <div className="subjectCard mb-5 ownShadow text-center">
+                    <h3>Escalas de conversión</h3>
+                    <table className="table table-bordered mx-auto">
+                        <thead className="table-light">
+                            <tr>
+                                <th scope="col">Conversión</th>
+                                <th scope="col">Ecuación</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Celsius a Kelvin</td>
+                                <td><Latex>{escalasConversionOne}</Latex></td>
+                            </tr>
+                            <tr>
+                                <td>Kelvin a Celsius</td>
+                                <td><Latex>{escalasConversionTwo}</Latex></td>
+                            </tr>
+                            <tr>
+                                <td>Celsius a Fahrenheit</td>
+                                <td><Latex>{escalasConversionThree}</Latex></td>
+                            </tr>
+                            <tr>
+                                <td>Fahrenheit a Celsius</td>
+                                <td><Latex>{escalasConversionFour}</Latex></td>
+                            </tr>
+                            <tr>
+                                <td>Fahrenheit a Kelvin</td>
+                                <td><Latex>{escalasConversionFive}</Latex></td>
+                            </tr>
+                            <tr>
+                                <td>Kelvin a Fahrenheit</td>
+                                <td><Latex>{escalasConversionSix}</Latex></td>
                             </tr>
                         </tbody>
                     </table>

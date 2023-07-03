@@ -10,6 +10,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.2.0",
     "js-quantities": "^1.7.6",
+    "mathjs": "^11.8.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-collapsed": "^4.0.2",

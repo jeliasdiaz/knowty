@@ -1,4 +1,5 @@
 export * from "./FirstChemistryPeriod"
+export * from "./ChemistryHistory"
 export * from "./FourthChemistryPeriod"
 export * from "./SecondChemistryPeriod"
 export * from "./ThirdChemistryPeriod"

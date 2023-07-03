@@ -18,7 +18,7 @@ import { CellCycle, Cells, ECells, Organelles, PCells } from "./pages/Biology/Ce
 import { BiologyMenu } from "./pages/Biology";
 
 //* Chemistry
-import { FirstChemistryPeriod, FourthChemistryPeriod, SecondChemistryPeriod, ThirdChemistryPeriod, ChemistryMenu } from "./pages/Chemistry";
+import { FirstChemistryPeriod, FourthChemistryPeriod, SecondChemistryPeriod, ThirdChemistryPeriod, ChemistryMenu, ChemistryHistory } from "./pages/Chemistry";
 
 //* English
 import { English, Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVerbs, PresentContinuous, PastContinuous, FutureContinuous } from "./pages/English";
@@ -126,6 +126,7 @@ function App() {
             <Route path="/organelos-celulares" element={ <Organelles />} />
 
             <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
+            <Route path="/historia-quimica" element={<ChemistryHistory />} />
             <Route path="/quimica_2" element={<SecondChemistryPeriod />} />
             <Route path="/quimica" element={<ThirdChemistryPeriod />} />
             <Route path="/quimica_4" element={<FourthChemistryPeriod />} />

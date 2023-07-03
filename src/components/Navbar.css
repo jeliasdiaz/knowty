@@ -72,7 +72,7 @@
 .HiMoon {
   transform: rotateZ(-5deg);
   transition: all 0.2s;
-  color: #1f1e1e;
+  color: #1f1e1e !important;
 }
 .HiSun:active,
 .HiMoon:active {
