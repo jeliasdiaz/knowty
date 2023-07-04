@@ -1,6 +1,5 @@
 import { useState } from "react"
 import { Graphic, SectionTitle, TopWave } from "../../components"
-import { useGraphicator } from "../../hooks"
 import Qty from "js-quantities"
 import { BsArrowRightShort } from "react-icons/bs"
 import { IoIosArrowDown } from "react-icons/io"
