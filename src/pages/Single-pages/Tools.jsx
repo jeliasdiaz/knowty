@@ -9,12 +9,6 @@ import PeriodicTable from "../../components/PeriodicTable"
 
 export const Tools = () => {
 
-    // Graphicator
-    const { graphicData, onInputX, onInputY, onFormSubmit } = useGraphicator()
-
-    const { onInputYOne, onInputYTwo, onInputYThree, onInputYFour, onInputYFive, onInputYSix } = onInputY
-    const { onInputXOne, onInputXTwo, onInputXThree, onInputXFour, onInputXFive, onInputXSix } = onInputX
-
     // Converter
     const [convertionResult, setConvertionResult] = useState(0)
     const [convertionInput, setConvertionInput] = useState(0)
@@ -85,32 +79,7 @@ export const Tools = () => {
             <div data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div className="subjectCard mb-5 ownShadow" >
                     <h3>Graficador</h3>
-                    <Graphic data={graphicData} />
-                    <form onSubmit={onFormSubmit}>
-                        <div className="numberInputContainer">
-                            <span className="mt-2">Y</span>
-                            <input type="number" className="numberInput ownShadow-sm" onInput={onInputYOne} />
-                            <input type="number" className="numberInput ownShadow-sm" onInput={onInputYTwo} />
-                            <input type="number" className="numberInput ownShadow-sm" onInput={onInputYThree} />
-                            <input type="number" className="numberInput ownShadow-sm" onInput={onInputYFour} />
-                            <input type="number" className="numberInput ownShadow-sm" onInput={onInputYFive} />
-                            <input type="number" className="numberInput ownShadow-sm" onInput={onInputYSix} />
-                        </div>
-
-                        <div className="numberInputContainer">
-                            <span className="mt-2">X</span>
-                            <input type="number" className="numberInput ownShadow-sm" onInput={onInputXOne} />
-                            <input type="number" className="numberInput ownShadow-sm" onInput={onInputXTwo} />
-                            <input type="number" className="numberInput ownShadow-sm" onInput={onInputXThree} />
-                            <input type="number" className="numberInput ownShadow-sm" onInput={onInputXFour} />
-                            <input type="number" className="numberInput ownShadow-sm" onInput={onInputXFive} />
-                            <input type="number" className="numberInput ownShadow-sm" onInput={onInputXSix} />
-                        </div>
-
-                        <div className="d-flex justify-content-center mt-3">
-                            <button type="submit" className="btn btn-outline-secondary">Enviar</button>
-                        </div>
-                    </form>
+                    <Graphic />
                 </div>
 
 
