@@ -7,7 +7,7 @@ body {
 }
 ion-content{
   &::part(scroll){
-    overscroll-behavior: none;
+    overscroll-behavior: none !important;
   }
 }
 ::selection {
