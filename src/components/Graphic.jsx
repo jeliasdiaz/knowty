@@ -1,53 +1,52 @@
 import { CartesianGrid, Line, LineChart, ReferenceLine, ResponsiveContainer, XAxis, YAxis } from "recharts";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import * as math from 'mathjs';
 import { RiSendPlane2Fill } from "react-icons/ri";
 
-
 const GraphicInput = ({ equation, numPoints }) => {
-  const data = [];
-  const parser = math.parser();
-
-  const variables = ['x', 'y', 'z'];
-
-  // Compila la ecuación una vez
-  parser.evaluate(`f(${variables.join(', ')}) = ${equation.toLowerCase()}`);
-
-  for (let i = -numPoints; i <= numPoints; i++) {
-    const values = {};
-
-    // Asigna el valor correspondiente a cada variable
-    for (let j = 0; j < variables.length; j++) {
-      values[variables[j]] = i;
-      parser.set(variables[j], values[variables[j]]);
+    const data = [];
+    const parser = math.parser();
+  
+    const variable = 'x';
+  
+    for (let i = -numPoints; i <= numPoints; i++) {
+      const value = i;
+      parser.set(variable, value);
+      const y = parser.evaluate(equation.toLowerCase());
+      data.push({ [variable]: value, y });
     }
-
-    const y = parser.evaluate(`f(${variables.join(', ')})`);
-    data.push({ [variables[0]]: values[variables[0]], y });
-  }
-
-  return data;
-};
-
-
+  
+    return data;
+  };
 
 export const Graphic = () => {
-    const [equationInput, setEquationInput] = useState('')
-    const [equationInputResult, setEquationInputResult] = useState('x')
-    const onSubmitForm = (e) => {
-        e.preventDefault()
-        if (equationInput.length > 0) {
-            setEquationInputResult(equationInput)
-        }
-    }
+    const [equationInput, setEquationInput] = useState('');
+    const [equationInputResult, setEquationInputResult] = useState('x');
+    const [dataGraphic, setDataGraphic] = useState([]);
+    const [error, setError] = useState('');
 
-    const dataGraphic = GraphicInput({ equation: equationInputResult, numPoints: 10 });
+    const onSubmitForm = (e) => {
+        e.preventDefault();
+        if (equationInput.length > 0) {
+            setEquationInputResult(equationInput);
+        }
+    };
+
+    useEffect(() => {
+        try {
+            const newData = GraphicInput({ equation: equationInputResult, numPoints: 10 });
+            setDataGraphic(newData);
+            setError(null);
+        } catch (err) {
+            setError(err);
+        }
+    }, [equationInputResult]);
 
     const minX = Math.min(...dataGraphic.map((d) => d.x));
-    const minY = Math.min(...dataGraphic.map((d) => d.y))
+    const minY = Math.min(...dataGraphic.map((d) => d.y));
+
     return (
         <>
-
             <ResponsiveContainer width="100%" height={500}>
                 <LineChart
                     width={500}
@@ -59,10 +58,8 @@ export const Graphic = () => {
                         bottom: 5,
                     }}
                     data={dataGraphic}
-
                 >
                     <CartesianGrid strokeDasharray="3 3" />
-
                     <YAxis
                         dataKey="y"
                         domain={['auto', 'auto']}
@@ -78,7 +75,6 @@ export const Graphic = () => {
                         allowDataOverflow={true}
                         strokeWidth={minX < 0 ? 0 : 1}
                     />
-
                     <XAxis
                         dataKey="x"
                         domain={['auto', 'auto']}
@@ -109,7 +105,6 @@ export const Graphic = () => {
                             strokeOpacity={0.65}
                         />
                     )}
-
                     <Line
                         strokeWidth={2}
                         data={dataGraphic}
@@ -125,7 +120,6 @@ export const Graphic = () => {
                         strokeWidth={1.5}
                         strokeOpacity={0.65}
                     />
-
                     <ReferenceLine
                         y={0}
                         stroke="gray"
@@ -134,13 +128,27 @@ export const Graphic = () => {
                     />
                 </LineChart>
             </ResponsiveContainer>
-            <form action="" onSubmit={onSubmitForm} className="d-flex justify-content-center mt-3">
-                <input type="text" className="numberInput w-50" onChange={(e) => setEquationInput(e.target.value)} />
-                <button type="submit" className="ms-2" style={{border: "none", backgroundColor: "#bfdfed", borderRadius: "10px", transition: "ransform 0.2s, background-color 0.2s"}} >
-                <RiSendPlane2Fill size={30} color="#2b7ea1" style={{ cursor: 'pointer' }}/>
-                </button>
-
+            <form action="" onSubmit={onSubmitForm} >
+                <div className="d-flex justify-content-center mt-3">
+                    <input
+                        type="text"
+                        className="numberInput w-50"
+                        onChange={function (e) { setEquationInput(e.target.value); setError('') }}
+                        style={error ? { outline: "1px solid #f56565" } : {}}
+                        placeholder="Escribe tu ecuación"
+                    />
+                    <button type="submit" className="ms-2" style={{ border: "none", backgroundColor: "#bfdfed", borderRadius: "10px", transition: "ransform 0.2s, background-color 0.2s" }} >
+                        <RiSendPlane2Fill size={30} color="#2b7ea1" style={{ cursor: 'pointer' }} />
+                    </button>
+                </div>
+                {error &&
+                    <div class="w-50 p-1 mt-1 pe-5 mx-auto">
+                        <span style={{ color: "#f56565", fontSize: "13px" }}>{error.message}</span>
+                    </div>
+                }
             </form>
+
+
         </>
     );
-}
+};

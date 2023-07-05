@@ -31,7 +31,7 @@
   color: #fff;
 }
 ::placeholder {
-  color: rgb(32, 32, 32);
+  color: rgb(92, 92, 92);
   transition: 150ms;
 }
 .input:focus::placeholder {

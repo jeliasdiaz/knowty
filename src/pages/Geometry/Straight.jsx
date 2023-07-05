@@ -37,7 +37,7 @@ export const Straight = () => {
                 </div>
 
                 <div>
-                    <h3>Inclinación y pendiente</h3>
+                    <h3>Inclinación</h3>
                     <Latex>{inclinacionPendiente}</Latex>
                     <hr />
                 </div>

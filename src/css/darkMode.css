@@ -70,6 +70,9 @@
   background-color: #28292a;
   color: #e3e3e3;
 }
+.dark .numberInput {
+  background: #c0deeb  !important;
+}
 .dark .englishLink, .dark .englishSubtitle {
   color: #e3e3e3;
 }
