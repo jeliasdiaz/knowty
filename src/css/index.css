@@ -4,7 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
-  overscroll-behavior: none
+  overscroll-behavior: none;
 }
 
 ::selection {
