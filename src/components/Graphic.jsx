@@ -11,7 +11,7 @@ const GraphicInput = ({ equation, numPoints }) => {
   const variables = ['x', 'y', 'z'];
 
   // Compila la ecuación una vez
-  parser.evaluate(`f(${variables.join(', ')}) = ${equation}`);
+  parser.evaluate(`f(${variables.join(', ')}) = ${equation.toLowerCase()}`);
 
   for (let i = -numPoints; i <= numPoints; i++) {
     const values = {};
