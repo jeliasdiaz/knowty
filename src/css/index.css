@@ -6,7 +6,7 @@ body {
   scroll-behavior: smooth;
 }
 html {
-  overscroll-behavior-y: contain;
+  overscroll-behavior: none;
 }
 ::selection {
   background-color: #bfdfed;
