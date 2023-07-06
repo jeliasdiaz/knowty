@@ -33,6 +33,7 @@
 ::placeholder {
   color: rgb(92, 92, 92);
   transition: 150ms;
+  font-size: 14px;
 }
 .input:focus::placeholder {
   color: gray;

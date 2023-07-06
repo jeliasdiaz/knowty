@@ -26,7 +26,7 @@ export const MenuCard = ({ url, img, title, imgSize }) => {
         <Link to={url} className="link-secondary text-decoration-none text-dark" onClick={handleClick}>
             <div className="subjectLinkMenu ownShadow" data-aos="fade-up" data-aos-duration="1000" onClick={transitionPage}>
                 <div className="subjectLinkMenuContent">
-                    <img src={`/img/${img}`} alt="subject img" className={`${ imgSize ? imgSize : 'w-25'} pe-2`} />
+                    <img src={`/img/${img}`} alt="subject img" className={`${ imgSize ? imgSize : 'w-25'} pe-2`} loading="lazy"/>
                     <h4>{title}</h4>
                 </div>
             </div>
