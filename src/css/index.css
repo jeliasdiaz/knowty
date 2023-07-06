@@ -5,10 +5,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
-ion-content{
-  &::part(scroll){
-    overscroll-behavior: none !important;
-  }
+html {
+  overscroll-behavior: none;
 }
 ::selection {
   background-color: #bfdfed;
