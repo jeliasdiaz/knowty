@@ -25,6 +25,7 @@
 /** Title subject  */
 .titleSubject{
   padding: 0.7em;
+  margin-top: 5%;
   background: white;
   border-radius: 10px;
 }
@@ -116,9 +117,13 @@
   .backHoverColor {
     color: black;
   }
+
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 410px) {
   .navbar-brand {
     width: 30%;
+  }
+  .titleSubject {
+    max-width: 7rem;
   }
 }
