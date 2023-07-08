@@ -1,5 +1,5 @@
 import data from "../data/PeriodicTableJSON.json";
-import "./PeriodicTable.css";
+import "../css/PeriodicTable.css";
 import { useContext, useEffect, useRef, useState } from "react";
 import { PeriodicElement } from "./PeriodicElement";
 import { ElementActive } from "./ElementActive";

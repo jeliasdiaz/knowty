@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./Footer.css"
+import "../css/Footer.css"
 import { MembersCard } from "./";
 import { AiFillYoutube, AiFillInstagram } from "react-icons/ai";
 import { BsMegaphoneFill } from "react-icons/bs";

@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
-import "./Navbar.css";
+import "../css/Navbar.css";
 import { useToggleNavbar, useToggleTheme } from "../hooks/";
 import { NavIcon } from "./NavIcon";
 import { AiFillHome } from "react-icons/ai";
