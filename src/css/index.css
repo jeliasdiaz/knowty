@@ -464,8 +464,8 @@ input[type="radio"]:checked + span:before {
   border-radius: 12px;
   padding: 1em;
   align-items:center !important;
-  border: solid 1px;
-  border-color: gray;
+  border: solid 2px;
+  border-color: #3f97bd;
 }
 .scoreChartColor {
   color: green;

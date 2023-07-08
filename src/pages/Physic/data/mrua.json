@@ -1,0 +1,24 @@
+[
+  {
+    "content": "Alice está muy apresurada debido a que, la tienda de vestidos va a cerrar. Ella se encuentra a 2 minutos de la tienda, al comienzo del recorrido, tenía una velocidad de 5 km/h, y al final una de 15 km/h al llegar a la tienda. Calcule la aceleración que tenía Alice.",
+    "process": "$$ \\text{1.Conversión de unidades} \\\\ \\small 12min = 120s \\\\ 5km/h = 1.38m/s \\\\ 15km/h = 4.16m/s \\\\ \\allowbreak \\newline \\normalsize \\text{2. Aplicar la fórmula} \\\\ a =  \\large \\frac{(v_f \\ - \\ v_i)}{t} \\\\ \\allowbreak \\newline a =  \\large \\frac{(4.16m/s \\ - \\ 1.38m/s)}{120s} \\\\ \\allowbreak \\newline a = \\small 0.023m/s$$",
+    "options": {
+      "a": "0.03m/s",
+      "b": "0.025m/s",
+      "c": "0.023m/s",
+      "d": "0.2m/s"
+    },
+    "answer": "0.023m/s"
+  },
+  {
+    "content": "Un chico en una competencia de ciclismo, debe recorrer 100m lo más rápido que pueda, para esto, pedalea lo mejor que puede y con una aceleración de 4m/s cruza la meta. Su rival Mateo demoró 7 segundos en llegar, así que el amigo del chico que no vio la competición desea calcular el tiempo de su amigo para saber quién llegó primero.",
+    "process": "$$100 = \\large t + \\frac{1}{2}*4*t^2 \\\\ \\allowbreak \\newline \\normalsize 2t^2+ t -100 = 0 \\\\ \\allowbreak \\newline 15km/h = 4.16m/s \\\\ \\allowbreak \\newline t = \\frac{-1 + -\\sqrt{1 - 4 (2)(-100)}}{2 \\cdot 2} \\\\ \\allowbreak \\newline  t= \\frac{-1 + - 3\\sqrt{89}}{4} \\\\ \\allowbreak \\newline \\normalsize \\text{El tiempo no puede ser negativo, entonces se toma el resultado positivo} \\\\ t= \\frac{-1+3\\sqrt{89}}{4} \\\\ t = 6,82s$$",
+    "options": {
+      "a": "6.82s",
+      "b": "6s",
+      "c": "5.82s",
+      "d": "12s"
+    },
+    "answer": "6.82s"
+  }
+]

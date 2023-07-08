@@ -3,13 +3,6 @@ import Latex from "react-latex"
 
 
 export const PhysicPractice = () => {
-    const mruaOne = `$$\\small  12min = 120seg$$`
-    const mruaTwo = `$$\\small 5km/h = 1.38m/s$$`
-    const mruaThree = `$$\\small 15km/h = 4.16m/s$$`
-    const mruaFour = `$$a =  \\large \\frac{(v_f \\ - \\ v_i)}{t}$$`
-    const mruaFive = `$$a =  \\large \\frac{(4.16m/s \\ - \\ 1.38m/s)}{120s}$$`
-    const mruaSix = `$$a = \\small 0.023m/s$$`
-
     const caidaLibreOne = `$$t = \\large \\sqrt{\\frac{2h}{g}}$$`
     const caidaLibreTwo = `$$t = \\large \\sqrt{\\frac{2(12m)}{9.8m/s^2}}$$`
     const caidaLibreThree = `$$t = \\small 1.56seg$$`
@@ -95,52 +88,19 @@ export const PhysicPractice = () => {
 
 
     return (
-        <div className='homeCard'>
+        <div className="homeCard">
             <TopWave />
             <SectionTitle title="Practica" />
 
-            <div className="mobileSubjectMenu">
+            <div className="mobileSubjectMenu"> 
                 <MenuCard url="/vectores-practica" img="knowty.png" title="Vectores" />
 
-                <MenuCard url="/mru-practica" img="knowty.png" title="Mru" />
+                <MenuCard url="/mru-practica" img="knowty.png" title="M.R.U" />
+
+                <MenuCard url="/mrua-practica" img="knowty.png" title="M.R.U.A." />
             </div>
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
-
-                <div>
-                    <h3>M.R.U.A.</h3>
-                    <p>Alice está muy apresurada debido a que, la tienda de vestidos va a cerrar. Ella se encuentra a 2 minutos de la tienda, al comienzo del recorrido, tenía una velocidad de 5 km/h, y al final una de 15 km/h al llegar a la tienda. Calcule la aceleración de Alice.</p>
-
-                    <p>
-                        <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#mrua">
-                            Solución
-                        </button>
-                    </p>
-
-                    <div className="collapse" id="mrua">
-                        <Latex>
-                            {mruaOne}
-                        </Latex><br />
-                        <Latex>
-                            {mruaTwo}
-                        </Latex><br />
-                        <Latex>
-                            {mruaThree}
-                        </Latex><br /><br />
-                        <Latex>
-                            {mruaFour}
-                        </Latex><br /><br />
-                        <Latex>
-                            {mruaFive}
-                        </Latex><br /><br />
-                        <Latex>
-                            {mruaSix}
-                        </Latex>
-                    </div>
-                </div>
-
-
-                <hr />
                 <div>
                     <h3>Caída libre</h3>
                     <p>Desde un cuarto piso cae una maceta, teniendo ello en cuenta, calcule la velocidad con la que llegará al piso y el tiempo que tardará en caer. Considere g = 9.8m/s y h = 12m.

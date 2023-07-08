@@ -1,11 +1,11 @@
 import React from "react";
 import Latex from "react-latex";
 import { useControlObjects } from '../../../helpers/controlObjects';
-import mru from "../data/mru";
+import mrua from "../data/mrua";
 import { BsBarChartFill } from "react-icons/bs";
 import { SectionTitle, TopWave } from "../../../components";
 
-export const MruPractice = () => {
+export const MruaPractice = () => {
     const {
         nextObject,
         previousObject,
@@ -22,9 +22,9 @@ export const MruPractice = () => {
         showSolution,
         restartExercises,
         colorChart,
-    } = useControlObjects(mru, "mru");
+    } = useControlObjects(mrua, "mrua");
 
-    const { content, options, process } = mru[currentObject.mru];
+    const { content, options, process } = mrua[currentObject.mrua];
 
     const renderOptions = () => {
         return Object.keys(options).map((key) => (
@@ -57,7 +57,7 @@ export const MruPractice = () => {
     };
 
     const renderProcess = () => {
-        if (showProcess.mru) {
+        if (showProcess.mrua) {
             return (
                 <div className="mt-2">
                     <Latex>{process}</Latex>
@@ -67,8 +67,6 @@ export const MruPractice = () => {
         return null;
     };
 
-
-    
     const renderScoreboard = () => {
         if (showScoreboard) {
             return (
@@ -77,7 +75,7 @@ export const MruPractice = () => {
                     <div className="scoreboardCard">
                         <p className="me-auto mt-0 mb-0">Puntaje</p>
                         <p className="mt-0 mb-0 pt-1">{scoreResult}%</p>
-                        <span><BsBarChartFill size={20} style={{color: colorChart}} /></span>
+                        <span><BsBarChartFill size={20} style={{ color: colorChart }}/></span>
                     </div>
                     <br />
                     <button className="btn btn-outline-secondary" onClick={restartExercises}>Regresar</button>
@@ -88,9 +86,9 @@ export const MruPractice = () => {
     return (
         <div className="homeCard">
             <TopWave />
-            <SectionTitle title="Práctica M.R.U." />
+            <SectionTitle title="Práctica M.R.U.A." />
 
-            <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+            <div className="subjectCard ownShadow">
                 {
                     showScoreboard
                         ? renderScoreboard()

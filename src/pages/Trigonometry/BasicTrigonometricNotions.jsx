@@ -1,7 +1,7 @@
 import Latex from "react-latex"
-import { SectionTitle, CollapseInformation, MoreBtn, TopWave } from "../../components/";
+import { SectionTitle, CollapseInformation, MoreBtn, TopWave } from "../../components";
 
-export const SecondTrigonometryPeriod = () => {
+export const BasicTrigonometricNotions = () => {
 
     const pitagorasOne = `$$c^2 = a^2 + b^2$$`
     const pitagorasTwo = `$$c = \\sqrt{a^2 + b^2}$$`
@@ -41,17 +41,16 @@ export const SecondTrigonometryPeriod = () => {
     return (
         <div className="homeCard">
             <TopWave />
-            <SectionTitle title="Trigonometría" />
+            <SectionTitle title="Nociones básicas" />
 
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div>
-                    <div>
                         <CollapseInformation name="Clasificación de triángulos" id="clasificacionTriangulos" >
                             <div className="d-flex flex-wrap">
 
 
-                                <div className="d-flex justify-content-between">
+                                <div className="d-flex justify-content-between w-100">
                                     <div>
                                         <img src="/img/trianguloEquilatero.svg" alt="Triangulo equilatero" className="w-50 rounded-3" />
                                         <h5 className="pt-2">Equilatero</h5>
@@ -109,9 +108,8 @@ export const SecondTrigonometryPeriod = () => {
                                 </ul>
                             </div>
                         </CollapseInformation>
-                    </div>
                     <hr />
-                    <div>
+    
                         <CollapseInformation name="Teorema de Pitágoras" id="teoremaPitagoras" >
                             <p>Es una regla matemática que se aplica a los triángulos rectángulos. Dicho de otra manera, si tienes un triángulo con un ángulo recto (triángulo rectángulo), esta ley te ayudará a calcular la medida de cualquiera de sus tres lados, siempre y cuando ya sepas la medida de los otros dos.</p>
                             <Latex>{pitagorasOne}</Latex>
@@ -154,7 +152,7 @@ export const SecondTrigonometryPeriod = () => {
                                 </tbody>
                             </table>
                         </CollapseInformation>
-                    </div>
+
                     <hr />
                     <div>
                         <CollapseInformation name="Razones trigonométricas" id="razonesTrigonometricas">

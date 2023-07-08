@@ -12,7 +12,7 @@
     "answer": "12.11N"
   },
   {
-    "content": "Calcule la suma y dirección de los vectores A y B conociendo los siguientes datos:",
+    "content": "Calcule la suma y dirección de los vectores A y B teniendo en cuenta la siguiente imagen.",
     "img": "/img/vectoresPracticaDosImg.svg",
     "process": "$$ \\text{1. Hallamos sus componente en x y y} \\\\ A_x = \\small 44N \\ \\cdot \\ cos(30) = 38.10N \\\\ A_y = \\small 44N \\ \\cdot \\ sen(30) = 22N \\\\ B_x = \\small 20N \\ \\cdot \\ cos(40) = 15.32N \\\\ B_y = \\small 20N \\ \\cdot \\ sen(40) = 12.85N \\\\ \\allowbreak \\newline \\text{2. Nuevo vector C, resultado de la suma de los vectores A y B} \\\\ C_x = \\small 38.10N + 15.32N = 53.42N \\\\ C_y = \\small 22N + 12.85N = 34.85N \\\\ C  = \\small \\sqrt{(53.42N)^2 + (34.85N)^2} = 63.78N \\\\ \\allowbreak \\newline \\text{3. Cálculo dirección.} \\\\ tan^{-1}(\\frac{34.85}{53.42}) = \\small 33.11°$$",
     "options": {

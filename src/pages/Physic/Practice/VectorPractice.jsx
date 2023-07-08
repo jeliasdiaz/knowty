@@ -20,7 +20,8 @@ export const VectorPractice = () => {
         showScoreboard,
         scoreResult,
         showSolution,
-        restartExercises
+        restartExercises,
+        colorChart,
     } = useControlObjects(vectores, "vectores");
 
     const { content, img, options, process } = vectores[currentObject.vectores];
@@ -74,7 +75,7 @@ export const VectorPractice = () => {
                     <div className="scoreboardCard">
                         <p className="me-auto mt-0 mb-0">Puntaje</p>
                         <p className="mt-0 pt-1 mb-0">{scoreResult}%</p>
-                        <span><BsBarChartFill size={20} className="scoreChartColor" /></span>
+                        <span><BsBarChartFill size={20} style={{color: colorChart}} /></span>
                     </div>
                     <br />
                     <button className="btn btn-outline-secondary" onClick={restartExercises}>Regresar</button>
@@ -87,10 +88,8 @@ export const VectorPractice = () => {
         <div className="homeCard">
             <TopWave />
             <SectionTitle title="Práctica vectores" />
-            <div className="subjectCard ownShadow">
-
-                <h2>Vectores</h2>
-
+            
+            <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 {
                     showScoreboard
                         ? renderScoreboard()

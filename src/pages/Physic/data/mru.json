@@ -1,15 +1,7 @@
 [
   {
     "content": "Albert pasea en su patineta a velocidad constante y en línea recta a 12 km/h. Albert, desea recorrer la distancia de su hogar a su colegio, la cuál es de 70 metros. Calculé el tiempo requerido para que Albert llegue a su escuela.",
-    "process": {
-      "stepOne": "Conversión de unidades",
-      "stepTwo": "Aplicación de la fórmula",
-      "stepThree": "3. Cálculo dirección",
-      "mruOne": "$$ \\small 12km/h = 3.33m/s$$",
-      "mruTwo": "$$t = \\large \\frac{distancia}{velocidad}$$",
-      "mruThree": "$$t = \\large \\frac{70m}{3.33m/s}$$",
-      "mruFour": "$$t = \\small 21.62seg$$"
-    },
+    "process": "$$ \\text{1.Conversión de unidades} \\\\ \\small 12km/h = 3.33m/s \\\\ \\allowbreak \\newline \\normalsize \\text{2. Aplicar la fórmula} \\\\ t = \\large \\frac{distancia}{velocidad} \\\\ \\allowbreak \\newline t = \\large \\frac{70m}{3.33m/s} \\\\ \\allowbreak \\newline t = \\small 21.62seg $$",
     "options": {
       "a": "62.12seg",
       "b": "22.26seg",
@@ -17,5 +9,27 @@
       "d": "21.62seg"
     },
     "answer": "21.62seg"
+  },
+  {
+    "content": "Imagina que estás corriendo en una pista de atletismo. Lo haces en línea recta y a una velocidad constante de 8 metros por segundo durante 1 minuto. ¿Cuál es la distancia total recorrida?",
+    "process": "$$ \\text{1.Conversión de unidades} \\\\ \\small 1 min = 60s \\\\ \\allowbreak \\newline \\normalsize \\text{2. Aplicar la fórmula} \\\\ x = v \\cdot t \\\\ \\allowbreak \\newline x = 8m/s \\cdot 60s \\\\ \\allowbreak \\newline x = 480m$$",
+    "options": {
+      "a": "480m",
+      "b": "420m",
+      "c": "60m",
+      "d": "500m"
+    },
+    "answer": "480m"
+  },
+  {
+    "content": "Si montas en bicicleta a una velocidad constante de 15 kilómetros por hora, ¿cuántos minutos te tomará recorrer una distancia de 7.5 kilómetros?",
+    "process": "$$ \\text{1.Aplicar la fórmula} \\\\ t = \\large \\frac{x}{v} \\\\ \\allowbreak \\newline t = \\large \\frac{7.5km}{15km/h} \\\\ t = \\small 0.5h \\\\ \\allowbreak \\newline \\normalsize \\text{2. Conversión de unidades} \\\\ \\small 0.5h = 30 min $$",
+    "options": {
+      "a": "25 min",
+      "b": "20 min",
+      "c": "32 min",
+      "d": "30 min"
+    },
+    "answer": "30 min"
   }
 ]

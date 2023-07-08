@@ -6,7 +6,7 @@ export const PeriodicElement = ({ element, colorMap }) => {
   const { onPeriodicProperties, activeCategory} = useContext(periodicContext);
 
   const onCliked = () => {
-    onPeriodicProperties(element.name, element.number, element.summary, element.symbol, element.atomic_mass, element.electronegativity_pauling);
+    onPeriodicProperties(element.name, element.number, element.summary, element.symbol, element.atomic_mass, element.electronegativity_pauling, element.electron_configuration);
   };
 
   const { category } = element;

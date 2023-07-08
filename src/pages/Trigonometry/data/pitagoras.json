@@ -1,19 +1,15 @@
 [
     {
       "content": "Calcular la altura que podríamos alcanzar con una escalera de 2.5 metros apoyada sobre la pared, si la parte inferior la situamos a 50 centímetros de esta.",
-      "img": "/img/pitagorasTwo.svg",
-      "process": {
-        "stepOne": "El primer paso es interpretar de manera correcta la situación y hacerse una imagen mental. En segundo lugar, notamos que una de las medidas se encuentra en centímetros y la otra en metros. Debido a esto, debemos convertirlas a una misma unidad, en este caso a metros. ",
-        "imgOne": "/img/pitagorasThree.svg",
-        "stepTwo": "Recordemos que la suma de los catetos al cuadrado es igual al cuadrado de la hipotenusa, en este caso desconocemos uno de los catetos, por lo que debemos alterar la ecuación.$$\\\\$$ La ecuación pasará de $$a^2 + b^2 = c^2$$ $$\\rightarrow$$ $$c^2 - b^2 = a^2.$$"
-      },
+      "img": "/img/pitagorasPracticeOne.png",
+      "process": "$$ \\text{1.Conversión de unidades} \\\\ \\small 2.5m = 2.5m \\\\ 50cm = 0.5m \\allowbreak \\newline \\normalsize  \\\\ \\allowbreak \\newline  \\normalsize \\text{La ecuación pasará de} \\\\ a^2 + b^2 = c^2 \\rightarrow c^2 - b^2 = a^2 \\\\ \\allowbreak \\newline \\text{Para hallar el cateto que falta, reemplazamos.} \\\\ \\allowbreak \\newline \\normalsize (2.5m)^2 - (0.5m)^2 = a^2 \\\\ 6.25m - 0.25m = a^2 \\\\ \\sqrt{6m} = a \\\\ 2.4m  = a$$",
       "options": {
-        "a": "12.11N",
-        "b": "9.12N",
-        "c": "7.98N",
-        "d": "15.48N"
+        "a": "3m",
+        "b": "2.4m",
+        "c": "5m",
+        "d": "2.8m"
       },
-      "answer": "12.11N"
+      "answer": "2.4m"
     }
   ]
   

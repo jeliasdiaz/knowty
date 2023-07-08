@@ -6,8 +6,10 @@ export const TrigonometryMenu = () => {
       <section className="mobileMenu">
         <TopWave />
         <div className="mobileSubjectMenu">
-          <MenuCard url="/trigonometria_2" img="trigonometriaIcon.png" title="II periodo" />
-          <MenuCard url="/trigonometria" img="trigonometriaIcon.png" title="III periodo" />
+          <MenuCard url="/nociones-basicas-trigonometria" img="trigonometriaIcon.png" title="Nociones básicas" />
+          <MenuCard url="/angulos-y-sus-propiedades" img="trigonometriaIcon.png" title="Ángulos y propiedades" />
+          <MenuCard url="/teorema-seno" img="trigonometriaIcon.png" title="Teorema del Seno" />
+          <MenuCard url="/teorema-coseno" img="trigonometriaIcon.png" title="Teorema del Coseno" />
           <MenuCard url="/trigonometria-practica" img="trigonometriaIcon.png" title="Practica" />
         </div>
       </section>

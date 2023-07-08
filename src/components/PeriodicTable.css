@@ -62,7 +62,7 @@
     top: 1em;
     left: 1em;
 }
-.elementActive .numberTwo {
+.elementActive .atomicMass {
     font-size: 12px;
     position: absolute;
     top: 1em;
@@ -79,6 +79,12 @@
     position: absolute;
     bottom: 1em;
     left: 1em;
+}
+.elementActive .electronConfiguration {
+    font-size: 12px;
+    position: absolute;
+    top: 1em;
+    left: 3em;
 }
 .elementActive img {
     width: 3em;

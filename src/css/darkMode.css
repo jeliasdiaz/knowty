@@ -77,11 +77,9 @@
   color: #e3e3e3;
 }
 .dark .scoreboardCard {
-  border-color: #414344;
+  border-color: #2b7ea1;
 }
-.dark .scoreChartColor {
-  color: lightgreen;
-}
+
 .dark .mobileMenu {
   background-color: #121212;
   transition: all 0.5s;

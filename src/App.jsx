@@ -24,16 +24,16 @@ import { FirstChemistryPeriod, FourthChemistryPeriod, SecondChemistryPeriod, Thi
 import { English, Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVerbs, PresentContinuous, PastContinuous, FutureContinuous } from "./pages/English";
 
 //* Geometry
-import { Circumference, Straight, Ellipse, Parable, GeometryMenu } from "./pages/Geometry";
+import { Circumference, Straight, Ellipse, Parable, GeometryMenu, Triangle, ConicSections } from "./pages/Geometry";
 
 //* Pyshic
-import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu, VectorPractice, MruPractice } from "./pages/Physic/";
+import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu, VectorPractice, MruPractice, MruaPractice } from "./pages/Physic/";
 
 //* Social
 import { FirstSocialPeriod, EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu, ExtraSocial } from "./pages/Social/";
 
 //* Trigonometry
-import { ThirdTrigonometryPeriod, SecondTrigonometryPeriod, TrigonometryMenu, TrigonometryPractice } from "./pages/Trigonometry/";
+import { AnglesAndProperties, BasicTrigonometricNotions, TrigonometryMenu, TrigonometryPractice, SinTheorem, CosTheorem } from "./pages/Trigonometry/";
 
 //* Philosophy
 import { ClassicPhilosophers, PhilosophyMenu, IntroductionPhilosophy } from "./pages/Philosophy/";
@@ -142,6 +142,8 @@ function App() {
             <Route path="modal-verbs" element={<ModalVerbs />}/>
 
             <Route path="/recta" element={<Straight />} />
+            <Route path="/triangulos" element={<Triangle />} />
+            <Route path="/secciones-conicas" element={<ConicSections />} />
             <Route path="/circunferencia" element={<Circumference />} />
             <Route path="/parabola" element={<Parable />} />
             <Route path="/elipse" element={<Ellipse />} />
@@ -153,6 +155,7 @@ function App() {
             <Route path="/mecanica-fluidos" element={<FluidMechanics />} />
             <Route  path="/vectores-practica" element={<VectorPractice/>} />
             <Route  path="/mru-practica" element={<MruPractice/>} />
+            <Route  path="/mrua-practica" element={<MruaPractice/>} />
 
             <Route path="/sociales_1" element={<FirstSocialPeriod />} />
             <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />
@@ -165,8 +168,10 @@ function App() {
             <Route path="/medidas-localizacion" element={<LocalizationMeasures />} />
             <Route path="/medidas-dispersion" element={<DispersionMeasures />} />
 
-            <Route path="/trigonometria_2" element={<SecondTrigonometryPeriod />} />
-            <Route path="/trigonometria" element={<ThirdTrigonometryPeriod />} />
+            <Route path="/nociones-basicas-trigonometria" element={<BasicTrigonometricNotions />} />
+            <Route path="/angulos-y-sus-propiedades" element={<AnglesAndProperties />} />
+            <Route path="/teorema-seno" element={<SinTheorem />} />
+            <Route path="/teorema-coseno" element={<CosTheorem />} />
 
             <Route path="/biologia-menu" element={<BiologyMenu />} />
             <Route path="/fisica-menu" element={<PhysicMenu />} />

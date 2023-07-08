@@ -18,7 +18,8 @@ export const PitagorasPractice = () => {
         showScoreboard,
         scoreResult,
         showSolution,
-        restartExercises
+        restartExercises,
+        colorChart,
     } = useControlObjects(pitagoras, "pitagoras");
 
     const { content, img, options, process } = pitagoras[currentObject.pitagoras];
@@ -57,14 +58,8 @@ export const PitagorasPractice = () => {
     const renderProcess = () => {
         if (showProcess.pitagoras) {
             return (
-                <div >
-                    <Latex displayMode={true}>{process?.stepOne}</Latex>
-                    <br />
-                    <br />
-                    <img src={process?.imgOne} alt="Teorema pitagoras" className='rounded-3' />
-                    <br />
-                    <br />
-                    <Latex>{process?.stepTwo}</Latex>
+                <div className="mt-2">
+                    <Latex>{process}</Latex>
                 </div>
             );
         }
@@ -79,7 +74,7 @@ export const PitagorasPractice = () => {
                     <div className="scoreboardCard">
                         <p className="me-auto mt-0 mb-0">Puntaje</p>
                         <p className="mt-0 pt-1 mb-0">{scoreResult}%</p>
-                        <span><BsBarChartFill size={20} className="scoreChartColor" /></span>
+                        <span><BsBarChartFill size={20} style={{color: colorChart}} /></span>
                     </div>
                     <br />
                     <button className="btn btn-outline-secondary" onClick={restartExercises}>Regresar</button>
@@ -88,9 +83,7 @@ export const PitagorasPractice = () => {
         }
     }
     return (
-        <div className="subjectCard ownShadow">
-            <h2>Teorema de pitágoras</h2>
-
+        <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
             {
                 showScoreboard
                     ? renderScoreboard()
@@ -100,7 +93,7 @@ export const PitagorasPractice = () => {
                             <span>{content}</span>
                             <br />
                             <br />
-                            <img src={img} className="img-fluid rounded" alt="" />
+                            <img src={img} className="img-fluid rounded w-75" alt="" />
                             <br /><br />
                             <div>
                                 {renderOptions()}
