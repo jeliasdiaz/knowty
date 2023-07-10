@@ -4,9 +4,10 @@ import PropTypes from 'prop-types'
 export const useControlObjects = (data, type) => {
   // Estado para el objeto actual
   const [currentObject, setCurrentObject] = useState({
-    vectores: 0,
+    vector: 0,
     mru: 0,
     mrua: 0,
+    freeFall: 0,
     pitagoras: 0
   })
 
@@ -15,6 +16,7 @@ export const useControlObjects = (data, type) => {
     vectores: false,
     mru: false,
     mrua: false,
+    freeFall: false,
     pitagoras: false
   });
 
@@ -30,8 +32,19 @@ export const useControlObjects = (data, type) => {
   // Estado para mostrar la solución
   const [showSolution, setShowSolution] = useState(false)
 
+  // Estado para la opción seleccionada
+  const [selectedOption, setSelectedOption] = useState(0);
+
+  // Estado para el número de respuestas correctas
+  const [correctOptions, setCorrectOptions] = useState(0)
+
   // Función para pasar al siguiente objeto
   const nextObject = () => {
+    const isAnswerCorrect = selectedOption === data[currentObject[type]].answer;
+    if(isAnswerCorrect){
+      setCorrectOptions(correctOptions + 1)
+    }
+
     if (currentObject[type] < data.length - 1) {
       setCurrentObject({ ...currentObject, [type]: currentObject[type] + 1 });
       setShowSolution(false);
@@ -68,9 +81,6 @@ export const useControlObjects = (data, type) => {
     setShowProcess({ ...showProcess, [type]: !showProcess[type] });
   };
 
-  // Estado para la opción seleccionada
-  const [selectedOption, setSelectedOption] = useState(0);
-
   // Manejador de cambio de opción seleccionada
   const handleOptionChange = (event) => {
     setSelectedOption(event.target.value);
@@ -99,8 +109,6 @@ export const useControlObjects = (data, type) => {
     setCorrectOptions(0)
   };
 
-  // Estado para el número de respuestas correctas
-  const [correctOptions, setCorrectOptions] = useState(0)
 
   // Calcular el resultado del puntaje
   const scoreResult = (correctOptions / data.length * 100).toFixed(2)

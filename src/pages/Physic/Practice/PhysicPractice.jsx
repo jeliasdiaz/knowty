@@ -3,12 +3,6 @@ import Latex from "react-latex"
 
 
 export const PhysicPractice = () => {
-    const caidaLibreOne = `$$t = \\large \\sqrt{\\frac{2h}{g}}$$`
-    const caidaLibreTwo = `$$t = \\large \\sqrt{\\frac{2(12m)}{9.8m/s^2}}$$`
-    const caidaLibreThree = `$$t = \\small 1.56seg$$`
-    const caidaLibreFour = `$$v_f = \\small 0 - 9.8m/s^2 \\ \\cdot \\ 1.56seg$$`
-    const caidaLibreFive = `$$v_f =\\small - 15.288m/s$$`
-
     const tiroVerticalOne = `$$h_{max} =  \\large \\frac{(27m/s)^2}{2 \\ \\cdot \\ 9.8m/s^2}$$`
     const tiroVerticalTwo = `$$h_{max} = \\small 37.19m$$`
     const tiroVerticalThree = `$$y = \\small y_0 + v_0 \\ \\cdot \\ t - \\frac{1}{2} \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ 3seg^2$$`
@@ -93,49 +87,16 @@ export const PhysicPractice = () => {
             <SectionTitle title="Practica" />
 
             <div className="mobileSubjectMenu"> 
-                <MenuCard url="/vectores-practica" img="knowty.png" title="Vectores" />
+                <MenuCard url="/vectores-practica" img="fisicaIcon.png" title="Vectores" />
 
-                <MenuCard url="/mru-practica" img="knowty.png" title="M.R.U" />
+                <MenuCard url="/mru-practica" img="fisicaIcon.png" title="M.R.U" />
 
-                <MenuCard url="/mrua-practica" img="knowty.png" title="M.R.U.A." />
+                <MenuCard url="/mrua-practica" img="fisicaIcon.png" title="M.R.U.A." />
+                <MenuCard url="/caida-libre-practica" img="fisicaIcon.png" title="Caída libre" />
             </div>
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
-                <div>
-                    <h3>Caída libre</h3>
-                    <p>Desde un cuarto piso cae una maceta, teniendo ello en cuenta, calcule la velocidad con la que llegará al piso y el tiempo que tardará en caer. Considere g = 9.8m/s y h = 12m.
-                    </p>
 
-                    <p>
-                        <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#caidaLibre">
-                            Solución
-                        </button>
-                    </p>
-
-                    <div className="collapse" id="caidaLibre">
-                        <span>Tiempo que tardará en caer</span><br />
-                        <Latex>
-                            {caidaLibreOne}
-                        </Latex><br /><br />
-                        <Latex>
-                            {caidaLibreTwo}
-                        </Latex><br /><br />
-                        <Latex>
-                            {caidaLibreThree}
-                        </Latex><br /><br />
-                        <span>Velocidad al llegar</span><br />
-                        <Latex>
-                            {caidaLibreFour}
-                        </Latex><br />
-                        <Latex>
-                            {caidaLibreFive}
-                        </Latex><br /><br />
-                        <small>Nota: La velocidad tiene resultado negativo, debido a que en el sistema de referencia planteado encontraremos que el vector velocidad se dirige hacia el eje negativo de las <i>Y</i>, por ende el resultado de esta será negativa. Esto no significa que disminuya la velocidad.</small>
-                    </div>
-                </div>
-
-
-                <hr />
                 <div>
                     <h3>Tiro vertical</h3>
                     <p>Albert lanza hacia arriba una pelota con una velocidad inicial de 27 m/s. A partir de esto, calcule la altura máxima que alcanza. Luego, calcule la altura que posee al transcurrir 3 segundos.</p>

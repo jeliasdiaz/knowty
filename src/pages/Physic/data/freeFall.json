@@ -1,0 +1,14 @@
+[
+    {
+      "content": "Desde un cuarto piso cae una maceta, teniendo ello en cuenta, calcule la velocidad con la que llegará al piso y el tiempo que tardará en caer. Considere g = 9.8m/s y h = 12m.",
+      "process": "$$ \\text{Tiempo que tardará en caer} \\\\ t = \\large \\sqrt{\\frac{2h}{g}} \\\\ \\allowbreak \\newline t = \\large \\sqrt{\\frac{2(12m)}{9.8m/s^2}} \\\\ \\allowbreak \\newline  t = \\small 1.56seg \\\\ \\allowbreak \\newline \\normalsize \\text{Velocidad al llegar} \\\\ v_f = \\small 0 - 9.8m/s^2 \\ \\cdot \\ 1.56seg \\\\ v_f =\\small - 15.288m/s $$",
+      "options": {
+        "a": "14.50,/s",
+        "b": "-14.50m/s",
+        "c": "-15.288m/s",
+        "d": "15.988m/s"
+      },
+      "answer": "-15.288m/s"
+    }
+  ]
+  

@@ -35,5 +35,5 @@ export const PeriodicElement = ({ element, colorMap }) => {
 
 PeriodicElement.propTypes = {
   element: PropTypes.object.isRequired,
-  colorMap: PropTypes.string.isRequired,
+  colorMap: PropTypes.object.isRequired,
 }

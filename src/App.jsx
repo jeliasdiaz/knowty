@@ -27,7 +27,7 @@ import { English, Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVe
 import { Circumference, Straight, Ellipse, Parable, GeometryMenu, Triangle, ConicSections } from "./pages/Geometry";
 
 //* Pyshic
-import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu, VectorPractice, MruPractice, MruaPractice } from "./pages/Physic/";
+import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu, VectorPractice, MruPractice, MruaPractice, FreeFallPractice } from "./pages/Physic/";
 
 //* Social
 import { FirstSocialPeriod, EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu, ExtraSocial } from "./pages/Social/";
@@ -156,6 +156,7 @@ function App() {
             <Route  path="/vectores-practica" element={<VectorPractice/>} />
             <Route  path="/mru-practica" element={<MruPractice/>} />
             <Route  path="/mrua-practica" element={<MruaPractice/>} />
+            <Route  path="/caida-libre-practica" element={<FreeFallPractice/>} />
 
             <Route path="/sociales_1" element={<FirstSocialPeriod />} />
             <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />

@@ -36,7 +36,7 @@ export const Tools = () => {
 
     const renderUnitOptions = (options, handleUnitSelection) => {
         return options.map((option) => (
-            <li className="list-styled" onClick={() => handleUnitSelection(option.value)}>{option.label}</li>
+            <li className="list-styled" onClick={() => handleUnitSelection(option.value)} key={option.label}>{option.label}</li>
         ));
     };
 
