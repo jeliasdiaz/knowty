@@ -16,7 +16,7 @@ export const CellCycle = () => {
                     <br />
                     <br />
                 </p>
-                <img src="img/cicloCelular.png" alt="Ciclo celular" className="w-75" />
+                <img src="img/cicloCelular.png" alt="Ciclo celular" className="w-75 revealing-image" />
                 <hr />
                 <CollapseInformation name="Interfase">
                     <p>

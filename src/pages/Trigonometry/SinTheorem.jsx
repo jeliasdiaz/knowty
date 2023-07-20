@@ -20,7 +20,7 @@ export const SinTheorem = () => {
                     La usamos cuando en un triángulo nos dan una pareja y un lado cualquiera. Dicho de otro modo, cuando poseemos el valor de un ángulo y su lado opuesto. <br /> <br /> De igual forma, hacemos uso de esta ley al poseer el valor dos lados y un ángulo opuesto a ellos.
 
                     Por ejemplo: <br />
-                    <img src="/img/leySenoEjemplo.svg" alt="Ley del seno ejemplo" className="w-50 rounded-3" /><br />
+                    <img src="/img/leySenoEjemplo.svg" alt="Ley del seno ejemplo" className="w-50 rounded-3 revealing-image" /><br />
                     Definimos las razones de la siguiente forma:
                     <br /><br />
                     <Latex>{leySenoOne}</Latex><br /><br />
@@ -29,7 +29,7 @@ export const SinTheorem = () => {
 
                     El otro caso radica en tener el valor de dos lados y un ángulo opuesto a ellos. <br />
                     Por ejemplo: <br />
-                    <img src="/img/leySenoEjemplo4.svg" alt="" className="w-50 rounded-3" /><br />
+                    <img src="/img/leySenoEjemplo4.svg" alt="" className="w-50 rounded-3 revealing-image" /><br />
                     Definimos las razones de la siguiente forma: <br />
                     <Latex>{leySenoFour}</Latex><br /><br />
                     Despejando para hallar el ángulo, queda de la siguiente forma: <br />

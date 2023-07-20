@@ -121,7 +121,7 @@ export const FirstChemistryPeriod = () => {
 
                     <div>
                         <CollapseInformation name="Modelos atómicos" id="modelosAtomicos">
-                            <img src="/img/modelosAtomicos.svg" alt="Modelos atómicos" className="w-80 rounded-3" />
+                            <img src="/img/modelosAtomicos.svg" alt="Modelos atómicos" className="w-80 rounded-3 revealing-image" />
                             <h4 className="pt-4">Aportes de Leucipo y  Demócrito</h4>
                             <p>Leucipo consideró que hay cierto punto en el que la materia no puede divirse más, mediante el experimento de cortar un objeto en rebanadas, hasta llegar al punto que no pudiera ser cortada.</p>
                             <hr />

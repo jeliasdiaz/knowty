@@ -17,6 +17,32 @@ html {
 ::view-transition-new(root) {
   animation-duration: 0.25s;
 }
+/** Animations  */
+
+@keyframes fade-in {
+  0% { 
+    opacity: 0;
+    filter: blur(3px);
+  }
+  20% { 
+    opacity: 0.2;
+    filter: blur(3px);
+  }
+  40% { 
+    filter: blur(0);
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% { 
+    filter: blur(0);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.revealing-image {
+  animation: fade-in linear;
+  animation-timeline: view(block);
+}
 
 /** Global elements */
 /* Shadows */
@@ -258,6 +284,7 @@ input[type="radio"]:checked + span:before {
 
 .flexHome {
   display: flex;
+  gap: 2%;
 }
 
 /** Section 2 */

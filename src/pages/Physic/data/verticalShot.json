@@ -1,0 +1,13 @@
+[
+    {
+        "content": "Albert lanza hacia arriba una pelota con una velocidad inicial de 27 m/s. A partir de esto, calcule la altura máxima que alcanza. Luego, calcule la altura que posee al transcurrir 3 segundos.",
+        "process": "$$ \\text{Tiempo que tardará en caer} \\\\ t = \\large \\sqrt{\\frac{2h}{g}} \\\\ \\allowbreak \\newline t = \\large \\sqrt{\\frac{2(12m)}{9.8m/s^2}} \\\\ \\allowbreak \\newline  t = \\small 1.56seg \\\\ \\allowbreak \\newline \\normalsize \\text{Velocidad al llegar} \\\\ v_f = \\small 0 - 9.8m/s^2 \\ \\cdot \\ 1.56seg \\\\ v_f =\\small - 15.288m/s $$",
+        "options": {
+          "a": "37.19m y 36.9m",
+          "b": "36.9m y 37.19m",
+          "c": "38m y 39m",
+          "d": "39m y 38m"
+        },
+        "answer": "37.19m y 36.9m"
+      }
+]

@@ -29,14 +29,14 @@ export const Statistic = () => {
               <h5>Directa</h5>
               <p>Los datos están correlacionados, de tal forma que cuando aumenta una magnitud también lo hace la otra. Es de añadir que dos variables son consideradas directamente proporcionales cuando al dividirse dan como cociente (resultado) una constante.</p>
               <h6>Fórmula</h6>
-              <img src="/img/regla-3.jpg" alt="Regla de tres directa" className="reglaTres rounded-3" /> <br /><br />
+              <img src="/img/regla-3.jpg" alt="Regla de tres directa" className="reglaTres rounded-3 revealing-image" /> <br /><br />
               <p><Latex>{reglaTresDirecta}</Latex></p>
               <br /><br />
               <h6>Ejemplo</h6>
               <p>
                 Si 5 centímetros en un mapa son 600 metros en la realidad, ¿cuántos metros son 8 centímetros?
                 <br />
-                <img src="/img/regla-3-ejemplo.jpg" className="reglaTres rounded-3" alt="Regla de tres directa ejemplo" /><br /><br />
+                <img src="/img/regla-3-ejemplo.jpg" className="reglaTres rounded-3 revealing-image" alt="Regla de tres directa ejemplo" /><br /><br />
                 <Latex>{reglaTresDirectaEjemplo}</Latex>
               </p>
 
@@ -76,13 +76,13 @@ export const Statistic = () => {
               <h5>Inversa</h5>
               <p>Los datos están correlacionados, de tal forma que mientras una magnitud aumenta, la otra disminuye. Es de añadir que dos variables son inversamente proporcionales cuando al multiplicarse dan como producto una constante.</p>
               <h6>Fórmula</h6>
-              <img src="/img/regla-3-inversa.jpg" alt="regla de tres inversa" className="reglaTres rounded-3" /><br /><br />
+              <img src="/img/regla-3-inversa.jpg" alt="regla de tres inversa" className="reglaTres rounded-3 revealing-image" /><br /><br />
               <Latex>{reglaTresInversa}</Latex>
               <br /><br />
               <h6>Ejemplo</h6>
               <p>
                 Si Tres personas tardan 4 días en montar un escenario. ¿Cuánto tardarán seis personas? <br />
-                <img src="/img/regla-3-inversa-ejemplo.jpg" alt="regla de tres inversa ejemplo" className="reglaTres rounded-3" /> <br /><br />
+                <img src="/img/regla-3-inversa-ejemplo.jpg" alt="regla de tres inversa ejemplo" className="reglaTres rounded-3 revealing-image" /> <br /><br />
                 <Latex>{reglaTresInversaEjemplo}</Latex>
               </p>
               <br />

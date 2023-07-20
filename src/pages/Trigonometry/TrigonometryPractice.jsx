@@ -81,11 +81,11 @@ export const TrigonometryPractice = () => {
                             <div className="collapse" id="pitagorasExFirst">
                                 <p>El primer paso es interpretar de manera correcta la situación y hacerse una imagen mental y deberías obtener algo como esto:</p>
 
-                                <img src="/img/pitagorasTwo.svg" alt="Teorema pitagoras" className='rounded-3'/>
+                                <img src="/img/pitagorasTwo.svg" alt="Teorema pitagoras" className='rounded-3 revealing-image'/>
 
                                 <p>En segundo lugar, notamos que una de las medidas se encuentra en centímetros y la otra en metros. Debido a esto, debemos convertirlas a una misma unidad, en este caso a metros. </p>
 
-                                <img src="/img/pitagorasOne.svg" alt="Teorema pitagoras" className='rounded-3'/>
+                                <img src="/img/pitagorasOne.svg" alt="Teorema pitagoras" className='rounded-3 revealing-image'/>
 
                                 <p>Recordemos que la suma de los catetos al cuadrado es igual al cuadrado de la hipotenusa, en este caso desconocemos uno de los catetos, por lo que debemos alterar la ecuación.</p>
 
@@ -112,7 +112,7 @@ export const TrigonometryPractice = () => {
                             <div className="collapse" id="pitagorasExSecond">
                                 <p>Iniciamos graficando la situación</p>
 
-                                <img src="/img/pitagorasThree.svg" alt="Teorema pitagoras" className='rounded-3'/>
+                                <img src="/img/pitagorasThree.svg" alt="Teorema pitagoras" className='rounded-3 revealing-image'/>
 
                                 <p>Ambas distancias al estar en la misma unidad, provoca que no sea necesario convertirlas a otra. Por otro lado, aplicamos el mismo procedimiento del ejercicio anterior.</p>
 
@@ -139,7 +139,7 @@ export const TrigonometryPractice = () => {
                             <div className="collapse" id="pitagorasExThird">
                                 <p>Iniciamos graficando la situación</p>
 
-                                <img src="/img/pitagorasFour.svg" alt="Teorema pitagoras" className='rounded-3'/>
+                                <img src="/img/pitagorasFour.svg" alt="Teorema pitagoras" className='rounded-3 revealing-image'/>
 
                                 <p>Ambas distancias al estar en la misma unidad, provoca que no sea necesario convertirlas a otra. En este caso, aplica la fórmula original.</p>
 
@@ -159,7 +159,7 @@ export const TrigonometryPractice = () => {
                         <div>
                             <h3>Razones trigonométricas</h3>
                             <h5>N°1</h5>
-                            <img src="/img/razonesTrigonometricasOne.svg" alt="Razones trigonométricas" className='rounded-3'/>
+                            <img src="/img/razonesTrigonometricasOne.svg" alt="Razones trigonométricas" className='rounded-3 revealing-image'/>
 
                             <p>
                                 <button className="btn btn-secondary mt-3" type="button" data-bs-toggle="collapse" href="#razonesTrigonometricasOne">
@@ -206,7 +206,7 @@ export const TrigonometryPractice = () => {
                         <hr className="my-4"/>
                         <div>
                             <h3>Ley del seno</h3>
-                            <img src="/img/leySenoPractice.svg" alt="Ley del seno practica" className='rounded-3 w-80' /><br /><br />
+                            <img src="/img/leySenoPractice.svg" alt="Ley del seno practica" className='rounded-3 w-80 revealing-image' /><br /><br />
 
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#leySeno">
@@ -234,7 +234,7 @@ export const TrigonometryPractice = () => {
                         <hr className="my-4"/>
                         <div>
                             <h3>Ley del coseno</h3>
-                            <img src="/img/leyCosenoPractica.svg" alt="Ley del coseno practica" className='rounded-3 mb-3' />
+                            <img src="/img/leyCosenoPractica.svg" alt="Ley del coseno practica" className='rounded-3 mb-3 revealing-image' />
 
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#leycoseno">

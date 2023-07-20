@@ -19,14 +19,14 @@ export const Triangle = () => {
                     <div className="d-flex flex-wrap">
                         <div className="d-flex justify-content-between w-100">
                             <div>
-                                <img src="/img/trianguloEquilatero.svg" alt="Triangulo equilatero" className="w-50 rounded-3" />
+                                <img src="/img/trianguloEquilatero.svg" alt="Triangulo equilatero" className="w-50 rounded-3 revealing-image" />
                                 <h5 className="pt-2">Equilatero</h5>
                                 <p className="w-75"> Todos sus lados poseen la misma medida.</p>
                             </div>
 
                             <div>
                                 <div className="d-flex justify-content-end">
-                                    <img src="/img/trianguloIsoceles.svg" alt="Triangulo isoceles" className="w-50 rounded-3" />
+                                    <img src="/img/trianguloIsoceles.svg" alt="Triangulo isoceles" className="w-50 rounded-3 revealing-image" />
                                 </div>
                                 <h5 className="text-end pt-2">Isóceles</h5>
                                 <p className="text-end ">Dos de sus lados poseen la misma medida.</p>
@@ -35,13 +35,13 @@ export const Triangle = () => {
 
                         <div className="d-flex justify-content-between pt-2">
                             <div>
-                                <img src="/img/trianguloEscaleno.svg" alt="Triangulo escaleno" className="w-50 rounded-3" />
+                                <img src="/img/trianguloEscaleno.svg" alt="Triangulo escaleno" className="w-50 rounded-3 revealing-image" />
                                 <h5 className="pt-2">Escaleno</h5>
                                 <p className="w-75">La medida de todos sus lados es diferente.</p>
                             </div>
                             <div>
                                 <div className="d-flex justify-content-end">
-                                    <img src="/img/trianguloAcutangulo.svg" alt="Triangulo acutangulo" className="w-75 rounded-3" />
+                                    <img src="/img/trianguloAcutangulo.svg" alt="Triangulo acutangulo" className="w-75 rounded-3 revealing-image" />
                                 </div>
                                 <h5 className="text-end pt-2">Acutángulo</h5>
                                 <p className="text-end"> Todos sus ángulos internos son agudos.</p>
@@ -51,14 +51,14 @@ export const Triangle = () => {
 
                         <div className="d-flex justify-content-between pt-2">
                             <div>
-                                <img src="/img/trianguloObtuso.svg" alt="Triangulo obtuso" className="w-50 rounded-3" />
+                                <img src="/img/trianguloObtuso.svg" alt="Triangulo obtuso" className="w-50 rounded-3 revealing-image" />
                                 <h5 className=" pt-2">Obtusángulo</h5>
                                 <p className="w-75"> Posee un ángulo obtuso (mayor a 90° y menor a 180°).</p>
                             </div>
 
                             <div>
                                 <div className="d-flex justify-content-end">
-                                    <img src="/img/trianguloRectangulo.svg" alt="Triangulo rectangulo" className="w-75 rounded-3" />
+                                    <img src="/img/trianguloRectangulo.svg" alt="Triangulo rectangulo" className="w-75 rounded-3 revealing-image" />
                                 </div>
                                 <h5 className="text-end pt-2">Rectángulo</h5>
                                 <p className="text-end"> Posee un ángulo recto.</p>
@@ -107,11 +107,11 @@ export const Triangle = () => {
                         <tbody>
                             <tr>
                                 <th scope="row">
-                                    <img src="img/pitagorasImgEjemplos.svg" alt="Ejemplo 1 teorema de pitágoras" className="rounded-3" /><br /><br />
+                                    <img src="img/pitagorasImgEjemplos.svg" alt="Ejemplo 1 teorema de pitágoras" className="rounded-3 revealing-image" /><br /><br />
                                     <Latex>{ejemplo1Pitagoras}</Latex>
                                 </th>
                                 <td>
-                                    <img src="img/pitagorasImgEjemplos.svg" alt="Ejemplo 1 teorema de pitágoras" className="rounded-3" /><br /><br />
+                                    <img src="img/pitagorasImgEjemplos.svg" alt="Ejemplo 1 teorema de pitágoras" className="rounded-3 revealing-image" /><br /><br />
                                     <Latex>{ejemplo2Pitagoras}</Latex>
 
                                 </td>

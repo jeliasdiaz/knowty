@@ -4,6 +4,7 @@ import freeFall from "../data/freeFall.json";
 import mru from "../data/mru.json";
 import mrua from "../data/mru.json";
 import vector from "../data/vector.json";
+import verticalShot from "../data/verticalShot.json";
 import { PracticeComponent } from "./PracticeComponent";
 
 export const VectorPractice = () => {
@@ -24,6 +25,12 @@ export const MruaPractice = () => {
 export const FreeFallPractice = () => {
     return (
         <PracticeComponent data={freeFall} subject="freeFall" title="Practica caída libre"/>
+    );
+};
+
+export const VerticalShot = () => {
+    return (
+        <PracticeComponent data={verticalShot} subject="verticalShot" title="Practica tiro vertical"/>
     );
 };
 export * from "./PhysicPractice"

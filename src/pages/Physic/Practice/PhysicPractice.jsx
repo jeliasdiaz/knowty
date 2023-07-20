@@ -176,7 +176,7 @@ export const PhysicPractice = () => {
                     <h3>Dinámica</h3>
                     <h5>N°1</h5>
                     <p>En una bodega se mantiene una caja de 900kg mediante una soga. La superficie se encuentra inclinada 25° respecto a la horizontal y la superficie tiene un coeficiente de rozamiento de 0.4. Calcule la tensión.</p>
-                    <img src="/img/dinamicaPracticaImg.svg" alt="Dinamica practica uno" className='practiceImg rounded-3' /><br /><br />
+                    <img src="/img/dinamicaPracticaImg.svg" alt="Dinamica practica uno" className='practiceImg rounded-3 ' /><br /><br />
 
                     <p>
                         <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#dinamicaOne">

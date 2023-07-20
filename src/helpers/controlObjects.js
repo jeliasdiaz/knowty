@@ -8,6 +8,7 @@ export const useControlObjects = (data, type) => {
     mru: 0,
     mrua: 0,
     freeFall: 0,
+    verticalShot: 0,
     pitagoras: 0
   })
 
@@ -17,6 +18,7 @@ export const useControlObjects = (data, type) => {
     mru: false,
     mrua: false,
     freeFall: false,
+    verticalShot: false,
     pitagoras: false
   });
 
