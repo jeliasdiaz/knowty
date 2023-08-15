@@ -30,7 +30,7 @@ export const FreeFallPractice = () => {
 
 export const VerticalShot = () => {
     return (
-        <PracticeComponent data={verticalShot} subject="verticalShot" title="Practica tiro vertical"/>
+        <PracticeComponent data={verticalShot} subject="verticalShot" title="Practica Tiro vertical"/>
     );
 };
 export * from "./PhysicPractice"

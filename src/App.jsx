@@ -157,7 +157,7 @@ function App() {
             <Route  path="/mru-practica" element={<MruPractice/>} />
             <Route  path="/mrua-practica" element={<MruaPractice/>} />
             <Route  path="/caida-libre-practica" element={<FreeFallPractice/>} />
-            <Route  path="/tiro-vertical" element={<VerticalShot/>} />
+            <Route  path="/tiro-vertical-practica" element={<VerticalShot/>} />
 
             <Route path="/sociales_1" element={<FirstSocialPeriod />} />
             <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />

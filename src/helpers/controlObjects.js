@@ -43,10 +43,30 @@ export const useControlObjects = (data, type) => {
   // Función para pasar al siguiente objeto
   const nextObject = () => {
     const isAnswerCorrect = selectedOption === data[currentObject[type]].answer;
-    if(isAnswerCorrect){
-      setCorrectOptions(correctOptions + 1)
+  
+    // Check if the user has already selected the correct answer
+    if (isSelected && isCorrect) {
+      if (currentObject[type] < data.length - 1) {
+        setCurrentObject({ ...currentObject, [type]: currentObject[type] + 1 });
+      } else {
+        setCurrentObject({ ...currentObject, [type]: currentObject[type] });
+        setShowScoreboard(true);
+      }
+  
+      setShowProcess({ ...showProcess, [type]: false });
+      setIsSelected(false);
+      setIsCorrect(false);
+      setSelectedOption('');
+      setShowSolution(false);
+      return;
     }
-
+  
+    // If the answer is correct, mark it as such and proceed
+    if (isAnswerCorrect) {
+      setIsCorrect(true);
+      setCorrectOptions(correctOptions + 1);
+    }
+  
     if (currentObject[type] < data.length - 1) {
       setCurrentObject({ ...currentObject, [type]: currentObject[type] + 1 });
       setShowSolution(false);
@@ -54,12 +74,12 @@ export const useControlObjects = (data, type) => {
       setCurrentObject({ ...currentObject, [type]: currentObject[type] });
       setShowScoreboard(true);
     }
-
+  
     setShowProcess({ ...showProcess, [type]: false });
     setIsSelected(false);
-    setIsCorrect(selectedOption === data[currentObject[type]].answer);
     setSelectedOption('');
   };
+  
 
 
   // Función para volver al objeto anterior

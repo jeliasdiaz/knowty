@@ -4,20 +4,25 @@ import * as math from 'mathjs';
 import { RiSendPlane2Fill } from "react-icons/ri";
 
 const GraphicInput = ({ equation, numPoints }) => {
-    const data = [];
-    const parser = math.parser();
-  
-    const variable = 'x';
-  
-    for (let i = -numPoints; i <= numPoints; i++) {
-      const value = i;
-      parser.set(variable, value);
-      const y = parser.evaluate(equation.toLowerCase());
-      data.push({ [variable]: value, y });
-    }
-  
-    return data;
-  };
+  const data = [];
+  const parser = math.parser();
+
+  // Get the variable from the equation.
+  const variable = equation.match(/\w+/)[0];
+
+  for (let i = -numPoints; i <= numPoints; i++) {
+    // Set the variable to the current value.
+    parser.set(variable, i);
+
+    // Evaluate the equation.
+    const y = parser.evaluate(equation);
+
+    // Push the point to the data array.
+    data.push({ [variable]: i, y });
+  }
+
+  return data;
+};
 
 export const Graphic = () => {
     const [equationInput, setEquationInput] = useState('');

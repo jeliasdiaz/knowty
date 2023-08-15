@@ -3,12 +3,6 @@ import Latex from "react-latex"
 
 
 export const PhysicPractice = () => {
-    const tiroVerticalOne = `$$h_{max} =  \\large \\frac{(27m/s)^2}{2 \\ \\cdot \\ 9.8m/s^2}$$`
-    const tiroVerticalTwo = `$$h_{max} = \\small 37.19m$$`
-    const tiroVerticalThree = `$$y = \\small y_0 + v_0 \\ \\cdot \\ t - \\frac{1}{2} \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ 3seg^2$$`
-    const tiroVerticalFour = `$$y = \\small 0 + 27m/s \\ \\cdot \\ 3seg - \\frac{1}{2} \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ 3seg^2$$`
-    const tiroVerticalFive = `$$y = \\small 36.9m$$`
-
     const tiroParabolicoOne = `$$v_x = \\small 50m/s \\ \\cdot \\ cos(40) = 38.10m/s$$`
     const tiroParabolicoTwo = `$$v_y = \\small 50m/s \\ \\cdot \\ \\sin(40) = 32.13m/s$$`
     const tiroParabolicoThree = `$$t_v = \\large \\frac{2 \\ \\cdot \\ v_{0y}}{g}$$`
@@ -92,44 +86,14 @@ export const PhysicPractice = () => {
                 <MenuCard url="/mru-practica" img="fisicaIcon.png" title="M.R.U" />
 
                 <MenuCard url="/mrua-practica" img="fisicaIcon.png" title="M.R.U.A." />
+
                 <MenuCard url="/caida-libre-practica" img="fisicaIcon.png" title="Caída libre" />
+
+                <MenuCard url="/tiro-vertical-practica" img="fisicaIcon.png" title="Tiro vertical" />
             </div>
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
 
-                <div>
-                    <h3>Tiro vertical</h3>
-                    <p>Albert lanza hacia arriba una pelota con una velocidad inicial de 27 m/s. A partir de esto, calcule la altura máxima que alcanza. Luego, calcule la altura que posee al transcurrir 3 segundos.</p>
-
-                    <p>
-                        <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#tiroVertical">
-                            Solución
-                        </button>
-                    </p>
-
-                    <div className="collapse" id="tiroVertical">
-                        <span>Altura máxima</span><br />
-                        <Latex>
-                            {tiroVerticalOne}
-                        </Latex><br /><br />
-                        <Latex>
-                            {tiroVerticalTwo}
-                        </Latex><br /><br />
-                        <span>Altura al transcurrir 3 segundos</span><br />
-                        <Latex>
-                            {tiroVerticalThree}
-                        </Latex><br /><br />
-                        <Latex>
-                            {tiroVerticalFour}
-                        </Latex><br /><br />
-                        <Latex>
-                            {tiroVerticalFive}
-                        </Latex>
-                    </div>
-                </div>
-
-
-                <hr />
                 <div>
                     <h3>Tiro parábolico</h3>
                     <p>En un circo se lanza a una persona desde un cañón, con una velocidad de 50m/s y un ángulo de 40°. Calcule el tiempo de vuelo, altura máxima y su posición horizontal a los 5 segundos.</p>

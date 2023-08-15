@@ -12,16 +12,16 @@ export const ResultCard = ({ url, name, img }) => {
     return (
         url.includes('#')
             ? (
-                <a href={url} className="text-decoration-none" key={name} onClick={handleClick}>
-                    <div className="dataItem shadow d-flex align-items-center p-3 my-3">
+                <a href={url} className="text-decoration-none" key={name} onClick={handleClick}  >
+                    <div className="dataItem shadow d-flex align-items-center p-3 my-3" data-aos="fade-up" data-aos-duration="400">
                         <img src={img} alt={name} className="CardImg pe-3" />
                         {name}
                     </div>
                 </a>
             )
             : (
-                <Link to={url} className="text-decoration-none" key={name} onClick={handleClick}>
-                    <div className="dataItem shadow d-flex align-items-center p-3 my-3">
+                <Link to={url} className="text-decoration-none" key={name} onClick={handleClick} >
+                    <div className="dataItem shadow d-flex align-items-center p-3 my-3" data-aos="fade-up" data-aos-duration="400">
                         <img src={img} alt={name} className="CardImg pe-3" />
                         {name}
                     </div>

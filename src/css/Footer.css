@@ -56,8 +56,9 @@
   transition: all 0.5s;
 }
 
-.teamCard h6 {
-  color: #2b7ea1;
+.teamCard h6, .teamCard a {
+  text-decoration: none !important;
+  color: #2b7ea1 !important;
   font-weight: 600;
   padding-top: 8%;
 }

@@ -52,7 +52,7 @@
   padding: 1%;
   width: 20%;
   margin: auto;
-  transition: transform 0.2s, background-color 0.2s !important;
+  transition: transform 0.2s, background-color 0.2s ;
 }
 .dataItem:hover {
   background-color: #bfdfed;

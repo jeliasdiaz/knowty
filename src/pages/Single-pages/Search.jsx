@@ -2,7 +2,7 @@ import { useCallback, useEffect, useRef } from "react";
 import { useIsVisible, useSearch } from "../../hooks/";
 import { TopWave, NoResultCard, ResultCard } from "../../components/";
 import data from "../../data/materias.json";
-import "./Search.css";
+import "../../css/Search.css";
 import { BiSearch } from "react-icons/bi";
 import { IoClose } from "react-icons/io5";
 import { useNavigate } from "react-router-dom";
@@ -60,7 +60,7 @@ export const Search = () => {
           : filteredData.length !== 0
 
             ? (
-              <div className="dataResult" data-aos="fade-up" data-aos-duration="500">
+              <div className="dataResult">
                 {
                   filteredData.slice(0, 5).map( data => (
                     <ResultCard {...data} key={data.name} />
