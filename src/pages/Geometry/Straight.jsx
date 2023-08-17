@@ -23,24 +23,24 @@ export const Straight = () => {
                     <p>
                         La fórmula de distancia entre dos puntos es aquella ecuación que nos permite conocer la longitud del segmento de recta que une dos puntos del plano. Recordemos que las coordenadas del plano cartesiano son de la forma (X, Y) por lo tanto tenemos un sistema horizontal y vertical lo que da lugar al famoso teorema de Pitágoras. Por ende, su ecuación luce así: <Latex>{distanciaPuntos}</Latex>
                     </p>
-
-
                     <p>Ejemplo:</p>
 
                     <img src="img/distanciaDosPuntosUno.jpeg" alt="" className="w-50 rounded-3 revealing-image" />
-                    <br />
+                    <br /><br />
                     <p>
                         En este caso tenemos las coordenadas de dos puntos del plano cartesiano y deseamos conocer la longitud del segmento de recta que los une, es decir, la menor distancia entre ellos. Si observamos:
                     </p>
                     <br />
+
                     <img src="img/distanciaDosPuntosDos.jpeg" alt="" className="w-50 rounded-3 revealing-image" />
-                    <br />
+
+                    <br /><br />
                     <p>
                         Se forma un triángulo rectángulo cuya hipotenusa es el segmento de recta que une a los dos puntos de la manera mas corta, porque si recordamos, por concepto, la suma de los catetos de un triángulo rectángulo siempre es mayor que su hipotenusa. Por ende, aplicando la formula la cual es el mismo teorema de Pitágoras, podremos hallar la longitud de dicho segmento:
 
                     </p>
                     <img src="img/distanciaDosPuntosTres.jpeg" alt="" className="w-50 rounded-3 revealing-image" />
-                    <br />
+                    <br /><br />
                     <p>
                         Como podrás notar el camino 1 acumula 9 unidades de longitud, en cambio, el camino 2 acumula solamente 6.4 unidades, una distancia mucho menor.
                     </p>
