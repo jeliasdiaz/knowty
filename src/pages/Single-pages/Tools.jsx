@@ -1,46 +1,9 @@
-import { useState } from "react"
-import { Graphic, SectionTitle, TopWave } from "../../components"
-import Qty from "js-quantities"
-import { BsArrowRightShort } from "react-icons/bs"
-import { IoIosArrowDown } from "react-icons/io"
+import { Graphic, MorseConverter, SectionTitle, TopWave, UnitConverter } from "../../components"
+
 import Latex from "react-latex"
 import PeriodicTable from "../../components/PeriodicTable"
 
 export const Tools = () => {
-
-    // Converter
-    const [convertionResult, setConvertionResult] = useState(0)
-    const [convertionInput, setConvertionInput] = useState(0)
-    const [unitOne, setUnitOne] = useState("")
-    const [unitTwo, setUnitTwo] = useState("")
-
-    const conversor = ({ target }) => {
-        const { value } = target
-        setConvertionInput(value)
-
-        const convert = Qty.swiftConverter(unitOne, unitTwo)
-
-        const result = convert(value)
-        setConvertionResult(result)
-    }
-
-    const handleUnitSelectionOne = (type) => {
-        setUnitOne(type)
-        setConvertionInput(0)
-    }
-
-    const handleUnitSelectionTwo = (type) => {
-        setUnitTwo(type)
-        setConvertionInput(0)
-    }
-
-    const renderUnitOptions = (options, handleUnitSelection) => {
-        return options.map((option) => (
-            <li className="list-styled" onClick={() => handleUnitSelection(option.value)} key={option.label}>{option.label}</li>
-        ));
-    };
-
-    const equal = `$$=$$`
 
     const sen30 = `$$ \\frac{1}{2}$$`
     const cos30 = `$$ \\frac{\\sqrt{3}}{2}$$`
@@ -81,133 +44,9 @@ export const Tools = () => {
                     <Graphic />
                 </div>
 
+                <UnitConverter />
 
-                <div className="subjectCard mb-5 ownShadow">
-                    <h3>Conversor de unidades</h3>
-
-                    <div className=" mt-4 mb-4">
-                        <div className="d-flex gap-4 mt-3 mb-3">
-                            <div className="d-flex gap-2">
-                                <input type="number" className="numberInput w-25" value={convertionInput} onInput={conversor} />
-
-                                <span className="mt-2"><Latex>{equal}</Latex></span>
-
-                                <input type="number" className="numberInput w-50" placeholder="resultado" readOnly={true} value={convertionInput ? convertionResult : 0} />
-                            </div>
-                        </div>
-                        <div className="btn-group convertionType">
-                            <button type="button" className="btn btn-secondary" data-bs-toggle="dropdown" aria-expanded="false">
-                                {
-                                    unitOne ? unitOne : <IoIosArrowDown size={25} />
-                                }
-                            </button>
-                            <ul className="dropdown-menu">
-                                <div className="d-flex gap-3 p-2">
-                                    <div>
-                                        <li className="fw-semibold list-styled">Longitud</li>
-                                        {renderUnitOptions([
-                                            { label: "Kilómetro", value: "km" },
-                                            { label: "Hectómetro", value: "hm" },
-                                            { label: "Decámetro", value: "dam" },
-                                            { label: "Metro", value: "m" },
-                                            { label: "Decimetro", value: "dm" },
-                                            { label: "Centímetro", value: "cm" },
-                                            { label: "Milímetro", value: "mm" },
-                                            { label: "Pulgada", value: "in" },
-                                        ], handleUnitSelectionOne)}
-
-                                        <hr className="dropdown-divider shadow-none" />
-                                        <li className="fw-semibold list-styled">Velocidad</li>
-                                        {renderUnitOptions([
-                                            { label: "km/h", value: "km/h" },
-                                            { label: "m/s", value: "m/s" },
-                                            { label: "Milla/h", value: "mph" }
-                                        ], handleUnitSelectionOne)}
-                                    </div>
-
-                                    <div>
-                                        <li className="fw-semibold list-styled">Temperatura</li>
-                                        {renderUnitOptions([
-                                            { label: "°C", value: "tempC" },
-                                            { label: "°F", value: "tempF" },
-                                            { label: "°Kelvin", value: "tempK" }
-                                        ], handleUnitSelectionOne)}
-
-                                        <hr className="dropdown-divider shadow-none" />
-                                        <li className="fw-semibold list-styled">Masa</li>
-                                        {renderUnitOptions([
-                                            { label: "Gramo", value: "g" },
-                                            { label: "Kilogramo", value: "kg" },
-                                            { label: "Onza", value: "oz" },
-                                            { label: "Libra", value: "lb" },
-                                        ], handleUnitSelectionOne)}
-
-                                    </div>
-                                </div>
-                            </ul>
-                        </div>
-
-                        <span className="mt-2">
-                            <BsArrowRightShort size={30} className="mx-2" />
-                        </span>
-
-                        <div className="btn-group convertionType">
-                            <button type="button" className="btn btn-secondary" data-bs-toggle="dropdown" aria-expanded="false">
-                                {
-                                    unitTwo ? unitTwo : <IoIosArrowDown size={25} />
-                                }
-                            </button>
-                            <ul className="dropdown-menu">
-                                <div className="d-flex gap-3 p-2">
-                                    <div>
-                                        <li className="fw-semibold list-styled">Longitud</li>
-                                        {renderUnitOptions([
-                                            { label: "Kilómetro", value: "km" },
-                                            { label: "Hectómetro", value: "hm" },
-                                            { label: "Decámetro", value: "dam" },
-                                            { label: "Metro", value: "m" },
-                                            { label: "Decimetro", value: "dm" },
-                                            { label: "Centímetro", value: "cm" },
-                                            { label: "Milímetro", value: "mm" },
-                                            { label: "Pulgada", value: "in" },
-                                        ], handleUnitSelectionTwo)}
-
-                                        <hr className="dropdown-divider shadow-none" />
-                                        <li className="fw-semibold list-styled">Velocidad</li>
-                                        {renderUnitOptions([
-                                            { label: "km/h", value: "km/h" },
-                                            { label: "m/s", value: "m/s" },
-                                            { label: "Milla/h", value: "mph" }
-                                        ], handleUnitSelectionTwo)}
-
-
-                                    </div>
-
-                                    <div>
-                                        <li className="fw-semibold list-styled">Temperatura</li>
-                                        {renderUnitOptions([
-                                            { label: "°C", value: "tempC" },
-                                            { label: "°F", value: "tempF" },
-                                            { label: "°Kelvin", value: "tempK" }
-                                        ], handleUnitSelectionTwo)}
-
-                                        <hr className="dropdown-divider shadow-none" />
-                                        <li className="fw-semibold list-styled">Masa</li>
-                                        {renderUnitOptions([
-                                            { label: "Gramo", value: "g" },
-                                            { label: "Kilogramo", value: "kg" },
-                                            { label: "Onza", value: "oz" },
-                                            { label: "Libra", value: "lb" },
-                                        ], handleUnitSelectionTwo)}
-                                    </div>
-                                </div>
-                            </ul>
-                        </div>
-                    </div>
-                    <br />
-
-                </div>
-
+                <MorseConverter />
                 <div className="subjectCard mb-5 ownShadow text-center">
                     <h3>Razones trigonométricas para ángulos notables</h3>
                     <table className="table table-bordered text-end mx-auto">
