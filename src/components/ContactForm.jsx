@@ -44,7 +44,7 @@ export const ContactForm = () => {
                 <div className="screen-body-item">
                     <form ref={form} className="app-form" onSubmit={sendEmail} >
                         <div className="app-form-group">
-                            <input className="app-form-control" placeholder="Nombre" name="user_name" required autoComplete="off"/>
+                            <input className="app-form-control" placeholder="Nombre" name="user_name" required autoComplete="off" />
                         </div>
                         <div className="app-form-group">
                             <input className="app-form-control" placeholder="Correo" name="user_email" value={email} onInput={onEmail} autoComplete="off" />

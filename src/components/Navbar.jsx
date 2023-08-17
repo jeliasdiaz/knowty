@@ -75,10 +75,8 @@ export const Navbar = () => {
 
             {
               Icon
-                ?
-                <HiSun size={40} className="navBtn HiSun " onClick={function () { toggleTheme(); toggleIcon() }} />
-                :
-                <HiMoon size={40} className="navBtn HiMoon" onClick={function () { toggleTheme(); toggleIcon() }} />
+                ? <HiSun size={40} className="navBtn HiSun " onClick={function () { toggleTheme(); toggleIcon() }} />
+                : <HiMoon size={40} className="navBtn HiMoon" onClick={function () { toggleTheme(); toggleIcon() }} />
             }
 
             {
