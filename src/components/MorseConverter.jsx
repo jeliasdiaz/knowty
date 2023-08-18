@@ -142,7 +142,7 @@ export const MorseConverter = () => {
                                 <MdContentCopy className="ms-auto" onClick={copyToClipboardLeft} size={20} />
 
                             </div>
-                            <textarea type="text" className="numberInputTwo" onInput={textToMorse ? (e) => onText(e) : (e) => onMorse(e)} value={textToMorse ? text : morse}></textarea>
+                            <textarea type="text" className="numberInputTwo" onChange={textToMorse ? (e) => onText(e) : (e) => onMorse(e)} value={textToMorse ? text : morse}></textarea>
                         </div>
                         <BsArrowLeftRight onClick={switchMorse} size={20} cursor="pointer" />
 
