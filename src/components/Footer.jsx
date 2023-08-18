@@ -38,7 +38,7 @@ export const Footer = () => {
           </div>
 
           <div>
-            <MembersCard name="Jose Elías Díaz" description="Creador del proyecto, página y encargado del canal YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} animationduration={1000} />} optionalClass="pt-4 w-75 mx-auto" />
+            <MembersCard name="José Elías Díaz" description="Creador del proyecto, página y encargado del canal YouTube." icon={<HiCode size={34} />} iconTwo={<AiFillYoutube size={36} animationduration={1000} />} optionalLink="https://jeliasdiaz.netlify.app/" optionalClass="pt-4 w-75 mx-auto" />
           </div>
 
           <div className="d-flex">

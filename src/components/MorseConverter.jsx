@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { BsArrowLeftRight } from "react-icons/bs";
 import { MdContentCopy } from "react-icons/md";
+import { CollapseInformation } from "./CollapseInformation";
 
 const MORSE_CODE = {
     "0": "-----",
@@ -333,7 +334,16 @@ export const MorseConverter = () => {
                     </tbody>
                 </table>
             </div>
-
+            <br />
+            <br />
+            <CollapseInformation name="¿Qué es el código Morse?" id="morse" >
+                <p>
+                    Originado en el siglo XIX , el código Morse es un sistema de comunicación telegráfica que utiliza combinaciones de puntos y rayas para representar letras, números y caracteres especiales. Cada letra o símbolo se representa mediante una secuencia única de puntos (representados como cortos pulsos) y rayas (representadas como largos pulsos).
+                    <br />
+                    <br />
+                    Este sistema de código permitía a los operadores enviar mensajes codificados a través de líneas telegráficas y, más tarde, a través de señales de radio. Aunque ha perdido gran parte de su uso práctico con el avance de las tecnologías de comunicación modernas, el código Morse sigue siendo relevante en algunas áreas, como la navegación marítima y aérea, así como en situaciones de emergencia, donde puede ser utilizado como una forma de comunicación de respaldo.
+                </p>
+            </CollapseInformation>
         </div>
 
     )
