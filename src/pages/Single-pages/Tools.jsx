@@ -1,4 +1,4 @@
-import { Graphic, MorseConverter, SectionTitle, TopWave, UnitConverter } from "../../components"
+import { Graphic, SectionTitle, TopWave, UnitConverter } from "../../components"
 
 import Latex from "react-latex"
 import PeriodicTable from "../../components/PeriodicTable"
@@ -46,7 +46,6 @@ export const Tools = () => {
 
                 <UnitConverter />
 
-                <MorseConverter />
                 
                 <div className="subjectCard mb-5 ownShadow text-center">
                     <h3>Razones trigonométricas para ángulos notables</h3>

@@ -51,7 +51,7 @@ export const ContactForm = () => {
                             {emailError && <small className="errorMesageEmail">{emailError}</small>}
                         </div>
                         <div className="app-form-group message">
-                            <input className="app-form-control" placeholder="Mensaje" name="message" required autoComplete="off" />
+                            <textarea className="app-form-control" placeholder="Mensaje" name="message" required autoComplete="off"></textarea>
                         </div>
                         <div className="app-form-group buttons">
                             {

@@ -48,7 +48,9 @@ export const Footer = () => {
           </div>
         </div>
       </div>
+
       <ContactForm />
+      
       <div className="footerContainer">
         <div className="d-flex justify-content-between">
           <div className="mb-3">
