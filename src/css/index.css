@@ -20,20 +20,20 @@ html {
 /** Animations  */
 
 @keyframes fade-in {
-  0% { 
+  0% {
     opacity: 0;
     filter: blur(3px);
   }
-  20% { 
+  20% {
     opacity: 0.2;
     filter: blur(3px);
   }
-  40% { 
+  40% {
     filter: blur(0);
     transform: scale(1);
     opacity: 1;
   }
-  100% { 
+  100% {
     filter: blur(0);
     transform: scale(1);
     opacity: 1;
@@ -151,7 +151,6 @@ ul li:before {
   font-size: 17px;
 }
 
-
 .tooltipBackground {
   background-color: #f6f6f6 !important;
   color: black !important;
@@ -259,12 +258,8 @@ input[type="radio"]:checked + span:before {
   z-index: 10;
 }
 
-.scrollToTopBtn:hover {
-  bottom: 1.3rem;
-}
-
 .scrollToTopBtn:active {
-  bottom: 1.3rem;
+  transform: scale(0.9) !important;
 }
 
 .scrollToTopBtn svg circle {
@@ -366,7 +361,6 @@ input[type="radio"]:checked + span:before {
   max-width: 80rem;
   flex-wrap: wrap !important;
 }
-
 
 .subjectLink {
   background-color: white;
@@ -519,7 +513,7 @@ input[type="radio"]:checked + span:before {
   margin: auto;
   border-radius: 12px;
   padding: 1em;
-  align-items:center !important;
+  align-items: center !important;
   border: solid 2px;
   border-color: #3f97bd;
 }
@@ -542,7 +536,48 @@ input[type="radio"]:checked + span:before {
   padding: 4%;
   transition: 0.5s !important;
 }
+.glossary {
+  position: relative;
+  padding: 1%;
+  width: fit-content;
+  margin-inline: auto;
+  border-radius: 15px;
+  background-color: white;
+  color: #2b7ea1;
+  cursor: pointer;
+  transform: scale(1.2);
+  z-index: 10;
+}
+.glossary:active {
+  transform: scale(0.9);
+}
+.glossary-nav {
+  position: fixed;
+  top: 0;
+  width: 25%;
+  z-index: 100;
+  background-color: #f6f6f6;
+  height: 100vh;
+  padding: 2%;
+}
 
+.glossary-content {
+  margin-top: 7%;
+  color: #000;
+}
+.glossary-items {
+  padding-left: 2%;
+  border-left: 2px solid gray;
+  height: fit-content;
+}
+.glossary-items a {
+  margin-bottom: 2em;
+  text-decoration: none;
+  color: black;
+}
+.glossary-items a:hover {
+  text-decoration: underline #2b7ea1;
+}
 .subjectCardPeriodicTable {
   background-color: white;
   width: 70%;
@@ -626,14 +661,12 @@ input[type="radio"]:checked + span:before {
   text-decoration: none;
   color: black;
   transition: 0.5s !important;
-
 }
 
 .englishSubtitle {
   text-align: center;
   margin: 3%;
   transition: 0.5s !important;
-
 }
 
 .englishCardContainer h4 {
@@ -881,7 +914,38 @@ input[type="radio"]:checked + span:before {
   .subjectLinkMenuContent img {
     margin-bottom: 0;
   }
-
+  .glossary {
+    position: fixed;
+    font-size: 12px;
+    padding: 2%;
+    top: 8em;
+    right: 1.5em;
+  }
+  .glossary-nav {
+    top: 5em;
+    right: 1em;
+    width: 45%;
+    height: fit-content;
+    padding: 3%;
+    border-radius: 15px;
+  }
+  .glossary-content {
+    margin-top: 0%;
+  }
+  .glossary-content h3 {
+    font-size: 18px;
+    margin-top: 2%;
+    color: #2b7ea1;
+  }
+  .glossary-content svg {
+    width: 2em;
+  }
+  .topicController {
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+  }
   .text-sectionTwo {
     width: 90%;
     margin-left: auto;
@@ -901,7 +965,6 @@ input[type="radio"]:checked + span:before {
 }
 
 @media screen and (max-width: 450px) {
-
   /** Global elements  */
   hr {
     margin-bottom: 10% !important;
@@ -1014,7 +1077,6 @@ input[type="radio"]:checked + span:before {
     margin-bottom: 4%;
   }
 
-
   /** Information page */
   .infoOne {
     margin-top: 8%;
@@ -1084,7 +1146,6 @@ input[type="radio"]:checked + span:before {
 }
 
 @media screen and (max-width: 400px) {
-
   .sectionOneAppendOne {
     margin: auto;
     margin-bottom: 8%;

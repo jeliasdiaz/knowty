@@ -6,7 +6,7 @@ export const SocialMenu = () => {
       <section className="mobileMenu">
         <TopWave />
         <div className="mobileSubjectMenu">
-          <MenuCard url="/sociales_1" img="socialesIcon.png" title="I periodo" />
+          <MenuCard url="/organizacion-territorial/suelos" img="socialesIcon.png" title="Organización territorial" />
           <MenuCard url="/doctrinas-economicas" img="socialesIcon.png" title="I. económicas" />
           <MenuCard url="/movimientos-guerrilleros" img="socialesIcon.png" title="M. armados" />
           <MenuCard url="/movimientos-sociales" img="socialesIcon.png" title="M. sociales" />

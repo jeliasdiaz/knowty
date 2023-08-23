@@ -20,19 +20,19 @@ export const DispersionMeasures = () => {
                 <p>
                     Las medidas de dispersión son aquellos valores estadísticos que proporcionan una idea acerca de como se agrupan los datos de un conjunto con respecto a los valores centrales del mismo. Las medidas de dispersión más comunes son:
                     <ul>
-                        <li><a href="#varianza" className="text-reset ">Varianza</a></li>
+                        <li>Varianza</li>
                         <li>Desviación estándar</li>
                     </ul>
                 </p>
 
                 <br />
-
                 <div>
                     <h5>Varianza</h5>
                     <p>La varianza es un índice que surge de calcular la sumatoria de las diferencias al cuadrado entre los valores y el valor central del conjunto sobre el numero total de datos en el conjunto, visto de otra forma:</p>
                     <Latex>{varianza}</Latex>
                 </div>
 
+                <br /><br />
                 <div>
                     <h5>Desviación estándar</h5>
                     <p>La desviación estándar es la raíz cuadrada de la varianza.</p>

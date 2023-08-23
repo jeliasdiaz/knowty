@@ -1,6 +1,10 @@
 .navbar-brand {
   width: 100%;
   transform: scale(1.4);
+  z-index: 5 !important;
+}
+.logo {
+  z-index: 5 !important;
 }
 .navbar-nav {
   flex-direction: row !important;
@@ -10,12 +14,14 @@
   margin-right: 7rem;
   margin-top: 1rem;
   width: fit-content;
+  border-radius: 50px;
+  z-index: 5 !important;
 }
 .navbar-nav a{
-  color: black;
+  color: #1f1e1e;
 }
 .navbar-nav a:hover{
-  color: black;
+  color: #1f1e1e;
 }
 .brandLink {
   width: 4.5%;
@@ -26,13 +32,16 @@
 .titleSubject{
   padding: 0.7em;
   background: white;
+  color: #2b7ea1;
   border-radius: 10px;
+  z-index: 5 !important;
 }
 .text-overflow{
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
   width: fit-content;
+  z-index: 5 !important;
 }
 
 /** Nav animation  */
@@ -108,6 +117,7 @@
     width: 2.6rem !important;
   }
   .navbar-nav{
+    margin-top: 0.5rem;
     margin-right: .9rem;
   }
   .brandLink{

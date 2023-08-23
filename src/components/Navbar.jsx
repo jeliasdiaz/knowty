@@ -51,12 +51,12 @@ export const Navbar = () => {
                   {titleSubject}
                 </small>
               ) : (
-                <NavLink to="/" className={`text-decoration-none bg-transparent brandLink fixed-top`} data-aos="fade-down" data-aos-delay="200" onClick={transitionPage}>
+                <NavLink to="/" className={`text-decoration-none bg-transparent brandLink fixed-top logo`} data-aos="fade-down" data-aos-delay="200" onClick={transitionPage}>
                   <img src="/img/knowty.png" alt="" className="navbar-brand" />
                 </NavLink>
               )
           }
-          <div className={`navbar-nav ownShadow rounded p-1 fixed-top ${visible ? "down" : " up"}`}>
+          <div className={`navbar-nav ownShadow p-2 fixed-top ${visible ? "down" : " up"}`}>
             <div className="d-none d-sm-flex gap-1">
               <NavIcon path="/" icon={<AiFillHome size={40} className="navBtn" />} tooltipContent="Inicio" tooltipId="inicio" />
 

@@ -30,7 +30,7 @@ import { Circumference, Straight, Ellipse, Parable, GeometryMenu, Triangle, Coni
 import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu, VectorPractice, MruPractice, MruaPractice, FreeFallPractice, VerticalShot } from "./pages/Physic/";
 
 //* Social
-import { FirstSocialPeriod, EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu, ExtraSocial } from "./pages/Social/";
+import { EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu, ExtraSocial, Ground, Territory, POT, WorldSystem } from "./pages/Social/";
 
 //* Trigonometry
 import { AnglesAndProperties, BasicTrigonometricNotions, TrigonometryMenu, TrigonometryPractice, SinTheorem, CosTheorem } from "./pages/Trigonometry/";
@@ -159,11 +159,14 @@ function App() {
             <Route  path="/caida-libre-practica" element={<FreeFallPractice/>} />
             <Route  path="/tiro-vertical-practica" element={<VerticalShot/>} />
 
-            <Route path="/sociales_1" element={<FirstSocialPeriod />} />
             <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />
             <Route path="/movimientos-guerrilleros" element={<ArmedGroups />} />
             <Route path="/movimientos-sociales" element={<SocialMovements />} />
             <Route path="/sociales-extra" element={<ExtraSocial />} />
+            <Route path="/organizacion-territorial/suelos" element={<Ground />} />
+            <Route path="/organizacion-territorial/territorio" element={<Territory />} />
+            <Route path="/organizacion-territorial/pot" element={<POT />} />
+            <Route path="/organizacion-territorial/sistema-mundo" element={<WorldSystem />} />
 
             <Route path="/estadistica" element={<Statistic />} />
             <Route path="/medidas-tendencia-central" element={<CentralTendency />} />
