@@ -3,7 +3,7 @@ import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import { IoClose } from "react-icons/io5";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
-export const Glossary = ({items}) => {
+export const Glossary = ({ items }) => {
     const [nav, setNav] = useState(false);
     const [currentTopicIndex, setCurrentTopicIndex] = useState(0);
     const navigate = useNavigate();
@@ -34,10 +34,10 @@ export const Glossary = ({items}) => {
     const prevTopic = () => {
         const topicKeys = Object.keys(items);
         const prevIndex = currentTopicIndex - 1;
-    
+
         if (prevIndex >= 0) {
             setCurrentTopicIndex(prevIndex);
-    
+
             const prevTopicKey = topicKeys[prevIndex];
             const prevTopicPath = items[prevTopicKey];
             setCurrentTopicIndex(prevIndex);
@@ -55,15 +55,16 @@ export const Glossary = ({items}) => {
                     <div className="d-flex justify-content-between mb-2">
                         <h3>Contenidos</h3>
 
-                        <IoClose size={30} onClick={handleNav} cursor="pointer"/>
+                        <IoClose size={30} onClick={handleNav} cursor="pointer" />
                     </div>
 
                     <div className="glossary-items">
                         {
                             Object.keys(items).map(key => {
+                                const isCurrentPath = location.pathname === items[key]
                                 return (
                                     <React.Fragment key={key}>
-                                        <Link to={items[key]} rel="noreferrer">{key}</Link>
+                                        <Link to={items[key]} rel="noreferrer" style={{ color: isCurrentPath && "#2b7ea1"}}>{key}</Link>
                                         <br />
                                     </React.Fragment>
                                 )
@@ -72,15 +73,15 @@ export const Glossary = ({items}) => {
                     </div>
                 </div>
             </div>
-            
+
             <div className="topicController">
                 {
-                    currentTopicIndex !== 0 
-                     && <BsArrowLeftShort size={30} className="btn-secondary" onClick={prevTopic} />
+                    currentTopicIndex !== 0
+                    && <BsArrowLeftShort size={30} className="btn-secondary" onClick={prevTopic} />
                 }
                 {
-                    currentTopicIndex !== Object.keys(items).length - 1 
-                     && <BsArrowRightShort size={30} className="btn-secondary ms-auto" onClick={nextTopic}/>
+                    currentTopicIndex !== Object.keys(items).length - 1
+                    && <BsArrowRightShort size={30} className="btn-secondary ms-auto" onClick={nextTopic} />
                 }
             </div>
         </>
