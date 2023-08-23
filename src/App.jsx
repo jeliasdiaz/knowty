@@ -14,7 +14,7 @@ import { Footer, Navbar, InstallAppBtn, ScrollBtn } from "./components";
 
 import {Statistic, CentralTendency, LocalizationMeasures, DispersionMeasures} from "./pages/Statistic/"
 //* Biology
-import { CellCycle, Cells, ECells, Organelles, PCells } from "./pages/Biology/Cells";
+import { CellCycle, Cells, Centrosomes, Cytoplasm, ECells, EndoplasmicReticulum, GolgiApparatus, Interface, Lysosomes, Mitochondria, NuclearMembrane, PCells, Ribosomes } from "./pages/Biology/Cells";
 import { BiologyMenu } from "./pages/Biology";
 
 //* Chemistry
@@ -41,6 +41,7 @@ import { ClassicPhilosophers, PhilosophyMenu, IntroductionPhilosophy } from "./p
 //* Blog
 import { SpacedRepetition, StudentsResources } from "./pages/Blog/";
 import { EnglishMenu } from "./pages/English/EnglishMenu";
+import { PhaseM } from "./pages/Biology/Cells/CellCycle/PhaseM";
 
 
 function App() {
@@ -123,7 +124,16 @@ function App() {
             <Route path="/celula-eucariota" element={<ECells />} />
             <Route path="/celula-procariota" element={<PCells />} />
             <Route path="/ciclo-celular" element={ <CellCycle />} />
-            <Route path="/organelos-celulares" element={ <Organelles />} />
+            <Route path="/ciclo-celular/interfase" element={ <Interface />} />
+            <Route path="/ciclo-celular/fase-m" element={ <PhaseM />} />
+            <Route path="/organelos-celulares/mitocondria" element={ <Mitochondria />} />
+            <Route path="/organelos-celulares/reticulo-endoplasmatico" element={ <EndoplasmicReticulum />} />
+            <Route path="/organelos-celulares/aparato-golgi" element={ <GolgiApparatus />} />
+            <Route path="/organelos-celulares/citoplasma" element={ <Cytoplasm />} />
+            <Route path="/organelos-celulares/centrosoma" element={ <Centrosomes/>} />
+            <Route path="/organelos-celulares/lisosomas" element={ <Lysosomes/>} />
+            <Route path="/organelos-celulares/membrana-nuclear" element={ <NuclearMembrane/>} />
+            <Route path="/organelos-celulares/ribosomas" element={ <Ribosomes/>} />
 
             <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
             <Route path="/historia-quimica" element={<ChemistryHistory />} />

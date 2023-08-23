@@ -3,7 +3,7 @@ import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import { IoClose } from "react-icons/io5";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
-export const Glossary = ({ items }) => {
+export const ContentsTable = ({ items }) => {
     const [nav, setNav] = useState(false);
     const [currentTopicIndex, setCurrentTopicIndex] = useState(0);
     const navigate = useNavigate();
@@ -46,11 +46,18 @@ export const Glossary = ({ items }) => {
     };
     return (
         <>
-            <div className="glossary ownShadow" onClick={handleNav}>
-                <span>Contenidos</span>
-            </div>
+            <div className="topicController">
 
-            <div className={` ${nav ? "glossary-nav" : "visually-hidden"}`} >
+                <BsArrowLeftShort size={40} className="btn-secondary p-2" cursor="pointer" onClick={prevTopic} />
+
+                <div className="glossary ownShadow" onClick={handleNav}>
+                    <span>Contenidos</span>
+                </div>
+
+                <BsArrowRightShort size={40} className="btn-secondary p-2" cursor="pointer" onClick={nextTopic} />
+            </div>
+            
+            <div className={`${nav ? "glossary-nav" : "visually-hidden "}`} >
                 <div className="glossary-content">
                     <div className="d-flex justify-content-between mb-2">
                         <h3>Contenidos</h3>
@@ -64,7 +71,7 @@ export const Glossary = ({ items }) => {
                                 const isCurrentPath = location.pathname === items[key]
                                 return (
                                     <React.Fragment key={key}>
-                                        <Link to={items[key]} rel="noreferrer" style={{ color: isCurrentPath && "#2b7ea1"}}>{key}</Link>
+                                        <Link to={items[key]} rel="noreferrer" style={{ color: isCurrentPath && "#2b7ea1" }}>{key}</Link>
                                         <br />
                                     </React.Fragment>
                                 )
@@ -74,16 +81,7 @@ export const Glossary = ({ items }) => {
                 </div>
             </div>
 
-            <div className="topicController">
-                {
-                    currentTopicIndex !== 0
-                    && <BsArrowLeftShort size={30} className="btn-secondary" onClick={prevTopic} />
-                }
-                {
-                    currentTopicIndex !== Object.keys(items).length - 1
-                    && <BsArrowRightShort size={30} className="btn-secondary ms-auto" onClick={nextTopic} />
-                }
-            </div>
+
         </>
     );
 };

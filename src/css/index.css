@@ -18,7 +18,23 @@ html {
   animation-duration: 0.25s;
 }
 /** Animations  */
+@keyframes slide-left {
+  0% {
+    transform: translate(100%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
 
+@keyframes slide-right {
+  0% {
+    transform: translate(-100%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -95,27 +111,27 @@ ul li:before {
   color: white;
   border-radius: 10px !important;
   transition: transform 0.2s, background-color 0.2s !important;
-}
 
-.btn-secondary:hover {
-  background-color: #28708f !important;
-  border-color: #28708f !important;
-  transform: translateY(-1.5px);
-}
-.btn-secondary:active {
-  background-color: #28708f !important;
-  border-color: #28708f !important;
-  transform: scale(0.9);
+  &:hover {
+    background-color: #28708f !important;
+    border-color: #28708f !important;
+    transform: translateY(-1.5px);
+  }
+  &:active {
+    background-color: #28708f !important;
+    border-color: #28708f !important;
+    transform: scale(0.9);
+  }
 }
 
 .btn-outline-secondary {
   border-color: #2d7d9f !important;
   border-radius: 10px !important;
   transition: transform 0.2s, background-color 0.2s !important;
-}
 
-.btn-outline-secondary:hover {
-  background-color: #2b7ea1 !important;
+  &:hover {
+    background-color: #2b7ea1 !important;
+  }
 }
 
 .installCard {
@@ -140,7 +156,6 @@ ul li:before {
   display: flex;
   gap: 1em;
   justify-content: center;
-  align-items: center;
 }
 
 .installCard img {
@@ -194,19 +209,19 @@ ul li:before {
   border: none;
   border-radius: 5px;
   background: #cde6f1 !important;
-}
 
-.numberInput:focus {
-  outline: none;
+  &:focus {
+    outline: none;
+  }
+  &:focus::placeholder {
+    color: gray;
+  }
 }
 
 .numberInput[type="number"]::-webkit-inner-spin-button,
 .numberInput[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
-}
-.numberInput:focus::placeholder {
-  color: gray;
 }
 
 input[type="radio"] {
@@ -256,10 +271,11 @@ input[type="radio"]:checked + span:before {
   cursor: pointer;
   transition: all 0.2s !important;
   z-index: 10;
-}
 
-.scrollToTopBtn:active {
-  transform: scale(0.9) !important;
+  &:active {
+    transform: scale(0.9) !important;
+
+  }
 }
 
 .scrollToTopBtn svg circle {
@@ -272,6 +288,7 @@ input[type="radio"]:checked + span:before {
   right: -3.9px;
   bottom: -4px;
   transition: all 0.2s;
+
 }
 
 /** Section 1 */
@@ -350,7 +367,7 @@ input[type="radio"]:checked + span:before {
   font-size: 38px;
 }
 
-.text-sectionTwo ::selection {
+.text-sectionTwo::selection {
   background-color: #bfdfed;
   color: #fff;
 }
@@ -369,6 +386,12 @@ input[type="radio"]:checked + span:before {
   align-items: center;
   height: 90px;
   width: 260px;
+
+  &:hover {
+    background-color: #bfdfed;
+    color: #fefefe !important;
+    transform: translateY(-5px) !important;
+  }
 }
 
 .subjectLink img {
@@ -387,17 +410,6 @@ input[type="radio"]:checked + span:before {
   transition: transform 0.2s, background-color 0.2s;
 }
 
-.subjectLink:hover {
-  background-color: #bfdfed;
-  color: #fefefe !important;
-  transform: translateY(-5px) !important;
-}
-
-.subjectLinkMenu:hover {
-  background-color: #bfdfed;
-  color: #fefefe !important;
-  transform: translateY(-5px) !important;
-}
 
 .trigonometryCard h5 {
   font-size: 17.5px;
@@ -413,6 +425,12 @@ input[type="radio"]:checked + span:before {
   width: 260px;
   margin-bottom: 8%;
   transition: 0.5s !important;
+
+  &:hover {
+    background-color: #bfdfed;
+    color: #fefefe !important;
+    transform: translateY(-5px) !important;
+  }
 }
 
 .subjectLinkMenuContent {
@@ -541,24 +559,27 @@ input[type="radio"]:checked + span:before {
   padding: 1%;
   width: fit-content;
   margin-inline: auto;
+  align-self: center;
   border-radius: 15px;
   background-color: white;
   color: #2b7ea1;
   cursor: pointer;
   transform: scale(1.2);
   z-index: 10;
+  &:active {
+    transform: scale(0.9);
+  }
 }
-.glossary:active {
-  transform: scale(0.9);
-}
+
 .glossary-nav {
   position: fixed;
   top: 0;
-  width: 25%;
+  width: 22%;
   z-index: 100;
   background-color: #f6f6f6;
   height: 100vh;
   padding: 2%;
+  animation: slide-right 0.2s;
 }
 
 .glossary-content {
@@ -574,9 +595,16 @@ input[type="radio"]:checked + span:before {
   margin-bottom: 2em;
   text-decoration: none;
   color: black;
+  &:hover {
+    text-decoration: underline #2b7ea1;
+  }
 }
-.glossary-items a:hover {
-  text-decoration: underline #2b7ea1;
+
+.topicController {
+  width: 40%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
 }
 .subjectCardPeriodicTable {
   background-color: white;
@@ -741,37 +769,36 @@ input[type="radio"]:checked + span:before {
   background: white;
   border-radius: 15px;
   transition: all 0.3s;
+  &:hover {
+    transform: translateY(-10px) !important;
+  }
+  &:hover .blogCardTitle {
+    color: #2b7ea1;
+  }
+  .blogCardImg {
+    width: 9em;
+    object-fit: cover;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  
+  .blogCardText {
+    width: 22em;
+    padding: 0.5em;
+    color: #000;
+    border: 0px 2px 0px 2px #000 1;
+  }
+  
+  .blogCardText p {
+    font-size: 16px;
+  }
+  
+  .blogCardTitle {
+    transition: 0.3s;
+  }
 }
 
-.blogCard:hover {
-  transform: translateY(-10px) !important;
-}
 
-.blogCardImg {
-  width: 9em;
-  object-fit: cover;
-  border-bottom-left-radius: 15px;
-  border-top-left-radius: 15px;
-}
-
-.blogCardText {
-  width: 22em;
-  padding: 0.5em;
-  color: #000;
-  border: 0px 2px 0px 2px #000 1;
-}
-
-.blogCardText p {
-  font-size: 16px;
-}
-
-.blogCardTitle {
-  transition: 0.3s;
-}
-
-.blogCard:hover .blogCardTitle {
-  color: #2b7ea1;
-}
 
 .blogSectionContainer {
   min-height: 100vh;
@@ -915,19 +942,17 @@ input[type="radio"]:checked + span:before {
     margin-bottom: 0;
   }
   .glossary {
-    position: fixed;
     font-size: 12px;
     padding: 2%;
-    top: 8em;
-    right: 1.5em;
+    align-self: center;
   }
   .glossary-nav {
-    top: 5em;
-    right: 1em;
-    width: 45%;
-    height: fit-content;
+    top: 0em;
+    right: 0em;
+    width: 50%;
+    height: 100%;
     padding: 3%;
-    border-radius: 15px;
+    animation: slide-left 0.2s;
   }
   .glossary-content {
     margin-top: 0%;
@@ -942,9 +967,6 @@ input[type="radio"]:checked + span:before {
   }
   .topicController {
     width: 80%;
-    margin-inline: auto;
-    display: flex;
-    justify-content: space-between;
   }
   .text-sectionTwo {
     width: 90%;

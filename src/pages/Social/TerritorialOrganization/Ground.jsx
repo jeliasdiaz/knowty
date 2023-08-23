@@ -1,5 +1,5 @@
 import { items } from "."
-import { Glossary, SectionTitle, TopWave } from "../../../components"
+import { ContentsTable, SectionTitle, TopWave } from "../../../components"
 
 export const Ground = () => {
     return (
@@ -7,7 +7,7 @@ export const Ground = () => {
             <TopWave />
             <SectionTitle title="Suelos" />
             
-            <Glossary items={items} />
+            <ContentsTable items={items} />
             
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
 
