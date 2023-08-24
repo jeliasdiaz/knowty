@@ -35,29 +35,16 @@ html {
     transform: translate(0%);
   }
 }
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-    filter: blur(3px);
-  }
-  20% {
-    opacity: 0.2;
-    filter: blur(3px);
-  }
-  40% {
-    filter: blur(0);
-    transform: scale(1);
-    opacity: 1;
-  }
+@keyframes show {
   100% {
-    filter: blur(0);
     transform: scale(1);
-    opacity: 1;
   }
 }
+
 .revealing-image {
-  animation: fade-in linear;
-  animation-timeline: view(block);
+  transform: scale(0);
+  animation:  show;
+  animation-timeline: view();
 }
 
 /** Global elements */
