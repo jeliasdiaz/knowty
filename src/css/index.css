@@ -35,7 +35,7 @@ html {
     transform: translate(0%);
   }
 }
-@keyframes show {
+/* @keyframes show {
   100% {
     transform: scale(1);
   }
@@ -43,12 +43,11 @@ html {
 
 .revealing-image {
   transform: scale(0);
-  animation:  show;
+  animation: show;
   animation-timeline: view();
-}
+} */
 
-/** Global elements */
-/* Shadows */
+/** Shadows */
 .ownShadow-sm {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
   transition: all 0.5s;
@@ -261,13 +260,11 @@ input[type="radio"]:checked + span:before {
 
   &:active {
     transform: scale(0.9) !important;
-
   }
-}
-
-.scrollToTopBtn svg circle {
-  transition-delay: 0.1s;
-  transition: 200ms;
+  & svg circle {
+    transition-delay: 0.1s;
+    transition: 200ms;
+  }
 }
 
 .circleProgress {
@@ -275,7 +272,6 @@ input[type="radio"]:checked + span:before {
   right: -3.9px;
   bottom: -4px;
   transition: all 0.2s;
-
 }
 
 /** Section 1 */
@@ -289,21 +285,19 @@ input[type="radio"]:checked + span:before {
   padding: 5%;
   padding-top: 2rem;
   justify-content: space-between;
-}
 
-.sectionOne h1 {
-  font-size: 3.75em;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-}
-
-.sectionOne p {
-  font-size: 1em;
-  width: 22rem;
-}
-
-.sectionOne img {
-  width: 30rem;
+  & h1 {
+    font-size: 3.75em;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+  }
+  & p {
+    font-size: 1em;
+    width: 22rem;
+  }
+  & img {
+    width: 30rem;
+  }
 }
 
 .sectionOneAppendOne {
@@ -347,16 +341,15 @@ input[type="radio"]:checked + span:before {
   color: #fff;
   height: 80%;
   transition: 0.5s;
-}
+  & h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 38px;
+  }
 
-.text-sectionTwo h2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 38px;
-}
-
-.text-sectionTwo::selection {
-  background-color: #bfdfed;
-  color: #fff;
+  &::selection {
+    background-color: #bfdfed;
+    color: #fff;
+  }
 }
 
 /** Subjects space */
@@ -379,14 +372,12 @@ input[type="radio"]:checked + span:before {
     color: #fefefe !important;
     transform: translateY(-5px) !important;
   }
-}
-
-.subjectLink img {
-  width: 25%;
-}
-
-.subjectLink h5 {
-  margin-bottom: 0;
+  & img {
+    width: 25%;
+  }
+  & h5 {
+    margin-bottom: 0;
+  }
 }
 
 .animation {
@@ -396,7 +387,6 @@ input[type="radio"]:checked + span:before {
 .animationMobile {
   transition: transform 0.2s, background-color 0.2s;
 }
-
 
 .trigonometryCard h5 {
   font-size: 17.5px;
@@ -427,10 +417,9 @@ input[type="radio"]:checked + span:before {
   transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
-}
-
-.subjectLinkMenuContent img {
-  margin-bottom: 2%;
+  & img {
+    margin-bottom: 2%;
+  }
 }
 
 /** Física page */
@@ -445,69 +434,33 @@ input[type="radio"]:checked + span:before {
 .moreInformationLinks li a {
   color: #3aa0cc;
   text-decoration: none;
-}
 
-.moreInformationLinks li a:hover {
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
 }
 
 .convertionType ul {
   border: none;
   box-shadow: 0 0.5rem 1rem rgba(10, 6, 6, 0.15);
   transition: all 0.5s;
-}
 
-.convertionType ul li {
-  list-style: none;
-  cursor: pointer;
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
-}
+  & li {
+    list-style: none;
+    cursor: pointer;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
 
-.convertionType ul li:hover {
-  background-color: #f6f6f6;
-}
-
-.convertionType ul li:before {
-  content: "";
-  margin-left: 0.6em;
-}
-
-.pagination {
-  margin-top: 5%;
-  --bs-pagination-border-width: 0px !important;
-  --bs-pagination-padding-x: 1rem !important;
-  --bs-pagination-padding-y: 1rem !important;
-  --bs-pagination-border-radius: 1.3rem !important;
-  transition: 0.5s;
-  border-radius: 1.3rem;
-  width: fit-content;
-  margin-inline: auto;
-}
-
-.pagination li {
-  border-radius: 1.3rem !important;
-  list-style-type: none !important;
-}
-
-.pagination li a:hover {
-  background-color: #bfdfed;
-  color: black !important;
-}
-
-.pagination li a:focus {
-  background-color: #bfdfed;
-  color: black !important;
-}
-
-.pagination li:before {
-  content: none;
-}
-
-.page-link {
-  color: black !important;
-  transition: 0.5s;
+    &:hover {
+      background-color: #f6f6f6;
+      border-radius: 10px;
+    }
+    &:before {
+      content: "";
+      margin-left: 0.6em;
+    }
+  }
 }
 
 /** Física practice  */
@@ -540,6 +493,12 @@ input[type="radio"]:checked + span:before {
   border-radius: 20px;
   padding: 4%;
   transition: 0.5s !important;
+  & li {
+    padding-top: 0.3em;
+  }
+  & h4 {
+    padding-top: 0.5em;
+  }
 }
 .glossary {
   position: relative;
@@ -577,13 +536,13 @@ input[type="radio"]:checked + span:before {
   padding-left: 2%;
   border-left: 2px solid gray;
   height: fit-content;
-}
-.glossary-items a {
-  margin-bottom: 2em;
-  text-decoration: none;
-  color: black;
-  &:hover {
-    text-decoration: underline #2b7ea1;
+  & a {
+    margin-bottom: 2em;
+    text-decoration: none;
+    color: black;
+    &:hover {
+      text-decoration: underline #2b7ea1;
+    }
   }
 }
 
@@ -612,14 +571,6 @@ input[type="radio"]:checked + span:before {
 .collapseTitleIconDown {
   transition: 0.5s;
   margin-top: 0.5%;
-}
-
-.subjectCard li {
-  padding-top: 0.3em;
-}
-
-.subjectCard h4 {
-  padding-top: 0.5em;
 }
 
 .dropdownBorder {
@@ -654,6 +605,9 @@ input[type="radio"]:checked + span:before {
   flex-wrap: wrap;
   gap: 2%;
   justify-content: center;
+  & h4 {
+    color: #2b7ea1;
+  }
 }
 
 .englishCard {
@@ -682,10 +636,6 @@ input[type="radio"]:checked + span:before {
   text-align: center;
   margin: 3%;
   transition: 0.5s !important;
-}
-
-.englishCardContainer h4 {
-  color: #2b7ea1;
 }
 
 /** Mobile menu pages */
@@ -737,10 +687,9 @@ input[type="radio"]:checked + span:before {
   width: 21.875rem;
   height: 20rem;
   margin-inline: 2%;
-}
-
-.cardInfo h3 {
-  color: #2b7ea1;
+  & h3 {
+    color: #2b7ea1;
+  }
 }
 
 /** Blog */
@@ -768,24 +717,22 @@ input[type="radio"]:checked + span:before {
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
   }
-  
+
   .blogCardText {
     width: 22em;
     padding: 0.5em;
     color: #000;
     border: 0px 2px 0px 2px #000 1;
   }
-  
+
   .blogCardText p {
     font-size: 16px;
   }
-  
+
   .blogCardTitle {
     transition: 0.3s;
   }
 }
-
-
 
 .blogSectionContainer {
   min-height: 100vh;
@@ -802,26 +749,22 @@ input[type="radio"]:checked + span:before {
   border-radius: 20px;
   padding: 4%;
   background-color: white;
-}
-
-.blogSection ul li {
-  list-style-type: disc;
-}
-
-.blogSection ul li h4 a {
-  color: #28708f;
-  font-weight: 600;
-  text-decoration: none;
-  transition: 150ms;
-}
-
-.blogSection ul li h4 a:hover {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.blogSection ul li::before {
-  content: "";
+  & ul li {
+    list-style-type: disc;
+    &::before {
+      content: "";
+    }
+    & h4 a {
+      color: #28708f;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 150ms;
+      &:hover {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+    }
+  }
 }
 
 .containerCards {
@@ -847,27 +790,22 @@ input[type="radio"]:checked + span:before {
   border-radius: 20px;
   padding: 4%;
   transition: 0.5s !important;
-}
-
-.iconsCard ul li {
-  list-style-type: disc;
-  transition: 150ms;
-}
-
-.iconsCard ul li:hover {
-  text-decoration: underline;
-}
-
-.iconsCard ul li::before {
-  content: "";
-}
-
-.iconsCard ul li a {
-  color: black;
-}
-
-.iconsCard h4 {
-  padding-top: 0.5em;
+  & h4 {
+    padding-top: 0.5em;
+  }
+  & ul li {
+    list-style-type: disc;
+    transition: 150ms;
+    & a {
+      color: black;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+    &::before {
+      content: "";
+    }
+  }
 }
 
 /** Not Found */
@@ -882,19 +820,16 @@ input[type="radio"]:checked + span:before {
   height: 100vh;
   text-align: center;
   padding-top: 2rem;
-}
-
-.notFound h1 {
-  font-size: 50px;
-}
-
-.notFound h6 {
-  font-size: 24px;
-}
-
-.notFound p {
-  text-align: justify;
-  hyphens: auto;
+  & h1 {
+    font-size: 50px;
+  }
+  & h6 {
+    font-size: 24px;
+  }
+  & p {
+    text-align: justify;
+    hyphens: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -919,15 +854,14 @@ input[type="radio"]:checked + span:before {
     width: 100%;
     align-items: center;
     display: flex;
+    & h2 {
+      padding-left: 0.5rem;
+    }
+    & img {
+      margin-bottom: 0;
+    }
   }
 
-  .subjectLinkMenuContent h2 {
-    padding-left: 0.5rem;
-  }
-
-  .subjectLinkMenuContent img {
-    margin-bottom: 0;
-  }
   .glossary {
     font-size: 12px;
     padding: 2%;
@@ -943,14 +877,14 @@ input[type="radio"]:checked + span:before {
   }
   .glossary-content {
     margin-top: 0%;
-  }
-  .glossary-content h3 {
-    font-size: 18px;
-    margin-top: 2%;
-    color: #2b7ea1;
-  }
-  .glossary-content svg {
-    width: 2em;
+    & h3 {
+      font-size: 18px;
+      margin-top: 2%;
+      color: #2b7ea1;
+    }
+    & svg {
+      width: 2em;
+    }
   }
   .topicController {
     width: 80%;
@@ -983,21 +917,18 @@ input[type="radio"]:checked + span:before {
     padding: 5%;
     margin: auto;
     text-align: center;
-  }
-
-  .sectionOne img {
-    width: 20rem;
-    margin: auto;
-  }
-
-  .sectionOne h1 {
-    font-size: 3em;
-  }
-
-  .sectionOne p {
-    font-size: 15px;
-    width: 96%;
-    margin: auto;
+    & img {
+      width: 20rem;
+      margin: auto;
+    }
+    & h1 {
+      font-size: 3em;
+    }
+    & p {
+      font-size: 15px;
+      width: 96%;
+      margin: auto;
+    }
   }
 
   .sectionOneAppendOne {
