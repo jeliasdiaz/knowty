@@ -8,7 +8,13 @@ export const PhilosophyMenu = () => {
                 <div className="mobileSubjectMenu">
                     <MenuCard url="/introduccion-filosofia" img="filosofiaIcon.png" title="Introducción" />
 
-                    <MenuCard url="/filosofos-clasicos" img="filosofiaIcon.png" title="Filósofos clásicos" />
+                    <MenuCard url="/filosofia-antigua" img="filosofiaIcon.png" title="Filosofía antigua" />
+
+                    <MenuCard url="/filosofia-medieval" img="filosofiaIcon.png" title="Filosofía medieval" />
+
+                    <MenuCard url="/filosofia-moderna" img="filosofiaIcon.png" title="Filosofía moderna" />
+
+                    <MenuCard url="/filosofia-contemporanea" img="filosofiaIcon.png" title="Filosofía contemporanea" />
                 </div>
             </section>
         </>

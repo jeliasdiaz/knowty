@@ -1,5 +1,5 @@
 import Latex from "react-latex"
-import { CollapseInformation, MenuCard, MoreBtn, SectionTitle, TopWave } from "../../components";
+import { CollapseInformation, MenuCard, MoreBtn, SectionTitle, TopWave } from "../../../components";
 
 export const Statistic = () => {
 

@@ -1,6 +1,5 @@
 import Latex from "react-latex"
-import { SectionTitle } from "../../components/SectionTitle";
-import { TopWave } from "../../components/";
+import { SectionTitle, TopWave } from "../../../components/";
 
 export const Circumference = () => {
 

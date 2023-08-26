@@ -1,4 +1,4 @@
-import { SectionTitle, TopWave } from "../../components/";
+import { SectionTitle, TopWave } from "../../../components";
 import Latex from "react-latex"
 import { PitagorasPractice } from "./Practice/PitagorasPractice";
 

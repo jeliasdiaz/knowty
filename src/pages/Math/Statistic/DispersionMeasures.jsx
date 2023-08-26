@@ -1,5 +1,4 @@
-import React from 'react'
-import { SectionTitle, TopWave } from '../../components'
+import { SectionTitle, TopWave } from '../../../components'
 import Latex from 'react-latex'
 
 export const DispersionMeasures = () => {

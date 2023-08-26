@@ -1,5 +1,4 @@
-import React from 'react'
-import { CollapseInformation, SectionTitle, TopWave } from '../../components'
+import { CollapseInformation, SectionTitle, TopWave } from '../../../components'
 import Latex from 'react-latex'
 
 export const Triangle = () => {

@@ -1,4 +1,4 @@
-import { MenuCard, TopWave } from '../../components'
+import { MenuCard, TopWave } from '../../../components'
 
 export const ConicSections = () => {
   return (

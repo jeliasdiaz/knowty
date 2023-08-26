@@ -1,5 +1,5 @@
 import React from 'react'
-import { useControlObjects } from '../../../helpers/controlObjects';
+import { useControlObjects } from '../../../../helpers/controlObjects';
 import pitagoras from "../data/pitagoras.json"
 import { BsBarChartFill } from 'react-icons/bs';
 import Latex from 'react-latex';

@@ -69,7 +69,8 @@ h1 {
 }
 
 hr {
-  margin-bottom: 5% !important;
+  margin-bottom: 2.5% !important;
+  margin-top: 2.5% !important;
   margin-inline: auto !important;
   background-color: white;
   height: 3px !important;
@@ -306,6 +307,7 @@ input[type="radio"]:checked + span:before {
 
 .flexHome {
   display: flex;
+  align-items: center;
   gap: 2%;
 }
 
@@ -335,7 +337,6 @@ input[type="radio"]:checked + span:before {
 .text-sectionTwo {
   width: 100%;
   padding: 4% !important;
-  margin-top: 5%;
   border-radius: 25px;
   background-color: #2b7ea1;
   color: #fff;
@@ -388,7 +389,7 @@ input[type="radio"]:checked + span:before {
   transition: transform 0.2s, background-color 0.2s;
 }
 
-.trigonometryCard h5 {
+.mathCard h5 {
   font-size: 17.5px;
   margin-left: 0% !important;
 }

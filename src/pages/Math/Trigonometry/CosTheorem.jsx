@@ -1,5 +1,5 @@
 import Latex from 'react-latex'
-import { MoreBtn, SectionTitle, TopWave } from '../../components'
+import { MoreBtn, SectionTitle, TopWave } from '../../../components'
 
 export const CosTheorem = () => {
 

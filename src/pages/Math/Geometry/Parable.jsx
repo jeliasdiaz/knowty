@@ -1,4 +1,4 @@
-import { SectionTitle, MoreBtn, TopWave } from "../../components/";
+import { SectionTitle, MoreBtn, TopWave } from "../../../components/";
 
 export const Parable = () => {
     return (

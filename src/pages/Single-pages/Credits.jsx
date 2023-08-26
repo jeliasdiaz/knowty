@@ -74,6 +74,7 @@ export const Credits = () => {
                             <li><a href="https://www.flaticon.es/iconos-gratis/generador" title="generador iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Generador iconos creados por Freepik - Flaticon</a></li>
                             <li><a href="https://www.flaticon.es/iconos-gratis/aplicacion" title="aplicación iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Aplicación iconos creados por Freepik - Flaticon</a></li>
                             <li><a href="https://www.flaticon.es/iconos-gratis/idea" title="idea iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Idea iconos creados por Icon home - Flaticon</a></li>
+                            <li><a href="https://www.flaticon.es/iconos-gratis/matematicas" title="matemáticas iconos" className=" text-decoration-none" target="_blank" rel="noreferrer">Matemáticas iconos creados por Freepik - Flaticon</a></li>
                         </ul>
                     </CollapseInformation>
                 </div>

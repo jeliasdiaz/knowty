@@ -63,7 +63,6 @@
 }
 .up {
   animation: up 1s;
-  transition-delay: 0.2s;
   transform: translateY(-200px);
 }
 .down {

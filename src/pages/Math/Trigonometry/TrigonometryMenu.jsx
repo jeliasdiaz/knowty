@@ -1,4 +1,4 @@
-import { TopWave, MenuCard } from "../../components/"
+import { TopWave, MenuCard } from "../../../components/"
 
 export const TrigonometryMenu = () => {
   return (

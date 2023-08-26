@@ -1,5 +1,6 @@
 export * from "./CellCycle"
 export * from "./Interface"
+export * from "./PhaseM"
 
 export const cellCycleItems = {
     "Ciclo celular": "/ciclo-celular",

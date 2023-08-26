@@ -1,5 +1,5 @@
 import Latex from "react-latex"
-import { SectionTitle, TopWave } from "../../components";
+import { SectionTitle, TopWave } from "../../../components";
 
 export const AnglesAndProperties = () => {
 

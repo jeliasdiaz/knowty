@@ -12,19 +12,19 @@ import { Footer, Navbar, InstallAppBtn, ScrollBtn } from "./components";
 
 //* Statistic
 
-import {Statistic, CentralTendency, LocalizationMeasures, DispersionMeasures} from "./pages/Statistic/"
+import {Statistic, CentralTendency, LocalizationMeasures, DispersionMeasures} from "./pages/Math/Statistic"
 //* Biology
-import { CellCycle, Cells, Centrosomes, Cytoplasm, ECells, EndoplasmicReticulum, GolgiApparatus, Interface, Lysosomes, Mitochondria, NuclearMembrane, PCells, Ribosomes } from "./pages/Biology/Cells";
+import { CellCycle, Cells, Centrosomes, Cytoplasm, ECells, EndoplasmicReticulum, GolgiApparatus, Interface, Lysosomes, Mitochondria, NuclearMembrane, PCells, PhaseM, Ribosomes } from "./pages/Biology/Cells";
 import { BiologyMenu } from "./pages/Biology";
 
 //* Chemistry
 import { FirstChemistryPeriod, FourthChemistryPeriod, SecondChemistryPeriod, ThirdChemistryPeriod, ChemistryMenu, ChemistryHistory } from "./pages/Chemistry";
 
 //* English
-import { English, Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVerbs, PresentContinuous, PastContinuous, FutureContinuous } from "./pages/English";
+import { English, Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVerbs, PresentContinuous, PastContinuous, FutureContinuous, EnglishMenu } from "./pages/English";
 
 //* Geometry
-import { Circumference, Straight, Ellipse, Parable, GeometryMenu, Triangle, ConicSections } from "./pages/Geometry";
+import { Circumference, Straight, Ellipse, Parable, GeometryMenu, Triangle, ConicSections } from "./pages/Math/Geometry";
 
 //* Pyshic
 import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu, VectorPractice, MruPractice, MruaPractice, FreeFallPractice, VerticalShot } from "./pages/Physic/";
@@ -33,16 +33,17 @@ import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPra
 import { EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu, ExtraSocial, Ground, Territory, POT, WorldSystem } from "./pages/Social/";
 
 //* Trigonometry
-import { AnglesAndProperties, BasicTrigonometricNotions, TrigonometryMenu, TrigonometryPractice, SinTheorem, CosTheorem } from "./pages/Trigonometry/";
+import { AnglesAndProperties, BasicTrigonometricNotions, TrigonometryMenu, TrigonometryPractice, SinTheorem, CosTheorem } from "./pages/Math/Trigonometry/";
 
 //* Philosophy
 import { ClassicPhilosophers, PhilosophyMenu, IntroductionPhilosophy } from "./pages/Philosophy/";
 
 //* Blog
 import { SpacedRepetition, StudentsResources } from "./pages/Blog/";
-import { EnglishMenu } from "./pages/English/EnglishMenu";
-import { PhaseM } from "./pages/Biology/Cells/CellCycle/PhaseM";
+import { MathMenu } from "./pages/Math/MathMenu";
 
+//* Arithmetic
+import { Arithmetic, FundamentalOperations, MCMMCD } from "./pages/Math/Arithmetic";
 
 function App() {
   useEffect(() => {
@@ -149,7 +150,12 @@ function App() {
             <Route path="/presente-continuo" element={<PresentContinuous/>}/>
             <Route path="/pasado-continuo" element={<PastContinuous/>}/>
             <Route path="/determinantes" element={<Determinants />}/>
-            <Route path="modal-verbs" element={<ModalVerbs />}/>
+            <Route path="/modal-verbs" element={<ModalVerbs />}/>
+
+            <Route path="/matematicas-menu" element={<MathMenu />}/>
+            <Route path="/matematicas/introduccion-aritmetica" element={<Arithmetic />}/>
+            <Route path="/matematicas/operaciones-fundamentales" element={<FundamentalOperations/>}/>
+            <Route path="/matematicas/mcm-y-mcd" element={<MCMMCD/>}/>
 
             <Route path="/recta" element={<Straight />} />
             <Route path="/triangulos" element={<Triangle />} />
@@ -201,7 +207,7 @@ function App() {
             <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
 
             <Route path="/introduccion-filosofia" element={<IntroductionPhilosophy />} />
-            <Route path="/filosofos-clasicos" element={<ClassicPhilosophers />} />
+            <Route path="/filosofia-antigua" element={<ClassicPhilosophers />} />
 
             <Route path="/tools" element={<Tools />} />
             <Route path="/creditos" element={<Credits />} />

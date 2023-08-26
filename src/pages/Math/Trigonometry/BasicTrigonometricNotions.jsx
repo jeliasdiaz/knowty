@@ -1,5 +1,5 @@
 import Latex from "react-latex"
-import { SectionTitle, CollapseInformation, MoreBtn, TopWave } from "../../components";
+import { SectionTitle, CollapseInformation, MoreBtn, TopWave } from "../../../components";
 
 export const BasicTrigonometricNotions = () => {
 

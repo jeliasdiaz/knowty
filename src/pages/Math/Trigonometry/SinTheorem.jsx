@@ -1,4 +1,4 @@
-import { MoreBtn, SectionTitle, TopWave } from '../../components'
+import { MoreBtn, SectionTitle, TopWave } from '../../../components'
 import Latex from 'react-latex'
 
 export const SinTheorem = () => {

@@ -40,22 +40,23 @@ export const Search = () => {
       <div className="searchInputs" data-aos="fade-up" data-aos-duration="1000">
         {
           isVisible
-          && <form onSubmit={onSubmit}>
+          && <form onSubmit={onSubmit} className="inputForm">
             <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} ref={inputRef} className="input" />
-          </form>
-        }
-        <div className="searchIcon">
+            <div className="searchIcon">
           {
             searchTerm.length === 0
               ? <BiSearch size={35} />
               : <IoClose id="clearBtn" onClick={clearInput} size={35} />
           }
         </div>
+          </form>
+        }
+        
       </div>
 
       {
         searchTerm === ""
-          ? <h6 style={{ color: "gray" }} data-aos="fade-up" data-aos-duration="800">Escribe algo para buscar</h6>
+          ? <p style={{ color: "gray" }} data-aos="fade-up" data-aos-duration="800">Escribe algo para buscar</p>
 
           : filteredData.length !== 0
 

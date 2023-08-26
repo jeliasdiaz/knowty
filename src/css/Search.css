@@ -11,38 +11,40 @@
   align-items: center;
   justify-content: center;
 }
-.input {
+.inputForm {
+  display: flex;
+  align-items: center;
   background-color: #bfdfed;
-  width: 80%;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  width: 90%;
+  border-radius: 50px;
+  border: 0;
+  height: 60px;
+  padding: 15px;
+}
+.input {
+  background-color: transparent;
   border: 0;
   font-size: 20px;
   font-weight: 500;
-  padding: 15px;
-  height: 60px;
-  width: 320px;
-}
-.input:focus {
-  outline: none;
-}
-.input::selection {
-  background-color: #acc8d4;
-  color: #fff;
+  &:focus {
+    outline: none;
+    &::placeholder {
+      color: gray;
+    }
+  }
+  &::selection {
+    background-color: #acc8d4;
+    color: #fff;
+  }
 }
 ::placeholder {
   color: rgb(92, 92, 92);
   transition: 150ms;
   font-size: 14px;
 }
-.input:focus::placeholder {
-  color: gray;
-}
 .searchIcon {
-  background-color: #bfdfed;
-  padding: 0.783em;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  position: absolute;
+  right: 1.2em;
 }
 .dataItem {
   font-size: 18px;
@@ -52,13 +54,15 @@
   padding: 1%;
   width: 20%;
   margin: auto;
-  transition: transform 0.2s, background-color 0.2s ;
+  transition: transform 0.2s, background-color 0.2s;
+
+  &:hover {
+    background-color: #bfdfed;
+    color: #fefefe;
+    transform: translateX(-10px) !important;
+  }
 }
-.dataItem:hover {
-  background-color: #bfdfed;
-  color: #fefefe;
-  transform: translateX(-10px) !important;
-}
+
 .CardImg {
   width: 28%;
 }
@@ -82,3 +86,4 @@
     margin: auto;
   }
 }
+
