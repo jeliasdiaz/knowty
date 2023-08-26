@@ -298,6 +298,7 @@ input[type="radio"]:checked + span:before {
   }
   & img {
     width: 30rem;
+    filter: drop-shadow(5px 5px 10px #2b7ea1);
   }
 }
 

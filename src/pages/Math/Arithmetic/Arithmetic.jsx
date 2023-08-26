@@ -1,7 +1,47 @@
+import { CartesianGrid, Label, Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 import { arithmeticItems } from "."
 import { ContentsTable, SectionTitle, TopWave } from "../../../components"
 
 export const Arithmetic = () => {
+    const valorAbsoluto = [
+        {
+            name: -3,
+            value: 4,
+        },
+        {
+            name: -2,
+            value: 3,
+        },
+        {
+            name: -1,
+            value: 2,
+        },
+        {
+            name: 0,
+            value: 1,
+        },
+        {
+            name: 1,
+            value: 0,
+        },
+        {
+            name: 2,
+            value: 1,
+        },
+        {
+            name: 3,
+            value: 2
+        },
+        {
+            name: 4,
+            value: 3
+        },
+        {
+            name: 5,
+            value: 4,
+        },
+    ];
+
     return (
         <div className="homeCard">
             <TopWave />
@@ -37,7 +77,22 @@ export const Arithmetic = () => {
                 <h4>Valor absoluto de un número</h4>
                 <p>
                     Al contrario de lo que muchos piensan, el valor absoluto NO es la versión positiva de un número, sino que, se define como la distancia en la recta desde el cero hasta la ubicación de un punto X, por lo tanto, el valor absoluto de menos dos es igual a dos no porque sea su versión positiva sino porque se encuentra a dos unidades de distancia del dos. Se representa así: |a|.
+                    <br />
+                    <br />
+                    Ejemplo: Gráfica de la f(x) = |x - 1|
                 </p>
+                <ResponsiveContainer width={"88%"} height={300}>
+                    <LineChart width={500} height={300} data={valorAbsoluto}>
+                        <Line type="monotone" dataKey="value" stroke="#2b7ea1" />
+                        <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+                        <XAxis dataKey="name">
+                            <Label offset={-2} position="insideBottom" />
+                        </XAxis>
+                        <YAxis>
+                            <Label angle={-90} position="insideLeft" />
+                        </YAxis>
+                    </LineChart>
+                </ResponsiveContainer>
             </div>
         </div>
     )

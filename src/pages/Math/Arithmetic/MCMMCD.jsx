@@ -1,3 +1,4 @@
+import Latex from "react-latex"
 import { arithmeticItems } from "."
 import { ContentsTable, SectionTitle, TopWave } from "../../../components"
 
@@ -12,7 +13,7 @@ export const MCMMCD = () => {
                 <h3>Números primos</h3>
                 <ul>
                     <li>Los números primos son aquellos que solo son divisibles entre ellos mismos y la unidad, por definición el 1 no cuenta como número primo.</li>
-                    <li>Todos los números pueden ser descompuestos en factores primos. En otras palabras, expresarse como el producto de factores primos, por ejemplo, el 84, se puede escribir como 2*2*3*7.</li>
+                    <li>Todos los números pueden ser descompuestos en factores primos. En otras palabras, expresarse como el producto de factores primos, por ejemplo, el 84, se puede escribir como <Latex>{`$2 \\cdot 2 \\cdot 3 \\cdot 7$`}</Latex>.</li>
                 </ul>
 
                 <hr />

@@ -61,23 +61,19 @@ export const Home = () => {
             <div className="subjects d-block d-sm-none">
               <SubjectCard path="/biologia-menu" img="biologia" title="Biología" animationDelay={500} />
 
-              <SubjectCard path="/estadistica" img="estadistica" title="Estadística" animationDelay={600} />
-
               <SubjectCard path="/filosofia-menu" img="filosofia" title="Filosofía" animationDelay={700} />
 
               <SubjectCard path="/fisica-menu" img="fisica" title="Física" marginTop="mt-3" animationDelay={800} />
 
-              <SubjectCard path="/geometria-menu" img="geometria" title="Geometría" marginTop="mt-3" animationDelay={900} />
-
               <SubjectCard path="/ingles-menu" img="english" title="Inglés" marginTop="mt-3" animationDelay={1000} />
+
+              <SubjectCard path="/matematicas-menu" img="matematicas" title="Matemáticas" marginTop="mt-3 mathCard" animationDelay={1000} />
 
               <SubjectCard path="/quimica-menu" img="quimica" title="Química" marginTop="mt-3" animationDelay={1100} />
 
               <SubjectCard path="/sociales-menu" img="sociales" title="Sociales" marginTop="mt-3" animationDelay={1200} />
 
               <SubjectCard path="/tools" img="tools" title="Tools" animationDelay={1300} />
-
-              <SubjectCard path="/trigonometria-menu" img="trigonometria" title="Trigonometría" marginTop="mt-3 mathCard" animationDelay={1400} />
             </div>
           </div>
         </div>

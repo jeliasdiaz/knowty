@@ -25,6 +25,9 @@
   background-color: #121212;
   color: #fefefe;
 }
+.dark .sectionOne img {
+  filter: drop-shadow(5px 5px 20px #2b7ea1);
+}
 .dark .text-sectionTwo {
   background-color: #004a77;
   color: #e3e3e3;
