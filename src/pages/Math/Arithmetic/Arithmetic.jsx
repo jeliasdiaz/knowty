@@ -1,6 +1,9 @@
 import { CartesianGrid, Label, Line, LineChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 import { arithmeticItems } from "."
 import { ContentsTable, SectionTitle, TopWave } from "../../../components"
+import Latex from "react-latex";
+import { useContext } from "react";
+import { darkModeContext } from "../../../context/DarkModeContext";
 
 export const Arithmetic = () => {
     const valorAbsoluto = [
@@ -41,6 +44,8 @@ export const Arithmetic = () => {
             value: 4,
         },
     ];
+    const { isDarkMode } = useContext(darkModeContext);
+
 
     return (
         <div className="homeCard">
@@ -58,16 +63,23 @@ export const Arithmetic = () => {
                 </p>
                 <hr />
                 <h4>Clasificación de los números</h4>
+
+                <img
+                    src={isDarkMode ? "/img/clasificacionNumerosDark.png" : "/img/clasificacionNumeros.png"}
+                    alt=""
+                    className="w-80 rounded-3 revealing-image"
+                />
+
                 <p>
-                    <span className="fw-semibold">Naturales:</span> Surgen de la necesidad de contar, son todos aquellos números formados por el conjunto de cifras {"{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}"}. Existe un debate sobre si el cero pertenece a este conjunto, pero lo incluimos o excluimos cuando nos sea conveniente. Son infinitos.
+                    <span className="fw-semibold">Naturales <Latex>{`$\\N$`}</Latex>:</span> Surgen de la necesidad de contar, son todos aquellos números formados por el conjunto de cifras {"{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}"}. Existe un debate sobre si el cero pertenece a este conjunto, pero lo incluimos o excluimos cuando nos sea conveniente. Son infinitos.
                     <br /><br />
-                    <span className="fw-semibold">Enteros:</span> Nacen como algo necesario para complementar vacíos que dejaban los enteros, tales como sustracciones en las que el minuendo es menor que el sustraendo o para representar deudas, temperatura, etc. Contienen a los naturales, a sus correspondientes negativos y al cero.
+                    <span className="fw-semibold">Enteros <Latex>{`$\\Z$`}</Latex>:</span> Nacen como algo necesario para complementar vacíos que dejaban los enteros, tales como sustracciones en las que el minuendo es menor que el sustraendo o para representar deudas, temperatura, etc. Contienen a los naturales, a sus correspondientes negativos y al cero.
                     <br /><br />
-                    <span className="fw-semibold">Racionales:</span> Son el resultado de intentar dividir A número en B partes, cuando X no es múltiplo de Y, de tal manera, el resultado exacto (sin residuo) no es un número entero. Se definen como todo número el cual pueda escribirse de la forma A/B donde B es diferente de cero y pueden expresarse en forma de fracción o decimal. Contiene a los enteros.
+                    <span className="fw-semibold">Racionales <Latex>{`$\\mathbb{Q}$`}</Latex>:</span> Son el resultado de intentar dividir A número en B partes, cuando X no es múltiplo de Y, de tal manera, el resultado exacto (sin residuo) no es un número entero. Se definen como todo número el cual pueda escribirse de la forma A/B donde B es diferente de cero y pueden expresarse en forma de fracción o decimal. Contiene a los enteros.
                     <br /><br />
-                    <span className="fw-semibold">Irracionales:</span> Surgen debido a que la recta numérica no estaba completa con los racionales, y son estos mismo irracionales los que la completan, no se pueden expresar de la forma A/B y tienen valores decimales infinitos sin alguna repetición o periodicidad. El más famoso número irracional es pi. No contiene a algún subconjunto.
+                    <span className="fw-semibold">Irracionales <Latex>{`$\\mathbb{I}$`}</Latex>:</span> Surgen debido a que la recta numérica no estaba completa con los racionales, y son estos mismo irracionales los que la completan, no se pueden expresar de la forma A/B y tienen valores decimales infinitos sin alguna repetición o periodicidad. El más famoso número irracional es pi. No contiene a algún subconjunto.
                     <br /><br />
-                    <span className="fw-semibold">Reales:</span> Agrupa a todos los anteriores, son todos los números que van desde menos infinito hasta más infinito.
+                    <span className="fw-semibold">Reales <Latex>{`$\\R$`}</Latex>:</span> Agrupa a todos los anteriores, son todos los números que van desde menos infinito hasta más infinito.
                     <br /><br />
                     <span className="fw-semibold">Imaginarios</span> Son la forma en la que expresamos las raíces de índice par y radicando negativo, debido a que los reales no contemplan su existencia.
                     <br /><br />

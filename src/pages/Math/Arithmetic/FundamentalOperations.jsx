@@ -19,6 +19,28 @@ export const FundamentalOperations = () => {
                 </ul>
                 <br />
                 <h5>Propiedades de la suma</h5>
+                <table className="table table-bordered mx-auto">
+                    <thead className="table-light">
+                        <tr>
+                            <th scope="col">Propiedad</th>
+                            <th scope="col">Expresión simbólica</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Conmutativa</td>
+                            <td><Latex>{`$a + b = b + a$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Asociativa</td>
+                            <td><Latex>{`$(a + b) + c = a + (b + c)$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Elemento neutro</td>
+                            <td><Latex>{`$a + 0 = a$`}</Latex></td>
+                        </tr>
+                    </tbody>
+                </table>
                 <ol>
                     <li>
                         <span className="fw-semibold">Conmutativa:</span> El orden de los sumandos no afecta el resultado.
@@ -67,6 +89,32 @@ export const FundamentalOperations = () => {
                 </ul>
                 <br />
                 <h5>Propiedades de la multiplicación</h5>
+                <table className="table table-bordered mx-auto">
+                    <thead className="table-light">
+                        <tr>
+                            <th scope="col">Propiedad</th>
+                            <th scope="col">Expresión simbólica</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Conmutativa</td>
+                            <td><Latex>{`$a \\cdot b = b \\cdot a$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Asociativa</td>
+                            <td><Latex>{`$(a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Distributiva</td>
+                            <td><Latex>{`$a(b + c) = ab + ac$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Elemento neutro</td>
+                            <td><Latex>{`$a \\cdot 1 = a$`}</Latex></td>
+                        </tr>
+                    </tbody>
+                </table>
                 <ul>
                     <li>
                         <span className="fw-semibold">Conmutativa:</span> El orden de los factores no afecta el producto, por lo que es lo mismo 2x3 a 3x2.
@@ -136,6 +184,44 @@ export const FundamentalOperations = () => {
                 </ul>
                 <br />
                 <h5>Propiedades</h5>
+                <table className="table table-bordered mx-auto">
+                    <thead className="table-light">
+                        <tr>
+                            <th scope="col">Propiedad</th>
+                            <th scope="col">Expresión simbólica</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Potencia de exponente 0</td>
+                            <td><Latex>{`$x^0 = 1$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Potencia de exponente 1</td>
+                            <td><Latex>{`$x^1 = x$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Producto de potencias de igual base</td>
+                            <td><Latex>{`$x^n \\cdot x^m = x^{n + m}$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Cociente de potencias de igual base</td>
+                            <td><Latex>{`$\\frac{x^n}{x^m} = x^{n-m}$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Distributiva de la multiplicación y división</td>
+                            <td><Latex>{`$(x \\cdot y)^n = x^n \\cdot y^n$`}</Latex> <br /> <Latex>{`$(\\frac{x}{y})^n = \\frac{x^n}{y^n}$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Potencia de una potencia</td>
+                            <td><Latex>{`$(x^n)^m = x^{n + m}$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Potencia de exponente negativo</td>
+                            <td><Latex>{`$x^{-n} = \\frac{1}{x^n}$`}</Latex></td>
+                        </tr>
+                    </tbody>
+                </table>
                 <ul>
                     <li>
                         <span className="fw-semibold">Potencia de exponente 0:</span> Todo número diferente de 0 elevado a la 0 tiene como resultado 1 (0 elevado a la 0 es un caso indeterminado, sin embargo, en algunos contextos lo asumen como 1 por conveniencia matemática en ciertas áreas).
@@ -200,6 +286,32 @@ export const FundamentalOperations = () => {
                 </p>
                 <br />
                 <h5>Propiedades</h5>
+                <table className="table table-bordered mx-auto">
+                    <thead className="table-light">
+                        <tr>
+                            <th scope="col">Propiedad</th>
+                            <th scope="col">Expresión simbólica</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Raíz de un producto</td>
+                            <td><Latex>{`$\\sqrt[n]{a \\cdot b} = \\sqrt[n]{a} \\cdot \\sqrt[n]{b}$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Raíz de un cociente</td>
+                            <td><Latex>{`$\\sqrt[n]{\\frac{a}{b}} = \\frac{\\sqrt[n]{a}}{\\sqrt[n]{b}}$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Raíz de una potencia</td>
+                            <td><Latex>{`$\\sqrt[n]{a^m} = (\\sqrt[n]{a})^m = a^{\\frac{m}{n}}$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Raíz de una raíz</td>
+                            <td><Latex>{`$\\sqrt[n]{\\sqrt[p]{a}} = \\sqrt[n \\cdot p]{a}$`}</Latex></td>
+                        </tr>
+                    </tbody>
+                </table>
                 <ul>
                     <li>
                         <span className="fw-semibold">Raíz de un producto:</span> Dos números multiplicándose dentro del mismo radical (símbolo de la radicación √) pueden escribirse como la raíz de uno multiplicado por la raíz del otro (manteniendo el mismo índice para ambas raíces), así mismo, si dos raíces con el mismo índice se encuentran multiplicando, puede reescribirse todo bajo un mismo radical.
@@ -216,14 +328,14 @@ export const FundamentalOperations = () => {
                         </ul>
                     </li>
                     <li>
-                    <span className="fw-semibold">Raíz de una potencia:</span> La radicación puede expresarse en forma de potenciación, dejando el radicando como base, el exponente de esta base va a ser igual al exponente al que se encontraba elevado el radicando inicialmente dividido entre el índice. Por ejemplo, raíz de dos puede escribirse como dos elevado a un medio, el radicando (dos) se deja como base y como inicialmente se encontraba elevado a la uno (todo número en el que no se encuentre visible un exponente se le considera exponente uno debido a la propiedad “Potencia de exponente 1” de la potenciación) y tenía indice dos, el exponente del dos será su exponente inicial (uno) dividido entre el índice (dos).
-                    <ul>
-                        <li><Latex>{`$\\sqrt[n]{a^m} = (\\sqrt[n]{a})^m = a^{\\frac{m}{n}}$`}</Latex></li>
-                    </ul>
+                        <span className="fw-semibold">Raíz de una potencia:</span> La radicación puede expresarse en forma de potenciación, dejando el radicando como base, el exponente de esta base va a ser igual al exponente al que se encontraba elevado el radicando inicialmente dividido entre el índice. Por ejemplo, raíz de dos puede escribirse como dos elevado a un medio, el radicando (dos) se deja como base y como inicialmente se encontraba elevado a la uno (todo número en el que no se encuentre visible un exponente se le considera exponente uno debido a la propiedad “Potencia de exponente 1” de la potenciación) y tenía indice dos, el exponente del dos será su exponente inicial (uno) dividido entre el índice (dos).
+                        <ul>
+                            <li><Latex>{`$\\sqrt[n]{a^m} = (\\sqrt[n]{a})^m = a^{\\frac{m}{n}}$`}</Latex></li>
+                        </ul>
                     </li>
                     <li>
                         <span className="fw-semibold">Raíz de una raíz:</span> Si se le saca raíz a una raíz, todo puede reescribirse como una raíz de índice producto de multiplicar los índices de las raíces iniciales, manteniendo el radicando igual.
-                        
+
                         <ul>
                             <li><Latex>{`$\\sqrt[n]{\\sqrt[p]{a}} = \\sqrt[n \\cdot p]{a}$`}</Latex></li>
                         </ul>

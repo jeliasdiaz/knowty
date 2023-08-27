@@ -36,7 +36,7 @@ import { EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu, ExtraSocia
 import { AnglesAndProperties, BasicTrigonometricNotions, TrigonometryMenu, TrigonometryPractice, SinTheorem, CosTheorem } from "./pages/Math/Trigonometry/";
 
 //* Philosophy
-import { ClassicPhilosophers, PhilosophyMenu, IntroductionPhilosophy } from "./pages/Philosophy/";
+import { PhilosophyMenu, IntroductionPhilosophy, Presocratics, HellenisticSchools, Socrates, Plato, Aristotle } from "./pages/Philosophy/";
 
 //* Blog
 import { SpacedRepetition, StudentsResources } from "./pages/Blog/";
@@ -207,7 +207,11 @@ function App() {
             <Route path="/trigonometria-practica" element={<TrigonometryPractice />} />
 
             <Route path="/introduccion-filosofia" element={<IntroductionPhilosophy />} />
-            <Route path="/filosofia-antigua" element={<ClassicPhilosophers />} />
+            <Route path="/filosofia-antigua/presocraticos" element={<Presocratics />} />
+            <Route path="/filosofia-antigua/escuelas-helenisticas" element={<HellenisticSchools />} />
+            <Route path="/filosofia-antigua/socrates" element={<Socrates />} />
+            <Route path="/filosofia-antigua/platon" element={<Plato />} />
+            <Route path="/filosofia-antigua/aristoteles" element={<Aristotle />} />
 
             <Route path="/tools" element={<Tools />} />
             <Route path="/creditos" element={<Credits />} />
