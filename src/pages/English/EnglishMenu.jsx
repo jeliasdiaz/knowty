@@ -5,9 +5,9 @@ export const EnglishMenu = () => {
     <section className="mobileMenu">
         <TopWave />
         <div className="mobileSubjectMenu">
-          <MenuCard url="/ingles" img="englishIcon.png" title="Tiempos verbales" />
-          <MenuCard url="/determinantes" img="englishIcon.png" title="Determinants an/a" />
-          <MenuCard url="/modal-verbs" img="englishIcon.png" title="Modal verbs" />
+          <MenuCard url="/ingles/tiempos-verbales" img="englishIcon.png" title="Tiempos verbales" />
+          <MenuCard url="/ingles/determinantes" img="englishIcon.png" title="Determinants an/a" />
+          <MenuCard url="/ingles/modal-verbs" img="englishIcon.png" title="Modal verbs" />
         </div>
       </section>
   )

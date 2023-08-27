@@ -3,9 +3,13 @@ import { createContext, useState } from "react"
 export const darkModeContext = createContext()
 
 export const DarkModeContext = ({children}) => {
-    const [isDarkMode, setIsDarkMode] = useState(false)
+    const [isDarkMode, setIsDarkMode] = useState(localStorage.getItem('theme') || '')
     const handleDarkMode = () => {
-        setIsDarkMode(!isDarkMode)
+      if(isDarkMode === ''){
+        setIsDarkMode('dark')
+      } else {
+        setIsDarkMode('')
+      }
     }
     const value = {isDarkMode, handleDarkMode}
   return (

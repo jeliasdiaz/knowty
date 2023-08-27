@@ -124,17 +124,17 @@ function App() {
             <Route path="/celulas" element={<Cells />} />
             <Route path="/celula-eucariota" element={<ECells />} />
             <Route path="/celula-procariota" element={<PCells />} />
-            <Route path="/ciclo-celular" element={ <CellCycle />} />
-            <Route path="/ciclo-celular/interfase" element={ <Interface />} />
-            <Route path="/ciclo-celular/fase-m" element={ <PhaseM />} />
-            <Route path="/organelos-celulares/mitocondria" element={ <Mitochondria />} />
-            <Route path="/organelos-celulares/reticulo-endoplasmatico" element={ <EndoplasmicReticulum />} />
-            <Route path="/organelos-celulares/aparato-golgi" element={ <GolgiApparatus />} />
-            <Route path="/organelos-celulares/citoplasma" element={ <Cytoplasm />} />
-            <Route path="/organelos-celulares/centrosoma" element={ <Centrosomes/>} />
-            <Route path="/organelos-celulares/lisosomas" element={ <Lysosomes/>} />
-            <Route path="/organelos-celulares/membrana-nuclear" element={ <NuclearMembrane/>} />
-            <Route path="/organelos-celulares/ribosomas" element={ <Ribosomes/>} />
+            <Route path="/celulas/ciclo-celular" element={ <CellCycle />} />
+            <Route path="/celulas/ciclo-celular/interfase" element={ <Interface />} />
+            <Route path="/celulas/ciclo-celular/fase-m" element={ <PhaseM />} />
+            <Route path="/celulas/organelos-celulares/mitocondria" element={ <Mitochondria />} />
+            <Route path="/celulas/organelos-celulares/reticulo-endoplasmatico" element={ <EndoplasmicReticulum />} />
+            <Route path="/celulas/organelos-celulares/aparato-golgi" element={ <GolgiApparatus />} />
+            <Route path="/celulas/organelos-celulares/citoplasma" element={ <Cytoplasm />} />
+            <Route path="/celulas/organelos-celulares/centrosoma" element={ <Centrosomes/>} />
+            <Route path="/celulas/organelos-celulares/lisosomas" element={ <Lysosomes/>} />
+            <Route path="/celulas/organelos-celulares/membrana-nuclear" element={ <NuclearMembrane/>} />
+            <Route path="/celulas/organelos-celulares/ribosomas" element={ <Ribosomes/>} />
 
             <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
             <Route path="/historia-quimica" element={<ChemistryHistory />} />
@@ -142,15 +142,15 @@ function App() {
             <Route path="/quimica" element={<ThirdChemistryPeriod />} />
             <Route path="/quimica_4" element={<FourthChemistryPeriod />} />
 
-            <Route path="/ingles" element={<English />} />
-            <Route path="/presente-simple" element={<PresentSimple />}/>
-            <Route path="/pasado-simple" element={<PastSimple/>}/>
-            <Route path="/futuro-simple" element={<SimpleFuture/>}/>
-            <Route path="/futuro-continuo" element={<FutureContinuous/>}/>
-            <Route path="/presente-continuo" element={<PresentContinuous/>}/>
-            <Route path="/pasado-continuo" element={<PastContinuous/>}/>
-            <Route path="/determinantes" element={<Determinants />}/>
-            <Route path="/modal-verbs" element={<ModalVerbs />}/>
+            <Route path="/ingles/tiempos-verbales" element={<English />} />
+            <Route path="/ingles/tiempos-verbales/presente-simple" element={<PresentSimple />}/>
+            <Route path="/ingles/tiempos-verbales/pasado-simple" element={<PastSimple/>}/>
+            <Route path="/ingles/tiempos-verbales/futuro-simple" element={<SimpleFuture/>}/>
+            <Route path="/ingles/tiempos-verbales/futuro-continuo" element={<FutureContinuous/>}/>
+            <Route path="/ingles/tiempos-verbales/presente-continuo" element={<PresentContinuous/>}/>
+            <Route path="/ingles/tiempos-verbales/pasado-continuo" element={<PastContinuous/>}/>
+            <Route path="/ingles/determinantes" element={<Determinants />}/>
+            <Route path="/ingles/modal-verbs" element={<ModalVerbs />}/>
 
             <Route path="/matematicas-menu" element={<MathMenu />}/>
             <Route path="/matematicas/introduccion-aritmetica" element={<Arithmetic />}/>
@@ -164,25 +164,25 @@ function App() {
             <Route path="/parabola" element={<Parable />} />
             <Route path="/elipse" element={<Ellipse />} />
 
-            <Route path="/cinematica" element={<Cinematic />} />
-            <Route path="/dinamica" element={<Dinamic />} />
-            <Route path="/movimiento-circular" element={<CircularMovement />} />
-            <Route path="/energia" element={<Energy />} />
-            <Route path="/mecanica-fluidos" element={<FluidMechanics />} />
+            <Route path="/fisica/cinematica" element={<Cinematic />} />
+            <Route path="/fisica/dinamica" element={<Dinamic />} />
+            <Route path="/fisica/movimiento-circular" element={<CircularMovement />} />
+            <Route path="/fisica/energia" element={<Energy />} />
+            <Route path="/fisica/mecanica-fluidos" element={<FluidMechanics />} />
             <Route  path="/vectores-practica" element={<VectorPractice/>} />
             <Route  path="/mru-practica" element={<MruPractice/>} />
             <Route  path="/mrua-practica" element={<MruaPractice/>} />
             <Route  path="/caida-libre-practica" element={<FreeFallPractice/>} />
             <Route  path="/tiro-vertical-practica" element={<VerticalShot/>} />
 
-            <Route path="/doctrinas-economicas" element={<EconomicDoctrines />} />
-            <Route path="/movimientos-guerrilleros" element={<ArmedGroups />} />
-            <Route path="/movimientos-sociales" element={<SocialMovements />} />
-            <Route path="/sociales-extra" element={<ExtraSocial />} />
-            <Route path="/organizacion-territorial/suelos" element={<Ground />} />
-            <Route path="/organizacion-territorial/territorio" element={<Territory />} />
-            <Route path="/organizacion-territorial/pot" element={<POT />} />
-            <Route path="/organizacion-territorial/sistema-mundo" element={<WorldSystem />} />
+            <Route path="/sociales/ideologias-economicas" element={<EconomicDoctrines />} />
+            <Route path="/sociales/movimientos-guerrilleros" element={<ArmedGroups />} />
+            <Route path="/sociales/movimientos-sociales" element={<SocialMovements />} />
+            <Route path="/sociales/sociales-extra" element={<ExtraSocial />} />
+            <Route path="/sociales/organizacion-territorial/suelos" element={<Ground />} />
+            <Route path="/sociales/organizacion-territorial/territorio" element={<Territory />} />
+            <Route path="/sociales/organizacion-territorial/pot" element={<POT />} />
+            <Route path="/sociales/organizacion-territorial/sistema-mundo" element={<WorldSystem />} />
 
             <Route path="/estadistica" element={<Statistic />} />
             <Route path="/medidas-tendencia-central" element={<CentralTendency />} />

@@ -65,7 +65,7 @@ export const Arithmetic = () => {
                 <h4>Clasificación de los números</h4>
 
                 <img
-                    src={isDarkMode ? "/img/clasificacionNumerosDark.png" : "/img/clasificacionNumeros.png"}
+                    src={isDarkMode === 'dark' ? "/img/clasificacionNumerosDark.png" : "/img/clasificacionNumeros.png"}
                     alt=""
                     className="w-80 rounded-3 revealing-image"
                 />

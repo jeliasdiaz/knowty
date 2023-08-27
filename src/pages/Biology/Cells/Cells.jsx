@@ -13,7 +13,7 @@ const Flow = () => {
             targetPosition: "left",
             sourcePosition: "right",
             style: {border: '2px solid #2b7ea1'},
-            path: "/ciclo-celular"
+            path: "/celulas/ciclo-celular"
         },
         {
             id: '2',
@@ -21,7 +21,7 @@ const Flow = () => {
             data: { label: 'Interfase' },
             targetPosition: "left",
             sourcePosition: "right",
-            path: "/ciclo-celular"
+            path: "/celulas/ciclo-celular"
         },
         {
             id: '3',
@@ -29,7 +29,7 @@ const Flow = () => {
             data: { label: 'Fase M' },
             targetPosition: "left",
             sourcePosition: "right",
-            path: "/ciclo-celular"
+            path: "/celulas/ciclo-celular"
 
         },
         {
@@ -38,7 +38,7 @@ const Flow = () => {
             data: { label: 'Fase G1' },
             targetPosition: "left",
             sourcePosition: "right",
-            path: "/ciclo-celular"
+            path: "/celulas/ciclo-celular"
         },
         {
             id: '5',
@@ -46,7 +46,7 @@ const Flow = () => {
             data: { label: 'Fase S' },
             targetPosition: "left",
             sourcePosition: "right",
-            path: "/ciclo-celular"
+            path: "/celulas/ciclo-celular"
         },
         {
             id: '6',
@@ -54,7 +54,7 @@ const Flow = () => {
             data: { label: 'Fase G2' },
             targetPosition: "left",
             sourcePosition: "right",
-            path: "/ciclo-celular"
+            path: "/celulas/ciclo-celular"
         },
         {
             id: '7',
@@ -62,7 +62,7 @@ const Flow = () => {
             data: { label: 'Mitosis' },
             targetPosition: "left",
             sourcePosition: "right",
-            path: "/ciclo-celular"
+            path: "/celulas/ciclo-celular"
         },
         {
             id: '8',
@@ -70,7 +70,7 @@ const Flow = () => {
             data: { label: 'Citocinesis' },
             targetPosition: "left",
             sourcePosition: "right",
-            path: "/ciclo-celular"
+            path: "/celulas/ciclo-celular"
         },
         {
             id: '9',
@@ -218,9 +218,9 @@ export const Cells = () => {
 
             <div className="mobileSubjectMenu justify-content-center mt-5">
 
-                <MenuCard url="/organelos-celulares/centrosoma" img="aparatoGolgi.png" title="Estructura y organelos" imgSize="w-50" />
+                <MenuCard url="/celulas/organelos-celulares/centrosoma" img="aparatoGolgi.png" title="Estructura y organelos" imgSize="w-50" />
 
-                <MenuCard url="/ciclo-celular" img="cicloCelular.png" title="Ciclo Celular" imgSize="w-50" />
+                <MenuCard url="/celulas/ciclo-celular" img="cicloCelular.png" title="Ciclo Celular" imgSize="w-50" />
 
                 <MenuCard url="/celula-eucariota" img="celulaAnimal.png" title="Células Eucariotas" imgSize="w-50"/>
 

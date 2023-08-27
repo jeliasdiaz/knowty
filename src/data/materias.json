@@ -11,57 +11,57 @@
   },
   {
     "name": "Cinemática",
-    "url": "/cinematica",
+    "url": "/fisica/cinematica",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Vectores",
-    "url": "/cinematica#:~:text=Vectores",
+    "url": "/fisica/cinematica#:~:text=Vectores",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "MRU",
-    "url": "/cinematica#:~:text=M.R.U.",
+    "url": "/fisica/cinematica#:~:text=M.R.U.",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "MRUA",
-    "url": "/cinematica#:~:text=M.R.U.A.",
+    "url": "/fisica/cinematica#:~:text=M.R.U.A.",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Caída libre",
-    "url": "/cinematica#:~:text=Caída libre",
+    "url": "/fisica/cinematica#:~:text=Caída libre",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Tiro vertical",
-    "url": "/cinematica#:~:text=Tiro vertical",
+    "url": "/fisica/cinematica#:~:text=Tiro vertical",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Tiro parábolico",
-    "url": "/cinematica#:~:text=Tiro parabólico",
+    "url": "/fisica/cinematica#:~:text=Tiro parabólico",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Dinámica",
-    "url": "/dinamica",
+    "url": "/fisica/dinamica",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Análisis de fuerza",
-    "url": "/dinamica",
+    "url": "/fisica/dinamica",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Torque",
-    "url": "/dinamica#:~:text=Torque",
+    "url": "/fisica/dinamica#:~:text=Torque",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Energía",
-    "url": "/energia",
+    "url": "/fisica/energia",
     "img": "/img/fisicaIcon.png"
   },
   {
@@ -71,57 +71,57 @@
   },
   {
     "name": "MCU",
-    "url": "/movimiento-circular#:~:text=M.C.U.",
+    "url": "/fisica/movimiento-circular#:~:text=M.C.U.",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "MCUA",
-    "url": "/movimiento-circular#:~:text=M.C.U.A.",
+    "url": "/fisica/movimiento-circular#:~:text=M.C.U.A.",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Fluidos",
-    "url": "/mecanica-fluidos",
+    "url": "/fisica/mecanica-fluidos",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Densidad",
-    "url": "/mecanica-fluidos#:~:text=Densidad",
+    "url": "/fisica/mecanica-fluidos#:~:text=Densidad",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Peso específico",
-    "url": "/mecanica-fluidos#:~:text=Peso específico",
+    "url": "/fisica/mecanica-fluidos#:~:text=Peso específico",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Presión en líquidos",
-    "url": "/mecanica-fluidos#:~:text=Presión en líquidos",
+    "url": "/fisica/mecanica-fluidos#:~:text=Presión en líquidos",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Presión absoluta",
-    "url": "/mecanica-fluidos#:~:text=Presión absoluta",
+    "url": "/fisica/mecanica-fluidos#:~:text=Presión absoluta",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Principio de Pascal",
-    "url": "/mecanica-fluidos#:~:text=Principio de Pascal",
+    "url": "/fisica/mecanica-fluidos#:~:text=Principio de Pascal",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Principio de Arquímedes",
-    "url": "/mecanica-fluidos#:~:text=Principio de Arquímedes",
+    "url": "/fisica/mecanica-fluidos#:~:text=Principio de Arquímedes",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Principio de continuidad",
-    "url": "/mecanica-fluidos#:~:text=principio de continuidad",
+    "url": "/fisica/mecanica-fluidos#:~:text=principio de continuidad",
     "img": "/img/fisicaIcon.png"
   },
   {
     "name": "Teorema de Bernoulli",
-    "url": "/mecanica-fluidos#:~:text=Teorema de Bernoulli",
+    "url": "/fisica/mecanica-fluidos#:~:text=Teorema de Bernoulli",
     "img": "/img/fisicaIcon.png"
   },
   {
@@ -371,7 +371,7 @@
   },
   {
     "name": "Inglés",
-    "url": "/ingles",
+    "url": "/ingles/tiempos-verbales",
     "img": "/img/englishIcon.png"
   },
   {
@@ -411,77 +411,77 @@
   },
   {
     "name": "Ideologías económicas",
-    "url": "/doctrinas-economicas",
+    "url": "/sociales/ideologias-economicas",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "Liberalismo",
-    "url": "/doctrinas-economicas",
+    "url": "/sociales/ideologias-economicas",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "Neoliberalismo",
-    "url": "/doctrinas-economicas",
+    "url": "/sociales/ideologias-economicas",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "Marxismo",
-    "url": "/doctrinas-economicas",
+    "url": "/sociales/ideologias-economicas",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "Anarquismo",
-    "url": "/doctrinas-economicas",
+    "url": "/sociales/ideologias-economicas",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "Positivismo",
-    "url": "/doctrinas-economicas",
+    "url": "/sociales/ideologias-economicas",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "Movimientos armados",
-    "url": "/movimientos-guerrilleros",
+    "url": "/sociales/movimientos-guerrilleros",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "FARC",
-    "url": "/movimientos-guerrilleros",
+    "url": "/sociales/movimientos-guerrilleros",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "ELN",
-    "url": "/movimientos-guerrilleros",
+    "url": "/sociales/movimientos-guerrilleros",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "EPL",
-    "url": "/movimientos-guerrilleros",
+    "url": "/sociales/movimientos-guerrilleros",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "M-19",
-    "url": "/movimientos-guerrilleros",
+    "url": "/sociales/movimientos-guerrilleros",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "Movimientos sociales",
-    "url": "/movimientos-sociales",
+    "url": "/sociales/movimientos-sociales",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "Unión patriótica",
-    "url": "/sociales-extra",
+    "url": "/sociales/sociales-extra",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "UP",
-    "url": "/sociales-extra",
+    "url": "/sociales/sociales-extra",
     "img": "/img/socialesIcon.png"
   },
   {
     "name": "Frente nacional",
-    "url": "/sociales-extra",
+    "url": "/sociales/sociales-extra",
     "img": "/img/socialesIcon.png"
   },
   {

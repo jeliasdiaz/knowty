@@ -40,7 +40,9 @@ export const Tools = () => {
 
             <div data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <div className="subjectCard mb-5 ownShadow" >
+                    
                     <h3>Graficador</h3>
+                    <span><small style={{color: "darkgray"}}>Versión beta</small></span>
                     <Graphic />
                 </div>
 

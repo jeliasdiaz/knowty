@@ -8,12 +8,12 @@ export * from "./NuclearMembrane";
 export * from "./Ribosomes";
 
 export const organellesItems = {
-  Centrosoma: "/organelos-celulares/centrosoma",
-  Citoplasma: "/organelos-celulares/citoplasma",
-  "Retículo endoplasmático": "/organelos-celulares/reticulo-endoplasmatico",
-  "Aparato de Golgi": "/organelos-celulares/aparato-golgi",
-  Lisosomas: "/organelos-celulares/lisosomas",
-  Mitocondria: "/organelos-celulares/mitocondria",
-  "Membrana nuclear": "/organelos-celulares/membrana-nuclear",
-  Ribosomas: "/organelos-celulares/ribosomas",
+  Centrosoma: "/celulas/organelos-celulares/centrosoma",
+  Citoplasma: "/celulas/organelos-celulares/citoplasma",
+  "Retículo endoplasmático": "/celulas/organelos-celulares/reticulo-endoplasmatico",
+  "Aparato de Golgi": "/celulas/organelos-celulares/aparato-golgi",
+  Lisosomas: "/celulas/organelos-celulares/lisosomas",
+  Mitocondria: "/celulas/organelos-celulares/mitocondria",
+  "Membrana nuclear": "/celulas/organelos-celulares/membrana-nuclear",
+  Ribosomas: "/celulas/organelos-celulares/ribosomas",
 };

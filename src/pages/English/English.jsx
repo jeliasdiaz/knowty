@@ -8,22 +8,22 @@ export const English = () => {
       <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
 
           <div>
-            <EnglishLink title="Present simple" path="/presente-simple" />
+            <EnglishLink title="Present simple" path="/ingles/tiempos-verbales/presente-simple" />
             <hr />
 
-            <EnglishLink title="Past simple" path="/pasado-simple" />
+            <EnglishLink title="Past simple" path="/ingles/tiempos-verbales/pasado-simple" />
             <hr />
 
-            <EnglishLink title="Future simple" path="/futuro-simple" />
+            <EnglishLink title="Future simple" path="/ingles/tiempos-verbales/futuro-simple" />
             <hr />
           </div>
           <div>
 
-            <EnglishLink title="Present continuous" path="/presente-continuo" />
+            <EnglishLink title="Present continuous" path="/ingles/tiempos-verbales/presente-continuo" />
             <hr />
-            <EnglishLink title="Past continuous" path="/pasado-continuo" />
+            <EnglishLink title="Past continuous" path="/ingles/tiempos-verbales/pasado-continuo" />
             <hr />
-            <EnglishLink title="Future continuous" path="/futuro-continuo" />
+            <EnglishLink title="Future continuous" path="/ingles/tiempos-verbales/futuro-continuo" />
 
             <hr />
           </div>

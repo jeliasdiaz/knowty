@@ -41,6 +41,7 @@ export const FundamentalOperations = () => {
                         </tr>
                     </tbody>
                 </table>
+                <br />
                 <ol>
                     <li>
                         <span className="fw-semibold">Conmutativa:</span> El orden de los sumandos no afecta el resultado.
@@ -115,6 +116,7 @@ export const FundamentalOperations = () => {
                         </tr>
                     </tbody>
                 </table>
+                <br />
                 <ul>
                     <li>
                         <span className="fw-semibold">Conmutativa:</span> El orden de los factores no afecta el producto, por lo que es lo mismo 2x3 a 3x2.
@@ -222,6 +224,7 @@ export const FundamentalOperations = () => {
                         </tr>
                     </tbody>
                 </table>
+                <br />
                 <ul>
                     <li>
                         <span className="fw-semibold">Potencia de exponente 0:</span> Todo número diferente de 0 elevado a la 0 tiene como resultado 1 (0 elevado a la 0 es un caso indeterminado, sin embargo, en algunos contextos lo asumen como 1 por conveniencia matemática en ciertas áreas).
@@ -312,6 +315,7 @@ export const FundamentalOperations = () => {
                         </tr>
                     </tbody>
                 </table>
+                <br />
                 <ul>
                     <li>
                         <span className="fw-semibold">Raíz de un producto:</span> Dos números multiplicándose dentro del mismo radical (símbolo de la radicación √) pueden escribirse como la raíz de uno multiplicado por la raíz del otro (manteniendo el mismo índice para ambas raíces), así mismo, si dos raíces con el mismo índice se encuentran multiplicando, puede reescribirse todo bajo un mismo radical.
@@ -341,6 +345,103 @@ export const FundamentalOperations = () => {
                         </ul>
                     </li>
                 </ul>
+
+                <hr />
+
+                <h4>Logaritmación</h4>
+                <p>
+                    Es un proceso matemático inverso a la operación de potenciación. Implica encontrar el exponente al cual se debe elevar una base para obtener un número determinado. Como tal sus partes son llamadas base, argumento (o antilogaritmo) y logaritmo.
+                </p>
+                <ul>
+                    <li>Cuando no se deja indicada una base, se asume como 10.</li>
+                    <li>El logaritmo natural (Ln) tiene como base “e” (Numero Euler).</li>
+                    <li>Puede expresarse en forma de potencia, la base es la misma base, el logaritmo el exponente y el argumento o antilogaritmo sería la potencia.
+                    </li>
+                    <li>La base de los logaritmos debe ser un número positivo diferente de 1.</li>
+                </ul>
+
+                <br />
+
+                <h5>Propiedades</h5>
+                <table className="table table-bordered mx-auto">
+                    <thead className="table-light">
+                        <tr>
+                            <th scope="col">Propiedad</th>
+                            <th scope="col">Expresión simbólica</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Logaritmo de un producto</td>
+                            <td><Latex>{`$\\log_c (a \\cdot b) = \\log_c (a) + log_c (b)$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Logaritmo de un cociente</td>
+                            <td><Latex>{`$\\log_c (\\frac{a}{b}) = log_c (a) - log_c (b)$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Logaritmo de una potencia</td>
+                            <td><Latex>{`$log_c (a^b) = c \\cdot log_c (a)$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Logaritmo de una raíz:</td>
+                            <td><Latex>{`$\\log_p (\\sqrt[n]{m}) = \\log_p (m^{\\frac{1}{2}})$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Logaritmo de uno</td>
+                            <td><Latex>{`$\\log_a (1) = 0$`}</Latex></td>
+                        </tr>
+                        <tr>
+                            <td>Logaritmo cambio de base</td>
+                            <td><Latex>{`$\\log_b (a) = \\frac{\\log_c (a)}{\\log_c (b)}$`}</Latex></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+                <ul>
+                    <li>
+                        <span className="fw-semibold">Logaritmo de un producto:</span>  El logaritmo de A por B en base C va a ser igual al logaritmo de A en base C más el logaritmo de B en base C.
+
+                        <ul>
+                            <li><Latex>{`$\\log_c (a \\cdot b) = \\log_c (a) + log_c (b)$`}</Latex></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span className="fw-semibold">Logaritmo de un cociente:</span> El logaritmo de A entre B en base C va a ser igual al logaritmo de A en base C menos el logaritmo de B en base C.
+
+                        <ul>
+                            <li><Latex>{`$\\log_c (\\frac{a}{b}) = log_c (a) - log_c (b)$`}</Latex></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span className="fw-semibold">Logaritmo de una potencia:</span> Un logaritmo de argumento A elevado a la B en base C es igual a C multiplicado por el logaritmo de A en base C.
+
+                        <ul>
+                            <li><Latex>{`$log_c (a^b) = c \\cdot log_c (a)$`}</Latex></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span className="fw-semibold">Logaritmo de una raíz:</span> Se reescribe la raíz en forma de potenciación y se aplica la propiedad anterior, Logaritmo de una potencia
+
+                        <ul>
+                            <li><Latex>{`$\\log_p (\\sqrt[n]{m}) = \\log_p (m^{\\frac{1}{2}})$`}</Latex></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span className="fw-semibold">Logaritmo de uno:</span> Un logaritmo con argumento A en base A tiene como resultado la unidad (1).
+
+                        <ul>
+                            <li><Latex>{`$\\log_a (1) = 0$`}</Latex></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span className="fw-semibold">Logaritmo cambio de base:</span> El logaritmo de A en base B puede reescribirse como el cociente del logaritmo de A en base C entre el logaritmo de B en base C, donde C es un número cualquiera pero igual para ambos logaritmos.
+
+                        <ul>
+                            <li><Latex>{`$\\log_b (a) = \\frac{\\log_c (a)}{\\log_c (b)}$`}</Latex></li>
+                        </ul>
+                    </li>
+                    </ul>
                 <br />
                 <h5>Simplificación de raíces</h5>
                 <p>
