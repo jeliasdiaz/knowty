@@ -14,8 +14,9 @@
 .inputForm {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #bfdfed;
-  width: 90%;
+  width: 60%;
   border-radius: 50px;
   border: 0;
   height: 60px;
@@ -42,10 +43,6 @@
   transition: 150ms;
   font-size: 14px;
 }
-.searchIcon {
-  position: absolute;
-  right: 1.2em;
-}
 .dataItem {
   font-size: 18px;
   font-weight: 500;
@@ -71,6 +68,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .inputForm{
+    width: 90%;
+  }
   .search {
     height: 100vh;
   }

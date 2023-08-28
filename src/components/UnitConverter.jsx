@@ -40,6 +40,35 @@ export const UnitConverter = () => {
 
     const equal = `$$=$$`
 
+    const lengthOptions = [
+        { label: "Kilómetro", value: "km" },
+        { label: "Hectómetro", value: "hm" },
+        { label: "Decámetro", value: "dam" },
+        { label: "Metro", value: "m" },
+        { label: "Decimetro", value: "dm" },
+        { label: "Centímetro", value: "cm" },
+        { label: "Milímetro", value: "mm" },
+        { label: "Pulgada", value: "in" },
+    ]
+
+    const speedOptions = [
+        { label: "km/h", value: "km/h" },
+        { label: "m/s", value: "m/s" },
+        { label: "Milla/h", value: "mph" }
+    ]
+
+    const tempOptions = [
+        { label: "°C", value: "tempC" },
+        { label: "°F", value: "tempF" },
+        { label: "°Kelvin", value: "tempK" }
+    ]
+
+    const massOptions = [
+        { label: "Gramo", value: "g" },
+        { label: "Kilogramo", value: "kg" },
+        { label: "Onza", value: "oz" },
+        { label: "Libra", value: "lb" },
+    ]
   return (
     <div className="subjectCard mb-5 ownShadow">
                     <h3>Conversor de unidades</h3>
@@ -64,42 +93,20 @@ export const UnitConverter = () => {
                                 <div className="d-flex gap-3 p-2">
                                     <div>
                                         <li className="fw-semibold list-styled">Longitud</li>
-                                        {renderUnitOptions([
-                                            { label: "Kilómetro", value: "km" },
-                                            { label: "Hectómetro", value: "hm" },
-                                            { label: "Decámetro", value: "dam" },
-                                            { label: "Metro", value: "m" },
-                                            { label: "Decimetro", value: "dm" },
-                                            { label: "Centímetro", value: "cm" },
-                                            { label: "Milímetro", value: "mm" },
-                                            { label: "Pulgada", value: "in" },
-                                        ], handleUnitSelectionOne)}
+                                        {renderUnitOptions(lengthOptions, handleUnitSelectionOne)}
 
                                         <hr className="dropdown-divider shadow-none" />
                                         <li className="fw-semibold list-styled">Velocidad</li>
-                                        {renderUnitOptions([
-                                            { label: "km/h", value: "km/h" },
-                                            { label: "m/s", value: "m/s" },
-                                            { label: "Milla/h", value: "mph" }
-                                        ], handleUnitSelectionOne)}
+                                        {renderUnitOptions(speedOptions, handleUnitSelectionOne)}
                                     </div>
 
                                     <div>
                                         <li className="fw-semibold list-styled">Temperatura</li>
-                                        {renderUnitOptions([
-                                            { label: "°C", value: "tempC" },
-                                            { label: "°F", value: "tempF" },
-                                            { label: "°Kelvin", value: "tempK" }
-                                        ], handleUnitSelectionOne)}
+                                        {renderUnitOptions(tempOptions, handleUnitSelectionOne)}
 
                                         <hr className="dropdown-divider shadow-none" />
                                         <li className="fw-semibold list-styled">Masa</li>
-                                        {renderUnitOptions([
-                                            { label: "Gramo", value: "g" },
-                                            { label: "Kilogramo", value: "kg" },
-                                            { label: "Onza", value: "oz" },
-                                            { label: "Libra", value: "lb" },
-                                        ], handleUnitSelectionOne)}
+                                        {renderUnitOptions(massOptions, handleUnitSelectionOne)}
 
                                     </div>
                                 </div>
@@ -120,44 +127,22 @@ export const UnitConverter = () => {
                                 <div className="d-flex gap-3 p-2">
                                     <div>
                                         <li className="fw-semibold list-styled">Longitud</li>
-                                        {renderUnitOptions([
-                                            { label: "Kilómetro", value: "km" },
-                                            { label: "Hectómetro", value: "hm" },
-                                            { label: "Decámetro", value: "dam" },
-                                            { label: "Metro", value: "m" },
-                                            { label: "Decimetro", value: "dm" },
-                                            { label: "Centímetro", value: "cm" },
-                                            { label: "Milímetro", value: "mm" },
-                                            { label: "Pulgada", value: "in" },
-                                        ], handleUnitSelectionTwo)}
+                                        {renderUnitOptions(lengthOptions, handleUnitSelectionTwo)}
 
                                         <hr className="dropdown-divider shadow-none" />
                                         <li className="fw-semibold list-styled">Velocidad</li>
-                                        {renderUnitOptions([
-                                            { label: "km/h", value: "km/h" },
-                                            { label: "m/s", value: "m/s" },
-                                            { label: "Milla/h", value: "mph" }
-                                        ], handleUnitSelectionTwo)}
+                                        {renderUnitOptions(speedOptions, handleUnitSelectionTwo)}
 
 
                                     </div>
 
                                     <div>
                                         <li className="fw-semibold list-styled">Temperatura</li>
-                                        {renderUnitOptions([
-                                            { label: "°C", value: "tempC" },
-                                            { label: "°F", value: "tempF" },
-                                            { label: "°Kelvin", value: "tempK" }
-                                        ], handleUnitSelectionTwo)}
+                                        {renderUnitOptions(tempOptions, handleUnitSelectionTwo)}
 
                                         <hr className="dropdown-divider shadow-none" />
                                         <li className="fw-semibold list-styled">Masa</li>
-                                        {renderUnitOptions([
-                                            { label: "Gramo", value: "g" },
-                                            { label: "Kilogramo", value: "kg" },
-                                            { label: "Onza", value: "oz" },
-                                            { label: "Libra", value: "lb" },
-                                        ], handleUnitSelectionTwo)}
+                                        {renderUnitOptions(massOptions, handleUnitSelectionTwo)}
                                     </div>
                                 </div>
                             </ul>

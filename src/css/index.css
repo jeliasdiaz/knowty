@@ -123,35 +123,33 @@ ul li:before {
 
 .installCard {
   background-color: #f6f6f6;
-  width: 55%;
+  width: fit-content;
+  height: fit-content;
   border-radius: 15px;
   border: none;
-  padding-left: 4%;
-  padding-right: 4%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  inset: 0;
+  margin: auto;
+  padding: 2%;
   transition: 0.5s;
   position: fixed;
   bottom: 0;
   margin-bottom: 4%;
-  left: 25%;
   text-align: center;
   z-index: 10;
+  & div {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+  }
+  & img {
+    width: 3.5em;
+  }
+  & span {
+    font-size: 17px;
+  }
 }
 
-.installCard div {
-  display: flex;
-  gap: 1em;
-  justify-content: center;
-}
-
-.installCard img {
-  width: 3.5em;
-}
-
-.installCard span {
-  font-size: 17px;
-}
 
 .tooltipBackground {
   background-color: #f6f6f6 !important;

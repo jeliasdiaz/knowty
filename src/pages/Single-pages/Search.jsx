@@ -42,7 +42,7 @@ export const Search = () => {
           isVisible
           && <form onSubmit={onSubmit} className="inputForm">
             <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} ref={inputRef} className="input" />
-            <div className="searchIcon">
+            <div>
           {
             searchTerm.length === 0
               ? <BiSearch size={35} />

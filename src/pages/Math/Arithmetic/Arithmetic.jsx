@@ -81,7 +81,7 @@ export const Arithmetic = () => {
                     <br /><br />
                     <span className="fw-semibold">Reales <Latex>{`$\\R$`}</Latex>:</span> Agrupa a todos los anteriores, son todos los números que van desde menos infinito hasta más infinito.
                     <br /><br />
-                    <span className="fw-semibold">Imaginarios</span> Son la forma en la que expresamos las raíces de índice par y radicando negativo, debido a que los reales no contemplan su existencia.
+                    <span className="fw-semibold">Imaginarios:</span> Son la forma en la que expresamos las raíces de índice par y radicando negativo, debido a que los reales no contemplan su existencia.
                     <br /><br />
                     <span className="fw-semibold">Complejos:</span> Unión de reales e imaginarios.
                 </p>
