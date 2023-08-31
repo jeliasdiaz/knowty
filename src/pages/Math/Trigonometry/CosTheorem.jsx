@@ -1,5 +1,7 @@
 import Latex from 'react-latex'
 import { MoreBtn, SectionTitle, TopWave } from '../../../components'
+import { darkModeContext } from '../../../context/DarkModeContext'
+import { useContext } from 'react'
 
 export const CosTheorem = () => {
 
@@ -12,6 +14,7 @@ export const CosTheorem = () => {
     const leyCosenoSeven = `$$\\large \\frac{20^2 \\ + \\ 10^2 \\ - \\ 18^2}{2 \\ \\cdot \\ 20 \\ \\cdot \\ 10} = θ$$`
     const leyCosenoEight = `$$63.89 = θ$$`
 
+    const { isDarkMode } = useContext(darkModeContext);
     return (
         <div className="homeCard">
             <TopWave />
@@ -21,7 +24,7 @@ export const CosTheorem = () => {
                 <p>
                     La usamos cuando en un triángulo conocemos dos lados y el ángulo formado entre ellos. De igual forma, hacemos uso de esta ley al poseer el valor de todos los lados.
                     Por ejemplo: <br />
-                    <img src="/img/leyCosenoEjemplo.svg" alt="Ley del coseno ejemplo uno" className="w-50 rounded-3 revealing-image" /> <br />
+                    <img src={isDarkMode === "dark" ? "/img/leyCosenoEjemploDark.svg" : "/img/leyCosenoEjemplo.svg"} alt="Ley del coseno ejemplo uno" className="w-50 rounded-3 revealing-image" /> <br />
                     Definimos las razones de la siguiente forma:
                     <br />
                     <Latex>{leyCosenoOne}</Latex><br />
@@ -32,7 +35,7 @@ export const CosTheorem = () => {
                     <br /><br />
                     Otra posibilidad, radica en tener el valor de todos los lados.
                     Por ejemplo: <br />
-                    <img src="/img/leyCosenoEjemplo2.svg" alt="Ley del coseno ejemplo dos" className="w-50 rounded-3 revealing-image" /><br />
+                    <img src={isDarkMode === "dark" ? "/img/leyCosenoEjemplo2Dark.svg" : "/img/leyCosenoEjemplo2.svg"} alt="Ley del coseno ejemplo dos" className="w-50 rounded-3 revealing-image" /><br />
                     Definimos las razones de la siguiente forma: <br />
                     <Latex>{leyCosenoFive}</Latex><br /><br />
                     <Latex>{leyCosenoSix}</Latex><br /><br />

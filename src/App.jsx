@@ -18,7 +18,7 @@ import { CellCycle, Cells, Centrosomes, Cytoplasm, ECells, EndoplasmicReticulum,
 import { BiologyMenu } from "./pages/Biology";
 
 //* Chemistry
-import { FirstChemistryPeriod, FourthChemistryPeriod, SecondChemistryPeriod, ThirdChemistryPeriod, ChemistryMenu, ChemistryHistory } from "./pages/Chemistry";
+import { ChemistryMenu, ChemistryHistory, AtomicModels, PropertiesMatter, ChemicalBonds, IonicCompounds, CovalentCompounds, MixSeparation, Oxides, Nomenclature, Hydroxides, Peroxides, Acids, Salts, EquationBalancing, Stoichiometry, ReactiveLimitExcess, ReactivePurity, PerformanceReaction, GasLaws, PeriodicProperties, FamilyElements } from "./pages/Chemistry";
 
 //* English
 import { English, Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVerbs, PresentContinuous, PastContinuous, FutureContinuous, EnglishMenu } from "./pages/English";
@@ -136,11 +136,28 @@ function App() {
             <Route path="/celulas/organelos-celulares/membrana-nuclear" element={ <NuclearMembrane/>} />
             <Route path="/celulas/organelos-celulares/ribosomas" element={ <Ribosomes/>} />
 
-            <Route path="/quimica_1" element={<FirstChemistryPeriod />} />
             <Route path="/historia-quimica" element={<ChemistryHistory />} />
-            <Route path="/quimica_2" element={<SecondChemistryPeriod />} />
-            <Route path="/quimica" element={<ThirdChemistryPeriod />} />
-            <Route path="/quimica_4" element={<FourthChemistryPeriod />} />
+            <Route path="/quimica/estructura-materia/modelos-atomicos" element={<AtomicModels />} />
+            <Route path="/quimica/estructura-materia/propiedades-materia" element={<PropertiesMatter />} />
+            <Route path="/quimica/estructura-materia/separacion-mezclas" element={<MixSeparation />} />
+            <Route path="/quimica/estructura-materia/enlaces-quimicos" element={<ChemicalBonds />} />
+            <Route path="/quimica/estructura-materia/compuestos-ionicos" element={<IonicCompounds />} />
+            <Route path="/quimica/estructura-materia/compuestos-covalentes" element={<CovalentCompounds/>} />
+            <Route path="/quimica/estructura-materia/propiedades-periodicas" element={<PeriodicProperties/>} />
+            <Route path="/quimica/nomenclatura/nomenclaturas" element={<Nomenclature />} />
+            <Route path="/quimica/nomenclatura/oxidos" element={<Oxides />} />
+            <Route path="/quimica/nomenclatura/hidroxidos" element={<Hydroxides />} />
+            <Route path="/quimica/nomenclatura/peroxidos" element={<Peroxides />} />
+            <Route path="/quimica/nomenclatura/acidos" element={<Acids />} />
+            <Route path="/quimica/nomenclatura/sales" element={<Salts />} />
+            <Route path="/quimica/reacciones-quimicas/balanceo" element={<EquationBalancing />} />
+            <Route path="/quimica/reacciones-quimicas/estequiometria" element={<Stoichiometry />} />
+            <Route path="/quimica/reacciones-quimicas/reactivo-limite-exceso" element={<ReactiveLimitExcess />} />
+            <Route path="/quimica/reacciones-quimicas/pureza-reactivo" element={<ReactivePurity />} />
+            <Route path="/quimica/reacciones-quimicas/rendimiento" element={<PerformanceReaction />} />
+            <Route path="/quimica/reacciones-quimicas/leyes-gases" element={<GasLaws />} />
+            <Route path="/quimica/familia-elementos" element={<FamilyElements />} />
+            
 
             <Route path="/ingles/tiempos-verbales" element={<English />} />
             <Route path="/ingles/tiempos-verbales/presente-simple" element={<PresentSimple />}/>

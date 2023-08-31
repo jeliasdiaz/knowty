@@ -1,6 +1,8 @@
 import { SectionTitle, TopWave } from "../../../components";
 import Latex from "react-latex"
 import { PitagorasPractice } from "./Practice/PitagorasPractice";
+import { useContext } from "react";
+import { darkModeContext } from "../../../context/DarkModeContext";
 
 export const TrigonometryPractice = () => {
     const pitagorasExFirstOne = `$$a^2 + b^2 = c^2
@@ -57,6 +59,7 @@ export const TrigonometryPractice = () => {
     const leyCosenoThree = `$$\\sqrt{x} = \\sqrt{8^2 + 20^2 - 2 \\ \\cdot \\ 8 \\ \\cdot \\ 20 \\ \\cdot \\ cos(30°)}$$`
     const leyCosenoFour = `$$x = 13.67m$$`
 
+    const { isDarkMode } = useContext(darkModeContext);
     return (
         <div className='homeCard'>
             <TopWave />
@@ -234,7 +237,7 @@ export const TrigonometryPractice = () => {
                         <hr className="my-4"/>
                         <div>
                             <h3>Ley del coseno</h3>
-                            <img src="/img/leyCosenoPractica.svg" alt="Ley del coseno practica" className='rounded-3 mb-3 revealing-image' />
+                            <img src={isDarkMode === "dark" ? "/img/leyCosenoPracticaDark.svg" : "/img/leyCosenoPractica.svg"} alt="Ley del coseno practica" className='rounded-3 mb-3 revealing-image' />
 
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#leycoseno">
