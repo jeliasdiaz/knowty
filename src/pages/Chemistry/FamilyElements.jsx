@@ -4,7 +4,7 @@ export const FamilyElements = () => {
     return (
         <div className="homeCard">
             <TopWave />
-            <SectionTitle title="Balanceo de una ecuación" />
+            <SectionTitle title="Familia de elementos" />
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <h4>Alcalinos</h4>

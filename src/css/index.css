@@ -20,10 +20,10 @@ html {
 /** Animations  */
 @keyframes slide-left {
   0% {
-    transform: translate(100%);
+    transform: translate(0%);
   }
   100% {
-    transform: translate(0%);
+    transform: translate(-100%);
   }
 }
 
@@ -33,6 +33,23 @@ html {
   }
   100% {
     transform: translate(0%);
+  }
+}
+@keyframes slide-left-mobile {
+  0% {
+    transform: translate(100%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
+
+@keyframes slide-right-mobile {
+  0% {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(100%);
   }
 }
 /* @keyframes show {
@@ -525,7 +542,14 @@ input[type="radio"]:checked + span:before {
   background-color: #f6f6f6;
   height: 100vh;
   padding: 2%;
-  animation: slide-right 0.2s;
+
+  &.open {
+    animation: slide-right 0.2s forwards;
+  }
+  
+  &.close {
+    animation: slide-left 0.2s forwards;
+  }
 }
 
 .glossary-content {
@@ -873,7 +897,13 @@ input[type="radio"]:checked + span:before {
     width: 50%;
     height: 100%;
     padding: 3%;
-    animation: slide-left 0.2s;
+    &.open {
+      animation: slide-left-mobile 0.2s forwards;
+    }
+    
+    &.close {
+      animation: slide-right-mobile 0.2s forwards;
+    }
   }
   .glossary-content {
     margin-top: 0%;
