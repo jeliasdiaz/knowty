@@ -6,6 +6,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 export const ContentsTable = ({ items }) => {
     const [nav, setNav] = useState(false);
     const [currentTopicIndex, setCurrentTopicIndex] = useState(0);
+    const [clicked, setClicked] = useState(false)
     const navigate = useNavigate();
     const location = useLocation();
     const glossaryNav = useRef()
@@ -15,23 +16,17 @@ export const ContentsTable = ({ items }) => {
         setCurrentTopicIndex(newIndex);
     }, [location.pathname, items]);
 
+    useEffect(() => {
+      setTimeout(() => {
+        setClicked(true)
+      }, 300)
+    
+    }, [])
+    
     const handleNav = () => {
-        setNav(!nav);
-
-          
+        setNav(!nav);          
+        setClicked(!clicked)
     };
-
-    // useEffect(() => {
-    //     const isOpen = glossaryNav.current.classList.contains("open");
-        
-    //         if (!isOpen) {
-    //             // El elemento está cerrado, así que lo abrimos
-    //             glossaryNav.current.classList.add("open");
-    //         } else {
-    //             // El elemento está abierto, así que lo cerramos
-    //             glossaryNav.current.classList.remove("open");
-    //         }
-    //     }, [nav]);
 
     const nextTopic = () => {
         const topicKeys = Object.keys(items);
@@ -71,7 +66,7 @@ export const ContentsTable = ({ items }) => {
                 <BsArrowRightShort size={40} className="btn-secondary p-2" cursor="pointer" onClick={nextTopic} />
             </div>
 
-            <div className={`glossary-nav  ${nav ? "open" : "close"}`} ref={glossaryNav}>
+            <div className={`glossary-nav  ${nav ? "open" : clicked ? "close" : "closeWithoutAnimation"}`} ref={glossaryNav}>
                 <div className="glossary-content">
                     <div className="d-flex justify-content-between mb-2">
                         <h3>Contenidos</h3>

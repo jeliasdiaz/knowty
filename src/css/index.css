@@ -542,13 +542,15 @@ input[type="radio"]:checked + span:before {
   background-color: #f6f6f6;
   height: 100vh;
   padding: 2%;
-
   &.open {
     animation: slide-right 0.2s forwards;
   }
   
   &.close {
     animation: slide-left 0.2s forwards;
+  }
+  &.closeWithoutAnimation {
+    animation: slide-left 0s forwards;
   }
 }
 
@@ -900,9 +902,11 @@ input[type="radio"]:checked + span:before {
     &.open {
       animation: slide-left-mobile 0.2s forwards;
     }
-    
     &.close {
       animation: slide-right-mobile 0.2s forwards;
+    }
+    &.closeWithoutAnimation {
+      animation: slide-right-mobile 0s forwards;
     }
   }
   .glossary-content {

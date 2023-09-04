@@ -30,7 +30,7 @@ import { Circumference, Straight, Ellipse, Parable, GeometryMenu, Triangle, Coni
 import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu, VectorPractice, MruPractice, MruaPractice, FreeFallPractice, VerticalShot } from "./pages/Physic/";
 
 //* Social
-import { EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu, ExtraSocial, Ground, Territory, POT, WorldSystem } from "./pages/Social/";
+import { EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu, ExtraSocial, Ground, Territory, POT, WorldSystem, GeneralAspects, Bogotazo, TheViolence } from "./pages/Social/";
 
 //* Trigonometry
 import { AnglesAndProperties, BasicTrigonometricNotions, TrigonometryMenu, TrigonometryPractice, SinTheorem, CosTheorem } from "./pages/Math/Trigonometry/";
@@ -200,6 +200,9 @@ function App() {
             <Route path="/sociales/organizacion-territorial/territorio" element={<Territory />} />
             <Route path="/sociales/organizacion-territorial/pot" element={<POT />} />
             <Route path="/sociales/organizacion-territorial/sistema-mundo" element={<WorldSystem />} />
+            <Route path="/sociales/conflicto-armado/aspectos-generales" element={<GeneralAspects />} />
+            <Route path="/sociales/conflicto-armado/bogotazo" element={<Bogotazo />} />
+            <Route path="/sociales/conflicto-armado/la-violencia" element={<TheViolence />} />
 
             <Route path="/estadistica" element={<Statistic />} />
             <Route path="/medidas-tendencia-central" element={<CentralTendency />} />

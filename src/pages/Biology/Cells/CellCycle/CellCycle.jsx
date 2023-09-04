@@ -19,7 +19,7 @@ export const CellCycle = () => {
                     <br />
                     <br />
                 </p>
-                <img src="img/cicloCelular.png" alt="Ciclo celular" className="w-75 revealing-image" />
+                <img src="/img/cicloCelular.png" alt="Ciclo celular" className="w-75 revealing-image" />
 
             </div>
         </div>
