@@ -20,7 +20,7 @@ export const GeneralAspects = () => {
           <i>Prolongado</i> debido a sus más de 60 años de existencia que se ha extendido en todas las regiones del país.
           <br />
           <br />
-          A lo largo de estos años, el conflicto ha generado gran cantidad de consecuencias como violencias, desplazamientos forzados, violaciones a los derechos humanos y crímenes de guerra. Así como un alto número de víctimas, incluyendo civiles, combatientes y desplazados internos.
+          A lo largo de estos años, este conflicto ha generado gran cantidad de consecuencias atroces como  el alto número de víctimas de diferentes tipos de violencias, desplazamientos forzados, violaciones a los derechos humanos a civiles y combatientes y crímenes de guerra. 
         </p>
 
         <hr />

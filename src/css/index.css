@@ -858,7 +858,7 @@ input[type="radio"]:checked + span:before {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (width < 768px) {
   .flexHome {
     flex-wrap: wrap;
   }
@@ -941,7 +941,7 @@ input[type="radio"]:checked + span:before {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (width < 450px) {
   /** Global elements  */
   hr {
     margin-bottom: 10% !important;
@@ -1119,7 +1119,7 @@ input[type="radio"]:checked + span:before {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (width < 400px) {
   .sectionOneAppendOne {
     margin: auto;
     margin-bottom: 8%;

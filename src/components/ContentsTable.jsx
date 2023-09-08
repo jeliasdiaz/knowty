@@ -2,11 +2,12 @@ import React, { useEffect, useRef, useState } from "react";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import { IoClose } from "react-icons/io5";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 export const ContentsTable = ({ items }) => {
     const [nav, setNav] = useState(false);
     const [currentTopicIndex, setCurrentTopicIndex] = useState(0);
-    const [clicked, setClicked] = useState(false)
+    const [clicked, setClicked] = useState(false) //! improve this name
     const navigate = useNavigate();
     const location = useLocation();
     const glossaryNav = useRef()
@@ -95,3 +96,6 @@ export const ContentsTable = ({ items }) => {
     );
 };
 
+ContentsTable.propTypes = {
+    items: PropTypes.object.isRequired
+}

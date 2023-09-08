@@ -23,6 +23,12 @@ export const Bogotazo = () => {
                     En pocos días se produjeron actos violentos como: incendios a edificios públicos, destrucción de archivos, asesinatos a funcionarios, asaltos a comercios, atracos a iglesias, etc. En algunas localidades se establecieron tribunales populares, se produjo la destitución de alcaldes, fuga de presos.
                     <br />
                     <br />
+                    La novena Conferencia Panamericana celebrada en Bogotá el 9 de abril de 1948 (minutos antes del magnicidio) fue criticada por Gaitán debido a los altos costos de remodelación de la capital que el presidente destinó para dar la bienvenida a los países invitados en una época de crisis financiera del país. Además que Gaitán no fue invitado a pesar de ser un líder político importante, puesto que la conferencia promovía el anticomunismo.
+                    <br />
+                    <br />
+                    Con el bogotazo se adopta el anticomunismo como doctrina oficial del Estado colombiano, ya que el presidente responsabilizó a las ideologías comunistas internacionales del caos nacional, que estuvo de la mano con lo acordado en la novena Conferencia Panamericana lo que significó la entrada de la región americana a la guerra fría fortaleciendo el imperialismo de Estados Unidos y la persecución masiva de liberales y comunistas en el país
+                    <br />
+                    <br />
                     El Bogotazo marcó un punto de inflexión en la historia de Colombia y se considera como el inicio de La Violencia.
 
                 </p>
