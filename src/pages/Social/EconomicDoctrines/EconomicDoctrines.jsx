@@ -1,4 +1,4 @@
-import { SectionTitle, CollapseInformation, TopWave } from "../../components/";
+import { SectionTitle, CollapseInformation, TopWave } from "../../../components";
 
 export const EconomicDoctrines = () => {
     return (

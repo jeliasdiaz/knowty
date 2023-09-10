@@ -30,7 +30,7 @@ import { Circumference, Straight, Ellipse, Parable, GeometryMenu, Triangle, Coni
 import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu, VectorPractice, MruPractice, MruaPractice, FreeFallPractice, VerticalShot } from "./pages/Physic/";
 
 //* Social
-import { EconomicDoctrines, ArmedGroups, SocialMovements, SocialMenu, ExtraSocial, Ground, Territory, POT, WorldSystem, GeneralAspects, Bogotazo, TheViolence } from "./pages/Social/";
+import { ArmedGroups, SocialMovements, SocialMenu, ExtraSocial, Ground, Territory, POT, WorldSystem, GeneralAspects, Bogotazo, TheViolence, Liberalism, Neoliberalism, Marxism, Anarchism, Positivism } from "./pages/Social/";
 
 //* Trigonometry
 import { AnglesAndProperties, BasicTrigonometricNotions, TrigonometryMenu, TrigonometryPractice, SinTheorem, CosTheorem } from "./pages/Math/Trigonometry/";
@@ -192,7 +192,11 @@ function App() {
             <Route  path="/caida-libre-practica" element={<FreeFallPractice/>} />
             <Route  path="/tiro-vertical-practica" element={<VerticalShot/>} />
 
-            <Route path="/sociales/ideologias-economicas" element={<EconomicDoctrines />} />
+            <Route path="/sociales/ideologias-economicas/liberalismo" element={<Liberalism />} />
+            <Route path="/sociales/ideologias-economicas/neoliberalismo" element={<Neoliberalism />} />
+            <Route path="/sociales/ideologias-economicas/marxismo" element={<Marxism />} />
+            <Route path="/sociales/ideologias-economicas/anarquismo" element={<Anarchism />} />
+            <Route path="/sociales/ideologias-economicas/positivismo" element={<Positivism />} />
             <Route path="/sociales/movimientos-guerrilleros" element={<ArmedGroups />} />
             <Route path="/sociales/movimientos-sociales" element={<SocialMovements />} />
             <Route path="/sociales/sociales-extra" element={<ExtraSocial />} />

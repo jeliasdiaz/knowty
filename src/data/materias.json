@@ -1,612 +1,612 @@
 [
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Física",
-    "url": "/fisica-menu",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica-menu"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Practicar física",
-    "url": "/fisica-practica",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica-practica"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Cinemática",
-    "url": "/fisica/cinematica",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/cinematica"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Vectores",
-    "url": "/fisica/cinematica#:~:text=Vectores",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/cinematica#:~:text=Vectores"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "MRU",
-    "url": "/fisica/cinematica#:~:text=M.R.U.",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/cinematica#:~:text=M.R.U."
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "MRUA",
-    "url": "/fisica/cinematica#:~:text=M.R.U.A.",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/cinematica#:~:text=M.R.U.A."
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Caída libre",
-    "url": "/fisica/cinematica#:~:text=Caída libre",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/cinematica#:~:text=Caída libre"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Tiro vertical",
-    "url": "/fisica/cinematica#:~:text=Tiro vertical",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/cinematica#:~:text=Tiro vertical"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Tiro parábolico",
-    "url": "/fisica/cinematica#:~:text=Tiro parabólico",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/cinematica#:~:text=Tiro parabólico"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Dinámica",
-    "url": "/fisica/dinamica",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/dinamica"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Análisis de fuerza",
-    "url": "/fisica/dinamica",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/dinamica"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Torque",
-    "url": "/fisica/dinamica#:~:text=Torque",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/dinamica#:~:text=Torque"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Energía",
-    "url": "/fisica/energia",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/energia"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Movimiento circular",
-    "url": "/movimientocircular",
-    "img": "/img/fisicaIcon.png"
+    "url": "/movimientocircular"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "MCU",
-    "url": "/fisica/movimiento-circular#:~:text=M.C.U.",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/movimiento-circular#:~:text=M.C.U."
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "MCUA",
-    "url": "/fisica/movimiento-circular#:~:text=M.C.U.A.",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/movimiento-circular#:~:text=M.C.U.A."
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Fluidos",
-    "url": "/fisica/mecanica-fluidos",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/mecanica-fluidos"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Densidad",
-    "url": "/fisica/mecanica-fluidos#:~:text=Densidad",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/mecanica-fluidos#:~:text=Densidad"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Peso específico",
-    "url": "/fisica/mecanica-fluidos#:~:text=Peso específico",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/mecanica-fluidos#:~:text=Peso específico"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Presión en líquidos",
-    "url": "/fisica/mecanica-fluidos#:~:text=Presión en líquidos",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/mecanica-fluidos#:~:text=Presión en líquidos"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Presión absoluta",
-    "url": "/fisica/mecanica-fluidos#:~:text=Presión absoluta",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/mecanica-fluidos#:~:text=Presión absoluta"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Principio de Pascal",
-    "url": "/fisica/mecanica-fluidos#:~:text=Principio de Pascal",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/mecanica-fluidos#:~:text=Principio de Pascal"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Principio de Arquímedes",
-    "url": "/fisica/mecanica-fluidos#:~:text=Principio de Arquímedes",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/mecanica-fluidos#:~:text=Principio de Arquímedes"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Principio de continuidad",
-    "url": "/fisica/mecanica-fluidos#:~:text=principio de continuidad",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/mecanica-fluidos#:~:text=principio de continuidad"
   },
   {
+    "img": "/img/fisicaIcon.png",
     "name": "Teorema de Bernoulli",
-    "url": "/fisica/mecanica-fluidos#:~:text=Teorema de Bernoulli",
-    "img": "/img/fisicaIcon.png"
+    "url": "/fisica/mecanica-fluidos#:~:text=Teorema de Bernoulli"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Química",
-    "url": "/quimica-menu",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica-menu"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Propiedades de la materia",
-    "url": "/quimica_1#:~:text=Propiedades de la materia",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_1#:~:text=Propiedades de la materia"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Historia Química",
-    "url": "/historia-quimica#:~:text=Historia de la química",
-    "img": "/img/quimicaIcon.png"
+    "url": "/historia-quimica#:~:text=Historia de la química"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Conversión de temperatura",
-    "url": "/quimica_1",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_1"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Propiedades generales",
-    "url": "/quimica_1",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_1"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Propiedades específicas",
-    "url": "/quimica_1",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_1"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Separación mezclas",
-    "url": "/quimica_1",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_1"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Modelos atómicos",
-    "url": "/quimica_1",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_1"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Modelo Dalton",
-    "url": "/quimica_1",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_1"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Modelo Rutherford",
-    "url": "/quimica_1",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_1"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Modelo Bohr",
-    "url": "/quimica_1",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_1"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Radio atómico",
-    "url": "/quimica_2",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_2"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Enlaces químicos",
-    "url": "/quimica_2",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_2"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Afinidad electrónica",
-    "url": "/quimica_2",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_2"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Energía ionización",
-    "url": "/quimica_2",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_2"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Electronegatividad",
-    "url": "/quimica_2",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_2"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Familia de elementos",
-    "url": "/quimica_2",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_2"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Nomenclatura tradicional",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Nomenclatura stock",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Nomenclatura sistemática",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Ácidos",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Óxidos",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Hidróxidos",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Peróxidos",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Componentes iónicos",
-    "url": "/quimica_2",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_2"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Oxácido",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Hidrácido",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Sales",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Balanceo tanteo",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Balanceo algebraico",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Balanceo redox",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Estequiometría",
-    "url": "/quimica",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Reactivo límite",
-    "url": "/quimica_4",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_4"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Pureza reactivo",
-    "url": "/quimica_4",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_4"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Rendimiento",
-    "url": "/quimica_4",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_4"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Ley de Boyle",
-    "url": "/quimica_4",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_4"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Ley de Charles",
-    "url": "/quimica_4",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_4"
   },
   {
+    "img": "/img/quimicaIcon.png",
     "name": "Ley de Gay-Lussac",
-    "url": "/quimica_4",
-    "img": "/img/quimicaIcon.png"
+    "url": "/quimica_4"
   },
   {
+    "img": "/img/estadisticaIcon.png",
     "name": "Regla de 3",
-    "url": "/estadistica",
-    "img": "/img/estadisticaIcon.png"
+    "url": "/estadistica"
   },
   {
+    "img": "/img/estadisticaIcon.png",
     "name": "Estadística",
-    "url": "/estadistica",
-    "img": "/img/estadisticaIcon.png"
+    "url": "/estadistica"
   },
   {
+    "img": "/img/estadisticaIcon.png",
     "name": "Medidas tendencia central",
-    "url": "/estadistica",
-    "img": "/img/estadisticaIcon.png"
+    "url": "/estadistica"
   },
   {
+    "img": "/img/estadisticaIcon.png",
     "name": "Moda",
-    "url": "/estadistica",
-    "img": "/img/estadisticaIcon.png"
+    "url": "/estadistica"
   },
   {
+    "img": "/img/estadisticaIcon.png",
     "name": "Mediana",
-    "url": "/estadistica",
-    "img": "/img/estadisticaIcon.png"
+    "url": "/estadistica"
   },
   {
+    "img": "/img/estadisticaIcon.png",
     "name": "Moda",
-    "url": "/estadistica",
-    "img": "/img/estadisticaIcon.png"
+    "url": "/estadistica"
   },
   {
+    "img": "/img/geometriaIcon.png",
     "name": "Geometría",
-    "url": "/geometria-menu",
-    "img": "/img/geometriaIcon.png"
+    "url": "/geometria-menu"
   },
   {
+    "img": "/img/geometriaIcon.png",
     "name": "Recta",
-    "url": "/recta",
-    "img": "/img/geometriaIcon.png"
+    "url": "/recta"
   },
   {
+    "img": "/img/geometriaIcon.png",
     "name": "Circunferencia",
-    "url": "/circunferencia",
-    "img": "/img/geometriaIcon.png"
+    "url": "/circunferencia"
   },
   {
+    "img": "/img/geometriaIcon.png",
     "name": "Parábola",
-    "url": "/parabola",
-    "img": "/img/geometriaIcon.png"
+    "url": "/parabola"
   },
   {
+    "img": "/img/geometriaIcon.png",
     "name": "Elipse",
-    "url": "/elipse",
-    "img": "/img/geometriaIcon.png"
+    "url": "/elipse"
   },
   {
+    "img": "/img/englishIcon.png",
     "name": "Inglés",
-    "url": "/ingles/tiempos-verbales",
-    "img": "/img/englishIcon.png"
+    "url": "/ingles/tiempos-verbales"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Sociales",
-    "url": "/sociales-menu",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales-menu"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Territorialidad",
-    "url": "/sociales_1",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales_1"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Marcación",
-    "url": "/sociales_1",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales_1"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Instauración",
-    "url": "/sociales_1",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales_1"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Consolidación",
-    "url": "/sociales_1",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales_1"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Territorialización",
-    "url": "/sociales_1",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales_1"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Sistema mundo",
-    "url": "/sociales_1",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales_1"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Ideologías económicas",
-    "url": "/sociales/ideologias-economicas",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/ideologias-economicas"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Liberalismo",
-    "url": "/sociales/ideologias-economicas",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/ideologias-economicas"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Neoliberalismo",
-    "url": "/sociales/ideologias-economicas",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/ideologias-economicas"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Marxismo",
-    "url": "/sociales/ideologias-economicas",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/ideologias-economicas"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Anarquismo",
-    "url": "/sociales/ideologias-economicas",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/ideologias-economicas"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Positivismo",
-    "url": "/sociales/ideologias-economicas",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/ideologias-economicas"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Movimientos armados",
-    "url": "/sociales/movimientos-guerrilleros",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/movimientos-guerrilleros"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "FARC",
-    "url": "/sociales/movimientos-guerrilleros",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/movimientos-guerrilleros"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "ELN",
-    "url": "/sociales/movimientos-guerrilleros",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/movimientos-guerrilleros"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "EPL",
-    "url": "/sociales/movimientos-guerrilleros",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/movimientos-guerrilleros"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "M-19",
-    "url": "/sociales/movimientos-guerrilleros",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/movimientos-guerrilleros"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Movimientos sociales",
-    "url": "/sociales/movimientos-sociales",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/movimientos-sociales"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Unión patriótica",
-    "url": "/sociales/sociales-extra",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/sociales-extra"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "UP",
-    "url": "/sociales/sociales-extra",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/sociales-extra"
   },
   {
+    "img": "/img/socialesIcon.png",
     "name": "Frente nacional",
-    "url": "/sociales/sociales-extra",
-    "img": "/img/socialesIcon.png"
+    "url": "/sociales/sociales-extra"
   },
   {
+    "img": "/img/trigonometriaIcon.png",
     "name": "Trigonometría",
-    "url": "/trigonometria-menu",
-    "img": "/img/trigonometriaIcon.png"
+    "url": "/trigonometria-menu"
   },
   {
+    "img": "/img/trigonometriaIcon.png",
     "name": "Teorema de Pitágoras",
-    "url": "/nociones-basicas-trigonometria",
-    "img": "/img/trigonometriaIcon.png"
+    "url": "/nociones-basicas-trigonometria"
   },
   {
+    "img": "/img/trigonometriaIcon.png",
     "name": "Razones trigonométricas",
-    "url": "/nociones-basicas-trigonometria",
-    "img": "/img/trigonometriaIcon.png"
+    "url": "/nociones-basicas-trigonometria"
   },
   {
+    "img": "/img/trigonometriaIcon.png",
     "name": "Ley del seno",
-    "url": "/trigonometria",
-    "img": "/img/trigonometriaIcon.png"
+    "url": "/trigonometria"
   },
   {
+    "img": "/img/trigonometriaIcon.png",
     "name": "Ley del coseno",
-    "url": "/trigonometria",
-    "img": "/img/trigonometriaIcon.png"
+    "url": "/trigonometria"
   },
   {
+    "img": "/img/estadisticaIcon.png",
     "name": "Simetría y asimetría",
-    "url": "/estadistica",
-    "img": "/img/estadisticaIcon.png"
+    "url": "/estadistica"
   },
   {
+    "img": "/img/filosofiaIcon.png",
     "name": "Filosofía",
-    "url": "/filosofia-menu",
-    "img": "/img/filosofiaIcon.png"
+    "url": "/filosofia-menu"
   },
   {
+    "img": "/img/filosofiaIcon.png",
     "name": "Presocráticos",
-    "url": "/introduccion-filosofia",
-    "img": "/img/filosofiaIcon.png"
+    "url": "/introduccion-filosofia"
   },
   {
+    "img": "/img/filosofiaIcon.png",
     "name": "Sócrates",
-    "url": "/filosofos-clasicos",
-    "img": "/img/filosofiaIcon.png"
+    "url": "/filosofos-clasicos"
   },
   {
+    "img": "/img/filosofiaIcon.png",
     "name": "Platón",
-    "url": "/filosofos-clasicos",
-    "img": "/img/filosofiaIcon.png"
+    "url": "/filosofos-clasicos"
   },
   {
+    "img": "/img/biologiaIcon.png",
     "name": "Biología",
-    "url": "/biologia-menu",
-    "img": "/img/biologiaIcon.png"
+    "url": "/biologia-menu"
   },
   {
+    "img": "/img/biologiaIcon.png",
     "name": "Células",
-    "url": "/celulas",
-    "img": "/img/biologiaIcon.png"
+    "url": "/celulas"
   },
   {
+    "img": "/img/biologiaIcon.png",
     "name": "Célula eucariota",
-    "url": "/celulas",
-    "img": "/img/biologiaIcon.png"
+    "url": "/celulas"
   },
   {
+    "img": "/img/biologiaIcon.png",
     "name": "Célula procariota",
-    "url": "/celulas",
-    "img": "/img/biologiaIcon.png"
+    "url": "/celulas"
   },
   {
+    "img": "/img/biologiaIcon.png",
     "name": "Mitocondria",
-    "url": "/celulas",
-    "img": "/img/biologiaIcon.png"
+    "url": "/celulas"
   },
   {
+    "img": "/img/biologiaIcon.png",
     "name": "Retículo endoplasmático",
-    "url": "/celulas",
-    "img": "/img/biologiaIcon.png"
+    "url": "/celulas"
   },
   {
+    "img": "/img/biologiaIcon.png",
     "name": "Aparato de Golgi",
-    "url": "/celulas",
-    "img": "/img/biologiaIcon.png"
+    "url": "/celulas"
   },
   {
+    "img": "/img/biologiaIcon.png",
     "name": "Lisosomas",
-    "url": "/celulas",
-    "img": "/img/biologiaIcon.png"
+    "url": "/celulas"
   },
   {
+    "img": "/img/biologiaIcon.png",
     "name": "Ribosomas",
-    "url": "/celulas",
-    "img": "/img/biologiaIcon.png"
+    "url": "/celulas"
   },
   {
+    "img": "/img/biologiaIcon.png",
     "name": "Centrosomas",
-    "url": "/celulas",
-    "img": "/img/biologiaIcon.png"
+    "url": "/celulas"
   },
   {
+    "img": "/img/biologiaIcon.png",
     "name": "Ciclo celular",
-    "url": "/celulas",
-    "img": "/img/biologiaIcon.png"
+    "url": "/celulas"
   },
   {
+    "img": "/img/toolsIcon.png",
     "name": "Tools",
-    "url": "/tools",
-    "img": "/img/toolsIcon.png"
+    "url": "/tools"
   },
   {
+    "img": "/img/toolsIcon.png",
     "name": "Graficador",
-    "url": "/tools",
-    "img": "/img/toolsIcon.png"
+    "url": "/tools"
   },
   {
+    "img": "/img/toolsIcon.png",
     "name": "Conversor de unidades",
-    "url": "/tools",
-    "img": "/img/toolsIcon.png"
+    "url": "/tools"
   },
   {
+    "img": "/img/toolsIcon.png",
     "name": "Tabla periódica",
-    "url": "/tools",
-    "img": "/img/toolsIcon.png"
+    "url": "/tools"
   }
 ]

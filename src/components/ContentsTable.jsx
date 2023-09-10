@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import { IoClose } from "react-icons/io5";
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -29,7 +29,7 @@ export const ContentsTable = ({ items }) => {
         setClicked(!clicked)
     };
 
-    const nextTopic = () => {
+    const nextTopic = useCallback(() => {
         const topicKeys = Object.keys(items);
         const nextIndex = currentTopicIndex + 1;
 
@@ -39,22 +39,37 @@ export const ContentsTable = ({ items }) => {
             setCurrentTopicIndex(nextIndex);
             navigate(nextTopicPath);
         }
-    };
+    }, [currentTopicIndex, items, navigate]);
 
-    const prevTopic = () => {
+
+    const prevTopic = useCallback(() => {
         const topicKeys = Object.keys(items);
         const prevIndex = currentTopicIndex - 1;
 
         if (prevIndex >= 0) {
-            setCurrentTopicIndex(prevIndex);
-
             const prevTopicKey = topicKeys[prevIndex];
             const prevTopicPath = items[prevTopicKey];
             setCurrentTopicIndex(prevIndex);
-            navigate(prevTopicPath); // Navega a la ruta del tema anterior
+            navigate(prevTopicPath);
         }
-    };
+    }, [currentTopicIndex, items, navigate]);
 
+    useEffect(() => {
+        const handleKeyDown = (event) => {
+            if (event.keyCode === 37) { // Flecha izquierda
+                prevTopic();
+            } else if (event.keyCode === 39) { // Flecha derecha
+                nextTopic();
+            }
+        };
+
+        document.addEventListener("keydown", handleKeyDown);
+
+        return () => {
+            document.removeEventListener("keydown", handleKeyDown);
+        };
+    }, [currentTopicIndex, items, navigate, prevTopic, nextTopic]);
+    
     return (
         <>
             <div className="topicController">
