@@ -59,6 +59,9 @@ export const PracticeComponent = ({ data, subject, title }) => {
         if (showProcess[subject]) {
             return (
                 <div className="mt-2 dropdownBorder">
+                    <img src={data[currentObject[subject]]?.imgProcess} alt="" className="rounded" />
+                    <br />
+                    <br />
                     <Latex>{process}</Latex>
                 </div>
             );

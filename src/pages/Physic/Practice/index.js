@@ -1,11 +1,12 @@
-
-import React from "react";
 import freeFall from "../data/freeFall.json";
 import mru from "../data/mru.json";
 import mrua from "../data/mru.json";
 import vector from "../data/vector.json";
 import verticalShot from "../data/verticalShot.json";
+import parabolicShot from "../data/parabolicShot.json";
+import dinamic from "../data/dinamic.json";
 import { PracticeComponent } from "./PracticeComponent";
+export * from "./PhysicPractice"
 
 export const VectorPractice = () => {
     return (
@@ -33,4 +34,16 @@ export const VerticalShot = () => {
         <PracticeComponent data={verticalShot} subject="verticalShot" title="Practica Tiro vertical"/>
     );
 };
-export * from "./PhysicPractice"
+
+
+export const ParabolicShot = () => {
+    return (
+        <PracticeComponent data={parabolicShot} subject="parabolicShot" title="Practica Tiro parabólico"/>
+    );
+};
+
+export const DinamicPractice = () => {
+    return (
+        <PracticeComponent data={dinamic} subject="dinamic" title="Practica Dinámica"/>
+    );
+};

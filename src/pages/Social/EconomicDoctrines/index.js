@@ -5,9 +5,9 @@ export * from "./Anarchism"
 export * from "./Positivism"
 
 export const economicDoctrinesItems = {
-    Liberalismo: "/sociales/ideologias-economicas/liberalismo",
-    Neoliberalismo: "/sociales/ideologias-economicas/neoliberalismo",
-    Marxismo: "/sociales/ideologias-economicas/marxismo",
-    Anarquismo: "/sociales/ideologias-economicas/anarquismo",
-    Positivismo: "/sociales/ideologias-economicas/positivismo" 
+    Liberalismo: "/sociales/doctrinas-economicas/liberalismo",
+    Neoliberalismo: "/sociales/doctrinas-economicas/neoliberalismo",
+    Marxismo: "/sociales/doctrinas-economicas/marxismo",
+    Anarquismo: "/sociales/doctrinas-economicas/anarquismo",
+    Positivismo: "/sociales/doctrinas-economicas/positivismo" 
 }

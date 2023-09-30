@@ -23,7 +23,7 @@ export const Footer = () => {
 
             <MembersCard name="Andy Solano" description="Encargado de las ilustraciones del proyecto." icon={<BsMegaphoneFill size={34} />} animationduration={1000} />
 
-            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto." icon={<BsMegaphoneFill size={34} />} animationduration={1200} />
+            <MembersCard name="Danna Sanchez" description="Encargado del area de humanidades dentro de la página." icon={<BsMegaphoneFill size={34} />} animationduration={1200} />
 
             <MembersCard name="David Cáceres" description="Encargado de la creación de videos para el canal de YouTube." icon={<AiFillYoutube size={36} />} animationduration={1400} />
           </div>
@@ -44,7 +44,7 @@ export const Footer = () => {
           <div className="d-flex">
             <MembersCard name="Andy Solano" description="Encargado de las ilustraciones del proyecto." icon={<BsMegaphoneFill size={34} />} animationduration={1200} />
 
-            <MembersCard name="Mauricio Lopez" description="Principal encargado del marketing de la página y proyecto." icon={<BsMegaphoneFill size={34} />} animationduration={1400} />
+            <MembersCard name="Danna Sanchez" description="Encargado del area de humanidades dentro de la página." icon={<BsMegaphoneFill size={34} />} animationduration={1400} />
           </div>
         </div>
       </div>

@@ -237,7 +237,7 @@ export const TrigonometryPractice = () => {
                         <hr className="my-4"/>
                         <div>
                             <h3>Ley del coseno</h3>
-                            <img src={isDarkMode === "dark" ? "/img/leyCosenoPracticaDark.svg" : "/img/leyCosenoPractica.svg"} alt="Ley del coseno practica" className='rounded-3 mb-3 revealing-image' />
+                            <img src={isDarkMode === "dark" ? "/img/leyCosenoPracticaDark.svg" : "/img/leyCosenoPractica.svg"} alt="Ley del coseno practica" className='rounded-3 w-80 mb-3 revealing-image' />
 
                             <p>
                                 <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#leycoseno">

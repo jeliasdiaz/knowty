@@ -3,38 +3,6 @@ import Latex from "react-latex"
 
 
 export const PhysicPractice = () => {
-    const tiroParabolicoOne = `$$v_x = \\small 50m/s \\ \\cdot \\ cos(40) = 38.10m/s$$`
-    const tiroParabolicoTwo = `$$v_y = \\small 50m/s \\ \\cdot \\ \\sin(40) = 32.13m/s$$`
-    const tiroParabolicoThree = `$$t_v = \\large \\frac{2 \\ \\cdot \\ v_{0y}}{g}$$`
-    const tiroParabolicoFour = `$$t_v = \\large \\frac{2 \\ \\cdot \\ (32.13m/s)}{9.8m/s^2}$$`
-    const tiroParabolicoFive = `$$t_v = \\small 6.55s$$`
-    const tiroParabolicoSix = `$$h_{max} = \\large \\frac{v_{0y}^2}{2g}$$`
-    const tiroParabolicoSeven = `$$h_{max} = \\large \\frac{(32.13m/s)^2}{2 \\ \\cdot \\ (9.8m/s^2)}$$`
-    const tiroParabolicoEight = `$$h_{max} = \\small 52.67m$$`
-
-
-    const dinamicaOne = `$$C_x = C \\ \\cdot \\ cos(θ)
-    $$`
-    const dinamicaTwo = `$$C_y = C \\ \\cdot \\ sen(θ)$$`
-    const dinamicaThree = `$$C_x = C \\ \\cdot \\ sen(θ)$$`
-    const dinamicaFour = `$$C_y = C \\ \\cdot \\ cos(θ)$$`
-    const dinamicaFive = `$$W_x = \\small 900kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ sen(25) = 3727.49N$$`
-    const dinamicaSix = `$$W_y = \\small 900kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ cos(25) = 7993.63N$$`
-    const dinamicaSeven = `$$ΣF_x = \\small W_x - T = 0$$`
-    const dinamicaEight = `$$ΣF_x = \\small W_x = T$$`
-    const dinamicaNine = `$$ΣF_x = \\small T = 3727.49N$$`
-
-    const dinamicaTwoOne = `$$W_x = \\small 1300kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ Sen(35) = 7307.36N$$`
-    const dinamicaTwoTwo = `$$W_y = \\small 1300kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ Cos(35) = 10435.99N$$`
-    const dinamicaTwoThree = `$$ΣF_y = \\small N - W_y = 0$$`
-    const dinamicaTwoFour = `$$ΣF_y = \\small N = W_y$$`
-    const dinamicaTwoFive = `$$\\text{Fr} = \\small μ \\ \\cdot \\ N$$`
-    const dinamicaTwoSix = `$$\\text{Fr} = \\small 0.5 \\ \\cdot \\ 10435.99N$$`
-    const dinamicaTwoSeven = `$$\\text{Fr} = \\small 5217.995N$$`
-    const dinamicaTwoEight = `$$ΣF_x = W_x - Fr = ma$$`
-    const dinamicaTwoNine = `$$ΣF_x =\\frac{W_x - Fr}{m} = a$$`
-    const dinamicaTwoTen = `$$ΣF_x =\\frac{7307.36N -  5217.995N}{1300kg} = a$$`
-    const dinamicaTwoEleven = `$$ΣF_x =  a = 1.60m/s^2$$`
 
     const torqueOne = `$$W_1 = 60kg \\ \\cdot \\ 9.8m/s^2 = 588$$`
     const torqueTwo = `$$W_2 = ?$$`
@@ -90,153 +58,13 @@ export const PhysicPractice = () => {
                 <MenuCard url="/caida-libre-practica" img="fisicaIcon.png" title="Caída libre" />
 
                 <MenuCard url="/tiro-vertical-practica" img="fisicaIcon.png" title="Tiro vertical" />
+
+                <MenuCard url="/tiro-parabolico-practica" img="fisicaIcon.png" title="Tiro parabólico" />
+
+                <MenuCard url="/dinamica-practica" img="fisicaIcon.png" title="Dinámica" />
             </div>
 
             <div className="subjectCard ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
-
-                <div>
-                    <h3>Tiro parábolico</h3>
-                    <p>En un circo se lanza a una persona desde un cañón, con una velocidad de 50m/s y un ángulo de 40°. Calcule el tiempo de vuelo, altura máxima y su posición horizontal a los 5 segundos.</p>
-
-                    <p>
-                        <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#tiroParabolico">
-                            Solución
-                        </button>
-                    </p>
-
-                    <div className="collapse" id="tiroParabolico">
-                        <span>Componentes</span><br />
-                        <Latex>
-                            {tiroParabolicoOne}
-                        </Latex><br /><br />
-                        <Latex>
-                            {tiroParabolicoTwo}
-                        </Latex><br /><br />
-                        <span>Altura al transcurrir 3 segundos</span><br />
-                        <Latex>
-                            {tiroParabolicoThree}
-                        </Latex><br /><br />
-                        <Latex>
-                            {tiroParabolicoFour}
-                        </Latex><br /><br />
-                        <Latex>
-                            {tiroParabolicoFive}
-                        </Latex><br /><br />
-                        <Latex>
-                            {tiroParabolicoSix}
-                        </Latex><br /><br />
-                        <Latex>
-                            {tiroParabolicoSeven}
-                        </Latex><br /><br />
-                        <Latex>
-                            {tiroParabolicoEight}
-                        </Latex>
-                    </div>
-                </div>
-
-
-                <hr />
-                <div>
-                    <h3>Dinámica</h3>
-                    <h5>N°1</h5>
-                    <p>En una bodega se mantiene una caja de 900kg mediante una soga. La superficie se encuentra inclinada 25° respecto a la horizontal y la superficie tiene un coeficiente de rozamiento de 0.4. Calcule la tensión.</p>
-                    <img src="/img/fisica/dinamicaPracticaImg.svg" alt="Dinamica practica uno" className='practiceImg rounded-3 ' /><br /><br />
-
-                    <p>
-                        <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#dinamicaOne">
-                            Solución
-                        </button>
-                    </p>
-
-                    <div className="collapse " id="dinamicaOne">
-                        <span>Análisis de fuerzas</span><br />
-                        <img src="/img/fisica/dinamicaPracticaImgTwo.svg" alt="Dinamica practica dos" className='practiceImg rounded-3' /><br /><br />
-                        <span>Descomponer vectores</span><br />
-                        <span>Si θ está respecto a X:</span><br />
-                        <Latex>
-                            {dinamicaOne}
-                        </Latex><br />
-                        <Latex>
-                            {dinamicaTwo}
-                        </Latex><br /><br />
-                        <span>Si θ está respecto a y:</span><br />
-                        <Latex>
-                            {dinamicaThree}
-                        </Latex><br />
-                        <Latex>
-                            {dinamicaFour}
-                        </Latex><br /><br />
-                        <span>Componentes del peso</span><br />
-                        <Latex>
-                            {dinamicaFive}
-                        </Latex><br />
-                        <Latex>
-                            {dinamicaSix}
-                        </Latex><br /><br />
-                        <Latex>
-                            {dinamicaSeven}
-                        </Latex><br />
-                        <Latex>
-                            {dinamicaEight}
-                        </Latex><br />
-                        <Latex>
-                            {dinamicaNine}
-                        </Latex><br /><br />
-                    </div>
-
-                    <h5>N°2</h5>
-                    <p>Un vehículo de 1300kg se encuentra en una superficie inclinada 35° respecto a la horizontal, teniendo en cuenta que el sistema está acelerado, calcule la aceleración del vehículo. Considere μ= 0.5 y g= 9.8m/s².</p>
-                    <img src="/img/fisica/dinamicaPracticaImgTwo.svg" alt="Dinamica practica dos" className='practiceImg rounded-3' /><br /><br />
-
-                    <p>
-                        <button className="btn btn-secondary" type="button" data-bs-toggle="collapse" href="#dinamicaTwo">
-                            Solución
-                        </button>
-                    </p>
-
-                    <div className="collapse " id="dinamicaTwo">
-                        <span>Componentes del peso</span><br />
-                        <Latex>
-                            {dinamicaTwoOne}
-                        </Latex><br />
-                        <Latex>
-                            {dinamicaTwoTwo}
-                        </Latex><br /><br /><br />
-                        <span>Normal</span><br />
-                        <Latex>
-                            {dinamicaTwoThree}
-                        </Latex><br />
-                        <Latex>
-                            {dinamicaTwoFour}
-                        </Latex><br /><br /><br />
-                        <span>Fricción</span><br />
-                        <Latex>
-                            {dinamicaTwoFive}
-                        </Latex><br />
-                        <Latex>
-                            {dinamicaTwoSix}
-                        </Latex><br />
-                        <Latex>
-                            {dinamicaTwoSeven}
-                        </Latex><br /><br />
-                        <span>Planteamos la ecuación</span><br />
-                        <Latex>
-                            {dinamicaTwoEight}
-                        </Latex><br /><br />
-                        <Latex>
-                            {dinamicaTwoNine}
-                        </Latex><br /><br />
-                        <Latex>
-                            {dinamicaTwoTen}
-                        </Latex><br /><br />
-                        <Latex>
-                            {dinamicaTwoEleven}
-                        </Latex>
-                    </div>
-                </div>
-
-
-                <hr />
                 <div>
                     <h3>Torque</h3>
                     <p>Alice y Bob juegan en un sube y baja, Alice se encuentra al lado izquierdo a 0.3 metros del centro con una masa de 60kg. Bob está a una distancia de 0.25m ¿Cuál debe ser la masa de Bob para que este sistema se encuentre en equilibrio?

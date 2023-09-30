@@ -27,10 +27,10 @@ import { English, Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVe
 import { Circumference, Straight, Ellipse, Parable, GeometryMenu, Triangle, ConicSections } from "./pages/Math/Geometry";
 
 //* Pyshic
-import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu, VectorPractice, MruPractice, MruaPractice, FreeFallPractice, VerticalShot } from "./pages/Physic/";
+import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu, VectorPractice, MruPractice, MruaPractice, FreeFallPractice, VerticalShot, ParabolicShot, DinamicPractice } from "./pages/Physic/";
 
 //* Social
-import { ArmedGroups, SocialMovements, SocialMenu, ExtraSocial, Ground, Territory, POT, WorldSystem, GeneralAspects, Bogotazo, TheViolence, Liberalism, Neoliberalism, Marxism, Anarchism, Positivism } from "./pages/Social/";
+import { SocialMovements, SocialMenu, ExtraSocial, Ground, Territory, POT, WorldSystem, GeneralAspects, Bogotazo, TheViolence, Liberalism, Neoliberalism, Marxism, Anarchism, Positivism, FARC, ELN, EPL, M19 } from "./pages/Social/";
 
 //* Trigonometry
 import { AnglesAndProperties, BasicTrigonometricNotions, TrigonometryMenu, TrigonometryPractice, SinTheorem, CosTheorem } from "./pages/Math/Trigonometry/";
@@ -191,13 +191,18 @@ function App() {
             <Route  path="/mrua-practica" element={<MruaPractice/>} />
             <Route  path="/caida-libre-practica" element={<FreeFallPractice/>} />
             <Route  path="/tiro-vertical-practica" element={<VerticalShot/>} />
+            <Route  path="/tiro-parabolico-practica" element={<ParabolicShot/>} />
+            <Route  path="/dinamica-practica" element={<DinamicPractice/>} />
 
-            <Route path="/sociales/ideologias-economicas/liberalismo" element={<Liberalism />} />
-            <Route path="/sociales/ideologias-economicas/neoliberalismo" element={<Neoliberalism />} />
-            <Route path="/sociales/ideologias-economicas/marxismo" element={<Marxism />} />
-            <Route path="/sociales/ideologias-economicas/anarquismo" element={<Anarchism />} />
-            <Route path="/sociales/ideologias-economicas/positivismo" element={<Positivism />} />
-            <Route path="/sociales/movimientos-guerrilleros" element={<ArmedGroups />} />
+            <Route path="/sociales/doctrinas-economicas/liberalismo" element={<Liberalism />} />
+            <Route path="/sociales/doctrinas-economicas/neoliberalismo" element={<Neoliberalism />} />
+            <Route path="/sociales/doctrinas-economicas/marxismo" element={<Marxism />} />
+            <Route path="/sociales/doctrinas-economicas/anarquismo" element={<Anarchism />} />
+            <Route path="/sociales/doctrinas-economicas/positivismo" element={<Positivism />} />
+            <Route path="/sociales/movimientos-guerrilleros/farc" element={<FARC />} />
+            <Route path="/sociales/movimientos-guerrilleros/eln" element={<ELN />} />
+            <Route path="/sociales/movimientos-guerrilleros/epl" element={<EPL />} />
+            <Route path="/sociales/movimientos-guerrilleros/m-19" element={<M19 />} />
             <Route path="/sociales/movimientos-sociales" element={<SocialMovements />} />
             <Route path="/sociales/sociales-extra" element={<ExtraSocial />} />
             <Route path="/sociales/organizacion-territorial/suelos" element={<Ground />} />
