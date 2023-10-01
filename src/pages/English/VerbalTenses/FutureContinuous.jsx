@@ -1,4 +1,4 @@
-import { SectionTitle, TopWave } from "../../components"
+import { SectionTitle, TopWave } from "../../../components"
 
 export const FutureContinuous = () => {
     return (

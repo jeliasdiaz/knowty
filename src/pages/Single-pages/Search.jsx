@@ -19,15 +19,22 @@ export const Search = () => {
   const onVisible = useCallback(async () => {
     isVisible && inputRef.current.focus()
   }, [isVisible])
-  
+
   const navigate = useNavigate()
-  const onSubmit = (e) =>{
+  const onSubmit = (e) => {
     e.preventDefault()
-    
+
     const matchingCard = data.find(card => card.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") === searchTerm)
 
+
     if (matchingCard) {
-      navigate(matchingCard.url)
+      if (document.startViewTransition) {
+        document.startViewTransition(() => {
+          navigate(matchingCard.url);
+        })
+      } else {
+        navigate(matchingCard.url)
+      }
     }
   }
   useEffect(() => {
@@ -43,15 +50,15 @@ export const Search = () => {
           && <form onSubmit={onSubmit} className="inputForm">
             <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} ref={inputRef} className="input" />
             <div>
-          {
-            searchTerm.length === 0
-              ? <BiSearch size={35} />
-              : <IoClose id="clearBtn" onClick={clearInput} size={35} />
-          }
-        </div>
+              {
+                searchTerm.length === 0
+                  ? <BiSearch size={35} />
+                  : <IoClose id="clearBtn" onClick={clearInput} size={35} />
+              }
+            </div>
           </form>
         }
-        
+
       </div>
 
       {
@@ -63,7 +70,7 @@ export const Search = () => {
             ? (
               <div className="dataResult">
                 {
-                  filteredData.slice(0, 5).map( data => (
+                  filteredData.slice(0, 5).map(data => (
                     <ResultCard {...data} key={data.name} />
                   ))
                 }

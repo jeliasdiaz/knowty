@@ -1,7 +1,7 @@
 import Latex from "react-latex"
-import { SectionTitle, TopWave } from "../../components"
+import { SectionTitle, TopWave } from "../../../components"
 
-export const PresentPerfect = () => {
+export const PresentSimple = () => {
     const ARROW = `$$\\rightarrow$$`
     return (
         <div className="homeCard">

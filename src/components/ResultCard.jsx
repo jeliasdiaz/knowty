@@ -1,12 +1,22 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import PropTypes from 'prop-types'
 import { titleContext } from "../context/TitleContextSubject";
 
 export const ResultCard = ({ url, name, img }) => {
     const { onTitleSubject } = useContext(titleContext)
-    const handleClick = () => {
+    const navigate = useNavigate()
+    const handleClick = (ev) => {
         onTitleSubject(name);
+
+        ev.preventDefault();
+        if (document.startViewTransition) {
+            document.startViewTransition(() => {
+                navigate(url);
+            })
+        } else {
+            navigate(url)
+        }
     };
 
     return (

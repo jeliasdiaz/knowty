@@ -1,5 +1,5 @@
 import Latex from "react-latex"
-import { SectionTitle, Tooltip, TopWave } from '../../components'
+import { SectionTitle, Tooltip, TopWave } from '../../../components'
 
 export const PastSimple = () => {
     const ARROW = `$$\\rightarrow$$`

@@ -21,7 +21,7 @@ import { BiologyMenu } from "./pages/Biology";
 import { ChemistryMenu, ChemistryHistory, AtomicModels, PropertiesMatter, ChemicalBonds, IonicCompounds, CovalentCompounds, MixSeparation, Oxides, Nomenclature, Hydroxides, Peroxides, Acids, Salts, EquationBalancing, Stoichiometry, ReactiveLimitExcess, ReactivePurity, PerformanceReaction, GasLaws, PeriodicProperties, FamilyElements } from "./pages/Chemistry";
 
 //* English
-import { English, Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVerbs, PresentContinuous, PastContinuous, FutureContinuous, EnglishMenu } from "./pages/English";
+import {  Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVerbs, PresentContinuous, PastContinuous, FutureContinuous, EnglishMenu, PerfectTimes, VerbalTensesMenu } from "./pages/English";
 
 //* Geometry
 import { Circumference, Straight, Ellipse, Parable, GeometryMenu, Triangle, ConicSections } from "./pages/Math/Geometry";
@@ -159,13 +159,14 @@ function App() {
             <Route path="/quimica/familia-elementos" element={<FamilyElements />} />
             
 
-            <Route path="/ingles/tiempos-verbales" element={<English />} />
+            <Route path="/ingles/tiempos-verbales" element={<VerbalTensesMenu/>} />
             <Route path="/ingles/tiempos-verbales/presente-simple" element={<PresentSimple />}/>
             <Route path="/ingles/tiempos-verbales/pasado-simple" element={<PastSimple/>}/>
             <Route path="/ingles/tiempos-verbales/futuro-simple" element={<SimpleFuture/>}/>
-            <Route path="/ingles/tiempos-verbales/futuro-continuo" element={<FutureContinuous/>}/>
             <Route path="/ingles/tiempos-verbales/presente-continuo" element={<PresentContinuous/>}/>
             <Route path="/ingles/tiempos-verbales/pasado-continuo" element={<PastContinuous/>}/>
+            <Route path="/ingles/tiempos-verbales/futuro-continuo" element={<FutureContinuous/>}/>
+            <Route path="/ingles/tiempos-verbales/tiempos-perfectos" element={<PerfectTimes/>}/>
             <Route path="/ingles/determinantes" element={<Determinants />}/>
             <Route path="/ingles/modal-verbs" element={<ModalVerbs />}/>
 

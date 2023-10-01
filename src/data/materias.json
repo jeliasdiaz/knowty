@@ -132,7 +132,7 @@
   {
     "img": "/img/quimicaIcon.png",
     "name": "Propiedades de la materia",
-    "url": "/quimica_1#:~:text=Propiedades de la materia"
+    "url": "/quimica/estructura-materia/propiedades-materia"
   },
   {
     "img": "/img/quimicaIcon.png",
@@ -157,162 +157,167 @@
   {
     "img": "/img/quimicaIcon.png",
     "name": "Separación mezclas",
-    "url": "/quimica_1"
+    "url": "/quimica/estructura-materia/separacion-mezclas"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Modelos atómicos",
-    "url": "/quimica_1"
+    "url": "/quimica/estructura-materia/modelos-atomicos"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Modelo Dalton",
-    "url": "/quimica_1"
+    "url": "/quimica/estructura-materia/modelos-atomicos"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Modelo Rutherford",
-    "url": "/quimica_1"
+    "url": "/quimica/estructura-materia/modelos-atomicos"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Modelo Bohr",
-    "url": "/quimica_1"
+    "url": "/quimica/estructura-materia/modelos-atomicos"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Radio atómico",
-    "url": "/quimica_2"
+    "url": "/quimica/estructura-materia/propiedades-periodicas"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Enlaces químicos",
-    "url": "/quimica_2"
+    "url": "/quimica/estructura-materia/enlaces-quimicos"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Afinidad electrónica",
-    "url": "/quimica_2"
+    "url": "/quimica/estructura-materia/propiedades-periodicas"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Energía ionización",
-    "url": "/quimica_2"
+    "url": "/quimica/estructura-materia/propiedades-periodicas"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Electronegatividad",
-    "url": "/quimica_2"
+    "url": "/quimica/estructura-materia/propiedades-periodicas"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Familia de elementos",
-    "url": "/quimica_2"
+    "url": "/quimica/familia-elementos"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Nomenclatura tradicional",
-    "url": "/quimica"
+    "url": "/quimica/nomenclatura/nomenclaturas"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Nomenclatura stock",
-    "url": "/quimica"
+    "url": "/quimica/nomenclatura/nomenclaturas"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Nomenclatura sistemática",
-    "url": "/quimica"
+    "url": "/quimica/nomenclatura/nomenclaturas"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Ácidos",
-    "url": "/quimica"
+    "url": "/quimica/nomenclatura/acidos"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Óxidos",
-    "url": "/quimica"
+    "url": "/quimica/nomenclatura/oxidos"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Hidróxidos",
-    "url": "/quimica"
+    "url": "/quimica/nomenclatura/hidroxidos"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Peróxidos",
-    "url": "/quimica"
+    "url": "/quimica/nomenclatura/peroxidos"
   },
   {
     "img": "/img/quimicaIcon.png",
-    "name": "Componentes iónicos",
-    "url": "/quimica_2"
+    "name": "Compuestos iónicos",
+    "url": "/quimica/estructura-materia/compuestos-ionicos"
+  },
+  {
+    "img": "/img/quimicaIcon.png",
+    "name": "Compuestos covalentes",
+    "url": "/quimica/estructura-materia/compuestos-covalentes"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Oxácido",
-    "url": "/quimica"
+    "url": "/quimica/nomenclatura/acidos"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Hidrácido",
-    "url": "/quimica"
+    "url": "/quimica/nomenclatura/acidos"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Sales",
-    "url": "/quimica"
+    "url": "/quimica/nomenclatura/sales"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Balanceo tanteo",
-    "url": "/quimica"
+    "url": "/quimica/reacciones-quimicas/balanceo"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Balanceo algebraico",
-    "url": "/quimica"
+    "url": "/quimica/reacciones-quimicas/balanceo"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Balanceo redox",
-    "url": "/quimica"
+    "url": "/quimica/reacciones-quimicas/balanceo"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Estequiometría",
-    "url": "/quimica"
+    "url": "/quimica/reacciones-quimicas/estequiometria"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Reactivo límite",
-    "url": "/quimica_4"
+    "url": "/quimica/reacciones-quimicas/reactivo-limite-exceso"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Pureza reactivo",
-    "url": "/quimica_4"
+    "url": "/quimica/reacciones-quimicas/pureza-reactivo"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Rendimiento",
-    "url": "/quimica_4"
+    "url": "/quimica/reacciones-quimicas/rendimiento"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Ley de Boyle",
-    "url": "/quimica_4"
+    "url": "/quimica/reacciones-quimicas/leyes-gases"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Ley de Charles",
-    "url": "/quimica_4"
+    "url": "/quimica/reacciones-quimicas/leyes-gases"
   },
   {
     "img": "/img/quimicaIcon.png",
     "name": "Ley de Gay-Lussac",
-    "url": "/quimica_4"
+    "url": "/quimica/reacciones-quimicas/leyes-gases"
   },
   {
     "img": "/img/estadisticaIcon.png",
@@ -327,27 +332,57 @@
   {
     "img": "/img/estadisticaIcon.png",
     "name": "Medidas tendencia central",
-    "url": "/estadistica"
+    "url": "/medidas-tendencia-central"
   },
   {
     "img": "/img/estadisticaIcon.png",
     "name": "Moda",
-    "url": "/estadistica"
+    "url": "/medidas-tendencia-central"
   },
   {
     "img": "/img/estadisticaIcon.png",
     "name": "Mediana",
-    "url": "/estadistica"
+    "url": "/medidas-tendencia-central"
   },
   {
     "img": "/img/estadisticaIcon.png",
-    "name": "Moda",
-    "url": "/estadistica"
+    "name": "Media",
+    "url": "/medidas-tendencia-central"
+  },
+  {
+    "img": "/img/estadisticaIcon.png",
+    "name": "Cuartiles",
+    "url": "/medidas-localizacion"
+  },
+  {
+    "img": "/img/estadisticaIcon.png",
+    "name": "Deciles",
+    "url": "/medidas-localizacion"
+  },
+  {
+    "img": "/img/estadisticaIcon.png",
+    "name": "Percentiles",
+    "url": "/medidas-localizacion"
+  },
+  {
+    "img": "/img/estadisticaIcon.png",
+    "name": "Varianza",
+    "url": "/medidas-dispersion"
+  },
+  {
+    "img": "/img/estadisticaIcon.png",
+    "name": "Desviación estandar",
+    "url": "/medidas-dispersion"
   },
   {
     "img": "/img/geometriaIcon.png",
     "name": "Geometría",
     "url": "/geometria-menu"
+  },
+  {
+    "img": "/img/geometriaIcon.png",
+    "name": "Triángulos",
+    "url": "/triangulos"
   },
   {
     "img": "/img/geometriaIcon.png",
@@ -372,7 +407,12 @@
   {
     "img": "/img/englishIcon.png",
     "name": "Inglés",
-    "url": "/ingles/tiempos-verbales"
+    "url": "/ingles-menu"
+  },
+  {
+    "img": "/img/englishIcon.png",
+    "name": "Modal verbs",
+    "url": "/ingles/modal-verbs"
   },
   {
     "img": "/img/socialesIcon.png",
@@ -382,87 +422,112 @@
   {
     "img": "/img/socialesIcon.png",
     "name": "Territorialidad",
-    "url": "/sociales_1"
+    "url": "/sociales/organizacion-territorial/territorio"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "Marcación",
-    "url": "/sociales_1"
+    "url": "/sociales/organizacion-territorial/territorio"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "Instauración",
-    "url": "/sociales_1"
+    "url": "/sociales/organizacion-territorial/territorio"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "Consolidación",
-    "url": "/sociales_1"
+    "url": "/sociales/organizacion-territorial/territorio"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "Territorialización",
-    "url": "/sociales_1"
+    "url": "/sociales/organizacion-territorial/territorio"
+  },
+  {
+    "img": "/img/socialesIcon.png",
+    "name": "Plan de Ordenamiento Territorial",
+    "url": "/sociales/organizacion-territorial/pot"
+  },
+  {
+    "img": "/img/socialesIcon.png",
+    "name": "POT",
+    "url": "/sociales/organizacion-territorial/pot"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "Sistema mundo",
-    "url": "/sociales_1"
+    "url": "/sociales/organizacion-territorial/sistema-mundo"
   },
   {
     "img": "/img/socialesIcon.png",
-    "name": "Ideologías económicas",
+    "name": "Doctrinas económicas",
     "url": "/sociales/doctrinas-economicas"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "Liberalismo",
-    "url": "/sociales/doctrinas-economicas"
+    "url": "/sociales/doctrinas-economicas/liberalismo"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "Neoliberalismo",
-    "url": "/sociales/doctrinas-economicas"
+    "url": "/sociales/doctrinas-economicas/neoliberalismo"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "Marxismo",
-    "url": "/sociales/doctrinas-economicas"
+    "url": "/sociales/doctrinas-economicas/marximo"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "Anarquismo",
-    "url": "/sociales/doctrinas-economicas"
+    "url": "/sociales/doctrinas-economicas/anarquismo"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "Positivismo",
-    "url": "/sociales/doctrinas-economicas"
+    "url": "/sociales/doctrinas-economicas/positivismo"
+  },
+  {
+    "img": "/img/socialesIcon.png",
+    "name": "Conflicto armado",
+    "url": "/sociales/conflicto-armado/aspectos-generales"
+  },
+  {
+    "img": "/img/socialesIcon.png",
+    "name": "El Bogotazo",
+    "url": "/sociales/conflicto-armado/bogotazo"
+  },
+  {
+    "img": "/img/socialesIcon.png",
+    "name": "La Violencia",
+    "url": "/sociales/conflicto-armado/la-violencia"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "Movimientos armados",
-    "url": "/sociales/movimientos-guerrilleros"
+    "url": "/sociales/movimientos-guerrilleros/farc"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "FARC",
-    "url": "/sociales/movimientos-guerrilleros"
+    "url": "/sociales/movimientos-guerrilleros/farc"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "ELN",
-    "url": "/sociales/movimientos-guerrilleros"
+    "url": "/sociales/movimientos-guerrilleros/eln"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "EPL",
-    "url": "/sociales/movimientos-guerrilleros"
+    "url": "/sociales/movimientos-guerrilleros/epl"
   },
   {
     "img": "/img/socialesIcon.png",
     "name": "M-19",
-    "url": "/sociales/movimientos-guerrilleros"
+    "url": "/sociales/movimientos-guerrilleros/m-19"
   },
   {
     "img": "/img/socialesIcon.png",
@@ -501,18 +566,13 @@
   },
   {
     "img": "/img/trigonometriaIcon.png",
-    "name": "Ley del seno",
-    "url": "/trigonometria"
+    "name": "Teorema del seno",
+    "url": "/teorema-seno"
   },
   {
     "img": "/img/trigonometriaIcon.png",
-    "name": "Ley del coseno",
-    "url": "/trigonometria"
-  },
-  {
-    "img": "/img/estadisticaIcon.png",
-    "name": "Simetría y asimetría",
-    "url": "/estadistica"
+    "name": "Teorema del coseno",
+    "url": "/teorema-coseno"
   },
   {
     "img": "/img/filosofiaIcon.png",
@@ -522,17 +582,27 @@
   {
     "img": "/img/filosofiaIcon.png",
     "name": "Presocráticos",
-    "url": "/introduccion-filosofia"
+    "url": "/filosofia-antigua/presocraticos"
+  },
+  {
+    "img": "/img/filosofiaIcon.png",
+    "name": "Escuelas helenísticas",
+    "url": "/filosofia-antigua/escuelas-helenisticas"
   },
   {
     "img": "/img/filosofiaIcon.png",
     "name": "Sócrates",
-    "url": "/filosofos-clasicos"
+    "url": "/filosofia-antigua/socrates"
   },
   {
     "img": "/img/filosofiaIcon.png",
     "name": "Platón",
-    "url": "/filosofos-clasicos"
+    "url": "/filosofia-antigua/platon"
+  },
+  {
+    "img": "/img/filosofiaIcon.png",
+    "name": "Aristóteles",
+    "url": "/filosofia-antigua/aristoteles"
   },
   {
     "img": "/img/biologiaIcon.png",
@@ -547,47 +617,67 @@
   {
     "img": "/img/biologiaIcon.png",
     "name": "Célula eucariota",
-    "url": "/celulas"
+    "url": "/celula-eucariota"
   },
   {
     "img": "/img/biologiaIcon.png",
     "name": "Célula procariota",
-    "url": "/celulas"
+    "url": "/celula-procariota"
   },
   {
     "img": "/img/biologiaIcon.png",
     "name": "Mitocondria",
-    "url": "/celulas"
+    "url": "/celulas/organelos-celulares/mitocondria"
   },
   {
     "img": "/img/biologiaIcon.png",
     "name": "Retículo endoplasmático",
-    "url": "/celulas"
+    "url": "/celulas/organelos-celulares/reticulo-endoplasmatico"
   },
   {
     "img": "/img/biologiaIcon.png",
     "name": "Aparato de Golgi",
-    "url": "/celulas"
+    "url": "/celulas/organelos-celulares/aparato-golgi"
   },
   {
     "img": "/img/biologiaIcon.png",
     "name": "Lisosomas",
-    "url": "/celulas"
+    "url": "/celulas/organelos-celulares/lisosomas"
   },
   {
     "img": "/img/biologiaIcon.png",
     "name": "Ribosomas",
-    "url": "/celulas"
+    "url": "/celulas/organelos-celulares/ribosomas"
   },
   {
     "img": "/img/biologiaIcon.png",
     "name": "Centrosomas",
-    "url": "/celulas"
+    "url": "/celulas/organelos-celulares/centrosoma"
+  },
+  {
+    "img": "/img/biologiaIcon.png",
+    "name": "Citoplasma",
+    "url": "/celulas/organelos-celulares/citoplasma"
+  },
+  {
+    "img": "/img/biologiaIcon.png",
+    "name": "Membrana nuclear",
+    "url": "/celulas/organelos-celulares/membrana-nuclear"
   },
   {
     "img": "/img/biologiaIcon.png",
     "name": "Ciclo celular",
-    "url": "/celulas"
+    "url": "/celulas/ciclo-celular"
+  },
+  {
+    "img": "/img/biologiaIcon.png",
+    "name": "Interfase",
+    "url": "/celulas/ciclo-celular/interfase"
+  },
+  {
+    "img": "/img/biologiaIcon.png",
+    "name": "Fase M",
+    "url": "/celulas/ciclo-celular/fase-m"
   },
   {
     "img": "/img/toolsIcon.png",

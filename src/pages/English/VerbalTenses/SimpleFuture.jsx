@@ -1,4 +1,4 @@
-import { SectionTitle, Tooltip, TopWave } from "../../components"
+import { SectionTitle, Tooltip, TopWave } from "../../../components"
 
 export const SimpleFuture = () => {
 
