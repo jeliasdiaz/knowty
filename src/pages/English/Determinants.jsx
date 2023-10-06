@@ -4,7 +4,7 @@ export const Determinants = () => {
     return (
         <div className="homeCard">
             <TopWave />
-            <SectionTitle title="Determinants" />
+            <SectionTitle title="Determinantes" />
 
             <div className="englishCardContainer">
                 <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">

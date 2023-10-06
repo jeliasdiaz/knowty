@@ -662,6 +662,7 @@ input[type="radio"]:checked + span:before {
   text-align: center;
   margin: 3%;
   transition: 0.5s !important;
+  color: #2b7ea1;
 }
 
 /** Mobile menu pages */

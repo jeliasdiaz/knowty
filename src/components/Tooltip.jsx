@@ -32,7 +32,8 @@ export const Tooltip = ({ content, text, id }) => {
                 anchorId={id}
                 place="top"
                 style={{
-                    color: "white"
+                    color: "white",
+                    width: "fit-content"
                 }}
                 className="tooltipBackground ownShadow-sm"
                 delayShow={100}

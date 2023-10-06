@@ -21,7 +21,7 @@ import { BiologyMenu } from "./pages/Biology";
 import { ChemistryMenu, ChemistryHistory, AtomicModels, PropertiesMatter, ChemicalBonds, IonicCompounds, CovalentCompounds, MixSeparation, Oxides, Nomenclature, Hydroxides, Peroxides, Acids, Salts, EquationBalancing, Stoichiometry, ReactiveLimitExcess, ReactivePurity, PerformanceReaction, GasLaws, PeriodicProperties, FamilyElements } from "./pages/Chemistry";
 
 //* English
-import {  Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVerbs, PresentContinuous, PastContinuous, FutureContinuous, EnglishMenu, PerfectTimes, VerbalTensesMenu } from "./pages/English";
+import {  Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVerbs, PresentContinuous, PastContinuous, FutureContinuous, EnglishMenu, PerfectTimes, VerbalTensesMenu, PassiveVoice, BeAbleTo } from "./pages/English";
 
 //* Geometry
 import { Circumference, Straight, Ellipse, Parable, GeometryMenu, Triangle, ConicSections } from "./pages/Math/Geometry";
@@ -169,6 +169,8 @@ function App() {
             <Route path="/ingles/tiempos-verbales/tiempos-perfectos" element={<PerfectTimes/>}/>
             <Route path="/ingles/determinantes" element={<Determinants />}/>
             <Route path="/ingles/modal-verbs" element={<ModalVerbs />}/>
+            <Route path="/ingles/voz-pasiva" element={<PassiveVoice />}/>
+            <Route path="/ingles/be-able-to" element={<BeAbleTo/>}/>
 
             <Route path="/matematicas-menu" element={<MathMenu />}/>
             <Route path="/matematicas/introduccion-aritmetica" element={<Arithmetic />}/>

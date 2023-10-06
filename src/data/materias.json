@@ -415,6 +415,16 @@
     "url": "/ingles/modal-verbs"
   },
   {
+    "img": "/img/englishIcon.png",
+    "name": "Voz pasiva",
+    "url": "/ingles/voz-pasiva"
+  },
+  {
+    "img": "/img/englishIcon.png",
+    "name": "Be able to",
+    "url": "/ingles/be-able-to"
+  },
+  {
     "img": "/img/socialesIcon.png",
     "name": "Sociales",
     "url": "/sociales-menu"
