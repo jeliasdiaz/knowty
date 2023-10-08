@@ -57,7 +57,7 @@ export const GasLaws = () => {
 
                     Teniendo esto claro, se deriva el concepto de gas ideal, este consiste en un gas teórico caracterizado por el movimiento aleatorio de las partículas dentro de ellos. Dicho tipo de gas, se comporta de forma ideal cuando está a temperaturas altas y bajas presiones. De esta manera, las leyes de los gases expuestas a continuación, solo aplican en este tipo de gases.</p>
 
-                <h4>Ley de Boyle</h4>
+                <h4 id="leyBoyle">Ley de Boyle</h4>
                 <p>Postula que en un gas a mayor presión, menor es el volumen. Dicho de otro modo, la relación es inversamente proporcional a temperatura constante. Dicha ley se evidencia, por ejemplo, en una jeringa que esté sellada. A medida que presionemos el émbolo, el volumen disminuye y la presión aumenta. Su gráfica y ecuación son las siguientes:</p>
 
                 <ResponsiveContainer width={"88%"} height={300}>
@@ -77,7 +77,7 @@ export const GasLaws = () => {
                 <Latex>{leyBoyle}</Latex>
                 <br /><br />
 
-                <h4>Ley de Charles</h4>
+                <h4 id="leyCharles">Ley de Charles</h4>
                 <p>Postula que en los gases, el volumen es directamente proporcional a la temperatura a presión constante. Por ejemplo, al llenar un globo con aire caliente, su volumen se expandirá. Su gráfica y ecuación son las siguientes:</p>
 
                 <ResponsiveContainer width={"88%"} height={300}>
@@ -97,7 +97,7 @@ export const GasLaws = () => {
                 <Latex>{leyCharles}</Latex>
                 <br /><br />
 
-                <h4>Ley de Gay-Lussac</h4>
+                <h4 id="leyGayLussac">Ley de Gay-Lussac</h4>
                 <p>Postula que en los gases, la presión es directamente proporcional a la temperatura a volumen constante. Por ejemplo, tenemos la olla a presión, al calentarla y estar sellada, provoca que la presión dentro de esta aumente. Su gráfica y ecuación son las siguientes:</p>
                 <ResponsiveContainer width={"88%"} height={300}>
                     <LineChart width={500} height={300} data={leyCharlesGrafica} >

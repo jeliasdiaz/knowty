@@ -14,7 +14,7 @@ export const ChemicalBonds = () => {
                 <img src={isDarkMode === "dark" ? "/img/enlacesQuimicosDark.svg" : "/img/enlacesQuimicos.svg"} alt="Enlaces químicos" className="w-80 rounded-3 revealing-image" />
                 <br />
 
-                <h4>Enlace iónico</h4>
+                <h4 id="enlaceIonico">Enlace iónico</h4>
                 <p>
                     La diferencia de electronegatividades (fuerza con la que un átomo atrae a los electrones) entre los átomos del enlace hace que uno termine dándole su electrón al otro (diferencia mayor o igual a 1.7).
                     Esto resulta en dos iones, uno con carga positiva y otro con carga negativa, que por sus cargas opuestas se terminan atrayendo. Es gracias a los iones que forma que recibe su nombre.
@@ -22,7 +22,7 @@ export const ChemicalBonds = () => {
 
                 <hr />
 
-                <h4>Enlace covalente</h4>
+                <h4 id="enlaceCovalente">Enlace covalente</h4>
                 <p>
                     Debido a que la diferencia de electronegatividad entre los átomos no es tan fuerte, terminan compartiendo un par de electrones. Como el par de electrones tienen carga negativa y los núcleos carga positiva estos se atraen, formando así el enlace.
                 </p>
@@ -42,7 +42,7 @@ export const ChemicalBonds = () => {
                 
                 <hr />
 
-                <h4>Enlace metálico</h4>
+                <h4 id="enlaceMetalico">Enlace metálico</h4>
                 <p>
                     En este enlace los electrones de valencia deambulan libremente en un mar o nube electrónica.Es gracias al movimiento de los electrones entre los núcleos de los átomos que hacen parte de ese mar electrónico que se forman los enlaces entre ellos y les da las propiedades tan características que tienen los metales. El valor de la electronegatividad de los átomos participantes no tiene un papel tan importante como lo presentan otros enlaces.
                 </p>

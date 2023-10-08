@@ -4,8 +4,17 @@ export * from "./POT";
 export * from "./WorldSystem";
 
 export const items = {
-  Suelos: "/sociales/organizacion-territorial/suelos",
-  Territorio: "/sociales/organizacion-territorial/territorio",
-  POT: "/sociales/organizacion-territorial/pot",
-  "Sistema mundo": "/sociales/organizacion-territorial/sistema-mundo",
+  Suelos: {
+    path: "/sociales/organizacion-territorial/suelos"
+  },
+  Territorio: {
+    path: "/sociales/organizacion-territorial/territorio"
+  },
+  POT: {
+    path: "/sociales/organizacion-territorial/pot"
+  },
+  "Sistema mundo": {
+    path: "/sociales/organizacion-territorial/sistema-mundo"
+  }
 };
+

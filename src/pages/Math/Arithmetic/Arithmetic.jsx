@@ -54,7 +54,7 @@ export const Arithmetic = () => {
             <ContentsTable items={arithmeticItems} />
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
-                <h3>Aritmética</h3>
+                <h3 id="aritmetica">Aritmética</h3>
                 <p>
                     La aritmética es una rama de las matemáticas enfocada en el estudio de las operaciones básicas y las diversas propiedades bajo las que se rigen.
                     <br />
@@ -62,7 +62,7 @@ export const Arithmetic = () => {
                     La aritmética proporciona las habilidades básicas necesarias para llevar a cabo operaciones matemáticas en la vida cotidiana y en disciplinas más avanzadas, como el álgebra, la geometría y el cálculo. Por todo esto, es considerado un pilar fundamental de la matemática.
                 </p>
                 <hr />
-                <h4>Clasificación de los números</h4>
+                <h4 id="clasificacionNumeros">Clasificación de los números</h4>
 
                 <img
                     src={isDarkMode === 'dark' ? "/img/clasificacionNumerosDark.png" : "/img/clasificacionNumeros.png"}
@@ -86,7 +86,7 @@ export const Arithmetic = () => {
                     <span className="fw-semibold">Complejos:</span> Unión de reales e imaginarios.
                 </p>
                 <hr />
-                <h4>Valor absoluto de un número</h4>
+                <h4 id="valorAbsoluto">Valor absoluto de un número</h4>
                 <p>
                     Al contrario de lo que muchos piensan, el valor absoluto NO es la versión positiva de un número, sino que, se define como la distancia en la recta desde el cero hasta la ubicación de un punto X, por lo tanto, el valor absoluto de menos dos es igual a dos no porque sea su versión positiva sino porque se encuentra a dos unidades de distancia del dos. Se representa así: |a|.
                     <br />

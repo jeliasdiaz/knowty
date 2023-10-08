@@ -12,7 +12,7 @@ export const Presocratics = () => {
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <h3>Presocráticos</h3>
 
-                <h4>¿Quiénes eran los presocráticos?</h4>
+                <h4 id="quienesEranPresocraticos">¿Quiénes eran los presocráticos?</h4>
                 <p>
                     Los presocráticos fueron un grupo de pensadores y filósofos griegos
                     que existieron antes de Sócrates. Se les considera como los primeros
@@ -30,14 +30,14 @@ export const Presocratics = () => {
                     naturaleza.
                 </p>
 
-                <h4>Tales de Mileto</h4>
+                <h4 id="tales">Tales de Mileto</h4>
                 <ul>
                     <li>Fue uno del los 7 sabios de Grecia.</li>
                     <li>Fue matemático, astrónomo, físico, filósofo, etc.</li>
                     <li>Arché = agua</li>
                 </ul>
 
-                <h4>Anaximandro de Mileto</h4>
+                <h4 id="anaximandro">Anaximandro de Mileto</h4>
                 <p>Fue el primero en desarrollar una cosmología</p>
                 <ul>
                     <li>Fue el primero en desarrollar una cosmología.</li>
@@ -48,7 +48,7 @@ export const Presocratics = () => {
 
                 <hr />
 
-                <h4>Anaxímenes de Mileto</h4>
+                <h4 id="anaximenes">Anaxímenes de Mileto</h4>
                 <ul>
                     <li>Arché = aire</li>
                     <li>
@@ -65,7 +65,7 @@ export const Presocratics = () => {
 
                 <hr />
 
-                <h4>Heráclito de Efeso</h4>
+                <h4 id="heraclito">Heráclito de Efeso</h4>
                 <ul>
                     <li>Arché = fuego</li>
                     <li>
@@ -88,7 +88,7 @@ export const Presocratics = () => {
 
                 <hr />
 
-                <h4>Parménides de Elea</h4>
+                <h4 id="parmenides">Parménides de Elea</h4>
                 <ul>
                     <li>Sólo existe una sola cosa en el mundo: el "ser".</li>
                     <li>No hay cambio, el ser es eterno.</li>
@@ -97,14 +97,14 @@ export const Presocratics = () => {
 
                 <hr />
 
-                <h4>Pitágoras de Samos</h4>
+                <h4 id="pitagoras">Pitágoras de Samos</h4>
                 <ul>
                     <li>Arché = los números</li>
                 </ul>
 
                 <hr />
 
-                <h4>Empédocles</h4>
+                <h4 id="empedocles">Empédocles</h4>
                 <ul>
                     <li>
                         Arché = la mezcla de todos los elementos (agua, fuego, tierra y
@@ -114,7 +114,7 @@ export const Presocratics = () => {
 
                 <hr />
 
-                <h4>Anaxágoras</h4>
+                <h4 id="anaxagoras">Anaxágoras</h4>
                 <ul>
                     <li>Arché = semillas</li>
                     <li>Nous (inteligencia)</li>
@@ -122,7 +122,7 @@ export const Presocratics = () => {
 
                 <hr />
 
-                <h4>Demócrito</h4>
+                <h4 id="democrito">Demócrito</h4>
                 <ul>
                     <li>Arché = átomo</li>
                 </ul>

@@ -3,7 +3,23 @@ export * from "./Interface"
 export * from "./PhaseM"
 
 export const cellCycleItems = {
-    "Ciclo celular": "/celulas/ciclo-celular",
-    Interfase: "/celulas/ciclo-celular/interfase",
-    "Fase M": "/celulas/ciclo-celular/fase-m"
-}
+    "Ciclo celular": {
+      path: "/celulas/ciclo-celular"
+    },
+    Interfase: {
+      path: "/celulas/ciclo-celular/interfase"
+    },
+    "Fase M": {
+      path: "/celulas/ciclo-celular/fase-m",
+      subtopics: {
+        Mitosis: {
+          path: "/celulas/ciclo-celular/fase-m",
+          scrollToId: "mitosis"
+        },
+        Citocinesis: {
+          path: "/celulas/ciclo-celular/fase-m",
+          scrollToId: "citocinesis"
+        },
+      }
+    }
+  };

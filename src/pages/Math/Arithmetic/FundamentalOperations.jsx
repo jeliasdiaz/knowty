@@ -10,7 +10,7 @@ export const FundamentalOperations = () => {
             <ContentsTable items={arithmeticItems} />
 
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
-                <h4>Suma y resta</h4>
+                <h4 id="sumaResta">Suma y resta</h4>
                 <ul>
                     <li>La suma se compone de dos o más elementos a los que llamamos sumandos, el resultado se conoce como suma o adición.</li>
                     <li>La resta se compone del minuendo y el sustraendo, el resultado es llamado resta o diferencia.</li>
@@ -83,7 +83,7 @@ export const FundamentalOperations = () => {
 
                 <hr />
 
-                <h4>Multiplicación y división</h4>
+                <h4 id="multiplicacionDivision">Multiplicación y división</h4>
                 <ul>
                     <li>La multiplicación puede considerarse la suma de un número con sí mismo una determinada cantidad de veces, por lo que 4 x 5 = 4 + 4 + 4 + 4 + 4</li>
                     <li>La división es el proceso en el que se calcula el número de veces que debe repetirse un número para que al sumarse tengan como resultado el dividendo. 20/4=5 porque el cuatro al multiplicarse con 5 tiene como resultado 20 o también puede decirse que el 4 al sumarse con el mismo 5 veces tiene como resultado 20.</li>
@@ -163,7 +163,7 @@ export const FundamentalOperations = () => {
                 </ul>
                 <br />
                 <br />
-                <h5>Divisibilidad</h5>
+                <h5 id="divisibilidad">Divisibilidad</h5>
                 <p>
                     Es la capacidad de un número de dividir exactamente a otro, por lo tanto el cociente es un número entero.
                 </p>
@@ -178,7 +178,7 @@ export const FundamentalOperations = () => {
 
                 <hr />
 
-                <h4>Potenciación</h4>
+                <h4 id="potenciacion">Potenciación</h4>
                 <ul>
                     <li>Operación que consiste en multiplicar la base por sí misma tantas veces como sea el valor del exponente.</li>
                     <li>Se compone de una base (ejemplo: 2), elevada a un exponente (ejemplo: 3), dando como resultado la potencia <Latex>{`$2^3$`}</Latex>.</li>
@@ -280,7 +280,7 @@ export const FundamentalOperations = () => {
 
                 <hr />
 
-                <h4>Radicación</h4>
+                <h4 id="radicacion">Radicación</h4>
                 <p>
                     Operación inversa a la potenciación, consta de un índice, radicando y una raíz, cosa que en la potenciación representan al exponente, potencia y base respectivamente. Por lo tanto, en palabras de la potenciación se podría decir que es la operación que a partir del exponente y la potencia busca la base.
                     Cuando no se escribe un índice se asume que es dos.
@@ -346,7 +346,7 @@ export const FundamentalOperations = () => {
                     </li>
                     <br />
                     <br />
-                    <h5>Simplificación de raíces</h5>
+                    <h5 id="simplificacionRaices">Simplificación de raíces</h5>
                     <p>
                         En matemática, las expresiones deben ser lo más simples posible y las raíces no son la excepción, así que, en caso de raíces no exactas se aplica la simplificación, consiste en descomponer el radicando como un producto de factores, estos factores deben de tener una raíz exacta, así aprovecharemos la propiedad “Raíz de un producto” para simplificar.
                         <br /> <br />
@@ -360,7 +360,7 @@ export const FundamentalOperations = () => {
 
                 <hr />
 
-                <h4>Logaritmación</h4>
+                <h4 id="logaritmacion">Logaritmación</h4>
                 <p>
                     Es un proceso matemático inverso a la operación de potenciación. Implica encontrar el exponente al cual se debe elevar una base para obtener un número determinado. Como tal sus partes son llamadas base, argumento (o antilogaritmo) y logaritmo.
                 </p>
@@ -458,7 +458,7 @@ export const FundamentalOperations = () => {
 
                 <hr />
 
-                <h3>Jerarquía de operaciones</h3>
+                <h3 id="jerarquiaOperaciones">Jerarquía de operaciones</h3>
                 <p>Indica el orden en el que deben efectuarse las operaciones</p>
                 <ol>
                     <li>Potencias y raíces.</li>

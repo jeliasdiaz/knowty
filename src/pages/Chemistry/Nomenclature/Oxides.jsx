@@ -8,7 +8,7 @@ export const Oxides = () => {
             <SectionTitle title="Óxidos" />
             <ContentsTable items={nomenclatureItems} />
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
-                <h3>Óxidos basicos</h3>
+                <h3 id="oxidosBasicos">Óxidos básicos</h3>
                 <p>Son aquellos que contienen oxígeno y un metal. De hecho, también se les conoce como óxidos metálicos. Ejemplos: dióxido de calcio (CaO), óxido de hierro (III) (Fe<sub>2</sub>O<sub>3</sub>), óxido de magnesio (MgO), etc.</p>
                 <h5>Fórmula</h5>
                 <p>
@@ -20,7 +20,7 @@ export const Oxides = () => {
                     x = Número de oxidación del metal
                 </p>
 
-                <h3>Óxidos ácidos </h3>
+                <h3 id="oxidosAcidos">Óxidos ácidos</h3>
                 <p>
                     Son aquellos que contienen oxígeno y un no metal. También conocidos como óxidos no metálicos. Ejemplos: ácido sulfúrico (SO2), ácido nítrico (NO2), etc.
                 </p>

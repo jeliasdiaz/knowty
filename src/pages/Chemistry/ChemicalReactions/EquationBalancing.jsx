@@ -37,7 +37,7 @@ export const EquationBalancing = () => {
                 </p>
                 <img src={isDarkMode === "dark" ? "/img/partes-ecuacion-quimicaDark.svg" : "/img/partes-ecuacion-quimica.svg"} alt="Partes ecuación química" className="rounded revealing-image" />
                 <hr />
-                <h4>Balanceo por tanteo</h4>
+                <h4 id="balanceoTanteo">Balanceo por tanteo</h4>
                 <p>
                     Se fundamenta en la prueba y error. Puesto que se debe experimentar con coeficientes. Es un proceso que requiere paciencia y práctica. Pero es eficaz para balancear ecuaciones químicas. De esta manera, el número de átomos de los reactivos debe ser igual al número de átomos en los productos.<br /> <br />
                     Pasos a realizar:
@@ -64,7 +64,7 @@ export const EquationBalancing = () => {
 
                 <hr />
 
-                <h4>Balanceo por método algebraico</h4>
+                <h4 id="balanceoAlgebraico">Balanceo por método algebraico</h4>
                 <p>
                     Posee cierta relación con el método de tanteo. Ambos darán un mismo resultado; a diferencia del método redox, el cual emplea un procedimiento que se aleja inicialmente de los métodos por tanteo y algebraico. <br /> <br />
 
@@ -106,7 +106,7 @@ export const EquationBalancing = () => {
 
                 <hr />
 
-                <h4>Balanceo por método óxido reducción (Redox)</h4>
+                <h4 id="balanceoRedox">Balanceo por método óxido reducción (Redox)</h4>
                 <p>
                     Mediante este método hacemos uso de la variación en los estados de oxidación presentes en los elementos. A partir de estos, realizaremos el procedimiento para balancear la ecuación. Es importante aclarar que estos procesos nos ayudan a orientarnos en los coeficientes, debido a que en algunas ocasiones debemos hacer uso de balanceo por tanteo para equilibrar el resto de elementos.
                 </p>

@@ -19,7 +19,7 @@ export const HellenisticSchools = () => {
 
                 <hr />
 
-                <h4>Cínicos</h4>
+                <h4 id="cinicos">Cínicos</h4>
                 <p>
                     Fue fundada por Antístenes y, se caracterizó por tratar de adaptar
                     una vida similar a los animales, rechazando los bienes materiales
@@ -37,7 +37,7 @@ export const HellenisticSchools = () => {
 
                 <hr />
 
-                <h4>Epicureos</h4>
+                <h4 id="epicureos">Epicureos</h4>
                 <p>
                     Su fundador es Epicuro y se caracterizó por ser una filosofía
                     hedonista, esto es, una corriente de pensamiento fundamentada en
@@ -57,7 +57,7 @@ export const HellenisticSchools = () => {
 
                 <hr />
 
-                <h4>Escépticos</h4>
+                <h4 id="escepticos">Escépticos</h4>
                 <p>
                     También conocido como escepticismo clásico o Pirronismo, debido a
                     su fundador Pirrón. Según esta corriente, para alcanzar la
@@ -73,7 +73,7 @@ export const HellenisticSchools = () => {
 
                 <hr />
 
-                <h4>Estoicos</h4>
+                <h4 id="estoicos">Estoicos</h4>
                 <p>
                     Una de las escuelas helenísticas más desarrolladas, digna de
                     iniciar con la siguiente frase del fundador de tan increíble

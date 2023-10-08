@@ -4,8 +4,17 @@ export * from "./EPL"
 export * from "./M19"
 
 export const armedGroupsItems = {
-    FARC: "/sociales/movimientos-guerrilleros/farc",
-    ELN: "/sociales/movimientos-guerrilleros/eln",
-    EPL: "/sociales/movimientos-guerrilleros/epl",
-    "M-19": "/sociales/movimientos-guerrilleros/m-19"
-}
+    FARC: {
+      path: "/sociales/movimientos-guerrilleros/farc"
+    },
+    ELN: {
+      path: "/sociales/movimientos-guerrilleros/eln"
+    },
+    EPL: {
+      path: "/sociales/movimientos-guerrilleros/epl"
+    },
+    "M-19": {
+      path: "/sociales/movimientos-guerrilleros/m-19"
+    }
+  };
+  

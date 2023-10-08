@@ -16,7 +16,7 @@ export const PhaseM = () => {
 
                 </p>
 
-                <h4>Mitosis</h4>
+                <h4 id="mitosis">Mitosis</h4>
                 <p>
                     En primer lugar, la mitosis es un proceso de división celular que se da en las células somáticas, en este proceso una célula madre se divide y da origen a dos nuevas células hijas idénticas (con el mismo número de cromosomas al de la madre). Este proceso tiene como fines esenciales la curación, crecimiento y renovación de tejidos, así como la reproducción de seres unicelulares. La mitosis se divide en cuatro fases: profase, metafase, anafase y telofase (algunas fuentes describen una quinta llamada “prometafase” la cual se ubicaría entre la profase y metafase, no obstante, aquí encontrará la prometafase dentro de la profase).
                     <br />
@@ -34,7 +34,7 @@ export const PhaseM = () => {
                     <span className="fw-semibold">Telofase:</span> El huso mitótico se descompone y reaparece la membrana nuclear y nucléolo alrededor de ambos grupos cromosómicos, por último se descondensan los cromosomas para volver a su forma de cromatina.
                 </p>
 
-                <h4>Citocinesis</h4>
+                <h4 id="citocinesis">Citocinesis</h4>
                 <p>
                     La citocinesis es el proceso final de la división celular, que se da en las células somáticas, en este proceso una célula madre se divide y da origen a dos nuevas células hijas idénticas (con el mismo número de cromosomas al de la madre). Este proceso tiene como fines esenciales la curación, crecimiento y renovación de tejidos, así como la reproducción de seres unicelulares. La mitosis se divide en cuatro fases: profase, metafase, anafase y telofase (algunas fuentes describen una quinta llamada “prometafase” la cual se ubicaría entre la profase y metafase, no obstante, aquí encontrará la prometafase dentro de la profase).
                 </p>

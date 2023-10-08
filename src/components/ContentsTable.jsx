@@ -8,18 +8,22 @@ export const ContentsTable = ({ items }) => {
 
     const [nav, setNav] = useState(false);
     const [currentTopicIndex, setCurrentTopicIndex] = useState(0);
-    const [clicked, setClicked] = useState(false); 
+    const [clicked, setClicked] = useState(false);
 
     const navigate = useNavigate();
-    const location = useLocation(); 
-    const glossaryNav = useRef(); 
-    
+    const location = useLocation();
+    const glossaryNav = useRef();
+
     // The following useEffect listens for changes in the URL location and updates the current topic index accordingly:
     useEffect(() => {
         // Find the key in the 'items' object that matches the current pathname.
-        const currentTopicKey = Object.keys(items).find(key => items[key] === location.pathname);
+        const currentTopicKey = Object.keys(items).find(
+            key => items[key].path === location.pathname
+        );
         // Calculate the new index based on the found key or default to 0.
-        const newIndex = currentTopicKey ? Object.keys(items).indexOf(currentTopicKey) : 0;
+        const newIndex = currentTopicKey
+            ? Object.keys(items).indexOf(currentTopicKey)
+            : 0;
         // Update the 'currentTopicIndex' state with the new index.
         setCurrentTopicIndex(newIndex);
     }, [location.pathname, items]);
@@ -44,7 +48,7 @@ export const ContentsTable = ({ items }) => {
 
         if (nextIndex < topicKeys.length) {
             const nextTopicKey = topicKeys[nextIndex];
-            const nextTopicPath = items[nextTopicKey];
+            const nextTopicPath = items[nextTopicKey].path;
             setCurrentTopicIndex(nextIndex);
             navigate(nextTopicPath);
         }
@@ -57,7 +61,7 @@ export const ContentsTable = ({ items }) => {
 
         if (prevIndex >= 0) {
             const prevTopicKey = topicKeys[prevIndex];
-            const prevTopicPath = items[prevTopicKey];
+            const prevTopicPath = items[prevTopicKey].path;
             setCurrentTopicIndex(prevIndex);
             navigate(prevTopicPath);
         }
@@ -80,7 +84,23 @@ export const ContentsTable = ({ items }) => {
             document.removeEventListener("keydown", handleKeyDown);
         };
     }, [currentTopicIndex, items, navigate, prevTopic, nextTopic]);
-    
+
+
+    const handleSubitemClick = (subitem) => {
+        // Navega a la página correspondiente
+        navigate(subitem.path);
+
+        // Espera un momento para asegurarte de que la página se haya cargado
+        setTimeout(() => {
+            // Encuentra el elemento con el ID y desplázate a él
+            const elementToScroll = document.getElementById(subitem.scrollToId);
+            if (elementToScroll) {
+                elementToScroll.scrollIntoView({ behavior: 'smooth' });
+            }
+        }, 500); 
+    }
+
+
     return (
         <>
             <div className="topicController">
@@ -103,12 +123,33 @@ export const ContentsTable = ({ items }) => {
 
                     <div className="glossary-items">
                         {
-                            Object.keys(items).map(key => {
-                                const isCurrentPath = location.pathname === items[key]
+                            Object.keys(items).map(mainTopic => {
+                                const mainTopicData = items[mainTopic];
+                                const isCurrentPath = location.pathname === mainTopicData.path;
                                 return (
-                                    <React.Fragment key={key}>
-                                        <Link to={items[key]} rel="noreferrer" style={{ color: isCurrentPath && "#2b7ea1" }}>{key}</Link>
+                                    <React.Fragment key={mainTopic}>
+                                        <Link to={mainTopicData.path} rel="noreferrer" style={{ color: isCurrentPath && "#2b7ea1" }}>{mainTopic}</Link>
                                         <br />
+                                        {mainTopicData.subtopics && (
+                                            <div className="subtopics">
+                                                {Object.keys(mainTopicData.subtopics).map(subtopic => {
+                                                    return (
+                                                        
+                                                        <>
+                                                        
+                                                            <a
+                                                                key={subtopic}
+                                                                href={`#${subtopic}`}
+                                                                onClick={() => handleSubitemClick(mainTopicData.subtopics[subtopic])}
+                                                            >
+                                                                {subtopic}
+                                                            </a>
+                                                            <br />
+                                                        </>
+                                                    );
+                                                })}
+                                            </div>
+                                        )}
                                     </React.Fragment>
                                 )
                             })

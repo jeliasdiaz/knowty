@@ -1,10 +1,15 @@
-export * from "./Bogotazo"
-export * from "./GeneralAspects"
-export * from "./TheViolence"
-
+export * from "./Bogotazo";
+export * from "./GeneralAspects";
+export * from "./TheViolence";
 
 export const armedConflictItems = {
-    "Aspectos generales" : "/sociales/conflicto-armado/aspectos-generales",
-    "El Bogotazo": "/sociales/conflicto-armado/bogotazo",
-    "La Violencia": "/sociales/conflicto-armado/la-violencia"
-}
+  "Aspectos generales": {
+    path: "/sociales/conflicto-armado/aspectos-generales",
+  },
+  "El Bogotazo": {
+    path: "/sociales/conflicto-armado/bogotazo",
+  },
+  "La Violencia": {
+    path: "/sociales/conflicto-armado/la-violencia",
+  },
+};

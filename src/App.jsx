@@ -9,7 +9,6 @@ import ScrollToTop from "./ScrollToTop";
 import { Home, InfoPage, Search, Blog, Credits, Tools } from "./pages/Single-pages/";
 import { Footer, Navbar, InstallAppBtn, ScrollBtn } from "./components";
 
-
 //* Statistic
 
 import {Statistic, CentralTendency, LocalizationMeasures, DispersionMeasures} from "./pages/Math/Statistic"

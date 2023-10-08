@@ -537,7 +537,8 @@ input[type="radio"]:checked + span:before {
 .glossary-nav {
   position: fixed;
   top: 0;
-  width: 22%;
+  min-width: 22%;
+  width: fit-content;
   z-index: 100;
   background-color: #f6f6f6;
   height: 100vh;
@@ -563,13 +564,17 @@ input[type="radio"]:checked + span:before {
   border-left: 2px solid gray;
   height: fit-content;
   & a {
-    margin-bottom: 2em;
+    margin-bottom: 6em;
     text-decoration: none;
     color: black;
     &:hover {
       text-decoration: underline #2b7ea1;
     }
   }
+}
+.subtopics a {
+  margin-left: 20px;
+  font-size: 14px;
 }
 
 .topicController {
@@ -897,7 +902,7 @@ input[type="radio"]:checked + span:before {
   .glossary-nav {
     top: 0em;
     right: 0em;
-    width: 50%;
+    width: fit-content;
     height: 100%;
     padding: 3%;
     &.open {

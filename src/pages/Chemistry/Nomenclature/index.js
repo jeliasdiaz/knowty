@@ -6,10 +6,47 @@ export * from "./Acids";
 export * from "./Salts";
 
 export const nomenclatureItems = {
-  Nomenclaturas: "/quimica/nomenclatura/nomenclaturas",
-  Óxidos: "/quimica/nomenclatura/oxidos",
-  Hidróxidos: "/quimica/nomenclatura/hidroxidos",
-  Peróxidos: "/quimica/nomenclatura/peroxidos",
-  Ácidos: "/quimica/nomenclatura/acidos",
-  Sales: "/quimica/nomenclatura/sales"
+  Nomenclaturas: {
+    path: "/quimica/nomenclatura/nomenclaturas",
+    subtopics: {
+      "Stock": {
+        path: "/quimica/nomenclatura/nomenclaturas", 
+        scrollToId: "nomenStock"
+      },
+      "Sistemática": {
+        path: "/quimica/nomenclatura/nomenclaturas", 
+        scrollToId: "nomenSistematica"
+      },
+      "Tradicional": {
+        path: "/quimica/nomenclatura/nomenclaturas", 
+        scrollToId: "nomenTradicional"
+      },
+    }
+  },
+  Óxidos: {
+    path: "/quimica/nomenclatura/oxidos",
+    subtopics: {
+      "Básicos": {
+        path: "/quimica/nomenclatura/oxidos",
+        scrollToId: "oxidosBasicos"
+      },
+      "Ácidos": {
+        path: "/quimica/nomenclatura/oxidos",
+        scrollToId: "oxidosAcidos"
+      },
+    }
+  },
+  Hidróxidos: {
+    path: "/quimica/nomenclatura/hidroxidos"
+  },
+  Peróxidos: {
+    path: "/quimica/nomenclatura/peroxidos"
+  },
+  Ácidos: {
+    path: "/quimica/nomenclatura/acidos"
+  },
+  Sales: {
+    path: "/quimica/nomenclatura/sales"
+  }
 };
+
