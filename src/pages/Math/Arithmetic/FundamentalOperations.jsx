@@ -344,6 +344,18 @@ export const FundamentalOperations = () => {
                             <li><Latex>{`$\\sqrt[n]{\\sqrt[p]{a}} = \\sqrt[n \\cdot p]{a}$`}</Latex></li>
                         </ul>
                     </li>
+                    <br />
+                    <br />
+                    <h5>Simplificación de raíces</h5>
+                    <p>
+                        En matemática, las expresiones deben ser lo más simples posible y las raíces no son la excepción, así que, en caso de raíces no exactas se aplica la simplificación, consiste en descomponer el radicando como un producto de factores, estos factores deben de tener una raíz exacta, así aprovecharemos la propiedad “Raíz de un producto” para simplificar.
+                        <br /> <br />
+                        Ejemplo:
+                        <br />
+                        <Latex>{`$\\sqrt{84} = \\sqrt{4 \\cdot 21} = \\sqrt{4} * \\sqrt{21} = 2 \\sqrt{21}$`}</Latex>
+                        <br />
+                        <Latex>{`$\\sqrt{20} = \\sqrt{5 \\cdot 4} = \\sqrt{5} \\cdot \\sqrt{4} = 2 \\sqrt{5}$`}</Latex>
+                    </p>
                 </ul>
 
                 <hr />
@@ -441,14 +453,8 @@ export const FundamentalOperations = () => {
                             <li><Latex>{`$\\log_b (a) = \\frac{\\log_c (a)}{\\log_c (b)}$`}</Latex></li>
                         </ul>
                     </li>
-                    </ul>
-                <br />
-                <h5>Simplificación de raíces</h5>
-                <p>
-                    En matemática, las expresiones deben ser lo más simples posible y las raíces no son la excepción, así que, en caso de raíces no exactas se aplica la simplificación, consiste en descomponer el radicando como un producto de factores, estos factores deben de tener una raíz exacta, así aprovecharemos la propiedad “Raíz de un producto” para simplificar.
-                    <br /> <br />
-                    Ejemplo: <Latex>{`$\\sqrt{84} = \\sqrt{4*21} = \\sqrt{4} * \\sqrt{21} = 2   \\sqrt{21}$`}</Latex>
-                </p>
+                </ul>
+
 
                 <hr />
 

@@ -320,6 +320,71 @@
     "url": "/quimica/reacciones-quimicas/leyes-gases"
   },
   {
+    "img": "/img/matematicasIcon.png",
+    "name": "Aritmética",
+    "url": "/matematicas/introduccion-aritmetica"
+  },
+  {
+    "img": "/img/matematicasIcon.png",
+    "name": "Valor absoluto",
+    "url": "/matematicas/introduccion-aritmetica"
+  },
+  {
+    "img": "/img/matematicasIcon.png",
+    "name": "Suma y resta",
+    "url": "/matematicas/operaciones-fundamentales"
+  },
+  {
+    "img": "/img/matematicasIcon.png",
+    "name": "Multiplicación y división",
+    "url": "/matematicas/operaciones-fundamentales"
+  },
+  {
+    "img": "/img/matematicasIcon.png",
+    "name": "Divisibilidad",
+    "url": "/matematicas/operaciones-fundamentales"
+  },
+  {
+    "img": "/img/matematicasIcon.png",
+    "name": "Potenciación",
+    "url": "/matematicas/operaciones-fundamentales"
+  },
+  {
+    "img": "/img/matematicasIcon.png",
+    "name": "Radicación",
+    "url": "/matematicas/operaciones-fundamentales"
+  },
+  {
+    "img": "/img/matematicasIcon.png",
+    "name": "Simplificación de raíces",
+    "url": "/matematicas/operaciones-fundamentales"
+  },
+  {
+    "img": "/img/matematicasIcon.png",
+    "name": "Logaritmación",
+    "url": "/matematicas/operaciones-fundamentales"
+  },
+  {
+    "img": "/img/matematicasIcon.png",
+    "name": "Jerarquía de operaciones",
+    "url": "/matematicas/operaciones-fundamentales"
+  },
+  {
+    "img": "/img/matematicasIcon.png",
+    "name": "Números primos",
+    "url": "/matematicas/mcm-y-mcd"
+  },
+  {
+    "img": "/img/matematicasIcon.png",
+    "name": "Mínimo común múltiplo",
+    "url": "/matematicas/mcm-y-mcd"
+  },
+  {
+    "img": "/img/matematicasIcon.png",
+    "name": "Máximo común divisor",
+    "url": "/matematicas/mcm-y-mcd"
+  },
+  {
     "img": "/img/estadisticaIcon.png",
     "name": "Regla de 3",
     "url": "/estadistica"
