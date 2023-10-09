@@ -1,4 +1,4 @@
-import { SectionTitle, TopWave } from "../../../components"
+import { SectionTitle, Tooltip, TopWave } from "../../../components"
 
 export const FutureContinuous = () => {
     return (
@@ -13,9 +13,7 @@ export const FutureContinuous = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">In an hour I will be playing videogames with my friends.</small>
-                        <br />
-                        <small className="ms-3">(En una hora estaré jugando videjuegos con mis amigos)</small>
+                        <small className="ms-3"><Tooltip content={<span>En una hora estaré jugando videjuegos con mis amigos</span>} text={<span>In an hour I will be playing videogames with my friends.</span>} id="InAnHourIWillBePlayingVideogamesWithMyFriends" /></small>
                     </p>
                 </div>
                 <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -23,9 +21,7 @@ export const FutureContinuous = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">He will be training for two more hours</small>
-                        <br />
-                        <small className="ms-3">(El estará entrenando por dos horas más)</small>
+                        <small className="ms-3"><Tooltip content={<span>El estará entrenando por dos horas más</span>} text={<span>He will be training for two more hours</span>} id="HeWillBeTrainingForTwoMoreHours" /></small>
                     </p>
                 </div>
                 <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -33,9 +29,7 @@ export const FutureContinuous = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">Will she be doing the homework with you after the meeting?</small>
-                        <br />
-                        <small className="ms-3">(¿Ella estará haciendo las tareas contigo después de la reunión?)</small>
+                        <small className="ms-3"><Tooltip content={<span>¿Ella estará haciendo las tareas contigo después de la reunión?</span>} text={<span>Will she be doing the homework with you after the meeting?</span>} id="WillSheBeDoingTheHomeworkWithYouAfterTheMeeting?" /></small>
                     </p>
                 </div>
             </div>
@@ -48,9 +42,7 @@ export const FutureContinuous = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">She will be running in the field.</small>
-                        <br />
-                        <small className="ms-3">Ella estará corriendo en el campo</small>
+                        <small className="ms-3"><Tooltip content={<span>Ella estará corriendo en el campo</span>} text={<span>She will be running in the field.</span>} id="SheWillBeRunningInTheField" /></small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -59,9 +51,7 @@ export const FutureContinuous = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">She won't be running in the field</small>
-                        <br />
-                        <small className="ms-3">Ella no estará corriendo en el campo</small>
+                        <small className="ms-3"><Tooltip content={<span>Ella no estará corriendo en el campo</span>} text={<span>She won't be running in the field</span>} id="SheWontBeRunningInTheField" /></small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -70,9 +60,7 @@ export const FutureContinuous = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">Will she be running in the field?</small>
-                        <br />
-                        <small className="ms-3">¿Estará ella corriendo en el campo?</small>
+                        <small className="ms-3"><Tooltip content={<span>¿Estará ella corriendo en el campo?</span>} text={<span>Will she be running in the field?</span>} id="InAnHourIWillBePlayingVideogamesWithMyFriends" /></small>
                     </p>
                 </div>
             </div>

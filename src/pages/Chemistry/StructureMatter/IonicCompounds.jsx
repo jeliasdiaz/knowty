@@ -11,7 +11,7 @@ export const IonicCompounds = () => {
             <div className="subjectCard mb-5 ownShadow" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                 <ul>
                     <li>Forman
-                        <Tooltip content={<span>Compuestos químicos formados a partir <br /> de la combinación de ácidos con bases.</span>} text={<span className="ps-2 pe-1">sales</span>} id="sales" />
+                        <Tooltip content={<span>Compuestos químicos formados a partir de la combinación de ácidos con bases.</span>} text={<span className="ps-2 pe-1">sales</span>} id="sales" />
                         sólidas.
                     </li>
                     <li>Forman redes cristalinas. Por tanto, son sólidos a temperatura ambiente.</li>

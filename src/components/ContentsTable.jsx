@@ -128,7 +128,7 @@ export const ContentsTable = ({ items }) => {
                                 const isCurrentPath = location.pathname === mainTopicData.path;
                                 return (
                                     <React.Fragment key={mainTopic}>
-                                        <Link to={mainTopicData.path} rel="noreferrer" style={{ color: isCurrentPath && "#2b7ea1" }}>{mainTopic}</Link>
+                                        <Link to={mainTopicData.path} rel="noreferrer" style={{ color: isCurrentPath && "#2b7ea1", fontWeight: 600 }}>{mainTopic}</Link>
                                         <br />
                                         {mainTopicData.subtopics && (
                                             <div className="subtopics">

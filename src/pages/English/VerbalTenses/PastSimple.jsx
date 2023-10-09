@@ -16,9 +16,7 @@ export const PastSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">She walked to the park yesterday</small>
-                        <br />
-                        <small className="ms-3">(Ella caminó al parque ayer)</small>
+                        <small className="ms-3"><Tooltip content={<span>Ella caminó al parque ayer</span>} text={<span>She walked to the park yesterday</span>} id="sheWalkedToThePark"/></small>
                     </p>
                 </div>
                 <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -26,9 +24,7 @@ export const PastSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">She always played basketball on weekends</small>
-                        <br />
-                        <small className="ms-3">(Ella siempre jugaba baloncesto los fines  de semana)</small>
+                        <small className="ms-3"><Tooltip content={<span>Ella siempre jugaba baloncesto los fines  de semana</span>} text={<span>She always played basketball on weekends</span>} id="sheAlwaysPlayedBasketballOnweeknds"/></small>
                     </p>
                 </div>
                 <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -36,9 +32,7 @@ export const PastSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">I visited Paris when I was a child</small>
-                        <br />
-                        <small className="ms-3">(Visité París cuando era niño)</small>
+                        <small className="ms-3"><Tooltip content={<span>Visité París cuando era niño</span>} text={<span>I visited Paris when I was a child</span>} id="IVisitedParisWhenIWasAChild"/></small>
                     </p>
                 </div>
                 <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -46,9 +40,7 @@ export const PastSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">He arrived at the airport, checked in, and boarded the plane</small>
-                        <br />
-                        <small className="ms-3">(Él llegó al aeropuerto, hizo el check-in y abordó el avión)</small>
+                        <small className="ms-3"><Tooltip content={<span>Él llegó al aeropuerto, hizo el check-in y abordó el avión</span>} text={<span>He arrived at the airport, checked in, and boarded the plane</span>} id="HeArrivedAtTheAirportCheckedInAnd"/></small>
                     </p>
                 </div>
             </div>
@@ -74,9 +66,7 @@ export const PastSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">I did not go to school</small>
-                        <br />
-                        <small className="ms-3">No fui a la escuela</small>
+                        <small className="ms-3"><Tooltip content={<span>No fui a la escuela</span>} text={<span>I did not go to the school</span>} id="IDidNotGoToSchool"/></small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -86,9 +76,7 @@ export const PastSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">Did Mary do the dishes?</small>
-                        <br />
-                        <small className="ms-3">¿Mary lavó los platos?</small>
+                        <small className="ms-3"><Tooltip content={<span>¿Mary lavó los platos?</span>} text={<span>Did Mary do the dishes?</span>} id="DidMaryDoTheDishes"/></small>
                     </p>
                 </div>
             </div>

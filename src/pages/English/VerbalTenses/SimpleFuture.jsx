@@ -14,9 +14,7 @@ export const SimpleFuture = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">It will snow this weekend</small>
-                        <br />
-                        <small className="ms-3">(Nevará este fin de semana)</small>
+                        <small className="ms-3"><Tooltip content={<span>Nevará este fin de semana</span>} text={<span>It will snow this weekend</span>} id="ItWillSnowThisWeekend"/></small>
                     </p>
                 </div>
                 <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -24,9 +22,7 @@ export const SimpleFuture = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">I will pick you up tomorrow.</small>
-                        <br />
-                        <small className="ms-3">(Te recogeré mañana)</small>
+                        <small className="ms-3"><Tooltip content={<span>Te recogeré mañana</span>} text={<span>I will pick you up tomorrow.</span>} id="IWillPickYouUpTomorrow."/></small>
                     </p>
                 </div>
                 <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -34,9 +30,7 @@ export const SimpleFuture = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">Will you marry me?</small>
-                        <br />
-                        <small className="ms-3">(¿Te casarás conmigo?)</small>
+                        <small className="ms-3"><Tooltip content={<span>¿Te casarás conmigo?</span>} text={<span>Will you marry me?</span>} id="willYouMarryMe?"/></small>
                     </p>
                 </div>
                 <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -44,9 +38,8 @@ export const SimpleFuture = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">I will do these homeworks tonight.</small>
-                        <br />
-                        <small className="ms-3">(Haré las tareas esta noche)</small>
+                        <small className="ms-3"><Tooltip content={<span>Haré las tareas esta noche</span>} text={<span>I will do these homeworks tonight.</span>} id="IWillDoTheseHomeworksTonight"/></small>
+
                     </p>
                 </div>
             </div>
@@ -60,9 +53,7 @@ export const SimpleFuture = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">She will come to the country next year.</small>
-                        <br />
-                        <small className="ms-3">Ella vendrá al país el próximo año.</small>
+                        <small className="ms-3"><Tooltip content={<span>Ella vendrá al país el próximo año.</span>} text={<span>She will come to the country next year.</span>} id="SWillComeToTheCountryNextYear"/></small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -72,9 +63,7 @@ export const SimpleFuture = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">They <Tooltip content={<span>Will not</span>} text={<span>won't</span>} id="wont" /> cook this week.</small>
-                        <br />
-                        <small className="ms-3">Ellos no cocinarán esta semana.</small>
+                        <small className="ms-3"><Tooltip content={<span>Ellos no cocinarán esta semana.</span>} text={<span>They Will not cook this week</span>} id="TheyWillNotCookThisWeek" /></small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -86,9 +75,7 @@ export const SimpleFuture = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">Will he play in the next match?</small>
-                        <br />
-                        <small className="ms-3">¿Jugará en el próximo partido?</small>
+                        <small className="ms-3"><Tooltip content={<span>¿Jugará en el próximo partido?</span>} text={<span>Will he play in the next match?</span>} id="WillHePlayInTheNextMatch"/></small>
                     </p>
                 </div>
             </div>

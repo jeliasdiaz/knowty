@@ -1,5 +1,5 @@
 import Latex from "react-latex"
-import { SectionTitle, TopWave } from "../../../components"
+import { SectionTitle, Tooltip, TopWave } from "../../../components"
 
 export const PresentContinuous = () => {
     const ARROW = `$$\\rightarrow$$`
@@ -16,9 +16,7 @@ export const PresentContinuous = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">He is playing tennis with his son.</small>
-                        <br />
-                        <small className="ms-3">(El está jugando tenis con su hijo)</small>
+                        <small className="ms-3"><Tooltip content={<span>El está jugando tenis con su hijo</span>} text={<span>He is playing tennis with his son.</span>} id="HeIsPlayingTennisWithHisSon"/></small>
                     </p>
                 </div>
                 <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -27,9 +25,7 @@ export const PresentContinuous = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">María usually goes to the park every Saturday.</small>
-                        <br />
-                        <small className="ms-3">(María suele ir al parque todos los sábados.)</small>
+                        <small className="ms-3"><Tooltip content={<span>María suele ir al parque todos los sábados.</span>} text={<span>He is playing tennis with his son.</span>} id="HeIsPlayingTennisWithHisSon."/></small>
                     </p>
                 </div>
                 <div className="englishCard ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -37,9 +33,7 @@ export const PresentContinuous = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">She is going to cook for us this weekend</small>
-                        <br />
-                        <small className="ms-3">(Ella va a cocinar para nosotros este fin de semana)</small>
+                        <small className="ms-3"><Tooltip content={<span>Ella va a cocinar para nosotros este fin de semana</span>} text={<span>She is going to cook for us this weekend.</span>} id="SheIsGoingToCookForUsThis weekend"/></small>
                     </p>
                 </div>
             </div>
@@ -52,9 +46,7 @@ export const PresentContinuous = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">I'm running in the field</small>
-                        <br />
-                        <small className="ms-3">Estoy corriendo en el campo</small>
+                        <small className="ms-3"><Tooltip content={<span>Estoy corriendo en el campo</span>} text={<span>I'm running in the field</span>} id="ImRunningInTheField"/></small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -63,9 +55,7 @@ export const PresentContinuous = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">I'm not running in the field.</small>
-                        <br />
-                        <small className="ms-3">No estoy corriendo en el campo</small>
+                        <small className="ms-3"><Tooltip content={<span>No estoy corriendo en el campo</span>} text={<span>I'm not running in the field</span>} id="ImNotRunningInTheField"/></small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -76,14 +66,10 @@ export const PresentContinuous = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">Am I running in the field?</small>
-                        <br />
-                        <small className="ms-3">¿Estoy corriendo en el campo?</small>
+                        <small className="ms-3"><Tooltip content={<span>¿Estoy corriendo en el campo?</span>} text={<span>Am I running in the field?</span>} id="AmIRunningInTheField?"/></small>
                     </p>
                 </div>
             </div>
-
-
 
             <h1 className="englishSubtitle mt-3">Reglas</h1>
             <div className="englishCardContainer">

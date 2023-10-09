@@ -1,4 +1,4 @@
-import { SectionTitle, TopWave } from "../../../components"
+import { SectionTitle, Tooltip, TopWave } from "../../../components"
 
 export const PerfectTimes = () => {
     return (
@@ -13,9 +13,7 @@ export const PerfectTimes = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">I have finished my homeworkk</small>
-                        <br />
-                        <small className="ms-3">(He terminado mi tarea)</small>
+                        <small className="ms-3"><Tooltip content={<span>He terminado mi tarea</span>} text={<span>I have finished my homework.</span>} id="IHaveFinishedMyHomework"/></small>
                     </p>
                 </div>
             </div>
@@ -29,9 +27,7 @@ export const PerfectTimes = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">They have tried to convince her</small>
-                        <br />
-                        <small className="ms-3">(Ellos han intentado convencerla) </small>
+                        <small className="ms-3"><Tooltip content={<span>Ellos han intentado convencerla</span>} text={<span>They have tried to convince her</span>} id="TheyHaveTriedToConvinceHer"/></small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -41,9 +37,7 @@ export const PerfectTimes = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">I do not/don't play soccer</small>
-                        <br />
-                        <small className="ms-3">Yo no juego fútbol</small>
+                        <small className="ms-3"><Tooltip content={<span>Yo no juego fútbo</span>} text={<span>I do not/don't play soccer</span>} id="IDoNotDontPlaySoccer"/></small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -52,9 +46,7 @@ export const PerfectTimes = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">Have we ever gone to the pool together?</small>
-                        <br />
-                        <small className="ms-3">(Hemos alguna vez ido a la piscina juntos?)</small>
+                        <small className="ms-3"><Tooltip content={<span>¿Hemos alguna vez ido a la piscina juntos?</span>} text={<span>Have we ever gone to the pool together?</span>} id="HaveWeEverGoneToThePoolTogether"/></small>
                     </p>
                 </div>
             </div>
@@ -67,14 +59,10 @@ export const PerfectTimes = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">They had tried to pass the math exam </small>
+                        <small className="ms-3"><Tooltip content={<span>Ellos habían intentado pasar el examen de matemáticas</span>} text={<span>- They had tried to pass the math exam</span>} id="TheyHadTriedToPassTheMathExam"/></small>
                         <br />
-                        <small className="ms-3">(Ellos habían intentado pasar el examen de matemáticas)</small>
-                        <br />
-                        <br />
-                        <small className="ms-3">In about four hours he will have finished the homework</small>
-                        <br />
-                        <small className="ms-3">(En alrededor de cuatro horas el habrá termino el compromiso)</small>
+                        <small className="ms-3"><Tooltip content={<span>En alrededor de cuatro horas el habrá termino el compromiso</span>} text={<span>- In about four hours he will have finished the homework</span>} id="InAboutFourHoursHeWillHaveFinishedTheHomework"/></small>
+
                     </p>
                 </div>
             </div>

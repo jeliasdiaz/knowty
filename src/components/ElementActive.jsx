@@ -44,8 +44,6 @@ export const ElementActive = () => {
   const configuracionCompleta = electron_configuration
   const configuracionResumida = obtenerConfiguracionResumida(configuracionCompleta);
 
- 
-
   return (
     <div className="elementActive" >
       <div className="w-75 p-5">

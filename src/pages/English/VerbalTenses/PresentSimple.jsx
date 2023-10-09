@@ -1,5 +1,5 @@
 import Latex from "react-latex"
-import { SectionTitle, TopWave } from "../../../components"
+import { SectionTitle, Tooltip, TopWave } from "../../../components"
 
 export const PresentSimple = () => {
     const ARROW = `$$\\rightarrow$$`
@@ -15,9 +15,7 @@ export const PresentSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">The earth is the third planet from the sun</small>
-                        <br />
-                        <small className="ms-3">(La tierra es el tercer planeta desde el sol)</small>
+                        <small className="ms-3"><Tooltip content={<span>La tierra es el tercer planeta desde el sol</span>} text={<span>The earth is the third planet from the sun</span>} id="TheEarthIsTheThirdPlanetFromTheSun" /></small>
                     </p>
                 </div>
                 <div className="englishCard ownShadow"data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -25,9 +23,7 @@ export const PresentSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">I drink coffee every morning</small>
-                        <br />
-                        <small className="ms-3">(Bebo café cada mañana)</small>
+                        <small className="ms-3"><Tooltip content={<span>Bebo café cada mañana</span>} text={<span>I drink coffee every morning" id="IDrinkCoffeeEveryMorning</span>} /></small>
                     </p>
                 </div>
                 <div className="englishCard ownShadow"data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -35,9 +31,7 @@ export const PresentSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">Every ten years is a decade</small>
-                        <br />
-                        <small className="ms-3">(Cada 10 años es una decada)</small>
+                        <small className="ms-3"><Tooltip content={<span>Cada 10 años es una decada</span>} text={<span>Every ten years is a decade</span>} id="EveryTenYearsIsADecade" /></small>
                     </p>
                 </div>
                 <div className="englishCard ownShadow"data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -45,9 +39,7 @@ export const PresentSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">Tomorrow is my birthday!</small>
-                        <br />
-                        <small className="ms-3">(¡Mañana es mi cumpleaños!)</small>
+                        <small className="ms-3"><Tooltip content={<span>¡Mañana es mi cumpleaños!</span>} text={<span>Tomorrow is my birthday!</span>} id="TomorrowIsMyBirthday" /></small>
                     </p>
                 </div>
             </div>
@@ -60,9 +52,7 @@ export const PresentSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">I play soccer</small>
-                        <br />
-                        <small className="ms-3">Yo juego fútbol</small>
+                        <small className="ms-3"><Tooltip content={<span>Yo juego fútbol</span>} text={<span>I play soccer</span>} id="IPlaySoccer" /></small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow"data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -71,9 +61,7 @@ export const PresentSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">I do not/don't play soccer</small>
-                        <br />
-                        <small className="ms-3">Yo no juego fútbol</small>
+                        <small className="ms-3"><Tooltip content={<span>Yo no juego fútbol</span>} text={<span>I do not/don't play soccer</span>} id="IDoNotDontPlaySoccer" /></small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow"data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
@@ -82,9 +70,7 @@ export const PresentSimple = () => {
                     <p className="mt-3">
                         <span className="fw-semibold">Ejemplo:</span>
                         <br />
-                        <small className="ms-3">Do I play soccer</small>
-                        <br />
-                        <small className="ms-3">¿Juego al fútbol?</small>
+                        <small className="ms-3"><Tooltip content={<span>¿Juego al fútbol?</span>} text={<span>Do I play soccer?</span>} id="DoIPlaySoccer" /></small>
                     </p>
                 </div>
                 <div className="englishCardStructure ownShadow"data-aos="fade-up" data-aos-duration="600" data-aos-once="true">
