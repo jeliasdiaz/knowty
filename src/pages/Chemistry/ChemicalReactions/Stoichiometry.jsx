@@ -69,7 +69,11 @@ export const Stoichiometry = () => {
                     </button>
                 </p>
                 <div className="collapse dropdownBorder" id="collapseExample">
-                    <img src="/img/practicaEstequiometria.svg" alt="Practica estequiometría" className="w-80 rounded-3 revealing-image" />
+                    <img
+                        src={isDarkMode === 'dark' ? "/img/practicaEstequiometriaDark.svg" : "/img/practicaEstequiometria.svg"}
+                        alt=""
+                        className="w-80 rounded-3 revealing-image"
+                    />
                 </div>
             </div>
         </div>

@@ -32,7 +32,7 @@ import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPra
 import { SocialMovements, SocialMenu, ExtraSocial, Ground, Territory, POT, WorldSystem, GeneralAspects, Bogotazo, TheViolence, Liberalism, Neoliberalism, Marxism, Anarchism, Positivism, FARC, ELN, EPL, M19 } from "./pages/Social/";
 
 //* Trigonometry
-import { AnglesAndProperties, BasicTrigonometricNotions, TrigonometryMenu, TrigonometryPractice, SinTheorem, CosTheorem } from "./pages/Math/Trigonometry/";
+import { AnglesAndProperties, TrigonometryMenu, TrigonometryPractice, SinTheorem, CosTheorem, TriangleClassification, PythagorasTheorem, TrigonometricRatios } from "./pages/Math/Trigonometry/";
 
 //* Philosophy
 import { PhilosophyMenu, IntroductionPhilosophy, Presocratics, HellenisticSchools, Socrates, Plato, Aristotle } from "./pages/Philosophy/";
@@ -220,7 +220,9 @@ function App() {
             <Route path="/medidas-localizacion" element={<LocalizationMeasures />} />
             <Route path="/medidas-dispersion" element={<DispersionMeasures />} />
 
-            <Route path="/nociones-basicas-trigonometria" element={<BasicTrigonometricNotions />} />
+            <Route path="/nociones-basicas-trigonometria/triangulos" element={<TriangleClassification />} />
+            <Route path="/nociones-basicas-trigonometria/teorema-pitagoras" element={<PythagorasTheorem/>} />
+            <Route path="/nociones-basicas-trigonometria/razones-trigonometricas" element={<TrigonometricRatios/>} />
             <Route path="/angulos-y-sus-propiedades" element={<AnglesAndProperties />} />
             <Route path="/teorema-seno" element={<SinTheorem />} />
             <Route path="/teorema-coseno" element={<CosTheorem />} />

@@ -1,8 +1,11 @@
 import Latex from "react-latex"
 import { chemicalReactionsItems } from "."
 import { ContentsTable, MoreBtn, SectionTitle, TopWave } from "../../../components"
+import { useContext } from "react";
+import { darkModeContext } from "../../../context/DarkModeContext";
 
 export const ReactiveLimitExcess = () => {
+    const { isDarkMode } = useContext(darkModeContext);
     return (
         <div className="homeCard">
             <TopWave />
@@ -33,7 +36,11 @@ export const ReactiveLimitExcess = () => {
                     </button>
                 </p>
                 <div className="collapse dropdownBorder" id="reactivo">
-                    <img src="/img/reactivoLimiteEjercicioSolucion.svg" alt="Reactivo limite solución" className="w-80 rounded-3 revealing-image" />
+                    <img
+                        src={isDarkMode === 'dark' ? "/img/reactivoLimiteEjercicioSolucionDark.svg" : "/img/reactivoLimiteEjercicioSolucion.svg"}
+                        alt=""
+                        className="w-80 rounded-3 revealing-image"
+                    />
                 </div>
             </div>
         </div>

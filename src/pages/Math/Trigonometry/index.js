@@ -1,4 +1,4 @@
-export * from "./BasicTrigonometricNotions"
+export * from "./BasicNotions"
 export * from "./AnglesAndProperties"
 export * from "./TrigonometryPractice"
 export * from "./TrigonometryMenu"

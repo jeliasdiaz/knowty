@@ -1,10 +1,15 @@
 import Latex from 'react-latex'
 import { chemicalReactionsItems } from '.'
 import { ContentsTable, MoreBtn, SectionTitle, TopWave } from '../../../components'
+import { useContext } from 'react'
+import { darkModeContext } from '../../../context/DarkModeContext'
 
 export const ReactivePurity = () => {
     const purezaReactivo = `$$SP = \\large \\frac{SI \\ \\cdot \\ \\%P}{100}$$`
-    const sustanciaPura = `$$\\small Sustancia pura = \\large \\frac{Sustancia \\ impura \\ \\cdot \\ Porcentaje \\ de \\ pureza}{100}$$`
+    const sustanciaPura = `$$\\small Sustancia \\ pura = \\large \\frac{Sustancia \\ impura \\ \\cdot \\ Porcentaje \\ de \\ pureza}{100}$$`
+
+    const { isDarkMode } = useContext(darkModeContext);
+
     return (
         <div className="homeCard">
             <TopWave />
@@ -43,7 +48,11 @@ export const ReactivePurity = () => {
                     </button>
                 </p>
                 <div className="collapse dropdownBorder" id="pureza">
-                    <img src="/img/purezaEjercicioSolucion.svg" alt="" className="w-80 rounded-3 revealing-image" />
+                    <img
+                        src={isDarkMode === 'dark' ? "/img/purezaEjercicioSolucionDark.svg" : "/img/purezaEjercicioSolucion.svg"}
+                        alt=""
+                        className="w-80 rounded-3 revealing-image"
+                    />
                 </div>
             </div>
         </div>

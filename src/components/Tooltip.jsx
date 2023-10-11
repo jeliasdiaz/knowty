@@ -31,10 +31,6 @@ export const Tooltip = ({ content, text, id }) => {
             </span><ReactTooltip
                 anchorId={id}
                 place="top"
-                style={{
-                    color: "white",
-                    width: "fit-content"
-                }}
                 className="tooltipBackground ownShadow-sm"
                 delayShow={100}
                 clickable={true}
