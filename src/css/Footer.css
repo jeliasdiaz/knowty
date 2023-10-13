@@ -187,6 +187,8 @@
 
 .app-form-control {
   width: 100%;
+  min-height: 4em;
+  max-height: 10em;
   padding: 10px 0;
   background: none;
   border: none;

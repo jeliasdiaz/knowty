@@ -393,11 +393,11 @@ export const FundamentalOperations = () => {
                         </tr>
                         <tr>
                             <td>Logaritmo de una potencia</td>
-                            <td><Latex>{`$log_c (a^b) = c \\cdot log_c (a)$`}</Latex></td>
+                            <td><Latex>{`$log_c (a^b) = b \\cdot log_c (a)$`}</Latex></td>
                         </tr>
                         <tr>
                             <td>Logaritmo de una raíz:</td>
-                            <td><Latex>{`$\\log_p (\\sqrt[n]{m}) = \\log_p (m^{\\frac{1}{2}})$`}</Latex></td>
+                            <td><Latex>{`$\\log_p (\\sqrt[n]{m}) = \\log_p (m^{\\frac{1}{n}})$`}</Latex></td>
                         </tr>
                         <tr>
                             <td>Logaritmo de uno</td>
@@ -461,6 +461,12 @@ export const FundamentalOperations = () => {
                 <h3 id="jerarquiaOperaciones">Jerarquía de operaciones</h3>
                 <p>Indica el orden en el que deben efectuarse las operaciones</p>
                 <ol>
+                    <li>Signos de agrupación
+                        <ul>
+                            <li>Observación: Si existen dos o más paréntesis anidados, se resuelven de adentro hacia afuera. Mientras que si se tienen dos operaciones del mismo nivel, se operan de izquierda a derecha.</li>
+                            <li>Ejemplo: <br /> <Latex>{`$3 - (5 + 3 \\cdot 3) = $`}</Latex> <br /> <Latex>{`$3 - (5 + 9) = $`}</Latex> <br /> <Latex>{`$3 - 14 = -11$`}</Latex></li>
+                        </ul>
+                    </li>
                     <li>Potencias y raíces.</li>
                     <li>Multiplicaciones y divisiones de izquierda a derecha.</li>
                     <li>Sumas y restas.</li>

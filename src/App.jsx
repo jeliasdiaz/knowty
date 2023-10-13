@@ -26,7 +26,7 @@ import {  Determinants, PastSimple, PresentSimple, SimpleFuture, ModalVerbs, Pre
 import { Circumference, Straight, Ellipse, Parable, GeometryMenu, Triangle, ConicSections } from "./pages/Math/Geometry";
 
 //* Pyshic
-import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu, VectorPractice, MruPractice, MruaPractice, FreeFallPractice, VerticalShot, ParabolicShot, DinamicPractice } from "./pages/Physic/";
+import { Cinematic, Dinamic, CircularMovement, Energy, FluidMechanics, PhysicPractice, PhysicMenu, VectorPractice, MruPractice, MruaPractice, FreeFallPractice, VerticalShot, ParabolicShot, DinamicPractice, TorquePractice, WorkPractice } from "./pages/Physic/";
 
 //* Social
 import { SocialMovements, SocialMenu, ExtraSocial, Ground, Territory, POT, WorldSystem, GeneralAspects, Bogotazo, TheViolence, Liberalism, Neoliberalism, Marxism, Anarchism, Positivism, FARC, ELN, EPL, M19 } from "./pages/Social/";
@@ -188,13 +188,15 @@ function App() {
             <Route path="/fisica/movimiento-circular" element={<CircularMovement />} />
             <Route path="/fisica/energia" element={<Energy />} />
             <Route path="/fisica/mecanica-fluidos" element={<FluidMechanics />} />
-            <Route  path="/vectores-practica" element={<VectorPractice/>} />
-            <Route  path="/mru-practica" element={<MruPractice/>} />
-            <Route  path="/mrua-practica" element={<MruaPractice/>} />
-            <Route  path="/caida-libre-practica" element={<FreeFallPractice/>} />
-            <Route  path="/tiro-vertical-practica" element={<VerticalShot/>} />
-            <Route  path="/tiro-parabolico-practica" element={<ParabolicShot/>} />
-            <Route  path="/dinamica-practica" element={<DinamicPractice/>} />
+            <Route  path="/fisica/vectores-practica" element={<VectorPractice/>} />
+            <Route  path="/fisica/mru-practica" element={<MruPractice/>} />
+            <Route  path="/fisica/mrua-practica" element={<MruaPractice/>} />
+            <Route  path="/fisica/caida-libre-practica" element={<FreeFallPractice/>} />
+            <Route  path="/fisica/tiro-vertical-practica" element={<VerticalShot/>} />
+            <Route  path="/fisica/tiro-parabolico-practica" element={<ParabolicShot/>} />
+            <Route  path="/fisica/dinamica-practica" element={<DinamicPractice/>} />
+            <Route  path="/fisica/torque-practica" element={<TorquePractice/>} />
+            <Route  path="/fisica/trabajo-practica" element={<WorkPractice/>} />
 
             <Route path="/sociales/doctrinas-economicas/liberalismo" element={<Liberalism />} />
             <Route path="/sociales/doctrinas-economicas/neoliberalismo" element={<Neoliberalism />} />

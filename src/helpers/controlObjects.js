@@ -11,7 +11,9 @@ export const useControlObjects = (data, type) => {
     verticalShot: 0,
     pitagoras: 0,
     parabolicShot: 0,
-    dinamic: 0
+    dinamic: 0,
+    torque: 0,
+    work: 0
   })
 
   // Estado para mostrar el proceso de resolución
@@ -23,7 +25,9 @@ export const useControlObjects = (data, type) => {
     verticalShot: false,
     pitagoras: false,
     parabolicShot: false,
-    dinamic: false
+    dinamic: false,
+    torque: false,
+    work: false
   });
 
   // Estado para indicar si la opción seleccionada es correcta

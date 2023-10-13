@@ -5,6 +5,8 @@ import vector from "../data/vector.json";
 import verticalShot from "../data/verticalShot.json";
 import parabolicShot from "../data/parabolicShot.json";
 import dinamic from "../data/dinamic.json";
+import torque from "../data/torque.json";
+import work from "../data/work.json";
 import { PracticeComponent } from "./PracticeComponent";
 export * from "./PhysicPractice"
 
@@ -45,5 +47,16 @@ export const ParabolicShot = () => {
 export const DinamicPractice = () => {
     return (
         <PracticeComponent data={dinamic} subject="dinamic" title="Practica Dinámica"/>
+    );
+};
+
+export const TorquePractice = () => {
+    return (
+        <PracticeComponent data={torque} subject="torque" title="Practica Torque"/>
+    );
+};
+export const WorkPractice = () => {
+    return (
+        <PracticeComponent data={work} subject="work" title="Practica Trabajo"/>
     );
 };

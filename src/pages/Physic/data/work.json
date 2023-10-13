@@ -1,0 +1,13 @@
+[
+    {
+        "answer": "300m",
+        "content": "Bob arrastra una caja haciendo mediante una máquina. Esta tiene una masa de 100 kg. Su amigo Will el físico, realizó los cálculos y halló que el trabajo realizado fue 294000 Jules. Calcule la distancia recorrida por la máquina con la caja.",
+        "options": {
+            "a": "280m",
+            "b": "300m",
+            "c": "320m",
+            "d": "350m"
+        },
+        "process": "$$\\text{Datos} \\\\ \\small \\text{Peso} = m \\ \\cdot \\ g \\\\  \\small \\text{Peso} = 100kg \\ \\cdot \\ 9.8m/s^2 \\\\ C\\small  \\text{Peso} = 980N \\\\ \\allowbreak \\newline  \\small \\text{Trabajo}= F \\ \\cdot \\ d \\\\d= \\frac{trabajo}{F} \\\\ d= \\frac{294000J}{980N} \\\\ d = 300m$$"
+    }
+]

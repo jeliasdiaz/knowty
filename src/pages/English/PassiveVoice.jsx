@@ -12,7 +12,7 @@ export const PassiveVoice = () => {
                     <br />
                     <br />
                     La estructura de la voz pasiva es:
-                    <span className="fw-semibold">Verbo To be (en cualquier tiempo) + Verbo en participio pasado</span>
+                    <span className="fw-semibold"> Verbo To be (en cualquier tiempo) + Verbo en participio pasado</span>
                     <br />
                     <br />
                     <span className="fw-semibold">Ejemplos:</span> <small>(Presiona la frase y descubre su traducción)</small><br />
