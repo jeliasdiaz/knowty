@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Estructura y organelos",
+        "img": "aparatoGolgi.png",
+        "url": "/celulas/organelos-celulares/centrosoma",
+        "imgSize": "w-50"
+    },
+    {
+        "title": "Ciclo celular",
+        "img": "cicloCelular.png",
+        "url": "/celulas/ciclo-celular",
+        "imgSize": "w-50"
+    },
+    {
+        "title": "Células Eucariotas",
+        "img": "celulaAnimal.png",
+        "url": "/celula-eucariota",
+        "imgSize": "w-50"
+    },
+    {
+        "title": "Células Procariotas",
+        "img": "bacteria.png",
+        "url": "/celula-procariota",
+        "imgSize": "w-50"
+    }
+]

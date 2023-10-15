@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Introducción",
+        "img": "filosofiaIcon.png",
+        "url": "/introduccion-filosofia"
+    },
+    {
+        "title": "Filosofía antigua",
+        "img": "filosofiaIcon.png",
+        "url": "/filosofia-antigua/presocraticos"
+    }
+]

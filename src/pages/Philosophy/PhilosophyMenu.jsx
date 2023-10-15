@@ -1,4 +1,6 @@
-import { TopWave, MenuCard } from "../../components/"
+import { TopWave } from "../../components/"
+import { renderMenuCards } from "../../helpers/renderMenuCards"
+import menuCards from "./data/menuCards.json"
 
 export const PhilosophyMenu = () => {
     return (
@@ -6,9 +8,9 @@ export const PhilosophyMenu = () => {
             <section className="mobileMenu">
                 <TopWave />
                 <div className="mobileSubjectMenu">
-                    <MenuCard url="/introduccion-filosofia" img="filosofiaIcon.png" title="Introducción" />
-
-                    <MenuCard url="/filosofia-antigua/presocraticos" img="filosofiaIcon.png" title="Filosofía antigua" />
+                    {
+                        renderMenuCards(menuCards)
+                    }
 
                     {/* <MenuCard url="/filosofia-medieval" img="filosofiaIcon.png" title="Filosofía medieval" />
 

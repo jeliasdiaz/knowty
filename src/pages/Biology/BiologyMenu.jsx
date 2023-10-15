@@ -1,11 +1,15 @@
-import { MenuCard, TopWave } from "../../components"
+import { TopWave } from "../../components"
+import { renderMenuCards } from "../../helpers/renderMenuCards"
+import menuCards from "./data/menuCards.json"
 
 export const BiologyMenu = () => {
   return (
     <section className="mobileMenu">
         <TopWave />
         <div className="mobileSubjectMenu">
-          <MenuCard url="/celulas" img="biologiaIcon.png" title="Células" />
+          {
+            renderMenuCards(menuCards)
+          }
         </div>
       </section>
   )

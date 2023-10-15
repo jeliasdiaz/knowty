@@ -778,10 +778,11 @@ input[type="radio"]:checked + span:before {
 }
 
 .blogSection {
-  width: 60%;
-  margin-inline: auto;
+  width: 70%;
   border-radius: 20px;
   padding: 4%;
+  transition: 0.5s !important;
+  margin-inline: auto;
   background-color: white;
   & ul li {
     list-style-type: disc;
@@ -1092,7 +1093,7 @@ input[type="radio"]:checked + span:before {
   }
 
   .blogCard {
-    width: 95%;
+    width: 90%;
   }
 
   .blogCardImg {
@@ -1108,7 +1109,7 @@ input[type="radio"]:checked + span:before {
   }
 
   .blogSection {
-    width: 95%;
+    width: 100%;
   }
 
   /** Icons card  */

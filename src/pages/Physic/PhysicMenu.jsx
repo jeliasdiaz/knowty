@@ -1,17 +1,17 @@
-import { TopWave, MenuCard } from "../../components/"
+import { TopWave } from "../../components/"
+import { renderMenuCards } from "../../helpers/renderMenuCards"
+import menuCards from "./data/menuCards.json"
 
 export const PhysicMenu = () => {
+  
   return (
     <>
       <section className="mobileMenu">
         <TopWave />
         <div className="mobileSubjectMenu">
-          <MenuCard url="/fisica/cinematica" img="fisicaIcon.png" title="Cinemática" />
-          <MenuCard url="/fisica/dinamica" img="fisicaIcon.png" title="Dinámica" />
-          <MenuCard url="/fisica/movimiento-circular" img="fisicaIcon.png" title="M. circular" />
-          <MenuCard url="/fisica/energia" img="fisicaIcon.png" title="Energía" />
-          <MenuCard url="/fisica/mecanica-fluidos" img="fisicaIcon.png" title="M. fluidos" />
-          <MenuCard url="/fisica-practica" img="fisicaIcon.png" title="Practica" />
+          {
+            renderMenuCards(menuCards)
+          }
         </div>
       </section>
     </>
