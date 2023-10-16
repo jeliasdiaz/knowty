@@ -9,77 +9,82 @@ import { useNavigate } from "react-router-dom";
 
 export const Search = () => {
   //* Search functionality
-  const { searchTerm, filteredData, handleFilter, clearInput } = useSearch(data)
+  const { searchTerm, filteredData, handleFilter, clearInput } =
+    useSearch(data);
 
   //* Detect if the user is on the page and select the search input
-  const pageRef = useRef()
-  const inputRef = useRef()
-  const isVisible = useIsVisible(pageRef)
+  const pageRef = useRef();
+  const inputRef = useRef();
+  const isVisible = useIsVisible(pageRef);
 
   const onVisible = useCallback(async () => {
-    isVisible && inputRef.current.focus()
-  }, [isVisible])
+    isVisible && inputRef.current.focus();
+  }, [isVisible]);
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const onSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
-    const matchingCard = data.find(card => card.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") === searchTerm)
-
+    const matchingCard = data.find(
+      (card) =>
+        card.name
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "") === searchTerm,
+    );
 
     if (matchingCard) {
       if (document.startViewTransition) {
         document.startViewTransition(() => {
           navigate(matchingCard.url);
-        })
+        });
       } else {
-        navigate(matchingCard.url)
+        navigate(matchingCard.url);
       }
     }
-  }
+  };
   useEffect(() => {
-    onVisible()
-  }, [onVisible])
+    onVisible();
+  }, [onVisible]);
 
   return (
     <div className="search" ref={pageRef}>
       <TopWave />
       <div className="searchInputs" data-aos="fade-up" data-aos-duration="1000">
-        {
-          isVisible
-          && <form onSubmit={onSubmit} className="inputForm">
-            <input type="text" placeholder="Buscar..." value={searchTerm} onChange={handleFilter} ref={inputRef} className="input" />
+        {isVisible && (
+          <form onSubmit={onSubmit} className="inputForm">
+            <input
+              type="text"
+              placeholder="Buscar..."
+              value={searchTerm}
+              onChange={handleFilter}
+              ref={inputRef}
+              className="input"
+            />
             <div>
-              {
-                searchTerm.length === 0
-                  ? <BiSearch size={35} />
-                  : <IoClose id="clearBtn" onClick={clearInput} size={35} />
-              }
+              {searchTerm.length === 0 ? (
+                <BiSearch size={35} />
+              ) : (
+                <IoClose id="clearBtn" onClick={clearInput} size={35} />
+              )}
             </div>
           </form>
-        }
-
+        )}
       </div>
 
-      {
-        searchTerm === ""
-          ? <p style={{ color: "gray" }} data-aos="fade-up" data-aos-duration="800">Escribe algo para buscar</p>
-
-          : filteredData.length !== 0
-
-            ? (
-              <div className="dataResult">
-                {
-                  filteredData.slice(0, 5).map(data => (
-                    <ResultCard {...data} key={data.name} />
-                  ))
-                }
-              </div>
-            )
-
-            : <NoResultCard />
-      }
-
+      {searchTerm === "" ? (
+        <p style={{ color: "gray" }} data-aos="fade-up" data-aos-duration="800">
+          Escribe algo para buscar
+        </p>
+      ) : filteredData.length !== 0 ? (
+        <div className="dataResult">
+          {filteredData.slice(0, 5).map((data) => (
+            <ResultCard {...data} key={data.name} />
+          ))}
+        </div>
+      ) : (
+        <NoResultCard />
+      )}
     </div>
   );
-}
+};

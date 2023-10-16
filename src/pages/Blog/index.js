@@ -1,2 +1,2 @@
-export * from "./SpacedRepetition"
-export * from "./StudentsResources"
+export * from "./SpacedRepetition";
+export * from "./StudentsResources";

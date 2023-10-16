@@ -1,2 +1,2 @@
-export * from "./Cells/"
-export * from "./BiologyMenu"
+export * from "./Cells/";
+export * from "./BiologyMenu";

@@ -1,3 +1,3 @@
-export * from "./Geometry"
-export * from "./Statistic"
-export * from "./Trigonometry"
+export * from "./Geometry";
+export * from "./Statistic";
+export * from "./Trigonometry";

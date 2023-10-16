@@ -1,32 +1,32 @@
 [
-    {
-      "title": "Cinemática",
-      "img": "fisicaIcon.png",
-      "url": "/fisica/cinematica"
-    },
-    {
-      "title": "Dinámica",
-      "img": "fisicaIcon.png",
-      "url": "/fisica/dinamica"
-    },
-    {
-      "title": "M. circular",
-      "img": "fisicaIcon.png",
-      "url": "/fisica/movimiento-circular"
-    },
-    {
-      "title": "Energía",
-      "img": "fisicaIcon.png",
-      "url": "/fisica/energia"
-    },
-    {
-      "title": "M. fluidos",
-      "img": "fisicaIcon.png",
-      "url": "/fisica/mecanica-fluidos"
-    },
-    {
-      "title": "Practica",
-      "img": "fisicaIcon.png",
-      "url": "/fisica-practica"
-    }
-  ]
+  {
+    "title": "Cinemática",
+    "img": "fisicaIcon.png",
+    "url": "/fisica/cinematica"
+  },
+  {
+    "title": "Dinámica",
+    "img": "fisicaIcon.png",
+    "url": "/fisica/dinamica"
+  },
+  {
+    "title": "M. circular",
+    "img": "fisicaIcon.png",
+    "url": "/fisica/movimiento-circular"
+  },
+  {
+    "title": "Energía",
+    "img": "fisicaIcon.png",
+    "url": "/fisica/energia"
+  },
+  {
+    "title": "M. fluidos",
+    "img": "fisicaIcon.png",
+    "url": "/fisica/mecanica-fluidos"
+  },
+  {
+    "title": "Practica",
+    "img": "fisicaIcon.png",
+    "url": "/fisica-practica"
+  }
+]

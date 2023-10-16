@@ -8,55 +8,72 @@ import dinamic from "../data/dinamic.json";
 import torque from "../data/torque.json";
 import work from "../data/work.json";
 import { PracticeComponent } from "./PracticeComponent";
-export * from "./PhysicPractice"
+export * from "./PhysicPractice";
 
 export const VectorPractice = () => {
-    return (
-        <PracticeComponent data={vector} subject="vector" title="Practica vectores"/>
-    );
+  return (
+    <PracticeComponent
+      data={vector}
+      subject="vector"
+      title="Practica vectores"
+    />
+  );
 };
 export const MruPractice = () => {
-    return (
-        <PracticeComponent data={mru} subject="mru" title="Practica M.R.U."/>
-    );
+  return <PracticeComponent data={mru} subject="mru" title="Practica M.R.U." />;
 };
 export const MruaPractice = () => {
-    return (
-        <PracticeComponent data={mrua} subject="mrua" title="Practica M.R.U.A."/>
-    );
+  return (
+    <PracticeComponent data={mrua} subject="mrua" title="Practica M.R.U.A." />
+  );
 };
 export const FreeFallPractice = () => {
-    return (
-        <PracticeComponent data={freeFall} subject="freeFall" title="Practica caída libre"/>
-    );
+  return (
+    <PracticeComponent
+      data={freeFall}
+      subject="freeFall"
+      title="Practica caída libre"
+    />
+  );
 };
 
 export const VerticalShot = () => {
-    return (
-        <PracticeComponent data={verticalShot} subject="verticalShot" title="Practica Tiro vertical"/>
-    );
+  return (
+    <PracticeComponent
+      data={verticalShot}
+      subject="verticalShot"
+      title="Practica Tiro vertical"
+    />
+  );
 };
 
-
 export const ParabolicShot = () => {
-    return (
-        <PracticeComponent data={parabolicShot} subject="parabolicShot" title="Practica Tiro parabólico"/>
-    );
+  return (
+    <PracticeComponent
+      data={parabolicShot}
+      subject="parabolicShot"
+      title="Practica Tiro parabólico"
+    />
+  );
 };
 
 export const DinamicPractice = () => {
-    return (
-        <PracticeComponent data={dinamic} subject="dinamic" title="Practica Dinámica"/>
-    );
+  return (
+    <PracticeComponent
+      data={dinamic}
+      subject="dinamic"
+      title="Practica Dinámica"
+    />
+  );
 };
 
 export const TorquePractice = () => {
-    return (
-        <PracticeComponent data={torque} subject="torque" title="Practica Torque"/>
-    );
+  return (
+    <PracticeComponent data={torque} subject="torque" title="Practica Torque" />
+  );
 };
 export const WorkPractice = () => {
-    return (
-        <PracticeComponent data={work} subject="work" title="Practica Trabajo"/>
-    );
+  return (
+    <PracticeComponent data={work} subject="work" title="Practica Trabajo" />
+  );
 };

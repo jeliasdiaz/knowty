@@ -38,11 +38,11 @@ export const chemicalReactionsItems = {
   "Leyes de los gases": {
     path: "/quimica/reacciones-quimicas/leyes-gases",
     subtopics: {
-      "Boyle": {
+      Boyle: {
         path: "/quimica/reacciones-quimicas/leyes-gases",
         scrollToId: "leyBoyle",
       },
-      "Charles": {
+      Charles: {
         path: "/quimica/reacciones-quimicas/leyes-gases",
         scrollToId: "leyCharles",
       },

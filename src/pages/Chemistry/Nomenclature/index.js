@@ -9,44 +9,43 @@ export const nomenclatureItems = {
   Nomenclaturas: {
     path: "/quimica/nomenclatura/nomenclaturas",
     subtopics: {
-      "Stock": {
-        path: "/quimica/nomenclatura/nomenclaturas", 
-        scrollToId: "nomenStock"
+      Stock: {
+        path: "/quimica/nomenclatura/nomenclaturas",
+        scrollToId: "nomenStock",
       },
-      "Sistemática": {
-        path: "/quimica/nomenclatura/nomenclaturas", 
-        scrollToId: "nomenSistematica"
+      Sistemática: {
+        path: "/quimica/nomenclatura/nomenclaturas",
+        scrollToId: "nomenSistematica",
       },
-      "Tradicional": {
-        path: "/quimica/nomenclatura/nomenclaturas", 
-        scrollToId: "nomenTradicional"
+      Tradicional: {
+        path: "/quimica/nomenclatura/nomenclaturas",
+        scrollToId: "nomenTradicional",
       },
-    }
+    },
   },
   Óxidos: {
     path: "/quimica/nomenclatura/oxidos",
     subtopics: {
-      "Básicos": {
+      Básicos: {
         path: "/quimica/nomenclatura/oxidos",
-        scrollToId: "oxidosBasicos"
+        scrollToId: "oxidosBasicos",
       },
-      "Ácidos": {
+      Ácidos: {
         path: "/quimica/nomenclatura/oxidos",
-        scrollToId: "oxidosAcidos"
+        scrollToId: "oxidosAcidos",
       },
-    }
+    },
   },
   Hidróxidos: {
-    path: "/quimica/nomenclatura/hidroxidos"
+    path: "/quimica/nomenclatura/hidroxidos",
   },
   Peróxidos: {
-    path: "/quimica/nomenclatura/peroxidos"
+    path: "/quimica/nomenclatura/peroxidos",
   },
   Ácidos: {
-    path: "/quimica/nomenclatura/acidos"
+    path: "/quimica/nomenclatura/acidos",
   },
   Sales: {
-    path: "/quimica/nomenclatura/sales"
-  }
+    path: "/quimica/nomenclatura/sales",
+  },
 };
-

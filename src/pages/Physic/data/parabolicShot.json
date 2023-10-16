@@ -1,13 +1,13 @@
 [
-    {
-        "answer": "52.67m",
-        "content": "En un circo se lanza a una persona desde un cañón, con una velocidad de 50m/s y un ángulo de 40°. Calcule la altura máxima.",
-        "options": {
-            "a": "50.7m",
-            "b": "52.67m",
-            "c": "51.5m",
-            "d": "54.6m"
-        },
-        "process": "$$ \\text{Componentes de la velocidad} \\\\ v_x = \\small 50m/s \\ \\cdot \\ cos(40) = 38.10m/s \\\\ v_y = \\small 50m/s \\ \\cdot \\ \\sin(40) = 32.13m/s \\\\ \\allowbreak \\newline \\normalsize \\text{Altura máxima} \\\\ h_{max} = \\large \\frac{v_{0y}^2}{2g} \\\\ h_{max} = \\large \\frac{(32.13m/s)^2}{2 \\ \\cdot \\ (9.8m/s^2)} \\\\ h_{max} = \\small 52.67m$$"
-    }
+  {
+    "answer": "52.67m",
+    "content": "En un circo se lanza a una persona desde un cañón, con una velocidad de 50m/s y un ángulo de 40°. Calcule la altura máxima.",
+    "options": {
+      "a": "50.7m",
+      "b": "52.67m",
+      "c": "51.5m",
+      "d": "54.6m"
+    },
+    "process": "$$ \\text{Componentes de la velocidad} \\\\ v_x = \\small 50m/s \\ \\cdot \\ cos(40) = 38.10m/s \\\\ v_y = \\small 50m/s \\ \\cdot \\ \\sin(40) = 32.13m/s \\\\ \\allowbreak \\newline \\normalsize \\text{Altura máxima} \\\\ h_{max} = \\large \\frac{v_{0y}^2}{2g} \\\\ h_{max} = \\large \\frac{(32.13m/s)^2}{2 \\ \\cdot \\ (9.8m/s^2)} \\\\ h_{max} = \\small 52.67m$$"
+  }
 ]

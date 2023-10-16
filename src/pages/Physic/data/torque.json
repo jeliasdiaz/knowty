@@ -1,15 +1,15 @@
 [
-    {
-        "answer": "72kg",
-        "content": "Alice y Bob juegan en un sube y baja, Alice se encuentra al lado izquierdo a 0.3 metros del centro con una masa de 60kg. Bob está a una distancia de 0.25m ¿Cuál debe ser la masa de Bob para que este sistema se encuentre en equilibrio?",
-        "img": "/img/torquePracticaImg.svg",
-        "imgProcess": "",
-        "options": {
-            "a": "70kg",
-            "b": "63kg",
-            "c": "54kg",
-            "d": "72kg"
-        },
-        "process": "$$\\text{Datos} \\\\ W_1 = 60kg \\ \\cdot \\ 9.8m/s^2 = 588 \\\\ W_2 = ? \\\\ D_1= 0.3m \\\\ D_2= 0.25m  \\\\ \\allowbreak \\newline  \\text{Planteamiento} \\\\ F_1 \\ \\cdot \\ D_1 \\ \\cdot \\ Sen(θ) - F_2 \\ \\cdot \\ D_2 \\ \\cdot \\ Sen(θ) = 0 \\\\ 588N \\ \\cdot \\ 0.3m \\ \\cdot \\ Sen(90) - W_1 \\ \\cdot \\ 0.25m \\ \\cdot \\ Sen(90) = 0 \\\\ W_1 = \\frac{588N \\ \\cdot \\ 0.3m \\ \\cdot \\ Sen(90)}{0.25m \\ \\cdot \\ Sen(90)} \\\\ W_1 = 705.6N \\\\ \\allowbreak \\newline \\text{Convertir N a Kg} \\\\ m = \\large \\frac{N}{g} \\\\ m = \\large \\frac{705.6N}{9.8m/s^2} \\\\ m = \\small 72kg$$"
-    }
+  {
+    "answer": "72kg",
+    "content": "Alice y Bob juegan en un sube y baja, Alice se encuentra al lado izquierdo a 0.3 metros del centro con una masa de 60kg. Bob está a una distancia de 0.25m ¿Cuál debe ser la masa de Bob para que este sistema se encuentre en equilibrio?",
+    "img": "/img/torquePracticaImg.svg",
+    "imgProcess": "",
+    "options": {
+      "a": "70kg",
+      "b": "63kg",
+      "c": "54kg",
+      "d": "72kg"
+    },
+    "process": "$$\\text{Datos} \\\\ W_1 = 60kg \\ \\cdot \\ 9.8m/s^2 = 588 \\\\ W_2 = ? \\\\ D_1= 0.3m \\\\ D_2= 0.25m  \\\\ \\allowbreak \\newline  \\text{Planteamiento} \\\\ F_1 \\ \\cdot \\ D_1 \\ \\cdot \\ Sen(θ) - F_2 \\ \\cdot \\ D_2 \\ \\cdot \\ Sen(θ) = 0 \\\\ 588N \\ \\cdot \\ 0.3m \\ \\cdot \\ Sen(90) - W_1 \\ \\cdot \\ 0.25m \\ \\cdot \\ Sen(90) = 0 \\\\ W_1 = \\frac{588N \\ \\cdot \\ 0.3m \\ \\cdot \\ Sen(90)}{0.25m \\ \\cdot \\ Sen(90)} \\\\ W_1 = 705.6N \\\\ \\allowbreak \\newline \\text{Convertir N a Kg} \\\\ m = \\large \\frac{N}{g} \\\\ m = \\large \\frac{705.6N}{9.8m/s^2} \\\\ m = \\small 72kg$$"
+  }
 ]

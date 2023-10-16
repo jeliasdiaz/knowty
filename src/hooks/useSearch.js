@@ -1,5 +1,5 @@
 import { useState } from "react";
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
 export const useSearch = (data) => {
   const [filteredData, setFilteredData] = useState([]);
@@ -7,8 +7,11 @@ export const useSearch = (data) => {
 
   //* Filter the words that entered in the search input and search for them on the data
   const handleFilter = (event) => {
-    const searchWord = event.target.value; 
-    const searchWordClean = searchWord.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    const searchWord = event.target.value;
+    const searchWordClean = searchWord
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "");
     setSearchTerm(searchWord);
 
     const newFilter = data.filter((value) =>
@@ -16,7 +19,7 @@ export const useSearch = (data) => {
         .toLowerCase()
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
-        .startsWith(searchWordClean)
+        .startsWith(searchWordClean),
     ); // Inside the data it will look for a name that begins with what is written in the input.
     setFilteredData(searchWordClean ? newFilter : []);
   };
@@ -35,5 +38,5 @@ export const useSearch = (data) => {
 };
 
 useSearch.propTypes = {
-  data: PropTypes.object.isRequired
-}
+  data: PropTypes.object.isRequired,
+};

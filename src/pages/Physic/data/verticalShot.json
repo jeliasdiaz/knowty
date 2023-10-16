@@ -1,13 +1,13 @@
 [
-    {
-        "content": "Albert lanza hacia arriba una pelota con una velocidad inicial de 27 m/s. A partir de esto, calcule la altura máxima que alcanza. Luego, calcule la altura que posee al transcurrir 3 segundos.",
-        "process": "$$ \\text{Altura máxima} \\\\ h_{max} =  \\large \\frac{(27m/s)^2}{2 \\ \\cdot \\ 9.8m/s^2} \\\\ h_{max} = \\small 37.19m \\\\ \\allowbreak \\newline \\normalsize \\text{Altura al transcurrir 3 segundos} \\\\ y = \\small y_0 + v_0 \\ \\cdot \\ t - \\frac{1}{2} \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ 3seg^2 \\\\ y = \\small 0 + 27m/s \\ \\cdot \\ 3seg - \\frac{1}{2} \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ 3seg^2 \\\\ y = \\small 36.9m$$",
-        "options": {
-          "a": "37.19m y 36.9m",
-          "b": "36.9m y 37.19m",
-          "c": "38m y 39m",
-          "d": "39m y 38m"
-        },
-        "answer": "37.19m y 36.9m"
-      }
+  {
+    "content": "Albert lanza hacia arriba una pelota con una velocidad inicial de 27 m/s. A partir de esto, calcule la altura máxima que alcanza. Luego, calcule la altura que posee al transcurrir 3 segundos.",
+    "process": "$$ \\text{Altura máxima} \\\\ h_{max} =  \\large \\frac{(27m/s)^2}{2 \\ \\cdot \\ 9.8m/s^2} \\\\ h_{max} = \\small 37.19m \\\\ \\allowbreak \\newline \\normalsize \\text{Altura al transcurrir 3 segundos} \\\\ y = \\small y_0 + v_0 \\ \\cdot \\ t - \\frac{1}{2} \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ 3seg^2 \\\\ y = \\small 0 + 27m/s \\ \\cdot \\ 3seg - \\frac{1}{2} \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ 3seg^2 \\\\ y = \\small 36.9m$$",
+    "options": {
+      "a": "37.19m y 36.9m",
+      "b": "36.9m y 37.19m",
+      "c": "38m y 39m",
+      "d": "39m y 38m"
+    },
+    "answer": "37.19m y 36.9m"
+  }
 ]

@@ -1,32 +1,32 @@
 [
-    {
-        "title": "Organización territorial",
-        "img": "socialesIcon.png",
-        "url": "/sociales/organizacion-territorial/suelos"
-    },
-    {
-        "title": "Doctrinas económicas",
-        "img": "socialesIcon.png",
-        "url": "/sociales/doctrinas-economicas/liberalismo"
-    },
-    {
-        "title": "Conflicto armado",
-        "img": "socialesIcon.png",
-        "url": "/sociales/conflicto-armado/aspectos-generales"
-    },
-    {
-        "title": "M. guerrilleros",
-        "img": "socialesIcon.png",
-        "url": "/sociales/movimientos-guerrilleros/farc"
-    },
-    {
-        "title": "M. sociales",
-        "img": "socialesIcon.png",
-        "url": "/sociales/movimientos-sociales"
-    },
-    {
-        "title": "Extra",
-        "img": "socialesIcon.png",
-        "url": "/sociales/sociales-extra"
-    }
+  {
+    "title": "Organización territorial",
+    "img": "socialesIcon.png",
+    "url": "/sociales/organizacion-territorial/suelos"
+  },
+  {
+    "title": "Doctrinas económicas",
+    "img": "socialesIcon.png",
+    "url": "/sociales/doctrinas-economicas/liberalismo"
+  },
+  {
+    "title": "Conflicto armado",
+    "img": "socialesIcon.png",
+    "url": "/sociales/conflicto-armado/aspectos-generales"
+  },
+  {
+    "title": "M. guerrilleros",
+    "img": "socialesIcon.png",
+    "url": "/sociales/movimientos-guerrilleros/farc"
+  },
+  {
+    "title": "M. sociales",
+    "img": "socialesIcon.png",
+    "url": "/sociales/movimientos-sociales"
+  },
+  {
+    "title": "Extra",
+    "img": "socialesIcon.png",
+    "url": "/sociales/sociales-extra"
+  }
 ]

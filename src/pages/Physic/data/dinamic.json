@@ -1,27 +1,27 @@
 [
-    {
-        "answer": "3727.49N",
-        "content": "En una bodega se mantiene una caja de 900kg mediante una soga. La superficie se encuentra inclinada 25° respecto a la horizontal y la superficie tiene un coeficiente de rozamiento de 0.4. Calcule la tensión.",
-        "img": "/img/dinamicaPracticaImg.svg",
-        "imgProcess": "/img/dinamicaPracticaImgTwo.svg",
-        "options": {
-            "a": "3012.43N",
-            "b": "4700.20N",
-            "c": "3727.49N",
-            "d": "7993.63N"
-        },
-        "process": "$$\\text{Análisis de fuerzas} \\\\ \\text{Descomponer vectores} \\\\  \\text{Si θ está respecto a x:} \\\\ C_x = C \\ \\cdot \\ cos(θ) \\\\ C_y = C \\ \\cdot \\ sen(θ)  \\\\ \\allowbreak \\newline  \\text{Si θ está respecto a y:} \\\\ C_x = C \\ \\cdot \\ sen(θ) \\\\ C_y = C \\ \\cdot \\ cos(θ) \\\\ \\allowbreak \\newline \\text{Componentes del peso} \\\\ W_x = \\small 900kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ sen(25) = 3727.49N \\\\ W_y = \\small 900kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ cos(25) = 7993.63N \\\\ \\allowbreak \\newline ΣF_x = \\small W_x - T = 0 \\\\ ΣF_x = \\small W_x = T \\\\ ΣF_x = \\small T = 3727.49N$$"
+  {
+    "answer": "3727.49N",
+    "content": "En una bodega se mantiene una caja de 900kg mediante una soga. La superficie se encuentra inclinada 25° respecto a la horizontal y la superficie tiene un coeficiente de rozamiento de 0.4. Calcule la tensión.",
+    "img": "/img/dinamicaPracticaImg.svg",
+    "imgProcess": "/img/dinamicaPracticaImgTwo.svg",
+    "options": {
+      "a": "3012.43N",
+      "b": "4700.20N",
+      "c": "3727.49N",
+      "d": "7993.63N"
     },
-    {
-        "answer": "1.60m/s",
-        "content": "Un vehículo de 1300kg se encuentra en una superficie inclinada 35° respecto a la horizontal, teniendo en cuenta que el sistema está acelerado, calcule la aceleración del vehículo. Considere μ= 0.5 y g= 9.8m/s².",
-        "img": "/img/dinamicaPracticaImgTwo.svg",
-        "options": {
-            "a": "2m/s",
-            "b": "1m/s",
-            "c": "1.80m/s",
-            "d": "1.60m/s"
-        },
-        "process": "$$\\text{Componentes del peso} \\\\ W_x = \\small 1300kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ Sen(35) = 7307.36N \\\\ W_y = \\small 1300kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ Cos(35) = 10435.99N \\\\ \\allowbreak \\newline  \\text{Fuerza normal} \\\\ ΣF_y = \\small N - W_y = 0 \\\\ ΣF_y = \\small N = W_y \\\\ \\allowbreak \\newline  \\text{Fricción} \\\\ \\text{Fr} = \\small μ \\ \\cdot \\ N \\\\ \\text{Fr} = \\small 0.5 \\ \\cdot \\ 10435.99N \\\\ \\text{Fr} = \\small 5217.995N \\\\ \\allowbreak \\newline \\text{Planteamos la ecuación} \\\\ ΣF_x = W_x - Fr = ma \\\\ ΣF_x =\\frac{W_x - Fr}{m} = a \\\\ ΣF_x =\\frac{7307.36N -  5217.995N}{1300kg} = a  \\\\ ΣF_x =  a = 1.60m/s $$"
-    }
+    "process": "$$\\text{Análisis de fuerzas} \\\\ \\text{Descomponer vectores} \\\\  \\text{Si θ está respecto a x:} \\\\ C_x = C \\ \\cdot \\ cos(θ) \\\\ C_y = C \\ \\cdot \\ sen(θ)  \\\\ \\allowbreak \\newline  \\text{Si θ está respecto a y:} \\\\ C_x = C \\ \\cdot \\ sen(θ) \\\\ C_y = C \\ \\cdot \\ cos(θ) \\\\ \\allowbreak \\newline \\text{Componentes del peso} \\\\ W_x = \\small 900kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ sen(25) = 3727.49N \\\\ W_y = \\small 900kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ cos(25) = 7993.63N \\\\ \\allowbreak \\newline ΣF_x = \\small W_x - T = 0 \\\\ ΣF_x = \\small W_x = T \\\\ ΣF_x = \\small T = 3727.49N$$"
+  },
+  {
+    "answer": "1.60m/s",
+    "content": "Un vehículo de 1300kg se encuentra en una superficie inclinada 35° respecto a la horizontal, teniendo en cuenta que el sistema está acelerado, calcule la aceleración del vehículo. Considere μ= 0.5 y g= 9.8m/s².",
+    "img": "/img/dinamicaPracticaImgTwo.svg",
+    "options": {
+      "a": "2m/s",
+      "b": "1m/s",
+      "c": "1.80m/s",
+      "d": "1.60m/s"
+    },
+    "process": "$$\\text{Componentes del peso} \\\\ W_x = \\small 1300kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ Sen(35) = 7307.36N \\\\ W_y = \\small 1300kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ Cos(35) = 10435.99N \\\\ \\allowbreak \\newline  \\text{Fuerza normal} \\\\ ΣF_y = \\small N - W_y = 0 \\\\ ΣF_y = \\small N = W_y \\\\ \\allowbreak \\newline  \\text{Fricción} \\\\ \\text{Fr} = \\small μ \\ \\cdot \\ N \\\\ \\text{Fr} = \\small 0.5 \\ \\cdot \\ 10435.99N \\\\ \\text{Fr} = \\small 5217.995N \\\\ \\allowbreak \\newline \\text{Planteamos la ecuación} \\\\ ΣF_x = W_x - Fr = ma \\\\ ΣF_x =\\frac{W_x - Fr}{m} = a \\\\ ΣF_x =\\frac{7307.36N -  5217.995N}{1300kg} = a  \\\\ ΣF_x =  a = 1.60m/s $$"
+  }
 ]

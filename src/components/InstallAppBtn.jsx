@@ -10,11 +10,11 @@ export const InstallAppBtn = memo(() => {
       e.preventDefault();
       window.deferredPrompt = e;
       setIsReadyForInstall(true);
-    }
+    };
 
-    window.addEventListener("beforeinstallprompt", beforeInstallPrompt)
-    return () => window.removeEventListener("beforeinstallprompt", beforeInstallPrompt)
-
+    window.addEventListener("beforeinstallprompt", beforeInstallPrompt);
+    return () =>
+      window.removeEventListener("beforeinstallprompt", beforeInstallPrompt);
   }, []);
 
   async function downloadApp() {
@@ -24,13 +24,16 @@ export const InstallAppBtn = memo(() => {
     setIsReadyForInstall(false);
   }
 
-  const [installBtn, setInstallBtn] = useState(true)
+  const [installBtn, setInstallBtn] = useState(true);
 
-  const handleInstallBtn = () => setInstallBtn(!installBtn)
+  const handleInstallBtn = () => setInstallBtn(!installBtn);
 
-  return (
-    installBtn && isReadyForInstall
-      ? <DownloadBtn downloadApp={downloadApp} handleInstallBtn={handleInstallBtn} />
-      : ''
-  )
-})
+  return installBtn && isReadyForInstall ? (
+    <DownloadBtn
+      downloadApp={downloadApp}
+      handleInstallBtn={handleInstallBtn}
+    />
+  ) : (
+    ""
+  );
+});

@@ -53,31 +53,31 @@ export const ancientPhilosophyItems = {
   "Escuelas helenísticas": {
     path: "/filosofia-antigua/escuelas-helenisticas",
     subtopics: {
-      "Cínicos": {
+      Cínicos: {
         path: "/filosofia-antigua/escuelas-helenisticas",
         scrollToId: "cinicos",
       },
-      "Epicureos": {
+      Epicureos: {
         path: "/filosofia-antigua/escuelas-helenisticas",
         scrollToId: "epicureos",
       },
-      "Escépticos": {
+      Escépticos: {
         path: "/filosofia-antigua/escuelas-helenisticas",
         scrollToId: "escepticos",
       },
-      "Estoicos": {
+      Estoicos: {
         path: "/filosofia-antigua/escuelas-helenisticas",
         scrollToId: "estoicos",
       },
     },
   },
   Sócrates: {
-    path: "/filosofia-antigua/socrates"
+    path: "/filosofia-antigua/socrates",
   },
   Platón: {
-    path: "/filosofia-antigua/platon"
+    path: "/filosofia-antigua/platon",
   },
   Aristóteles: {
-    path: "/filosofia-antigua/aristoteles"
+    path: "/filosofia-antigua/aristoteles",
   },
 };

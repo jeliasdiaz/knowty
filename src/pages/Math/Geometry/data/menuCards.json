@@ -1,17 +1,17 @@
 [
-    {
-        "title": "Triángulos",
-        "img": "geometriaIcon.png",
-        "url": "/triangulos"
-    },
-    {
-        "title": "Recta",
-        "img": "geometriaIcon.png",
-        "url": "/recta"
-    },
-    {
-        "title": "Secciones cónicas",
-        "img": "geometriaIcon.png",
-        "url": "/secciones-conicas"
-    }
+  {
+    "title": "Triángulos",
+    "img": "geometriaIcon.png",
+    "url": "/triangulos"
+  },
+  {
+    "title": "Recta",
+    "img": "geometriaIcon.png",
+    "url": "/recta"
+  },
+  {
+    "title": "Secciones cónicas",
+    "img": "geometriaIcon.png",
+    "url": "/secciones-conicas"
+  }
 ]

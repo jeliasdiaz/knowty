@@ -1,15 +1,10 @@
-import {
-  SectionTitle,
-  Tooltip,
-  TopWave,
-} from "../../components";
+import { SectionTitle, Tooltip, TopWave } from "../../components";
 
 export const IntroductionPhilosophy = () => {
   return (
     <div className="homeCard">
       <TopWave />
       <SectionTitle title="Introducción" />
-
 
       <div
         className="subjectCard ownShadow"
