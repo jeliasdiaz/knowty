@@ -1,4 +1,6 @@
-import { TopWave, MenuCard } from "../../components/"
+import { TopWave } from "../../components/"
+import { renderMenuCards } from "../../helpers/renderMenuCards"
+import menuCards from "./data/menuCards.json"
 
 export const ChemistryMenu = () => {
   return (
@@ -6,15 +8,9 @@ export const ChemistryMenu = () => {
       <section className="mobileMenu">
         <TopWave />
         <div className="mobileSubjectMenu">
-          <MenuCard url="/historia-quimica" img="quimicaIcon.png" title="Historia de la Química" />
-
-          <MenuCard url="/quimica/estructura-materia/modelos-atomicos" img="quimicaIcon.png" title="Estructura de la materia" />
-          
-          <MenuCard url="/quimica/nomenclatura/nomenclaturas" img="quimicaIcon.png" title="Nomenclatura" />
-
-          <MenuCard url="/quimica/reacciones-quimicas/balanceo" img="quimicaIcon.png" title="Reacciones químicas" />
-
-          <MenuCard url="/quimica/familia-elementos" img="quimicaIcon.png" title="Familia de elementos" />
+          {
+            renderMenuCards(menuCards)
+          }
         </div>
       </section>
     </>

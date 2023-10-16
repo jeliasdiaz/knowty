@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Historia de la Química",
+        "img": "quimicaIcon.png",
+        "url": "/historia-quimica"
+    },
+    {
+        "title": "Estructura de la materia",
+        "img": "quimicaIcon.png",
+        "url": "/quimica/estructura-materia/modelos-atomicos"
+    },
+    {
+        "title": "Nomenclatura",
+        "img": "quimicaIcon.png",
+        "url": "/quimica/nomenclatura/nomenclaturas"
+    },
+    {
+        "title": "Reacciones químicas",
+        "img": "quimicaIcon.png",
+        "url": "/quimica/reacciones-quimicas/balanceo"
+    },
+    {
+        "title": "Familia de elementos",
+        "img": "quimicaIcon.png",
+        "url": "/quimica/familia-elementos"
+    }
+]

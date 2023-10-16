@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Aritmética",
+        "img": "matematicasIcon.png",
+        "url": "/matematicas/introduccion-aritmetica"
+    },
+    {
+        "title": "Estadística",
+        "img": "estadisticaIcon.png",
+        "url": "/estadistica"
+    },
+    {
+        "title": "Geometría",
+        "img": "geometriaIcon.png",
+        "url": "/geometria-menu"
+    },
+    {
+        "title": "Trigonometría",
+        "img": "trigonometriaIcon.png",
+        "url": "/trigonometria-menu"
+    }
+]

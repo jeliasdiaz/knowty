@@ -1,4 +1,6 @@
-import { TopWave, MenuCard } from "../../../components/"
+import { TopWave } from "../../../components/"
+import { renderMenuCards } from "../../../helpers/renderMenuCards"
+import menuCards from "./data/menuCards.json"
 
 export const GeometryMenu = () => {
   return (
@@ -6,9 +8,9 @@ export const GeometryMenu = () => {
       <section className="mobileMenu">
         <TopWave />
         <div className="mobileSubjectMenu">
-          <MenuCard url="/triangulos" img="geometriaIcon.png" title="Triángulos" />
-          <MenuCard url="/recta" img="geometriaIcon.png" title="Recta" />
-          <MenuCard url="/secciones-conicas" img="geometriaIcon.png" title="Secciones cónicas" />
+          {
+            renderMenuCards(menuCards)
+          }
         </div>
       </section>
     </>

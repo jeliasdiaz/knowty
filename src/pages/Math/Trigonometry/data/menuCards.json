@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Nociones básicas",
+    "img": "trigonometriaIcon.png",
+    "url": "/nociones-basicas-trigonometria/triangulos"
+  },
+  {
+    "title": "Ángulos y propiedades",
+    "img": "trigonometriaIcon.png",
+    "url": "/angulos-y-sus-propiedades"
+  },
+  {
+    "title": "Teorema del Seno",
+    "img": "trigonometriaIcon.png",
+    "url": "/teorema-seno"
+  },
+  {
+    "title": "Teorema del Coseno",
+    "img": "trigonometriaIcon.png",
+    "url": "/teorema-coseno"
+  },
+  {
+    "title": "Practica",
+    "img": "trigonometriaIcon.png",
+    "url": "/trigonometria-practica"
+  }
+]

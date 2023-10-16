@@ -1,4 +1,6 @@
-import { TopWave, MenuCard } from "../../../components/"
+import { TopWave } from "../../../components/"
+import { renderMenuCards } from "../../../helpers/renderMenuCards"
+import menuCards from "./data/menuCards.json"
 
 export const TrigonometryMenu = () => {
   return (
@@ -6,11 +8,9 @@ export const TrigonometryMenu = () => {
       <section className="mobileMenu">
         <TopWave />
         <div className="mobileSubjectMenu">
-          <MenuCard url="/nociones-basicas-trigonometria/triangulos" img="trigonometriaIcon.png" title="Nociones básicas" />
-          <MenuCard url="/angulos-y-sus-propiedades" img="trigonometriaIcon.png" title="Ángulos y propiedades" />
-          <MenuCard url="/teorema-seno" img="trigonometriaIcon.png" title="Teorema del Seno" />
-          <MenuCard url="/teorema-coseno" img="trigonometriaIcon.png" title="Teorema del Coseno" />
-          <MenuCard url="/trigonometria-practica" img="trigonometriaIcon.png" title="Practica" />
+          {
+            renderMenuCards(menuCards)
+          }
         </div>
       </section>
     </>

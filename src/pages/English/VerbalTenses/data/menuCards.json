@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Presente simple",
+        "img": "englishIcon.png",
+        "url": "/ingles/tiempos-verbales/presente-simple"
+    },
+    {
+        "title": "Pasado simple",
+        "img": "englishIcon.png",
+        "url": "/ingles/tiempos-verbales/pasado-simple"
+    },
+    {
+        "title": "Futuro simple",
+        "img": "englishIcon.png",
+        "url": "/ingles/tiempos-verbales/futuro-simple"
+    },
+    {
+        "title": "Presente continuo",
+        "img": "englishIcon.png",
+        "url": "/ingles/tiempos-verbales/presente-continuo"
+    },
+    {
+        "title": "Pasado continuo",
+        "img": "englishIcon.png",
+        "url": "/ingles/tiempos-verbales/pasado-continuo"
+    },
+    {
+        "title": "Futuro continuo",
+        "img": "englishIcon.png",
+        "url": "/ingles/tiempos-verbales/futuro-continuo"
+    },
+    {
+        "title": "Tiempos perfectos",
+        "img": "englishIcon.png",
+        "url": "/ingles/tiempos-verbales/tiempos-perfectos"
+    }
+]

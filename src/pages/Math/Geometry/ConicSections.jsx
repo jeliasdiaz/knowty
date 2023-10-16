@@ -1,14 +1,33 @@
-import { MenuCard, TopWave } from '../../../components'
+import { TopWave } from '../../../components'
+import { renderMenuCards } from '../../../helpers/renderMenuCards'
 
 export const ConicSections = () => {
+
+  const menuCards = [
+    {
+      title: "Circunferencia",
+      img: "geometriaIcon.png",
+      url: "/circunferencia"
+    },
+    {
+      title: "Parábola",
+      img: "geometriaIcon.png",
+      url: "/parabola"
+    },
+    {
+      title: "Elipse",
+      img: "geometriaIcon.png",
+      url: "/elipse"
+    }
+  ]
   return (
     <>
     <section className="mobileMenu">
         <TopWave />
         <div className="mobileSubjectMenu">
-          <MenuCard url="/circunferencia" img="geometriaIcon.png" title="Circunferencia" />
-          <MenuCard url="/parabola" img="geometriaIcon.png" title="Parábola" />
-          <MenuCard url="/elipse" img="geometriaIcon.png" title="Elipse" />
+          {
+            renderMenuCards(menuCards)
+          }
           {/* <MenuCard url="/hiperbola" img="geometriaIcon.png" title="Hipérbola" /> */}
         </div>
       </section>

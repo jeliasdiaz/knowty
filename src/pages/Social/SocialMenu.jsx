@@ -1,4 +1,6 @@
-import { TopWave, MenuCard } from "../../components/"
+import { TopWave } from "../../components/"
+import { renderMenuCards } from "../../helpers/renderMenuCards"
+import menuCards from "./data/menuCards.json"
 
 export const SocialMenu = () => {
   return (
@@ -6,12 +8,9 @@ export const SocialMenu = () => {
       <section className="mobileMenu">
         <TopWave />
         <div className="mobileSubjectMenu">
-          <MenuCard url="/sociales/organizacion-territorial/suelos" img="socialesIcon.png" title="Organización territorial" />
-          <MenuCard url="/sociales/doctrinas-economicas/liberalismo" img="socialesIcon.png" title="Doctrinas económicas" />
-          <MenuCard url="/sociales/conflicto-armado/aspectos-generales" img="socialesIcon.png" title="Conflicto armado" />
-          <MenuCard url="/sociales/movimientos-guerrilleros/farc" img="socialesIcon.png" title="M. guerrilleros" />
-          <MenuCard url="/sociales/movimientos-sociales" img="socialesIcon.png" title="M. sociales" />
-          <MenuCard url="/sociales/sociales-extra" img="socialesIcon.png" title="Extra" />
+          {
+            renderMenuCards(menuCards)
+          }
         </div>
       </section>
     </>
