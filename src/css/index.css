@@ -414,7 +414,10 @@ input[type="radio"]:checked + span:before {
 
 .subjectLinkMenu {
   background-color: white;
-  border-radius: 25px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 80px;
   padding: 5%;
   align-items: center;
   height: 300px;
@@ -874,6 +877,7 @@ input[type="radio"]:checked + span:before {
 
   .subjectLink,
   .subjectLinkMenu {
+    border-radius: 35px;
     margin-top: 5%;
     padding: 2%;
     height: auto;
