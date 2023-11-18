@@ -273,7 +273,7 @@ input[type="radio"]:checked + span:before {
   opacity: 0.8;
   color: black;
   cursor: pointer;
-  transition: all 0.2s !important;
+  transition: all 0.5s !important;
   z-index: 10;
 
   &:active {
@@ -554,9 +554,6 @@ input[type="radio"]:checked + span:before {
   
   &.close {
     animation: slide-left 0.2s forwards;
-  }
-  &.closeWithoutAnimation {
-    animation: slide-left 0s forwards;
   }
 }
 

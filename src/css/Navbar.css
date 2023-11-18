@@ -70,7 +70,7 @@
 }
 
 .navBtn {
-  transition: all 0.2s;
+  transition: 0.2s;
   transition-timing-function: ease-in;
 }
 .navBtn:hover {
@@ -81,12 +81,13 @@
   transform: rotateZ(-5deg);
   transition: all 0.2s;
   color: #1f1e1e !important;
+
+  &:active {
+    transform: rotateZ(-5deg);
+    transition: all 0.2s;
+  }
 }
-.HiSun:active,
-.HiMoon:active {
-  transform: rotateZ(-5deg);
-  transition: all 0.2s;
-}
+
 .HiSun:hover {
   transform-origin: center;
   transform: rotateZ(45deg);
@@ -99,10 +100,11 @@
 }
 .Search {
   transition: all 0.3s;
+  &:hover {
+    transform: rotateZ(45deg);
+  }
 }
-.Search:hover {
-  transform: rotateZ(45deg);
-}
+
 .dropdown-item {
   margin: auto;
 }
