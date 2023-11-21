@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { useContext } from "react";
 import { titleContext } from "../context/TitleContextSubject";
 
-export const MenuCard = ({ url, img, title, imgSize }) => {
+export const MenuCard = ({ url, img, title, imgSize, delay }) => {
   const { onTitleSubject } = useContext(titleContext);
 
   const handleClick = () => {
@@ -31,7 +31,8 @@ export const MenuCard = ({ url, img, title, imgSize }) => {
       <div
         className="subjectLinkMenu ownShadow"
         data-aos="fade-up"
-        data-aos-duration="1000"
+        data-aos-duration="500"
+        data-aos-delay={delay}
         onClick={transitionPage}
       >
         <div className="subjectLinkMenuContent">

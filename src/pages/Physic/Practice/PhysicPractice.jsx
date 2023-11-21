@@ -1,6 +1,7 @@
-import { MenuCard, SectionTitle, TopWave } from "../../../components";
+import { SectionTitle, TopWave } from "../../../components";
 import Latex from "react-latex";
-
+import { renderMenuCards } from "../../../helpers/renderMenuCards";
+import menuCards from "./menuCards.json"
 export const PhysicPractice = () => {
   const potenciaOne = `$$P= \\frac{W}{T}$$`;
   const potenciaTwo = `$$T = \\frac{W}{P}$$`;
@@ -26,59 +27,7 @@ export const PhysicPractice = () => {
       <SectionTitle title="Practica" />
 
       <div className="mobileSubjectMenu">
-        <MenuCard
-          url="/fisica/vectores-practica"
-          img="fisicaIcon.png"
-          title="Vectores"
-        />
-
-        <MenuCard
-          url="/fisica/mru-practica"
-          img="fisicaIcon.png"
-          title="M.R.U"
-        />
-
-        <MenuCard
-          url="/fisica/mrua-practica"
-          img="fisicaIcon.png"
-          title="M.R.U.A."
-        />
-
-        <MenuCard
-          url="/fisica/caida-libre-practica"
-          img="fisicaIcon.png"
-          title="Caída libre"
-        />
-
-        <MenuCard
-          url="/fisica/tiro-vertical-practica"
-          img="fisicaIcon.png"
-          title="Tiro vertical"
-        />
-
-        <MenuCard
-          url="/fisica/tiro-parabolico-practica"
-          img="fisicaIcon.png"
-          title="Tiro parabólico"
-        />
-
-        <MenuCard
-          url="/fisica/dinamica-practica"
-          img="fisicaIcon.png"
-          title="Dinámica"
-        />
-
-        <MenuCard
-          url="/fisica/torque-practica"
-          img="fisicaIcon.png"
-          title="Torque"
-        />
-
-        <MenuCard
-          url="/fisica/trabajo-practica"
-          img="fisicaIcon.png"
-          title="Trabajo"
-        />
+        {renderMenuCards(menuCards)}
       </div>
 
       <div

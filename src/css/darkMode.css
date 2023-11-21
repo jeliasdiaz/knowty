@@ -56,21 +56,21 @@
   background-color: #28292a;
   color: #e3e3e3;
 }
-.dark .glossary {
+.dark .contentsTable {
   background-color: #303233;
   color: #3aa0cc;
 }
-.dark .glossary-nav {
+.dark .contentsTable-nav {
   background-color: #303233;
 }
-.dark .glossary-content {
+.dark .contentsTable-content {
   background-color: #303233;
   color: white;
 }
-.dark .glossary-content h3 {
+.dark .contentsTable-content h3 {
   color: #3aa0cc;
 }
-.dark .glossary-items a {
+.dark .contentsTable-items a {
     color: darkgrey;
 }
 .dark .homeCard {

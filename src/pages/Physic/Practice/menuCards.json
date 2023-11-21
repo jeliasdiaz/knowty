@@ -1,0 +1,47 @@
+[
+	{
+		"title": "Vectores",
+		"img": "fisicaIcon.png",
+		"url": "/fisica/vectores-practica"
+	},
+	{
+		"title": "M.R.U.",
+		"img": "fisicaIcon.png",
+		"url": "/fisica/mru-practica"
+	},
+	{
+		"title": "M.R.U.A",
+		"img": "fisicaIcon.png",
+		"url": "/fisica/mrua-practica"
+	},
+	{
+		"title": "Caída libre",
+		"img": "fisicaIcon.png",
+		"url": "/fisica/caida-libre-practica"
+	},
+	{
+		"title": "Tiro vertical",
+		"img": "fisicaIcon.png",
+		"url": "/fisica/tiro-vertical-practica"
+	},
+	{
+		"title": "Tiro parabólico",
+		"img": "fisicaIcon.png",
+		"url": "/fisica/tiro-parabolico-practica"
+	},
+	{
+		"title": "Dinámica",
+		"img": "fisicaIcon.png",
+		"url": "/fisica/dinamica-practica"
+	},
+	{
+		"title": "Torque",
+		"img": "fisicaIcon.png",
+		"url": "/fisica/torque-practica"
+	},
+	{
+		"title": "Trabajo",
+		"img": "fisicaIcon.png",
+		"url": "/fisica/trabajo-practica"
+	}
+]

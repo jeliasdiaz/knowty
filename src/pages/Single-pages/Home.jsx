@@ -57,14 +57,14 @@ export const Home = () => {
                     path="/biologia-menu"
                     img="biologia"
                     title="Biología"
-                    animationDelay={600}
+                    animationDelay={0}
                   />
 
                   <SubjectCard
                     path="/filosofia-menu"
                     img="filosofia"
                     title="Filosofía"
-                    animationDelay={800}
+                    animationDelay={0}
                   />
                 </div>
 
@@ -73,13 +73,13 @@ export const Home = () => {
                     path="/fisica-menu"
                     img="fisica"
                     title="Física"
-                    animationDelay={800}
+                    animationDelay={200}
                   />
                   <SubjectCard
                     path="/ingles-menu"
                     img="english"
                     title="Inglés"
-                    animationDelay={1000}
+                    animationDelay={200}
                   />
                 </div>
 
@@ -88,14 +88,14 @@ export const Home = () => {
                     path="/quimica-menu"
                     img="quimica"
                     title="Química"
-                    animationDelay={1200}
+                    animationDelay={400}
                   />
 
                   <SubjectCard
                     path="/matematicas-menu"
                     img="matematicas"
                     title="Matemáticas"
-                    animationDelay={1200}
+                    animationDelay={400}
                     marginTop="mathCard"
                   />
                 </div>
@@ -105,13 +105,13 @@ export const Home = () => {
                     path="/sociales-menu"
                     img="sociales"
                     title="Sociales"
-                    animationDelay={1200}
+                    animationDelay={500}
                   />
                   <SubjectCard
                     path="/tools"
                     img="tools"
                     title="Tools"
-                    animationDelay={1400}
+                    animationDelay={500}
                   />
                 </div>
               </div>
@@ -122,14 +122,14 @@ export const Home = () => {
                 path="/biologia-menu"
                 img="biologia"
                 title="Biología"
-                animationDelay={500}
+                animationDelay={0}
               />
 
               <SubjectCard
                 path="/filosofia-menu"
                 img="filosofia"
                 title="Filosofía"
-                animationDelay={700}
+                animationDelay={100}
               />
 
               <SubjectCard
@@ -137,7 +137,7 @@ export const Home = () => {
                 img="fisica"
                 title="Física"
                 marginTop="mt-3"
-                animationDelay={800}
+                animationDelay={200}
               />
 
               <SubjectCard
@@ -145,7 +145,7 @@ export const Home = () => {
                 img="english"
                 title="Inglés"
                 marginTop="mt-3"
-                animationDelay={1000}
+                animationDelay={300}
               />
 
               <SubjectCard
@@ -153,7 +153,7 @@ export const Home = () => {
                 img="matematicas"
                 title="Matemáticas"
                 marginTop="mt-3 mathCard"
-                animationDelay={1000}
+                animationDelay={400}
               />
 
               <SubjectCard
@@ -161,7 +161,7 @@ export const Home = () => {
                 img="quimica"
                 title="Química"
                 marginTop="mt-3"
-                animationDelay={1100}
+                animationDelay={450}
               />
 
               <SubjectCard
@@ -169,14 +169,14 @@ export const Home = () => {
                 img="sociales"
                 title="Sociales"
                 marginTop="mt-3"
-                animationDelay={1200}
+                animationDelay={550}
               />
 
               <SubjectCard
                 path="/tools"
                 img="tools"
                 title="Tools"
-                animationDelay={1300}
+                animationDelay={650}
               />
             </div>
           </div>

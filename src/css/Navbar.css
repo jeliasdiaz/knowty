@@ -80,6 +80,7 @@
 .HiMoon {
   transform: rotateZ(-5deg);
   transition: all 0.2s;
+  transition-timing-function: ease;
   color: #1f1e1e !important;
 
   &:active {
@@ -100,6 +101,7 @@
 }
 .Search {
   transition: all 0.3s;
+  transition-timing-function: ease-out;
   &:hover {
     transform: rotateZ(45deg);
   }

@@ -11,7 +11,7 @@ export const ContentsTable = ({ items }) => {
 
 	const navigate = useNavigate()
 	const location = useLocation()
-	const glossaryNav = useRef()
+	const contentsTableNav = useRef()
 
 	// The following useEffect listens for changes in the URL location and updates the current topic index accordingly:
 	useEffect(() => {
@@ -98,15 +98,16 @@ export const ContentsTable = ({ items }) => {
 				elementToScroll.scrollIntoView({ behavior: 'smooth' })
 			}
 		}, 500)
+		handleNav()
 	}
 
 	// Close Contents nav when clicking outside
 	useEffect(() => {
 		const handleClickOutside = (event) => {
 			if (
-				glossaryNav.current &&
-				!glossaryNav.current.contains(event.target) &&
-				event.target.className !== 'glossary ownShadow' &&
+				contentsTableNav.current &&
+				!contentsTableNav.current.contains(event.target) &&
+				event.target.className !== 'contentsTable ownShadow' &&
 				event.target.tagName !== 'SPAN'
 			) {
 				// Click outside detected, close the menu
@@ -133,7 +134,7 @@ export const ContentsTable = ({ items }) => {
 					onClick={prevTopic}
 				/>
 
-				<div className='glossary ownShadow' onClick={handleNav}>
+				<div className='contentsTable ownShadow' onClick={handleNav}>
 					<span>Contenidos</span>
 				</div>
 
@@ -146,19 +147,19 @@ export const ContentsTable = ({ items }) => {
 			</div>
 
 			<div
-				className={`glossary-nav  ${
+				className={`contentsTable-nav  ${
 					nav ? 'open' : clicked ? 'close' : 'close'
 				}`}
-				ref={glossaryNav}
+				ref={contentsTableNav}
 			>
-				<div className='glossary-content'>
+				<div className='contentsTable-content'>
 					<div className='d-flex justify-content-between mb-2'>
 						<h3>Contenidos</h3>
 
 						<IoClose size={30} onClick={handleNav} cursor='pointer' />
 					</div>
 
-					<div className='glossary-items'>
+					<div className='contentsTable-items'>
 						{Object.keys(items).map((mainTopic) => {
 							const mainTopicData = items[mainTopic]
 							const isCurrentPath = location.pathname === mainTopicData.path

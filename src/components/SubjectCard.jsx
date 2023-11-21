@@ -32,7 +32,8 @@ export const SubjectCard = ({
         to={path}
         className="text-decoration-none text-black d-none d-sm-block"
         data-aos="fade-down"
-        data-aos-duration={animationDelay}
+        data-aos-duration="700"
+        data-aos-delay={animationDelay}
         data-aos-once="true"
         onClick={handleClick}
       >
@@ -57,9 +58,10 @@ export const SubjectCard = ({
         onClick={handleClick}
       >
         <div
-          className={`subjectLink d-flex ownShadow ${marginTop} animationMobile`}
+          className={`subjectLink d-flex ownShadow ${marginTop} animation`}
           data-aos="fade-down"
-          data-aos-duration={animationDelay}
+          data-aos-duration="500"
+          data-aos-delay={animationDelay}
           data-aos-once="true"
         >
           <img
