@@ -7,9 +7,13 @@ body {
 }
 html {
 	overscroll-behavior: none;
+	--principal-color: #2b7ea1;
+	--principal-color-bright: #bfdfed;
+	--background-dark: #121212;
+	--background-dark-card: #28292a;
 }
 ::selection {
-	background-color: #bfdfed;
+	background-color: var(--principal-color)-bright;
 	color: black;
 }
 /** Transition between routes */
@@ -99,8 +103,8 @@ hr {
 	height: 3px !important;
 	border-radius: 12px !important;
 	box-shadow: 3px 2px 2px 1px rgb(184, 183, 183);
-	background-color: #2b7ea1 !important;
-	border: #2b7ea1 !important;
+	background-color: var(--principal-color) !important;
+	border: var(--principal-color) !important;
 	transition: 0.5s;
 }
 
@@ -116,7 +120,7 @@ ul li:before {
 }
 
 .btn-secondary {
-	background-color: #2b7ea1 !important;
+	background-color: var(--principal-color) !important;
 	border-color: #2d7d9f !important;
 	color: white;
 	border-radius: 10px !important;
@@ -144,7 +148,7 @@ ul li:before {
 		background-color 0.2s !important;
 
 	&:hover {
-		background-color: #2b7ea1 !important;
+		background-color: var(--principal-color) !important;
 	}
 }
 
@@ -261,8 +265,8 @@ input[type='radio'] + span:before {
 }
 
 input[type='radio']:checked + span:before {
-	border-color: #2b7ea1;
-	background-color: #2b7ea1;
+	border-color: var(--principal-color);
+	background-color: var(--principal-color);
 }
 
 .dropdown-menu {
@@ -323,7 +327,7 @@ input[type='radio']:checked + span:before {
 	}
 	& img {
 		width: 30rem;
-		filter: drop-shadow(5px 5px 10px #2b7ea1);
+		filter: drop-shadow(5px 5px 10px var(--principal-color));
 	}
 }
 
@@ -364,7 +368,7 @@ input[type='radio']:checked + span:before {
 	width: 100%;
 	padding: 4% !important;
 	border-radius: 25px;
-	background-color: #2b7ea1;
+	background-color: var(--principal-color);
 	color: #fff;
 	height: 80%;
 	transition: 0.5s;
@@ -374,7 +378,7 @@ input[type='radio']:checked + span:before {
 	}
 
 	&::selection {
-		background-color: #bfdfed;
+		background-color: var(--principal-color)-bright;
 		color: #fff;
 	}
 }
@@ -395,7 +399,7 @@ input[type='radio']:checked + span:before {
 	width: 260px;
 
 	&:hover {
-		background-color: #bfdfed;
+		background-color: var(--principal-color)-bright;
 		color: #fefefe !important;
 		transform: translateY(-5px) !important;
 	}
@@ -433,7 +437,7 @@ input[type='radio']:checked + span:before {
 	transition-property: background-color, transform !important;
 
 	&:hover {
-		background-color: #bfdfed;
+		background-color: var(--principal-color)-bright;
 		color: #fefefe !important;
 		transform: translateY(-5px) !important;
 	}
@@ -537,7 +541,7 @@ input[type='radio']:checked + span:before {
 	align-self: center;
 	border-radius: 15px;
 	background-color: white;
-	color: #2b7ea1;
+	color: var(--principal-color);
 	font-size: 14px;
 	cursor: pointer;
 	transform: scale(1.2);
@@ -580,7 +584,7 @@ input[type='radio']:checked + span:before {
 		text-decoration: none;
 		color: black;
 		&:hover {
-			text-decoration: underline #2b7ea1;
+			text-decoration: underline var(--principal-color);
 		}
 	}
 }
@@ -649,7 +653,7 @@ input[type='radio']:checked + span:before {
 	gap: 2%;
 	justify-content: center;
 	& h4 {
-		color: #2b7ea1;
+		color: var(--principal-color);
 	}
 }
 
@@ -679,7 +683,7 @@ input[type='radio']:checked + span:before {
 	text-align: center;
 	margin: 3%;
 	transition: 0.5s !important;
-	color: #2b7ea1;
+	color: var(--principal-color);
 }
 
 /** Mobile menu pages */
@@ -702,7 +706,7 @@ input[type='radio']:checked + span:before {
 .infoPage {
 	align-items: center;
 	background-color: #f6f6f6;
-	color: #2b7ea1;
+	color: var(--principal-color);
 	transition: all 0.5s;
 	min-height: 100vh;
 }
@@ -732,7 +736,7 @@ input[type='radio']:checked + span:before {
 	height: 20rem;
 	margin-inline: 2%;
 	& h3 {
-		color: #2b7ea1;
+		color: var(--principal-color);
 	}
 }
 
@@ -753,7 +757,7 @@ input[type='radio']:checked + span:before {
 		transform: translateY(-10px) !important;
 	}
 	&:hover .blogCardTitle {
-		color: #2b7ea1;
+		color: var(--principal-color);
 	}
 	.blogCardImg {
 		width: 9em;
@@ -822,7 +826,7 @@ input[type='radio']:checked + span:before {
 .iconsContainer {
 	align-items: center;
 	background-color: #f6f6f6;
-	color: #2b7ea1;
+	color: var(--principal-color);
 	transition: 0.5s;
 	min-height: 100vh;
 }
@@ -934,7 +938,7 @@ input[type='radio']:checked + span:before {
 		& h3 {
 			font-size: 18px;
 			margin-top: 2%;
-			color: #2b7ea1;
+			color: var(--principal-color);
 		}
 		& svg {
 			width: 2em;

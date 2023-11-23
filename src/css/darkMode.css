@@ -4,7 +4,7 @@
   box-shadow: none !important;
 }
 .dark .installCard {
-  background: #28292a;
+  background: var(--background-dark-card);
   color: white;
 }
 .dark .closeInstallBtn {
@@ -17,16 +17,16 @@
 }
 
 .dark .home {
-  background-color: #121212;
+  background-color: var(--background-dark);
   color: #e3e3e3;
 }
 
 .dark .home-2 {
-  background-color: #121212;
+  background-color: var(--background-dark);
   color: #fefefe;
 }
 .dark .sectionOne img {
-  filter: drop-shadow(5px 5px 20px #2b7ea1);
+  filter: drop-shadow(5px 5px 20px --principal-color);
 }
 .dark .text-sectionTwo {
   background-color: #004a77;
@@ -37,7 +37,7 @@
 }
 
 .dark .subjectLink, .dark .subjectLinkMenu {
-  background-color: #28292a;
+  background-color: var(--background-dark-card);
   color: #e3e3e3;
 }
 .dark .subjectLink:hover, .dark .subjectLinkMenu:hover {
@@ -48,12 +48,12 @@
   transition: all 0.5s;
 }
 .dark .textIntroduction {
-  background-color: #28292a;
+  background-color: var(--background-dark-card);
   transition: all 0.5s;
 }
 
 .dark .subjectCard {
-  background-color: #28292a;
+  background-color: var(--background-dark-card);
   color: #e3e3e3;
 }
 .dark .contentsTable {
@@ -74,7 +74,7 @@
     color: darkgrey;
 }
 .dark .homeCard {
-  background-color: #121212;
+  background-color: var(--background-dark);
 }
 .dark .table {
   color: #e3e3e3;
@@ -82,18 +82,18 @@
   transition: all 0.5s;
 }
 .dark .englishCard, .dark .englishCardStructure {
-  background-color: #28292a;
+  background-color: var(--background-dark-card);
   color: #e3e3e3;
 }
 .dark .numberInput {
   background: #c0deeb  !important;
 }
 .dark .scoreboardCard {
-  border-color: #2b7ea1;
+  border-color: --principal-color;
 }
 
 .dark .mobileMenu {
-  background-color: #121212;
+  background-color: var(--background-dark);
   transition: all 0.5s;
 }
 .dark .dropdownBorder {
@@ -102,27 +102,27 @@
 
 .dark .infoPage {
   color: #e3e3e3;
-  background-color: #121212;
+  background-color: var(--background-dark);
 }
 .dark .infoTitle {
-  background-color: #28292a;
-  color: #2b7ea1;
+  background-color: var(--background-dark-card);
+  color: --principal-color;
 }
 .dark .cardsInfoSection {
-  background-color: #121212;
+  background-color: var(--background-dark);
 }
 .dark .cardInfo {
-  background-color: #28292a;
+  background-color: var(--background-dark-card);
   color: #e3e3e3;
   transition: all 0.5s;
 }
 
 .dark .search {
-  background-color: #121212;
+  background-color: var(--background-dark);
   transition: all 0.5s;
 }
 .dark .dataItem {
-  background-color: #28292a;
+  background-color: var(--background-dark-card);
   color: #e3e3e3;
 }
 .dark .dataItem:hover {
@@ -132,7 +132,7 @@
 
 /** Footer  */
 .dark .footer {
-  background-color: #121212;
+  background-color: var(--background-dark);
   transition: all 0.5s;
 }
 .dark .textFooter h1 {
@@ -144,7 +144,7 @@
   transition: all 0.5s;
 }
 .dark .teamCardCenter {
-  background-color: #28292a;
+  background-color: var(--background-dark-card);
   color: #e3e3e3;
   transition: all 0.5s;
 }
@@ -162,7 +162,7 @@
   color: #899bb6;
 }
 .dark .footerIcons, .dark .titleForm {
-  background-color: #28292a;
+  background-color: var(--background-dark-card);
 }
 .dark .contactIcon {
   color: white;
@@ -173,29 +173,29 @@
 
 /** Blog  */
 .dark .blogContainer {
-  background-color: #121212;
+  background-color: var(--background-dark);
 }
 .dark .blogCard {
-  background-color: #28292a;
+  background-color: var(--background-dark-card);
   color: white;
 }
 .dark .blogCardText {
   color: white;
 }
 .dark .blogSectionContainer {
-  background: #121212;
+  background: var(--background-dark);
 }
 .dark .blogSection {
-  background: #28292a;
+  background: var(--background-dark-card);
   color: white;
 }
 
 /** Icons atribution */
 .dark .iconsContainer {
-  background-color: #121212;
+  background-color: var(--background-dark);
 }
 .dark .iconsCard {
-  background-color: #28292a;
+  background-color: var(--background-dark-card);
   color: white;
 }
 .dark .iconsCard ul li a {
@@ -210,7 +210,7 @@
 
 /** Not Found */
 .dark .notFoundContainer {
-  background-color: #121212;
+  background-color: var(--background-dark);
   color: #fff;
 }
 
@@ -231,7 +231,7 @@
   background-color: transparent;
 }
 .dark .element:hover{
-  background-color: #28292a;
+  background-color: var(--background-dark-card);
 }
 
 @media screen and (max-width: 800px) {

@@ -32,7 +32,7 @@
 .titleSubject{
   padding: 0.7em;
   background: white;
-  color: #2b7ea1;
+  color: --principal-color;
   border-radius: 10px;
   z-index: 5 !important;
 }
@@ -111,7 +111,7 @@
   margin: auto;
 }
 .active {
-  color: #2b7ea1 !important;
+  color: --principal-color !important;
   transition: all 0.2s;
 }
 
