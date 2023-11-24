@@ -5,8 +5,7 @@ import PropTypes from "prop-types";
 
 export const NavIcon = ({ path, icon, tooltipContent, tooltipId }) => {
   const navigate = useNavigate();
-  const transitionPage = (ev) => {
-    ev.preventDefault();
+  const transitionPage = () => {
     if (document.startViewTransition) {
       document.startViewTransition(() => {
         navigate(path);

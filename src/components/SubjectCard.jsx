@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import { BiChevronRight } from "react-icons/bi";
 import { useContext } from "react";
@@ -9,16 +9,12 @@ export const SubjectCard = ({
   img,
   title,
   marginTop,
-  animationDelay,
+  delay,
 }) => {
   const { onTitleSubject } = useContext(titleContext);
   const handleClick = () => {
     onTitleSubject(title);
-  };
-  const navigate = useNavigate();
-  const transitionPage = (ev) => {
-    ev.preventDefault();
-    if (document.startViewTransition) {
+        if (document.startViewTransition) {
       document.startViewTransition(() => {
         navigate(path);
       });
@@ -26,20 +22,20 @@ export const SubjectCard = ({
       navigate(path);
     }
   };
+  const navigate = useNavigate();
+
   return (
     <>
-      <Link
-        to={path}
+      <div
         className="text-decoration-none text-black d-none d-sm-block"
         data-aos="fade-down"
         data-aos-duration="700"
-        data-aos-delay={animationDelay}
+        data-aos-delay={delay}
         data-aos-once="true"
         onClick={handleClick}
       >
         <div
           className={`subjectLink d-flex ownShadow-sm ${marginTop} animation`}
-          onClick={transitionPage}
         >
           <img
             src={`/img/${img}Icon.png`}
@@ -50,10 +46,9 @@ export const SubjectCard = ({
           <h5 className="ms-2 animation">{title}</h5>
           <BiChevronRight size={45} className="BiChevronRight animation" />
         </div>
-      </Link>
+      </div>
 
-      <Link
-        to={path}
+      <div
         className="text-decoration-none text-black d-block d-sm-none"
         onClick={handleClick}
       >
@@ -61,7 +56,7 @@ export const SubjectCard = ({
           className={`subjectLink d-flex ownShadow ${marginTop} animation`}
           data-aos="fade-down"
           data-aos-duration="500"
-          data-aos-delay={animationDelay}
+          data-aos-delay={delay}
           data-aos-once="true"
         >
           <img
@@ -73,7 +68,7 @@ export const SubjectCard = ({
           <h5 className="ms-2 animation">{title}</h5>
           <BiChevronRight size={45} className="BiChevronRight animation" />
         </div>
-      </Link>
+      </div>
     </>
   );
 };
@@ -83,5 +78,5 @@ SubjectCard.propTypes = {
   img: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   marginTop: PropTypes.string,
-  animationDelay: PropTypes.number.isRequired,
+  delay: PropTypes.number,
 };

@@ -31,28 +31,33 @@ export const Navbar = () => {
     !excludedPaths.includes(location.pathname) &&
     !location.pathname.endsWith("menu");
 
-  // Transition page
-  const transitionPage = (ev) => {
-    ev.preventDefault();
-    if (document.startViewTransition) {
-      document.startViewTransition(() => {
-        navigate("/");
-      });
-    } else {
-      navigate("/");
-    }
-  };
+  // navigate back transition
+  const [isBackNavigation, setIsBackNavigation] = useState(false)
 
-/*   const navigateBack = (ev) => {
-    ev.preventDefault();
+  const navigateBack = () => {
     if (document.startViewTransition) {
-      document.startViewTransition(() => {
-        navigate(-1)
+    
+    const performBackNavigation = async () => {
+      if (isBackNavigation) {
+        document.documentElement.classList.add('back-transition');
+      }
+  
+      const transition = document.startViewTransition(() => {
+        navigate(-1);
       });
-    } else {
-      navigate(-1)
-    }
-  } */
+  
+      try {
+        await transition.finished;
+      } finally {
+        document.documentElement.classList.remove('back-transition');
+      }
+    };
+    setIsBackNavigation(true)
+    performBackNavigation()
+  } else {
+    navigate(-1)
+  }
+  }
 
   
   return (
@@ -70,7 +75,6 @@ export const Navbar = () => {
           className={`text-decoration-none bg-transparent brandLink fixed-top logo`}
           data-aos="fade-down"
           data-aos-delay="200"
-          onClick={transitionPage}
         >
           <img src="/img/knowty.png" alt="" className="navbar-brand" />
         </NavLink>
@@ -140,7 +144,7 @@ export const Navbar = () => {
         {location.pathname === "/" ? (
           ""
         ) : (
-          <span onClick={() => navigate(-1)} className="navBtn">
+          <span onClick={navigateBack} className="navBtn">
             <IoArrowBack
               size={40}
               data-aos="fade-left"

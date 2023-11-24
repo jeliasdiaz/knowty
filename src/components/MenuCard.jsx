@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import { useContext } from "react";
 import { titleContext } from "../context/TitleContextSubject";
@@ -8,12 +8,7 @@ export const MenuCard = ({ url, img, title, imgSize, delay }) => {
 
   const handleClick = () => {
     onTitleSubject(title);
-  };
 
-  // Transition page
-  const navigate = useNavigate();
-  const transitionPage = (ev) => {
-    ev.preventDefault();
     if (document.startViewTransition) {
       document.startViewTransition(() => {
         navigate(url);
@@ -22,9 +17,12 @@ export const MenuCard = ({ url, img, title, imgSize, delay }) => {
       navigate(url);
     }
   };
+
+  // Transition page
+  const navigate = useNavigate();
+
   return (
-    <Link
-      to={url}
+    <div
       className="link-secondary text-decoration-none text-dark"
       onClick={handleClick}
     >
@@ -33,7 +31,6 @@ export const MenuCard = ({ url, img, title, imgSize, delay }) => {
         data-aos="fade-up"
         data-aos-duration="500"
         data-aos-delay={delay}
-        onClick={transitionPage}
       >
         <div className="subjectLinkMenuContent">
           <img
@@ -45,7 +42,7 @@ export const MenuCard = ({ url, img, title, imgSize, delay }) => {
           <h4>{title}</h4>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 
@@ -54,4 +51,5 @@ MenuCard.propTypes = {
   img: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   imgSize: PropTypes.string,
+  delay: PropTypes.string,
 };

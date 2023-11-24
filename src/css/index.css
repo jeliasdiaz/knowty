@@ -18,12 +18,7 @@ html {
 	color: black;
 }
 /** Transition between routes */
-/* .back-transition::view-transition-old(root) {
-	animation-name: slide-right;
-}
-.back-transition::view-transition-new(root) {
-	animation-name: slide-left;
-} */
+
 
 ::view-transition-old(root),
 ::view-transition-new(root) {
@@ -928,6 +923,16 @@ input[type='radio']:checked + span:before {
 	::view-transition-new(root) {
 		animation-name: slide-right;
 		animation-timing-function: ease;
+	}
+	.back-transition::view-transition-old(root), .back-transition::view-transition-new(root) {
+		animation-duration: 0.5s;
+	}
+	.back-transition::view-transition-old(root) {
+		animation-name: slide-right-mobile;
+		animation-delay: 0.5s;
+	}
+	.back-transition::view-transition-new(root) {
+		animation-name: slide-left-mobile;
 	}
 	.flexHome {
 		flex-wrap: wrap;
