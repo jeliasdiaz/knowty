@@ -12,19 +12,37 @@ html {
 	--background-dark: #121212;
 	--background-dark-card: #28292a;
 }
+
 ::selection {
-	background-color: var(--principal-color)-bright;
+	background-color: var(--principal-color-bright);
 	color: black;
 }
 /** Transition between routes */
+/* .back-transition::view-transition-old(root) {
+	animation-name: slide-right;
+}
+.back-transition::view-transition-new(root) {
+	animation-name: slide-left;
+} */
+
 ::view-transition-old(root),
 ::view-transition-new(root) {
-	animation-duration: 0.25s;
+	animation-duration: 0.2s;
 }
+::view-transition-old(root) {
+	animation-name: fade-out;
+	animation-delay: 0.2s;
+	animation-timing-function: ease;
+}
+::view-transition-new(root) {
+	animation-name: fade-in;
+	animation-timing-function: ease;
+}
+
 /** Animations  */
 @keyframes slide-left {
 	0% {
-		transform: translate(0%);
+		transform: translate(0px);
 	}
 	100% {
 		transform: translate(-100%);
@@ -54,6 +72,22 @@ html {
 	}
 	100% {
 		transform: translate(100%);
+	}
+}
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fade-out {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
 	}
 }
 /* @keyframes show {
@@ -378,7 +412,7 @@ input[type='radio']:checked + span:before {
 	}
 
 	&::selection {
-		background-color: var(--principal-color)-bright;
+		background-color: var(--principal-color-bright);
 		color: #fff;
 	}
 }
@@ -399,7 +433,7 @@ input[type='radio']:checked + span:before {
 	width: 260px;
 
 	&:hover {
-		background-color: var(--principal-color)-bright;
+		background-color: var(--principal-color-bright);
 		color: #fefefe !important;
 		transform: translateY(-5px) !important;
 	}
@@ -437,7 +471,7 @@ input[type='radio']:checked + span:before {
 	transition-property: background-color, transform !important;
 
 	&:hover {
-		background-color: var(--principal-color)-bright;
+		background-color: var(--principal-color-bright);
 		color: #fefefe !important;
 		transform: translateY(-5px) !important;
 	}
@@ -882,6 +916,19 @@ input[type='radio']:checked + span:before {
 }
 
 @media screen and (width < 768px) {
+	::view-transition-old(root),
+	::view-transition-new(root) {
+		animation-duration: 0.5s;
+	}
+	::view-transition-old(root) {
+		animation-name: slide-left;
+		animation-delay: 0.5s;
+		animation-timing-function: ease;
+	}
+	::view-transition-new(root) {
+		animation-name: slide-right;
+		animation-timing-function: ease;
+	}
 	.flexHome {
 		flex-wrap: wrap;
 	}
@@ -1149,3 +1196,11 @@ input[type='radio']:checked + span:before {
 		margin-bottom: 8%;
 	}
 }
+
+@media (prefers-reduced-motion) {
+	::view-transition-group(*),
+	::view-transition-old(*),
+	::view-transition-new(*) {
+	  animation: none !important;
+	}
+  }

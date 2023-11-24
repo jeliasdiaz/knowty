@@ -42,6 +42,19 @@ export const Navbar = () => {
       navigate("/");
     }
   };
+
+/*   const navigateBack = (ev) => {
+    ev.preventDefault();
+    if (document.startViewTransition) {
+      document.startViewTransition(() => {
+        navigate(-1)
+      });
+    } else {
+      navigate(-1)
+    }
+  } */
+
+  
   return (
     <>
       {showTitle && titleSubject.length > 0 ? (
