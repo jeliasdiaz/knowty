@@ -4,17 +4,11 @@ import { BiChevronRight } from "react-icons/bi";
 import { useContext } from "react";
 import { titleContext } from "../context/TitleContextSubject";
 
-export const SubjectCard = ({
-  path,
-  img,
-  title,
-  marginTop,
-  delay,
-}) => {
+export const SubjectCard = ({ path, img, title, marginTop, delay }) => {
   const { onTitleSubject } = useContext(titleContext);
   const handleClick = () => {
     onTitleSubject(title);
-        if (document.startViewTransition) {
+    if (document.startViewTransition) {
       document.startViewTransition(() => {
         navigate(path);
       });

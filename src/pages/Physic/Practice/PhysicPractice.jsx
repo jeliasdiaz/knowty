@@ -1,7 +1,7 @@
 import { SectionTitle, TopWave } from "../../../components";
 import Latex from "react-latex";
 import { renderMenuCards } from "../../../helpers/renderMenuCards";
-import menuCards from "./menuCards.json"
+import menuCards from "./menuCards.json";
 export const PhysicPractice = () => {
   const potenciaOne = `$$P= \\frac{W}{T}$$`;
   const potenciaTwo = `$$T = \\frac{W}{P}$$`;
@@ -26,9 +26,7 @@ export const PhysicPractice = () => {
       <TopWave />
       <SectionTitle title="Practica" />
 
-      <div className="mobileSubjectMenu">
-        {renderMenuCards(menuCards)}
-      </div>
+      <div className="mobileSubjectMenu">{renderMenuCards(menuCards)}</div>
 
       <div
         className="subjectCard ownShadow"

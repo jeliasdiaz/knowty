@@ -32,34 +32,32 @@ export const Navbar = () => {
     !location.pathname.endsWith("menu");
 
   // navigate back transition
-  const [isBackNavigation, setIsBackNavigation] = useState(false)
+  const [isBackNavigation, setIsBackNavigation] = useState(false);
 
   const navigateBack = () => {
     if (document.startViewTransition) {
-    
-    const performBackNavigation = async () => {
-      if (isBackNavigation) {
-        document.documentElement.classList.add('back-transition');
-      }
-  
-      const transition = document.startViewTransition(() => {
-        navigate(-1);
-      });
-  
-      try {
-        await transition.finished;
-      } finally {
-        document.documentElement.classList.remove('back-transition');
-      }
-    };
-    setIsBackNavigation(true)
-    performBackNavigation()
-  } else {
-    navigate(-1)
-  }
-  }
+      const performBackNavigation = async () => {
+        if (isBackNavigation) {
+          document.documentElement.classList.add("back-transition");
+        }
 
-  
+        const transition = document.startViewTransition(() => {
+          navigate(-1);
+        });
+
+        try {
+          await transition.finished;
+        } finally {
+          document.documentElement.classList.remove("back-transition");
+        }
+      };
+      setIsBackNavigation(true);
+      performBackNavigation();
+    } else {
+      navigate(-1);
+    }
+  };
+
   return (
     <>
       {showTitle && titleSubject.length > 0 ? (
