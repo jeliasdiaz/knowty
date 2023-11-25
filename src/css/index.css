@@ -6,7 +6,7 @@ body {
 	scroll-behavior: smooth;
 }
 html {
-	/* overscroll-behavior: none; */
+	overscroll-behavior: none;
 	--principal-color: #2b7ea1;
 	--principal-color-bright: #bfdfed;
 	--background-dark: #121212;
