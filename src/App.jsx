@@ -11,7 +11,6 @@ import {
   useState,
   useRef,
   useLayoutEffect,
-  useContext,
 } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -185,7 +184,6 @@ import {
   FundamentalOperations,
   MCMMCD,
 } from "./pages/Math/Arithmetic";
-import { darkModeContext } from "./context/DarkModeContext";
 
 function App() {
   useEffect(() => {
@@ -258,14 +256,6 @@ function App() {
     return () => document.removeEventListener("contextmenu", handleContextMenu);
   }, []);
 
-  const { isDarkMode } = useContext(darkModeContext);
-  useEffect(() => {
-    if (isDarkMode === "dark") {
-      document.documentElement.style.backgroundColor = "#121212";
-    } else {
-      document.documentElement.style.backgroundColor = "#f6f6f6";
-    }
-  }, [isDarkMode]);
 
   return (
     <div ref={articleRef}>
