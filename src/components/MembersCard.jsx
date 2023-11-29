@@ -6,14 +6,15 @@ export const MembersCard = ({
   icon,
   iconTwo,
   optionalClass,
-  animationduration,
+  delay,
   optionalLink,
 }) => {
   return (
     <div
       className={`teamCard ${optionalClass}`}
       data-aos="fade-right"
-      data-aos-duration={animationduration}
+      data-aos-duration="400"
+      data-aos-delay={delay}
     >
       {icon}
       {iconTwo}
@@ -34,5 +35,5 @@ MembersCard.propTypes = {
   iconTwo: PropTypes.object,
   optionalClass: PropTypes.string,
   optionalLink: PropTypes.string,
-  animationduration: PropTypes.number,
+  delay: PropTypes.number,
 };

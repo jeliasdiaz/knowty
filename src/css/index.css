@@ -19,7 +19,6 @@ html {
 }
 /** Transition between routes */
 
-
 ::view-transition-old(root),
 ::view-transition-new(root) {
 	animation-duration: 0.2s;
@@ -426,6 +425,7 @@ input[type='radio']:checked + span:before {
 	align-items: center;
 	height: 90px;
 	width: 260px;
+	cursor: pointer;
 
 	&:hover {
 		background-color: var(--principal-color-bright);
@@ -924,7 +924,8 @@ input[type='radio']:checked + span:before {
 		animation-name: slide-right;
 		animation-timing-function: ease;
 	}
-	.back-transition::view-transition-old(root), .back-transition::view-transition-new(root) {
+	.back-transition::view-transition-old(root),
+	.back-transition::view-transition-new(root) {
 		animation-duration: 0.5s;
 	}
 	.back-transition::view-transition-old(root) {
@@ -1206,6 +1207,6 @@ input[type='radio']:checked + span:before {
 	::view-transition-group(*),
 	::view-transition-old(*),
 	::view-transition-new(*) {
-	  animation: none !important;
+		animation: none !important;
 	}
-  }
+}
