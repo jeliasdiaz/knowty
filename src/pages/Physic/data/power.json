@@ -1,0 +1,13 @@
+[
+	{
+		"answer": "7s",
+		"content": "En una fábrica hay una máquina que tiene una potencia de 42000 Watts, realizó el traslado de una caja de 100 kg de un punto A a un punto B, el trabajo realizado por la máquina en dicha situación fue de 294000 Jules. ¿Cuál fue el tiempo empleado?",
+		"options": {
+			"a": "8s",
+			"b": "10s",
+			"c": "5s",
+			"d": "7s"
+		},
+		"process": "$$\\small \\text{Consideramos la fórmula de potencia} \\\\ \\small P = \\frac{W}{T} \\\\ \\allowbreak \\newline  \\small \\text{Despejamos para hallar el tiempo} \\\\ T = \\frac{W}{P} \\\\ \\small  \\text{Peso} = 980N \\\\ \\allowbreak \\newline  \\small \\text{Reemplazamos los valores} \\\\ T = \\frac{294000J}{42000W} \\\\ T = 7s$$"
+	}
+]

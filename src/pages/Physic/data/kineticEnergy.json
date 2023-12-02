@@ -1,0 +1,13 @@
+[
+	{
+		"answer": "9000J",
+		"content": "Calcule la energía cinética de un triciclo, teniendo en cuenta que el piloto pesa 60kg, el triciclo pesa 20kg y el conjunto se mueve a una velocidad de 15m/s.",
+		"options": {
+			"a": "6000J",
+			"b": "7000J",
+			"c": "9000J",
+			"d": "8000J"
+		},
+		"process": "$$\\small \\text{Fórmula} \\\\ E_{pg} = 20kg \\ \\cdot \\ 9.8m/s^2 \\ \\cdot \\ 12m \\\\ \\allowbreak \\newline \\text{Resultado} E_{pg} = 2352 J$$"
+	}
+]

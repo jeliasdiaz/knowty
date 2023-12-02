@@ -1,0 +1,13 @@
+[
+	{
+		"answer": "155555.55W",
+		"content": "Un taller de automóviles cuenta con una máquina cuya potencia es de 50000 watts. Además, la máquina posee un rendimiento del 27%. ¿Cuál es su potencia teórica?",
+		"options": {
+			"a": "155555.55W",
+			"b": "42000W",
+			"c": "155.555W",
+			"d": "2000W"
+		},
+		"process": "$$\\small \\text{Fórmula} \\\\ \\small Rendimiento = \\normalsize \\frac{Potencia útil}{Potencia teórica} \\ \\cdot \\ 100 \\\\ \\allowbreak \\newline  \\small \\text{Reemplazo de valores} \\\\ 27 = \\frac{42000W}{x} \\ \\cdot \\ 100 \\\\ \\allowbreak \\newline  \\small \\text{Despeje de potencia teórica} \\\\ \\frac{27}{100} = \\frac{42000W}{x} \\\\ \\allowbreak \\newline x = \\frac{42000W \\ \\cdot \\ 100}{27} \\\\ x = \\small 155555.55W$$"
+	}
+]

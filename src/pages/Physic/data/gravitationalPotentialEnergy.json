@@ -1,0 +1,13 @@
+[
+	{
+		"answer": "2352J",
+		"content": "Calcule la energia potencial de una maceta de 20kg que se encuentra en un cuarto piso. Considere que g = 9.8m/s y altura = 3m.",
+		"options": {
+			"a": "2000J",
+			"b": "235J",
+			"c": "532J",
+			"d": "2352J"
+		},
+		"process": "$$\\small \\text{Consideramos la fórmula de potencia} \\\\ \\small P = \\frac{W}{T} \\\\ \\allowbreak \\newline  \\small \\text{Despejamos para hallar el tiempo} \\\\ T = \\frac{W}{P} \\\\ \\small  \\text{Peso} = 980N \\\\ \\allowbreak \\newline  \\small \\text{Reemplazamos los valores} \\\\ T = \\frac{294000J}{42000W} \\\\ T = 7s$$"
+	}
+]

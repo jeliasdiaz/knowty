@@ -464,6 +464,7 @@ input[type='radio']:checked + span:before {
 	margin-bottom: 8%;
 	transition-duration: 0.3s;
 	transition-property: background-color, transform !important;
+	cursor: pointer;
 
 	&:hover {
 		background-color: var(--principal-color-bright);
@@ -529,7 +530,7 @@ input[type='radio']:checked + span:before {
 .scoreboardCard {
 	display: flex;
 	gap: 1em;
-	width: 50%;
+	width: fit-content;
 	margin: auto;
 	border-radius: 12px;
 	padding: 1em;
