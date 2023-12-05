@@ -5,7 +5,6 @@ export const PracticeBody = ({ props }) => {
 		data,
 		currentObject,
 		subject,
-		previousObject,
 		nextObject,
 		renderOptions,
 		renderFeedback,
@@ -36,9 +35,6 @@ export const PracticeBody = ({ props }) => {
 
 			<br />
 			<div className='d-flex mt-4'>
-				<button className='btn btn-outline-secondary' onClick={previousObject}>
-					Atrás
-				</button>
 
 				{renderFeedback()}
 

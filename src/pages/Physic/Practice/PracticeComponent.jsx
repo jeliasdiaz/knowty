@@ -3,7 +3,7 @@ import Latex from 'react-latex'
 import { useControlObjects } from '../../../helpers/controlObjects'
 import { BsBarChartFill } from 'react-icons/bs'
 import { SectionTitle, TopWave } from '../../../components'
-import { ProgressBar } from './ProgressBar'
+import { ProgressBar } from '../../../components/ProgressBar'
 import { PracticeBody } from './PracticeBody'
 
 export const PracticeComponent = ({ data, subject, title }) => {

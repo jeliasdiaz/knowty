@@ -111,26 +111,6 @@ export const useControlObjects = (data, type) => {
 		})
 	}
 
-	// Función para volver al objeto anterior
-	const previousObject = () => {
-		if (currentObject[type] > 0) {
-			setCurrentObject({ ...currentObject, [type]: currentObject[type] - 1 })
-			setProgress((prevProgress) => {
-				const nextProgress = prevProgress - 100 / data.length
-				return nextProgress > 100 ? 100 : nextProgress
-			})
-		}
-		if (currentObject[type] === 0) {
-			setCurrentObject({ ...currentObject, [type]: currentObject[type] })
-		} else {
-			setCurrentObject({ ...currentObject, [type]: 0 })
-		}
-		setShowProcess({ ...showProcess, [type]: false })
-		setIsSelected(false)
-		setSelectedOption('')
-		setIsCorrect(false)
-	}
-
 	// Función para mostrar/ocultar el proceso de resolución
 	const onShowProcess = () => {
 		setShowProcess({ ...showProcess, [type]: !showProcess[type] })
@@ -189,7 +169,6 @@ export const useControlObjects = (data, type) => {
 
 	const result = {
 		nextObject,
-		previousObject,
 		onShowProcess,
 		currentObject,
 		showProcess,
