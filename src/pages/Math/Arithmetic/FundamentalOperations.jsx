@@ -218,7 +218,7 @@ export const FundamentalOperations = () => {
             una cantidad (coeficiente) por un signo de agrupación que contiene
             varios elementos (sumas o restas) este tiene que multiplicar a cada
             uno de los términos y así “distribuirse”, se debe tener en cuenta el
-            signo del coeficiente.
+            signo del coeficiente. Cabe recalcar que así como podemos usar la propiedad distributiva para multiplicar los dos factores, tambien podemos hacer lo contrario, extraer un factor que sea común entre dos o más sumandos.
             <ul>
               <li>
                 <Latex>{`$a(b + c) = ab + ac \\ \\ \\rightarrow \\ \\ 3(2 + 1) = 3 \\cdot 2 + 3 \\cdot 1$`}</Latex>
