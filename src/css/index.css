@@ -84,7 +84,7 @@ html {
 		opacity: 0;
 	}
 }
-/* @keyframes show {
+@keyframes show {
   0% {
    scale: 1; 
   }
@@ -100,7 +100,7 @@ html {
   transform: scale(0.5);
   animation: show;
   animation-timeline: view();
-} */
+}
 
 /** Shadows */
 .ownShadow-sm {
