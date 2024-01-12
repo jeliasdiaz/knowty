@@ -2,7 +2,7 @@ import { SubjectCard, TopWave } from "../../components/";
 
 export const Home = () => {
   return (
-    <>
+    <div className="bgHome">
       <section className="home">
         <TopWave />
 
@@ -27,7 +27,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className="home-2">
+      <section >
         <div className="sectionTwo container">
           <div className="sectionTwoText">
             <div className="flexHome">
@@ -182,6 +182,6 @@ export const Home = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };

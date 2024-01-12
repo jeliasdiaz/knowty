@@ -334,16 +334,20 @@ input[type='radio']:checked + span:before {
 
 /** Section 1 */
 .home {
-	background-color: #f6f6f6;
+	/* background-color: #f6f6f6; */
 	min-height: fit-content;
 	transition: 0.5s;
 }
+.bgHome{
+	transition: 0.5s;
 
+	background-image: linear-gradient(to right top, #f6f6f6, #f6f6f6, #f6f6f6, #f6f6f6, #f6f6f6, #f2f1f7, #ecedf8, #e5e9fa, #d1e1fe, #b6daff, #93d5ff, #63d0ff);
+}
 .sectionOne {
 	padding: 5%;
 	padding-top: 2rem;
 	justify-content: space-between;
-
+	color: black;
 	& h1 {
 		font-size: 3.75em;
 		font-weight: 500;
@@ -371,8 +375,9 @@ input[type='radio']:checked + span:before {
 
 /** Section 2 */
 .home-2 {
-	background-color: #f6f6f6;
+	/* background-color: #f6f6f6; */
 	transition: 0.5s;
+	
 }
 
 .sectionTwo {
@@ -385,7 +390,7 @@ input[type='radio']:checked + span:before {
 	max-width: 70rem;
 	margin-left: auto;
 	margin: auto;
-	padding-bottom: 2%;
+	padding-bottom: 5%;
 }
 
 .flex-1 {

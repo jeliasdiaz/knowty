@@ -1,243 +1,267 @@
 /** All pages */
 .dark hr {
-  background-color: #51cbff !important;
-  box-shadow: none !important;
+	background-color: #51cbff !important;
+	box-shadow: none !important;
 }
 .dark .installCard {
-  background: var(--background-dark-card);
-  color: white;
+	background: var(--background-dark-card);
+	color: white;
 }
 .dark .closeInstallBtn {
-  color: #fefefe;
+	color: #fefefe;
 }
 
 .dark .titleSubject {
-  background-color: #303233;
-  color: #3aa0cc;
+	background-color: #303233;
+	color: #3aa0cc;
 }
-
-.dark .home {
+.dark .bgHome {
+	background-image: linear-gradient(
+		to right top,
+		#121212,
+		#121212,
+		#121212,
+		#121212,
+		#121212,
+		#1a191d,
+		#202028,
+		#262833,
+		#313b4e,
+		#36506a,
+		#356686,
+		#2b7ea1
+	);
+}
+/* .dark .home {
   background-color: var(--background-dark);
   color: #e3e3e3;
-}
+} */
 
-.dark .home-2 {
+/* .dark .home-2 {
   background-color: var(--background-dark);
   color: #fefefe;
-}
-.dark .sectionOne img {
-  filter: drop-shadow(5px 5px 20px --principal-color);
+} */
+.dark .sectionOne {
+	color: white;
+	img {
+		filter: drop-shadow(5px 5px 20px --principal-color);
+	}
 }
 .dark .text-sectionTwo {
-  background-color: #004a77;
-  color: #e3e3e3;
+	background-color: #004a77;
+	color: #e3e3e3;
 }
 .dark .btn-outline-secondary {
-  color: #e3e3e3 !important;
+	color: #e3e3e3 !important;
 }
 
-.dark .subjectLink, .dark .subjectLinkMenu {
-  background-color: var(--background-dark-card);
-  color: #e3e3e3;
+.dark .subjectLink,
+.dark .subjectLinkMenu {
+	background-color: var(--background-dark-card);
+	color: #e3e3e3;
 }
-.dark .subjectLink:hover, .dark .subjectLinkMenu:hover {
-  background-color: #004a77;
+.dark .subjectLink:hover,
+.dark .subjectLinkMenu:hover {
+	background-color: #004a77;
 }
 .dark .BiChevronRight {
-  color: #e3e3e3 !important;
-  transition: all 0.5s;
+	color: #e3e3e3 !important;
+	transition: all 0.5s;
 }
 .dark .textIntroduction {
-  background-color: var(--background-dark-card);
-  transition: all 0.5s;
+	background-color: var(--background-dark-card);
+	transition: all 0.5s;
 }
 
 .dark .subjectCard {
-  background-color: var(--background-dark-card);
-  color: #e3e3e3;
+	background-color: var(--background-dark-card);
+	color: #e3e3e3;
 }
 .dark .contentsTable {
-  background-color: #303233;
-  color: #3aa0cc;
+	background-color: #303233;
+	color: #3aa0cc;
 }
 .dark .contentsTable-nav {
-  background-color: #303233;
+	background-color: #303233;
 }
 .dark .contentsTable-content {
-  background-color: #303233;
-  color: white;
+	background-color: #303233;
+	color: white;
 }
 .dark .contentsTable-content h3 {
-  color: #3aa0cc;
+	color: #3aa0cc;
 }
 .dark .contentsTable-items a {
-    color: darkgrey;
+	color: darkgrey;
 }
 .dark .homeCard {
-  background-color: var(--background-dark);
+	background-color: var(--background-dark);
 }
 .dark .table {
-  color: #e3e3e3;
-  border:#414344;
-  transition: all 0.5s;
+	color: #e3e3e3;
+	border: #414344;
+	transition: all 0.5s;
 }
-.dark .englishCard, .dark .englishCardStructure {
-  background-color: var(--background-dark-card);
-  color: #e3e3e3;
+.dark .englishCard,
+.dark .englishCardStructure {
+	background-color: var(--background-dark-card);
+	color: #e3e3e3;
 }
 .dark .numberInput {
-  background: #c0deeb  !important;
+	background: #c0deeb !important;
 }
 .dark .scoreboardCard {
-  border-color: --principal-color;
+	border-color: --principal-color;
 }
 
 .dark .mobileMenu {
-  background-color: var(--background-dark);
-  transition: all 0.5s;
+	background-color: var(--background-dark);
+	transition: all 0.5s;
 }
 .dark .dropdownBorder {
-  border-color: gray;
+	border-color: gray;
 }
 
 .dark .infoPage {
-  color: #e3e3e3;
-  background-color: var(--background-dark);
+	color: #e3e3e3;
+	background-color: var(--background-dark);
 }
 .dark .infoTitle {
-  background-color: var(--background-dark-card);
-  color: --principal-color;
+	background-color: var(--background-dark-card);
+	color: --principal-color;
 }
 .dark .cardsInfoSection {
-  background-color: var(--background-dark);
+	background-color: var(--background-dark);
 }
 .dark .cardInfo {
-  background-color: var(--background-dark-card);
-  color: #e3e3e3;
-  transition: all 0.5s;
+	background-color: var(--background-dark-card);
+	color: #e3e3e3;
+	transition: all 0.5s;
 }
 
 .dark .search {
-  background-color: var(--background-dark);
-  transition: all 0.5s;
+	background-color: var(--background-dark);
+	transition: all 0.5s;
 }
 .dark .dataItem {
-  background-color: var(--background-dark-card);
-  color: #e3e3e3;
+	background-color: var(--background-dark-card);
+	color: #e3e3e3;
 }
 .dark .dataItem:hover {
-  background-color: #004a77;
-  color: #e3e3e3;
+	background-color: #004a77;
+	color: #e3e3e3;
 }
 
 /** Footer  */
 .dark .footer {
-  background-color: var(--background-dark);
-  transition: all 0.5s;
+	background-color: var(--background-dark);
+	transition: all 0.5s;
 }
 .dark .textFooter h1 {
-  background-color: #004a77;
-  transition: all 0.5s;
+	background-color: #004a77;
+	transition: all 0.5s;
 }
 .dark .teamCard {
-  color: #e3e3e3;
-  transition: all 0.5s;
+	color: #e3e3e3;
+	transition: all 0.5s;
 }
 .dark .teamCardCenter {
-  background-color: var(--background-dark-card);
-  color: #e3e3e3;
-  transition: all 0.5s;
+	background-color: var(--background-dark-card);
+	color: #e3e3e3;
+	transition: all 0.5s;
 }
 
 .dark .contactUs {
-  color: white !important;
+	color: white !important;
 }
 .dark .sectionTitle {
-  color: #899bb6;
+	color: #899bb6;
 }
 .dark .sectionsLinks a:hover {
-  color: #899bb6 !important;
+	color: #899bb6 !important;
 }
 .dark .copyright {
-  color: #899bb6;
+	color: #899bb6;
 }
-.dark .footerIcons, .dark .titleForm {
-  background-color: var(--background-dark-card);
+.dark .footerIcons,
+.dark .titleForm {
+	background-color: var(--background-dark-card);
 }
 .dark .contactIcon {
-  color: white;
+	color: white;
 }
 .dark .app-form-control {
-  color: white;
+	color: white;
 }
 
 /** Blog  */
 .dark .blogContainer {
-  background-color: var(--background-dark);
+	background-color: var(--background-dark);
 }
 .dark .blogCard {
-  background-color: var(--background-dark-card);
-  color: white;
+	background-color: var(--background-dark-card);
+	color: white;
 }
 .dark .blogCardText {
-  color: white;
+	color: white;
 }
 .dark .blogSectionContainer {
-  background: var(--background-dark);
+	background: var(--background-dark);
 }
 .dark .blogSection {
-  background: var(--background-dark-card);
-  color: white;
+	background: var(--background-dark-card);
+	color: white;
 }
 
 /** Icons atribution */
 .dark .iconsContainer {
-  background-color: var(--background-dark);
+	background-color: var(--background-dark);
 }
 .dark .iconsCard {
-  background-color: var(--background-dark-card);
-  color: white;
+	background-color: var(--background-dark-card);
+	color: white;
 }
 .dark .iconsCard ul li a {
-  color: white !important;
+	color: white !important;
 }
 /**  Shadows */
 .dark .ownShadow-sm,
 .ownShadow,
 .ownShadow-lg {
-  box-shadow: none;
+	box-shadow: none;
 }
 
 /** Not Found */
 .dark .notFoundContainer {
-  background-color: var(--background-dark);
-  color: #fff;
+	background-color: var(--background-dark);
+	color: #fff;
 }
 
 /** Tooltip  */
 .dark .tooltipBackground {
-  background-color: #414344 !important;
-  color: white !important;
+	background-color: #414344 !important;
+	color: white !important;
 }
 
 /** ScrollToTopBtn */
 .dark .scrollToTopBtn {
-  background-color: #414344;
-  color: white;
+	background-color: #414344;
+	color: white;
 }
 
 /** Periodic table  */
-.dark .element, .dark .elementActive {
-  background-color: transparent;
+.dark .element,
+.dark .elementActive {
+	background-color: transparent;
 }
-.dark .element:hover{
-  background-color: var(--background-dark-card);
+.dark .element:hover {
+	background-color: var(--background-dark-card);
 }
 
 @media screen and (max-width: 800px) {
-  .dark .textFooter h1 {
-    width: 73%;
-    background-color: #004a77;
-    color: #e3e3e3;
-  }
+	.dark .textFooter h1 {
+		width: 73%;
+		background-color: #004a77;
+		color: #e3e3e3;
+	}
 }
