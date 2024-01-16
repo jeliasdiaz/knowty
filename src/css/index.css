@@ -122,7 +122,9 @@ h2,
 h1 {
 	font-weight: 200;
 }
-
+h1, h2,h3,h4 {
+	text-wrap: balance;
+}
 hr {
 	margin-bottom: 2.5% !important;
 	margin-top: 2.5% !important;
@@ -654,6 +656,7 @@ input[type='radio']:checked + span:before {
 	transition: 0.5s;
 	margin-top: 0.5%;
 }
+
 
 .dropdownBorder {
 	border: 1px solid;
