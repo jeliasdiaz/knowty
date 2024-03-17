@@ -99,7 +99,7 @@ html {
 .revealing-image {
   transform: scale(0.5);
   animation: show;
-  animation-timeline: view();
+  animation-timeline: view(y 50% 10%);
 }
 
 /** Shadows */
