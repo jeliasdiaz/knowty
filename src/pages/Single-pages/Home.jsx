@@ -43,11 +43,6 @@ export const Home = () => {
                   personal; proporcionando un espacio virtual en el que podrán
                   repasar lecciones, adelantarse a nuevas y analizar temáticas
                   desde otras perspectivas.
-                  <br />
-                  <br />
-                  El proyecto no posee fines de lucro, aunque, si deseas
-                  contribuir al crecimiento del mismo, puedes enviar el aporte
-                  al Nequi: 310 659 8031.
                 </p>
               </div>
 
