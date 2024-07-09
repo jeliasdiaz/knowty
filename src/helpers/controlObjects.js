@@ -2,6 +2,20 @@ import { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 
 export const useControlObjects = (data, type) => {
+	/* Function used to control the objects in the exercises of the physics practice section
+
+	Args: 
+		data (object): Object with the exercises to be solved
+		type (string): Type of exercise to be solved
+	
+	Raises:	
+		Exception: An error occurred when the expected properties were not received
+
+	Returns:
+		result (object): Object with the properties and methods to control the exercises
+	*/	
+
+	
 	// Estado para el objeto actual
 	const [currentObject, setCurrentObject] = useState({
 		vector: 0,

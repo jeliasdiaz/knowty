@@ -5,6 +5,11 @@ export const ContactForm = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
+  /* this function sends an email with the emailjs library and resets the form after sending the email
+
+  Args:
+      e (event object): event object from the form submit 
+  */    
     e.preventDefault();
 
     emailjs
