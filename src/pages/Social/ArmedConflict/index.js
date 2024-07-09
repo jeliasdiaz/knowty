@@ -1,6 +1,7 @@
 export * from "./Bogotazo";
 export * from "./GeneralAspects";
 export * from "./TheViolence";
+export * from "./NationalFront"
 
 export const armedConflictItems = {
   "Aspectos generales": {
@@ -11,5 +12,8 @@ export const armedConflictItems = {
   },
   "La Violencia": {
     path: "/sociales/conflicto-armado/la-violencia",
+  },
+  "Frente Nacional": {
+    path: "/sociales/conflicto-armado/frente-nacional",
   },
 };

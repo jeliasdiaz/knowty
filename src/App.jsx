@@ -148,6 +148,7 @@ import {
 	ELN,
 	EPL,
 	M19,
+	NationalFront,
 } from './pages/Social/'
 
 //* Trigonometry
@@ -276,7 +277,7 @@ function App() {
 							path='/recursos-para-estudiantes'
 							element={<StudentsResources />}
 						/>
-
+						
 						<Route path='/celulas' element={<Cells />} />
 						<Route path='/celula-eucariota' element={<ECells />} />
 						<Route path='/celula-procariota' element={<PCells />} />
@@ -570,6 +571,10 @@ function App() {
 						<Route
 							path='/sociales/conflicto-armado/la-violencia'
 							element={<TheViolence />}
+						/>
+						<Route
+							path='/sociales/conflicto-armado/frente-nacional'
+							element={<NationalFront />}
 						/>
 
 						<Route path='/estadistica' element={<Statistic />} />
