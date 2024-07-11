@@ -149,6 +149,8 @@ import {
 	EPL,
 	M19,
 	NationalFront,
+	CompetenciesMenu,
+	ProtectionMechanisms,
 } from './pages/Social/'
 
 //* Trigonometry
@@ -577,6 +579,9 @@ function App() {
 							element={<NationalFront />}
 						/>
 
+						<Route path='/sociales/competencias/mecanismos-protección' element={<ProtectionMechanisms />} />
+
+
 						<Route path='/estadistica' element={<Statistic />} />
 						<Route
 							path='/medidas-tendencia-central'
@@ -618,6 +623,7 @@ function App() {
 						<Route path='/trigonometria-menu' element={<TrigonometryMenu />} />
 						<Route path='/filosofia-menu' element={<PhilosophyMenu />} />
 						<Route path='/ingles-menu' element={<EnglishMenu />} />
+						<Route path='/sociales/competencias-menu'element={<CompetenciesMenu/>} />
 
 						<Route path='/fisica-practica' element={<PhysicPractice />} />
 						<Route

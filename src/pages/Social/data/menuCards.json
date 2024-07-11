@@ -28,5 +28,10 @@
     "title": "Extra",
     "img": "socialesIcon.png",
     "url": "/sociales/sociales-extra"
+  },
+  {
+    "title": "Competencias ciudadanas",
+    "img": "competenciasIcon.png",
+    "url": "/sociales/competencias-menu"
   }
 ]

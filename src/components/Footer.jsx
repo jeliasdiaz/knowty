@@ -13,9 +13,13 @@ export const Footer = () => {
 
 	return (
 		<footer className='footer'>
+			<div className='textFooter '>
+				<h1>Knowty</h1>
+				<ContactForm />
+			</div>
+
 			<div className='footerContent container'>
-				<div className='textFooter '>
-					<h1>Knowty</h1>
+				<div className='textFooter'>
 					<div className='membersContainer'>
 						<MembersCard
 							name='José Elías Díaz'
@@ -62,8 +66,6 @@ export const Footer = () => {
 					</div>
 				</div>
 			</div>
-
-			<ContactForm />
 
 			<div className='footerContainer'>
 				<div className='d-flex justify-content-between'>
