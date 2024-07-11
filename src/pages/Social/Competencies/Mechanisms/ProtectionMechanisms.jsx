@@ -32,7 +32,6 @@ export const ProtectionMechanisms = () => {
 					</li>
 					<li></li>
 				</ol>
-
 			</div>
 		</div>
 	)

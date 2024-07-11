@@ -621,8 +621,18 @@
   },
   {
     "img": "/img/socialesIcon.png",
-    "name": "Frente nacional",
-    "url": "/sociales/sociales-extra"
+    "name": "Frente Nacional",
+    "url": "/sociales/conflicto-armado/frente-nacional"
+  },
+  {
+    "img": "/img/competenciasIcon.png",
+    "name": "Mecanismos de protección",
+    "url": "/sociales/competencias/mecanismos-proteccion"
+  },
+  {
+    "img": "/img/competenciasIcon.png",
+    "name": "Mecanismos de participación",
+    "url": "/sociales/competencias/mecanismos-participacion"
   },
   {
     "img": "/img/trigonometriaIcon.png",

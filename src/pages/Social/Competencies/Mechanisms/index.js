@@ -1,11 +1,11 @@
 export * from './ProtectionMechanisms'
+export * from './ParticipationMechanisms'
 
 export const mechanismItems = {
-    "Mecanismos de protección": {
-      path: "/social/competencias/mecanismos-protección",
-    },
-    "Mecanismos de participación": {
-      path: "/sociales/conflicto-armado/mecanismos-participación",
-    },
-
-  };
+	'Mecanismos de protección': {
+		path: '/sociales/competencias/mecanismos-proteccion',
+	},
+	'Mecanismos de participación': {
+		path: '/sociales/competencias/mecanismos-participacion',
+	},
+}

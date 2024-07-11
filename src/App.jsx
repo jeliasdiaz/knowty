@@ -151,6 +151,7 @@ import {
 	NationalFront,
 	CompetenciesMenu,
 	ProtectionMechanisms,
+	ParticipationMechanisms,
 } from './pages/Social/'
 
 //* Trigonometry
@@ -579,7 +580,8 @@ function App() {
 							element={<NationalFront />}
 						/>
 
-						<Route path='/sociales/competencias/mecanismos-protección' element={<ProtectionMechanisms />} />
+						<Route path='/sociales/competencias/mecanismos-proteccion' element={<ProtectionMechanisms />} />
+						<Route path='/sociales/competencias/mecanismos-participacion' element={<ParticipationMechanisms />} />
 
 
 						<Route path='/estadistica' element={<Statistic />} />

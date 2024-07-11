@@ -617,7 +617,6 @@ input[type='radio']:checked + span:before {
 	border-left: 2px solid gray;
 	height: fit-content;
 	& a {
-		margin-bottom: 6em;
 		text-decoration: none;
 		color: black;
 		&:hover {

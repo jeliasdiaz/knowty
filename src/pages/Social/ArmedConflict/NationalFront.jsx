@@ -186,7 +186,9 @@ export const NationalFront = () => {
 					</ul>
 				</div>
 				<div>
-					<h5>MISAEL PASTRANA BORRERO (1970-1974)</h5>
+					
+					<h5>Misael Pastrana Borrero (1970-1974)	</h5>
+					<img src='/img/misaelPastrana.png' alt='Misael Pastrana Borrero' className='w-25 rounded mx-auto d-block'/>
 					<p>
 						El último presidente del Frente Nacional fue este Conservador.
 						Recibió fuertes críticas por su política económica que aumentó la
@@ -247,13 +249,8 @@ export const NationalFront = () => {
 					</li>
 					<li>
 						Memoria, S. (2023, agosto 8). ¿Qué fue el Frente Nacional? Señal
-						Memoria.
-						https://www.senalmemoria.co/articulos/que-fue-el-frente-nacional
-					</li>
-					<li>
-						Presidentes del Frente Nacional COLOMBIA timeline. (s. f.).
-						Timetoast Timelines. Recuperado 6 de julio de 2024, de
-						https://www.timetoast.com/timelines/presidentes-del-frente-nacional-colombia
+						Memoria. <br />
+						<small>https://www.senalmemoria.co/articulos/que-fue-el-frente-nacional</small>
 					</li>
 					<li>
 						Memoria, S. (2021, marzo 15). Gustavo Rojas Pinilla / Junta Militar
