@@ -152,6 +152,8 @@ import {
 	CompetenciesMenu,
 	ProtectionMechanisms,
 	ParticipationMechanisms,
+	BranchesOfGovernment,
+	ControlAgencies,
 } from './pages/Social/'
 
 //* Trigonometry
@@ -280,7 +282,7 @@ function App() {
 							path='/recursos-para-estudiantes'
 							element={<StudentsResources />}
 						/>
-						
+
 						<Route path='/celulas' element={<Cells />} />
 						<Route path='/celula-eucariota' element={<ECells />} />
 						<Route path='/celula-procariota' element={<PCells />} />
@@ -580,9 +582,19 @@ function App() {
 							element={<NationalFront />}
 						/>
 
-						<Route path='/sociales/competencias/mecanismos-proteccion' element={<ProtectionMechanisms />} />
-						<Route path='/sociales/competencias/mecanismos-participacion' element={<ParticipationMechanisms />} />
-
+						<Route
+							path='/sociales/competencias/mecanismos-proteccion'
+							element={<ProtectionMechanisms />}
+						/>
+						<Route
+							path='/sociales/competencias/mecanismos-participacion'
+							element={<ParticipationMechanisms />}
+						/>
+						<Route
+							path='/sociales/competencias/ramas-poder'
+							element={<BranchesOfGovernment />}
+						/>
+						<Route path='/sociales/competencias/organismos-control' element={<ControlAgencies />} />
 
 						<Route path='/estadistica' element={<Statistic />} />
 						<Route
@@ -625,7 +637,10 @@ function App() {
 						<Route path='/trigonometria-menu' element={<TrigonometryMenu />} />
 						<Route path='/filosofia-menu' element={<PhilosophyMenu />} />
 						<Route path='/ingles-menu' element={<EnglishMenu />} />
-						<Route path='/sociales/competencias-menu'element={<CompetenciesMenu/>} />
+						<Route
+							path='/sociales/competencias-menu'
+							element={<CompetenciesMenu />}
+						/>
 
 						<Route path='/fisica-practica' element={<PhysicPractice />} />
 						<Route

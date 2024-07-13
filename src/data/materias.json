@@ -635,6 +635,16 @@
     "url": "/sociales/competencias/mecanismos-participacion"
   },
   {
+    "img": "/img/competenciasIcon.png",
+    "name": "Ramas del poder público",
+    "url": "/sociales/competencias/ramas-poder"
+  },
+    {
+    "img": "/img/competenciasIcon.png",
+    "name": "Organismos de control",
+    "url": "/sociales/competencias/organismos-control"
+  },
+  {
     "img": "/img/trigonometriaIcon.png",
     "name": "Trigonometría",
     "url": "/trigonometria-menu"

@@ -275,15 +275,17 @@ export const ParticipationMechanisms = () => {
                         <b>Ejemplo:</b> Plan de desarrollo distrital (2024-2028) en la ciudad de Bogotá en el cual entre los participantes se encontraba Claudia Lopez (Alcalde de Bogotá periodo de 2020 a 2024), Concejo de Bogotá y ciudadanos de Bogotá, se comenzó con los principales aspectos del plan, seguida por la intervención de los ciudadanos en los cuales se expusieron inquietudes, preguntas y propuestas generando un debate entre los participante para poder concluir la reunión.     
                     </p>
 				</div>
+				<br />
+				<img src="/img/mecanismosParticipacion.png" alt="Mecanismos de participación gráfico" className='w-100 rounded mx-auto d-block'/>
                 <hr />
                 <h5>Bibliografía</h5>
                 <ul>
                     <li>Registro Nacional del Estado Civil. (Dakota del Norte). Iniciativa popular legislativa y normativa . Registro Nacional del Estado Civil. Recuperado el 4 de julio de 2024, de https://www.registraduria.gov.co/-Iniciativa-popular-legislativa-y-normativa-1349-.html</li>
-                    <li>(N.d.). Org.Co. Retrieved July 4, 2024, from https://moe.org.co/wp-content/uploads/2017/07/Libro_mecanismos_de_participaci%C3%B3n_ciudadana_2012.pdf</li>
-                    <li>(Nd-b). Gov.Co. Recuperado el 4 de julio de 2024, de <small>https://www.mincit.gov.co/ministerio/normograma-sig/procesos-estrategicos/gestion-de-informacion-y-comunicacion/leyes/ley-134-de-1994.aspx#:~:text=El%20plebiscito%20es%20el%20pronunciamiento,C%2D180%20de%201994).&text=%2F8.01.99</small>.</li>
+                    <li>(N.d.). Org.Co. Retrieved July 4, 2024, from<br /><small>https://moe.org.co/wp-content/uploads/2017/07/<br />Libro_mecanismos_de_participaci<br />%C3%B3n_ciudadana_2012.pdf</small></li>
+                    <li>(Nd-b). Gov.Co. Recuperado el 4 de julio de 2024, de <small>https://www.mincit.gov.co/ministerio<br />/normograma-sig/procesos-estrategicos/gestion-de-informacion-y-comunicacion/leyes/ley-134-de-1994.aspx#:~:text=El%20plebiscito<br />%20es%20el%20<br />pronunciamiento,C%2D180%20<br />de%201994).&text=%2F8.01.99</small>.</li>
                     <li>Registraduria general de la Nacion (2023). Histórico de consultas populares
-                    https://www.registraduria.gov.co/Historico-de-consultas-populares.html </li>
-                    <li>Felipe, R. S. (2015). Voto programático y programas de gobierno en Colombia. https://repository.urosario.edu.co/items/5db015ca-bdb6-405e-87a8-f9bf5dbd11f6  </li>
+                    https://www.registraduria.gov.co/<br />Historico-de-consultas-populares.html </li>
+                    <li>Felipe, R. S. (2015). Voto programático y programas de gobierno en Colombia. https://repository.urosario.edu.co/<br />items/5db015ca-bdb6-405e-87a8-f9bf5dbd11f6  </li>
                 </ul>
 			</div>
 		</div>

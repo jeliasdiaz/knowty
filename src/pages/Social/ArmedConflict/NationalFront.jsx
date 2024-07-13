@@ -158,7 +158,7 @@ export const NationalFront = () => {
 					</p>
 				</div>
 				<div>
-					<h5>CARLOS LLERAS RESTREPO (1966-1970)</h5>
+					<h5>Carlos Lleras Restrepo (1966-1970)</h5>
 					<p>
 						Fue el tercer presidente del Frente Nacional, siendo parte del
 						partido Liberal. Su gobierno es criticado porque se vio favorecida
@@ -245,12 +245,12 @@ export const NationalFront = () => {
 					<li>
 						7 consecuencias del Frente Nacional de Colombia. (2022, noviembre
 						22). Lifeder.
-						https://www.lifeder.com/consecuencias-frente-nacional-colombia/
+						https://www.lifeder.com/<br />consecuencias-frente-nacional-colombia/
 					</li>
 					<li>
 						Memoria, S. (2023, agosto 8). ¿Qué fue el Frente Nacional? Señal
 						Memoria. <br />
-						<small>https://www.senalmemoria.co/articulos/que-fue-el-frente-nacional</small>
+						<small>https://www.senalmemoria.co/<br />articulos/que-fue-el-frente-nacional</small>
 					</li>
 					<li>
 						Memoria, S. (2021, marzo 15). Gustavo Rojas Pinilla / Junta Militar

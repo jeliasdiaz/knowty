@@ -39,27 +39,27 @@ export const Footer = () => {
 
 						<MembersCard
 							name='David Cáceres'
-							description='Encargado de la creación de videosy explicaciones para la página.'
+							description='Encargado de la creación de videos y explicaciones para la página.'
 							icon={<AiFillYoutube size={36} />}
 							delay={400}
 						/>
 
 						<MembersCard
 							name='Danna Sanchez'
-							description='Encargada del area de humanidades dentro de la página.'
+							description='Encargada del área de humanidades dentro de la página.'
 							icon={<BsChatSquareTextFill size={34} />}
 							delay={600}
 						/>
 
 						<MembersCard
 							name='Enrique Peinado'
-							description='Encargado de las explicaciones de la página.'
+							description='Encargado de las explicaciones en la página.'
 							icon={<BsChatSquareTextFill size={34} />}
 							delay={800}
 						/>
 						<MembersCard
 							name='Yader Vega'
-							description='Encargado de la edición de videos.'
+							description='Encargado de editar los videos.'
 							icon={<AiFillYoutube size={36} />}
 							delay={1000}
 						/>
