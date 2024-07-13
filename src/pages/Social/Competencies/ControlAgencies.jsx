@@ -97,6 +97,7 @@ export const ControlAgencies = () => {
 					</li>
 				</ul>
                 </div>
+				<img src="/img/organismosControl.png" alt="Organismos de control gráfico" className='w-100 mx-auto d-block rounded'/>
                 <hr />
                 <h5>Bibliografía</h5>
                 <ul>
