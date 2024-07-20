@@ -13,5 +13,10 @@
         "title": "Organismos de control",
         "img": "competenciasIcon.png",
         "url": "/sociales/competencias/organismos-control"
+    },
+    {
+        "title": "Grupos políticos",
+        "img": "competenciasIcon.png",
+        "url": "/sociales/competencias/grupos-politicos"
     }
 ]

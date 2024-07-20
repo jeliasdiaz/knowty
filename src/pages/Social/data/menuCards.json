@@ -25,6 +25,11 @@
     "url": "/sociales/movimientos-sociales"
   },
   {
+    "title": "Guerras mundiales",
+    "img": "socialesIcon.png",
+    "url": "/sociales/guerras-mundiales/primera-guerra"
+  },
+  {
     "title": "Extra",
     "img": "socialesIcon.png",
     "url": "/sociales/sociales-extra"

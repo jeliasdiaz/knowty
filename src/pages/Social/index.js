@@ -8,3 +8,4 @@ export * from "./ArmedConflict";
 export * from "./EconomicDoctrines";
 export * from "./ArmedGroups";
 export * from "./Competencies/index"
+export * from "./WorldWars";

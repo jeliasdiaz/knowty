@@ -154,6 +154,9 @@ import {
 	ParticipationMechanisms,
 	BranchesOfGovernment,
 	ControlAgencies,
+	FirstWar,
+	SecondWar,
+	PoliticalGroups,
 } from './pages/Social/'
 
 //* Trigonometry
@@ -581,6 +584,9 @@ function App() {
 							path='/sociales/conflicto-armado/frente-nacional'
 							element={<NationalFront />}
 						/>
+						<Route path='/sociales/guerras-mundiales/primera-guerra' element={<FirstWar />} />
+						<Route path='/sociales/guerras-mundiales/segunda-guerra' element={<SecondWar />} />
+						<Route path='/sociales/competencias/grupos-politicos' element={<PoliticalGroups />} />
 
 						<Route
 							path='/sociales/competencias/mecanismos-proteccion'
