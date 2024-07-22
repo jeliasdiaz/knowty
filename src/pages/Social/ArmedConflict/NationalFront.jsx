@@ -132,6 +132,7 @@ export const NationalFront = () => {
 				</div>
 				<div>
 					<h5>Guillermo León Valencia (1962-1966)</h5>
+					<img src='/img/guillermoLeonValencia.png' alt='Guillermo León Valencia' className='w-25 rounded mx-auto d-block' />
 					<p>
 						Segundo presidente del Frente Nacional, perteneciente al partido
 						conservador. En su gobierno enfrentó problemas sociales y de orden
@@ -159,6 +160,7 @@ export const NationalFront = () => {
 				</div>
 				<div>
 					<h5>Carlos Lleras Restrepo (1966-1970)</h5>
+					<img src='/img/carlosLlerasRestrepo.png' alt='Carlos Lleras Restrepo' className='w-25 rounded mx-auto d-block' />
 					<p>
 						Fue el tercer presidente del Frente Nacional, siendo parte del
 						partido Liberal. Su gobierno es criticado porque se vio favorecida
